@@ -29,6 +29,24 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
     {temas.map((t) => <button type="button" aria-pressed="false" data-tema={t}>{t}</button>)}
   </nav>
 
+  <details class="indice-movil">
+    <summary>Ver las <span data-cuenta>{votaciones.length}</span> votaciones</summary>
+    <ol>
+      {votaciones.map((v) => (
+        <li data-tema={v.tema}><a href={`#${v.id}`} data-indice={v.id}>{v.nombre}</a></li>
+      ))}
+    </ol>
+  </details>
+
+  <aside class="indice-lateral" aria-label="Índice de votaciones">
+    <p class="suave">Votaciones</p>
+    <ol>
+      {votaciones.map((v) => (
+        <li data-tema={v.tema}><a href={`#${v.id}`} data-indice={v.id}>{v.nombre}</a></li>
+      ))}
+    </ol>
+  </aside>
+
   <ol class="lista">
     {votaciones.map((v) => (
       <li class="votacion" data-tema={v.tema} id={v.id}>
@@ -135,8 +153,31 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
         const tema = b.dataset.tema;
         botones.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
         items.forEach((li) => (li.hidden = !!tema && li.dataset.tema !== tema));
+        // Los índices muestran solo las votaciones del tema elegido
+        document.querySelectorAll<HTMLElement>('.indice-movil li, .indice-lateral li').forEach((li) => (li.hidden = !!tema && li.dataset.tema !== tema));
+        const cuenta = document.querySelector('[data-cuenta]');
+        if (cuenta) cuenta.textContent = String([...items].filter((li) => !li.hidden).length);
       }),
     );
+
+    // Al pulsar en el índice del móvil, se cierra
+    document.querySelectorAll<HTMLAnchorElement>('.indice-movil a').forEach((a) =>
+      a.addEventListener('click', () => a.closest('details')?.removeAttribute('open')),
+    );
+
+    // Marca en el índice lateral la votación que se está leyendo
+    const enlaces = new Map([...document.querySelectorAll<HTMLAnchorElement>('.indice-lateral a')].map((a) => [a.dataset.indice, a]));
+    const observador = new IntersectionObserver(
+      (entradas) => {
+        for (const e of entradas) {
+          if (!e.isIntersecting) continue;
+          enlaces.forEach((a) => a.removeAttribute('aria-current'));
+          enlaces.get(e.target.id)?.setAttribute('aria-current', 'true');
+        }
+      },
+      { rootMargin: '-30% 0px -60% 0px' },
+    );
+    items.forEach((li) => observador.observe(li));
   }
   document.addEventListener('astro:page-load', iniciar);
 </script>
@@ -162,6 +203,33 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
   .temas button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
 
   .lista { list-style: none; margin: 0; padding: 0; }
+  .votacion { scroll-margin-top: 16px; }
+
+  .indice-movil { margin: 0 0 16px; border: 1px solid var(--linea); border-radius: 10px; }
+  .indice-movil summary { cursor: pointer; padding: 12px 14px; font-size: 15px; }
+  .indice-movil ol { margin: 0; padding: 0 14px 8px 34px; }
+  .indice-movil li { padding: 6px 0; font-size: 15px; }
+  .indice-movil a { text-decoration: none; }
+
+  .indice-lateral { display: none; }
+  @media (min-width: 1240px) {
+    .indice-movil { display: none; }
+    .indice-lateral {
+      display: block;
+      position: fixed;
+      top: 120px;
+      left: calc(50% + 400px);
+      width: 220px;
+      max-height: calc(100vh - 160px);
+      overflow-y: auto;
+      font-size: 14px;
+    }
+    .indice-lateral p { margin: 0 0 8px; font-size: 13px; }
+    .indice-lateral ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--linea); }
+    .indice-lateral a { display: block; padding: 5px 0 5px 14px; margin-left: -1px; border-left: 2px solid transparent; color: var(--suave); text-decoration: none; line-height: 1.35; transition: color 0.15s, border-color 0.15s; }
+    .indice-lateral a:hover { color: var(--tinta); }
+    .indice-lateral a[aria-current='true'] { color: var(--tinta); border-left-color: var(--tinta); }
+  }
   .votacion { border-top: 1px solid var(--tinta); padding: 20px 0 36px; }
   .meta { font-size: 14px; margin: 0; }
   .votacion h2 { margin: 6px 0 10px; font-size: 30px; }
