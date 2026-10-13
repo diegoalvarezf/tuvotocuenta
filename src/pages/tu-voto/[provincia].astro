@@ -176,8 +176,8 @@ const datos = {
 
   <div class="simulador" data-datos={JSON.stringify(datos)}>
     <div class="controles">
-      <label>De <select name="de">{principales.map((c, i) => <option value={i} selected={i === 0}>{c.siglas}</option>)}</select></label>
-      <label>a <select name="a">{principales.map((c, i) => <option value={i} selected={i === 1}>{c.siglas}</option>)}</select></label>
+      <label>De <span class="desplegable"><select name="de">{principales.map((c, i) => <option value={i} selected={i === 0}>{c.siglas}</option>)}</select></span></label>
+      <label>a <span class="desplegable"><select name="a">{principales.map((c, i) => <option value={i} selected={i === 1}>{c.siglas}</option>)}</select></span></label>
     </div>
     <label class="deslizador">
       <span>Mover <strong class="cifra" data-pct>0 %</strong> de sus votos <span class="suave cifra" data-votos></span></span>
@@ -283,20 +283,61 @@ const datos = {
   .local strong { font-weight: 600; }
 
   .simulador { margin-top: 24px; padding: 24px; background: var(--resalte); border-radius: 14px; }
-  .controles { display: flex; gap: 16px; flex-wrap: wrap; }
-  .controles label { display: flex; align-items: center; gap: 8px; }
+  .controles { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .controles label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--suave); }
+  .controles .desplegable, .controles select { width: 100%; max-width: none; }
+  /* Desplegable propio: flecha dibujada con CSS para que no se corte y siga el tema */
+  .desplegable { position: relative; display: inline-flex; }
+  .desplegable::after {
+    content: '';
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    width: 7px;
+    height: 7px;
+    border-right: 1.5px solid var(--tinta);
+    border-bottom: 1.5px solid var(--tinta);
+    transform: translateY(-70%) rotate(45deg);
+    pointer-events: none;
+  }
   select {
+    appearance: none;
+    -webkit-appearance: none;
     font: inherit;
     font-size: 15px;
     color: var(--tinta);
     background: var(--papel);
     border: 1px solid var(--linea);
-    border-radius: 8px;
-    padding: 6px 10px;
-    max-width: 200px;
+    border-radius: 10px;
+    height: 44px;
+    padding: 0 40px 0 14px;
+    min-width: 0;
+    cursor: pointer;
+    transition: border-color 0.15s;
   }
-  .deslizador { display: flex; flex-direction: column; gap: 10px; margin: 20px 0 4px; }
-  input[type='range'] { width: 100%; accent-color: var(--tinta); }
+  select:hover { border-color: var(--suave); }
+  .deslizador { display: flex; flex-direction: column; gap: 14px; margin: 24px 0 8px; }
+  /* Deslizador: pista fina y tirador grande, fácil de usar con el dedo */
+  input[type='range'] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 24px;
+    background: transparent;
+    cursor: pointer;
+  }
+  input[type='range']::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: var(--linea); }
+  input[type='range']::-moz-range-track { height: 4px; border-radius: 2px; background: var(--linea); }
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    margin-top: -10px;
+    border-radius: 50%;
+    background: var(--tinta);
+    border: 3px solid var(--resalte);
+  }
+  input[type='range']::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: var(--tinta); border: 3px solid var(--resalte); }
   .cambio { margin: 0; min-height: 1.5em; }
   .nota { font-size: 13px; margin: 12px 0 0; }
 </style>
