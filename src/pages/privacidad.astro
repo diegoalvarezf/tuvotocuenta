@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+
+const CORREO = 'diegoalvarezfrancos@gmail.com';
+---
+
+<Base title="Privacidad · tuvotocuenta" description="Qué datos recoge tuvotocuenta: ninguno.">
+  <h1>Privacidad</h1>
+  <p class="entradilla">Esta web no recoge datos personales.</p>
+
+  <ul class="lista">
+    <li><strong>Sin cookies ni rastreo.</strong> No usamos cookies, ni herramientas de analítica, ni publicidad.</li>
+    <li><strong>Sin registro.</strong> No hay cuentas, formularios ni nada que pida tus datos.</li>
+    <li><strong>Lo que eliges se queda en tu dispositivo.</strong> Si cambias a modo oscuro, esa preferencia se guarda solo en tu navegador para recordarla la próxima vez. No sale de tu dispositivo.</li>
+    <li><strong>Alojamiento.</strong> La web está alojada en Vercel, que, como cualquier servidor, registra datos técnicos de las visitas (como la dirección IP) por motivos de seguridad. Nosotros no accedemos a ellos ni los usamos.</li>
+    <li><strong>Si nos escribes.</strong> Tu correo solo se usa para responderte y no se comparte con nadie.</li>
+  </ul>
+
+  <p>Para cualquier duda: <a href={`mailto:${CORREO}`}>{CORREO}</a>.</p>
+</Base>
+
+<style>
+  .entradilla { font-size: 18px; margin: 0 0 16px; }
+  .lista { padding-left: 20px; margin: 0 0 16px; }
+  .lista li { margin-bottom: 10px; }
+</style>

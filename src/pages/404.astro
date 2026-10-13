@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Página no encontrada · tuvotocuenta">
+  <h1>Esta página<br /><em>no existe</em></h1>
+  <p class="entradilla">Puede que el enlace esté mal escrito o que la página haya cambiado de sitio.</p>
+  <ul class="atajos">
+    <li><a href="/">Ir al inicio</a></li>
+    <li><a href="/tu-voto">Tu voto en tu provincia</a></li>
+    <li><a href="/votaciones">Lo que votaron</a></li>
+    <li><a href="/propuestas">Lo que proponen</a></li>
+  </ul>
+</Base>
+
+<style>
+  h1 em { font-style: italic; }
+  .entradilla { font-size: 18px; margin: 0 0 24px; }
+  .atajos { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--linea); }
+  .atajos li { border-bottom: 1px solid var(--linea); }
+  .atajos a { display: block; padding: 12px 0; text-decoration: none; }
+  .atajos a:hover { text-decoration: underline; }
+</style>
