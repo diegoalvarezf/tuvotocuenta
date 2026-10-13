@@ -83,7 +83,7 @@ const actual = Astro.url.pathname;
     --resalte: #ecebe4;
     --serif: 'Instrument Serif', Georgia, serif;
     --sans: 'Instrument Sans Variable', system-ui, sans-serif;
-    --ancho: 1080px;
+    --ancho: 760px;
     color-scheme: light;
   }
   :root[data-tema='oscuro'] {
@@ -152,8 +152,6 @@ const actual = Astro.url.pathname;
   h2 { font-size: 28px; line-height: 1.1; margin: 44px 0 10px; }
   a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; }
   .suave { color: var(--suave); }
-  /* La página es ancha para listas y datos; los párrafos se mantienen en un ancho cómodo de lectura */
-  main p, main dd, main blockquote { max-width: 68ch; }
   .cifra { font-variant-numeric: tabular-nums; }
   :focus-visible { outline: 2px solid var(--tinta); outline-offset: 3px; border-radius: 2px; }
   @media (min-width: 640px) {

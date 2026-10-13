@@ -32,7 +32,6 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
   <ol class="lista">
     {votaciones.map((v) => (
       <li class="votacion" data-tema={v.tema} id={v.id}>
-        <div class="info">
         <p class="meta suave">
           <time datetime={v.fecha}>{fecha(v.fecha)}</time> · {v.tema}
         </p>
@@ -51,8 +50,6 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
           </div>
           <p class="significa">Votar sí era <strong>{v.siSignifica}</strong>.</p>
         </div>
-        </div>
-        <div class="votos">
 
         <ul class="grupos">
           {v.grupos.map((g) => (
@@ -75,9 +72,7 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
             ))}
           </ul>
         </details>
-        </div>
 
-        <div class="fuentes">
         {v.nota && (
           <p class="aviso">
             {v.nota}
@@ -93,7 +88,6 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
             <a href={v.enlaces.json} target="_blank" rel="noopener">Datos (JSON)</a>
           </span>
         </p>
-        </div>
       </li>
     ))}
   </ol>
@@ -217,11 +211,7 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
 
   @media (min-width: 640px) {
     .temas { margin-inline: 0; padding-inline: 0; flex-wrap: wrap; }
+    .grupos { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; }
     .votacion h2 { font-size: 34px; }
-  }
-  @media (min-width: 960px) {
-    .votacion { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 56px; }
-    .votacion .fuentes { grid-column: 1; }
-    .votacion .votos { grid-column: 2; grid-row: 1 / span 2; padding-top: 6px; }
   }
 </style>

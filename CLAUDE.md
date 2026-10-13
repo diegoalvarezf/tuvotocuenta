@@ -17,7 +17,6 @@ Claro, limpio, moderno y fluido; que no parezca hecho con IA:
 - El color solo aparece en los datos (partidos). La interfaz es monocroma.
 - Transiciones suaves entre páginas (ClientRouter de Astro) y microanimaciones discretas; respetar `prefers-reduced-motion`.
 - Mobile first: estilos base para móvil y `min-width` para ampliar en pantallas grandes. Mucha gente la verá desde el móvil.
-- Página ancha (1080 px) para listas, tablas y datos; párrafos limitados a 68 caracteres por línea para leer cómodo.
 - Tema claro por defecto (fondo papel) con botón para pasar a oscuro; la elección se guarda en el navegador.
 - Cada dato visible lleva su fuente enlazada (componente `Fuente`, registro en `src/lib/fuentes.ts`). Si es un cálculo propio, se indica y se citan los datos de origen.
 
