@@ -13,7 +13,9 @@ const secciones = [
   <p class="fecha suave">Elecciones generales · domingo 29 de noviembre de 2026</p>
   <Fuente de="convocatoria2026" />
   <h1>Antes de votar,<br /><em>compara.</em></h1>
-  <p class="entradilla">Esta web solo reúne en un sitio lo que proponen los partidos, lo que votaron y cuánto pesa tu voto donde vives, para que, votes lo que votes, sepas por qué. Sin opiniones y siempre con su fuente.</p>
+  <p class="entradilla">Reunimos en un sitio lo que proponen los partidos, lo que votaron y cuánto pesa tu voto donde vives.</p>
+  <p class="lema">Para que, votes lo que votes, sepas por qué.</p>
+  <p class="principio suave">Sin opiniones y siempre con su fuente.</p>
 
   <ol class="secciones">
     {secciones.map((s, i) => (
@@ -34,7 +36,9 @@ const secciones = [
 <style>
   .fecha { font-size: 14px; margin: 32px 0 0; }
   h1 em { font-style: italic; }
-  .entradilla { font-size: 18px; max-width: 34ch; margin: 0 0 44px; }
+  .entradilla { font-size: 18px; max-width: 34ch; margin: 0; }
+  .lema { font-family: var(--serif); font-style: italic; font-size: 24px; line-height: 1.2; margin: 16px 0 0; }
+  .principio { font-size: 14px; margin: 8px 0 44px; }
   .secciones { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
   .secciones li { border-bottom: 1px solid var(--linea); }
   .secciones a {
