@@ -149,9 +149,22 @@ const actual = Astro.url.pathname;
     letter-spacing: -0.01em;
   }
   .cabecera nav { display: flex; gap: 4px; margin-left: -10px; font-size: 15px; }
-  .cabecera nav a { color: var(--suave); text-decoration: none; padding: 10px; transition: color 0.15s; }
+  .cabecera nav a { position: relative; color: var(--suave); text-decoration: none; padding: 10px; transition: color 0.2s ease; }
   .cabecera nav a:hover, .cabecera nav a[aria-current='page'] { color: var(--tinta); }
-  .cabecera nav a[aria-current='page'] { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 6px; }
+  /* Subrayado que crece desde la izquierda al pasar por encima y queda fijo en la sección actual */
+  .cabecera nav a:not(.tema)::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 4px;
+    height: 1.5px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .cabecera nav a:hover::after, .cabecera nav a[aria-current='page']::after { transform: scaleX(1); }
   .cabecera nav { align-items: center; }
   .tema { margin-left: auto; background: none; border: 0; padding: 10px; cursor: pointer; color: var(--tinta); }
   .tema-icono {

@@ -29,17 +29,29 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
     {temas.map((t) => <button type="button" aria-pressed="false" data-tema={t}>{t}</button>)}
   </nav>
 
-  <button type="button" class="burbuja" data-burbuja aria-label="Índice de votaciones" aria-haspopup="dialog" hidden>
-    <span class="icono-lista" aria-hidden="true"></span>
+  <button type="button" class="pildora" data-burbuja aria-haspopup="dialog" aria-label="Abrir el índice de votaciones">
+    <span data-posicion>1 de {votaciones.length}</span>
+    <span class="separador" aria-hidden="true"></span>
+    <span>Índice</span>
+    <span class="flecha-arriba" aria-hidden="true"></span>
   </button>
   <dialog class="panel" data-panel aria-label="Índice de votaciones">
+    <div class="asa" aria-hidden="true"></div>
     <div class="panel-cabecera">
-      <a href="#" data-arriba>↑ Volver al principio</a>
-      <button type="button" data-cerrar aria-label="Cerrar">✕</button>
+      <a href="#" class="arriba" data-arriba><span aria-hidden="true">↑</span> Volver al principio</a>
+      <button type="button" class="cerrar" data-cerrar aria-label="Cerrar el índice"><span aria-hidden="true"></span></button>
     </div>
     <ol>
-      {votaciones.map((v) => (
-        <li data-tema={v.tema}><a href={`#${v.id}`}>{v.nombre}</a></li>
+      {votaciones.map((v, i) => (
+        <li data-tema={v.tema}>
+          <a href={`#${v.id}`} data-indice={v.id}>
+            <span class="numero cifra">{String(i + 1).padStart(2, '0')}</span>
+            <span class="texto">
+              <span class="nombre">{v.nombre}</span>
+              <span class="meta">{v.tema}</span>
+            </span>
+          </a>
+        </li>
       ))}
     </ol>
   </dialog>
@@ -164,23 +176,48 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
       }),
     );
 
-    // Móvil: burbuja flotante que abre el índice; aparece al bajar más allá de los filtros
-    const burbuja = document.querySelector<HTMLButtonElement>('[data-burbuja]')!;
+    // Móvil: píldora flotante que indica la posición y abre el índice; aparece al pasar los filtros
+    const pildora = document.querySelector<HTMLButtonElement>('[data-burbuja]')!;
+    const posicion = pildora.querySelector('[data-posicion]')!;
     const panel = document.querySelector<HTMLDialogElement>('[data-panel]')!;
-    const mostrar = () => (burbuja.hidden = nav.getBoundingClientRect().bottom > 0);
+    const mostrar = () => pildora.classList.toggle('visible', nav.getBoundingClientRect().bottom < 0);
     window.addEventListener('scroll', mostrar, { passive: true });
     mostrar();
-    burbuja.addEventListener('click', () => panel.showModal());
-    panel.querySelector('[data-cerrar]')!.addEventListener('click', () => panel.close());
-    panel.addEventListener('click', (e) => {
-      if (e.target === panel) panel.close();
+
+    const cerrar = () => {
+      if (!panel.open || panel.classList.contains('cerrando')) return;
+      panel.classList.add('cerrando');
+      let hecho = false;
+      const fin = () => {
+        if (hecho) return;
+        hecho = true;
+        panel.classList.remove('cerrando');
+        panel.close();
+      };
+      // Sin animación (movimiento reducido) se cierra al momento; si no, al acabar la animación o, como muy tarde, a los 300 ms
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) return fin();
+      panel.addEventListener('animationend', fin, { once: true });
+      setTimeout(fin, 300);
+    };
+    pildora.addEventListener('click', () => {
+      panel.showModal();
+      panel.querySelector('a[aria-current]')?.scrollIntoView({ block: 'center' });
     });
-    // Cerrar el panel devuelve el foco a la burbuja; por eso el salto se hace después, de forma explícita
+    panel.querySelector('[data-cerrar]')!.addEventListener('click', cerrar);
+    panel.addEventListener('cancel', (e) => {
+      e.preventDefault();
+      cerrar();
+    });
+    panel.addEventListener('click', (e) => {
+      if (e.target === panel) cerrar();
+    });
+    // Cerrar el panel devuelve el foco a la píldora; por eso el salto se hace después, de forma explícita
     panel.querySelectorAll<HTMLAnchorElement>('a').forEach((a) =>
       a.addEventListener('click', (e) => {
         e.preventDefault();
-        panel.close();
         const id = a.getAttribute('href')!.slice(1);
+        panel.classList.remove('cerrando');
+        panel.close();
         setTimeout(() => {
           if (!id) return window.scrollTo({ top: 0 });
           document.getElementById(id)?.scrollIntoView();
@@ -189,14 +226,15 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
       }),
     );
 
-    // Marca en el índice lateral la votación que se está leyendo
-    const enlaces = new Map([...document.querySelectorAll<HTMLAnchorElement>('.indice-lateral a')].map((a) => [a.dataset.indice, a]));
+    // Votación que se está leyendo: se marca en los dos índices y en la píldora («5 de 17»)
+    const enlaces = [...document.querySelectorAll<HTMLAnchorElement>('.indice-lateral a, .panel a[data-indice]')];
     const observador = new IntersectionObserver(
       (entradas) => {
         for (const e of entradas) {
           if (!e.isIntersecting) continue;
-          enlaces.forEach((a) => a.removeAttribute('aria-current'));
-          enlaces.get(e.target.id)?.setAttribute('aria-current', 'true');
+          enlaces.forEach((a) => (a.dataset.indice === e.target.id ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current')));
+          const visibles = [...items].filter((li) => !li.hidden);
+          posicion.textContent = `${visibles.indexOf(e.target as HTMLElement) + 1} de ${visibles.length}`;
         }
       },
       { rootMargin: '-30% 0px -60% 0px' },
@@ -230,52 +268,79 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
   .votacion { scroll-margin-top: 16px; }
 
 
-  .burbuja {
+  /* Píldora flotante (móvil) */
+  .pildora {
     position: fixed;
-    right: 16px;
-    bottom: calc(20px + env(safe-area-inset-bottom));
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    border: 0;
-    background: var(--tinta);
-    color: var(--papel);
+    left: 50%;
+    bottom: calc(18px + env(safe-area-inset-bottom));
     display: flex;
     align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 14px rgb(0 0 0 / 0.18);
+    gap: 10px;
+    padding: 11px 18px;
+    border-radius: 999px;
+    border: 1px solid var(--linea);
+    background: color-mix(in srgb, var(--papel) 82%, transparent);
+    -webkit-backdrop-filter: blur(14px) saturate(1.4);
+    backdrop-filter: blur(14px) saturate(1.4);
+    box-shadow: 0 8px 28px rgb(0 0 0 / 0.12), 0 1px 3px rgb(0 0 0 / 0.08);
+    color: var(--tinta);
+    font: inherit;
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
     cursor: pointer;
     z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 16px) scale(0.96);
+    transition: opacity 0.25s ease, transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
-  .burbuja[hidden] { display: none; }
-  .icono-lista, .icono-lista::before, .icono-lista::after { display: block; width: 18px; height: 2px; background: currentColor; border-radius: 1px; }
-  .icono-lista { position: relative; }
-  .icono-lista::before, .icono-lista::after { content: ''; position: absolute; left: 0; }
-  .icono-lista::before { top: -6px; }
-  .icono-lista::after { top: 6px; }
+  .pildora.visible { opacity: 1; pointer-events: auto; transform: translate(-50%, 0) scale(1); }
+  .pildora:active { transform: translate(-50%, 0) scale(0.97); }
+  .separador { width: 1px; height: 14px; background: var(--linea); }
+  .flecha-arriba { width: 7px; height: 7px; border-left: 1.5px solid currentColor; border-top: 1.5px solid currentColor; transform: translateY(2px) rotate(45deg); }
 
+  /* Panel inferior (móvil) */
   .panel {
     margin: auto 0 0;
     width: 100%;
     max-width: 100%;
-    max-height: 75vh;
+    max-height: 78vh;
     border: 0;
-    border-radius: 16px 16px 0 0;
-    padding: 0 20px calc(16px + env(safe-area-inset-bottom));
+    border-radius: 20px 20px 0 0;
+    padding: 0 0 calc(12px + env(safe-area-inset-bottom));
     background: var(--papel);
     color: var(--tinta);
+    box-shadow: 0 -10px 40px rgb(0 0 0 / 0.15);
   }
-  .panel::backdrop { background: rgb(0 0 0 / 0.35); }
-  .panel-cabecera { position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; padding: 16px 0 12px; background: var(--papel); border-bottom: 1px solid var(--linea); }
-  .panel-cabecera a { text-decoration: none; font-weight: 500; }
-  .panel-cabecera button { background: none; border: 0; font-size: 18px; color: var(--tinta); padding: 4px 8px; cursor: pointer; }
-  .panel ol { margin: 8px 0 0; padding-left: 22px; }
-  .panel li { padding: 8px 0; }
-  .panel a { text-decoration: none; }
+  .panel[open] { animation: subir 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  .panel.cerrando { animation: bajar 0.22s ease-in forwards; }
+  .panel::backdrop { background: rgb(0 0 0 / 0.3); animation: aparecer 0.3s ease; }
+  .panel.cerrando::backdrop { animation: desaparecer 0.22s ease forwards; }
+  @keyframes subir { from { transform: translateY(100%); } }
+  @keyframes bajar { to { transform: translateY(100%); } }
+  @keyframes aparecer { from { opacity: 0; } }
+  @keyframes desaparecer { to { opacity: 0; } }
+  .asa { width: 36px; height: 4px; border-radius: 2px; background: var(--linea); margin: 10px auto 4px; }
+  .panel-cabecera { position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; padding: 8px 20px 12px; background: var(--papel); border-bottom: 1px solid var(--linea); z-index: 1; }
+  .arriba { text-decoration: none; font-size: 15px; font-weight: 500; }
+  .cerrar { width: 32px; height: 32px; border-radius: 50%; border: 0; background: var(--resalte); cursor: pointer; position: relative; }
+  .cerrar span::before, .cerrar span::after { content: ''; position: absolute; left: 50%; top: 50%; width: 12px; height: 1.5px; background: var(--tinta); }
+  .cerrar span::before { transform: translate(-50%, -50%) rotate(45deg); }
+  .cerrar span::after { transform: translate(-50%, -50%) rotate(-45deg); }
+  .panel ol { list-style: none; margin: 0; padding: 6px 12px 0; }
+  .panel li a { display: flex; gap: 14px; align-items: baseline; padding: 11px 8px; border-radius: 12px; text-decoration: none; transition: background-color 0.15s; }
+  .panel li a:active { background: var(--resalte); }
+  .panel li a[aria-current] { background: var(--resalte); }
+  .panel .numero { color: var(--suave); font-size: 13px; min-width: 18px; }
+  .panel .texto { display: flex; flex-direction: column; gap: 2px; }
+  .panel .nombre { font-size: 15px; line-height: 1.35; }
+  .panel li a[aria-current] .nombre { font-weight: 600; }
+  .panel .meta { font-size: 12px; color: var(--suave); }
 
   .indice-lateral { display: none; }
   @media (min-width: 1240px) {
-    .burbuja { display: none !important; }
+    .pildora { display: none; }
     .indice-lateral {
       display: block;
       position: fixed;
