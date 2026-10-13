@@ -15,8 +15,10 @@ const {
   description = 'Qué proponen los partidos, qué votaron y cómo cuenta tu voto en tu provincia.',
   imagen = '/og/general.png',
 } = Astro.props;
-const url = new URL(Astro.url.pathname, Astro.site);
-const imagenUrl = new URL(imagen, Astro.site);
+// Dominio de astro.config (site); en desarrollo, si falta, el del propio servidor
+const base = Astro.site ?? Astro.url;
+const url = new URL(Astro.url.pathname, base);
+const imagenUrl = new URL(imagen, base);
 
 const nav = [
   { href: '/tu-voto', texto: 'Tu voto' },
@@ -147,6 +149,7 @@ const actual = Astro.url.pathname;
   .cabecera nav { display: flex; gap: 4px; margin-left: -10px; font-size: 15px; }
   .cabecera nav a { color: var(--suave); text-decoration: none; padding: 10px; transition: color 0.15s; }
   .cabecera nav a:hover, .cabecera nav a[aria-current='page'] { color: var(--tinta); }
+  .cabecera nav a[aria-current='page'] { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 6px; }
   .cabecera nav { align-items: center; }
   .tema { margin-left: auto; background: none; border: 0; padding: 10px; cursor: pointer; color: var(--tinta); }
   .tema-icono {
@@ -166,6 +169,7 @@ const actual = Astro.url.pathname;
     padding-block: 24px 40px;
     color: var(--suave);
     font-size: 14px;
+    text-align: center;
   }
   h1, h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -0.015em; }
   h1 { font-size: clamp(44px, 12vw, 76px); line-height: 1; margin: 20px 0 14px; }

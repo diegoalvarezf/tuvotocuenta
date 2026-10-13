@@ -7,27 +7,16 @@ const CODIGO_ABIERTO = false;
 const REPO = 'https://github.com/diegoalvarezf/tuvotocuenta';
 ---
 
-<Base title="Sobre el proyecto · tuvotocuenta" description="Quién hace tuvotocuenta, cómo garantizamos la neutralidad y cómo avisar de un error.">
+<Base title="Sobre el proyecto · tuvotocuenta" description="Qué es tuvotocuenta, cómo garantizamos la neutralidad y cómo avisar de un error.">
   <h1>Sobre el<br /><em>proyecto</em></h1>
   <p class="entradilla">
     Mucha gente vota sin haber leído un programa ni saber cómo se reparten los escaños. No por desinterés: la información está dispersa,
     escrita para expertos y es difícil de comparar. Esta web intenta ponerlo fácil.
   </p>
 
-  <h2>Quién lo hace</h2>
   <p>
-    Lo hago yo, <a href="https://diegoalvarezf.dev" target="_blank" rel="noopener">Diego Álvarez</a>, desarrollador de software. Es un proyecto
-    personal e independiente: no pertenezco a ningún partido ni recibo dinero de ninguno, y los costes (dominio y servidores) los pago yo.
+    Es un proyecto independiente: no tiene relación con ningún partido ni recibe dinero de ninguno.
   </p>
-
-  <h2>Cómo garantizamos la neutralidad</h2>
-  <ul class="lista">
-    <li><strong>Solo fuentes oficiales.</strong> Ministerio del Interior, Congreso de los Diputados, BOE y los programas que publica cada partido.</li>
-    <li><strong>Cada dato, con su fuente.</strong> Debajo de cada cifra hay un enlace al documento original. Si es un cálculo nuestro, lo decimos y explicamos de qué datos sale.</li>
-    <li><strong>Mismo trato para todos los partidos.</strong> Los mismos criterios, los mismos temas y el mismo formato.</li>
-    <li><strong>No recomendamos a quién votar.</strong> Damos la información para que decidas tú.</li>
-    <li><strong>Sin publicidad y sin rastreo.</strong> No hay anuncios, ni cookies, ni herramientas que sigan lo que haces en la web.</li>
-  </ul>
 
   {CODIGO_ABIERTO && (
     <>
@@ -39,19 +28,32 @@ const REPO = 'https://github.com/diegoalvarezf/tuvotocuenta';
     </>
   )}
 
+  <h2>Cómo garantizamos la neutralidad</h2>
+  <ul class="lista">
+    <li><strong>Solo fuentes oficiales.</strong> Ministerio del Interior, Congreso de los Diputados, BOE y los programas que publica cada partido.</li>
+    <li><strong>Cada dato, con su fuente.</strong> Debajo de cada cifra hay un enlace al documento original. Si es un cálculo nuestro, lo decimos y explicamos de qué datos sale.</li>
+    <li><strong>Mismo trato para todos los partidos.</strong> Los mismos criterios, los mismos temas y el mismo formato.</li>
+    <li><strong>No recomendamos a quién votar.</strong> Damos la información para que decidas tú.</li>
+    <li><strong>Sin publicidad y sin rastreo.</strong> No hay anuncios, ni cookies, ni herramientas que sigan lo que haces en la web.</li>
+  </ul>
+
+
   <h2 id="errores">¿Has visto un error?</h2>
   <p>
-    Escríbeme a <a href={`mailto:${CORREO}?subject=Error%20en%20tuvotocuenta`}>{CORREO}</a> con el enlace a la página y lo que está mal.
-    Si es un error, lo corrijo y lo anoto aquí abajo para que quede constancia.
+    Escribe a <a href={`mailto:${CORREO}?subject=Error%20en%20tuvotocuenta`}>{CORREO}</a> con el enlace a la página y lo que está mal.
+    Si es un error, se corrige y se anota aquí abajo para que quede constancia.
   </p>
 
   <h2>Correcciones</h2>
   <p class="suave">Todavía no hay ninguna corrección publicada.</p>
+
+  <p class="autor suave">Desarrollado por <a href="https://diegoalvarezf.dev" target="_blank" rel="noopener">Diego Álvarez</a>.</p>
 </Base>
 
 <style>
   h1 em { font-style: italic; }
-  .entradilla { font-size: 19px; margin: 0; }
+  .entradilla { font-size: 18px; margin: 0; }
   .lista { padding-left: 20px; margin: 0; }
   .lista li { margin-bottom: 10px; }
+  .autor { margin-top: 48px; font-size: 14px; }
 </style>
