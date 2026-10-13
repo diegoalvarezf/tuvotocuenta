@@ -6,8 +6,10 @@ interface Props {
   de: IdFuente | IdFuente[];
   // Cifra calculada por nosotros a partir de esas fuentes
   calculo?: boolean;
+  // Precisión tras el enlace, p. ej. "art. 86"
+  detalle?: string;
 }
-const { de, calculo = false } = Astro.props;
+const { de, calculo = false, detalle } = Astro.props;
 const lista = (Array.isArray(de) ? de : [de]).map((id) => FUENTES[id]);
 ---
 
@@ -19,6 +21,7 @@ const lista = (Array.isArray(de) ? de : [de]).map((id) => FUENTES[id]);
       <a href={f.url} target="_blank" rel="noopener">{f.nombre}</a>
     </>
   ))}
+  {detalle && `, ${detalle}`}
 </span>
 
 <style>

@@ -1,0 +1,75 @@
+[
+  {
+    "archivo": "20250909/sesion129votacion3.json",
+    "tema": "Trabajo y familia",
+    "nombre": "Ampliación del permiso por nacimiento",
+    "resumen": "Decreto ley del Gobierno que amplía el permiso de nacimiento y cuidado de menor. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20260226/sesion164votacion23.json",
+    "tema": "Pensiones",
+    "nombre": "Subida de las pensiones en 2026",
+    "resumen": "Decreto ley del Gobierno para la revalorización de las pensiones públicas y otras medidas de Seguridad Social. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20250122/sesion89votacion1.json",
+    "tema": "Economía",
+    "nombre": "Decreto de medidas económicas y sociales (conocido como «decreto ómnibus»)",
+    "resumen": "Decreto ley del Gobierno que reunía medidas económicas, tributarias, de transporte y de Seguridad Social, y prorrogaba medidas ante situaciones de vulnerabilidad social. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20260428/sesion175votacion3.json",
+    "tema": "Vivienda",
+    "nombre": "Medidas en el alquiler",
+    "resumen": "Decreto ley del Gobierno con medidas en el alquiler en respuesta a las consecuencias económicas y sociales de la guerra de Irán. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20240409/sesion34votacion1.json",
+    "tema": "Inmigración",
+    "nombre": "Regularización extraordinaria de personas extranjeras",
+    "resumen": "Iniciativa legislativa popular (promovida con firmas de ciudadanos) para una regularización extraordinaria de personas extranjeras en España. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20260326/sesion169votacion56.json",
+    "tema": "Seguridad",
+    "nombre": "Ley de multirreincidencia",
+    "resumen": "Ley orgánica en materia de multirreincidencia que modifica el Código Penal, la Ley de Enjuiciamiento Criminal y la ley de extranjería. Votación final en el Congreso tras pasar por el Senado.",
+    "siSignifica": "aprobar la ley"
+  },
+  {
+    "archivo": "20240314/sesion30votacion1.json",
+    "tema": "Modelo territorial",
+    "nombre": "Ley de amnistía",
+    "resumen": "Ley orgánica de amnistía para la normalización institucional, política y social en Cataluña. Votación en el Congreso antes de pasar por el Senado.",
+    "siSignifica": "aprobar la ley",
+    "nota": "La votación final del Congreso, tras el paso por el Senado, no aparece en sus datos abiertos, por eso mostramos esta. La ley se publicó como Ley Orgánica 1/2024 en el BOE del 11 de junio de 2024.",
+    "notaFuente": {
+      "nombre": "Ley Orgánica 1/2024, de amnistía (BOE)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11776"
+    }
+  },
+  {
+    "archivo": "20250722/sesion128votacion15.json",
+    "tema": "Modelo territorial",
+    "nombre": "Recursos de la financiación territorial",
+    "resumen": "Decreto ley del Gobierno con medidas relativas a los recursos de los sistemas de financiación territorial. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20260430/sesion177votacion12.json",
+    "tema": "Constitución",
+    "nombre": "Reforma del artículo 43 de la Constitución",
+    "resumen": "Proyecto del Gobierno para reformar el artículo 43 de la Constitución. PP y Vox presentaron enmiendas para devolverlo al Gobierno; se votaron esas enmiendas.",
+    "siSignifica": "devolver el proyecto al Gobierno (no seguir tramitándolo)",
+    "nota": "Al rechazarse las enmiendas de devolución, el proyecto no se devolvió al Gobierno y continuó su tramitación.",
+    "notaFuente": {
+      "nombre": "Reglamento del Congreso de los Diputados, art. 112 (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196"
+    }
+  }
+]

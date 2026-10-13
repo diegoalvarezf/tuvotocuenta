@@ -1,0 +1,217 @@
+---
+import Base from '../layouts/Base.astro';
+import Fuente from '../components/Fuente.astro';
+import votaciones from '../data/votaciones.json';
+import { colorGrupo } from '../lib/partidos';
+
+const n = (x: number) => x.toLocaleString('es-ES');
+const fecha = (f: string) =>
+  new Date(f + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+const VOTO: Record<string, string> = { si: 'Sí', no: 'No', abstencion: 'Abstención', noVota: 'No vota', dividido: 'Dividido' };
+const temas = [...new Set(votaciones.map((v) => v.tema))].sort((a, b) => a.localeCompare(b, 'es'));
+const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
+---
+
+<Base title="Lo que votaron · tuvotocuenta" description="Votaciones clave del Congreso en la legislatura 2023-2026: qué se votó y qué votó cada grupo, con el acta oficial.">
+  <h1>Lo que<br /><em>votaron</em></h1>
+  <p class="entradilla">
+    {votaciones.length} votaciones clave del Congreso entre 2023 y 2026. Qué se votaba, qué votó cada grupo y el acta oficial de cada una.
+  </p>
+  <p class="suave nota">
+    En {aprobadas} ganó el sí y en {votaciones.length - aprobadas} ganó el no. Hubo 2.175 votaciones en el Pleno durante la legislatura: puedes{' '}
+    <a href="/descargas/votaciones-xv-legislatura.pdf" download>descargarlas todas en PDF</a>{' '}o{' '}
+    <a href="/descargas/votaciones-xv-legislatura.csv" download>en CSV</a>.
+  </p>
+  <Fuente de="votacionesCongreso" />
+
+  <nav class="temas" aria-label="Filtrar por tema" data-temas>
+    <button type="button" aria-pressed="true" data-tema="">Todas</button>
+    {temas.map((t) => <button type="button" aria-pressed="false" data-tema={t}>{t}</button>)}
+  </nav>
+
+  <ol class="lista">
+    {votaciones.map((v) => (
+      <li class="votacion" data-tema={v.tema} id={v.id}>
+        <p class="meta suave">
+          <time datetime={v.fecha}>{fecha(v.fecha)}</time> · {v.tema}
+        </p>
+        <h2>{v.nombre}</h2>
+        <p class="resumen">{v.resumen}</p>
+
+        <div class="resultado">
+          <p class="gana">Ganó el <strong>{v.gana === 'si' ? 'sí' : 'no'}</strong></p>
+          <p class="cifras cifra suave">
+            {n(v.totales.si)} sí · {n(v.totales.no)} no · {n(v.totales.abstencion)} abstenciones
+          </p>
+          <div class="barra" role="img" aria-label={`${v.totales.si} sí, ${v.totales.no} no, ${v.totales.abstencion} abstenciones`}>
+            <span class="si" style={`flex:${v.totales.si}`}></span>
+            <span class="abst" style={`flex:${v.totales.abstencion}`}></span>
+            <span class="no" style={`flex:${v.totales.no}`}></span>
+          </div>
+          <p class="significa">Votar sí era <strong>{v.siSignifica}</strong>.</p>
+        </div>
+
+        <ul class="grupos">
+          {v.grupos.map((g) => (
+            <li>
+              <span class="grupo"><span class="punto" style={`--c:${colorGrupo(g.codigo)}`}></span>{g.nombre}</span>
+              <span class:list={['voto', g.sentido]}>{VOTO[g.sentido]}</span>
+              <span class="detalle suave cifra">
+                {[g.si && `${g.si} sí`, g.no && `${g.no} no`, g.abstencion && `${g.abstencion} abst.`, g.noVota && `${g.noVota} no votan`].filter(Boolean).join(' · ')}
+              </span>
+            </li>
+          ))}
+        </ul>
+
+        <details class="mixto">
+          <summary>Grupo Mixto, diputado a diputado</summary>
+          <p class="suave">El Mixto reúne a diputados de varias formaciones, así que mostramos el voto de cada uno.</p>
+          <ul>
+            {v.mixto.map((d) => (
+              <li><span>{d.diputado}</span><span class="suave">{VOTO[d.voto]}</span></li>
+            ))}
+          </ul>
+        </details>
+
+        {v.nota && (
+          <p class="aviso">
+            {v.nota}
+            {v.notaFuente && <span class="fuente-nota">Fuente: <a href={v.notaFuente.url} target="_blank" rel="noopener">{v.notaFuente.nombre}</a></span>}
+          </p>
+        )}
+
+        <p class="oficial suave">
+          Texto oficial: «{v.oficial.expediente}»{v.oficial.subgrupo && ` ${v.oficial.subgrupo}`}
+          <span class="fuente-nota">
+            Fuente: Congreso de los Diputados, sesión {v.oficial.sesion}, votación {v.oficial.numero}.{' '}
+            <a href={v.enlaces.pdf} target="_blank" rel="noopener">Acta (PDF)</a>{' · '}
+            <a href={v.enlaces.json} target="_blank" rel="noopener">Datos (JSON)</a>
+          </span>
+        </p>
+      </li>
+    ))}
+  </ol>
+
+  <section class="glosario" id="como-leer">
+    <h2>Cómo leer estas votaciones</h2>
+    <dl>
+      <dt>Decreto ley</dt>
+      <dd>
+        Norma que aprueba el Gobierno en casos de «extraordinaria y urgente necesidad». Se aplica desde que se publica, pero el Congreso debe
+        votarla en un plazo de 30 días: si la <strong>convalida</strong>, sigue en vigor; si no, queda derogada.
+        <Fuente de="constitucion" detalle="art. 86" />
+      </dd>
+      <dt>Toma en consideración</dt>
+      <dd>
+        Votación en la que el Congreso decide si empieza a tramitar una proposición de ley. Que se apruebe no significa que la ley esté aprobada: solo que se va a debatir.
+        <Fuente de="reglamentoCongreso" detalle="art. 126" />
+      </dd>
+      <dt>Enmienda a la totalidad de devolución</dt>
+      <dd>
+        Petición de un grupo para devolver un proyecto de ley al Gobierno sin debatirlo. Votar sí es apoyar que se devuelva.
+        <Fuente de="reglamentoCongreso" detalle="arts. 110 a 112" />
+      </dd>
+      <dt>Ley orgánica</dt>
+      <dd>
+        Leyes sobre derechos fundamentales y otras materias que fija la Constitución. Necesitan mayoría absoluta del Congreso (176 votos) en una votación final sobre el conjunto del texto.
+        <Fuente de="constitucion" detalle="art. 81" />
+      </dd>
+      <dt>Por qué estas votaciones</dt>
+      <dd>
+        Las elegimos con tres criterios: votaciones finales o decisivas (no trámites intermedios), que cubran temas que preocupan a la gente, y que haya tanto aprobadas como rechazadas. Para comprobar cualquier otra, descarga el listado completo.
+      </dd>
+    </dl>
+  </section>
+</Base>
+
+<script>
+  function iniciar() {
+    const nav = document.querySelector<HTMLElement>('[data-temas]');
+    if (!nav) return;
+    const botones = nav.querySelectorAll<HTMLButtonElement>('button');
+    const items = document.querySelectorAll<HTMLElement>('.votacion');
+    botones.forEach((b) =>
+      b.addEventListener('click', () => {
+        const tema = b.dataset.tema;
+        botones.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        items.forEach((li) => (li.hidden = !!tema && li.dataset.tema !== tema));
+      }),
+    );
+  }
+  document.addEventListener('astro:page-load', iniciar);
+</script>
+
+<style>
+  h1 em { font-style: italic; }
+  .entradilla { font-size: 19px; max-width: 38ch; margin: 0 0 12px; }
+  .nota { font-size: 15px; margin: 0; }
+
+  .temas { display: flex; gap: 8px; overflow-x: auto; margin: 32px -20px 8px; padding: 0 20px 8px; scrollbar-width: none; }
+  .temas button {
+    flex: none;
+    font: inherit;
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--linea);
+    background: transparent;
+    color: var(--tinta);
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .temas button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+
+  .lista { list-style: none; margin: 0; padding: 0; }
+  .votacion { border-top: 1px solid var(--tinta); padding: 20px 0 36px; }
+  .meta { font-size: 14px; margin: 0; }
+  .votacion h2 { margin: 6px 0 10px; font-size: 30px; }
+  .resumen { margin: 0 0 20px; }
+
+  .resultado { margin-bottom: 20px; }
+  .gana { font-family: var(--serif); font-size: 26px; margin: 0; }
+  .gana strong { font-weight: 400; font-style: italic; }
+  .cifras { margin: 2px 0 10px; font-size: 14px; }
+  .barra { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--linea); gap: 2px; }
+  .barra .si { background: var(--tinta); }
+  .barra .abst { background: var(--suave); opacity: 0.45; }
+  .barra .no { background: transparent; box-shadow: inset 0 0 0 1.5px var(--tinta); border-radius: 0 4px 4px 0; }
+  .significa { font-size: 15px; margin: 12px 0 0; }
+  .significa strong { font-weight: 600; }
+
+  .grupos { list-style: none; margin: 0; padding: 0; }
+  .grupos li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--linea);
+  }
+  .grupo { display: flex; align-items: center; }
+  .punto { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; }
+  .voto { font-weight: 600; text-align: right; }
+  .voto.no, .voto.abstencion, .voto.noVota, .voto.dividido { font-weight: 500; }
+  .voto.abstencion, .voto.noVota { color: var(--suave); }
+  .detalle { grid-column: 1 / -1; font-size: 13px; padding-left: 20px; }
+
+  .mixto { margin-top: 12px; font-size: 15px; }
+  .mixto summary { cursor: pointer; padding: 8px 0; }
+  .mixto p { font-size: 14px; margin: 4px 0 8px; }
+  .mixto ul { list-style: none; padding: 0; margin: 0; }
+  .mixto li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--linea); }
+
+  .aviso { margin: 16px 0 0; padding: 12px 14px; background: var(--resalte); border-radius: 10px; font-size: 15px; }
+  .oficial { font-size: 13px; margin: 16px 0 0; }
+  .fuente-nota { display: block; margin-top: 6px; font-size: 12px; color: var(--suave); }
+  .fuente-nota a { color: var(--suave); }
+
+  .glosario { border-top: 1px solid var(--tinta); margin-top: 24px; }
+  .glosario dl { margin: 0; }
+  .glosario dt { font-weight: 600; margin-top: 24px; }
+  .glosario dd { margin: 4px 0 0; }
+
+  @media (min-width: 640px) {
+    .temas { margin-inline: 0; padding-inline: 0; flex-wrap: wrap; }
+    .grupos { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; }
+    .votacion h2 { font-size: 34px; }
+  }
+</style>

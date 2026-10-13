@@ -18,6 +18,18 @@ export const FUENTES = {
     nombre: 'Ley Orgánica del Régimen Electoral General (BOE)',
     url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672',
   },
+  votacionesCongreso: {
+    nombre: 'Congreso de los Diputados, datos abiertos de votaciones (XV legislatura)',
+    url: 'https://www.congreso.es/es/opendata/votaciones',
+  },
+  constitucion: {
+    nombre: 'Constitución Española (BOE)',
+    url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229',
+  },
+  reglamentoCongreso: {
+    nombre: 'Reglamento del Congreso de los Diputados (BOE)',
+    url: 'https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196',
+  },
 } satisfies Record<string, Fuente>;
 
 export type IdFuente = keyof typeof FUENTES;

@@ -19,3 +19,19 @@ export const COLOR_OTROS = '#a3a3a3';
 export function color(siglas: string): string {
   return COLORES.find(([re]) => re.test(siglas))?.[1] ?? COLOR_OTROS;
 }
+
+// Grupos parlamentarios del Congreso (códigos de los datos abiertos) → color de su partido
+const SIGLAS_GRUPO: Record<string, string> = {
+  GS: 'PSOE',
+  GP: 'PP',
+  GVOX: 'VOX',
+  GSUMAR: 'SUMAR',
+  GR: 'ERC',
+  GJxCAT: 'JUNTS',
+  'GEH Bildu': 'Bildu',
+  'GV (EAJ-PNV)': 'PNV',
+};
+
+export function colorGrupo(codigo: string): string {
+  return SIGLAS_GRUPO[codigo] ? color(SIGLAS_GRUPO[codigo]) : COLOR_OTROS;
+}
