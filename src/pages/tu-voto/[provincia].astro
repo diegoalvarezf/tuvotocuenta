@@ -132,8 +132,8 @@ const datos = {
       <span>Mover <strong class="cifra" data-pct>0 %</strong> de sus votos <span class="suave cifra" data-votos></span></span>
       <input type="range" name="pct" min="0" max="30" step="1" value="0" />
     </label>
-    <div class="escanos" data-escanos aria-live="polite"></div>
-    <p class="cambio suave" data-cambio>Mueve el control para ver si cambia algún escaño.</p>
+    <div class="escanos" data-escanos role="img" aria-label="Reparto simulado de escaños"></div>
+    <p class="cambio suave" data-cambio aria-live="polite">Mueve el control para ver si cambia algún escaño.</p>
   </div>
   <p class="suave nota">Reparto por la ley D'Hondt con mínimo del 3 % (art. 163 de la LOREG).</p>
 
@@ -173,6 +173,7 @@ const datos = {
 
       el!.querySelector('[data-pct]')!.textContent = `${rango.value} %`;
       el!.querySelector('[data-votos]')!.textContent = movidos ? `(${fmt(movidos)} votos)` : '';
+      rango.setAttribute('aria-valuetext', `${rango.value} % de los votos de ${datos.candidaturas[i].siglas}${movidos ? `, ${fmt(movidos)} votos` : ''}`);
 
       const asientos = datos.candidaturas.flatMap((c, k) => Array.from({ length: r.get(String(k))! }, () => c));
       const puntos = [...caja.children] as HTMLElement[];
@@ -181,6 +182,8 @@ const datos = {
         s.style.setProperty('--c', c.color);
         s.title = c.siglas;
       });
+
+      caja.setAttribute('aria-label', `Reparto simulado: ${datos.candidaturas.map((c, k) => `${c.siglas} ${r.get(String(k))}`).join(', ')}`);
 
       const cambios = datos.candidaturas
         .map((c, k) => ({ siglas: c.siglas, d: r.get(String(k))! - base.get(String(k))! }))

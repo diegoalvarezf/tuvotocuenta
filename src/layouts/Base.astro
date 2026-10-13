@@ -61,7 +61,7 @@ const actual = Astro.url.pathname;
   </head>
   <body>
     <header class="cabecera">
-      <a href="/" class="marca">tu<em>voto</em>cuenta</a>
+      <a href="/" class="marca" aria-label="tuvotocuenta, inicio">tu<em>voto</em>cuenta</a>
       <nav>
         {nav.map((n) => (
           <a href={n.href} aria-current={actual.startsWith(n.href) ? 'page' : undefined}>{n.texto}</a>
