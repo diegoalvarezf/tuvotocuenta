@@ -27,6 +27,7 @@ Todos los datos salen de fuentes oficiales mediante scripts en `scripts/`. Las d
 | PDF y CSV con todas las votaciones | `votaciones-descarga.mjs` | Datos abiertos del Congreso |
 | Texto de un programa por página | `programa-paginas.mjs` | PDF oficial del partido |
 | Resultados del 29 de noviembre | `resultados-2026.mjs` | Ministerio del Interior (avance de la noche electoral y escrutinio) |
+| Icono de la web (favicon) | `favicon.mjs` | Tipografía de la propia web |
 | Imágenes para compartir (Open Graph) | `og.mjs` | Datos de la propia web |
 | Propuestas de un programa | `programa-extraer.mjs` (Claude + verificación de citas) | PDF oficial del partido |
 
