@@ -2,6 +2,28 @@ import resultados2023 from '../data/congreso-2023.json';
 import escanos2026 from '../data/escanos-2026.json';
 import { UMBRAL } from './dhondt';
 
+// Resultados del 29 de noviembre: solo existen a partir de la noche electoral (scripts/resultados-2026.mjs)
+interface DatosProvincia {
+  id: string;
+  nombre: string;
+  escanos: number;
+  censo: number;
+  votantes: number;
+  blanco: number;
+  nulos: number;
+  votosValidos: number;
+  candidaturas: Candidatura[];
+}
+export interface Resultados2026 {
+  escrutado: number;
+  provisional: boolean;
+  actualizado: string;
+  fuente: { nombre: string; url: string };
+  provincias: DatosProvincia[];
+}
+const archivo2026 = import.meta.glob<Resultados2026>('../data/congreso-2026.json', { eager: true, import: 'default' });
+export const resultados2026: Resultados2026 | null = Object.values(archivo2026)[0] ?? null;
+
 export interface Candidatura {
   siglas: string;
   nombre: string;
@@ -22,6 +44,8 @@ export interface Provincia {
   blanco: number;
   nulos: number;
   candidaturas: Candidatura[];
+  // Resultado del 29 de noviembre, si ya está disponible
+  r2026?: DatosProvincia;
 }
 
 // Provincias con nombre oficial bilingüe: URL con el nombre más buscado
@@ -54,6 +78,7 @@ export const provincias: Provincia[] = resultados2023.map((p) => {
     blanco: p.blanco,
     nulos: p.nulos,
     candidaturas: p.candidaturas,
+    r2026: resultados2026?.provincias.find((x) => x.id === p.id),
   };
 });
 

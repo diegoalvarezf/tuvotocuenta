@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Escanos from '../../components/Escanos.astro';
 import Fuente from '../../components/Fuente.astro';
-import { provincias, ultimoEscano, type Provincia } from '../../lib/provincias';
+import { provincias, resultados2026, ultimoEscano, type Provincia } from '../../lib/provincias';
 import { color } from '../../lib/partidos';
 import { UMBRAL } from '../../lib/dhondt';
 
@@ -21,6 +21,20 @@ const ultimo = ultimoEscano(p);
 const diferencia = p.escanos2026 - p.escanos2023;
 const palabra = (x: number) => (x === 1 ? 'diputado' : 'diputados');
 
+// Resultado del 29 de noviembre (si ya existe) y cambio de escaños frente a 2023 por siglas
+const r26 = p.r2026;
+const principales26 = r26 ? r26.candidaturas.filter((c) => c.votos / r26.votosValidos >= 0.01 || c.escanos > 0) : [];
+const otros26 = r26 ? r26.candidaturas.filter((c) => !principales26.includes(c)).reduce((s, c) => s + c.votos, 0) : 0;
+const cambio = (siglas: string, escanos: number) => {
+  const antes = p.candidaturas.find((c) => c.siglas === siglas);
+  if (!antes) return 'nueva';
+  const d = escanos - antes.escanos;
+  return d === 0 ? '=' : d > 0 ? `+${d}` : `${d}`;
+};
+const hora = resultados2026
+  ? new Date(resultados2026.actualizado).toLocaleString('es-ES', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid' })
+  : '';
+
 // Lo mínimo para el simulador en el navegador
 const datos = {
   escanos: p.escanos2026,
@@ -34,11 +48,48 @@ const datos = {
   <a href="/tu-voto" class="volver suave">← Todas las provincias</a>
   <h1>{p.nombre}</h1>
   <p class="entradilla">
-    Elige <strong>{p.escanos2026} {palabra(p.escanos2026)}</strong> el 29 de noviembre{
+    {r26 ? 'Ha elegido' : 'Elige'} <strong>{p.escanos2026} {palabra(p.escanos2026)}</strong> el 29 de noviembre{
       diferencia !== 0 && <span class="suave">, {Math.abs(diferencia)} {diferencia > 0 ? 'más' : 'menos'} que en 2023</span>
     }.
   </p>
   <Fuente de="convocatoria2026" />
+
+  {r26 && resultados2026 && (
+    <section class="r26">
+      <h2>Resultado del 29 de noviembre</h2>
+      <p class="estado suave">
+        {resultados2026.provisional ? `Provisional · escrutado el ${resultados2026.escrutado.toLocaleString('es-ES')} %` : 'Resultado definitivo'} · actualizado el {hora}
+      </p>
+      <Escanos reparto={r26.candidaturas} />
+      <table class="tabla">
+        <thead>
+          <tr><th>Candidatura</th><th class="num">Votos</th><th class="num">%</th><th class="num">Escaños</th><th class="num">vs. 2023</th></tr>
+        </thead>
+        <tbody>
+          {principales26.map((c) => (
+            <tr>
+              <td><span class="punto" style={`--c:${color(c.siglas)}`}></span>{c.siglas}</td>
+              <td class="num cifra">{n(c.votos)}</td>
+              <td class="num cifra">{pct(c.votos / r26.votosValidos)}</td>
+              <td class="num cifra">{c.escanos || '–'}</td>
+              <td class="num cifra suave">{cambio(c.siglas, c.escanos)}</td>
+            </tr>
+          ))}
+          {otros26 > 0 && (
+            <tr class="fuera">
+              <td><span class="punto" style="--c:transparent"></span>Otras</td>
+              <td class="num cifra">{n(otros26)}</td>
+              <td class="num cifra">{pct(otros26 / r26.votosValidos)}</td>
+              <td class="num cifra">–</td>
+              <td class="num"></td>
+            </tr>
+          )}
+        </tbody>
+      </table>
+      <p class="suave nota">«vs. 2023» compara con la candidatura de las mismas siglas; «nueva» indica que no se presentó con esas siglas en 2023.</p>
+      <span class="fuente-26">Fuente: <a href={resultados2026.fuente.url} target="_blank" rel="noopener">{resultados2026.fuente.nombre}</a></span>
+    </section>
+  )}
 
   <h2>Así se repartieron en 2023</h2>
   <Escanos reparto={p.candidaturas} />
@@ -208,12 +259,15 @@ const datos = {
   .entradilla { font-size: 22px; margin: 0; }
   .entradilla strong { font-weight: 600; }
 
-  .tabla { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .tabla { width: 100%; border-collapse: collapse; font-size: 14px; }
   .tabla th { text-align: left; font-weight: 500; color: var(--suave); font-size: 13px; padding: 8px 0; border-bottom: 1px solid var(--linea); }
   .tabla td { padding: 10px 0; border-bottom: 1px solid var(--linea); }
-  .tabla .num { text-align: right; padding-left: 12px; white-space: nowrap; }
+  .tabla .num { text-align: right; padding-left: 8px; white-space: nowrap; }
   .tabla td:first-child { overflow-wrap: anywhere; }
   .fuera td { color: var(--suave); }
+  .estado { font-size: 14px; margin: 0; }
+  .fuente-26 { display: block; margin-top: 4px; font-size: 11px; color: var(--suave); }
+  .fuente-26 a { color: var(--suave); }
   .punto { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; }
 
   .datos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px 32px; margin: 24px 0 0; }

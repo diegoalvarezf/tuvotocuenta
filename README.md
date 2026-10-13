@@ -26,6 +26,7 @@ Todos los datos salen de fuentes oficiales mediante scripts en `scripts/`. Las d
 | Votaciones destacadas | `votaciones-destacadas.mjs` + `src/data/votaciones-seleccion.json` | Datos abiertos del Congreso |
 | PDF y CSV con todas las votaciones | `votaciones-descarga.mjs` | Datos abiertos del Congreso |
 | Texto de un programa por página | `programa-paginas.mjs` | PDF oficial del partido |
+| Resultados del 29 de noviembre | `resultados-2026.mjs` | Ministerio del Interior (avance de la noche electoral y escrutinio) |
 | Imágenes para compartir (Open Graph) | `og.mjs` | Datos de la propia web |
 | Propuestas de un programa | `programa-extraer.mjs` (Claude + verificación de citas) | PDF oficial del partido |
 
@@ -50,3 +51,13 @@ node --env-file=.env scripts/programa-extraer.mjs paginas.json PSOE propuestas-p
 ## Licencia
 
 Código bajo licencia [MIT](LICENSE). Los datos proceden de fuentes oficiales públicas (Ministerio del Interior, Congreso de los Diputados, BOE) y de los programas publicados por cada partido.
+
+### Noche electoral
+
+Cuando haya resultados, convertirlos al formato de `congreso-2023.json` (con `infoelectoral-congreso.mjs` si Interior publica los ficheros habituales, o con un adaptador del avance en directo) y ejecutar:
+
+```bash
+node scripts/resultados-2026.mjs provincias-2026.json 99.5 provisional <url-fuente> "Ministerio del Interior, avance de resultados"
+```
+
+El script comprueba que los escaños de cada provincia coinciden con el Real Decreto 806/2026. Al existir `src/data/congreso-2026.json`, cada provincia muestra el resultado comparado con 2023, y los tests verifican que el reparto cuadra con la ley D'Hondt.
