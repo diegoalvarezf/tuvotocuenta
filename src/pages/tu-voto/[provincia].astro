@@ -90,6 +90,36 @@ const datos = {
     </div>
   </dl>
 
+  <h2>En blanco, nulo o abstención</h2>
+  <dl class="tipos">
+    <div>
+      <dt>Voto en blanco</dt>
+      <dd>
+        Es el sobre sin papeleta. La ley lo considera un voto válido, así que cuenta para calcular el mínimo del 3 % y lo sube un poco. No da escaño a nadie.
+        <Fuente de="loreg" detalle="arts. 96.5 y 163.1" />
+      </dd>
+    </div>
+    <div>
+      <dt>Voto nulo</dt>
+      <dd>
+        Una papeleta tachada o con algo escrito, dos papeletas de partidos distintos en el mismo sobre o un sobre que no es el oficial. No cuenta en el reparto.
+        <Fuente de="loreg" detalle="art. 96" />
+      </dd>
+    </div>
+    <div>
+      <dt>Abstención</dt>
+      <dd>
+        No votar. Tampoco cuenta: el reparto se hace solo con los votos emitidos.
+        <Fuente de="loreg" detalle="art. 163.1" />
+      </dd>
+    </div>
+  </dl>
+  <p class="local">
+    En {p.nombre} hubo en 2023 <strong class="cifra">{n(p.blanco)}</strong> votos en blanco y <strong class="cifra">{n(p.nulos)}</strong> nulos.
+    Los votos en blanco subieron el mínimo del 3 % en {n(Math.round(p.blanco * UMBRAL))} votos.
+  </p>
+  <Fuente de={['resultados2023', 'loreg']} calculo />
+
   <h2>¿Y si cambian los votos?</h2>
   <p class="suave">Mueve votos de una candidatura a otra y mira cómo quedarían los {p.escanos2026} escaños de 2026, partiendo de los votos de 2023.</p>
 
@@ -187,6 +217,13 @@ const datos = {
   .datos div { border-top: 1px solid var(--tinta); padding-top: 12px; }
   .datos dt { font-family: var(--serif); font-size: 44px; line-height: 1; }
   .datos dd { margin: 8px 0 0; color: var(--suave); font-size: 15px; }
+
+  .tipos { margin: 16px 0 0; }
+  .tipos div { padding: 14px 0; border-bottom: 1px solid var(--linea); }
+  .tipos dt { font-weight: 600; }
+  .tipos dd { margin: 4px 0 0; }
+  .local { margin: 16px 0 0; }
+  .local strong { font-weight: 600; }
 
   .simulador { margin-top: 24px; padding: 24px; background: var(--resalte); border-radius: 14px; }
   .controles { display: flex; gap: 16px; flex-wrap: wrap; }

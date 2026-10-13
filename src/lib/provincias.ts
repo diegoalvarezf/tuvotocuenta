@@ -19,6 +19,8 @@ export interface Provincia {
   censo: number;
   votantes: number;
   votosValidos: number;
+  blanco: number;
+  nulos: number;
   candidaturas: Candidatura[];
 }
 
@@ -49,6 +51,8 @@ export const provincias: Provincia[] = resultados2023.map((p) => {
     censo: p.censo,
     votantes: p.votantes,
     votosValidos: p.votosValidos,
+    blanco: p.blanco,
+    nulos: p.nulos,
     candidaturas: p.candidaturas,
   };
 });
