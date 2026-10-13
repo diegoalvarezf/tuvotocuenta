@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Escanos from '../../components/Escanos.astro';
+import Fuente from '../../components/Fuente.astro';
 import { provincias, ultimoEscano, type Provincia } from '../../lib/provincias';
 import { color } from '../../lib/partidos';
 import { UMBRAL } from '../../lib/dhondt';
@@ -11,7 +12,7 @@ export function getStaticPaths() {
 
 const { p } = Astro.props as { p: Provincia };
 const n = (x: number) => x.toLocaleString('es-ES');
-const pct = (x: number) => (x * 100).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + ' %';
+const pct = (x: number) => (x * 100).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + '\u202f%';
 
 const umbral = Math.ceil(p.votosValidos * UMBRAL);
 const principales = p.candidaturas.filter((c) => c.votos / p.votosValidos >= 0.01 || c.escanos > 0);
@@ -37,6 +38,7 @@ const datos = {
       diferencia !== 0 && <span class="suave">, {Math.abs(diferencia)} {diferencia > 0 ? 'más' : 'menos'} que en 2023</span>
     }.
   </p>
+  <Fuente de="convocatoria2026" />
 
   <h2>Así se repartieron en 2023</h2>
   <Escanos reparto={p.candidaturas} />
@@ -56,7 +58,7 @@ const datos = {
       ))}
       {otros > 0 && (
         <tr class="fuera">
-          <td><span class="punto" style="--c:transparent"></span>Otras candidaturas</td>
+          <td><span class="punto" style="--c:transparent"></span>Otras</td>
           <td class="num cifra">{n(otros)}</td>
           <td class="num cifra">{pct(otros / p.votosValidos)}</td>
           <td class="num cifra">–</td>
@@ -64,26 +66,27 @@ const datos = {
       )}
     </tbody>
   </table>
+  <Fuente de="resultados2023" />
 
   <h2>Lo que conviene saber</h2>
   <dl class="datos">
     <div>
       <dt class="cifra">{n(Math.round(p.votosValidos / p.escanos2023))}</dt>
-      <dd>votos costó de media cada escaño en {p.nombre} en 2023.</dd>
+      <dd>votos costó de media cada escaño en {p.nombre} en 2023.<Fuente de="resultados2023" calculo /></dd>
     </div>
     <div>
       <dt class="cifra">{n(umbral)}</dt>
-      <dd>votos, el 3 % de los válidos, era el mínimo para poder optar a un escaño.</dd>
+      <dd>votos, el 3 % de los válidos, era el mínimo para poder optar a un escaño.<Fuente de={['resultados2023', 'loreg']} calculo /></dd>
     </div>
     {ultimo && (
       <div>
         <dt class="cifra">{n(ultimo.faltaron)}</dt>
-        <dd>votos más le habrían hecho falta a {ultimo.aspirante.siglas} para quitarle el último escaño a {ultimo.ganador.siglas}.</dd>
+        <dd>votos más le habrían hecho falta a {ultimo.aspirante.siglas} para quitarle el último escaño a {ultimo.ganador.siglas}.<Fuente de={['resultados2023', 'loreg']} calculo /></dd>
       </div>
     )}
     <div>
       <dt class="cifra">{pct(p.votantes / p.censo)}</dt>
-      <dd>del censo votó. El resto no influyó en el reparto.</dd>
+      <dd>del censo votó. El resto no influyó en el reparto.<Fuente de="resultados2023" calculo /></dd>
     </div>
   </dl>
 
@@ -102,12 +105,9 @@ const datos = {
     <div class="escanos" data-escanos aria-live="polite"></div>
     <p class="cambio suave" data-cambio>Mueve el control para ver si cambia algún escaño.</p>
   </div>
+  <p class="suave nota">Reparto por la ley D'Hondt con mínimo del 3 % (art. 163 de la LOREG).</p>
 
-  <p class="fuente suave">
-    Fuentes: resultados de 2023 del <a href="https://infoelectoral.interior.gob.es/">Ministerio del Interior</a>;
-    escaños de 2026 del <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742">Real Decreto 806/2026</a>.
-    Reparto según la ley D'Hondt con mínimo del 3 % (art. 163 de la LOREG).
-  </p>
+  <Fuente de={['resultados2023', 'convocatoria2026', 'loreg']} calculo />
 </Base>
 
 <script>
@@ -178,7 +178,7 @@ const datos = {
   .tabla { width: 100%; border-collapse: collapse; font-size: 15px; }
   .tabla th { text-align: left; font-weight: 500; color: var(--suave); font-size: 13px; padding: 8px 0; border-bottom: 1px solid var(--linea); }
   .tabla td { padding: 10px 0; border-bottom: 1px solid var(--linea); }
-  .tabla .num { text-align: right; padding-left: 12px; }
+  .tabla .num { text-align: right; padding-left: 12px; white-space: nowrap; }
   .tabla td:first-child { overflow-wrap: anywhere; }
   .fuera td { color: var(--suave); }
   .punto { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; }
@@ -204,5 +204,5 @@ const datos = {
   .deslizador { display: flex; flex-direction: column; gap: 10px; margin: 20px 0 4px; }
   input[type='range'] { width: 100%; accent-color: var(--tinta); }
   .cambio { margin: 0; min-height: 1.5em; }
-  .fuente { font-size: 13px; margin-top: 48px; }
+  .nota { font-size: 13px; margin: 12px 0 0; }
 </style>

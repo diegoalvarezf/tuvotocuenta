@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Fuente from '../../components/Fuente.astro';
 import { provincias } from '../../lib/provincias';
 
 const lista = [...provincias].sort((a, b) => a.slug.localeCompare(b.slug, 'es'));
@@ -16,6 +17,7 @@ const n = (x: number) => x.toLocaleString('es-ES');
     No se vota a un presidente. Cada provincia elige sus propios diputados, y no todas eligen los mismos: en 2023, un escaño
     costó {n(votosPorEscano(barato))} votos en {barato.nombre} y {n(votosPorEscano(caro))} en {caro.nombre}.
   </p>
+  <Fuente de="resultados2023" calculo />
 
   <label class="buscar">
     <span class="suave">¿Dónde votas?</span>
@@ -33,6 +35,7 @@ const n = (x: number) => x.toLocaleString('es-ES');
     ))}
   </ul>
   <p class="suave nota">El número es el de diputados que elige cada provincia en 2026.</p>
+  <Fuente de="convocatoria2026" />
 </Base>
 
 <script>
@@ -55,8 +58,8 @@ const n = (x: number) => x.toLocaleString('es-ES');
 
 <style>
   h1 em { font-style: italic; }
-  .entradilla { font-size: 20px; max-width: 40ch; margin: 0 0 40px; }
-  .buscar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
+  .entradilla { font-size: 19px; max-width: 40ch; margin: 0; }
+  .buscar { margin-top: 36px; display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
   input[type='search'] {
     font: inherit;
     font-size: 20px;

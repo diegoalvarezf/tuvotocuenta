@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Fuente from '../components/Fuente.astro';
 
 const secciones = [
   { href: '/tu-voto', titulo: 'Tu voto en tu provincia', texto: 'Cuántos diputados elige y cómo se convierten los votos en escaños.' },
@@ -10,6 +11,7 @@ const secciones = [
 
 <Base title="tuvotocuenta · Elecciones generales del 29 de noviembre">
   <p class="fecha suave">Elecciones generales · domingo 29 de noviembre de 2026</p>
+  <Fuente de="convocatoria2026" />
   <h1>Decide con datos,<br /><em>no con ruido.</em></h1>
   <p class="entradilla">Qué proponen los partidos, qué votaron y cuánto pesa tu voto donde vives. Sin opiniones: todo con su fuente.</p>
 
@@ -32,7 +34,7 @@ const secciones = [
 <style>
   .fecha { font-size: 14px; margin: 32px 0 0; }
   h1 em { font-style: italic; }
-  .entradilla { font-size: 20px; max-width: 34ch; margin: 0 0 56px; }
+  .entradilla { font-size: 19px; max-width: 34ch; margin: 0 0 44px; }
   .secciones { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
   .secciones li { border-bottom: 1px solid var(--linea); }
   .secciones a {

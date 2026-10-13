@@ -27,6 +27,16 @@ const actual = Astro.url.pathname;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
     <ClientRouter />
+    <script is:inline>
+      // Claro por defecto; el oscuro solo si la persona lo eligió. Se aplica antes de pintar para evitar parpadeos
+      function aplicarTema(doc) {
+        try {
+          if (localStorage.getItem('tema') === 'oscuro') doc.documentElement.dataset.tema = 'oscuro';
+        } catch {}
+      }
+      aplicarTema(document);
+      document.addEventListener('astro:before-swap', (e) => aplicarTema(e.newDocument));
+    </script>
   </head>
   <body>
     <header class="cabecera">
@@ -35,6 +45,9 @@ const actual = Astro.url.pathname;
         {nav.map((n) => (
           <a href={n.href} aria-current={actual.startsWith(n.href) ? 'page' : undefined}>{n.texto}</a>
         ))}
+        <button type="button" class="tema" data-tema-boton aria-label="Cambiar entre modo claro y oscuro">
+          <span class="tema-icono" aria-hidden="true"></span>
+        </button>
       </nav>
     </header>
     <main transition:animate="fade">
@@ -46,6 +59,21 @@ const actual = Astro.url.pathname;
   </body>
 </html>
 
+<script>
+  function iniciarTema() {
+    document.querySelector('[data-tema-boton]')?.addEventListener('click', () => {
+      const raiz = document.documentElement;
+      const oscuro = raiz.dataset.tema !== 'oscuro';
+      if (oscuro) raiz.dataset.tema = 'oscuro';
+      else delete raiz.dataset.tema;
+      try {
+        localStorage.setItem('tema', oscuro ? 'oscuro' : 'claro');
+      } catch {}
+    });
+  }
+  document.addEventListener('astro:page-load', iniciarTema);
+</script>
+
 <style is:global>
   :root {
     --papel: #f7f6f2;
@@ -56,25 +84,25 @@ const actual = Astro.url.pathname;
     --serif: 'Instrument Serif', Georgia, serif;
     --sans: 'Instrument Sans Variable', system-ui, sans-serif;
     --ancho: 760px;
-    color-scheme: light dark;
+    color-scheme: light;
   }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --papel: #131312;
-      --tinta: #ecebe5;
-      --suave: #9b9a93;
-      --linea: #2a2a27;
-      --resalte: #1f1f1d;
-    }
+  :root[data-tema='oscuro'] {
+    --papel: #131312;
+    --tinta: #ecebe5;
+    --suave: #9b9a93;
+    --linea: #2a2a27;
+    --resalte: #1f1f1d;
+    color-scheme: dark;
   }
   *, *::before, *::after { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
+  /* Mobile first: base para móvil, min-width para pantallas grandes */
   body {
     margin: 0;
     background: var(--papel);
     color: var(--tinta);
     font-family: var(--sans);
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.55;
     -webkit-font-smoothing: antialiased;
   }
@@ -85,10 +113,9 @@ const actual = Astro.url.pathname;
   }
   .cabecera {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 16px;
-    padding-block: 28px;
+    flex-direction: column;
+    gap: 4px;
+    padding-block: 18px 8px;
   }
   .marca {
     font-family: var(--serif);
@@ -97,10 +124,23 @@ const actual = Astro.url.pathname;
     text-decoration: none;
     letter-spacing: -0.01em;
   }
-  .cabecera nav { display: flex; gap: 20px; font-size: 15px; }
-  .cabecera nav a { color: var(--suave); text-decoration: none; transition: color 0.15s; }
+  .cabecera nav { display: flex; gap: 4px; margin-left: -10px; font-size: 15px; }
+  .cabecera nav a { color: var(--suave); text-decoration: none; padding: 10px; transition: color 0.15s; }
   .cabecera nav a:hover, .cabecera nav a[aria-current='page'] { color: var(--tinta); }
-  main { padding-bottom: 64px; }
+  .cabecera nav { align-items: center; }
+  .tema { margin-left: auto; background: none; border: 0; padding: 10px; cursor: pointer; color: var(--tinta); }
+  .tema-icono {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1.5px solid currentColor;
+    background: linear-gradient(90deg, currentColor 50%, transparent 50%);
+    transition: transform 0.3s ease;
+  }
+  [data-tema='oscuro'] .tema-icono { transform: rotate(180deg); }
+  body { transition: background-color 0.25s ease, color 0.25s ease; }
+  main { padding-bottom: 48px; }
   .pie {
     border-top: 1px solid var(--linea);
     padding-block: 24px 40px;
@@ -108,14 +148,19 @@ const actual = Astro.url.pathname;
     font-size: 14px;
   }
   h1, h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -0.015em; }
-  h1 { font-size: clamp(44px, 9vw, 76px); line-height: 1; margin: 24px 0 16px; }
-  h2 { font-size: 32px; line-height: 1.1; margin: 56px 0 12px; }
+  h1 { font-size: clamp(44px, 12vw, 76px); line-height: 1; margin: 20px 0 14px; }
+  h2 { font-size: 28px; line-height: 1.1; margin: 44px 0 10px; }
   a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; }
   .suave { color: var(--suave); }
   .cifra { font-variant-numeric: tabular-nums; }
   :focus-visible { outline: 2px solid var(--tinta); outline-offset: 3px; border-radius: 2px; }
-  @media (max-width: 520px) {
-    .cabecera { flex-direction: column; gap: 8px; padding-block: 20px; }
+  @media (min-width: 640px) {
+    body { font-size: 17px; }
+    .cabecera { flex-direction: row; justify-content: space-between; align-items: center; padding-block: 24px; }
+    .cabecera nav { margin-left: 0; margin-right: -10px; }
+    h1 { margin-top: 32px; }
+    h2 { font-size: 32px; margin-top: 56px; }
+    main { padding-bottom: 64px; }
   }
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; animation: none !important; }
