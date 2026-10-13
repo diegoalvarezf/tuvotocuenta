@@ -13,6 +13,7 @@ import { zodOutputFormat } from '@anthropic-ai/sdk/helpers/zod';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { z } from 'zod';
 import TEMAS from '../src/data/temas.json' with { type: 'json' };
+import { crearVerificador } from './lib/citas.mjs';
 
 const [entrada, partido, salida] = process.argv.slice(2);
 if (!entrada || !partido || !salida) {
@@ -46,23 +47,7 @@ const client = new Anthropic();
 const { paginas } = JSON.parse(readFileSync(entrada, 'utf8'));
 const PAGINAS_POR_BLOQUE = 12;
 
-// Normaliza para comparar citas: espacios, guiones de corte de línea, comillas y mayúsculas
-const normalizar = (s) =>
-  s
-    .replace(/-\s*\n\s*/g, '')
-    .replace(/[“”«»"]/g, '"')
-    .replace(/[‘’]/g, "'")
-    .replace(/\s+/g, ' ')
-    .trim()
-    .toLowerCase();
-const textoPagina = new Map(paginas.map((p) => [p.pagina, normalizar(p.texto)]));
-
-function verificar(p) {
-  const cita = normalizar(p.cita);
-  const aqui = textoPagina.get(p.pagina) ?? '';
-  const conSiguiente = `${aqui} ${textoPagina.get(p.pagina + 1) ?? ''}`;
-  return aqui.includes(cita) || conSiguiente.includes(cita);
-}
+const verificar = crearVerificador(paginas);
 
 const verificadas = [];
 const descartadas = [];
