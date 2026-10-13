@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+
+const secciones = [
+  { href: '/tu-voto', titulo: 'Tu voto en tu provincia', texto: 'Cuántos diputados elige tu provincia y cómo se convierte tu voto en escaños.' },
+  { href: '/votaciones', titulo: 'Lo que votaron', texto: 'Las votaciones clave de la última legislatura, explicadas en una frase.' },
+  { href: '/propuestas', titulo: 'Lo que proponen', texto: 'Compara por temas qué dice cada programa, con enlace a la fuente.' },
+];
+---
+
+<Base title="tuvotocuenta · Elecciones generales 2026">
+  <h1>Elecciones generales<br />29 de noviembre de 2026</h1>
+  <p class="intro">Sin ruido: qué proponen los partidos, qué votaron y cómo cuenta tu voto.</p>
+
+  <ul class="secciones">
+    {secciones.map((s) => (
+      <li>
+        <a href={s.href}>
+          <h2>{s.titulo}</h2>
+          <p>{s.texto}</p>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Base>
+
+<style>
+  h1 { font-size: 2rem; line-height: 1.2; margin: 24px 0 8px; }
+  .intro { color: var(--muted); font-size: 1.125rem; margin: 0 0 32px; }
+  .secciones { list-style: none; padding: 0; display: grid; gap: 12px; }
+  .secciones a {
+    display: block;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    text-decoration: none;
+  }
+  .secciones a:hover { border-color: var(--accent); }
+  .secciones h2 { font-size: 1.125rem; margin: 0 0 4px; }
+  .secciones p { margin: 0; color: var(--muted); }
+</style>
