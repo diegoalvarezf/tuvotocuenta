@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import Fuente from '../components/Fuente.astro';
 
 const CORREO = 'diegoalvarezfrancos@gmail.com';
 // Cambiar a true cuando el repositorio sea público
@@ -28,6 +29,23 @@ const REPO = 'https://github.com/diegoalvarezf/tuvotocuenta';
     </>
   )}
 
+  <h2>Qué hará la web</h2>
+  <ol class="etapas">
+    <li>
+      <strong>Antes del 29 de noviembre.</strong> Cómo cuenta tu voto en tu provincia, qué votó cada partido en la última legislatura y qué
+      propone en su programa.
+    </li>
+    <li>
+      <strong>Después de las elecciones.</strong> Los resultados explicados provincia a provincia y el seguimiento del mandato: qué se vota en
+      el Congreso y si coincide con lo que cada partido prometió en su programa.
+    </li>
+    <li>
+      <strong>En las próximas elecciones.</strong> Las municipales, y en buena parte de España también las autonómicas, se celebran el cuarto
+      domingo de mayo de 2027. La idea es ofrecer lo mismo para ellas.
+      <Fuente de="loreg" detalle="art. 42.3" />
+    </li>
+  </ol>
+
   <h2>Cómo garantizamos la neutralidad</h2>
   <ul class="lista">
     <li><strong>Solo fuentes oficiales.</strong> Ministerio del Interior, Congreso de los Diputados, BOE y los programas que publica cada partido.</li>
@@ -55,5 +73,7 @@ const REPO = 'https://github.com/diegoalvarezf/tuvotocuenta';
   .entradilla { font-size: 18px; margin: 0; }
   .lista { padding-left: 20px; margin: 0; }
   .lista li { margin-bottom: 10px; }
+  .etapas { padding-left: 20px; margin: 0; }
+  .etapas li { margin-bottom: 12px; }
   .autor { margin-top: 48px; font-size: 14px; }
 </style>
