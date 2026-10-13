@@ -2,6 +2,9 @@
 import Base from '../layouts/Base.astro';
 
 const CORREO = 'diegoalvarezfrancos@gmail.com';
+// Cambiar a true cuando el repositorio sea público
+const CODIGO_ABIERTO = false;
+const REPO = 'https://github.com/diegoalvarezf/tuvotocuenta';
 ---
 
 <Base title="Sobre el proyecto · tuvotocuenta" description="Quién hace tuvotocuenta, cómo garantizamos la neutralidad y cómo avisar de un error.">
@@ -25,6 +28,16 @@ const CORREO = 'diegoalvarezfrancos@gmail.com';
     <li><strong>No recomendamos a quién votar.</strong> Damos la información para que decidas tú.</li>
     <li><strong>Sin publicidad y sin rastreo.</strong> No hay anuncios, ni cookies, ni herramientas que sigan lo que haces en la web.</li>
   </ul>
+
+  {CODIGO_ABIERTO && (
+    <>
+      <h2>Código abierto</h2>
+      <p>
+        Todo el código y los scripts que obtienen los datos son públicos en <a href={REPO} target="_blank" rel="noopener">GitHub</a>, con licencia MIT.
+        Puedes comprobar cómo se calcula cada cifra, avisar de errores o proponer mejoras.
+      </p>
+    </>
+  )}
 
   <h2 id="errores">¿Has visto un error?</h2>
   <p>

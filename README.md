@@ -26,6 +26,7 @@ Todos los datos salen de fuentes oficiales mediante scripts en `scripts/`. Las d
 | Votaciones destacadas | `votaciones-destacadas.mjs` + `src/data/votaciones-seleccion.json` | Datos abiertos del Congreso |
 | PDF y CSV con todas las votaciones | `votaciones-descarga.mjs` | Datos abiertos del Congreso |
 | Texto de un programa por página | `programa-paginas.mjs` | PDF oficial del partido |
+| Imágenes para compartir (Open Graph) | `og.mjs` | Datos de la propia web |
 | Propuestas de un programa | `programa-extraer.mjs` (Claude + verificación de citas) | PDF oficial del partido |
 
 ```bash
@@ -45,3 +46,7 @@ node --env-file=.env scripts/programa-extraer.mjs paginas.json PSOE propuestas-p
 ```
 
 `programa-extraer.mjs` descarta cualquier propuesta cuya cita no aparezca literalmente en la página indicada del PDF. Las propuestas se guardan con `revisada: false` y la web solo publica las que una persona ha marcado como `revisada: true` tras comprobarlas.
+
+## Licencia
+
+Código bajo licencia [MIT](LICENSE). Los datos proceden de fuentes oficiales públicas (Ministerio del Interior, Congreso de los Diputados, BOE) y de los programas publicados por cada partido.
