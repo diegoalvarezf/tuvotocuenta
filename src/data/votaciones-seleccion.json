@@ -71,5 +71,66 @@
       "nombre": "Reglamento del Congreso de los Diputados, art. 112 (BOE)",
       "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196"
     }
+  },
+  {
+    "archivo": "20250910/sesion130votacion10.json",
+    "tema": "Trabajo y familia",
+    "nombre": "Reducción de la jornada laboral máxima",
+    "resumen": "Proyecto de ley del Gobierno para reducir la duración máxima de la jornada ordinaria de trabajo y garantizar el registro de jornada y el derecho a la desconexión. Junts, Vox y PP presentaron enmiendas para devolverlo al Gobierno; se votaron esas enmiendas.",
+    "siSignifica": "devolver el proyecto al Gobierno (no seguir tramitándolo)",
+    "nota": "Al aprobarse las enmiendas de devolución, el proyecto se devolvió al Gobierno y no continuó su tramitación.",
+    "notaFuente": {
+      "nombre": "Reglamento del Congreso de los Diputados, art. 112 (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196"
+    }
+  },
+  {
+    "archivo": "20240620/sesion49votacion19.json",
+    "tema": "Trabajo y familia",
+    "nombre": "Reforma del subsidio por desempleo",
+    "resumen": "Decreto ley del Gobierno con medidas para simplificar y mejorar el nivel asistencial de la protección por desempleo. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20250722/sesion128votacion17.json",
+    "tema": "Energía",
+    "nombre": "Refuerzo del sistema eléctrico",
+    "resumen": "Decreto ley del Gobierno con medidas urgentes para el refuerzo del sistema eléctrico. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20250617/sesion119votacion1.json",
+    "tema": "Energía",
+    "nombre": "Energía nuclear",
+    "resumen": "Proposición de ley del PP para garantizar la aportación de la energía nuclear en la descarbonización del sistema energético. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20250122/sesion89votacion2.json",
+    "tema": "Impuestos",
+    "nombre": "Impuesto temporal a las energéticas en 2025",
+    "resumen": "Decreto ley del Gobierno para establecer un gravamen temporal energético durante 2025. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20241210/sesion83votacion1.json",
+    "tema": "Sanidad",
+    "nombre": "Ratios de enfermeras",
+    "resumen": "Iniciativa legislativa popular (promovida con firmas de ciudadanos) sobre ratios de enfermeras para garantizar la seguridad del paciente en centros sanitarios. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20260915/sesion197votacion1.json",
+    "tema": "Defensa",
+    "nombre": "Reforma de la Ley de Defensa Nacional",
+    "resumen": "Proposición de ley orgánica de Vox para modificar la Ley Orgánica 5/2005 de la Defensa Nacional. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20250916/sesion131votacion1.json",
+    "tema": "Inmigración",
+    "nombre": "Restringir la regularización por arraigo",
+    "resumen": "Proposición de ley orgánica de Vox para modificar la ley de extranjería y restringir la regularización de inmigrantes en situación irregular a través del arraigo. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
   }
 ]
