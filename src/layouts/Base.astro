@@ -1,9 +1,21 @@
 ---
+import '@fontsource-variable/instrument-sans';
+import '@fontsource/instrument-serif';
+import '@fontsource/instrument-serif/400-italic.css';
+import { ClientRouter } from 'astro:transitions';
+
 interface Props {
   title: string;
   description?: string;
 }
-const { title, description = 'Entiende qué proponen los partidos, qué votaron y cómo cuenta tu voto.' } = Astro.props;
+const { title, description = 'Qué proponen los partidos, qué votaron y cómo cuenta tu voto en tu provincia.' } = Astro.props;
+
+const nav = [
+  { href: '/tu-voto', texto: 'Tu voto' },
+  { href: '/votaciones', texto: 'Votaciones' },
+  { href: '/propuestas', texto: 'Propuestas' },
+];
+const actual = Astro.url.pathname;
 ---
 
 <!doctype html>
@@ -14,54 +26,98 @@ const { title, description = 'Entiende qué proponen los partidos, qué votaron 
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
+    <ClientRouter />
   </head>
   <body>
-    <header>
-      <a href="/" class="logo">tuvotocuenta</a>
+    <header class="cabecera">
+      <a href="/" class="marca">tu<em>voto</em>cuenta</a>
+      <nav>
+        {nav.map((n) => (
+          <a href={n.href} aria-current={actual.startsWith(n.href) ? 'page' : undefined}>{n.texto}</a>
+        ))}
+      </nav>
     </header>
-    <main>
+    <main transition:animate="fade">
       <slot />
     </main>
-    <footer>
-      <p>Proyecto independiente. Datos de fuentes oficiales: Congreso, Ministerio del Interior y BOE.</p>
+    <footer class="pie">
+      <p>Proyecto independiente y sin afiliación política. Datos del Ministerio del Interior, el Congreso y el BOE.</p>
     </footer>
   </body>
 </html>
 
 <style is:global>
   :root {
-    --bg: #ffffff;
-    --text: #1a1a1a;
-    --muted: #666666;
-    --border: #e5e5e5;
-    --accent: #2563eb;
-    --radius: 12px;
+    --papel: #f7f6f2;
+    --tinta: #161615;
+    --suave: #6d6c66;
+    --linea: #e2e0d8;
+    --resalte: #ecebe4;
+    --serif: 'Instrument Serif', Georgia, serif;
+    --sans: 'Instrument Sans Variable', system-ui, sans-serif;
+    --ancho: 760px;
     color-scheme: light dark;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #121212;
-      --text: #ededed;
-      --muted: #a0a0a0;
-      --border: #2a2a2a;
-      --accent: #60a5fa;
+      --papel: #131312;
+      --tinta: #ecebe5;
+      --suave: #9b9a93;
+      --linea: #2a2a27;
+      --resalte: #1f1f1d;
     }
   }
-  * { box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
   body {
     margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: system-ui, -apple-system, sans-serif;
-    line-height: 1.6;
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
   }
-  header, main, footer {
-    max-width: 720px;
+  .cabecera, main, .pie {
+    max-width: var(--ancho);
     margin: 0 auto;
-    padding: 0 16px;
+    padding-inline: 20px;
   }
-  header { padding-top: 24px; padding-bottom: 24px; }
-  .logo { font-weight: 600; color: var(--text); text-decoration: none; }
-  footer { padding-top: 48px; padding-bottom: 32px; color: var(--muted); font-size: 14px; }
-  a { color: var(--accent); }
+  .cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    padding-block: 28px;
+  }
+  .marca {
+    font-family: var(--serif);
+    font-size: 24px;
+    color: var(--tinta);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+  .cabecera nav { display: flex; gap: 20px; font-size: 15px; }
+  .cabecera nav a { color: var(--suave); text-decoration: none; transition: color 0.15s; }
+  .cabecera nav a:hover, .cabecera nav a[aria-current='page'] { color: var(--tinta); }
+  main { padding-bottom: 64px; }
+  .pie {
+    border-top: 1px solid var(--linea);
+    padding-block: 24px 40px;
+    color: var(--suave);
+    font-size: 14px;
+  }
+  h1, h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -0.015em; }
+  h1 { font-size: clamp(44px, 9vw, 76px); line-height: 1; margin: 24px 0 16px; }
+  h2 { font-size: 32px; line-height: 1.1; margin: 56px 0 12px; }
+  a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  .suave { color: var(--suave); }
+  .cifra { font-variant-numeric: tabular-nums; }
+  :focus-visible { outline: 2px solid var(--tinta); outline-offset: 3px; border-radius: 2px; }
+  @media (max-width: 520px) {
+    .cabecera { flex-direction: column; gap: 8px; padding-block: 20px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
 </style>

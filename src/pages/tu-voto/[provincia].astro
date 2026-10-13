@@ -1,0 +1,208 @@
+---
+import Base from '../../layouts/Base.astro';
+import Escanos from '../../components/Escanos.astro';
+import { provincias, ultimoEscano, type Provincia } from '../../lib/provincias';
+import { color } from '../../lib/partidos';
+import { UMBRAL } from '../../lib/dhondt';
+
+export function getStaticPaths() {
+  return provincias.map((p) => ({ params: { provincia: p.slug }, props: { p } }));
+}
+
+const { p } = Astro.props as { p: Provincia };
+const n = (x: number) => x.toLocaleString('es-ES');
+const pct = (x: number) => (x * 100).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + ' %';
+
+const umbral = Math.ceil(p.votosValidos * UMBRAL);
+const principales = p.candidaturas.filter((c) => c.votos / p.votosValidos >= 0.01 || c.escanos > 0);
+const otros = p.candidaturas.filter((c) => !principales.includes(c)).reduce((s, c) => s + c.votos, 0);
+const ultimo = ultimoEscano(p);
+const diferencia = p.escanos2026 - p.escanos2023;
+const palabra = (x: number) => (x === 1 ? 'diputado' : 'diputados');
+
+// Lo mínimo para el simulador en el navegador
+const datos = {
+  escanos: p.escanos2026,
+  votosValidos: p.votosValidos,
+  candidaturas: principales.map((c) => ({ siglas: c.siglas, votos: c.votos, color: color(c.siglas) })),
+  otros,
+};
+---
+
+<Base title={`${p.nombre}: cómo cuenta tu voto · tuvotocuenta`} description={`${p.nombre} elige ${p.escanos2026} ${palabra(p.escanos2026)} el 29 de noviembre. Cómo se repartieron en 2023 y cuántos votos cuesta un escaño.`}>
+  <a href="/tu-voto" class="volver suave">← Todas las provincias</a>
+  <h1>{p.nombre}</h1>
+  <p class="entradilla">
+    Elige <strong>{p.escanos2026} {palabra(p.escanos2026)}</strong> el 29 de noviembre{
+      diferencia !== 0 && <span class="suave">, {Math.abs(diferencia)} {diferencia > 0 ? 'más' : 'menos'} que en 2023</span>
+    }.
+  </p>
+
+  <h2>Así se repartieron en 2023</h2>
+  <Escanos reparto={p.candidaturas} />
+
+  <table class="tabla">
+    <thead>
+      <tr><th>Candidatura</th><th class="num">Votos</th><th class="num">%</th><th class="num">Escaños</th></tr>
+    </thead>
+    <tbody>
+      {principales.map((c) => (
+        <tr class:list={{ fuera: c.votos < umbral }}>
+          <td><span class="punto" style={`--c:${color(c.siglas)}`}></span>{c.siglas}</td>
+          <td class="num cifra">{n(c.votos)}</td>
+          <td class="num cifra">{pct(c.votos / p.votosValidos)}</td>
+          <td class="num cifra">{c.escanos || '–'}</td>
+        </tr>
+      ))}
+      {otros > 0 && (
+        <tr class="fuera">
+          <td><span class="punto" style="--c:transparent"></span>Otras candidaturas</td>
+          <td class="num cifra">{n(otros)}</td>
+          <td class="num cifra">{pct(otros / p.votosValidos)}</td>
+          <td class="num cifra">–</td>
+        </tr>
+      )}
+    </tbody>
+  </table>
+
+  <h2>Lo que conviene saber</h2>
+  <dl class="datos">
+    <div>
+      <dt class="cifra">{n(Math.round(p.votosValidos / p.escanos2023))}</dt>
+      <dd>votos costó de media cada escaño en {p.nombre} en 2023.</dd>
+    </div>
+    <div>
+      <dt class="cifra">{n(umbral)}</dt>
+      <dd>votos, el 3 % de los válidos, era el mínimo para poder optar a un escaño.</dd>
+    </div>
+    {ultimo && (
+      <div>
+        <dt class="cifra">{n(ultimo.faltaron)}</dt>
+        <dd>votos más le habrían hecho falta a {ultimo.aspirante.siglas} para quitarle el último escaño a {ultimo.ganador.siglas}.</dd>
+      </div>
+    )}
+    <div>
+      <dt class="cifra">{pct(p.votantes / p.censo)}</dt>
+      <dd>del censo votó. El resto no influyó en el reparto.</dd>
+    </div>
+  </dl>
+
+  <h2>¿Y si cambian los votos?</h2>
+  <p class="suave">Mueve votos de una candidatura a otra y mira cómo quedarían los {p.escanos2026} escaños de 2026, partiendo de los votos de 2023.</p>
+
+  <div class="simulador" data-datos={JSON.stringify(datos)}>
+    <div class="controles">
+      <label>De <select name="de">{principales.map((c, i) => <option value={i} selected={i === 0}>{c.siglas}</option>)}</select></label>
+      <label>a <select name="a">{principales.map((c, i) => <option value={i} selected={i === 1}>{c.siglas}</option>)}</select></label>
+    </div>
+    <label class="deslizador">
+      <span>Mover <strong class="cifra" data-pct>0 %</strong> de sus votos <span class="suave cifra" data-votos></span></span>
+      <input type="range" name="pct" min="0" max="30" step="1" value="0" />
+    </label>
+    <div class="escanos" data-escanos aria-live="polite"></div>
+    <p class="cambio suave" data-cambio>Mueve el control para ver si cambia algún escaño.</p>
+  </div>
+
+  <p class="fuente suave">
+    Fuentes: resultados de 2023 del <a href="https://infoelectoral.interior.gob.es/">Ministerio del Interior</a>;
+    escaños de 2026 del <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742">Real Decreto 806/2026</a>.
+    Reparto según la ley D'Hondt con mínimo del 3 % (art. 163 de la LOREG).
+  </p>
+</Base>
+
+<script>
+  import { repartir } from '../../lib/dhondt';
+
+  interface Datos {
+    escanos: number;
+    votosValidos: number;
+    candidaturas: { siglas: string; votos: number; color: string }[];
+  }
+
+  function iniciar() {
+    const el = document.querySelector<HTMLElement>('.simulador');
+    if (!el) return;
+    const datos: Datos = JSON.parse(el.dataset.datos!);
+    const de = el.querySelector<HTMLSelectElement>('[name=de]')!;
+    const a = el.querySelector<HTMLSelectElement>('[name=a]')!;
+    const rango = el.querySelector<HTMLInputElement>('[name=pct]')!;
+    const caja = el.querySelector<HTMLElement>('[data-escanos]')!;
+    const cambio = el.querySelector<HTMLElement>('[data-cambio]')!;
+    const fmt = (x: number) => x.toLocaleString('es-ES');
+
+    const reparto = (votos: number[]) =>
+      repartir(votos.map((v, i) => ({ id: String(i), votos: v })), datos.escanos, datos.votosValidos);
+    const base = reparto(datos.candidaturas.map((c) => c.votos));
+
+    function pintar() {
+      const i = Number(de.value);
+      const j = Number(a.value);
+      const movidos = i === j ? 0 : Math.round((datos.candidaturas[i].votos * Number(rango.value)) / 100);
+      const votos = datos.candidaturas.map((c, k) => c.votos - (k === i ? movidos : 0) + (k === j ? movidos : 0));
+      const r = reparto(votos);
+
+      el!.querySelector('[data-pct]')!.textContent = `${rango.value} %`;
+      el!.querySelector('[data-votos]')!.textContent = movidos ? `(${fmt(movidos)} votos)` : '';
+
+      const asientos = datos.candidaturas.flatMap((c, k) => Array.from({ length: r.get(String(k))! }, () => c));
+      const puntos = [...caja.children] as HTMLElement[];
+      asientos.forEach((c, k) => {
+        const s = puntos[k] ?? caja.appendChild(document.createElement('span'));
+        s.style.setProperty('--c', c.color);
+        s.title = c.siglas;
+      });
+
+      const cambios = datos.candidaturas
+        .map((c, k) => ({ siglas: c.siglas, d: r.get(String(k))! - base.get(String(k))! }))
+        .filter((c) => c.d !== 0);
+      cambio.textContent = cambios.length
+        ? cambios.map((c) => `${c.siglas} ${c.d > 0 ? '+' : ''}${c.d}`).join(' · ')
+        : movidos
+          ? 'Con este cambio, el reparto sería el mismo.'
+          : 'Mueve el control para ver si cambia algún escaño.';
+    }
+
+    [de, a, rango].forEach((c) => c.addEventListener('input', pintar));
+    pintar();
+  }
+
+  document.addEventListener('astro:page-load', iniciar);
+</script>
+
+<style>
+  .volver { display: inline-block; margin-top: 24px; font-size: 15px; text-decoration: none; }
+  .volver:hover { color: var(--tinta); }
+  .entradilla { font-size: 22px; margin: 0; }
+  .entradilla strong { font-weight: 600; }
+
+  .tabla { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .tabla th { text-align: left; font-weight: 500; color: var(--suave); font-size: 13px; padding: 8px 0; border-bottom: 1px solid var(--linea); }
+  .tabla td { padding: 10px 0; border-bottom: 1px solid var(--linea); }
+  .tabla .num { text-align: right; padding-left: 12px; }
+  .tabla td:first-child { overflow-wrap: anywhere; }
+  .fuera td { color: var(--suave); }
+  .punto { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; }
+
+  .datos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px 32px; margin: 24px 0 0; }
+  .datos div { border-top: 1px solid var(--tinta); padding-top: 12px; }
+  .datos dt { font-family: var(--serif); font-size: 44px; line-height: 1; }
+  .datos dd { margin: 8px 0 0; color: var(--suave); font-size: 15px; }
+
+  .simulador { margin-top: 24px; padding: 24px; background: var(--resalte); border-radius: 14px; }
+  .controles { display: flex; gap: 16px; flex-wrap: wrap; }
+  .controles label { display: flex; align-items: center; gap: 8px; }
+  select {
+    font: inherit;
+    font-size: 15px;
+    color: var(--tinta);
+    background: var(--papel);
+    border: 1px solid var(--linea);
+    border-radius: 8px;
+    padding: 6px 10px;
+    max-width: 200px;
+  }
+  .deslizador { display: flex; flex-direction: column; gap: 10px; margin: 20px 0 4px; }
+  input[type='range'] { width: 100%; accent-color: var(--tinta); }
+  .cambio { margin: 0; min-height: 1.5em; }
+  .fuente { font-size: 13px; margin-top: 48px; }
+</style>

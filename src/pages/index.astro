@@ -2,41 +2,52 @@
 import Base from '../layouts/Base.astro';
 
 const secciones = [
-  { href: '/tu-voto', titulo: 'Tu voto en tu provincia', texto: 'Cuántos diputados elige tu provincia y cómo se convierte tu voto en escaños.' },
-  { href: '/votaciones', titulo: 'Lo que votaron', texto: 'Las votaciones clave de la última legislatura, explicadas en una frase.' },
-  { href: '/propuestas', titulo: 'Lo que proponen', texto: 'Compara por temas qué dice cada programa, con enlace a la fuente.' },
+  { href: '/tu-voto', titulo: 'Tu voto en tu provincia', texto: 'Cuántos diputados elige y cómo se convierten los votos en escaños.' },
+  { href: '/votaciones', titulo: 'Lo que votaron', texto: 'Las votaciones clave de la última legislatura, en una frase cada una.', pronto: true },
+  { href: '/propuestas', titulo: 'Lo que proponen', texto: 'Qué dice cada programa, tema a tema y con la página exacta.', pronto: true },
 ];
 ---
 
-<Base title="tuvotocuenta · Elecciones generales 2026">
-  <h1>Elecciones generales<br />29 de noviembre de 2026</h1>
-  <p class="intro">Sin ruido: qué proponen los partidos, qué votaron y cómo cuenta tu voto.</p>
+<Base title="tuvotocuenta · Elecciones generales del 29 de noviembre">
+  <p class="fecha suave">Elecciones generales · domingo 29 de noviembre de 2026</p>
+  <h1>Decide con datos,<br /><em>no con ruido.</em></h1>
+  <p class="entradilla">Qué proponen los partidos, qué votaron y cuánto pesa tu voto donde vives. Sin opiniones: todo con su fuente.</p>
 
-  <ul class="secciones">
-    {secciones.map((s) => (
+  <ol class="secciones">
+    {secciones.map((s, i) => (
       <li>
-        <a href={s.href}>
-          <h2>{s.titulo}</h2>
-          <p>{s.texto}</p>
+        <a href={s.pronto ? undefined : s.href} class:list={{ pronto: s.pronto }}>
+          <span class="num cifra">0{i + 1}</span>
+          <span class="texto">
+            <span class="titulo">{s.titulo}</span>
+            <span class="suave">{s.pronto ? 'Próximamente. ' : ''}{s.texto}</span>
+          </span>
+          {!s.pronto && <span class="flecha" aria-hidden="true">→</span>}
         </a>
       </li>
     ))}
-  </ul>
+  </ol>
 </Base>
 
 <style>
-  h1 { font-size: 2rem; line-height: 1.2; margin: 24px 0 8px; }
-  .intro { color: var(--muted); font-size: 1.125rem; margin: 0 0 32px; }
-  .secciones { list-style: none; padding: 0; display: grid; gap: 12px; }
+  .fecha { font-size: 14px; margin: 32px 0 0; }
+  h1 em { font-style: italic; }
+  .entradilla { font-size: 20px; max-width: 34ch; margin: 0 0 56px; }
+  .secciones { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
+  .secciones li { border-bottom: 1px solid var(--linea); }
   .secciones a {
-    display: block;
-    padding: 20px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    color: var(--text);
+    display: grid;
+    grid-template-columns: 48px 1fr auto;
+    gap: 16px;
+    align-items: baseline;
+    padding: 22px 0;
     text-decoration: none;
   }
-  .secciones a:hover { border-color: var(--accent); }
-  .secciones h2 { font-size: 1.125rem; margin: 0 0 4px; }
-  .secciones p { margin: 0; color: var(--muted); }
+  .num { color: var(--suave); font-size: 14px; }
+  .texto { display: flex; flex-direction: column; gap: 2px; }
+  .titulo { font-family: var(--serif); font-size: 28px; line-height: 1.15; }
+  .flecha { font-size: 22px; transition: transform 0.2s ease; }
+  a:not(.pronto):hover .flecha { transform: translateX(4px); }
+  .pronto { cursor: default; }
+  .pronto .titulo { color: var(--suave); }
 </style>

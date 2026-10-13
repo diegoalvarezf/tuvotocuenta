@@ -1,0 +1,75 @@
+---
+import Base from '../../layouts/Base.astro';
+import { provincias } from '../../lib/provincias';
+
+const lista = [...provincias].sort((a, b) => a.slug.localeCompare(b.slug, 'es'));
+const votosPorEscano = (p: (typeof provincias)[number]) => Math.round(p.votosValidos / p.escanos2023);
+const extremos = [...provincias].sort((a, b) => votosPorEscano(a) - votosPorEscano(b));
+const barato = extremos[0];
+const caro = extremos[extremos.length - 1];
+const n = (x: number) => x.toLocaleString('es-ES');
+---
+
+<Base title="Tu voto en tu provincia · tuvotocuenta">
+  <h1>Tu voto en<br /><em>tu provincia</em></h1>
+  <p class="entradilla">
+    No se vota a un presidente. Cada provincia elige sus propios diputados, y no todas eligen los mismos: en 2023, un escaño
+    costó {n(votosPorEscano(barato))} votos en {barato.nombre} y {n(votosPorEscano(caro))} en {caro.nombre}.
+  </p>
+
+  <label class="buscar">
+    <span class="suave">¿Dónde votas?</span>
+    <input type="search" placeholder="Escribe tu provincia" autocomplete="off" data-buscar />
+  </label>
+
+  <ul class="provincias" data-lista>
+    {lista.map((p) => (
+      <li data-nombre={`${p.nombre} ${p.slug}`.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '')}>
+        <a href={`/tu-voto/${p.slug}`}>
+          <span>{p.nombre}</span>
+          <span class="suave cifra">{p.escanos2026}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p class="suave nota">El número es el de diputados que elige cada provincia en 2026.</p>
+</Base>
+
+<script>
+  function iniciar() {
+    const input = document.querySelector<HTMLInputElement>('[data-buscar]');
+    const items = document.querySelectorAll<HTMLElement>('[data-lista] li');
+    if (!input) return;
+    input.addEventListener('input', () => {
+      const q = input.value.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').trim();
+      items.forEach((li) => (li.hidden = !!q && !li.dataset.nombre!.includes(q)));
+    });
+    input.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter') return;
+      const primero = [...items].find((li) => !li.hidden)?.querySelector('a');
+      primero?.click();
+    });
+  }
+  document.addEventListener('astro:page-load', iniciar);
+</script>
+
+<style>
+  h1 em { font-style: italic; }
+  .entradilla { font-size: 20px; max-width: 40ch; margin: 0 0 40px; }
+  .buscar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
+  input[type='search'] {
+    font: inherit;
+    font-size: 20px;
+    color: var(--tinta);
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--tinta);
+    padding: 8px 0;
+    border-radius: 0;
+  }
+  input[type='search']:focus { outline: none; border-bottom-width: 2px; }
+  .provincias { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); column-gap: 32px; }
+  .provincias a { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--linea); text-decoration: none; transition: padding 0.15s ease; }
+  .provincias a:hover { padding-left: 6px; }
+  .nota { font-size: 13px; margin-top: 16px; }
+</style>

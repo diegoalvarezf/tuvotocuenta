@@ -1,0 +1,24 @@
+---
+import { color } from '../lib/partidos';
+
+interface Props {
+  reparto: { siglas: string; escanos: number }[];
+}
+const { reparto } = Astro.props;
+const asientos = reparto.flatMap((r) => Array.from({ length: r.escanos }, () => r.siglas));
+---
+
+<div class="escanos" role="img" aria-label={reparto.filter((r) => r.escanos > 0).map((r) => `${r.siglas}: ${r.escanos}`).join(', ')}>
+  {asientos.map((s) => <span style={`--c:${color(s)}`} title={s}></span>)}
+</div>
+
+<style is:global>
+  .escanos { display: flex; flex-wrap: wrap; gap: 6px; margin: 20px 0; }
+  .escanos span {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--c);
+    transition: background-color 0.35s ease;
+  }
+</style>

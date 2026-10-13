@@ -9,6 +9,15 @@ Web neutral y simple para entender las elecciones generales del 29-11-2026. Ver 
 - Datos en `src/data/` (JSON). Scripts de obtención/procesado de datos en `scripts/`.
 - Textos de la web en español.
 
+## Diseño
+
+Claro, limpio, moderno y fluido; que no parezca hecho con IA:
+- Estilo editorial: Instrument Serif para titulares y cifras grandes, Instrument Sans para el texto. Fondo papel, tinta casi negra.
+- Nada de rejillas de tarjetas con iconos, degradados, emojis ni sombras. Separar con líneas finas y espacio.
+- El color solo aparece en los datos (partidos). La interfaz es monocroma.
+- Transiciones suaves entre páginas (ClientRouter de Astro) y microanimaciones discretas; respetar `prefers-reduced-motion`.
+- Pensado primero para móvil; modo oscuro automático.
+
 ## Stack
 
 Astro + TypeScript estricto, estático, despliegue en Vercel.
