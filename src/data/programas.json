@@ -1,0 +1,79 @@
+[
+  {
+    "siglas": "PP",
+    "corto": "PP",
+    "nombre": "Partido Popular",
+    "web": "https://www.pp.es",
+    "programa": null
+  },
+  {
+    "siglas": "PSOE",
+    "corto": "PSOE",
+    "nombre": "Partido Socialista Obrero Español",
+    "web": "https://www.psoe.es",
+    "programa": null
+  },
+  {
+    "siglas": "VOX",
+    "corto": "Vox",
+    "nombre": "Vox",
+    "web": "https://www.voxespana.es",
+    "programa": null
+  },
+  {
+    "siglas": "SUMAR",
+    "corto": "Sumar",
+    "nombre": "Sumar",
+    "web": "https://movimientosumar.es",
+    "programa": null
+  },
+  {
+    "siglas": "ERC",
+    "corto": "ERC",
+    "nombre": "Esquerra Republicana de Catalunya",
+    "web": "https://www.esquerra.cat",
+    "programa": null
+  },
+  {
+    "siglas": "JUNTS",
+    "corto": "Junts",
+    "nombre": "Junts per Catalunya",
+    "web": "https://junts.cat",
+    "programa": null
+  },
+  {
+    "siglas": "EH Bildu",
+    "corto": "EH Bildu",
+    "nombre": "EH Bildu",
+    "web": "https://ehbildu.eus",
+    "programa": null
+  },
+  {
+    "siglas": "EAJ-PNV",
+    "corto": "PNV",
+    "nombre": "Partido Nacionalista Vasco",
+    "web": "https://www.eaj-pnv.eus",
+    "programa": null
+  },
+  {
+    "siglas": "B.N.G.",
+    "corto": "BNG",
+    "nombre": "Bloque Nacionalista Galego",
+    "web": "https://www.bng.gal",
+    "programa": null
+  },
+  {
+    "siglas": "CCa",
+    "corto": "Coalición Canaria",
+    "nombre": "Coalición Canaria",
+    "web": "https://coalicioncanaria.org",
+    "programa": null
+  },
+  {
+    "siglas": "U.P.N.",
+    "corto": "UPN",
+    "nombre": "Unión del Pueblo Navarro",
+    "web": "https://www.upn.org",
+    "programa": null
+  }
+]

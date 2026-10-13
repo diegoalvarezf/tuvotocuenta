@@ -25,6 +25,8 @@ Todos los datos salen de fuentes oficiales mediante scripts en `scripts/`. Las d
 | Todas las votaciones del Pleno (XV) | `congreso-votaciones.mjs` | Datos abiertos del Congreso |
 | Votaciones destacadas | `votaciones-destacadas.mjs` + `src/data/votaciones-seleccion.json` | Datos abiertos del Congreso |
 | PDF y CSV con todas las votaciones | `votaciones-descarga.mjs` | Datos abiertos del Congreso |
+| Texto de un programa por página | `programa-paginas.mjs` | PDF oficial del partido |
+| Propuestas de un programa | `programa-extraer.mjs` (Claude + verificación de citas) | PDF oficial del partido |
 
 ```bash
 CACHE=/ruta/a/cache/congreso
@@ -34,3 +36,12 @@ node scripts/votaciones-descarga.mjs $CACHE
 ```
 
 Los scripts comprueban los datos al generarlos (350 escaños, sumas de votos por grupo iguales al total oficial) y fallan si algo no cuadra.
+
+### Programas electorales
+
+```bash
+node scripts/programa-paginas.mjs programa.pdf paginas.json
+node --env-file=.env scripts/programa-extraer.mjs paginas.json PSOE propuestas-psoe.json
+```
+
+`programa-extraer.mjs` descarta cualquier propuesta cuya cita no aparezca literalmente en la página indicada del PDF. Las propuestas se guardan con `revisada: false` y la web solo publica las que una persona ha marcado como `revisada: true` tras comprobarlas.
