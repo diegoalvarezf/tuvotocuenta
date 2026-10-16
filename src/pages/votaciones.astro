@@ -2,10 +2,10 @@
 import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
 import Coincidencias from '../components/Coincidencias.astro';
-import Decretos from '../components/Decretos.astro';
 import Carrusel from '../components/Carrusel.astro';
 import votaciones from '../data/votaciones.json';
 import pendientes from '../data/decretos-pendientes.json';
+import decretos from '../data/decretos.json';
 import programas2023 from '../data/programas-2023.json';
 import citas2023 from '../data/votaciones-programas-2023.json';
 import { color, colorGrupo } from '../lib/partidos';
@@ -18,6 +18,7 @@ const citasDe = (id: string) => (citas2023 as Record<string, { partido: keyof ty
 const VOTO: Record<string, string> = { si: 'Sí', no: 'No', abstencion: 'Abstención', noVota: 'No vota', dividido: 'Dividido' };
 const temas = [...new Set(votaciones.map((v) => v.tema))].sort((a, b) => a.localeCompare(b, 'es'));
 const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
+const derogados = decretos.filter((d) => d.resultado === 'derogado');
 ---
 
 <Base title="Lo que votaron · tuvotocuenta" description="Votaciones clave del Congreso en la legislatura 2023-2026: qué se votó y qué votó cada grupo, con el acta oficial.">
@@ -31,10 +32,20 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
     <a href="/descargas/votaciones-xv-legislatura.csv" download>en CSV</a>.
   </p>
   <Fuente de="votacionesCongreso" />
+  <details class="derogados">
+    <summary>El Congreso tumbó {derogados.length} de los {decretos.length} decretos ley del Gobierno en la legislatura</summary>
+    <ul>
+      {derogados.map((d) => (
+        <li>
+          <span class="suave">{fecha(d.votacion)} · </span>{d.titulo.charAt(0).toUpperCase() + d.titulo.slice(1)}.
+          <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de derogación del {d.nombre} (BOE)</a></span>
+        </li>
+      ))}
+    </ul>
+  </details>
 
-  <Carrusel etiqueta="Gráficos de la legislatura" titulos={['¿Con quién votó?', 'Decretos']}>
+  <Carrusel etiqueta="Gráficos de la legislatura" titulos={['¿Con quién votó?']}>
     <Coincidencias />
-    <Decretos />
   </Carrusel>
 
   {pendientes.some((d) => !d.resultado) && (
@@ -313,6 +324,11 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
     transition: background-color 0.15s, color 0.15s;
   }
   .temas button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+
+  .derogados { margin: 14px 0 0; font-size: 15px; }
+  .derogados summary { cursor: pointer; padding: 4px 0; }
+  .derogados ul { list-style: none; margin: 6px 0 0; padding: 0; }
+  .derogados li { padding: 8px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
 
   .pendientes { margin: 32px 0 0; padding: 18px 18px 6px; background: var(--resalte); border-radius: 14px; }
   .pendientes h2 { margin: 0 0 6px; font-size: 26px; }
