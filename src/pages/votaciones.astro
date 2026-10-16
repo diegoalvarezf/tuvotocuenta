@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
 import votaciones from '../data/votaciones.json';
+import pendientes from '../data/decretos-pendientes.json';
 import { colorGrupo } from '../lib/partidos';
 
 const n = (x: number) => x.toLocaleString('es-ES');
@@ -23,6 +24,26 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
     <a href="/descargas/votaciones-xv-legislatura.csv" download>en CSV</a>.
   </p>
   <Fuente de="votacionesCongreso" />
+
+  {pendientes.some((d) => !d.resultado) && (
+    <section class="pendientes" aria-labelledby="pendientes-titulo">
+      <h2 id="pendientes-titulo">Pendientes de votar</h2>
+      <p>
+        Decretos ley aprobados por el Gobierno después de disolverse las Cortes. Con el Congreso disuelto, los vota su Diputación Permanente,
+        que debe decidir en los 30 días siguientes si se mantienen o se derogan.
+      </p>
+      <Fuente de="constitucion" detalle="arts. 78.2 y 86.2" />
+      <ul>
+        {pendientes.filter((d) => !d.resultado).map((d) => (
+          <li>
+            <p class="meta suave"><time datetime={d.fecha}>{fecha(d.fecha)}</time> · {d.tema}</p>
+            <p class="titulo-pendiente">{d.titulo}</p>
+            <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">{d.nombre} (BOE)</a></span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <nav class="temas" aria-label="Filtrar por tema" data-temas>
     <button type="button" aria-pressed="true" data-tema="">Todas</button>
@@ -263,6 +284,13 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
     transition: background-color 0.15s, color 0.15s;
   }
   .temas button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+
+  .pendientes { margin: 32px 0 0; padding: 18px 18px 6px; background: var(--resalte); border-radius: 14px; }
+  .pendientes h2 { margin: 0 0 6px; font-size: 26px; }
+  .pendientes > p { margin: 0; font-size: 15px; }
+  .pendientes ul { list-style: none; margin: 12px 0 0; padding: 0; }
+  .pendientes li { padding: 12px 0; border-top: 1px solid var(--linea); }
+  .titulo-pendiente { margin: 2px 0 0; }
 
   .lista { list-style: none; margin: 0; padding: 0; }
   .votacion { scroll-margin-top: 16px; }

@@ -23,3 +23,11 @@ test('cada votación enlaza a su acta oficial del Congreso', () => {
     assert.ok(v.resumen && v.siSignifica, `${v.nombre}: falta resumen o qué significa votar sí`);
   }
 });
+
+test('cada decreto pendiente de votar enlaza a su texto en el BOE', async () => {
+  const { default: pendientes } = await import('../src/data/decretos-pendientes.json', { with: { type: 'json' } });
+  for (const d of pendientes) {
+    assert.match(d.boe, /^https:\/\/www\.boe\.es\/diario_boe\/txt\.php\?id=BOE-A-\d{4}-\d+$/, d.nombre);
+    assert.match(d.nombre, /^Real Decreto-ley \d+\/\d{4}$/);
+  }
+});
