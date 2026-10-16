@@ -56,3 +56,13 @@ test('la coincidencia de voto entre grupos es simétrica y coherente', async () 
     assert.equal(x.porcentaje, Math.round((x.iguales / x.votaciones) * 1000) / 10, clave);
   }
 });
+
+test('cada decreto ley tiene su resultado oficial en el BOE', async () => {
+  const { default: decretos } = await import('../src/data/decretos.json', { with: { type: 'json' } });
+  assert.ok(decretos.length > 0);
+  for (const d of decretos) {
+    assert.ok(['convalidado', 'derogado'].includes(d.resultado), d.nombre);
+    assert.match(d.boe, /^https:\/\/www\.boe\.es\/diario_boe\/txt\.php\?id=BOE-A-\d{4}-\d+$/, d.nombre);
+  }
+  assert.equal(new Set(decretos.map((d) => d.nombre)).size, decretos.length, 'decretos repetidos');
+});
