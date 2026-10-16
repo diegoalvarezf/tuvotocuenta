@@ -2,8 +2,6 @@
 import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
 import Coincidencias from '../components/Coincidencias.astro';
-import Carrusel from '../components/Carrusel.astro';
-import PrometidoVotado from '../components/PrometidoVotado.astro';
 import votaciones from '../data/votaciones.json';
 import pendientes from '../data/decretos-pendientes.json';
 import decretos from '../data/decretos.json';
@@ -45,10 +43,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
     </ul>
   </details>
 
-  <Carrusel etiqueta="Gráficos de la legislatura" titulos={['¿Con quién votó?', 'Lo prometido y lo votado']}>
-    <Coincidencias />
-    <PrometidoVotado />
-  </Carrusel>
+  <Coincidencias />
 
   {pendientes.some((d) => !d.resultado) && (
     <section class="pendientes" aria-labelledby="pendientes-titulo">
