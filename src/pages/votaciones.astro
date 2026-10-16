@@ -3,11 +3,15 @@ import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
 import votaciones from '../data/votaciones.json';
 import pendientes from '../data/decretos-pendientes.json';
-import { colorGrupo } from '../lib/partidos';
+import programas2023 from '../data/programas-2023.json';
+import citas2023 from '../data/votaciones-programas-2023.json';
+import { color, colorGrupo } from '../lib/partidos';
 
 const n = (x: number) => x.toLocaleString('es-ES');
 const fecha = (f: string) =>
   new Date(f + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+// Citas de los programas de 2023 relacionadas con cada votación (clave: fichero de la votación)
+const citasDe = (id: string) => (citas2023 as Record<string, { partido: keyof typeof programas2023; pagina: number; cita: string }[]>)[id.replace('-', '/') + '.json'] ?? [];
 const VOTO: Record<string, string> = { si: 'Sí', no: 'No', abstencion: 'Abstención', noVota: 'No vota', dividido: 'Dividido' };
 const temas = [...new Set(votaciones.map((v) => v.tema))].sort((a, b) => a.localeCompare(b, 'es'));
 const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
@@ -119,6 +123,23 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
             </li>
           ))}
         </ul>
+
+        {citasDe(v.id).length > 0 && (
+          <section class="programa2023">
+            <h3>Dentro del programa de 2023</h3>
+            <ul>
+              {citasDe(v.id).map((c) => (
+                <li>
+                  <p class="partido-cita"><span class="punto" style={`--c:${color(c.partido)}`}></span>{programas2023[c.partido].corto}</p>
+                  <blockquote>«{c.cita}»</blockquote>
+                  <span class="fuente-nota">
+                    Fuente: <a href={`${programas2023[c.partido].url}#page=${c.pagina}`} target="_blank" rel="noopener">{programas2023[c.partido].titulo}, página {c.pagina}</a>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <details class="mixto">
           <summary>Grupo Mixto, diputado a diputado</summary>
@@ -415,6 +436,13 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
   .voto.no, .voto.abstencion, .voto.noVota, .voto.dividido { font-weight: 500; }
   .voto.abstencion, .voto.noVota { color: var(--suave); }
   .detalle { grid-column: 1 / -1; font-size: 13px; padding-left: 20px; }
+
+  .programa2023 { margin-top: 20px; padding-top: 4px; }
+  .programa2023 h3 { font-family: var(--serif); font-weight: 400; font-size: 22px; margin: 0 0 4px; }
+  .programa2023 ul { list-style: none; margin: 0; padding: 0; }
+  .programa2023 li { padding: 10px 0; border-bottom: 1px solid var(--linea); }
+  .partido-cita { display: flex; align-items: center; margin: 0 0 4px; font-weight: 600; font-size: 15px; }
+  .programa2023 blockquote { margin: 0; font-size: 15px; color: var(--tinta); }
 
   .mixto { margin-top: 12px; font-size: 15px; }
   .mixto summary { cursor: pointer; padding: 8px 0; }

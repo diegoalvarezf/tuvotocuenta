@@ -31,3 +31,16 @@ test('cada decreto pendiente de votar enlaza a su texto en el BOE', async () => 
     assert.match(d.nombre, /^Real Decreto-ley \d+\/\d{4}$/);
   }
 });
+
+test('las citas de los programas de 2023 apuntan a votaciones existentes y a programas conocidos', async () => {
+  const { default: citas } = await import('../src/data/votaciones-programas-2023.json', { with: { type: 'json' } });
+  const { default: programas } = await import('../src/data/programas-2023.json', { with: { type: 'json' } });
+  const ids = new Set(votaciones.map((v) => v.id.replace('-', '/') + '.json'));
+  for (const [archivo, lista] of Object.entries(citas)) {
+    assert.ok(ids.has(archivo), `votación inexistente: ${archivo}`);
+    for (const c of lista) {
+      assert.ok(programas[c.partido], `programa desconocido: ${c.partido}`);
+      assert.ok(Number.isInteger(c.pagina) && c.pagina > 0 && c.cita.trim().length > 20, `${archivo}: cita o página no válida`);
+    }
+  }
+});

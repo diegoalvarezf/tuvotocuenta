@@ -30,6 +30,11 @@ test('rechaza una cita atribuida a otra página', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 90%', pagina: 3 }), false);
 });
 
+test('acepta una cita aunque el PDF codifique las tildes de otra forma (a + tilde combinada)', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'Se avanza\u0301 en la eliminacio\u0301n del copago.' }]);
+  assert.ok(pdf({ cita: 'Se avanzá en la eliminación del copago.', pagina: 1 }));
+});
+
 test('rechaza una cita vacía', () => {
   assert.equal(verificar({ cita: '  ', pagina: 2 }), false);
 });
