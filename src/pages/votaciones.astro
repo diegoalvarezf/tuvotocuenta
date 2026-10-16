@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
 import Coincidencias from '../components/Coincidencias.astro';
 import Decretos from '../components/Decretos.astro';
+import Carrusel from '../components/Carrusel.astro';
 import votaciones from '../data/votaciones.json';
 import pendientes from '../data/decretos-pendientes.json';
 import programas2023 from '../data/programas-2023.json';
@@ -31,8 +32,10 @@ const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
   </p>
   <Fuente de="votacionesCongreso" />
 
-  <Coincidencias />
-  <Decretos />
+  <Carrusel etiqueta="Gráficos de la legislatura" titulos={['¿Con quién votó?', 'Decretos']}>
+    <Coincidencias />
+    <Decretos />
+  </Carrusel>
 
   {pendientes.some((d) => !d.resultado) && (
     <section class="pendientes" aria-labelledby="pendientes-titulo">
