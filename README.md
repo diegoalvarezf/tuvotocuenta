@@ -25,6 +25,7 @@ Todos los datos salen de fuentes oficiales mediante scripts en `scripts/`. Las d
 | Todas las votaciones del Pleno (XV) | `congreso-votaciones.mjs` | Datos abiertos del Congreso |
 | Votaciones destacadas | `votaciones-destacadas.mjs` + `src/data/votaciones-seleccion.json` | Datos abiertos del Congreso |
 | Citas de los programas de 2023 por votación | `src/data/votaciones-programas-2023.json` (verificadas con `scripts/lib/citas.mjs` contra los PDF oficiales) | Programas de Sumar, PSOE, PP y Vox (2023) |
+| Coincidencia de voto entre grupos | `coincidencias.mjs` | Datos abiertos del Congreso (las 2.175 votaciones) |
 | PDF y CSV con todas las votaciones | `votaciones-descarga.mjs` | Datos abiertos del Congreso |
 | Texto de un programa por página | `programa-paginas.mjs` | PDF oficial del partido |
 | Resultados del 29 de noviembre | `resultados-2026.mjs` | Ministerio del Interior (avance de la noche electoral y escrutinio) |

@@ -1,0 +1,447 @@
+{
+  "total": 2175,
+  "desde": "20230919",
+  "hasta": "20260930",
+  "grupos": [
+    {
+      "codigo": "GS",
+      "nombre": "Socialista",
+      "con": [
+        {
+          "codigo": "GSUMAR",
+          "nombre": "Sumar",
+          "votaciones": 2173,
+          "iguales": 1806,
+          "porcentaje": 83.1
+        },
+        {
+          "codigo": "GV (EAJ-PNV)",
+          "nombre": "Vasco (PNV)",
+          "votaciones": 2147,
+          "iguales": 1607,
+          "porcentaje": 74.8
+        },
+        {
+          "codigo": "GEH Bildu",
+          "nombre": "EH Bildu",
+          "votaciones": 2167,
+          "iguales": 1450,
+          "porcentaje": 66.9
+        },
+        {
+          "codigo": "GR",
+          "nombre": "Republicano (ERC)",
+          "votaciones": 2169,
+          "iguales": 1406,
+          "porcentaje": 64.8
+        },
+        {
+          "codigo": "GJxCAT",
+          "nombre": "Junts",
+          "votaciones": 2152,
+          "iguales": 1339,
+          "porcentaje": 62.2
+        },
+        {
+          "codigo": "GP",
+          "nombre": "Popular",
+          "votaciones": 2171,
+          "iguales": 842,
+          "porcentaje": 38.8
+        },
+        {
+          "codigo": "GVOX",
+          "nombre": "Vox",
+          "votaciones": 2171,
+          "iguales": 645,
+          "porcentaje": 29.7
+        }
+      ]
+    },
+    {
+      "codigo": "GP",
+      "nombre": "Popular",
+      "con": [
+        {
+          "codigo": "GVOX",
+          "nombre": "Vox",
+          "votaciones": 2171,
+          "iguales": 1356,
+          "porcentaje": 62.5
+        },
+        {
+          "codigo": "GS",
+          "nombre": "Socialista",
+          "votaciones": 2171,
+          "iguales": 842,
+          "porcentaje": 38.8
+        },
+        {
+          "codigo": "GJxCAT",
+          "nombre": "Junts",
+          "votaciones": 2150,
+          "iguales": 819,
+          "porcentaje": 38.1
+        },
+        {
+          "codigo": "GV (EAJ-PNV)",
+          "nombre": "Vasco (PNV)",
+          "votaciones": 2145,
+          "iguales": 807,
+          "porcentaje": 37.6
+        },
+        {
+          "codigo": "GSUMAR",
+          "nombre": "Sumar",
+          "votaciones": 2171,
+          "iguales": 684,
+          "porcentaje": 31.5
+        },
+        {
+          "codigo": "GR",
+          "nombre": "Republicano (ERC)",
+          "votaciones": 2167,
+          "iguales": 565,
+          "porcentaje": 26.1
+        },
+        {
+          "codigo": "GEH Bildu",
+          "nombre": "EH Bildu",
+          "votaciones": 2165,
+          "iguales": 493,
+          "porcentaje": 22.8
+        }
+      ]
+    },
+    {
+      "codigo": "GVOX",
+      "nombre": "Vox",
+      "con": [
+        {
+          "codigo": "GP",
+          "nombre": "Popular",
+          "votaciones": 2171,
+          "iguales": 1356,
+          "porcentaje": 62.5
+        },
+        {
+          "codigo": "GS",
+          "nombre": "Socialista",
+          "votaciones": 2171,
+          "iguales": 645,
+          "porcentaje": 29.7
+        },
+        {
+          "codigo": "GJxCAT",
+          "nombre": "Junts",
+          "votaciones": 2150,
+          "iguales": 622,
+          "porcentaje": 28.9
+        },
+        {
+          "codigo": "GV (EAJ-PNV)",
+          "nombre": "Vasco (PNV)",
+          "votaciones": 2145,
+          "iguales": 589,
+          "porcentaje": 27.5
+        },
+        {
+          "codigo": "GSUMAR",
+          "nombre": "Sumar",
+          "votaciones": 2171,
+          "iguales": 472,
+          "porcentaje": 21.7
+        },
+        {
+          "codigo": "GR",
+          "nombre": "Republicano (ERC)",
+          "votaciones": 2167,
+          "iguales": 367,
+          "porcentaje": 16.9
+        },
+        {
+          "codigo": "GEH Bildu",
+          "nombre": "EH Bildu",
+          "votaciones": 2165,
+          "iguales": 332,
+          "porcentaje": 15.3
+        }
+      ]
+    },
+    {
+      "codigo": "GSUMAR",
+      "nombre": "Sumar",
+      "con": [
+        {
+          "codigo": "GS",
+          "nombre": "Socialista",
+          "votaciones": 2173,
+          "iguales": 1806,
+          "porcentaje": 83.1
+        },
+        {
+          "codigo": "GEH Bildu",
+          "nombre": "EH Bildu",
+          "votaciones": 2167,
+          "iguales": 1706,
+          "porcentaje": 78.7
+        },
+        {
+          "codigo": "GR",
+          "nombre": "Republicano (ERC)",
+          "votaciones": 2169,
+          "iguales": 1584,
+          "porcentaje": 73
+        },
+        {
+          "codigo": "GV (EAJ-PNV)",
+          "nombre": "Vasco (PNV)",
+          "votaciones": 2147,
+          "iguales": 1503,
+          "porcentaje": 70
+        },
+        {
+          "codigo": "GJxCAT",
+          "nombre": "Junts",
+          "votaciones": 2152,
+          "iguales": 1296,
+          "porcentaje": 60.2
+        },
+        {
+          "codigo": "GP",
+          "nombre": "Popular",
+          "votaciones": 2171,
+          "iguales": 684,
+          "porcentaje": 31.5
+        },
+        {
+          "codigo": "GVOX",
+          "nombre": "Vox",
+          "votaciones": 2171,
+          "iguales": 472,
+          "porcentaje": 21.7
+        }
+      ]
+    },
+    {
+      "codigo": "GR",
+      "nombre": "Republicano (ERC)",
+      "con": [
+        {
+          "codigo": "GEH Bildu",
+          "nombre": "EH Bildu",
+          "votaciones": 2167,
+          "iguales": 1836,
+          "porcentaje": 84.7
+        },
+        {
+          "codigo": "GSUMAR",
+          "nombre": "Sumar",
+          "votaciones": 2169,
+          "iguales": 1584,
+          "porcentaje": 73
+        },
+        {
+          "codigo": "GJxCAT",
+          "nombre": "Junts",
+          "votaciones": 2148,
+          "iguales": 1436,
+          "porcentaje": 66.9
+        },
+        {
+          "codigo": "GS",
+          "nombre": "Socialista",
+          "votaciones": 2169,
+          "iguales": 1406,
+          "porcentaje": 64.8
+        },
+        {
+          "codigo": "GV (EAJ-PNV)",
+          "nombre": "Vasco (PNV)",
+          "votaciones": 2143,
+          "iguales": 1373,
+          "porcentaje": 64.1
+        },
+        {
+          "codigo": "GP",
+          "nombre": "Popular",
+          "votaciones": 2167,
+          "iguales": 565,
+          "porcentaje": 26.1
+        },
+        {
+          "codigo": "GVOX",
+          "nombre": "Vox",
+          "votaciones": 2167,
+          "iguales": 367,
+          "porcentaje": 16.9
+        }
+      ]
+    },
+    {
+      "codigo": "GJxCAT",
+      "nombre": "Junts",
+      "con": [
+        {
+          "codigo": "GV (EAJ-PNV)",
+          "nombre": "Vasco (PNV)",
+          "votaciones": 2126,
+          "iguales": 1426,
+          "porcentaje": 67.1
+        },
+        {
+          "codigo": "GR",
+          "nombre": "Republicano (ERC)",
+          "votaciones": 2148,
+          "iguales": 1436,
+          "porcentaje": 66.9
+        },
+        {
+          "codigo": "GEH Bildu",
+          "nombre": "EH Bildu",
+          "votaciones": 2147,
+          "iguales": 1376,
+          "porcentaje": 64.1
+        },
+        {
+          "codigo": "GS",
+          "nombre": "Socialista",
+          "votaciones": 2152,
+          "iguales": 1339,
+          "porcentaje": 62.2
+        },
+        {
+          "codigo": "GSUMAR",
+          "nombre": "Sumar",
+          "votaciones": 2152,
+          "iguales": 1296,
+          "porcentaje": 60.2
+        },
+        {
+          "codigo": "GP",
+          "nombre": "Popular",
+          "votaciones": 2150,
+          "iguales": 819,
+          "porcentaje": 38.1
+        },
+        {
+          "codigo": "GVOX",
+          "nombre": "Vox",
+          "votaciones": 2150,
+          "iguales": 622,
+          "porcentaje": 28.9
+        }
+      ]
+    },
+    {
+      "codigo": "GEH Bildu",
+      "nombre": "EH Bildu",
+      "con": [
+        {
+          "codigo": "GR",
+          "nombre": "Republicano (ERC)",
+          "votaciones": 2167,
+          "iguales": 1836,
+          "porcentaje": 84.7
+        },
+        {
+          "codigo": "GSUMAR",
+          "nombre": "Sumar",
+          "votaciones": 2167,
+          "iguales": 1706,
+          "porcentaje": 78.7
+        },
+        {
+          "codigo": "GS",
+          "nombre": "Socialista",
+          "votaciones": 2167,
+          "iguales": 1450,
+          "porcentaje": 66.9
+        },
+        {
+          "codigo": "GJxCAT",
+          "nombre": "Junts",
+          "votaciones": 2147,
+          "iguales": 1376,
+          "porcentaje": 64.1
+        },
+        {
+          "codigo": "GV (EAJ-PNV)",
+          "nombre": "Vasco (PNV)",
+          "votaciones": 2141,
+          "iguales": 1373,
+          "porcentaje": 64.1
+        },
+        {
+          "codigo": "GP",
+          "nombre": "Popular",
+          "votaciones": 2165,
+          "iguales": 493,
+          "porcentaje": 22.8
+        },
+        {
+          "codigo": "GVOX",
+          "nombre": "Vox",
+          "votaciones": 2165,
+          "iguales": 332,
+          "porcentaje": 15.3
+        }
+      ]
+    },
+    {
+      "codigo": "GV (EAJ-PNV)",
+      "nombre": "Vasco (PNV)",
+      "con": [
+        {
+          "codigo": "GS",
+          "nombre": "Socialista",
+          "votaciones": 2147,
+          "iguales": 1607,
+          "porcentaje": 74.8
+        },
+        {
+          "codigo": "GSUMAR",
+          "nombre": "Sumar",
+          "votaciones": 2147,
+          "iguales": 1503,
+          "porcentaje": 70
+        },
+        {
+          "codigo": "GJxCAT",
+          "nombre": "Junts",
+          "votaciones": 2126,
+          "iguales": 1426,
+          "porcentaje": 67.1
+        },
+        {
+          "codigo": "GR",
+          "nombre": "Republicano (ERC)",
+          "votaciones": 2143,
+          "iguales": 1373,
+          "porcentaje": 64.1
+        },
+        {
+          "codigo": "GEH Bildu",
+          "nombre": "EH Bildu",
+          "votaciones": 2141,
+          "iguales": 1373,
+          "porcentaje": 64.1
+        },
+        {
+          "codigo": "GP",
+          "nombre": "Popular",
+          "votaciones": 2145,
+          "iguales": 807,
+          "porcentaje": 37.6
+        },
+        {
+          "codigo": "GVOX",
+          "nombre": "Vox",
+          "votaciones": 2145,
+          "iguales": 589,
+          "porcentaje": 27.5
+        }
+      ]
+    }
+  ]
+}

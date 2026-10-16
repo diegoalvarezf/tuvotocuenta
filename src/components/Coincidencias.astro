@@ -1,0 +1,103 @@
+---
+import Fuente from './Fuente.astro';
+import datos from '../data/coincidencias.json';
+import { colorGrupo } from '../lib/partidos';
+
+// Orden de los botones: de más a menos diputados al inicio de la legislatura; se muestra primero el grupo más grande
+const ORDEN = ['GP', 'GS', 'GVOX', 'GSUMAR', 'GR', 'GJxCAT', 'GEH Bildu', 'GV (EAJ-PNV)'];
+const grupos = ORDEN.map((c) => datos.grupos.find((g) => g.codigo === c)!);
+const n = (x: number) => x.toLocaleString('es-ES', { maximumFractionDigits: 1, useGrouping: 'always' });
+const corto = (nombre: string) => nombre.replace(' (ERC)', '').replace('Vasco (PNV)', 'PNV').replace('Republicano', 'ERC');
+---
+
+<section class="coincidencias" aria-labelledby="coincidencias-titulo">
+  <h2 id="coincidencias-titulo">¿Con quién votó cada grupo?</h2>
+  <p>Porcentaje de votaciones del Pleno en las que dos grupos votaron lo mismo, en las {n(datos.total)} votaciones de la legislatura.</p>
+
+  <div class="elegir" role="tablist" aria-label="Elegir grupo" data-coincidencias>
+    {grupos.map((g, i) => (
+      <button type="button" role="tab" aria-selected={String(i === 0)} aria-controls={`coin-${i}`} data-i={i}>
+        <span class="punto" style={`--c:${colorGrupo(g.codigo)}`}></span>{corto(g.nombre)}
+      </button>
+    ))}
+  </div>
+
+  {grupos.map((g, i) => (
+    <div class="panel-coin" id={`coin-${i}`} role="tabpanel" hidden={i !== 0}>
+      <p class="titulo-coin">El grupo <strong>{g.nombre}</strong> votó lo mismo que…</p>
+      <ol class="barras">
+        {g.con.map((c) => (
+          <li title={`${c.iguales} de ${c.votaciones} votaciones`}>
+            <span class="nombre"><span class="punto" style={`--c:${colorGrupo(c.codigo)}`}></span>{corto(c.nombre)}</span>
+            <span class="pista"><span class="relleno" style={`width:${c.porcentaje}%`}></span></span>
+            <span class="valor cifra">{n(c.porcentaje)} %</span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  ))}
+
+  <details class="metodo-coin">
+    <summary>Cómo se calcula</summary>
+    <p>
+      En cada votación, la postura de un grupo es lo que votó la mayoría de sus diputados (sí, no o abstención). Si un grupo se dividió a
+      partes iguales, esa votación no cuenta para él. El porcentaje es el número de votaciones en que dos grupos tuvieron la misma postura
+      entre las votaciones en que ambos tuvieron una. El Grupo Mixto no aparece porque reúne a diputados de formaciones distintas.
+    </p>
+  </details>
+  <Fuente de="votacionesCongreso" calculo />
+</section>
+
+<script>
+  function iniciar() {
+    const tabs = document.querySelector<HTMLElement>('[data-coincidencias]');
+    if (!tabs) return;
+    const botones = [...tabs.querySelectorAll<HTMLButtonElement>('button')];
+    const elegir = (b: HTMLButtonElement) => {
+      botones.forEach((x) => x.setAttribute('aria-selected', String(x === b)));
+      document.querySelectorAll<HTMLElement>('.panel-coin').forEach((p, i) => (p.hidden = String(i) !== b.dataset.i));
+    };
+    botones.forEach((b) => b.addEventListener('click', () => elegir(b)));
+  }
+  document.addEventListener('astro:page-load', iniciar);
+</script>
+
+<style>
+  .coincidencias { margin-top: 40px; border-top: 1px solid var(--tinta); padding-top: 12px; }
+  .coincidencias h2 { margin: 0 0 6px; font-size: 28px; }
+  .coincidencias > p { margin: 0; font-size: 15px; }
+  .elegir { display: flex; gap: 8px; overflow-x: auto; margin: 16px -20px 4px; padding: 0 20px 8px; scrollbar-width: none; }
+  .elegir button {
+    flex: none;
+    display: flex;
+    align-items: center;
+    font: inherit;
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 999px;
+    border: 1px solid var(--linea);
+    background: transparent;
+    color: var(--tinta);
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .elegir button[aria-selected='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+  .punto { width: 9px; height: 9px; border-radius: 50%; background: var(--c); margin-right: 8px; flex: none; display: inline-block; }
+  .elegir button[aria-selected='true'] .punto { box-shadow: 0 0 0 1.5px var(--papel); }
+  .titulo-coin { margin: 12px 0 8px; font-size: 15px; }
+  .titulo-coin strong { font-weight: 600; }
+  .barras { list-style: none; margin: 0; padding: 0; }
+  .barras li { display: grid; grid-template-columns: 92px 1fr 52px; align-items: center; gap: 10px; padding: 7px 0; }
+  .nombre { display: flex; align-items: center; font-size: 14px; white-space: nowrap; }
+  .pista { height: 10px; border-radius: 0 4px 4px 0; background: var(--resalte); overflow: hidden; }
+  .relleno { display: block; height: 100%; background: var(--tinta); border-radius: 0 4px 4px 0; transform-origin: left; animation: crecer 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+  @keyframes crecer { from { transform: scaleX(0); } }
+  .valor { text-align: right; font-size: 14px; }
+  .metodo-coin { margin-top: 12px; font-size: 14px; }
+  .metodo-coin summary { cursor: pointer; padding: 4px 0; color: var(--suave); }
+  .metodo-coin p { margin: 6px 0 0; }
+  @media (min-width: 640px) {
+    .elegir { margin-inline: 0; padding-inline: 0; flex-wrap: wrap; }
+    .barras li { grid-template-columns: 120px 1fr 56px; }
+  }
+</style>
