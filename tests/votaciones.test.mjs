@@ -44,3 +44,15 @@ test('las citas de los programas de 2023 apuntan a votaciones existentes y a pro
     }
   }
 });
+
+test('la coincidencia de voto entre grupos es simétrica y coherente', async () => {
+  const { default: c } = await import('../src/data/coincidencias.json', { with: { type: 'json' } });
+  const m = new Map(c.grupos.flatMap((g) => g.con.map((x) => [`${g.codigo}|${x.codigo}`, x])));
+  for (const [clave, x] of m) {
+    const [a, b] = clave.split('|');
+    const inversa = m.get(`${b}|${a}`);
+    assert.deepEqual([x.iguales, x.votaciones], [inversa.iguales, inversa.votaciones], clave);
+    assert.ok(x.iguales <= x.votaciones && x.votaciones <= c.total, clave);
+    assert.equal(x.porcentaje, Math.round((x.iguales / x.votaciones) * 1000) / 10, clave);
+  }
+});
