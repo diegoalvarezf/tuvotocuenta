@@ -1,5 +1,302 @@
 [
   {
+    "id": "20260930-sesion202votacion10",
+    "fecha": "2026-09-30",
+    "tema": "Igualdad",
+    "nombre": "Ley de violencia vicaria",
+    "resumen": "Proyecto de ley orgánica del Gobierno de medidas en materia de violencia vicaria. Vox presentó una enmienda para devolverlo al Gobierno; se votó esa enmienda.",
+    "siSignifica": "devolver el proyecto al Gobierno (no seguir tramitándolo)",
+    "nota": "Al rechazarse la enmienda de devolución, el proyecto continuó su tramitación.",
+    "notaFuente": {
+      "nombre": "Reglamento del Congreso de los Diputados, art. 112.4 (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196"
+    },
+    "oficial": {
+      "tipo": "Debates de totalidad de iniciativas legislativas.",
+      "expediente": "Votación de la enmienda a la totalidad de devolución al Proyecto de Ley Orgánica de medidas en materia de violencia vicaria, presentada por el Grupo Parlamentario VOX.",
+      "sesion": 202,
+      "numero": 10
+    },
+    "totales": {
+      "si": 34,
+      "no": 312,
+      "abstencion": 0,
+      "noVota": 4
+    },
+    "gana": "no",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 0,
+        "no": 120,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 0,
+        "no": 137,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 32,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 1,
+        "no": 24,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 0,
+        "no": 6,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 0,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 0,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 1,
+        "no": 8,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "no"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "no"
+      },
+      {
+        "diputado": "Micó Micó, Àgueda",
+        "voto": "no"
+      },
+      {
+        "diputado": "Ortega Smith-Molina, Francisco Javier",
+        "voto": "si"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "no"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "no"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "no"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "no"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "no"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion010/VOT_20260930153548.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion202/20260930/Votacion010/VOT_20260930153609.json"
+    }
+  },
+  {
+    "id": "20260922-sesion199votacion2",
+    "fecha": "2026-09-22",
+    "tema": "Pensiones",
+    "nombre": "Jubilación sin penalización",
+    "resumen": "Proposición de ley del Grupo Mixto de jubilación sin penalización. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla",
+    "oficial": {
+      "tipo": "Toma en consideración de Proposiciones de Ley.",
+      "expediente": "Proposición de Ley del Grupo Parlamentario Mixto, de jubilación sin penalización.",
+      "sesion": 199,
+      "numero": 2
+    },
+    "totales": {
+      "si": 178,
+      "no": 33,
+      "abstencion": 136,
+      "noVota": 3
+    },
+    "gana": "si",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 121,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 0,
+        "no": 0,
+        "abstencion": 136,
+        "noVota": 1,
+        "sentido": "abstencion"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 0,
+        "no": 32,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 26,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 7,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 6,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 6,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 4,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 8,
+        "no": 1,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "si"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "si"
+      },
+      {
+        "diputado": "Micó Micó, Àgueda",
+        "voto": "si"
+      },
+      {
+        "diputado": "Ortega Smith-Molina, Francisco Javier",
+        "voto": "no"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "si"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "si"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "si"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "si"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "si"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion199/20260922/Votacion002/VOT_20260922205120.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion199/20260922/Votacion002/VOT_20260922205122.json"
+    }
+  },
+  {
     "id": "20260915-sesion197votacion1",
     "fecha": "2026-09-15",
     "tema": "Defensa",
@@ -143,6 +440,290 @@
     "enlaces": {
       "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion197/20260915/Votacion001/VOT_20260915204518.pdf",
       "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion197/20260915/Votacion001/VOT_20260915204520.json"
+    }
+  },
+  {
+    "id": "20260528-sesion183votacion12",
+    "fecha": "2026-05-28",
+    "tema": "Sanidad",
+    "nombre": "Lo que pagan los usuarios por los medicamentos",
+    "resumen": "Decreto ley del Gobierno que modifica la aportación de los usuarios y sus beneficiarios en la prestación farmacéutica ambulatoria. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto",
+    "oficial": {
+      "tipo": "Convalidación o derogación de Reales Decretos-leyes.",
+      "expediente": "Real Decreto-ley 11/2026, de 12 de mayo, por el que se modifica la aportación de los usuarios y sus beneficiarios en la prestación farmacéutica ambulatoria.",
+      "sesion": 183,
+      "numero": 12
+    },
+    "totales": {
+      "si": 164,
+      "no": 33,
+      "abstencion": 149,
+      "noVota": 4
+    },
+    "gana": "si",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 119,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 2,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 0,
+        "no": 0,
+        "abstencion": 136,
+        "noVota": 1,
+        "sentido": "abstencion"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 0,
+        "no": 33,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 26,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 0,
+        "no": 0,
+        "abstencion": 7,
+        "noVota": 0,
+        "sentido": "abstencion"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 0,
+        "no": 0,
+        "abstencion": 6,
+        "noVota": 1,
+        "sentido": "abstencion"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 6,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 5,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 8,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "si"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "si"
+      },
+      {
+        "diputado": "Micó Micó, Àgueda",
+        "voto": "si"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "si"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "si"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "si"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "si"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "si"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion183/20260528/Votacion012/VOT_20260528125335.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion183/20260528/Votacion012/VOT_20260528125351.json"
+    }
+  },
+  {
+    "id": "20260519-sesion179votacion1",
+    "fecha": "2026-05-19",
+    "tema": "Vivienda",
+    "nombre": "Ley contra la ocupación ilegal de inmuebles",
+    "resumen": "Proposición de ley orgánica del PP contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la seguridad en las comunidades de propietarios. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla",
+    "oficial": {
+      "tipo": "Toma en consideración de Proposiciones de Ley.",
+      "expediente": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la protección de la seguridad de las personas y cosas en las comunidades de propietarios.",
+      "sesion": 179,
+      "numero": 1
+    },
+    "totales": {
+      "si": 171,
+      "no": 164,
+      "abstencion": 11,
+      "noVota": 4
+    },
+    "gana": "si",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 0,
+        "no": 119,
+        "abstencion": 0,
+        "noVota": 2,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 136,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 33,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 0,
+        "no": 26,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 0,
+        "no": 0,
+        "abstencion": 6,
+        "noVota": 1,
+        "sentido": "abstencion"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 0,
+        "no": 6,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 0,
+        "no": 0,
+        "abstencion": 5,
+        "noVota": 0,
+        "sentido": "abstencion"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 2,
+        "no": 6,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "no"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "si"
+      },
+      {
+        "diputado": "Micó Micó, Àgueda",
+        "voto": "no"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "no"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "no"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "no"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "si"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "no"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203459.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion179/20260519/Votacion001/VOT_20260519203502.json"
     }
   },
   {
@@ -574,6 +1155,148 @@
     "enlaces": {
       "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion169/20260326/Votacion056/VOT_20260326165034.pdf",
       "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion169/20260326/Votacion056/VOT_20260326165143.json"
+    }
+  },
+  {
+    "id": "20260326-sesion169votacion55",
+    "fecha": "2026-03-26",
+    "tema": "Constitución",
+    "nombre": "Reforma del artículo 69.3 de la Constitución (senador de Formentera)",
+    "resumen": "Reforma constitucional para que la isla de Formentera elija un senador propio, independiente del de Eivissa. Votación final sobre el conjunto del texto, tramitado en lectura única.",
+    "siSignifica": "aprobar la reforma",
+    "oficial": {
+      "tipo": "Tramitación directa y en lectura única de Proposición de reforma constitucional.",
+      "expediente": "Votación de conjunto de la Proposición de reforma del artículo 69.3 de la Constitución española a los efectos de que la isla de Formentera elija un senador propio, con independencia del que elija la isla de Eivissa, por tramitarse en lectura única y tratarse de una Proposición de reforma constitucional, teniendo en cuenta las correcciones técnicas distribuidas.",
+      "sesion": 169,
+      "numero": 55
+    },
+    "totales": {
+      "si": 312,
+      "no": 33,
+      "abstencion": 5,
+      "noVota": 0
+    },
+    "gana": "si",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 121,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 137,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 0,
+        "no": 33,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 26,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 3,
+        "no": 0,
+        "abstencion": 4,
+        "noVota": 0,
+        "sentido": "abstencion"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 7,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 6,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 5,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 7,
+        "no": 0,
+        "abstencion": 1,
+        "noVota": 0,
+        "sentido": "si"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "si"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "abstencion"
+      },
+      {
+        "diputado": "Micó Micó, Àgueda",
+        "voto": "si"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "si"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "si"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "si"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "si"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "si"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion169/20260326/Votacion055/VOT_20260326165033.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion169/20260326/Votacion055/VOT_20260326165142.json"
     }
   },
   {
@@ -1596,9 +2319,298 @@
     }
   },
   {
+    "id": "20250617-sesion119votacion2",
+    "fecha": "2025-06-17",
+    "tema": "Seguridad",
+    "nombre": "Combustible para el narcotráfico",
+    "resumen": "Proposición de ley orgánica de Vox para tipificar en el Código Penal el transporte y almacenamiento de combustibles destinados al narcotráfico. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla",
+    "oficial": {
+      "tipo": "Toma en consideración de Proposiciones de Ley.",
+      "expediente": "Proposición de Ley del Grupo Parlamentario VOX, Orgánica por la que se modifica la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, al objeto de tipificar penalmente el transporte y almacenamiento de combustibles líquidos predeterminados al narcotráfico.",
+      "sesion": 119,
+      "numero": 2
+    },
+    "totales": {
+      "si": 171,
+      "no": 172,
+      "abstencion": 0,
+      "noVota": 6
+    },
+    "gana": "no",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 0,
+        "no": 116,
+        "abstencion": 0,
+        "noVota": 3,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 137,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 33,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 0,
+        "no": 26,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 0,
+        "no": 6,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 0,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 1,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 2,
+        "sentido": "no"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Ábalos Meco, José Luis",
+        "voto": "noVota"
+      },
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "no"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "si"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "no"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "no"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "noVota"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "no"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "no"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion119/20250617/Votacion002/VOT_20250617203250.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion119/20250617/Votacion002/VOT_20250617203252.json"
+    }
+  },
+  {
+    "id": "20250211-sesion90votacion2",
+    "fecha": "2025-02-11",
+    "tema": "Sanidad",
+    "nombre": "Violencia contra el personal sanitario",
+    "resumen": "Proposición de ley del PP relativa a la violencia en el ámbito sanitario. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla",
+    "oficial": {
+      "tipo": "Toma en consideración de Proposiciones de Ley.",
+      "expediente": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, relativa a la violencia en el ámbito sanitario.",
+      "sesion": 90,
+      "numero": 2
+    },
+    "totales": {
+      "si": 171,
+      "no": 173,
+      "abstencion": 0,
+      "noVota": 6
+    },
+    "gana": "no",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 0,
+        "no": 118,
+        "abstencion": 0,
+        "noVota": 2,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 136,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 33,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 0,
+        "no": 25,
+        "abstencion": 0,
+        "noVota": 2,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 0,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 0,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 2,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "",
+        "nombre": "Sin grupo en los datos del Congreso",
+        "si": 0,
+        "no": 1,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Ábalos Meco, José Luis",
+        "voto": "no"
+      },
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "no"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "si"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "no"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "no"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "si"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "no"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion090/20250211/Votacion002/VOT_20250211202647.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion090/20250211/Votacion002/VOT_20250211202649.json"
+    }
+  },
+  {
     "id": "20250122-sesion89votacion1",
     "fecha": "2025-01-22",
-    "tema": "Economía",
+    "tema": "Economía e impuestos",
     "nombre": "Decreto de medidas económicas y sociales (conocido como «decreto ómnibus»)",
     "resumen": "Decreto ley del Gobierno que reunía medidas económicas, tributarias, de transporte y de Seguridad Social, y prorrogaba medidas ante situaciones de vulnerabilidad social. El Congreso votó si lo mantenía (convalidación).",
     "siSignifica": "mantener el decreto",
@@ -1740,7 +2752,7 @@
   {
     "id": "20250122-sesion89votacion2",
     "fecha": "2025-01-22",
-    "tema": "Impuestos",
+    "tema": "Economía e impuestos",
     "nombre": "Impuesto temporal a las energéticas en 2025",
     "resumen": "Decreto ley del Gobierno para establecer un gravamen temporal energético durante 2025. El Congreso votó si lo mantenía (convalidación).",
     "siSignifica": "mantener el decreto",
@@ -1877,6 +2889,148 @@
     "enlaces": {
       "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154425.pdf",
       "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion002/VOT_20250122154427.json"
+    }
+  },
+  {
+    "id": "20250122-sesion89votacion3",
+    "fecha": "2025-01-22",
+    "tema": "Pensiones",
+    "nombre": "Compatibilizar la pensión de jubilación con el trabajo",
+    "resumen": "Decreto ley del Gobierno para la mejora de la compatibilidad de la pensión de jubilación con el trabajo. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto",
+    "oficial": {
+      "tipo": "Convalidación o derogación de Reales Decretos-leyes.",
+      "expediente": "Real Decreto-ley 11/2024, de 23 de diciembre, para la mejora de la compatibilidad de la pensión de jubilación con el trabajo.",
+      "sesion": 89,
+      "numero": 3
+    },
+    "totales": {
+      "si": 298,
+      "no": 51,
+      "abstencion": 0,
+      "noVota": 1
+    },
+    "gana": "si",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 120,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 137,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 0,
+        "no": 33,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 27,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 7,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 0,
+        "no": 6,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 5,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 2,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Ábalos Meco, José Luis",
+        "voto": "noVota"
+      },
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "no"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "si"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "no"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "no"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "no"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "si"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "no"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion003/VOT_20250122154426.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion089/20250122/Votacion003/VOT_20250122154429.json"
     }
   },
   {
@@ -2022,6 +3176,148 @@
     }
   },
   {
+    "id": "20240917-sesion59votacion1",
+    "fecha": "2024-09-17",
+    "tema": "Vivienda",
+    "nombre": "Alquiler de temporada y de habitaciones",
+    "resumen": "Proposición de ley de Sumar para regular los contratos de alquiler de vivienda por temporada y el alquiler de habitaciones. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla",
+    "oficial": {
+      "tipo": "Toma en consideración de Proposiciones de Ley.",
+      "expediente": "Proposición de Ley del Grupo Parlamentario Plurinacional SUMAR, relativa a la regulación de los contratos de alquiler de vivienda por temporada y alquiler de habitaciones.",
+      "sesion": 59,
+      "numero": 1
+    },
+    "totales": {
+      "si": 172,
+      "no": 178,
+      "abstencion": 0,
+      "noVota": 0
+    },
+    "gana": "no",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 120,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 0,
+        "no": 137,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 0,
+        "no": 33,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 27,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 7,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 0,
+        "no": 7,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 6,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 5,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 7,
+        "no": 1,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Ábalos Meco, José Luis",
+        "voto": "si"
+      },
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "si"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "no"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "si"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "si"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "si"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "si"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "si"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion059/20240917/Votacion001/VOT_20240917204415.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion059/20240917/Votacion001/VOT_20240917204416.json"
+    }
+  },
+  {
     "id": "20240620-sesion49votacion19",
     "fecha": "2024-06-20",
     "tema": "Trabajo y familia",
@@ -2161,6 +3457,148 @@
     "enlaces": {
       "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion049/20240620/Votacion019/VOT_20240620132727.pdf",
       "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion049/20240620/Votacion019/VOT_20240620132741.json"
+    }
+  },
+  {
+    "id": "20240611-sesion44votacion2",
+    "fecha": "2024-06-11",
+    "tema": "Seguridad",
+    "nombre": "Multirreincidencia en hurtos y estafas",
+    "resumen": "Proposición de ley orgánica del PP para modificar el Código Penal en materia de multirreincidencia en los delitos de hurto y estafa. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla",
+    "oficial": {
+      "tipo": "Toma en consideración de Proposiciones de Ley.",
+      "expediente": "Proposición de Ley del Grupo Parlamentario Popular en el Congreso, Orgánica de modificación de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, en materia de multirreincidencia en los delitos de hurto y estafa.",
+      "sesion": 44,
+      "numero": 2
+    },
+    "totales": {
+      "si": 302,
+      "no": 40,
+      "abstencion": 0,
+      "noVota": 8
+    },
+    "gana": "si",
+    "grupos": [
+      {
+        "codigo": "GS",
+        "nombre": "Socialista",
+        "si": 119,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GP",
+        "nombre": "Popular",
+        "si": 135,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 2,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GVOX",
+        "nombre": "Vox",
+        "si": 33,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GSUMAR",
+        "nombre": "Sumar",
+        "si": 0,
+        "no": 24,
+        "abstencion": 0,
+        "noVota": 3,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GR",
+        "nombre": "Republicano (ERC)",
+        "si": 0,
+        "no": 6,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GJxCAT",
+        "nombre": "Junts",
+        "si": 7,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GEH Bildu",
+        "nombre": "EH Bildu",
+        "si": 0,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 1,
+        "sentido": "no"
+      },
+      {
+        "codigo": "GV (EAJ-PNV)",
+        "nombre": "Vasco (PNV)",
+        "si": 5,
+        "no": 0,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "si"
+      },
+      {
+        "codigo": "GMx",
+        "nombre": "Mixto",
+        "si": 3,
+        "no": 5,
+        "abstencion": 0,
+        "noVota": 0,
+        "sentido": "no"
+      }
+    ],
+    "mixto": [
+      {
+        "diputado": "Ábalos Meco, José Luis",
+        "voto": "si"
+      },
+      {
+        "diputado": "Belarra Urteaga, Ione",
+        "voto": "no"
+      },
+      {
+        "diputado": "Catalán Higueras, Alberto",
+        "voto": "si"
+      },
+      {
+        "diputado": "Rego Candamil, Néstor",
+        "voto": "no"
+      },
+      {
+        "diputado": "Sánchez Serna, Javier",
+        "voto": "no"
+      },
+      {
+        "diputado": "Santana Perera, Noemí",
+        "voto": "no"
+      },
+      {
+        "diputado": "Valido García, Cristina",
+        "voto": "si"
+      },
+      {
+        "diputado": "Velarde Gómez, Martina",
+        "voto": "no"
+      }
+    ],
+    "enlaces": {
+      "pdf": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion044/20240611/Votacion002/VOT_20240611203611.pdf",
+      "json": "https://www.congreso.es/webpublica/opendata/votaciones/Leg15/Sesion044/20240611/Votacion002/VOT_20240611203613.json"
     }
   },
   {

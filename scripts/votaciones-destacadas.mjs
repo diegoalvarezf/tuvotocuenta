@@ -53,7 +53,10 @@ for (const s of seleccion) {
   const { informacion: info, totales, votaciones } = v;
   const dia = s.archivo.slice(0, 8);
 
-  const grupos = Object.entries(GRUPOS).map(([codigo, nombre]) => {
+  // Algún diputado figura sin grupo en los datos oficiales (por ejemplo, mientras cambiaba de grupo): se muestra aparte
+  const entradas = Object.entries(GRUPOS);
+  if (votaciones.some((d) => d.grupo === '')) entradas.push(['', 'Sin grupo en los datos del Congreso']);
+  const grupos = entradas.map(([codigo, nombre]) => {
     const cuenta = { si: 0, no: 0, abstencion: 0, noVota: 0 };
     for (const d of votaciones.filter((d) => d.grupo === codigo)) cuenta[VOTOS[d.voto]]++;
     const votan = { si: cuenta.si, no: cuenta.no, abstencion: cuenta.abstencion };
@@ -63,7 +66,7 @@ for (const s of seleccion) {
     const sentido = max === 0 ? 'noVota' : empatados.length > 1 ? 'dividido' : empatados[0];
     return { codigo, nombre, ...cuenta, sentido };
   });
-  const sinGrupo = votaciones.filter((d) => !GRUPOS[d.grupo]);
+  const sinGrupo = votaciones.filter((d) => d.grupo !== '' && !GRUPOS[d.grupo]);
   if (sinGrupo.length) throw new Error(`${s.archivo}: diputados con grupo desconocido ${sinGrupo.map((d) => d.grupo)}`);
 
   const comprobar = (campo, total) => {

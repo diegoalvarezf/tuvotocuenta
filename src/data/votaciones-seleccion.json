@@ -15,7 +15,7 @@
   },
   {
     "archivo": "20250122/sesion89votacion1.json",
-    "tema": "Economía",
+    "tema": "Economía e impuestos",
     "nombre": "Decreto de medidas económicas y sociales (conocido como «decreto ómnibus»)",
     "resumen": "Decreto ley del Gobierno que reunía medidas económicas, tributarias, de transporte y de Seguridad Social, y prorrogaba medidas ante situaciones de vulnerabilidad social. El Congreso votó si lo mantenía (convalidación).",
     "siSignifica": "mantener el decreto"
@@ -107,7 +107,7 @@
   },
   {
     "archivo": "20250122/sesion89votacion2.json",
-    "tema": "Impuestos",
+    "tema": "Economía e impuestos",
     "nombre": "Impuesto temporal a las energéticas en 2025",
     "resumen": "Decreto ley del Gobierno para establecer un gravamen temporal energético durante 2025. El Congreso votó si lo mantenía (convalidación).",
     "siSignifica": "mantener el decreto"
@@ -132,5 +132,80 @@
     "nombre": "Restringir la regularización por arraigo",
     "resumen": "Proposición de ley orgánica de Vox para modificar la ley de extranjería y restringir la regularización de inmigrantes en situación irregular a través del arraigo. El Congreso votó si la admitía a trámite (toma en consideración).",
     "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20250122/sesion89votacion3.json",
+    "tema": "Pensiones",
+    "nombre": "Compatibilizar la pensión de jubilación con el trabajo",
+    "resumen": "Decreto ley del Gobierno para la mejora de la compatibilidad de la pensión de jubilación con el trabajo. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20260922/sesion199votacion2.json",
+    "tema": "Pensiones",
+    "nombre": "Jubilación sin penalización",
+    "resumen": "Proposición de ley del Grupo Mixto de jubilación sin penalización. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20260519/sesion179votacion1.json",
+    "tema": "Vivienda",
+    "nombre": "Ley contra la ocupación ilegal de inmuebles",
+    "resumen": "Proposición de ley orgánica del PP contra la ocupación ilegal de inmuebles y para la convivencia vecinal y la seguridad en las comunidades de propietarios. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20240917/sesion59votacion1.json",
+    "tema": "Vivienda",
+    "nombre": "Alquiler de temporada y de habitaciones",
+    "resumen": "Proposición de ley de Sumar para regular los contratos de alquiler de vivienda por temporada y el alquiler de habitaciones. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20260528/sesion183votacion12.json",
+    "tema": "Sanidad",
+    "nombre": "Lo que pagan los usuarios por los medicamentos",
+    "resumen": "Decreto ley del Gobierno que modifica la aportación de los usuarios y sus beneficiarios en la prestación farmacéutica ambulatoria. El Congreso votó si lo mantenía (convalidación).",
+    "siSignifica": "mantener el decreto"
+  },
+  {
+    "archivo": "20250211/sesion90votacion2.json",
+    "tema": "Sanidad",
+    "nombre": "Violencia contra el personal sanitario",
+    "resumen": "Proposición de ley del PP relativa a la violencia en el ámbito sanitario. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20240611/sesion44votacion2.json",
+    "tema": "Seguridad",
+    "nombre": "Multirreincidencia en hurtos y estafas",
+    "resumen": "Proposición de ley orgánica del PP para modificar el Código Penal en materia de multirreincidencia en los delitos de hurto y estafa. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20250617/sesion119votacion2.json",
+    "tema": "Seguridad",
+    "nombre": "Combustible para el narcotráfico",
+    "resumen": "Proposición de ley orgánica de Vox para tipificar en el Código Penal el transporte y almacenamiento de combustibles destinados al narcotráfico. El Congreso votó si la admitía a trámite (toma en consideración).",
+    "siSignifica": "empezar a tramitarla"
+  },
+  {
+    "archivo": "20260326/sesion169votacion55.json",
+    "tema": "Constitución",
+    "nombre": "Reforma del artículo 69.3 de la Constitución (senador de Formentera)",
+    "resumen": "Reforma constitucional para que la isla de Formentera elija un senador propio, independiente del de Eivissa. Votación final sobre el conjunto del texto, tramitado en lectura única.",
+    "siSignifica": "aprobar la reforma"
+  },
+  {
+    "archivo": "20260930/sesion202votacion10.json",
+    "tema": "Igualdad",
+    "nombre": "Ley de violencia vicaria",
+    "resumen": "Proyecto de ley orgánica del Gobierno de medidas en materia de violencia vicaria. Vox presentó una enmienda para devolverlo al Gobierno; se votó esa enmienda.",
+    "siSignifica": "devolver el proyecto al Gobierno (no seguir tramitándolo)",
+    "nota": "Al rechazarse la enmienda de devolución, el proyecto continuó su tramitación.",
+    "notaFuente": {
+      "nombre": "Reglamento del Congreso de los Diputados, art. 112.4 (BOE)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1982-5196"
+    }
   }
 ]
