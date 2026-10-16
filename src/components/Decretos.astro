@@ -3,57 +3,65 @@ import Fuente from './Fuente.astro';
 import decretos from '../data/decretos.json';
 import { colorGrupo } from '../lib/partidos';
 
-const NOMBRES: Record<string, string> = {
-  GP: 'Popular',
-  GS: 'Socialista',
-  GVOX: 'Vox',
-  GSUMAR: 'Sumar',
-  GR: 'ERC',
-  GJxCAT: 'Junts',
-  'GEH Bildu': 'EH Bildu',
-  'GV (EAJ-PNV)': 'PNV',
-};
+// Mismo orden que en el resto de gráficos: de más a menos diputados al inicio de la legislatura
+const GRUPOS: [string, string][] = [
+  ['GP', 'Popular'],
+  ['GS', 'Socialista'],
+  ['GVOX', 'Vox'],
+  ['GSUMAR', 'Sumar'],
+  ['GR', 'ERC'],
+  ['GJxCAT', 'Junts'],
+  ['GEH Bildu', 'EH Bildu'],
+  ['GV (EAJ-PNV)', 'PNV'],
+];
+type Codigo = keyof (typeof decretos)[number]['grupos'];
+const total = decretos.length;
 const derogados = decretos.filter((d) => d.resultado === 'derogado');
-const mixtoNo = derogados.filter((d) => d.grupos.GMx === 'no').length;
 const anios = [...new Set(decretos.map((d) => d.votacion.slice(0, 4)))].sort();
 const fecha = (f: string) => new Date(f + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
-// Cuántas veces votó «no» cada grupo en los decretos derogados (el Mixto se excluye por mezclar formaciones)
-const enContra = Object.entries(NOMBRES)
-  .map(([codigo, nombre]) => ({ codigo, nombre, no: derogados.filter((d) => d.grupos[codigo as keyof typeof d.grupos] === 'no').length }))
-  .sort((a, b) => b.no - a.no);
+
+const votos = GRUPOS.map(([codigo, nombre]) => {
+  const p = decretos.map((d) => d.grupos[codigo as Codigo]);
+  const si = p.filter((x) => x === 'si').length;
+  const abstencion = p.filter((x) => x === 'abstencion').length;
+  const no = p.filter((x) => x === 'no').length;
+  return { codigo, nombre, si, abstencion, no, otro: total - si - abstencion - no };
+});
+const enContra = (d: (typeof decretos)[number]) => GRUPOS.filter(([c]) => d.grupos[c as Codigo] === 'no').map(([, n]) => n);
+const lista = (xs: string[]) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} y ${xs.at(-1)}` : xs[0] ?? '');
 ---
 
 <section class="decretos" aria-labelledby="decretos-titulo">
   <h2 id="decretos-titulo">Los decretos del Gobierno</h2>
   <p class="destacado">
-    El Congreso tumbó <strong>{derogados.length}</strong> de los <strong>{decretos.length}</strong> decretos ley que votó en la legislatura.
+    El Congreso mantuvo <strong>{total - derogados.length}</strong> de los <strong>{total}</strong> decretos ley de la legislatura y tumbó <strong>{derogados.length}</strong>.
+  </p>
+  <p class="suave por-anio">
+    Tumbados por año de votación: {anios.map((a, i) => <>{i > 0 && ' · '}{a}: {derogados.filter((d) => d.votacion.startsWith(a)).length} de {decretos.filter((d) => d.votacion.startsWith(a)).length}</>)}
   </p>
 
-  <div class="linea-tiempo" role="img" aria-label={anios.map((a) => `${a}: ${decretos.filter((d) => d.votacion.startsWith(a)).length} decretos, ${derogados.filter((d) => d.votacion.startsWith(a)).length} tumbados`).join('; ')}>
-    {anios.map((a) => (
-      <div class="anio">
-        <span class="etiqueta cifra">{a}</span>
-        <span class="puntos">
-          {decretos.filter((d) => d.votacion.startsWith(a)).map((d) => (
-            <span class:list={['d', d.resultado]} title={`${d.nombre} · ${d.resultado === 'derogado' ? 'Tumbado' : 'Mantenido'} el ${fecha(d.votacion)}`}></span>
-          ))}
-        </span>
-      </div>
-    ))}
-  </div>
-  <p class="leyenda suave"><span class="d convalidado"></span> Mantenido (convalidado) <span class="d derogado"></span> Tumbado (derogado) · Por año de la votación</p>
-
-  <h3>Quién votó para tumbarlos</h3>
-  <ol class="barras">
-    {enContra.map((g) => (
+  <h3>Cómo votó cada grupo los {total} decretos</h3>
+  <ul class="apilado">
+    {votos.map((g) => (
       <li>
         <span class="nombre"><span class="punto" style={`--c:${colorGrupo(g.codigo)}`}></span>{g.nombre}</span>
-        <span class="pista"><span class="relleno" style={`width:${(g.no / derogados.length) * 100}%`}></span></span>
-        <span class="valor cifra">{g.no} de {derogados.length}</span>
+        <span class="barra" role="img" aria-label={`${g.nombre}: ${g.si} a favor, ${g.abstencion} abstenciones, ${g.no} en contra`}>
+          {g.si > 0 && <span class="si" style={`flex:${g.si}`}></span>}
+          {g.abstencion > 0 && <span class="abst" style={`flex:${g.abstencion}`}></span>}
+          {g.no > 0 && <span class="no" style={`flex:${g.no}`}></span>}
+          {g.otro > 0 && <span class="otro" style={`flex:${g.otro}`}></span>}
+        </span>
+        <span class="cifras cifra suave">{g.si} sí · {g.abstencion} abst. · {g.no} no</span>
       </li>
     ))}
-  </ol>
-  <p class="nota suave">Veces que cada grupo votó en contra de los {derogados.length} decretos tumbados (postura de la mayoría de sus diputados). El Grupo Mixto no aparece porque reúne a diputados de formaciones distintas; en {mixtoNo} de los {derogados.length}, la mayoría de sus diputados también votó en contra.</p>
+  </ul>
+  <p class="leyenda suave">
+    <span class="item"><span class="m si"></span>A favor</span>
+    <span class="item"><span class="m abst"></span>Abstención</span>
+    <span class="item"><span class="m no"></span>En contra</span>
+    <span class="item"><span class="m otro"></span>No votó o se dividió</span>
+  </p>
+  <p class="nota suave">Postura de la mayoría de los diputados de cada grupo. El Grupo Mixto no aparece porque reúne a diputados de formaciones distintas.</p>
 
   <details class="lista-derogados">
     <summary>Ver los {derogados.length} decretos tumbados</summary>
@@ -62,6 +70,7 @@ const enContra = Object.entries(NOMBRES)
         <li>
           <p class="meta suave"><time datetime={d.votacion}>{fecha(d.votacion)}</time> · {d.totales.si} sí · {d.totales.no} no · {d.totales.abstencion} abst.</p>
           <p class="titulo-d">{d.titulo.charAt(0).toUpperCase() + d.titulo.slice(1)}.</p>
+          <p class="contra suave">En contra: {lista(enContra(d))}{d.grupos.GMx === 'no' ? ' y la mayoría del Grupo Mixto' : ''}.</p>
           <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de derogación del {d.nombre} (BOE)</a></span>
         </li>
       ))}
@@ -74,28 +83,26 @@ const enContra = Object.entries(NOMBRES)
 <style>
   .decretos { margin-top: 40px; border-top: 1px solid var(--tinta); padding-top: 12px; }
   .decretos h2 { margin: 0 0 8px; font-size: 28px; }
-  .decretos h3 { font-family: var(--serif); font-weight: 400; font-size: 22px; margin: 24px 0 6px; }
-  .destacado { font-family: var(--serif); font-size: 26px; line-height: 1.2; margin: 0 0 16px; }
+  .decretos h3 { font-family: var(--serif); font-weight: 400; font-size: 22px; margin: 20px 0 8px; }
+  .destacado { font-family: var(--serif); font-size: 24px; line-height: 1.25; margin: 0; }
   .destacado strong { font-weight: 400; font-style: italic; }
+  .por-anio { font-size: 13px; margin: 6px 0 0; }
 
-  .anio { display: grid; grid-template-columns: 44px 1fr; gap: 8px; align-items: center; padding: 6px 0; }
-  .etiqueta { font-size: 13px; color: var(--suave); }
-  .puntos { display: flex; flex-wrap: wrap; gap: 5px; }
-  .d { display: inline-block; width: 14px; height: 14px; border-radius: 50%; vertical-align: -2px; }
-  .d.convalidado { background: var(--tinta); }
-  .d.derogado { box-shadow: inset 0 0 0 2px var(--tinta); }
-  .leyenda { font-size: 13px; margin: 8px 0 0; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
-  .leyenda .d { margin-left: 8px; }
-  .leyenda .d:first-child { margin-left: 0; }
-
-  .barras { list-style: none; margin: 0; padding: 0; }
-  .barras li { display: grid; grid-template-columns: 92px 1fr 56px; align-items: center; gap: 10px; padding: 6px 0; }
-  .nombre { display: flex; align-items: center; font-size: 14px; white-space: nowrap; }
+  .apilado { list-style: none; margin: 0; padding: 0; }
+  .apilado li { display: grid; grid-template-columns: 84px 1fr; grid-template-rows: auto auto; column-gap: 10px; padding: 6px 0; }
+  .nombre { display: flex; align-items: center; font-size: 14px; white-space: nowrap; grid-row: 1 / span 2; }
   .punto { width: 9px; height: 9px; border-radius: 50%; background: var(--c); margin-right: 8px; flex: none; }
-  .pista { height: 10px; border-radius: 0 4px 4px 0; background: var(--resalte); overflow: hidden; }
-  .relleno { display: block; height: 100%; background: var(--tinta); border-radius: 0 4px 4px 0; }
-  .valor { text-align: right; font-size: 14px; }
-  .nota { font-size: 13px; margin: 8px 0 0; }
+  .barra { display: flex; gap: 2px; height: 12px; align-items: stretch; }
+  .barra span { border-radius: 2px; min-width: 3px; }
+  .barra .si, .m.si { background: var(--tinta); }
+  .barra .abst, .m.abst { background: var(--suave); opacity: 0.55; }
+  .barra .no, .m.no { box-shadow: inset 0 0 0 1.5px var(--tinta); }
+  .barra .otro, .m.otro { background: var(--linea); }
+  .cifras { font-size: 12px; margin-top: 2px; }
+  .leyenda { font-size: 12px; margin: 10px 0 0; display: flex; align-items: center; flex-wrap: wrap; gap: 4px 6px; }
+  .leyenda .item { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; margin-right: 8px; }
+  .m { display: inline-block; width: 12px; height: 10px; border-radius: 2px; }
+  .nota { font-size: 13px; margin: 6px 0 0; }
 
   .lista-derogados { margin-top: 12px; font-size: 15px; }
   .lista-derogados summary { cursor: pointer; padding: 6px 0; }
@@ -103,9 +110,10 @@ const enContra = Object.entries(NOMBRES)
   .lista-derogados li { padding: 10px 0; border-bottom: 1px solid var(--linea); }
   .meta { font-size: 13px; margin: 0; }
   .titulo-d { margin: 2px 0 0; }
+  .contra { font-size: 14px; margin: 4px 0 0; }
   .fuente-nota { display: block; margin-top: 6px; font-size: 11px; color: var(--suave); }
   .fuente-nota a { color: var(--suave); }
   @media (min-width: 640px) {
-    .barras li { grid-template-columns: 120px 1fr 60px; }
+    .apilado li { grid-template-columns: 110px 1fr; }
   }
 </style>
