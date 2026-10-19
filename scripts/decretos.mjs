@@ -80,6 +80,30 @@ for (const v of votos) {
   console.log(`${dia} ${nombre}: ${resultado}`);
 }
 
+// Decretos votados en el Pleno cuyas votaciones no figuran en los datos abiertos del Congreso.
+// Resultado comprobado en la resolución del BOE; sin desglose de votos.
+const EXTRA = [
+  {
+    nombre: 'Real Decreto-ley 26/2026',
+    titulo: 'por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible',
+    votacion: '2026-10-02',
+    resultado: 'derogado',
+    boe: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526',
+  },
+  {
+    nombre: 'Real Decreto-ley 27/2026',
+    titulo: 'por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual',
+    votacion: '2026-10-02',
+    resultado: 'derogado',
+    boe: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527',
+  },
+];
+for (const e of EXTRA) {
+  if (salida.some((d) => d.nombre === e.nombre)) continue;
+  salida.push({ ...e, totales: null, grupos: null, sinDatosAbiertos: true });
+  console.log(`${e.votacion} ${e.nombre}: ${e.resultado} (añadido desde el BOE)`);
+}
+
 writeFileSync('src/data/decretos.json', JSON.stringify(salida, null, 2) + '\n');
 const derogados = salida.filter((d) => d.resultado === 'derogado').length;
 console.log(`${salida.length} decretos: ${salida.length - derogados} convalidados, ${derogados} derogados → src/data/decretos.json`);

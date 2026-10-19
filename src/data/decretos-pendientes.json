@@ -5,7 +5,12 @@
     "tema": "Vivienda",
     "fecha": "2026-10-06",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822",
-    "resultado": null
+    "resultado": null,
+    "nota": "Tiene el mismo título que el Real Decreto-ley 27/2026, que el Pleno derogó el 2 de octubre.",
+    "notaFuente": {
+      "nombre": "acuerdo de derogación del Real Decreto-ley 27/2026 (BOE)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527"
+    }
   },
   {
     "nombre": "Real Decreto-ley 29/2026",
@@ -13,7 +18,12 @@
     "tema": "Vivienda",
     "fecha": "2026-10-06",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823",
-    "resultado": null
+    "resultado": null,
+    "nota": "Tiene el mismo título que el Real Decreto-ley 26/2026, que el Pleno derogó el 2 de octubre.",
+    "notaFuente": {
+      "nombre": "acuerdo de derogación del Real Decreto-ley 26/2026 (BOE)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526"
+    }
   },
   {
     "nombre": "Real Decreto-ley 30/2026",

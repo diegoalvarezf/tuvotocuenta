@@ -1240,5 +1240,25 @@
       "GV (EAJ-PNV)": "si",
       "GMx": "si"
     }
+  },
+  {
+    "nombre": "Real Decreto-ley 26/2026",
+    "titulo": "por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible",
+    "votacion": "2026-10-02",
+    "resultado": "derogado",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526",
+    "totales": null,
+    "grupos": null,
+    "sinDatosAbiertos": true
+  },
+  {
+    "nombre": "Real Decreto-ley 27/2026",
+    "titulo": "por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual",
+    "votacion": "2026-10-02",
+    "resultado": "derogado",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527",
+    "totales": null,
+    "grupos": null,
+    "sinDatosAbiertos": true
   }
 ]

@@ -26,7 +26,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
     {votaciones.length} votaciones clave del Congreso entre 2023 y 2026. Qué se votaba, qué votó cada grupo y el acta oficial de cada una.
   </p>
   <p class="suave nota">
-    En {aprobadas} ganó el sí y en {votaciones.length - aprobadas} ganó el no. Hubo 2.175 votaciones en el Pleno durante la legislatura: puedes{' '}
+    En {aprobadas} ganó el sí y en {votaciones.length - aprobadas} ganó el no. Los datos abiertos del Congreso recogen 2.175 votaciones del Pleno en la legislatura: puedes{' '}
     <a href="/descargas/votaciones-xv-legislatura.pdf" download>descargarlas todas en PDF</a>{' '}o{' '}
     <a href="/descargas/votaciones-xv-legislatura.csv" download>en CSV</a>.
   </p>
@@ -37,6 +37,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
       {derogados.map((d) => (
         <li>
           <span class="suave">{fecha(d.votacion)} · </span>{d.titulo.charAt(0).toUpperCase() + d.titulo.slice(1)}.
+          {d.sinDatosAbiertos && <span class="suave"> Esta votación no figura en los datos abiertos del Congreso.</span>}
           <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de derogación del {d.nombre} (BOE)</a></span>
         </li>
       ))}
@@ -59,6 +60,11 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
             <p class="meta suave"><time datetime={d.fecha}>{fecha(d.fecha)}</time> · {d.tema}</p>
             <p class="titulo-pendiente">{d.titulo}</p>
             <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">{d.nombre} (BOE)</a></span>
+            {d.nota && (
+              <p class="nota-pendiente suave">
+                {d.nota} <span class="fuente-nota">Fuente: <a href={d.notaFuente!.url} target="_blank" rel="noopener">{d.notaFuente!.nombre}</a></span>
+              </p>
+            )}
           </li>
         ))}
       </ul>
@@ -333,6 +339,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .pendientes ul { list-style: none; margin: 12px 0 0; padding: 0; }
   .pendientes li { padding: 12px 0; border-top: 1px solid var(--linea); }
   .titulo-pendiente { margin: 2px 0 0; }
+  .nota-pendiente { font-size: 14px; margin: 6px 0 0; }
 
   .lista { list-style: none; margin: 0; padding: 0; }
   .votacion { scroll-margin-top: 16px; }
