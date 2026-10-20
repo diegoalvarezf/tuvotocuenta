@@ -80,9 +80,26 @@ for (const v of votos) {
   console.log(`${dia} ${nombre}: ${resultado}`);
 }
 
-// Decretos votados en el Pleno cuyas votaciones no figuran en los datos abiertos del Congreso.
+// Decretos cuyas votaciones no figuran en los datos abiertos del Pleno: los votados el 2-10-2026 y los que vota la
+// Diputación Permanente con las Cortes disueltas.
 // Resultado comprobado en la resolución del BOE; sin desglose de votos.
 const EXTRA = [
+  {
+    nombre: 'Real Decreto-ley 24/2026',
+    titulo: 'por el que se establecen medidas relacionadas con el plan de respuesta inmediata, reconstrucción y relanzamiento frente a los daños causados por la Depresión Aislada en Niveles Altos (DANA) en diferentes municipios entre el 28 de octubre y el 4 de noviembre de 2024',
+    votacion: '2026-10-16',
+    resultado: 'convalidado',
+    organo: 'Diputación Permanente',
+    boe: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21787',
+  },
+  {
+    nombre: 'Real Decreto-ley 25/2026',
+    titulo: 'por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio',
+    votacion: '2026-10-16',
+    resultado: 'convalidado',
+    organo: 'Diputación Permanente',
+    boe: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21788',
+  },
   {
     nombre: 'Real Decreto-ley 26/2026',
     titulo: 'por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible',

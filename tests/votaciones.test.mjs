@@ -66,3 +66,14 @@ test('cada decreto ley tiene su resultado oficial en el BOE', async () => {
   }
   assert.equal(new Set(decretos.map((d) => d.nombre)).size, decretos.length, 'decretos repetidos');
 });
+
+test('no falta ningún decreto ley de 2026: entre votados y pendientes, la numeración es continua', async () => {
+  const { default: decretos } = await import('../src/data/decretos.json', { with: { type: 'json' } });
+  const { default: pendientes } = await import('../src/data/decretos-pendientes.json', { with: { type: 'json' } });
+  const numeros = new Set(
+    [...decretos, ...pendientes].map((d) => d.nombre.match(/^Real Decreto-ley (\d+)\/2026$/)?.[1]).filter(Boolean).map(Number),
+  );
+  const max = Math.max(...numeros);
+  const faltan = Array.from({ length: max }, (_, i) => i + 1).filter((n) => !numeros.has(n));
+  assert.deepEqual(faltan, [], `Faltan los Reales Decretos-ley ${faltan.join(', ')}/2026`);
+});
