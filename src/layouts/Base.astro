@@ -29,6 +29,9 @@ const nav = [
 const actual = Astro.url.pathname;
 // Última vez que se comprobaron las fuentes oficiales (se actualiza a mano en src/data/revision.json en cada revisión)
 const revisado = new Date(revision.fecha + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+// Fecha de esta publicación: la web se genera de nuevo en cada actualización
+const publicado = new Date();
+const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Madrid' });
 ---
 
 <!doctype html>
@@ -82,7 +85,9 @@ const revisado = new Date(revision.fecha + 'T12:00:00').toLocaleDateString('es-E
     </main>
     <footer class="pie">
       <p>Proyecto independiente y sin afiliación política. Datos del Ministerio del Interior, el Congreso y el BOE.</p>
-      <p class="revision">Datos revisados el <time datetime={revision.fecha}>{revisado}</time> ({revision.fuentes}).</p>
+      <p class="revision">
+        Última actualización: <time datetime={publicado.toISOString()}>{actualizado}</time> · Datos revisados el <time datetime={revision.fecha}>{revisado}</time> ({revision.fuentes}).
+      </p>
       <p><a href="/sobre">Sobre el proyecto</a> · <a href="/sobre#errores">Avisar de un error</a> · <a href="/privacidad">Privacidad</a></p>
     </footer>
   </body>
