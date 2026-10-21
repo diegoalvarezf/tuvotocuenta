@@ -20,6 +20,10 @@ Claro, limpio, moderno y fluido; que no parezca hecho con IA:
 - Tema claro por defecto (fondo papel) con botón para pasar a oscuro; la elección se guarda en el navegador.
 - Cada dato visible lleva su fuente enlazada (componente `Fuente`, registro en `src/lib/fuentes.ts`). Si es un cálculo propio, se indica y se citan los datos de origen.
 
+## Revisión de datos
+
+Cada vez que se revisen las fuentes oficiales (BOE, datos abiertos del Congreso, programas), actualizar `src/data/revision.json` con la fecha de esa revisión, haya o no cambios. Se muestra en el pie de todas las páginas.
+
 ## Tests
 
 `npm test` (node:test, sin dependencias). Se ejecutan antes de cada build: si fallan, Vercel no publica. Cubren el reparto D'Hondt contra los 350 escaños oficiales de 2023, la coherencia de las votaciones con los totales oficiales y el verificador de citas de programas.
