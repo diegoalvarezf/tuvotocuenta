@@ -149,7 +149,7 @@ const fuenteDe = (siglas: string) => {
       <li><strong>Cita literal y página.</strong> Cada propuesta lleva el fragmento exacto del programa y un enlace a su página, para que lo compruebes tú.</li>
       <li><strong>Verificación automática.</strong> Una IA ayuda a localizar y clasificar las propuestas. Después, un programa comprueba que cada cita aparece palabra por palabra en esa página del PDF; si no aparece, se descarta.</li>
       <li><strong>Revisión.</strong> Una segunda pasada con IA comprueba cada propuesta contra su página. Después, una persona revisa una muestra de cada formación antes de publicar.</li>
-      <li><strong>Concreta o genérica.</strong> Marcamos como concreta la propuesta que incluye una cifra, una fecha, un plazo o una medida comprobable. «Impulsaremos» o «apostaremos por» sin nada más es genérica.</li>
+      <li><strong>Concreta o genérica.</strong> Es concreta si se puede comprobar su cumplimiento: tiene una cifra, una fecha, un plazo o una medida legal o administrativa identificable, como crear o suprimir un impuesto o una ley, o una deducción bien definida aunque no lleve cifra. «Impulsaremos» o «apostaremos por» sin nada más, o un plan sin nombre ni cifra, es genérica. No mide si la propuesta es buena o mala, y el límite a veces es discutible.</li>
       <li><strong>Mismo trato para todos.</strong> Todos los programas se procesan con las mismas instrucciones y los mismos temas.</li>
     </ol>
   </section>
@@ -183,15 +183,17 @@ const fuenteDe = (siglas: string) => {
         const sePresenta = !provincia || col.dataset.provincias!.split(' ').includes(provincia);
         if (sePresenta) conPrograma++;
         col.hidden = !sePresenta || (elegidos.length > 0 && !elegidos.includes(col.dataset.partido));
-        // Sombreado alterno entre las columnas que se ven
-        col.classList.toggle('alterna', !col.hidden && visibles % 2 === 1);
         if (!col.hidden) visibles++;
         const delTema = [...col.querySelectorAll<HTMLElement>('li[data-tema]')].filter((li) => {
           li.hidden = true;
           return li.dataset.tema === tema && (!concretas.checked || li.dataset.concreta === 'true');
         });
         const limite = todas ? delTema.length : VISIBLES;
-        delTema.slice(0, limite).forEach((li) => (li.hidden = false));
+        delTema.slice(0, limite).forEach((li, i) => {
+          li.hidden = false;
+          // Sombreado alterno entre las propuestas que se ven
+          li.classList.toggle('alterna', i % 2 === 1);
+        });
         if (!col.hidden) ocultas += Math.max(0, delTema.length - limite);
         const vacio = col.querySelector<HTMLElement>('.vacio')!;
         vacio.hidden = delTema.length > 0;
@@ -282,13 +284,13 @@ const fuenteDe = (siglas: string) => {
     border-top: 1px solid var(--tinta);
   }
   .columna { flex: 0 0 min(80vw, 300px); padding: 14px 14px 8px; scroll-snap-align: start; min-width: 0; }
-  .columna.alterna { background: var(--resalte); }
+  .columna + .columna { border-left: 1px solid var(--linea); }
   .columna[hidden], .columna li[hidden] { display: none; }
   .columna header { padding-bottom: 10px; border-bottom: 1px solid var(--linea); }
   .columna h2 { font-size: 22px; line-height: 1.15; margin: 0; display: flex; align-items: baseline; }
   .columna ul { list-style: none; margin: 0; padding: 0; }
-  .columna li { padding: 14px 0; border-bottom: 1px solid var(--linea); }
-  .columna li:last-child { border-bottom: 0; }
+  .columna li { padding: 14px; margin-inline: -14px; }
+  .columna li.alterna { background: var(--resalte); }
   .resumen { margin: 0 0 8px; font-size: 15px; line-height: 1.4; }
   .tipo { display: inline-block; font-size: 12px; color: var(--suave); margin-right: 8px; }
   .tipo[data-concreta='true'] { color: var(--tinta); font-weight: 600; }
