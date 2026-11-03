@@ -109,8 +109,8 @@ const FORMACIONES = [
   [/^BLOQUE NACIONALISTA/i, 'BNG', 'Bloque Nacionalista Galego'],
   [/COALICIÓN CANARIA/i, 'CCa', 'Coalición Canaria'],
   [/^DEMOCRACIA PARA EL SIGLO 21/i, 'D21', 'Democracia para el Siglo 21'],
-  [/^CONVERGENTS/i, 'CNV', 'Convergents'],
-  [/^IUSTITIA EUROPA/i, 'IE', 'Iustitia Europa'],
+  [/^CONVERGENTS/i, 'Convergents', 'Convergents'],
+  [/^IUSTITIA EUROPA/i, 'Iustitia Europa', 'Iustitia Europa'],
   [/^FEDERACION DE LOS INDEPENDIENTES DE ARAGON/i, 'FIA', 'Federación de los Independientes de Aragón'],
 ];
 

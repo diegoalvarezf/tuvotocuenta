@@ -67,6 +67,12 @@ const fuenteDe = (siglas: string) => {
         <nav class="temas" aria-label="Elegir tema" data-temas>
           {temas.map((t, i) => <button type="button" aria-pressed={String(i === 0)} data-tema={t}>{t}</button>)}
         </nav>
+        <nav class="partidos" aria-label="Elegir formaciones" data-partidos>
+          <button type="button" aria-pressed="true" data-todas>Todas</button>
+          {conPropuestas.map((x) => (
+            <button type="button" aria-pressed="false" data-elegir={x.siglas}><span class="punto" style={`--c:${color(x.siglas)}`}></span>{x.corto}</button>
+          ))}
+        </nav>
         <div class="otros-filtros">
           <label class="elegir-provincia">
             <span>Se puede votar en</span>
@@ -108,6 +114,7 @@ const fuenteDe = (siglas: string) => {
           </section>
         ))}
       </div>
+      <p class="ninguna suave" data-ninguna hidden>Ninguna de las formaciones elegidas se presenta en esa provincia.</p>
       <button type="button" class="ver-mas" data-ver-mas hidden></button>
     </>
   )}
@@ -160,16 +167,25 @@ const fuenteDe = (siglas: string) => {
     const nota = document.querySelector<HTMLElement>('[data-sin-programa]')!;
     const verMas = document.querySelector<HTMLButtonElement>('[data-ver-mas]')!;
     const totales = JSON.parse(nota.dataset.formaciones!) as Record<string, number>;
+    const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-elegir]')];
+    const chipTodas = document.querySelector<HTMLButtonElement>('[data-todas]')!;
+    const ninguna = document.querySelector<HTMLElement>('[data-ninguna]')!;
     let todas = false;
 
     const pintar = () => {
       const tema = botones.find((b) => b.getAttribute('aria-pressed') === 'true')!.dataset.tema;
       const provincia = selector.value;
+      const elegidos = chips.filter((c) => c.getAttribute('aria-pressed') === 'true').map((c) => c.dataset.elegir);
       let conPrograma = 0;
       let ocultas = 0;
+      let visibles = 0;
       columnas.forEach((col) => {
-        col.hidden = !!provincia && !col.dataset.provincias!.split(' ').includes(provincia);
-        if (!col.hidden) conPrograma++;
+        const sePresenta = !provincia || col.dataset.provincias!.split(' ').includes(provincia);
+        if (sePresenta) conPrograma++;
+        col.hidden = !sePresenta || (elegidos.length > 0 && !elegidos.includes(col.dataset.partido));
+        // Sombreado alterno entre las columnas que se ven
+        col.classList.toggle('alterna', !col.hidden && visibles % 2 === 1);
+        if (!col.hidden) visibles++;
         const delTema = [...col.querySelectorAll<HTMLElement>('li[data-tema]')].filter((li) => {
           li.hidden = true;
           return li.dataset.tema === tema && (!concretas.checked || li.dataset.concreta === 'true');
@@ -181,6 +197,7 @@ const fuenteDe = (siglas: string) => {
         vacio.hidden = delTema.length > 0;
         vacio.textContent = concretas.checked ? 'Sin propuestas concretas sobre este tema.' : 'No dice nada sobre este tema en su documento.';
       });
+      ninguna.hidden = visibles > 0;
       verMas.hidden = ocultas === 0;
       verMas.textContent = `Ver ${ocultas} más`;
       nota.textContent = `Formaciones con un documento extenso ya revisado: ${conPrograma} de ${totales[provincia || 'todas']}. Las demás se añadirán cuando lo publiquen.`;
@@ -195,6 +212,18 @@ const fuenteDe = (siglas: string) => {
         cambiar();
       }),
     );
+    chips.forEach((c) =>
+      c.addEventListener('click', () => {
+        c.setAttribute('aria-pressed', String(c.getAttribute('aria-pressed') !== 'true'));
+        chipTodas.setAttribute('aria-pressed', String(!chips.some((x) => x.getAttribute('aria-pressed') === 'true')));
+        cambiar();
+      }),
+    );
+    chipTodas.addEventListener('click', () => {
+      chips.forEach((x) => x.setAttribute('aria-pressed', 'false'));
+      chipTodas.setAttribute('aria-pressed', 'true');
+      cambiar();
+    });
     selector.addEventListener('change', cambiar);
     concretas.addEventListener('change', cambiar);
     verMas.addEventListener('click', () => {
@@ -215,9 +244,11 @@ const fuenteDe = (siglas: string) => {
   .estado strong { font-weight: 400; font-style: italic; }
 
   .filtros { border-top: 1px solid var(--tinta); padding-top: 16px; }
-  .temas { display: grid; grid-template-rows: auto auto; grid-auto-flow: column; grid-auto-columns: max-content; gap: 6px; overflow-x: auto; margin-inline: -20px; padding: 0 20px 4px; scrollbar-width: none; }
-  .temas::-webkit-scrollbar { display: none; }
-  .temas button {
+  .temas, .partidos { display: grid; grid-template-rows: auto auto; grid-auto-flow: column; grid-auto-columns: max-content; gap: 6px; overflow-x: auto; margin-inline: -20px; padding: 0 20px 4px; scrollbar-width: none; }
+  .temas::-webkit-scrollbar, .partidos::-webkit-scrollbar { display: none; }
+  .partidos { grid-template-rows: auto; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--linea); }
+  .partidos { margin-inline: -20px; }
+  .temas button, .partidos button {
     font: inherit;
     font-size: 14px;
     line-height: 1.2;
@@ -229,8 +260,10 @@ const fuenteDe = (siglas: string) => {
     cursor: pointer;
     transition: background-color 0.15s, color 0.15s, border-color 0.15s;
   }
-  .temas button:hover { color: var(--tinta); border-color: var(--suave); }
-  .temas button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+  .temas button:hover, .partidos button:hover { color: var(--tinta); border-color: var(--suave); }
+  .partidos button { display: inline-flex; align-items: center; }
+  .partidos .punto { width: 8px; height: 8px; margin-right: 7px; }
+  .temas button[aria-pressed='true'], .partidos button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
   .otros-filtros { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--linea); }
   .solo-concretas { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; cursor: pointer; min-height: 36px; }
   .solo-concretas input { accent-color: var(--tinta); width: 16px; height: 16px; margin: 0; }
@@ -248,8 +281,8 @@ const fuenteDe = (siglas: string) => {
     scroll-padding-inline: 20px;
     border-top: 1px solid var(--tinta);
   }
-  .columna { flex: 0 0 min(80vw, 300px); padding: 14px 16px 0 0; scroll-snap-align: start; min-width: 0; }
-  .columna + .columna { border-left: 1px solid var(--linea); padding-left: 16px; }
+  .columna { flex: 0 0 min(80vw, 300px); padding: 14px 14px 8px; scroll-snap-align: start; min-width: 0; }
+  .columna.alterna { background: var(--resalte); }
   .columna[hidden], .columna li[hidden] { display: none; }
   .columna header { padding-bottom: 10px; border-bottom: 1px solid var(--linea); }
   .columna h2 { font-size: 22px; line-height: 1.15; margin: 0; display: flex; align-items: baseline; }
@@ -265,6 +298,7 @@ const fuenteDe = (siglas: string) => {
   .columna details[open] summary { color: var(--tinta); }
   blockquote { margin: 10px 0 8px; padding-left: 10px; border-left: 2px solid var(--linea); color: var(--suave); font-size: 14px; line-height: 1.45; }
   .ir-pagina { font-size: 12px; }
+  p.ninguna { font-size: 14px; margin: 16px 0 0; }
   p.aviso { font-size: 13px; line-height: 1.4; margin: 6px 0 0; }
   p.sin-programa { font-size: 13px; line-height: 1.4; margin: 12px 0 16px; }
   .borrador { font-size: 12px; color: var(--suave); }
@@ -283,7 +317,9 @@ const fuenteDe = (siglas: string) => {
   .metodo li { margin-bottom: 12px; }
 
   @media (min-width: 640px) {
-    .temas { display: flex; flex-wrap: wrap; overflow: visible; margin-inline: 0; padding: 0; }
+    .temas, .partidos { display: flex; flex-wrap: wrap; overflow: visible; margin-inline: 0; }
+    .temas { padding: 0; }
+    .partidos { padding: 12px 0 0; }
     .columna { flex: 1 0 236px; }
     .comparador { margin-inline: 0; padding-inline: 0; }
   }
