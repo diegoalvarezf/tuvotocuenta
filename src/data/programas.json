@@ -4,9 +4,14 @@
     "corto": "Frente Obrero",
     "nombre": "Frente Obrero",
     "circunscripciones": 52,
-    "web": null,
-    "documento": null,
-    "programa": null
+    "web": "https://frenteobrero.es",
+    "documentos": [],
+    "programa": {
+      "titulo": "Programa",
+      "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+      "fecha": "2026-10-07",
+      "paginas": 64
+    }
   },
   {
     "siglas": "PSOE",
@@ -14,7 +19,7 @@
     "nombre": "Partido Socialista Obrero Español",
     "circunscripciones": 52,
     "web": "https://www.psoe.es",
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -23,12 +28,14 @@
     "nombre": "Vox",
     "circunscripciones": 52,
     "web": "https://www.voxespana.es",
-    "documento": {
-      "titulo": "Recuperar España",
-      "url": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf",
-      "fecha": "2026-10-19",
-      "paginas": 6
-    },
+    "documentos": [
+      {
+        "titulo": "Recuperar España",
+        "url": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf",
+        "fecha": "2026-10-19",
+        "paginas": 6
+      }
+    ],
     "programa": null
   },
   {
@@ -37,12 +44,14 @@
     "nombre": "Partido Popular",
     "circunscripciones": 51,
     "web": "https://www.pp.es",
-    "documento": {
-      "titulo": "Contrato con España",
-      "url": "https://www.pp.es/wp-content/uploads/2026/10/CONTRATO-CON-ESPANA-.pdf",
-      "fecha": "2026-10-19",
-      "paginas": 4
-    },
+    "documentos": [
+      {
+        "titulo": "Contrato con España",
+        "url": "https://www.pp.es/wp-content/uploads/2026/10/CONTRATO-CON-ESPANA-.pdf",
+        "fecha": "2026-10-19",
+        "paginas": 4
+      }
+    ],
     "programa": null
   },
   {
@@ -50,8 +59,8 @@
     "corto": "PCTE",
     "nombre": "Partido Comunista de los Trabajadores de España",
     "circunscripciones": 46,
-    "web": null,
-    "documento": null,
+    "web": "https://www.pcte.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -59,8 +68,15 @@
     "corto": "SALF",
     "nombre": "Se Acabó la Fiesta",
     "circunscripciones": 46,
-    "web": null,
-    "documento": null,
+    "web": "https://www.seacabolafiesta.com",
+    "documentos": [
+      {
+        "titulo": "Díptico",
+        "url": "https://www.seacabolafiesta.com/images/diptico.pdf",
+        "fecha": "2026-10-31",
+        "paginas": 2
+      }
+    ],
     "programa": null
   },
   {
@@ -68,8 +84,8 @@
     "corto": "Frente Amplio",
     "nombre": "Frente Amplio",
     "circunscripciones": 44,
-    "web": null,
-    "documento": null,
+    "web": "https://frenteamplio.info",
+    "documentos": [],
     "programa": null
   },
   {
@@ -77,8 +93,8 @@
     "corto": "Podemos",
     "nombre": "Podemos",
     "circunscripciones": 41,
-    "web": null,
-    "documento": null,
+    "web": "https://podemos.info",
+    "documentos": [],
     "programa": null
   },
   {
@@ -86,8 +102,8 @@
     "corto": "PACMA",
     "nombre": "Partido Animalista con el Medio Ambiente",
     "circunscripciones": 30,
-    "web": null,
-    "documento": null,
+    "web": "https://www.pacma.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -95,8 +111,8 @@
     "corto": "Mundo+Justo",
     "nombre": "Por un Mundo Más Justo",
     "circunscripciones": 26,
-    "web": null,
-    "documento": null,
+    "web": "https://www.porunmundomasjusto.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -104,8 +120,13 @@
     "corto": "Escaños en Blanco",
     "nombre": "Escaños en Blanco para Dejar Escaños Vacíos",
     "circunscripciones": 12,
-    "web": null,
-    "documento": null,
+    "web": "https://escanos.org",
+    "documentos": [
+      {
+        "titulo": "Artículo único (web)",
+        "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/"
+      }
+    ],
     "programa": null
   },
   {
@@ -113,8 +134,8 @@
     "corto": "FE de las JONS",
     "nombre": "Falange Española de las JONS",
     "circunscripciones": 9,
-    "web": null,
-    "documento": null,
+    "web": "https://falange.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -122,8 +143,8 @@
     "corto": "ADELANTE ANDALUCÍA",
     "nombre": "ADELANTE ANDALUCÍA",
     "circunscripciones": 8,
-    "web": null,
-    "documento": null,
+    "web": "https://adelanteandalucia.org",
+    "documentos": [],
     "programa": null
   },
   {
@@ -131,8 +152,13 @@
     "corto": "ALHORA",
     "nombre": "ALHORA",
     "circunscripciones": 4,
-    "web": null,
-    "documento": null,
+    "web": "https://alhora.cat",
+    "documentos": [
+      {
+        "titulo": "Compromiso (web)",
+        "url": "https://foraespanya.cat"
+      }
+    ],
     "programa": null
   },
   {
@@ -141,7 +167,7 @@
     "nombre": "Bloque Nacionalista Galego",
     "circunscripciones": 4,
     "web": "https://www.bng.gal",
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -150,7 +176,7 @@
     "nombre": "Euskal Herria Bildu",
     "circunscripciones": 4,
     "web": "https://ehbildu.eus",
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -159,7 +185,7 @@
     "nombre": "Esquerra Republicana de Catalunya",
     "circunscripciones": 4,
     "web": "https://www.esquerra.cat",
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -168,7 +194,7 @@
     "nombre": "Junts per Catalunya",
     "circunscripciones": 4,
     "web": "https://junts.cat",
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -176,8 +202,8 @@
     "corto": "COMPROMIS-EUPV-PODEM-ERPV",
     "nombre": "COMPROMÍS: FRONT VALENCIÀ",
     "circunscripciones": 3,
-    "web": null,
-    "documento": null,
+    "web": "https://compromis.net",
+    "documentos": [],
     "programa": null
   },
   {
@@ -185,8 +211,8 @@
     "corto": "PARTIDO AUTÓNOMOS",
     "nombre": "PARTIDO AUTÓNOMOS",
     "circunscripciones": 3,
-    "web": null,
-    "documento": null,
+    "web": "https://www.partidoautonomos.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -195,7 +221,7 @@
     "nombre": "Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco",
     "circunscripciones": 3,
     "web": "https://www.eaj-pnv.eus",
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -203,8 +229,8 @@
     "corto": "PREPAL",
     "nombre": "PARTIDO REGIONALISTA DEL PAIS LEONES",
     "circunscripciones": 3,
-    "web": null,
-    "documento": null,
+    "web": "http://www.prepal.eu",
+    "documentos": [],
     "programa": null
   },
   {
@@ -212,8 +238,8 @@
     "corto": "CCa",
     "nombre": "Coalición Canaria",
     "circunscripciones": 2,
-    "web": null,
-    "documento": null,
+    "web": "https://coalicioncanaria.org",
+    "documentos": [],
     "programa": null
   },
   {
@@ -221,8 +247,8 @@
     "corto": "D.R.G",
     "nombre": "PARTIDO DRAGO CANARIAS",
     "circunscripciones": 2,
-    "web": null,
-    "documento": null,
+    "web": "https://www.dragocanarias.com",
+    "documentos": [],
     "programa": null
   },
   {
@@ -230,8 +256,21 @@
     "corto": "D21",
     "nombre": "Democracia para el Siglo 21",
     "circunscripciones": 2,
-    "web": null,
-    "documento": null,
+    "web": "https://democracia21.es",
+    "documentos": [
+      {
+        "titulo": "España limpia",
+        "url": "https://democracia21.es/docs/espana-limpia-democracia21.pdf",
+        "fecha": "2026-10-15",
+        "paginas": 13
+      },
+      {
+        "titulo": "Vivienda, prioridad nº 1",
+        "url": "https://democracia21.es/docs/vivienda-prioridad-1-democracia21.pdf",
+        "fecha": "2026-10-20",
+        "paginas": 9
+      }
+    ],
     "programa": null
   },
   {
@@ -239,8 +278,8 @@
     "corto": "FIA",
     "nombre": "Federación de los Independientes de Aragón",
     "circunscripciones": 2,
-    "web": null,
-    "documento": null,
+    "web": "https://www.fia-independientes.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -249,7 +288,7 @@
     "nombre": "LIBERACIÓN CANARIA",
     "circunscripciones": 2,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -258,7 +297,7 @@
     "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
     "circunscripciones": 2,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -266,8 +305,8 @@
     "corto": "NEX",
     "nombre": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA",
     "circunscripciones": 2,
-    "web": null,
-    "documento": null,
+    "web": "https://www.nuevoext.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -276,7 +315,7 @@
     "nombre": "ALTERNATIVA MALAGUEÑA",
     "circunscripciones": 1,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -284,8 +323,15 @@
     "corto": "3e",
     "nombre": "TERCERA EDAD EN ACCIÓN",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://3edad.org",
+    "documentos": [
+      {
+        "titulo": "Programa político 2026",
+        "url": "https://3edad.org/wp-content/uploads/2026/10/Programa_Politico_En_Accion_3e_2026-1.pdf",
+        "fecha": "2026-10-18",
+        "paginas": 6
+      }
+    ],
     "programa": null
   },
   {
@@ -294,7 +340,7 @@
     "nombre": "AGENDA VALENCIANA",
     "circunscripciones": 1,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -302,9 +348,14 @@
     "corto": "CNV",
     "nombre": "CONVERGENTS",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
-    "programa": null
+    "web": "https://www.convergents.org",
+    "documentos": [],
+    "programa": {
+      "titulo": "Programa Electoral Eleccions Generals 2026",
+      "url": "https://www.convergents.org/_files/ugd/d24b0b_2c84e86795954481a948f644038a7cb3.pdf",
+      "fecha": "2025-11-27",
+      "paginas": 48
+    }
   },
   {
     "siglas": "EGUZKILORE",
@@ -312,7 +363,7 @@
     "nombre": "EGUZKILORE",
     "circunscripciones": 1,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -320,8 +371,8 @@
     "corto": "GBAI",
     "nombre": "GEROA BAI",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://geroabai.eus",
+    "documentos": [],
     "programa": null
   },
   {
@@ -329,17 +380,22 @@
     "corto": "IE",
     "nombre": "IUSTITIA EUROPA",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
-    "programa": null
+    "web": "https://iustitiaeuropa.es",
+    "documentos": [],
+    "programa": {
+      "titulo": "Contrato electoral 29N",
+      "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf",
+      "fecha": "2025-12-07",
+      "paginas": 28
+    }
   },
   {
     "siglas": "P. ALANTRE",
     "corto": "P. ALANTRE",
     "nombre": "PROYECTO ALANTRE",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://www.alantre.org",
+    "documentos": [],
     "programa": null
   },
   {
@@ -348,7 +404,7 @@
     "nombre": "PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS",
     "circunscripciones": 1,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -356,8 +412,8 @@
     "corto": "PANCAL-URCI",
     "nombre": "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://pancal-urci.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -366,7 +422,7 @@
     "nombre": "PARTIDO COMUNISTA DEL PUEBLO CANARIO",
     "circunscripciones": 1,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -374,8 +430,15 @@
     "corto": "PFAC",
     "nombre": "FEMINISTAS AL CONGRESO",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://www.feministasalcongreso.es",
+    "documentos": [
+      {
+        "titulo": "14 propuestas",
+        "url": "https://www.feministasalcongreso.es/wp-content/uploads/2026/10/Programa_1IMP.pdf",
+        "fecha": "2026-10-20",
+        "paginas": 2
+      }
+    ],
     "programa": null
   },
   {
@@ -383,8 +446,8 @@
     "corto": "PH",
     "nombre": "PARTIDO HUMANISTA",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://partidohumanista.es",
+    "documentos": [],
     "programa": null
   },
   {
@@ -393,7 +456,7 @@
     "nombre": "PARTIDO UNIONISTA ESTADO DE ESPAÑA",
     "circunscripciones": 1,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -402,7 +465,7 @@
     "nombre": "RENACER RENAIXER",
     "circunscripciones": 1,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -411,7 +474,7 @@
     "nombre": "SORIA ¡YA!",
     "circunscripciones": 1,
     "web": null,
-    "documento": null,
+    "documentos": [],
     "programa": null
   },
   {
@@ -419,8 +482,8 @@
     "corto": "TERUEL EXISTE",
     "nombre": "TERUEL EXISTE",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://teruelexiste.info",
+    "documentos": [],
     "programa": null
   },
   {
@@ -428,8 +491,8 @@
     "corto": "UPN-PP",
     "nombre": "Unión del Pueblo Navarro en coalición con el Partido Popular",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://www.upn.org",
+    "documentos": [],
     "programa": null
   },
   {
@@ -437,8 +500,8 @@
     "corto": "VLC",
     "nombre": "VALENCIA UNIDA",
     "circunscripciones": 1,
-    "web": null,
-    "documento": null,
+    "web": "https://valenciaunida.es",
+    "documentos": [],
     "programa": null
   }
 ]

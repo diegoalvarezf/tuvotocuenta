@@ -34,3 +34,10 @@ test('toda formación proclamada está en la lista de programas, y solo esas', (
   const proclamadas = new Set(candidaturas.provincias.flatMap((p) => p.candidaturas.map((c) => c.formacion)));
   assert.deepEqual(new Set(programas.map((x) => x.corto)), proclamadas);
 });
+
+test('un programa completo tiene 20 páginas o más y un enlace', () => {
+  for (const p of programas.filter((x) => x.programa)) {
+    assert.ok(p.programa.paginas >= 20, p.corto);
+    assert.match(p.programa.url, /^https:/, p.corto);
+  }
+});

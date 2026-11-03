@@ -10,12 +10,13 @@ interface Programa {
   url: string;
   fecha: string;
   titulo: string;
+  paginas: number;
 }
 interface Documento {
   titulo: string;
   url: string;
-  fecha: string;
-  paginas: number;
+  fecha?: string;
+  paginas?: number;
 }
 interface Propuesta {
   partido: string;
@@ -29,11 +30,10 @@ interface Propuesta {
 
 // Solo se publican las propuestas revisadas por una persona
 const propuestas = (propuestasJson as Propuesta[]).filter((p) => p.revisada);
-const partidos = programas.map((p) => ({ ...p, programa: p.programa as Programa | null, documento: p.documento as Documento | null }));
+const partidos = programas.map((p) => ({ ...p, programa: p.programa as Programa | null, documentos: p.documentos as Documento[] }));
 const publicados = partidos.filter((p) => p.programa);
 const temas = TEMAS.filter((t) => propuestas.some((p) => p.tema === t));
 const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)?.programa;
-const fecha = (f: string) => new Date(f + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'long' });
 ---
 
 <Base title="Lo que proponen · tuvotocuenta" description="Qué propone cada partido para el 29 de noviembre, tema a tema, con la cita literal y la página exacta de su programa.">
@@ -45,7 +45,7 @@ const fecha = (f: string) => new Date(f + 'T12:00:00').toLocaleDateString('es-ES
       <p class="estado">
         <strong>{publicados.length} de {partidos.length}</strong> formaciones han publicado su programa completo para el 29 de noviembre.
       </p>
-      <p class="suave">Esta sección se abrirá en cuanto empiecen a publicarse. Mientras tanto, puedes ver <a href="/votaciones">lo que votaron</a> en la última legislatura.</p>
+      <p class="suave">La comparación tema a tema aún no está abierta. Mientras tanto, puedes ver <a href="/votaciones">lo que votaron</a> en la última legislatura.</p>
     </section>
   ) : (
     <>
@@ -83,21 +83,21 @@ const fecha = (f: string) => new Date(f + 'T12:00:00').toLocaleDateString('es-ES
     {partidos.map((p) => (
       <li>
         <span><span class="punto" style={`--c:${color(p.siglas)}`}></span><span>{p.nombre} <span class="suave donde">{p.circunscripciones} de 52</span></span></span>
-        {p.programa ? (
-          <a href={p.programa.url} target="_blank" rel="noopener">Publicado el {fecha(p.programa.fecha)}</a>
-        ) : (
-          <span class="suave">
-            Pendiente{p.web && <> · <a href={p.web} target="_blank" rel="noopener">web oficial</a></>}
-            {p.documento && <> · <a href={p.documento.url} target="_blank" rel="noopener">Documento previo: {p.documento.titulo}</a> ({fecha(p.documento.fecha)}, {p.documento.paginas} págs.)</>}
-          </span>
-        )}
+        <span class="suave">
+          {p.programa ? <a href={p.programa.url} target="_blank" rel="noopener">Programa ({p.programa.paginas} págs.)</a> : 'Pendiente'}
+          {p.web && <> · <a href={p.web} target="_blank" rel="noopener">web oficial</a></>}
+          {p.documentos.map((d) => (
+            <> · <a href={d.url} target="_blank" rel="noopener">{d.titulo}</a>{d.paginas && ` (${d.paginas} págs.)`}</>
+          ))}
+        </span>
       </li>
     ))}
   </ul>
   <p class="suave nota">
     Las formaciones con candidaturas proclamadas al Congreso y en cuántas de las 52 circunscripciones se presentan. Se agrupan las variantes
-    territoriales de una misma formación. Aún pueden cambiar por los recursos previstos en la ley. «Documento previo» es un texto breve publicado
-    por la formación: lo enlazamos, pero no lo contamos como programa completo ni sacamos propuestas de él.
+    territoriales de una misma formación. Aún pueden cambiar por los recursos previstos en la ley. Contamos como programa completo el documento de 20 páginas o más que la
+    formación ofrece como su programa. Los textos más breves se enlazan junto a su nombre, sin contarlos. «Pendiente» significa que no lo hemos
+    localizado en su web. Si falta algo, avísanos.
   </p>
   <Fuente de={['candidaturas2026', 'loreg']} calculo detalle="art. 49 de la ley electoral" />
 
