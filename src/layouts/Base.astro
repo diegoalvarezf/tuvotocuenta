@@ -31,6 +31,7 @@ const actual = Astro.url.pathname;
 const revisado = new Date(revision.fecha + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 // Fecha de esta publicación: la web se genera de nuevo en cada actualización
 const publicado = new Date();
+const actualizadoCorto = publicado.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', timeZone: 'Europe/Madrid' });
 const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Madrid' });
 ---
 
@@ -70,6 +71,7 @@ const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', mont
   <body>
     <header class="cabecera">
       <a href="/" class="marca" aria-label="tuvotocuenta, inicio">tu<em>voto</em>cuenta</a>
+      <p class="actualizada">Actualizado el <time datetime={publicado.toISOString()}>{actualizadoCorto}</time></p>
       <nav>
         {nav.map((n) => (
           <a href={n.href} aria-current={actual.startsWith(n.href) ? 'page' : undefined}>{n.texto}</a>
@@ -191,6 +193,8 @@ const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', mont
     text-decoration: none;
     letter-spacing: -0.01em;
   }
+  .cabecera { position: relative; }
+  .actualizada { position: absolute; top: 26px; right: 20px; margin: 0; font-size: 12px; line-height: 1.2; color: var(--suave); }
   .cabecera nav { display: flex; gap: 4px; margin-left: -10px; font-size: 15px; }
   .cabecera nav a { position: relative; color: var(--suave); text-decoration: none; padding: 10px; transition: color 0.2s ease; }
   .cabecera nav a:hover, .cabecera nav a[aria-current='page'] { color: var(--tinta); }
@@ -243,6 +247,7 @@ const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', mont
     body { font-size: 17px; }
     .cabecera { flex-direction: row; justify-content: space-between; align-items: center; padding-block: 24px; }
     .cabecera nav { margin-left: 0; margin-right: -10px; }
+    .actualizada { top: 10px; }
     h1 { margin-top: 32px; }
     h2 { font-size: 32px; margin-top: 56px; }
     main { padding-bottom: 64px; }
