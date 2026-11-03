@@ -4,7 +4,9 @@ import Fuente from '../components/Fuente.astro';
 import programas from '../data/programas.json';
 import propuestasJson from '../data/propuestas.json';
 import TEMAS from '../data/temas.json';
+import candidaturas from '../data/candidaturas-2026.json';
 import { color } from '../lib/partidos';
+import { provincias } from '../lib/provincias';
 
 interface Programa {
   url: string;
@@ -28,11 +30,19 @@ interface Propuesta {
   revisada: boolean;
 }
 
-// Solo se publican las propuestas revisadas por una persona
-const propuestas = (propuestasJson as Propuesta[]).filter((p) => p.revisada);
+// Solo se publican las propuestas revisadas por una persona. En local se ven también los borradores, para revisarlos.
+const propuestas = (propuestasJson as Propuesta[]).filter((p) => p.revisada || import.meta.env.DEV);
 const partidos = programas.map((p) => ({ ...p, programa: p.programa as Programa | null, documentos: p.documentos as Documento[] }));
 const publicados = partidos.filter((p) => p.programa);
 const temas = TEMAS.filter((t) => propuestas.some((p) => p.tema === t));
+// Formaciones con propuestas, en el orden de la lista (de más a menos circunscripciones)
+const conPropuestas = partidos.filter((p) => propuestas.some((x) => x.partido === p.siglas));
+// Dónde se presenta cada formación, para el filtro de provincia
+const dondeSePresenta = (corto: string) =>
+  candidaturas.provincias.filter((x) => x.candidaturas.some((c) => c.formacion === corto)).map((x) => x.id);
+const totales: Record<string, number> = { todas: partidos.length };
+for (const x of candidaturas.provincias) totales[x.id] = new Set(x.candidaturas.map((c) => c.formacion)).size;
+const provinciasOrden = [...provincias].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
 const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)?.programa;
 ---
 
@@ -52,16 +62,26 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
       <nav class="filtro" aria-label="Elegir tema" data-temas>
         {temas.map((t, i) => <button type="button" aria-pressed={String(i === 0)} data-tema={t}>{t}</button>)}
       </nav>
+      <label class="elegir-provincia">
+        <span class="suave">Ver solo lo que se puede votar en</span>
+        <span class="desplegable">
+          <select data-provincia>
+            <option value="">toda España</option>
+            {provinciasOrden.map((x) => <option value={x.id}>{x.nombre}</option>)}
+          </select>
+        </span>
+      </label>
       <div class="comparador">
-        {publicados.map((partido) => (
-          <section class="columna" data-partido={partido.siglas}>
-            <h2 title={partido.nombre}><span class="punto" style={`--c:${color(partido.siglas)}`}></span>{partido.corto}</h2>
+        {conPropuestas.map((partido) => (
+          <section class="columna" data-partido={partido.siglas} data-provincias={dondeSePresenta(partido.corto).join(' ')}>
+            <h2><span class="punto" style={`--c:${color(partido.siglas)}`}></span>{partido.nombre}</h2>
             <ul>
               {propuestas
                 .filter((p) => p.partido === partido.siglas)
+                .sort((a, b) => a.pagina - b.pagina)
                 .map((p) => (
                   <li data-tema={p.tema}>
-                    <p class="resumen">{p.resumen}</p>
+                    <p class="resumen">{p.resumen}{!p.revisada && <span class="borrador"> · Sin revisar</span>}</p>
                     <blockquote>«{p.cita}»</blockquote>
                     <p class="meta suave">
                       <a href={`${programaDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Página {p.pagina} del programa</a>
@@ -71,10 +91,12 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
                   </li>
                 ))}
             </ul>
-            <p class="vacio suave" hidden>Sin propuestas sobre este tema en su programa.</p>
+            <button type="button" class="ver-mas suave" hidden></button>
+            <p class="vacio suave" hidden>No dice nada sobre este tema en su programa.</p>
           </section>
         ))}
       </div>
+      <p class="sin-programa suave" data-sin-programa data-formaciones={JSON.stringify(totales)}></p>
     </>
   )}
 
@@ -115,24 +137,50 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
 </Base>
 
 <script>
+  const VISIBLES = 3;
   function iniciar() {
     const nav = document.querySelector<HTMLElement>('[data-temas]');
     if (!nav) return;
-    const botones = nav.querySelectorAll<HTMLButtonElement>('button');
-    const aplicar = (tema: string) => {
-      botones.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.tema === tema)));
-      document.querySelectorAll<HTMLElement>('.columna').forEach((col) => {
-        const items = col.querySelectorAll<HTMLElement>('li[data-tema]');
-        let visibles = 0;
-        items.forEach((li) => {
-          li.hidden = li.dataset.tema !== tema;
-          if (!li.hidden) visibles++;
+    const botones = [...nav.querySelectorAll<HTMLButtonElement>('button')];
+    const selector = document.querySelector<HTMLSelectElement>('[data-provincia]')!;
+    const columnas = [...document.querySelectorAll<HTMLElement>('.columna')];
+    const nota = document.querySelector<HTMLElement>('[data-sin-programa]')!;
+    const totales = JSON.parse(nota.dataset.formaciones!) as Record<string, number>;
+
+    const pintar = () => {
+      const tema = botones.find((b) => b.getAttribute('aria-pressed') === 'true')!.dataset.tema;
+      const provincia = selector.value;
+      let conPrograma = 0;
+      columnas.forEach((col) => {
+        col.hidden = !!provincia && !col.dataset.provincias!.split(' ').includes(provincia);
+        if (!col.hidden) conPrograma++;
+        const delTema = [...col.querySelectorAll<HTMLElement>('li[data-tema]')].filter((li) => {
+          li.hidden = true;
+          return li.dataset.tema === tema;
         });
-        col.querySelector<HTMLElement>('.vacio')!.hidden = visibles > 0;
+        delTema.slice(0, VISIBLES).forEach((li) => (li.hidden = false));
+        const resto = delTema.slice(VISIBLES);
+        const mas = col.querySelector<HTMLButtonElement>('.ver-mas')!;
+        mas.hidden = resto.length === 0;
+        mas.textContent = `Ver ${resto.length} más`;
+        mas.onclick = () => {
+          resto.forEach((li) => (li.hidden = false));
+          mas.hidden = true;
+        };
+        col.querySelector<HTMLElement>('.vacio')!.hidden = delTema.length > 0;
       });
+      const total = totales[provincia || 'todas'];
+      const faltan = total - conPrograma;
+      nota.textContent = faltan > 0 ? `${faltan} de ${total} formaciones aún no tienen programa localizado.` : '';
     };
-    botones.forEach((b) => b.addEventListener('click', () => aplicar(b.dataset.tema!)));
-    if (botones[0]) aplicar(botones[0].dataset.tema!);
+    botones.forEach((b) =>
+      b.addEventListener('click', () => {
+        botones.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        pintar();
+      }),
+    );
+    selector.addEventListener('change', pintar);
+    pintar();
   }
   document.addEventListener('astro:page-load', iniciar);
 </script>
@@ -159,14 +207,23 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
   }
   .filtro button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
 
-  .comparador { display: grid; gap: 8px; }
+  .elegir-provincia { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 15px; margin: 0 0 24px; }
+  .desplegable { position: relative; display: inline-flex; }
+  .desplegable::after { content: ''; position: absolute; right: 14px; top: 50%; width: 7px; height: 7px; border-right: 1.5px solid var(--tinta); border-bottom: 1.5px solid var(--tinta); transform: translateY(-70%) rotate(45deg); pointer-events: none; }
+  .desplegable select { appearance: none; font: inherit; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 7px 34px 7px 14px; cursor: pointer; }
+  .comparador { display: grid; gap: 24px; }
   .columna { border-top: 1px solid var(--tinta); padding-top: 12px; }
+  .columna[hidden] { display: none; }
+  .columna li[hidden] { display: none; }
   .columna h2 { font-size: 24px; margin: 0 0 8px; display: flex; align-items: center; }
   .columna ul { list-style: none; margin: 0; padding: 0; }
   .columna li { padding: 12px 0; border-bottom: 1px solid var(--linea); }
   .resumen { margin: 0 0 8px; font-weight: 500; }
   blockquote { margin: 0; padding-left: 12px; border-left: 2px solid var(--linea); color: var(--suave); font-size: 15px; }
   .meta { font-size: 13px; margin: 8px 0 0; }
+  .borrador { font-size: 12px; font-weight: 400; color: var(--suave); }
+  .ver-mas { font: inherit; font-size: 14px; background: none; border: 0; padding: 12px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+  .sin-programa { font-size: 14px; margin: 24px 0 0; }
   .tipo.concreta { color: var(--tinta); font-weight: 600; }
 
   .punto { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; display: inline-block; }
@@ -181,6 +238,5 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
 
   @media (min-width: 640px) {
     .filtro { margin-inline: 0; padding-inline: 0; flex-wrap: wrap; }
-    .comparador { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); column-gap: 32px; }
   }
 </style>
