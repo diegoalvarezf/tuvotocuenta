@@ -148,7 +148,7 @@ const programas = [...cuenta.values()]
   .sort((a, b) => b.circunscripciones.size - a.circunscripciones.size || a.corto.localeCompare(b.corto, 'es'))
   .map((f) => {
     const previo = anterior.find((x) => x.corto === f.corto);
-    return { siglas: previo?.siglas ?? f.corto, corto: f.corto, nombre: f.nombre, circunscripciones: f.circunscripciones.size, web: previo?.web ?? null, programa: previo?.programa ?? null };
+    return { siglas: previo?.siglas ?? f.corto, corto: f.corto, nombre: f.nombre, circunscripciones: f.circunscripciones.size, web: previo?.web ?? null, documento: previo?.documento ?? null, programa: previo?.programa ?? null };
   });
 writeFileSync('src/data/programas.json', JSON.stringify(programas, null, 2) + '\n');
 const total = provincias.reduce((n, p) => n + p.candidaturas.length, 0);

@@ -5,6 +5,7 @@
     "nombre": "Frente Obrero",
     "circunscripciones": 52,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -13,6 +14,7 @@
     "nombre": "Partido Socialista Obrero Español",
     "circunscripciones": 52,
     "web": "https://www.psoe.es",
+    "documento": null,
     "programa": null
   },
   {
@@ -21,6 +23,12 @@
     "nombre": "Vox",
     "circunscripciones": 52,
     "web": "https://www.voxespana.es",
+    "documento": {
+      "titulo": "Recuperar España",
+      "url": "https://www.voxespana.es/wp-content/uploads/2026/10/RECUPERAR-ESPANA-A4.pdf",
+      "fecha": "2026-10-19",
+      "paginas": 6
+    },
     "programa": null
   },
   {
@@ -29,6 +37,12 @@
     "nombre": "Partido Popular",
     "circunscripciones": 51,
     "web": "https://www.pp.es",
+    "documento": {
+      "titulo": "Contrato con España",
+      "url": "https://www.pp.es/wp-content/uploads/2026/10/CONTRATO-CON-ESPANA-.pdf",
+      "fecha": "2026-10-19",
+      "paginas": 4
+    },
     "programa": null
   },
   {
@@ -37,6 +51,7 @@
     "nombre": "Partido Comunista de los Trabajadores de España",
     "circunscripciones": 46,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -45,6 +60,7 @@
     "nombre": "Se Acabó la Fiesta",
     "circunscripciones": 46,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -53,6 +69,7 @@
     "nombre": "Frente Amplio",
     "circunscripciones": 44,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -61,6 +78,7 @@
     "nombre": "Podemos",
     "circunscripciones": 41,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -69,6 +87,7 @@
     "nombre": "Partido Animalista con el Medio Ambiente",
     "circunscripciones": 30,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -77,6 +96,7 @@
     "nombre": "Por un Mundo Más Justo",
     "circunscripciones": 26,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -85,6 +105,7 @@
     "nombre": "Escaños en Blanco para Dejar Escaños Vacíos",
     "circunscripciones": 12,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -93,6 +114,7 @@
     "nombre": "Falange Española de las JONS",
     "circunscripciones": 9,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -101,6 +123,7 @@
     "nombre": "ADELANTE ANDALUCÍA",
     "circunscripciones": 8,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -109,6 +132,7 @@
     "nombre": "ALHORA",
     "circunscripciones": 4,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -117,6 +141,7 @@
     "nombre": "Bloque Nacionalista Galego",
     "circunscripciones": 4,
     "web": "https://www.bng.gal",
+    "documento": null,
     "programa": null
   },
   {
@@ -125,6 +150,7 @@
     "nombre": "Euskal Herria Bildu",
     "circunscripciones": 4,
     "web": "https://ehbildu.eus",
+    "documento": null,
     "programa": null
   },
   {
@@ -133,6 +159,7 @@
     "nombre": "Esquerra Republicana de Catalunya",
     "circunscripciones": 4,
     "web": "https://www.esquerra.cat",
+    "documento": null,
     "programa": null
   },
   {
@@ -141,6 +168,7 @@
     "nombre": "Junts per Catalunya",
     "circunscripciones": 4,
     "web": "https://junts.cat",
+    "documento": null,
     "programa": null
   },
   {
@@ -149,6 +177,7 @@
     "nombre": "COMPROMÍS: FRONT VALENCIÀ",
     "circunscripciones": 3,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -157,6 +186,7 @@
     "nombre": "PARTIDO AUTÓNOMOS",
     "circunscripciones": 3,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -165,6 +195,7 @@
     "nombre": "Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco",
     "circunscripciones": 3,
     "web": "https://www.eaj-pnv.eus",
+    "documento": null,
     "programa": null
   },
   {
@@ -173,6 +204,7 @@
     "nombre": "PARTIDO REGIONALISTA DEL PAIS LEONES",
     "circunscripciones": 3,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -181,6 +213,7 @@
     "nombre": "Coalición Canaria",
     "circunscripciones": 2,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -189,6 +222,7 @@
     "nombre": "PARTIDO DRAGO CANARIAS",
     "circunscripciones": 2,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -197,6 +231,7 @@
     "nombre": "Democracia para el Siglo 21",
     "circunscripciones": 2,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -205,6 +240,7 @@
     "nombre": "Federación de los Independientes de Aragón",
     "circunscripciones": 2,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -213,6 +249,7 @@
     "nombre": "LIBERACIÓN CANARIA",
     "circunscripciones": 2,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -221,6 +258,7 @@
     "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
     "circunscripciones": 2,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -229,6 +267,7 @@
     "nombre": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA",
     "circunscripciones": 2,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -237,6 +276,7 @@
     "nombre": "ALTERNATIVA MALAGUEÑA",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -245,6 +285,7 @@
     "nombre": "TERCERA EDAD EN ACCIÓN",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -253,6 +294,7 @@
     "nombre": "AGENDA VALENCIANA",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -261,6 +303,7 @@
     "nombre": "CONVERGENTS",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -269,6 +312,7 @@
     "nombre": "EGUZKILORE",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -277,6 +321,7 @@
     "nombre": "GEROA BAI",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -285,6 +330,7 @@
     "nombre": "IUSTITIA EUROPA",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -293,6 +339,7 @@
     "nombre": "PROYECTO ALANTRE",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -301,6 +348,7 @@
     "nombre": "PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -309,6 +357,7 @@
     "nombre": "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -317,6 +366,7 @@
     "nombre": "PARTIDO COMUNISTA DEL PUEBLO CANARIO",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -325,6 +375,7 @@
     "nombre": "FEMINISTAS AL CONGRESO",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -333,6 +384,7 @@
     "nombre": "PARTIDO HUMANISTA",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -341,6 +393,7 @@
     "nombre": "PARTIDO UNIONISTA ESTADO DE ESPAÑA",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -349,6 +402,7 @@
     "nombre": "RENACER RENAIXER",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -357,6 +411,7 @@
     "nombre": "SORIA ¡YA!",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -365,6 +420,7 @@
     "nombre": "TERUEL EXISTE",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -373,6 +429,7 @@
     "nombre": "Unión del Pueblo Navarro en coalición con el Partido Popular",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   },
   {
@@ -381,6 +438,7 @@
     "nombre": "VALENCIA UNIDA",
     "circunscripciones": 1,
     "web": null,
+    "documento": null,
     "programa": null
   }
 ]
