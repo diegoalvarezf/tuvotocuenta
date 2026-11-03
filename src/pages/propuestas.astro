@@ -63,45 +63,52 @@ const fuenteDe = (siglas: string) => {
     </section>
   ) : (
     <>
-      <nav class="filtro" aria-label="Elegir tema" data-temas>
-        {temas.map((t, i) => <button type="button" aria-pressed={String(i === 0)} data-tema={t}>{t}</button>)}
-      </nav>
-      <label class="elegir-provincia">
-        <span class="suave">Ver solo lo que se puede votar en</span>
-        <span class="desplegable">
-          <select data-provincia>
-            <option value="">toda España</option>
-            {provinciasOrden.map((x) => <option value={x.id}>{x.nombre}</option>)}
-          </select>
-        </span>
-      </label>
+      <div class="filtros">
+        <nav class="temas" aria-label="Elegir tema" data-temas>
+          {temas.map((t, i) => <button type="button" aria-pressed={String(i === 0)} data-tema={t}>{t}</button>)}
+        </nav>
+        <div class="otros-filtros">
+          <label class="elegir-provincia">
+            <span>Se puede votar en</span>
+            <span class="desplegable">
+              <select data-provincia>
+                <option value="">toda España</option>
+                {provinciasOrden.map((x) => <option value={x.id}>{x.nombre}</option>)}
+              </select>
+            </span>
+          </label>
+          <label class="solo-concretas"><input type="checkbox" data-concretas /> Solo concretas</label>
+        </div>
+      </div>
       <p class="sin-programa suave" data-sin-programa data-formaciones={JSON.stringify(totales)}></p>
-      <div class="comparador">
+      <div class="comparador" tabindex="0" aria-label="Propuestas por formación">
         {conPropuestas.map((partido) => (
           <section class="columna" data-partido={partido.siglas} data-provincias={dondeSePresenta(partido.corto).join(' ')}>
-            <h2><span class="punto" style={`--c:${color(partido.siglas)}`}></span>{partido.nombre}</h2>
-            {partido.aviso && <p class="aviso suave">{partido.aviso.texto} <a href={`${fuenteDe(partido.siglas)!.url}#page=${partido.aviso.pagina}`} target="_blank" rel="noopener">Página {partido.aviso.pagina}</a>.</p>}
+            <header>
+              <h2><span class="punto" style={`--c:${color(partido.siglas)}`}></span>{partido.nombre}</h2>
+              {partido.aviso && <p class="aviso suave">{partido.aviso.texto} <a href={`${fuenteDe(partido.siglas)!.url}#page=${partido.aviso.pagina}`} target="_blank" rel="noopener">Página {partido.aviso.pagina}</a>.</p>}
+            </header>
             <ul>
               {propuestas
                 .filter((p) => p.partido === partido.siglas)
                 .sort((a, b) => a.pagina - b.pagina)
                 .map((p) => (
-                  <li data-tema={p.tema}>
+                  <li data-tema={p.tema} data-concreta={String(p.concreta)}>
                     <p class="resumen">{p.resumen}{!p.revisada && <span class="borrador"> · Sin revisar</span>}</p>
-                    <blockquote>«{p.cita}»</blockquote>
-                    <p class="meta suave">
-                      <a href={`${fuenteDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Página {p.pagina} del documento</a>
-                      {' · '}
-                      <span class:list={['tipo', { concreta: p.concreta }]}>{p.concreta ? 'Concreta' : 'Genérica'}</span>
-                    </p>
+                    <span class="tipo" data-concreta={String(p.concreta)}>{p.concreta ? 'Concreta' : 'Genérica'}</span>
+                    <details>
+                      <summary>Cita · pág. {p.pagina}</summary>
+                      <blockquote>«{p.cita}»</blockquote>
+                      <a class="ir-pagina" href={`${fuenteDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Ver la página {p.pagina} del documento</a>
+                    </details>
                   </li>
                 ))}
             </ul>
-            <button type="button" class="ver-mas suave" hidden></button>
-            <p class="vacio suave" hidden>No dice nada sobre este tema en su programa.</p>
+            <p class="vacio suave" hidden>No dice nada sobre este tema en su documento.</p>
           </section>
         ))}
       </div>
+      <button type="button" class="ver-mas" data-ver-mas hidden></button>
     </>
   )}
 
@@ -148,42 +155,52 @@ const fuenteDe = (siglas: string) => {
     if (!nav) return;
     const botones = [...nav.querySelectorAll<HTMLButtonElement>('button')];
     const selector = document.querySelector<HTMLSelectElement>('[data-provincia]')!;
+    const concretas = document.querySelector<HTMLInputElement>('[data-concretas]')!;
     const columnas = [...document.querySelectorAll<HTMLElement>('.columna')];
     const nota = document.querySelector<HTMLElement>('[data-sin-programa]')!;
+    const verMas = document.querySelector<HTMLButtonElement>('[data-ver-mas]')!;
     const totales = JSON.parse(nota.dataset.formaciones!) as Record<string, number>;
+    let todas = false;
 
     const pintar = () => {
       const tema = botones.find((b) => b.getAttribute('aria-pressed') === 'true')!.dataset.tema;
       const provincia = selector.value;
       let conPrograma = 0;
+      let ocultas = 0;
       columnas.forEach((col) => {
         col.hidden = !!provincia && !col.dataset.provincias!.split(' ').includes(provincia);
         if (!col.hidden) conPrograma++;
         const delTema = [...col.querySelectorAll<HTMLElement>('li[data-tema]')].filter((li) => {
           li.hidden = true;
-          return li.dataset.tema === tema;
+          return li.dataset.tema === tema && (!concretas.checked || li.dataset.concreta === 'true');
         });
-        delTema.slice(0, VISIBLES).forEach((li) => (li.hidden = false));
-        const resto = delTema.slice(VISIBLES);
-        const mas = col.querySelector<HTMLButtonElement>('.ver-mas')!;
-        mas.hidden = resto.length === 0;
-        mas.textContent = `Ver ${resto.length} más`;
-        mas.onclick = () => {
-          resto.forEach((li) => (li.hidden = false));
-          mas.hidden = true;
-        };
-        col.querySelector<HTMLElement>('.vacio')!.hidden = delTema.length > 0;
+        const limite = todas ? delTema.length : VISIBLES;
+        delTema.slice(0, limite).forEach((li) => (li.hidden = false));
+        if (!col.hidden) ocultas += Math.max(0, delTema.length - limite);
+        const vacio = col.querySelector<HTMLElement>('.vacio')!;
+        vacio.hidden = delTema.length > 0;
+        vacio.textContent = concretas.checked ? 'Sin propuestas concretas sobre este tema.' : 'No dice nada sobre este tema en su documento.';
       });
-      const total = totales[provincia || 'todas'];
-      nota.textContent = `Aquí solo salen ${conPrograma} de ${total} formaciones: las que tienen un documento extenso ya revisado. Las demás se añadirán cuando lo publiquen.`;
+      verMas.hidden = ocultas === 0;
+      verMas.textContent = `Ver ${ocultas} más`;
+      nota.textContent = `Formaciones con un documento extenso ya revisado: ${conPrograma} de ${totales[provincia || 'todas']}. Las demás se añadirán cuando lo publiquen.`;
+    };
+    const cambiar = () => {
+      todas = false;
+      pintar();
     };
     botones.forEach((b) =>
       b.addEventListener('click', () => {
         botones.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-        pintar();
+        cambiar();
       }),
     );
-    selector.addEventListener('change', pintar);
+    selector.addEventListener('change', cambiar);
+    concretas.addEventListener('change', cambiar);
+    verMas.addEventListener('click', () => {
+      todas = true;
+      pintar();
+    });
     pintar();
   }
   document.addEventListener('astro:page-load', iniciar);
@@ -197,39 +214,63 @@ const fuenteDe = (siglas: string) => {
   .estado { font-family: var(--serif); font-size: 28px; line-height: 1.2; margin: 0 0 8px; }
   .estado strong { font-weight: 400; font-style: italic; }
 
-  .filtro { display: flex; gap: 8px; overflow-x: auto; margin: 0 -20px 16px; padding: 0 20px 8px; scrollbar-width: none; }
-  .filtro button {
-    flex: none;
+  .filtros { border-top: 1px solid var(--tinta); padding-top: 16px; }
+  .temas { display: grid; grid-template-rows: auto auto; grid-auto-flow: column; grid-auto-columns: max-content; gap: 6px; overflow-x: auto; margin-inline: -20px; padding: 0 20px 4px; scrollbar-width: none; }
+  .temas::-webkit-scrollbar { display: none; }
+  .temas button {
     font: inherit;
     font-size: 14px;
-    padding: 8px 14px;
+    line-height: 1.2;
+    padding: 7px 12px;
     border-radius: 999px;
     border: 1px solid var(--linea);
     background: transparent;
-    color: var(--tinta);
+    color: var(--suave);
     cursor: pointer;
+    transition: background-color 0.15s, color 0.15s, border-color 0.15s;
   }
-  .filtro button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+  .temas button:hover { color: var(--tinta); border-color: var(--suave); }
+  .temas button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+  .otros-filtros { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--linea); }
+  .solo-concretas { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; cursor: pointer; min-height: 36px; }
+  .solo-concretas input { accent-color: var(--tinta); width: 16px; height: 16px; margin: 0; }
 
-  .elegir-provincia { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 15px; margin: 0 0 24px; }
+  .elegir-provincia { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 14px; }
   .desplegable { position: relative; display: inline-flex; }
   .desplegable::after { content: ''; position: absolute; right: 14px; top: 50%; width: 7px; height: 7px; border-right: 1.5px solid var(--tinta); border-bottom: 1.5px solid var(--tinta); transform: translateY(-70%) rotate(45deg); pointer-events: none; }
   .desplegable select { appearance: none; font: inherit; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 7px 34px 7px 14px; cursor: pointer; }
-  .comparador { display: grid; gap: 24px; }
-  .columna { border-top: 1px solid var(--tinta); padding-top: 12px; }
-  .columna[hidden] { display: none; }
-  .columna li[hidden] { display: none; }
-  .columna h2 { font-size: 24px; margin: 0 0 8px; display: flex; align-items: center; }
+  .comparador {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    margin-inline: -20px;
+    padding-inline: 20px;
+    scroll-padding-inline: 20px;
+    border-top: 1px solid var(--tinta);
+  }
+  .columna { flex: 0 0 min(80vw, 300px); padding: 14px 16px 0 0; scroll-snap-align: start; min-width: 0; }
+  .columna + .columna { border-left: 1px solid var(--linea); padding-left: 16px; }
+  .columna[hidden], .columna li[hidden] { display: none; }
+  .columna header { padding-bottom: 10px; border-bottom: 1px solid var(--linea); }
+  .columna h2 { font-size: 22px; line-height: 1.15; margin: 0; display: flex; align-items: baseline; }
   .columna ul { list-style: none; margin: 0; padding: 0; }
-  .columna li { padding: 12px 0; border-bottom: 1px solid var(--linea); }
-  .resumen { margin: 0 0 8px; font-weight: 500; }
-  blockquote { margin: 0; padding-left: 12px; border-left: 2px solid var(--linea); color: var(--suave); font-size: 15px; }
-  .meta { font-size: 13px; margin: 8px 0 0; }
-  .aviso { font-size: 14px; margin: 0 0 8px; }
-  .borrador { font-size: 12px; font-weight: 400; color: var(--suave); }
-  .ver-mas { font: inherit; font-size: 14px; background: none; border: 0; padding: 12px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
-  .sin-programa { font-size: 14px; margin: 0 0 16px; }
-  .tipo.concreta { color: var(--tinta); font-weight: 600; }
+  .columna li { padding: 14px 0; border-bottom: 1px solid var(--linea); }
+  .columna li:last-child { border-bottom: 0; }
+  .resumen { margin: 0 0 8px; font-size: 15px; line-height: 1.4; }
+  .tipo { display: inline-block; font-size: 12px; color: var(--suave); margin-right: 8px; }
+  .tipo[data-concreta='true'] { color: var(--tinta); font-weight: 600; }
+  .columna details { display: inline; font-size: 12px; color: var(--suave); }
+  .columna summary { display: inline; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+  .columna summary::-webkit-details-marker { display: none; }
+  .columna details[open] summary { color: var(--tinta); }
+  blockquote { margin: 10px 0 8px; padding-left: 10px; border-left: 2px solid var(--linea); color: var(--suave); font-size: 14px; line-height: 1.45; }
+  .ir-pagina { font-size: 12px; }
+  p.aviso { font-size: 13px; line-height: 1.4; margin: 6px 0 0; }
+  p.sin-programa { font-size: 13px; line-height: 1.4; margin: 12px 0 16px; }
+  .borrador { font-size: 12px; color: var(--suave); }
+  .ver-mas { display: block; width: 100%; font: inherit; font-size: 14px; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 10px; margin-top: 16px; cursor: pointer; }
+  .ver-mas:hover { border-color: var(--suave); }
+  .ver-mas[hidden] { display: none; }
 
   .punto { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; display: inline-block; }
   .donde { font-size: 13px; margin-left: 4px; white-space: nowrap; }
@@ -242,6 +283,8 @@ const fuenteDe = (siglas: string) => {
   .metodo li { margin-bottom: 12px; }
 
   @media (min-width: 640px) {
-    .filtro { margin-inline: 0; padding-inline: 0; flex-wrap: wrap; }
+    .temas { display: flex; flex-wrap: wrap; overflow: visible; margin-inline: 0; padding: 0; }
+    .columna { flex: 1 0 236px; }
+    .comparador { margin-inline: 0; padding-inline: 0; }
   }
 </style>
