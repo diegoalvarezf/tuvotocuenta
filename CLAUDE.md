@@ -26,7 +26,7 @@ Cada vez que se revisen las fuentes oficiales (BOE, datos abiertos del Congreso,
 
 ## Tests
 
-`npm test` (node:test, sin dependencias). Se ejecutan antes de cada build: si fallan, Vercel no publica. Cubren el reparto D'Hondt contra los 350 escaños oficiales de 2023, la coherencia de las votaciones con los totales oficiales y el verificador de citas de programas.
+`npm test` (node:test, sin dependencias). Se ejecutan antes de cada build: si fallan, Vercel no publica. Cubren el reparto D'Hondt contra los 350 escaños oficiales de 2023, la coherencia de las votaciones con los totales oficiales, las candidaturas proclamadas (titulares por lista, formaciones) y el verificador de citas de programas.
 
 ## Stack
 

@@ -1,15 +1,17 @@
 [
   {
-    "siglas": "PP",
-    "corto": "PP",
-    "nombre": "Partido Popular",
-    "web": "https://www.pp.es",
+    "siglas": "Frente Obrero",
+    "corto": "Frente Obrero",
+    "nombre": "Frente Obrero",
+    "circunscripciones": 52,
+    "web": null,
     "programa": null
   },
   {
     "siglas": "PSOE",
     "corto": "PSOE",
     "nombre": "Partido Socialista Obrero Español",
+    "circunscripciones": 52,
     "web": "https://www.psoe.es",
     "programa": null
   },
@@ -17,20 +19,119 @@
     "siglas": "VOX",
     "corto": "Vox",
     "nombre": "Vox",
+    "circunscripciones": 52,
     "web": "https://www.voxespana.es",
     "programa": null
   },
   {
-    "siglas": "SUMAR",
-    "corto": "Sumar",
-    "nombre": "Sumar",
-    "web": "https://movimientosumar.es",
+    "siglas": "PP",
+    "corto": "PP",
+    "nombre": "Partido Popular",
+    "circunscripciones": 51,
+    "web": "https://www.pp.es",
+    "programa": null
+  },
+  {
+    "siglas": "PCTE",
+    "corto": "PCTE",
+    "nombre": "Partido Comunista de los Trabajadores de España",
+    "circunscripciones": 46,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "SALF",
+    "corto": "SALF",
+    "nombre": "Se Acabó la Fiesta",
+    "circunscripciones": 46,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "Frente Amplio",
+    "corto": "Frente Amplio",
+    "nombre": "Frente Amplio",
+    "circunscripciones": 44,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "Podemos",
+    "corto": "Podemos",
+    "nombre": "Podemos",
+    "circunscripciones": 41,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "PACMA",
+    "corto": "PACMA",
+    "nombre": "Partido Animalista con el Medio Ambiente",
+    "circunscripciones": 30,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "Mundo+Justo",
+    "corto": "Mundo+Justo",
+    "nombre": "Por un Mundo Más Justo",
+    "circunscripciones": 26,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "Escaños en Blanco",
+    "corto": "Escaños en Blanco",
+    "nombre": "Escaños en Blanco para Dejar Escaños Vacíos",
+    "circunscripciones": 12,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "FE de las JONS",
+    "corto": "FE de las JONS",
+    "nombre": "Falange Española de las JONS",
+    "circunscripciones": 9,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "ADELANTE ANDALUCÍA",
+    "corto": "ADELANTE ANDALUCÍA",
+    "nombre": "ADELANTE ANDALUCÍA",
+    "circunscripciones": 8,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "ALHORA",
+    "corto": "ALHORA",
+    "nombre": "ALHORA",
+    "circunscripciones": 4,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "B.N.G.",
+    "corto": "BNG",
+    "nombre": "Bloque Nacionalista Galego",
+    "circunscripciones": 4,
+    "web": "https://www.bng.gal",
+    "programa": null
+  },
+  {
+    "siglas": "EH Bildu",
+    "corto": "EH Bildu",
+    "nombre": "Euskal Herria Bildu",
+    "circunscripciones": 4,
+    "web": "https://ehbildu.eus",
     "programa": null
   },
   {
     "siglas": "ERC",
     "corto": "ERC",
     "nombre": "Esquerra Republicana de Catalunya",
+    "circunscripciones": 4,
     "web": "https://www.esquerra.cat",
     "programa": null
   },
@@ -38,42 +139,248 @@
     "siglas": "JUNTS",
     "corto": "Junts",
     "nombre": "Junts per Catalunya",
+    "circunscripciones": 4,
     "web": "https://junts.cat",
     "programa": null
   },
   {
-    "siglas": "EH Bildu",
-    "corto": "EH Bildu",
-    "nombre": "EH Bildu",
-    "web": "https://ehbildu.eus",
+    "siglas": "COMPROMIS-EUPV-PODEM-ERPV",
+    "corto": "COMPROMIS-EUPV-PODEM-ERPV",
+    "nombre": "COMPROMÍS: FRONT VALENCIÀ",
+    "circunscripciones": 3,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "PARTIDO AUTÓNOMOS",
+    "corto": "PARTIDO AUTÓNOMOS",
+    "nombre": "PARTIDO AUTÓNOMOS",
+    "circunscripciones": 3,
+    "web": null,
     "programa": null
   },
   {
     "siglas": "EAJ-PNV",
     "corto": "PNV",
-    "nombre": "Partido Nacionalista Vasco",
+    "nombre": "Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco",
+    "circunscripciones": 3,
     "web": "https://www.eaj-pnv.eus",
     "programa": null
   },
   {
-    "siglas": "B.N.G.",
-    "corto": "BNG",
-    "nombre": "Bloque Nacionalista Galego",
-    "web": "https://www.bng.gal",
+    "siglas": "PREPAL",
+    "corto": "PREPAL",
+    "nombre": "PARTIDO REGIONALISTA DEL PAIS LEONES",
+    "circunscripciones": 3,
+    "web": null,
     "programa": null
   },
   {
     "siglas": "CCa",
-    "corto": "Coalición Canaria",
+    "corto": "CCa",
     "nombre": "Coalición Canaria",
-    "web": "https://coalicioncanaria.org",
+    "circunscripciones": 2,
+    "web": null,
     "programa": null
   },
   {
-    "siglas": "U.P.N.",
-    "corto": "UPN",
-    "nombre": "Unión del Pueblo Navarro",
-    "web": "https://www.upn.org",
+    "siglas": "D.R.G",
+    "corto": "D.R.G",
+    "nombre": "PARTIDO DRAGO CANARIAS",
+    "circunscripciones": 2,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "D21",
+    "corto": "D21",
+    "nombre": "Democracia para el Siglo 21",
+    "circunscripciones": 2,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "FIA",
+    "corto": "FIA",
+    "nombre": "Federación de los Independientes de Aragón",
+    "circunscripciones": 2,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "LIB",
+    "corto": "LIB",
+    "nombre": "LIBERACIÓN CANARIA",
+    "circunscripciones": 2,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "NC-BC, PODEMOS, IU, SUMAR",
+    "corto": "NC-BC, PODEMOS, IU, SUMAR",
+    "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
+    "circunscripciones": 2,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "NEX",
+    "corto": "NEX",
+    "nombre": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA",
+    "circunscripciones": 2,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "29",
+    "corto": "29",
+    "nombre": "ALTERNATIVA MALAGUEÑA",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "3e",
+    "corto": "3e",
+    "nombre": "TERCERA EDAD EN ACCIÓN",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "AGENDA VALENCIANA",
+    "corto": "AGENDA VALENCIANA",
+    "nombre": "AGENDA VALENCIANA",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "CNV",
+    "corto": "CNV",
+    "nombre": "CONVERGENTS",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "EGUZKILORE",
+    "corto": "EGUZKILORE",
+    "nombre": "EGUZKILORE",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "GBAI",
+    "corto": "GBAI",
+    "nombre": "GEROA BAI",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "IE",
+    "corto": "IE",
+    "nombre": "IUSTITIA EUROPA",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "P. ALANTRE",
+    "corto": "P. ALANTRE",
+    "nombre": "PROYECTO ALANTRE",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "P.D.S.J.E.",
+    "corto": "P.D.S.J.E.",
+    "nombre": "PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "PANCAL-URCI",
+    "corto": "PANCAL-URCI",
+    "nombre": "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "PCPC",
+    "corto": "PCPC",
+    "nombre": "PARTIDO COMUNISTA DEL PUEBLO CANARIO",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "PFAC",
+    "corto": "PFAC",
+    "nombre": "FEMINISTAS AL CONGRESO",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "PH",
+    "corto": "PH",
+    "nombre": "PARTIDO HUMANISTA",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "PUEDE",
+    "corto": "PUEDE",
+    "nombre": "PARTIDO UNIONISTA ESTADO DE ESPAÑA",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "RRB",
+    "corto": "RRB",
+    "nombre": "RENACER RENAIXER",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "SY",
+    "corto": "SY",
+    "nombre": "SORIA ¡YA!",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "TERUEL EXISTE",
+    "corto": "TERUEL EXISTE",
+    "nombre": "TERUEL EXISTE",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "UPN-PP",
+    "corto": "UPN-PP",
+    "nombre": "Unión del Pueblo Navarro en coalición con el Partido Popular",
+    "circunscripciones": 1,
+    "web": null,
+    "programa": null
+  },
+  {
+    "siglas": "VLC",
+    "corto": "VLC",
+    "nombre": "VALENCIA UNIDA",
+    "circunscripciones": 1,
+    "web": null,
     "programa": null
   }
 ]

@@ -1,4 +1,5 @@
 ---
+import candidaturas2026 from '../../data/candidaturas-2026.json';
 import Base from '../../layouts/Base.astro';
 import Escanos from '../../components/Escanos.astro';
 import Fuente from '../../components/Fuente.astro';
@@ -42,6 +43,7 @@ const datos = {
   candidaturas: principales.map((c) => ({ siglas: c.siglas, votos: c.votos, color: color(c.siglas) })),
   otros,
 };
+const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
 ---
 
 <Base imagen={`/og/${p.slug}.png`} title={`${p.nombre}: cómo cuenta tu voto · tuvotocuenta`} description={`${p.nombre} elige ${p.escanos2026} ${palabra(p.escanos2026)} el 29 de noviembre. Cómo se repartieron en 2023 y cuántos votos cuesta un escaño.`}>
@@ -88,6 +90,24 @@ const datos = {
       </table>
       <p class="suave nota">«vs. 2023» compara con la candidatura de las mismas siglas; «nueva» indica que no se presentó con esas siglas en 2023.</p>
       <span class="fuente-26">Fuente: <a href={resultados2026.fuente.url} target="_blank" rel="noopener">{resultados2026.fuente.nombre}</a></span>
+    </section>
+  )}
+
+  {presentadas && (
+    <section class="presentadas">
+      <h2>Quién se presenta</h2>
+      <p class="suave nota-cand">{presentadas.candidaturas.length} candidaturas proclamadas al Congreso, en el orden del BOE. Pulsa una para ver su lista. Aún pueden cambiar por los recursos previstos en la ley.</p>
+      <ul>
+        {presentadas.candidaturas.map((c) => (
+          <li>
+            <details>
+              <summary>{c.texto}</summary>
+              <ol>{c.candidatos.map((n) => <li>{n}</li>)}</ol>
+            </details>
+          </li>
+        ))}
+      </ul>
+      <Fuente de={['candidaturas2026', 'loreg']} detalle="art. 49 de la ley electoral" />
     </section>
   )}
 
@@ -254,6 +274,13 @@ const datos = {
 </script>
 
 <style>
+  .presentadas { margin-top: 32px; }
+  .nota-cand { font-size: 14px; margin: 0 0 8px; }
+  .presentadas ul { list-style: none; margin: 0; padding: 0; }
+  .presentadas > ul > li { border-bottom: 1px solid var(--linea); font-size: 14px; }
+  .presentadas summary { cursor: pointer; padding: 10px 0; overflow-wrap: anywhere; }
+  .presentadas ol { margin: 0 0 12px; padding-left: 24px; }
+  .presentadas ol li { padding: 2px 0; }
   .volver { display: inline-block; margin-top: 24px; font-size: 15px; text-decoration: none; }
   .volver:hover { color: var(--tinta); }
   .entradilla { font-size: 22px; margin: 0; }

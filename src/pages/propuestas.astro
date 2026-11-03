@@ -37,7 +37,7 @@ const fecha = (f: string) => new Date(f + 'T12:00:00').toLocaleDateString('es-ES
   {propuestas.length === 0 ? (
     <section class="espera">
       <p class="estado">
-        <strong>{publicados.length} de {partidos.length}</strong> partidos han publicado su programa para el 29 de noviembre.
+        <strong>{publicados.length} de {partidos.length}</strong> formaciones han publicado su programa para el 29 de noviembre.
       </p>
       <p class="suave">Esta sección se abrirá en cuanto empiecen a publicarse. Mientras tanto, puedes ver <a href="/votaciones">lo que votaron</a> en la última legislatura.</p>
     </section>
@@ -76,20 +76,22 @@ const fecha = (f: string) => new Date(f + 'T12:00:00').toLocaleDateString('es-ES
   <ul class="programas">
     {partidos.map((p) => (
       <li>
-        <span title={p.nombre}><span class="punto" style={`--c:${color(p.siglas)}`}></span>{p.corto}</span>
+        <span><span class="punto" style={`--c:${color(p.siglas)}`}></span><span>{p.nombre} <span class="suave donde">{p.circunscripciones} de 52</span></span></span>
         {p.programa ? (
           <a href={p.programa.url} target="_blank" rel="noopener">Publicado el {fecha(p.programa.fecha)}</a>
-        ) : (
+        ) : p.web ? (
           <span class="suave">Pendiente · <a href={p.web} target="_blank" rel="noopener">web oficial</a></span>
+        ) : (
+          <span class="suave">Pendiente</span>
         )}
       </li>
     ))}
   </ul>
   <p class="suave nota">
-    Lista provisional: partidos que obtuvieron escaño en el Congreso en 2023. Cuando se proclamen oficialmente las candidaturas, aquí solo
-    aparecerán las que se presentan el 29 de noviembre.
+    Las formaciones con candidaturas proclamadas al Congreso y en cuántas de las 52 circunscripciones se presentan. Se agrupan las variantes
+    territoriales de una misma formación. Aún pueden cambiar por los recursos previstos en la ley.
   </p>
-  <Fuente de="resultados2023" />
+  <Fuente de={['candidaturas2026', 'loreg']} calculo detalle="art. 49 de la ley electoral" />
 
   <section class="metodo">
     <h2>Cómo lo hacemos</h2>
@@ -160,6 +162,7 @@ const fecha = (f: string) => new Date(f + 'T12:00:00').toLocaleDateString('es-ES
   .tipo.concreta { color: var(--tinta); font-weight: 600; }
 
   .punto { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; display: inline-block; }
+  .donde { font-size: 13px; margin-left: 4px; white-space: nowrap; }
   .programas { list-style: none; margin: 0; padding: 0; }
   .programas li { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 10px 0; border-bottom: 1px solid var(--linea); }
   .programas li > span:first-child { display: flex; align-items: center; }

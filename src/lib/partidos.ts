@@ -4,7 +4,7 @@ const COLORES: [RegExp, string][] = [
   [/PSOE|PSC/, '#e1251b'],
   [/^PP$/, '#1d6fc4'],
   [/^VOX$/, '#5bb031'],
-  [/SUMAR/, '#d6336c'],
+  [/SUMAR|Frente Amplio/, '#d6336c'],
   [/^ERC/, '#f2a516'],
   [/JUNTS/, '#16b3a6'],
   [/Bildu/, '#a3b818'],
