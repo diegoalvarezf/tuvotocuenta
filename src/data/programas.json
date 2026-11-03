@@ -5,12 +5,18 @@
     "nombre": "Frente Obrero",
     "circunscripciones": 52,
     "web": "https://frenteobrero.es",
-    "documentos": [],
-    "programa": {
-      "titulo": "Programa",
-      "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
-      "fecha": "2026-10-07",
-      "paginas": 64
+    "documentos": [
+      {
+        "titulo": "Programa político",
+        "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+        "fecha": "2026-10-07",
+        "paginas": 64
+      }
+    ],
+    "programa": null,
+    "aviso": {
+      "texto": "Su documento dice que «no pretende ser un programa electoral», sino su programa político.",
+      "pagina": 6
     }
   },
   {

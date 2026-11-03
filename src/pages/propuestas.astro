@@ -43,7 +43,11 @@ const dondeSePresenta = (corto: string) =>
 const totales: Record<string, number> = { todas: partidos.length };
 for (const x of candidaturas.provincias) totales[x.id] = new Set(x.candidaturas.map((c) => c.formacion)).size;
 const provinciasOrden = [...provincias].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
-const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)?.programa;
+// Documento del que salen las propuestas: su programa o, si no lo llama así, su documento principal
+const fuenteDe = (siglas: string) => {
+  const p = partidos.find((x) => x.siglas === siglas);
+  return p?.programa ?? p?.documentos[0];
+};
 ---
 
 <Base title="Lo que proponen · tuvotocuenta" description="Qué propone cada partido para el 29 de noviembre, tema a tema, con la cita literal y la página exacta de su programa.">
@@ -75,6 +79,7 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
         {conPropuestas.map((partido) => (
           <section class="columna" data-partido={partido.siglas} data-provincias={dondeSePresenta(partido.corto).join(' ')}>
             <h2><span class="punto" style={`--c:${color(partido.siglas)}`}></span>{partido.nombre}</h2>
+            {partido.aviso && <p class="aviso suave">{partido.aviso.texto} <a href={`${fuenteDe(partido.siglas)!.url}#page=${partido.aviso.pagina}`} target="_blank" rel="noopener">Página {partido.aviso.pagina}</a>.</p>}
             <ul>
               {propuestas
                 .filter((p) => p.partido === partido.siglas)
@@ -84,7 +89,7 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
                     <p class="resumen">{p.resumen}{!p.revisada && <span class="borrador"> · Sin revisar</span>}</p>
                     <blockquote>«{p.cita}»</blockquote>
                     <p class="meta suave">
-                      <a href={`${programaDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Página {p.pagina} del programa</a>
+                      <a href={`${fuenteDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Página {p.pagina} del documento</a>
                       {' · '}
                       <span class:list={['tipo', { concreta: p.concreta }]}>{p.concreta ? 'Concreta' : 'Genérica'}</span>
                     </p>
@@ -118,7 +123,7 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
   <p class="suave nota">
     Las formaciones con candidaturas proclamadas al Congreso y en cuántas de las 52 circunscripciones se presentan. Se agrupan las variantes
     territoriales de una misma formación. Aún pueden cambiar por los recursos previstos en la ley. Contamos como programa completo el documento de 20 páginas o más que la
-    formación ofrece como su programa. Los textos más breves se enlazan junto a su nombre, sin contarlos. «Pendiente» significa que no lo hemos
+    formación ofrece como su programa electoral. Los textos más breves se enlazan junto a su nombre, sin contarlos. «Pendiente» significa que no lo hemos
     localizado en su web. Si falta algo, avísanos.
   </p>
   <Fuente de={['candidaturas2026', 'loreg']} calculo detalle="art. 49 de la ley electoral" />
@@ -129,7 +134,7 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
       <li><strong>Solo el programa oficial.</strong> Usamos el PDF que publica cada partido en su web, nada más: ni entrevistas ni declaraciones.</li>
       <li><strong>Cita literal y página.</strong> Cada propuesta lleva el fragmento exacto del programa y un enlace a su página, para que lo compruebes tú.</li>
       <li><strong>Verificación automática.</strong> Una IA ayuda a localizar y clasificar las propuestas. Después, un programa comprueba que cada cita aparece palabra por palabra en esa página del PDF; si no aparece, se descarta.</li>
-      <li><strong>Revisión humana.</strong> Ninguna propuesta se publica sin que una persona la haya revisado.</li>
+      <li><strong>Revisión.</strong> Una segunda pasada con IA comprueba cada propuesta contra su página. Después, una persona revisa una muestra de cada formación antes de publicar.</li>
       <li><strong>Concreta o genérica.</strong> Marcamos como concreta la propuesta que incluye una cifra, una fecha, un plazo o una medida comprobable. «Impulsaremos» o «apostaremos por» sin nada más es genérica.</li>
       <li><strong>Mismo trato para todos.</strong> Todos los programas se procesan con las mismas instrucciones y los mismos temas.</li>
     </ol>
@@ -221,6 +226,7 @@ const programaDe = (siglas: string) => partidos.find((p) => p.siglas === siglas)
   .resumen { margin: 0 0 8px; font-weight: 500; }
   blockquote { margin: 0; padding-left: 12px; border-left: 2px solid var(--linea); color: var(--suave); font-size: 15px; }
   .meta { font-size: 13px; margin: 8px 0 0; }
+  .aviso { font-size: 14px; margin: 0 0 8px; }
   .borrador { font-size: 12px; font-weight: 400; color: var(--suave); }
   .ver-mas { font: inherit; font-size: 14px; background: none; border: 0; padding: 12px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
   .sin-programa { font-size: 14px; margin: 24px 0 0; }

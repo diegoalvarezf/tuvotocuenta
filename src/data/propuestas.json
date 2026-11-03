@@ -32,7 +32,7 @@
     "resumen": "Endurecer las penas por la contratación de extranjeros no regulados, especialmente en el campo.",
     "cita": "Endurecer las penas por la contratación de extranjeros no regulados, especialmente en el campo.",
     "pagina": 9,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -41,7 +41,7 @@
     "resumen": "Derogar las leyes que permiten la contratación colectiva de trabajadores en sectores precarizados.",
     "cita": "Derogación de las leyes que permiten la contratación colectiva de trabajadores en sectores precarizados, que buscan abaratar los costes salariales.",
     "pagina": 9,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -101,7 +101,7 @@
   {
     "partido": "Frente Obrero",
     "tema": "Empleo y salarios",
-    "resumen": "Derogación inmediata del Real Decreto 17/1977 sobre relaciones de trabajo, que limita el derecho a huelga.",
+    "resumen": "Derogación inmediata del Real Decreto 17/1977 sobre relaciones de trabajo, que limita el ejercicio pleno del derecho a huelga.",
     "cita": "Derogación inmediata del Real Decreto 17/1977 sobre relaciones de trabajo, que limita el ejercicio pleno del derecho a huelga sobre todo en los sectores estratégicos.",
     "pagina": 9,
     "concreta": true,
@@ -194,7 +194,7 @@
     "resumen": "Nacionalización de los sectores estratégicos de la economía.",
     "cita": "Nacionalización de los sectores estratégicos de la economía. Fuerte intervención para priorizar los intereses de los españoles.",
     "pagina": 13,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -221,7 +221,7 @@
     "resumen": "Regulación inmediata de la factura de la luz y de los combustibles.",
     "cita": "La regulación inmediata de la factura de la luz y de los combustibles. Las familias españolas no pueden seguir pagando los precios abusivos impuestos por empresas que especulan con la energía",
     "pagina": 16,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -239,7 +239,7 @@
     "resumen": "Frenar el cierre paulatino de las centrales energéticas en plenas capacidades productivas.",
     "cita": "Frenar el cierre paulatino de las centrales energéticas que se encuentran en plenas capacidades productivas.",
     "pagina": 16,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -248,7 +248,7 @@
     "resumen": "Aumentar la inversión en plantas nucleares, ampliar el parque nuclear y explotar los recursos nacionales de uranio.",
     "cita": "Aumentar la inversión para la puesta en marcha y modernización de las plantas nucleares del país. Ampliación del parque nuclear e igualmente se explotarán los recursos nacionales de uranio.",
     "pagina": 16,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -293,7 +293,7 @@
     "resumen": "Multas y, si es necesaria, expropiación a empresas que hacen uso del fraude fiscal y tributan fuera.",
     "cita": "Perseguir con multas y, si es necesaria, la expropiación a empresas que hacen uso del fraude fiscal y tributan fuera.",
     "pagina": 18,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -416,15 +416,6 @@
   {
     "partido": "Frente Obrero",
     "tema": "Educación",
-    "resumen": "Evitar la llamada «fuga de cerebros» de trabajadores altamente cualificados hacia otros países.",
-    "cita": "Evitar la llamada “fuga de cerebros” de trabajadores altamente cualificados hacia otros países, que nos deja con carencias importantes en investigación y desarrollo",
-    "pagina": 22,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Obrero",
-    "tema": "Educación",
     "resumen": "Expulsar a las empresas privadas de la universidad y de la formación profesional; reestructurar el Consejo Social.",
     "cita": "Expulsar a las empresas privadas de la universidad y de los centros de formación profesional. Se reestructurará el Consejo Social en las universidades.",
     "pagina": 22,
@@ -479,7 +470,7 @@
   {
     "partido": "Frente Obrero",
     "tema": "Educación",
-    "resumen": "Programas educativos y culturales en colegios e institutos que acerquen la cultura y un estilo de vida saludable.",
+    "resumen": "Posibilitar programas educativos y culturales en colegios e institutos que acerquen la cultura y un estilo de vida saludable.",
     "cita": "Posibilitar la creación en los colegios e institutos de programas educativos y culturales que acerquen a los estudiantes la cultura y un estilo de vida saludable.",
     "pagina": 25,
     "concreta": false,
@@ -497,7 +488,7 @@
   {
     "partido": "Frente Obrero",
     "tema": "Otros",
-    "resumen": "Construcción y rehabilitación de espacios culturales, priorizando barrios de trabajadores y zonas rurales.",
+    "resumen": "Fomentar la construcción y rehabilitación de espacios culturales, priorizando barrios de trabajadores y zonas rurales.",
     "cita": "Fomentar la construcción y rehabilitación de espacios culturales, priorizando los barrios de trabajadores y zonas rurales.",
     "pagina": 25,
     "concreta": false,
@@ -545,7 +536,7 @@
     "resumen": "Crear parques de vivienda juveniles y ayudas económicas a jóvenes para emanciparse.",
     "cita": "Crear parques de vivienda juveniles. Ayudas económicas para jóvenes estudiantes y trabajadores en el proceso de emanciparse.",
     "pagina": 29,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -653,7 +644,7 @@
     "resumen": "Construir guarderías y jardines de infancia públicos y gratuitos.",
     "cita": "Se construirán guarderías y jardines de infancia públicos y gratuitos para facilitar la compatibilidad del trabajo y la maternidad.",
     "pagina": 34,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -662,7 +653,7 @@
     "resumen": "Alargar las bajas por paternidad y maternidad y obligar a las empresas a ser parcialmente flexibles en teletrabajo, jornada y horarios.",
     "cita": "Se alargarán las bajas por paternidad y maternidad y se obligará a las empresas a ser flexibles parcialmente en cuanto al teletrabajo, reducción de jornada y modificación de horarios, para poder conciliar trabajo y el cuidado de los hijos.",
     "pagina": 35,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -680,7 +671,7 @@
     "resumen": "Prohibición en todos los organismos públicos de la propaganda contraria a la familia y la natalidad.",
     "cita": "Prohibición en todos los organismos públicos de la propaganda contraria a la familia y la natalidad.",
     "pagina": 35,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -992,7 +983,7 @@
   {
     "partido": "Frente Obrero",
     "tema": "Vivienda",
-    "resumen": "Segundas oportunidades para deudas hipotecarias y garantizar la dación en pago en todas las situaciones.",
+    "resumen": "Segundas oportunidades para deudas hipotecarias y garantizar la posibilidad de dación en pago en todas las situaciones.",
     "cita": "Se deben conceder segundas oportunidades para deudas hipotecarias y garantizar la posibilidad de dación en pago en todas las situaciones.",
     "pagina": 46,
     "concreta": true,
@@ -1001,7 +992,7 @@
   {
     "partido": "Frente Obrero",
     "tema": "Vivienda",
-    "resumen": "Terminar con las mafias de la ocupación y los narcopisos, y actuar contra la ocupación de viviendas de particulares e inquiokupas.",
+    "resumen": "Luchar por terminar con las mafias de la ocupación y los narcopisos, y actuar contra la ocupación de viviendas de particulares.",
     "cita": "Luchar por terminar con las mafias de la ocupación y de la delincuencia relacionada con el uso indebido de inmuebles, acabando con la lacra de los narcopisos. Se actuará a su vez contra la ocupación de viviendas de particulares, que no debe ser permitida en ningún caso.",
     "pagina": 46,
     "concreta": false,
@@ -1013,7 +1004,7 @@
     "resumen": "Enfocar el acceso a la vivienda pública hacia los españoles autóctonos.",
     "cita": "Enfocar el acceso a la vivienda pública hacia los españoles autóctonos. No permitir que suceda como con las ayudas",
     "pagina": 46,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1045,7 +1036,7 @@
   },
   {
     "partido": "Frente Obrero",
-    "tema": "Pensiones",
+    "tema": "Empleo y salarios",
     "resumen": "Incrementar las tasas de actividad y empleo mediante conciliación, incorporación de jóvenes y lucha contra la economía sumergida.",
     "cita": "Incrementar las tasas de actividad y empleo mediante la conciliación laboral, la incorporación de los jóvenes a la actividad productiva y la lucha contra la economía sumergida.",
     "pagina": 49,
@@ -1055,7 +1046,7 @@
   {
     "partido": "Frente Obrero",
     "tema": "Inmigración",
-    "resumen": "Deportar de inmediato a todo aquel que incumpla las leyes.",
+    "resumen": "Los inmigrantes deben llegar legalmente; todo aquel que incumpla las leyes debe ser deportado de inmediato.",
     "cita": "Los inmigrantes que llegan al país deben de hacerlo de forma legal, todo aquel que incumpla nuestras leyes debe de ser deportado de inmediato.",
     "pagina": 51,
     "concreta": true,
@@ -1064,10 +1055,10 @@
   {
     "partido": "Frente Obrero",
     "tema": "Inmigración",
-    "resumen": "Deportar a quienes quieran imponer costumbres bárbaras o atenten contra los derechos de las mujeres o la cultura.",
+    "resumen": "Deportar a los inmigrantes que quieran imponer costumbres bárbaras o atenten contra los derechos de las mujeres o la cultura.",
     "cita": "Aquellos que quieran imponer costumbres bárbaras, atenten contra los derechos de las mujeres o contra nuestra cultura también deben ser deportados.",
     "pagina": 51,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1082,10 +1073,10 @@
   {
     "partido": "Frente Obrero",
     "tema": "Inmigración",
-    "resumen": "Eliminar las pagas y fomentar el trabajo; quienes no tengan trabajo y no quieran encontrarlo deben retornar a sus países.",
+    "resumen": "Eliminar las pagas a los inmigrantes y fomentar el trabajo; quienes no tengan trabajo ni quieran encontrarlo deben retornar a sus países.",
     "cita": "Las pagas deben ser eliminadas y se debe fomentar el trabajo, personas en edad de trabajar no pueden estar ociosas y haciendo gasto a los españoles. Si no tienen trabajo y no quieren encontrarlo deben retornar a sus países",
     "pagina": 52,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1139,7 +1130,7 @@
     "resumen": "Expulsión de los radicales islámicos y de las estructuras religiosas que actúan como lobby para países extranjeros.",
     "cita": "Expulsión de los radicales islámicos y de las estructuras religiosas que actúan como lobby para países extranjeros.",
     "pagina": 53,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1166,16 +1157,16 @@
     "resumen": "Ayudas a las mujeres que quieran dejar la vestimenta islámica y se vean amenazadas.",
     "cita": "Además, se ofrecerán ayudas a las mujeres que quieran dejar el uso de la vestimenta islámica y se vean amenazadas en el proceso.",
     "pagina": 53,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "Frente Obrero",
     "tema": "Inmigración",
-    "resumen": "Sancionar a las organizaciones que promuevan acciones para evitar la legalidad, con especial atención a las ONG.",
+    "resumen": "Sancionar a las organizaciones que promuevan acciones para evitar la legalidad migratoria, con especial atención a las ONG.",
     "cita": "Sancionar y poner bajo el peso de la ley a aquellas organizaciones que promuevan acciones para evitar la legalidad al respecto. Con especial atención a las ONG.",
     "pagina": 53,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1235,10 +1226,10 @@
   {
     "partido": "Frente Obrero",
     "tema": "Inmigración",
-    "resumen": "Acuerdos con países cercanos para instalar puertos y centros de clasificación y deportación en suelo extranjero.",
+    "resumen": "Buscar acuerdos con países cercanos para instalar puertos y centros de clasificación y deportación en suelo extranjero.",
     "cita": "Búsqueda de acuerdos con países cercanos para instalar puertos y centros para la clasificación y deportación de inmigrantes desde suelo extranjero de aquellos que intenten entrar en España de forma ilegal.",
     "pagina": 54,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1265,7 +1256,7 @@
     "resumen": "Restringir el asilo político a quienes realmente cumplan dicha situación, elevando las condiciones exigidas.",
     "cita": "Restringir el uso de la figura del “asilo político” únicamente para aquellos que realmente cumplan dicha situación, elevando las condiciones exigidas",
     "pagina": 54,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1283,15 +1274,6 @@
     "resumen": "Endurecer más las medidas propuestas si no son suficientes.",
     "cita": "Las medidas propuestas si no son suficientes para la resolución del problema deben endurecerse más, teniendo en cuenta los avances y experiencias de otros países europeos.",
     "pagina": 54,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Obrero",
-    "tema": "Modelo territorial",
-    "resumen": "Partidarios de una República encaminada al socialismo, contrarios a la monarquía.",
-    "cita": "Nosotros somos contrarios a la monarquía, somos partidarios de una República encaminada al socialismo",
-    "pagina": 56,
     "concreta": false,
     "revisada": false
   },
@@ -1347,15 +1329,6 @@
     "cita": "Garantizar la independencia judicial respecto al poder político, priorizando la membresía por carrera judicial en los órganos superiores. Supresión de la elección por parte del Gobierno de miembros para cualquier órgano judicial.",
     "pagina": 58,
     "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Obrero",
-    "tema": "Seguridad y justicia",
-    "resumen": "Justicia de calidad al alcance de todos.",
-    "cita": "Justicia de calidad al alcance de todos. La justicia gratuita actualmente es lenta y de mala calidad",
-    "pagina": 58,
-    "concreta": false,
     "revisada": false
   },
   {
@@ -1442,28 +1415,19 @@
   {
     "partido": "Frente Obrero",
     "tema": "Defensa y política exterior",
-    "resumen": "Refundar el ejército en un Ejército al servicio del pueblo.",
-    "cita": "Todas estas medidas contribuirán en el futuro a refundar al ejército en uno diferente al actual, en un Ejército al servicio del pueblo, dejando lo reaccionario y represivo en el pasado.",
+    "resumen": "Los soldados dejarán de participar en misiones en el extranjero que solo defienden intereses extranjeros.",
+    "cita": "Los soldados españoles dejarán de poner en riesgo sus vidas en misiones en el extranjero que solo buscan defender intereses extranjeros ajenos a nuestros intereses.",
     "pagina": 63,
     "concreta": false,
     "revisada": false
   },
   {
-    "partido": "Frente Obrero",
-    "tema": "Defensa y política exterior",
-    "resumen": "Los soldados dejarán de participar en misiones en el extranjero que solo defienden intereses extranjeros.",
-    "cita": "Los soldados españoles dejarán de poner en riesgo sus vidas en misiones en el extranjero que solo buscan defender intereses extranjeros ajenos a nuestros intereses.",
-    "pagina": 63,
-    "concreta": true,
-    "revisada": false
-  },
-  {
     "partido": "CNV",
     "tema": "Modelo territorial",
-    "resumen": "No dar apoyo a ningún partido estatal que no asuma con claridad las propuestas que enumera.",
+    "resumen": "No apoyar a ningún partido estatal que no asuma con claridad las propuestas de su apartado sobre soberanía nacional.",
     "cita": "Convergents no donarà suport a cap partit a l’Estat espanyol que no assumeixi amb claredat i compromís les següents propostes",
     "pagina": 5,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1544,7 +1508,7 @@
     "resumen": "Defender la aplicación efectiva y total de la amnistía a todos los damnificados.",
     "cita": "Defensarem l’aplicació efectiva i total de l’amnistia a tots els damnificats com a solució més justa",
     "pagina": 6,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1667,15 +1631,6 @@
   {
     "partido": "CNV",
     "tema": "Igualdad y familia",
-    "resumen": "Exigir que los derechos de los niños se sitúen en el centro de las medidas de atención a la crisis.",
-    "cita": "Exigirem que els drets dels infants es situï en el centre de les mesures d’atenció a la crisi, seguint el camí que marca la Convenció sobre els Drets de l’Infant",
-    "pagina": 9,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "CNV",
-    "tema": "Igualdad y familia",
     "resumen": "Recuperar competencias de la DGPPIA sobre prestaciones a jóvenes extutelados y contratación de plazas de centros de menores.",
     "cita": "Treballarem per recuperar les competències de la DGPPIA (Direcció General de Prevenció i Protecció de la Infància i Adolescència) pel que fa a la gestió de les prestacions econòmiques a joves ex tutelats i la contractació de les places dels centres de menors.",
     "pagina": 9,
@@ -1775,7 +1730,7 @@
   {
     "partido": "CNV",
     "tema": "Seguridad y justicia",
-    "resumen": "Proponer endurecer penas cuando la víctima sea mayor, y juzgados y fiscalías especializados en maltrato a mayores.",
+    "resumen": "Proponer la posibilidad de endurecer penas cuando la víctima sea mayor, y juzgados y fiscalías especializados en maltrato a mayores.",
     "cita": "Proposarem la possibilitat d’endurir les penes en delictes que la víctima sigui una persona gran, així com que hi hagi Jutjats i Fiscalies formats i especialitzats en maltractament a persones grans.",
     "pagina": 10,
     "concreta": false,
@@ -1859,7 +1814,7 @@
     "resumen": "Crear figuras de orientadores que acompañen de forma continuada a personas con discapacidad y a sus familias.",
     "cita": "Impulsarem la creació de figures d’orientadors que acompanyin i assessorin de forma continuada a les persones amb discapacitats i les seves famílies",
     "pagina": 11,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1892,7 +1847,7 @@
   {
     "partido": "CNV",
     "tema": "Pensiones",
-    "resumen": "Reducir el periodo mínimo de cotización en proporción a la menor esperanza de vida de los trabajadores afectados.",
+    "resumen": "Pedir reducir el periodo mínimo de cotización de los trabajadores con discapacidad en proporción a su menor esperanza de vida.",
     "cita": "Demanarem reduir el període mínim de cotització de manera proporcional a la reducció de l'esperança de vida dels treballadors afectats.",
     "pagina": 11,
     "concreta": true,
@@ -1904,7 +1859,7 @@
     "resumen": "Reserva de vivienda protegida para personas con discapacidad intelectual y otros colectivos con necesidades especiales.",
     "cita": "Impulsarem la reserva d’habitatge protegit per a persones amb discapacitat intel·lectual i altres col·lectius amb necessitats especials.",
     "pagina": 11,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -1946,15 +1901,6 @@
   {
     "partido": "CNV",
     "tema": "Vivienda",
-    "resumen": "Promover la colaboración público-privada con incentivos de mejoras fiscales.",
-    "cita": "✓ Promourem la col·laboració publicoprivada, amb incentius de millores fiscals.",
-    "pagina": 12,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "CNV",
-    "tema": "Vivienda",
     "resumen": "Devolución de subvenciones con intereses si una vivienda protegida se vende o alquila a precios no regulados.",
     "cita": "mecanismes de control quan perdin aquesta condició (retorn de subvencions amb interessos si es ven o lloga a preus no regulats).",
     "pagina": 12,
@@ -1982,7 +1928,7 @@
   {
     "partido": "CNV",
     "tema": "Vivienda",
-    "resumen": "Reducir del 21% al 10% el IVA de la cesión de suelo para vivienda social.",
+    "resumen": "Plantear al Estado reducir del 21% al 10% el IVA de la cesión de suelo para vivienda social.",
     "cita": "Plantejarem a l’Estat la reducció de l’IVA aplicat a la cessió de sòl per a habitatge social, del 21% al 10%",
     "pagina": 12,
     "concreta": true,
@@ -2000,7 +1946,7 @@
   {
     "partido": "CNV",
     "tema": "Vivienda",
-    "resumen": "Aumentar los fondos estatales de vivienda hasta la media europea (0,6% del PIB) y transferir a la Generalitat su parte.",
+    "resumen": "Reclamar aumentar los fondos estatales de vivienda hasta la media europea (0,6% del PIB) y transferir a la Generalitat su parte.",
     "cita": "Reclamarem l’augment progressiu dels fons estatals destinats a polítiques d’habitatge fins a situar-los en la mitjana europea (0,6% del PIB). I reclamarem la transferència d’aquests recursos a la Generalitat",
     "pagina": 13,
     "concreta": true,
@@ -2084,7 +2030,7 @@
     "resumen": "Certificado para productos reintroducidos en la economía circular que reconozca a las empresas que contribuyen.",
     "cita": "Impulsarem un certificat per a productes reintroduïts a l’economia circular, que reconegui públicament les empreses que hi contribueixen.",
     "pagina": 15,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -2108,7 +2054,7 @@
   {
     "partido": "CNV",
     "tema": "Impuestos",
-    "resumen": "Cesión y gestión del Impuesto de Sociedades, con deducciones reforzadas para proyectos de I+D+i.",
+    "resumen": "Proponer la cesión a Cataluña y gestión del Impuesto de Sociedades, con deducciones reforzadas para proyectos de I+D+i.",
     "cita": "Proposarem la cessió i gestió de l’Impost de Societats, amb deduccions reforçades per a projectes d’R+D+I.",
     "pagina": 15,
     "concreta": true,
@@ -2129,7 +2075,7 @@
     "resumen": "Rebajar el impuesto de Transmisiones Patrimoniales y el porcentaje del tramo autonómico del IRPF.",
     "cita": "Treballarem per rebaixar el impost de Transmissions Patrimonials i disminuir el percentatge del IRPF del tram autonòmic.",
     "pagina": 16,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -2180,7 +2126,7 @@
   {
     "partido": "CNV",
     "tema": "Empleo y salarios",
-    "resumen": "Reducir la aportación mínima obligatoria a la Seguridad Social para nuevos emprendedores.",
+    "resumen": "Reducir la aportación mínima obligatoria a la Seguridad Social, que considera excesiva para la mayoría de nuevos emprendedores.",
     "cita": "Impulsarem la reducció del mínim d’aportació obligatòria a la Seguretat Social, avui excessiva per a la majoria de nous emprenedors.",
     "pagina": 16,
     "concreta": true,
@@ -2189,10 +2135,10 @@
   {
     "partido": "CNV",
     "tema": "Empleo y salarios",
-    "resumen": "Garantizar que los autónomos accedan al subsidio en igualdad de condiciones con el régimen general.",
+    "resumen": "Garantizar que los autónomos accedan al subsidio en igualdad con el régimen general, preservando la coherencia entre aportaciones y prestaciones.",
     "cita": "garantirem que els autònoms puguin accedir al subsidi en igualtat de condicions que els treballadors del règim general",
     "pagina": 16,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -2234,26 +2180,8 @@
   {
     "partido": "CNV",
     "tema": "Empleo y salarios",
-    "resumen": "Fomentar la actividad productiva como herramienta para crear empleo estable y de calidad.",
-    "cita": "Fomentarem l’activitat productiva com a eina per crear ocupació estable i de qualitat.",
-    "pagina": 17,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "CNV",
-    "tema": "Empleo y salarios",
     "resumen": "Pactar con los agentes sociales una estrategia contra la discriminación laboral y la brecha salarial de género.",
     "cita": "Pactarem amb els agents socials una estratègia contra la discriminació laboral i la bretxa salarial de gènere.",
-    "pagina": 17,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "CNV",
-    "tema": "Empleo y salarios",
-    "resumen": "Apostar por más estabilidad laboral, mejores salarios, formación continua y recualificación.",
-    "cita": "Apostarem per més estabilitat laboral, millors salaris, formació contínua, requalificació i millors condicions per a la reincorporació laboral.",
     "pagina": 17,
     "concreta": false,
     "revisada": false
@@ -2381,7 +2309,7 @@
     "resumen": "Rechazar la imposición del marco normativo estatal en comercio y horarios comerciales.",
     "cita": "Rebutjarem la imposició del marc normatiu estatal en comerç i horaris comercials, per defensar el model català.",
     "pagina": 18,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -2389,15 +2317,6 @@
     "tema": "Economía y empresas",
     "resumen": "Estrategia integral para revitalizar el comercio de proximidad, especialmente en zonas rurales.",
     "cita": "Impulsarem una estratègia integral per revitalitzar el comerç de proximitat, especialment en zones rurals i de menor densitat demogràfica.",
-    "pagina": 18,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "CNV",
-    "tema": "Economía y empresas",
-    "resumen": "Fomentar el consumo de productos de proximidad (KM 0).",
-    "cita": "✓ Fomentarem el consum de productes de proximitat (KM 0).",
     "pagina": 18,
     "concreta": false,
     "revisada": false
@@ -2567,7 +2486,7 @@
   {
     "partido": "CNV",
     "tema": "Economía y empresas",
-    "resumen": "Revisar la distribución de fondos pesqueros para que la flota mediterránea catalana reciba un apoyo más justo.",
+    "resumen": "Exigir revisar la distribución de fondos pesqueros para que la flota mediterránea catalana reciba un apoyo más justo.",
     "cita": "Exigirem revisar la distribució dels fons pesquers perquè la flota mediterrània catalana rebi un suport més just.",
     "pagina": 21,
     "concreta": false,
@@ -2621,7 +2540,7 @@
   {
     "partido": "CNV",
     "tema": "Economía y empresas",
-    "resumen": "Flexibilizar la aplicación del Cuaderno Integrado de Explotación.",
+    "resumen": "Pedir flexibilizar la aplicación del Cuaderno Integrado de Explotación.",
     "cita": "Demanarem flexibilitzar l’aplicació del Quadern Integrat d’Explotació per donar suport a la digitalització del sector sense sobrecàrregues administratives.",
     "pagina": 22,
     "concreta": false,
@@ -2669,7 +2588,7 @@
     "resumen": "Impulsar plantas de biogás a partir de deyecciones ganaderas.",
     "cita": "Impulsarem la construcció de plantes de biogàs a partir de dejeccions ramaderes per generar energia neta i reduir emissions contaminants.",
     "pagina": 22,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -2702,7 +2621,7 @@
   {
     "partido": "CNV",
     "tema": "Energía y clima",
-    "resumen": "Reformar el sistema de seguros agrarios para adaptarlo a los retos climáticos y a pequeños productores.",
+    "resumen": "Pedir reformar el sistema de seguros agrarios para adaptarlo a los retos climáticos y a pequeños productores.",
     "cita": "Demanarem la reforma del sistema d’assegurances agràries per adaptar-lo als nous reptes climàtics i facilitar la contractació per part de petits productors.",
     "pagina": 23,
     "concreta": false,
@@ -2747,7 +2666,7 @@
   {
     "partido": "CNV",
     "tema": "Educación",
-    "resumen": "Defender la libertad de enseñanza y el derecho de las familias a escoger centro.",
+    "resumen": "Defender la libertad de enseñanza y el derecho de las familias a escoger centro, garantizando criterios de equidad.",
     "cita": "Defensarem la llibertat d’ensenyament i el dret de les famílies a escollir centre educatiu",
     "pagina": 25,
     "concreta": false,
@@ -2786,7 +2705,7 @@
     "resumen": "Avanzar en la gratuidad de la etapa 0-3 años, colaborando con el Estado y los ayuntamientos.",
     "cita": "Treballarem per avançar en la gratuïtat de l’etapa 0-3 anys, col·laborant amb l’Estat i els ajuntaments.",
     "pagina": 25,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -2849,7 +2768,7 @@
     "resumen": "Garantizar becas de comedor y desayunos escolares e impulsar un plan contra la pobreza infantil.",
     "cita": "Garantirem beques per a menjadors i esmorzars escolars, i impulsarem un pla contra la pobresa infantil",
     "pagina": 26,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -2984,7 +2903,7 @@
     "resumen": "Exigir que los presupuestos estatales permitan aplicar la Ley 17/2015 de igualdad efectiva entre mujeres y hombres.",
     "cita": "Exigirem que els pressupostos de l’Estat s’adaptin a les competències atorgades a la Generalitat, per tal de poder dur a terme les polítiques i mesures establertes en la Llei 17/2015",
     "pagina": 28,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3029,7 +2948,7 @@
     "resumen": "Código ético para medios de comunicación contra contenidos sexistas, revictimización y estereotipos de género.",
     "cita": "Proposarem l’elaboració d’un codi ètic per als mitjans de comunicació per erradicar continguts sexistes, la revictimització o la perpetuació d’estereotips de gènere.",
     "pagina": 29,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3119,7 +3038,7 @@
     "resumen": "Pacto con las entidades religiosas para regular la libertad de culto, evitando el extremismo religioso.",
     "cita": "Promourem un pacte, amb la col·laboració de totes les entitats religioses, per regular la llibertat de culte, de manera que se’n garanteixi l’arrelament al territori, tot evitant l’extremisme religiós",
     "pagina": 31,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3128,7 +3047,7 @@
     "resumen": "Pacto Nacional por la Salud: más financiación, mayor salario de profesionales y menores ratios paciente/médico.",
     "cita": "Impulsarem un Pacte Nacional per la Salut per augmentar el finançament del sistema sanitari català, incrementar el salari dels professionals, reduir les ràtios pacient/metge",
     "pagina": 32,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3254,7 +3173,7 @@
     "resumen": "Incrementar las plazas de psiquiatría y psicología clínica en el sistema público.",
     "cita": "Incrementarem les places de psiquiatria i psicologia clínica dins del sistema públic de salut.",
     "pagina": 34,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3272,13 +3191,13 @@
     "resumen": "Crear nuevos Centros de Urgencias de Atención Primaria (CUAP) para descongestionar urgencias hospitalarias.",
     "cita": "mitjançant la creació de nous Centres d’Urgències d’Atenció Primària (CUAP), descongestionant les urgències hospitalàries.",
     "pagina": 34,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "CNV",
     "tema": "Sanidad",
-    "resumen": "Reforzar la atención primaria con más profesionales y menos carga burocrática.",
+    "resumen": "Pedir reforzar la atención primaria con más profesionales y menos carga burocrática.",
     "cita": "Demanarem reforçar l’atenció primària amb més professionals, menys càrrega burocràtica i més capacitat resolutiva.",
     "pagina": 34,
     "concreta": false,
@@ -3488,7 +3407,7 @@
     "resumen": "Exigir la descentralización de los órganos consultivos y de decisión estatales de innovación, hoy concentrados en Madrid.",
     "cita": "Exigirem la descentralització dels òrgans consultius i de decisió estatals en matèria d’innovació, avui concentrats majoritàriament a Madrid.",
     "pagina": 38,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3614,7 +3533,7 @@
     "resumen": "Plan de obras públicas para la red viaria catalana, con gestión directa desde el territorio.",
     "cita": "Impulsarem un Pla d’obres públiques per a la millora, integració i manteniment de la xarxa viària catalana, amb una gestió directa des del territori.",
     "pagina": 40,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3623,7 +3542,7 @@
     "resumen": "Exigir la ejecución inmediata de las inversiones pendientes en infraestructuras en Cataluña.",
     "cita": "Exigirem l’execució immediata de totes les inversions en infraestructures pendents a Catalunya i el compliment rigorós de les noves partides aprovades.",
     "pagina": 40,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3719,7 +3638,7 @@
   {
     "partido": "CNV",
     "tema": "Modelo territorial",
-    "resumen": "Reformar la Ley Orgánica para permitir referendos vinculantes sobre cuestiones de interés para Cataluña.",
+    "resumen": "Pedir reformar la Ley Orgánica para permitir referendos vinculantes sobre cuestiones de interés para Cataluña.",
     "cita": "Demanarem la reforma de la Llei Orgànica per permetre la celebració de referèndums vinculants sobre qüestions d’interès per a Catalunya.",
     "pagina": 43,
     "concreta": true,
@@ -3740,7 +3659,7 @@
     "resumen": "Crear consejos ciudadanos consultivos en ámbitos estratégicos.",
     "cita": "Crearem consells ciutadans consultius en àmbits estratègics per garantir la participació activa de la societat civil",
     "pagina": 43,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3764,7 +3683,7 @@
   {
     "partido": "CNV",
     "tema": "Modelo territorial",
-    "resumen": "Reformar la financiación local para garantizar recursos estables y suficientes a los municipios catalanes.",
+    "resumen": "Reclamar al Estado reformar la financiación local para garantizar recursos estables y suficientes a los municipios catalanes.",
     "cita": "Reclamarem a l'Estat la reforma del sistema de finançament local per garantir recursos estables i suficients als municipis catalans.",
     "pagina": 43,
     "concreta": true,
@@ -3803,7 +3722,7 @@
     "resumen": "Plan específico de modernización digital de los juzgados para reducir sobrecarga y retrasos.",
     "cita": "Impulsarem la modernització digital dels jutjats amb un pla específic per reduir la sobrecàrrega i els retards judicials.",
     "pagina": 44,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3812,7 +3731,7 @@
     "resumen": "Establecer mecanismos de mediación y arbitraje para descongestionar tribunales.",
     "cita": "Establirem mecanismes de mediació i arbitratge per descongestionar els tribunals i oferir alternatives ràpides i eficients a la ciutadania.",
     "pagina": 44,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3857,7 +3776,7 @@
     "resumen": "Crear oficinas de representación exterior.",
     "cita": "Crearem oficines de representació exterior per reforçar els vincles comercials, institucional i culturals amb altres països.",
     "pagina": 44,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3875,7 +3794,7 @@
     "resumen": "Mecanismos de supervisión y sanción para estados que vulneren derechos fundamentales o valores democráticos.",
     "cita": "Promourem que s’estableixin mecanismes de supervisió i sanció per als estats que vulnerin drets fonamentals o valors democràtics.",
     "pagina": 45,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -3890,7 +3809,7 @@
   {
     "partido": "CNV",
     "tema": "Defensa y política exterior",
-    "resumen": "Exigir que occitano y demás lenguas minorizadas que lo soliciten sean oficiales en la UE.",
+    "resumen": "Exigir que el catalán, el occitano y demás lenguas minorizadas que lo soliciten sean oficiales en la UE.",
     "cita": "Exigirem que el català, l’occità i la resta de llengües minoritzades que ho sol·licitin siguin llengües oficials i de ple dret a la UE.",
     "pagina": 45,
     "concreta": true,
@@ -3983,13 +3902,13 @@
     "resumen": "Distribución equitativa de personas migradas y costes, con sanciones a estados que incumplan los acuerdos.",
     "cita": "Exigirem una distribució equitativa de les persones migrades i dels costos que se’n deriven, així com sancions per als estats que incompleixin els acords.",
     "pagina": 47,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "CNV",
     "tema": "Inmigración",
-    "resumen": "Combatir mafias y frenar la entrada irregular, con un sistema común de repatriación.",
+    "resumen": "Abogar por combatir mafias y frenar la entrada irregular, respetando derechos fundamentales, con un sistema común de repatriación.",
     "cita": "Advocarem per combatre les màfies i frenar l’entrada irregular d’immigrants amb mesures efectives, dins del respecte als drets fonamentals, i amb un sistema comú de repatriació",
     "pagina": 47,
     "concreta": true,
@@ -4133,7 +4052,7 @@
   {
     "partido": "IE",
     "tema": "Seguridad y justicia",
-    "resumen": "CGPJ de diez miembros con más de 20 años de experiencia, elegidos por sufragio directo y secreto entre jueces y magistrados en activo.",
+    "resumen": "CGPJ de diez miembros con más de 20 años de experiencia, elegidos por sufragio directo y secreto de los jueces y magistrados en activo.",
     "cita": "integrado por diez miembros, siendo todos ellos jueces, magistrados, abogados del Estado, fiscales, catedráticos o doctores de derecho, con más de 20 años de experiencia profesional, elegidos por sufragio directo y secreto entre todos los jueces y magistrados en activo.",
     "pagina": 11,
     "concreta": true,
@@ -4178,7 +4097,7 @@
   {
     "partido": "IE",
     "tema": "Otros",
-    "resumen": "Inhabilitación de 5 años para que ex altos cargos se incorporen a empresas contratistas del Estado durante su ejercicio.",
+    "resumen": "Inhabilitación de 5 años para que ex altos cargos se incorporen a empresas que fueron contratistas del Estado mientras ejercían.",
     "cita": "Inhabilitación temporal (5 años) para incorporarse a empresas que hayan sido contratistas del",
     "pagina": 11,
     "concreta": true,
@@ -4208,15 +4127,6 @@
     "resumen": "Recuperar la soberanía, abandonar los alineamientos «otan-anglo-sionistas» y construir relaciones con Hispanoamérica basadas en el interés nacional.",
     "cita": "España debe recuperar la soberanía, abandonar los alineamientos estratégicos otan-anglo-sionistas que van en contra de la PAZ y perjudican la convivencia entre ciudadanos y construir relaciones con Hispanoamérica basadas en el interés nacional.",
     "pagina": 13,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "IE",
-    "tema": "Defensa y política exterior",
-    "resumen": "No entrar en guerras extranjeras ni financiar la defensa de otros países, y reclamar la neutralidad y la paz.",
-    "cita": "España no debe entrar en guerras extranjeras, financiando la defensa de otros países mientras desatiende sus propias necesidades. Se debe reclamar la NEUTRALIDAD y la PAZ.",
-    "pagina": 14,
     "concreta": false,
     "revisada": false
   },
@@ -4261,15 +4171,6 @@
     "tema": "Economía y empresas",
     "resumen": "Congelar y reducir un 20% los sueldos políticos.",
     "cita": "Eliminación del 75% de los asesores políticos. • Congelación y reducción del 20% en sueldos políticos.",
-    "pagina": 15,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "IE",
-    "tema": "Otros",
-    "resumen": "Suprimir privilegios estatales, autonómicos y locales de cargos políticos y expresidentes; fin de pensiones vitalicias y coches oficiales de por vida.",
-    "cita": "Supresión de los privilegios estatales, autonómicos y locales, tanto para expresidentes y exministros, como diputados y senadores o Alcaldes y Concejales. Fin a las pensiones vitalicias y los coches oficiales de por vida.",
     "pagina": 15,
     "concreta": true,
     "revisada": false
@@ -4343,7 +4244,7 @@
     "resumen": "Suprimir las subvenciones a organizaciones ideológicas.",
     "cita": "Eliminación del 80% de las subvenciones. • Supresión de subvenciones a organizaciones ideológicas",
     "pagina": 16,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -4448,10 +4349,10 @@
   {
     "partido": "IE",
     "tema": "Economía y empresas",
-    "resumen": "Eliminar las subvenciones directas a empresas y sectores no estratégicos, con incentivos basados en reducción fiscal.",
+    "resumen": "Eliminar todas las subvenciones directas a empresas y sectores no estratégicos, con incentivos basados en reducción fiscal.",
     "cita": "Se eliminan todas las subvenciones públicas directas a empresas y sectores no estratégicos, estableciendo incentivos basados en reducción fiscal y no en ayudas arbitrarias.",
     "pagina": 18,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -4505,7 +4406,7 @@
     "resumen": "Revisar todos los fondos recibidos de la UE y sus condiciones, evaluando si benefician a España.",
     "cita": "Se establece una revisión de todos los fondos recibidos de la UE y sus condiciones, evaluando si benefician realmente a España.",
     "pagina": 19,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -4514,7 +4415,7 @@
     "resumen": "Prohibir las subvenciones que impliquen la destrucción de sectores estratégicos a cambio de fondos temporales.",
     "cita": "Se prohíben las subvenciones que impliquen la destrucción de sectores estratégicos a cambio de fondos temporales.",
     "pagina": 19,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -4604,7 +4505,7 @@
     "resumen": "Cierre de rutas migratorias, acuerdos de repatriación inmediata con países de origen y sanciones a los que no colaboren.",
     "cita": "Coordinación con países de origen. Cierre de rutas migratorias, acuerdos para repatriación inmediata y sanciones a los países que no colaboren.",
     "pagina": 20,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -4667,15 +4568,6 @@
     "resumen": "Reforma completa del currículo escolar para centrarse en conocimiento y competencias reales.",
     "cita": "Reforma completa del currículo escolar para centrarse en conocimiento y competencias reales.",
     "pagina": 22,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "IE",
-    "tema": "Educación",
-    "resumen": "Educación en valores de esfuerzo, disciplina y mérito.",
-    "cita": "conocimiento y competencias reales. • Educación en valores de esfuerzo, disciplina y mérito.",
-    "pagina": 22,
     "concreta": false,
     "revisada": false
   },
@@ -4684,15 +4576,6 @@
     "tema": "Educación",
     "resumen": "Reforzar la autoridad del profesor.",
     "cita": "Educación en valores de esfuerzo, disciplina y mérito. • Refuerzo de la autoridad del profesor.",
-    "pagina": 22,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "IE",
-    "tema": "Educación",
-    "resumen": "Libertad educativa para los padres.",
-    "cita": "Refuerzo de la autoridad del profesor. • Libertad educativa para los padres.",
     "pagina": 22,
     "concreta": false,
     "revisada": false
@@ -4817,15 +4700,6 @@
   {
     "partido": "IE",
     "tema": "Economía y empresas",
-    "resumen": "Exigir la derogación total de las políticas de la UE que, según el partido, destruyen el campo español.",
-    "cita": "Derogación total de las políticas de la UE que destruyen el campo español. Se exigirá la DEROGACIÓN INMEDIATA del • PACTO VERDE EUROPEO.",
-    "pagina": 24,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "IE",
-    "tema": "Economía y empresas",
     "resumen": "Exigir la derogación inmediata de la Política Agraria Común.",
     "cita": "POLÍTICA AGRARIA COMÚN. • LEY DE RESTAURACIÓN DE LA NATURALEZA. • DEROGACIÓN DE LA LEY DE BIENESTAR ANIMAL.",
     "pagina": 25,
@@ -4925,7 +4799,7 @@
   {
     "partido": "IE",
     "tema": "Otros",
-    "resumen": "No al euro digital, al control biométrico, a los reconocimientos faciales, a las zonas de bajas emisiones y a restricciones pandémicas.",
+    "resumen": "No al control social a través del euro digital, control biométrico, reconocimientos faciales, zonas de bajas emisiones y restricciones pandémicas.",
     "cita": "Fin de la eurocracia y no al control social a través del euro digital, del control biométrico, de los reconocimientos faciales, de la las zonas de bajas emisiones, y restricciones pandémicas.",
     "pagina": 26,
     "concreta": false,
