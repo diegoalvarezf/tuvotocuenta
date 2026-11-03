@@ -5,6 +5,7 @@ dist/
 .env.*
 .DS_Store
 .vercel/
-.claude/
+.claude/*
+!.claude/skills/
 .vercel
 .env*

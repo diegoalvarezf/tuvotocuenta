@@ -75,6 +75,7 @@ const fuenteDe = (siglas: string) => {
           </select>
         </span>
       </label>
+      <p class="sin-programa suave" data-sin-programa data-formaciones={JSON.stringify(totales)}></p>
       <div class="comparador">
         {conPropuestas.map((partido) => (
           <section class="columna" data-partido={partido.siglas} data-provincias={dondeSePresenta(partido.corto).join(' ')}>
@@ -101,7 +102,6 @@ const fuenteDe = (siglas: string) => {
           </section>
         ))}
       </div>
-      <p class="sin-programa suave" data-sin-programa data-formaciones={JSON.stringify(totales)}></p>
     </>
   )}
 
@@ -175,8 +175,7 @@ const fuenteDe = (siglas: string) => {
         col.querySelector<HTMLElement>('.vacio')!.hidden = delTema.length > 0;
       });
       const total = totales[provincia || 'todas'];
-      const faltan = total - conPrograma;
-      nota.textContent = faltan > 0 ? `${faltan} de ${total} formaciones aún no tienen programa localizado.` : '';
+      nota.textContent = `Aquí solo salen ${conPrograma} de ${total} formaciones: las que tienen un documento extenso ya revisado. Las demás se añadirán cuando lo publiquen.`;
     };
     botones.forEach((b) =>
       b.addEventListener('click', () => {
@@ -229,7 +228,7 @@ const fuenteDe = (siglas: string) => {
   .aviso { font-size: 14px; margin: 0 0 8px; }
   .borrador { font-size: 12px; font-weight: 400; color: var(--suave); }
   .ver-mas { font: inherit; font-size: 14px; background: none; border: 0; padding: 12px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
-  .sin-programa { font-size: 14px; margin: 24px 0 0; }
+  .sin-programa { font-size: 14px; margin: 0 0 16px; }
   .tipo.concreta { color: var(--tinta); font-weight: 600; }
 
   .punto { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; display: inline-block; }

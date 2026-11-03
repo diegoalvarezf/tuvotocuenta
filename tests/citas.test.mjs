@@ -39,10 +39,10 @@ test('rechaza una cita vacía', () => {
   assert.equal(verificar({ cita: '  ', pagina: 2 }), false);
 });
 
-test('las propuestas publicadas son de partidos con programa y de temas válidos', () => {
+test('las propuestas publicadas son de partidos con documento y de temas válidos', () => {
   for (const p of propuestas.filter((x) => x.revisada)) {
     const partido = programas.find((x) => x.siglas === p.partido);
-    assert.ok(partido?.programa, `${p.partido} no tiene programa publicado`);
+    assert.ok(partido?.programa ?? partido?.documentos?.[0], `${p.partido} no tiene documento`);
     assert.ok(TEMAS.includes(p.tema), `tema desconocido: ${p.tema}`);
   }
 });

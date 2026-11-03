@@ -1,0 +1,12 @@
+# Lecciones
+
+Errores reales. Cada uno, una regla.
+
+- **Leer cómo se define el documento.** Frente Obrero se contó como programa electoral y su página 6 dice que «no pretende ser un programa electoral». (3-11-2026)
+- **No afirmar un «ninguno» sin mirar las webs oficiales.** Publicamos «0 de 48» con webs de terceros; en las oficiales estaban el documento de Vox y 3 programas. (3-11-2026)
+- **Comprobar que una descarga está completa.** El sumario del BOE del 28-10 llegó incompleto, sin error, y se dijo que no había candidaturas. Comparar tamaños o usar la API de datos abiertos. (3-11-2026)
+- **«Genérica» no es «eliminar».** Una pasada quiso quitar 60 propuestas vagas, entre ellas reducir listas de espera. La web habría dicho «no dice nada sobre este tema», y eso sería falso. (3-11-2026)
+- **Una regla de recuento es una decisión.** El corte de 20 páginas se puso sin consultar. Toda regla que cambie lo que se publica se le plantea a Diego, y aparece en los resúmenes. (3-11-2026)
+- **Dominios con el nombre del partido no son su web.** frenteamplio.es está aparcado; la web es frenteamplio.info. Confirmar con su aviso legal. (3-11-2026)
+- **No enlazar webs dudosas.** soriaya.org tiene enlaces ocultos a casinos. PANCAL-URCI publica un PDF con DNI y cuenta bancaria: enlazar solo la portada. (3-11-2026)
+- **Pies de página.** El número de página cortaba citas entre páginas; ahora el verificador lo ignora. (3-11-2026)
