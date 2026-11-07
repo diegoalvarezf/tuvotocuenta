@@ -87,6 +87,29 @@ for (const [i, l] of lineas.entries()) {
   }
 }
 
+// Corrección de errores publicada en el BOE del 7-11-2026 (BOE-A-2026-23383), solo la parte del Congreso.
+// No se incluye la de una suplente de SALF en Navarra: los suplentes no se guardan.
+const CORRECCIONES = [
+  { provincia: 'HUESCA', orden: 5, cambiar: ['Milagros Roca Pérez', 'Milagros Roca López'] },
+  { provincia: 'LA RIOJA', orden: 5, candidatos: ['Francisco Castro Portolés', 'María Eugenia Oleaga Muguerza', 'Gonzalo Alonso Alonso', 'Lucía Sáenz Burgos'] },
+  { provincia: 'NAVARRA', orden: 1, texto: 'EUSKAL HERRIA BILDU (EH BILDU)' },
+  { provincia: 'NAVARRA', orden: 11, texto: 'FRENTE AMPLIO-FRONTE ZABALA (FRENTE AMPLIO-FRONTE ZABALA)' },
+  { provincia: 'TARRAGONA', orden: 7, cambiar: ['Ester Roca Domodel', 'Ester Roca Domedel'] },
+  { provincia: 'TERUEL', orden: 1, cambiar: ['Herminio Rufino Sancho Íniguez', 'Herminio Rufino Sancho Íñiguez'] },
+  { provincia: 'VALENCIA', orden: 3, cambiar: ['Francisco José Domenech Gomis', 'Jose Francisco Domenech Gomis'] },
+];
+for (const c of CORRECCIONES) {
+  const cand = porProvincia.get(c.provincia)?.find((x) => x.orden === c.orden);
+  if (!cand) throw new Error(`Corrección sin candidatura: ${c.provincia} ${c.orden}`);
+  if (c.texto) cand.texto = c.texto;
+  if (c.candidatos) cand.candidatos = c.candidatos;
+  if (c.cambiar) {
+    const i = cand.candidatos.indexOf(c.cambiar[0]);
+    if (i < 0) throw new Error(`Corrección sin candidato: ${c.cambiar[0]}`);
+    cand.candidatos[i] = c.cambiar[1];
+  }
+}
+
 // Agrupa las variantes de una misma formación: ortografía, idioma y federaciones territoriales. Lo demás, por sus siglas.
 const FORMACIONES = [
   [/SOCIALISTA|SOCIALISTES/i, 'PSOE', 'Partido Socialista Obrero Español'],
@@ -136,7 +159,7 @@ const provincias = Object.entries(JUNTAS).map(([boe, id]) => {
   };
 });
 
-writeFileSync('src/data/candidaturas-2026.json', JSON.stringify({ fuente: 'BOE-A-2026-23103', provincias }, null, 2) + '\n');
+writeFileSync('src/data/candidaturas-2026.json', JSON.stringify({ fuente: 'BOE-A-2026-23103', correccion: 'BOE-A-2026-23383', provincias }, null, 2) + '\n');
 
 // Lista de programas: una entrada por formación, de más a menos circunscripciones. Conserva lo ya verificado (web, programa).
 const anterior = JSON.parse(readFileSync('src/data/programas.json', 'utf8'));

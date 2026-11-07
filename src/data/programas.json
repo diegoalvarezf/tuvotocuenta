@@ -13,11 +13,11 @@
         "paginas": 64
       }
     ],
-    "programa": null,
     "aviso": {
       "texto": "Su documento dice que «no pretende ser un programa electoral», sino su programa político.",
       "pagina": 6
-    }
+    },
+    "programa": null
   },
   {
     "siglas": "PSOE",

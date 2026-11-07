@@ -14,6 +14,10 @@ export const FUENTES = {
     nombre: 'Candidaturas proclamadas por las Juntas Electorales Provinciales (BOE, 3-11-2026)',
     url: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103',
   },
+  candidaturas2026correccion: {
+    nombre: 'Corrección de errores de las candidaturas proclamadas (BOE, 7-11-2026)',
+    url: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23383',
+  },
   convocatoria2026: {
     nombre: 'Real Decreto 806/2026, de convocatoria de elecciones (BOE)',
     url: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20742',

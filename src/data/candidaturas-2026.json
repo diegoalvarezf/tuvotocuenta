@@ -1,5 +1,6 @@
 {
   "fuente": "BOE-A-2026-23103",
+  "correccion": "BOE-A-2026-23383",
   "provincias": [
     {
       "id": "02",
@@ -3531,7 +3532,7 @@
           "formacion": "SALF",
           "candidatos": [
             "Rafael Pedraza Garrido",
-            "Milagros Roca Pérez",
+            "Milagros Roca López",
             "Jorge Luis Falcó Boudet"
           ]
         },
@@ -5112,7 +5113,7 @@
       "candidaturas": [
         {
           "orden": 1,
-          "texto": "EUSKAL HERRIA BILDU-ESQUERRA REPUBLICANA DE CATALUNYA (EH BILDU-ERC)",
+          "texto": "EUSKAL HERRIA BILDU (EH BILDU)",
           "formacion": "EH Bildu",
           "candidatos": [
             "Eneka Maiz Ulaiar",
@@ -5232,7 +5233,7 @@
         },
         {
           "orden": 11,
-          "texto": "Frente Amplio-Fronte Zabala (FRENTE AMPLIO-FRONTE ZABALA)",
+          "texto": "FRENTE AMPLIO-FRONTE ZABALA (FRENTE AMPLIO-FRONTE ZABALA)",
           "formacion": "Frente Amplio",
           "candidatos": [
             "Javier Ibáñez Orayen",
@@ -5917,7 +5918,10 @@
           "texto": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
           "formacion": "PCTE",
           "candidatos": [
-            "Alejandro García Cáncer"
+            "Francisco Castro Portolés",
+            "María Eugenia Oleaga Muguerza",
+            "Gonzalo Alonso Alonso",
+            "Lucía Sáenz Burgos"
           ]
         },
         {
@@ -6773,7 +6777,7 @@
           "texto": "Comuns-Front Ampli (COMUNS-FRONT AMPLI)",
           "formacion": "Frente Amplio",
           "candidatos": [
-            "Ester Roca Domodel",
+            "Ester Roca Domedel",
             "Óscar Sendra Anglès",
             "Eva Amposta Serres",
             "Antonio Martínez Pascual",
@@ -6870,7 +6874,7 @@
           "texto": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
           "formacion": "PSOE",
           "candidatos": [
-            "Herminio Rufino Sancho Íniguez",
+            "Herminio Rufino Sancho Íñiguez",
             "María Pilar Castellano Vivas",
             "Jose Ángel Galve Gasión"
           ]
@@ -7147,7 +7151,7 @@
           "candidatos": [
             "Gabriel Lorente Juan",
             "Celia Riba Polo",
-            "Francisco José Domenech Gomis",
+            "Jose Francisco Domenech Gomis",
             "Maya Ayuso Wood",
             "Jaume Tamarit Díez",
             "Yui Argüello Padíal",
