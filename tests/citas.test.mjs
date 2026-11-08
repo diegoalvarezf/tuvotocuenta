@@ -21,6 +21,14 @@ test('acepta una cita que empieza en una página y sigue en la siguiente', () =>
   assert.ok(verificar({ cita: 'Además, reduciremos las listas de espera', pagina: 2 }));
 });
 
+test('acepta una cita que sigue en la página siguiente aunque el pie lleve el título de la sección', () => {
+  const pdf = crearVerificador([
+    { pagina: 1, texto: 'Revalorización das pensións\nconforme ao IPC real e\n\nDEREITO A UNHA VIDA DIGNA · 20' },
+    { pagina: 2, texto: 'suba das mínimas.' },
+  ]);
+  assert.ok(pdf({ cita: 'conforme ao IPC real e suba das mínimas', pagina: 1 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });

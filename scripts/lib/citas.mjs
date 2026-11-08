@@ -14,8 +14,9 @@ export const normalizar = (s) =>
 
 // Devuelve una función que verifica { cita, pagina } contra las páginas del programa
 export function crearVerificador(paginas) {
-  // El número de página al pie cortaría las citas que siguen en la página siguiente
-  const sinPie = (t) => t.replace(/\s+\d{1,3}\s*$/, '');
+  // El pie (número de página, a veces tras el título de la sección en mayúsculas: «VIVENDA · 20»)
+  // cortaría las citas que siguen en la página siguiente
+  const sinPie = (t) => t.replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '').replace(/\s+\d{1,3}\s*$/, '');
   const textoPagina = new Map(paginas.map((p) => [p.pagina, normalizar(sinPie(p.texto))]));
   return ({ cita, pagina }) => {
     const buscada = normalizar(cita);

@@ -10,3 +10,5 @@ Errores reales. Cada uno, una regla.
 - **Dominios con el nombre del partido no son su web.** frenteamplio.es está aparcado; la web es frenteamplio.info. Confirmar con su aviso legal. (3-11-2026)
 - **No enlazar webs dudosas.** soriaya.org tiene enlaces ocultos a casinos. PANCAL-URCI publica un PDF con DNI y cuenta bancaria: enlazar solo la portada. (3-11-2026)
 - **Pies de página.** El número de página cortaba citas entre páginas; ahora el verificador lo ignora. (3-11-2026)
+- **El pie puede llevar el título de la sección.** En el BNG («VIVENDA · 20») cortaba las citas entre páginas y los agentes recortaron o quitaron propuestas. Ahora el verificador lo ignora; si un pie nuevo rompe citas, se arregla el verificador, no se recortan. (8-11-2026)
+- **No perder propuestas por longitud.** La regla de 10 a 60 palabras es una guía: una medida completa más corta se cita tal cual, y una frase larga se cita en un fragmento continuo. (8-11-2026)
