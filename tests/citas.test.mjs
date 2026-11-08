@@ -63,3 +63,9 @@ test('las propuestas publicadas son de partidos con documento y de temas válido
     assert.ok(TEMAS.includes(p.tema), `tema desconocido: ${p.tema}`);
   }
 });
+
+test('acepta una fila de tabla si cada celda está en la página, aunque salgan sueltas', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'QUÉ\n\nHOY\n\nPeso de la Atención Primaria\n\n13,9 %\n\nen el gasto sanitario público\n\nMETA\n\n20 % en 2028 · 25 % en 2030\n\n2030' }]);
+  assert.ok(pdf({ cita: 'Peso de la Atención Primaria en el gasto sanitario público · 20 % en 2028 · 25 % en 2030 · 2030', pagina: 1, tabla: true }));
+  assert.equal(pdf({ cita: 'Peso de la Atención Primaria en el gasto sanitario público · 30 % en 2028 · 2030', pagina: 1, tabla: true }), false);
+});

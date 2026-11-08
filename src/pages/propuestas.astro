@@ -28,6 +28,7 @@ interface Propuesta {
   pagina: number;
   concreta: boolean;
   revisada: boolean;
+  tabla?: boolean;
 }
 
 // Solo se publican las propuestas revisadas por una persona. En local se ven también los borradores, para revisarlos.
@@ -103,8 +104,8 @@ const fuenteDe = (siglas: string) => {
                     <p class="resumen">{p.resumen}{!p.revisada && <span class="borrador"> · Sin revisar</span>}</p>
                     <span class="tipo" data-concreta={String(p.concreta)}>{p.concreta ? 'Concreta' : 'Genérica'}</span>
                     <details>
-                      <summary>Cita · pág. {p.pagina}</summary>
-                      <blockquote>«{p.cita}»</blockquote>
+                      <summary>{p.tabla ? 'Tabla' : 'Cita'} · pág. {p.pagina}</summary>
+                      {p.tabla ? <blockquote>Fila de su tabla de compromisos: {p.cita}</blockquote> : <blockquote>«{p.cita}»</blockquote>}
                       <a class="ir-pagina" href={`${fuenteDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Ver la página {p.pagina} del documento</a>
                     </details>
                   </li>
@@ -147,7 +148,7 @@ const fuenteDe = (siglas: string) => {
     <ol>
       <li><strong>Solo el programa oficial.</strong> Usamos el PDF que publica cada partido en su web, nada más: ni entrevistas ni declaraciones.</li>
       <li><strong>Cita literal y página.</strong> Cada propuesta lleva el fragmento exacto del programa y un enlace a su página, para que lo compruebes tú.</li>
-      <li><strong>Verificación automática.</strong> Una IA ayuda a localizar y clasificar las propuestas. Después, un programa comprueba que cada cita aparece palabra por palabra en esa página del PDF; si no aparece, se descarta.</li>
+      <li><strong>Verificación automática.</strong> Una IA ayuda a localizar y clasificar las propuestas. Después, un programa comprueba que cada cita aparece palabra por palabra en esa página del PDF; si no aparece, se descarta. Si la propuesta es una fila de una tabla del programa, se cita la fila (qué, meta y plazo) y se comprueba cada celda.</li>
       <li><strong>Revisión.</strong> Una segunda pasada con IA comprueba cada propuesta contra su página. Después, una persona revisa una muestra de cada formación antes de publicar.</li>
       <li><strong>Concreta o genérica.</strong> Es concreta si se puede comprobar su cumplimiento: tiene una cifra, una fecha, un plazo o una medida legal o administrativa identificable, como crear o suprimir un impuesto o una ley, o una deducción bien definida aunque no lleve cifra. «Impulsaremos» o «apostaremos por» sin nada más, o un plan sin nombre ni cifra, es genérica. No mide si la propuesta es buena o mala, y el límite a veces es discutible.</li>
       <li><strong>Mismo trato para todos.</strong> Todos los programas se procesan con las mismas instrucciones y los mismos temas.</li>

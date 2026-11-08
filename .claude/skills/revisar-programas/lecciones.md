@@ -12,3 +12,5 @@ Errores reales. Cada uno, una regla.
 - **Pies de página.** El número de página cortaba citas entre páginas; ahora el verificador lo ignora. (3-11-2026)
 - **El pie puede llevar el título de la sección.** En el BNG («VIVENDA · 20») cortaba las citas entre páginas y los agentes recortaron o quitaron propuestas. Ahora el verificador lo ignora; si un pie nuevo rompe citas, se arregla el verificador, no se recortan. (8-11-2026)
 - **No perder propuestas por longitud.** La regla de 10 a 60 palabras es una guía: una medida completa más corta se cita tal cual, y una frase larga se cita en un fragmento continuo. (8-11-2026)
+- **Tablas de compromisos.** M+J pone sus metas medibles en tablas cuyas celdas salen sueltas en el texto del PDF, y la extracción las dejaba fuera. Se citan como fila «Qué · Meta · Plazo» con `tabla: true`, y el verificador comprueba cada celda con palabras completas. Decidido con Diego. (8-11-2026)
+- **Cabeceras y pies de cada PDF.** El verificador quita las líneas repetidas en un tercio o más de las páginas; mirar siempre el principio y el final de algunas páginas antes de extraer. (8-11-2026)

@@ -24,9 +24,26 @@ export function crearVerificador(paginas) {
   const minimo = Math.max(5, paginas.length / 3);
   const sinRepetidas = (t) => t.split('\n').filter((l) => l.trim().length < 12 || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
   const textoPagina = new Map(paginas.map((p) => [p.pagina, normalizar(sinPie(sinRepetidas(p.texto)))]));
-  return ({ cita, pagina }) => {
+  // En una fila de tabla («Qué · Meta · Plazo») las celdas salen sueltas en el texto del PDF:
+  // cada celda tiene que estar en la página, entera o en hasta tres trozos (celdas de varias líneas)
+  // con palabras completas: «30» no vale por estar dentro de «2030»
+  const contiene = (texto, trozo) =>
+    new RegExp(`(?<![\\p{L}\\p{N}])${trozo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\p{L}\\p{N}])`, 'u').test(texto);
+  const enTrozos = (celda, texto, quedan = 3) => {
+    if (contiene(texto, celda)) return true;
+    if (quedan === 1) return false;
+    // también se parte tras un guion de rango: «2026–2030» puede salir como «2026–» y «2030»
+    const palabras = celda.split(/ |(?<=–)(?=\S)/);
+    for (let i = 1; i < palabras.length; i++) {
+      const inicio = palabras.slice(0, i).join(' ');
+      if (contiene(texto, inicio) && enTrozos(palabras.slice(i).join(' '), texto, quedan - 1)) return true;
+    }
+    return false;
+  };
+  return ({ cita, pagina, tabla }) => {
     const buscada = normalizar(cita);
     const aqui = textoPagina.get(pagina) ?? '';
+    if (tabla) return buscada.length > 0 && buscada.split(' · ').every((celda) => celda.length > 0 && enTrozos(celda, aqui));
     const conSiguiente = `${aqui} ${textoPagina.get(pagina + 1) ?? ''}`;
     return buscada.length > 0 && (aqui.includes(buscada) || conSiguiente.includes(buscada));
   };
