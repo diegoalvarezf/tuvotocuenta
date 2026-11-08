@@ -174,7 +174,12 @@
     "circunscripciones": 4,
     "web": "https://www.bng.gal",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral. 29N Xerais 2026",
+      "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/03/26_bng_xerais_documentos_programa_electoral.pdf",
+      "fecha": "2026-11-03",
+      "paginas": 91
+    }
   },
   {
     "siglas": "EH Bildu",
