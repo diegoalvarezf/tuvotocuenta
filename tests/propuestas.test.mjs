@@ -7,7 +7,7 @@ import TEMAS from '../src/data/temas.json' with { type: 'json' };
 import { crearVerificador } from '../scripts/lib/citas.mjs';
 
 // Texto de cada documento, generado con scripts/programa-paginas.mjs
-const TEXTOS = { 'Frente Obrero': 'frente-obrero', CNV: 'cnv', IE: 'ie', 'B.N.G.': 'bng' };
+const TEXTOS = { 'Frente Obrero': 'frente-obrero', CNV: 'cnv', IE: 'ie', 'B.N.G.': 'bng', 'Mundo+Justo': 'mundo-mas-justo' };
 
 test('cada formación con propuestas tiene un documento y su texto en el repositorio', () => {
   for (const partido of new Set(propuestas.map((p) => p.partido))) {

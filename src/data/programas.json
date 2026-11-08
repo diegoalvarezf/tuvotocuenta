@@ -119,7 +119,12 @@
     "circunscripciones": 26,
     "web": "https://www.porunmundomasjusto.es",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral. Elecciones Generales 29N 2026",
+      "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+      "fecha": "2026-11-07",
+      "paginas": 95
+    }
   },
   {
     "siglas": "Escaños en Blanco",

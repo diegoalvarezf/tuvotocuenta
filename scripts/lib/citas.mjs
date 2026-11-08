@@ -17,7 +17,13 @@ export function crearVerificador(paginas) {
   // El pie (número de página, a veces tras el título de la sección en mayúsculas: «VIVENDA · 20»)
   // cortaría las citas que siguen en la página siguiente
   const sinPie = (t) => t.replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '').replace(/\s+\d{1,3}\s*$/, '');
-  const textoPagina = new Map(paginas.map((p) => [p.pagina, normalizar(sinPie(p.texto))]));
+  // Cabeceras y pies repetidos («M+J Programa electoral · …», «↑ Volver al índice») también cortarían
+  // las citas: se quitan las líneas que aparecen en al menos un tercio de las páginas (y en 5 o más)
+  const veces = new Map();
+  for (const p of paginas) for (const l of new Set(p.texto.split('\n').map((x) => x.trim()).filter(Boolean))) veces.set(l, (veces.get(l) ?? 0) + 1);
+  const minimo = Math.max(5, paginas.length / 3);
+  const sinRepetidas = (t) => t.split('\n').filter((l) => l.trim().length < 12 || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
+  const textoPagina = new Map(paginas.map((p) => [p.pagina, normalizar(sinPie(sinRepetidas(p.texto)))]));
   return ({ cita, pagina }) => {
     const buscada = normalizar(cita);
     const aqui = textoPagina.get(pagina) ?? '';

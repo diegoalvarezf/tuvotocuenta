@@ -29,6 +29,15 @@ test('acepta una cita que sigue en la página siguiente aunque el pie lleve el t
   assert.ok(pdf({ cita: 'conforme ao IPC real e suba das mínimas', pagina: 1 }));
 });
 
+test('acepta una cita que cruza una cabecera y un pie repetidos en todas las páginas', () => {
+  const cab = 'M+J Programa electoral · Elecciones Generales 29N 2026';
+  const pie = 'Por un Mundo Más Justo\n\n↑ Volver al índice';
+  const pdf = crearVerificador(
+    [1, 2, 3, 4, 5, 6].map((n) => ({ pagina: n, texto: `${cab}\n\n${n === 3 ? 'Ampliar el parque social' : n === 4 ? 'hasta el 5% en 2030.' : 'Texto.'}\n\n${pie}\n\n${n}` })),
+  );
+  assert.ok(pdf({ cita: 'Ampliar el parque social hasta el 5% en 2030.', pagina: 3 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });
