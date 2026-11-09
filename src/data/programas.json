@@ -256,7 +256,12 @@
     "circunscripciones": 2,
     "web": "https://coalicioncanaria.org",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Bases del programa electoral. Elecciones Generales 29 de noviembre de 2026",
+      "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+      "fecha": "2026-11-08",
+      "paginas": 23
+    }
   },
   {
     "siglas": "D.R.G",
