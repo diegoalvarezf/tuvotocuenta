@@ -13366,5 +13366,1724 @@
     "concreta": true,
     "tabla": true,
     "revisada": true
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Aspirar al máximo autogobierno para Canarias en un Estado que reconozca su realidad plurinacional.",
+    "cita": "Aspiramos al máximo autogobierno en un Estado que reconozca y articule de común acuerdo su realidad plurinacional.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "No dar por hecho su apoyo a ningún Gobierno que deje sin atender las necesidades de Canarias.",
+    "cita": "Ningún Gobierno podrá dar por hecho nuestro apoyo mientras deje nuestras necesidades sin atender, y ninguna estrategia de los partidos estatales estará por encima del compromiso que asumimos con nuestra gente.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Mantener el contacto de sus representantes con pueblos y barrios durante la legislatura y rendir cuentas de los resultados.",
+    "cita": "Nuestra representación en las Cortes Generales mantendrá el contacto con los pueblos y los barrios durante toda la legislatura.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Distinguir en cada medida lo pendiente de aprobación, financiación o ejecución y actualizar los calendarios de propuestas anteriores.",
+    "cita": "Para cada medida distinguiremos lo que requiere aprobación, lo que necesita financiación y lo que está pendiente de ejecución, y actualizaremos los calendarios de las propuestas de ejercicios anteriores.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir un calendario verificable para completar los traspasos pendientes del Estatuto, con medios suficientes.",
+    "cita": "Exigiremos un calendario verificable para completar los traspasos y desarrollos pendientes del Estatuto de Autonomía, con medios económicos, personal y recursos materiales suficientes.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Incluir en los traspasos el transporte aéreo interinsular y las autorizaciones de trabajo para extranjeros previstas en el Estatuto.",
+    "cita": "Incluiremos la gestión del transporte aéreo interinsular y las autorizaciones de trabajo para personas extranjeras previstas en el Estatuto.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Oponerse a la recentralización y a cualquier retroceso en la capacidad de decisión de Canarias.",
+    "cita": "Nos opondremos a la recentralización y a cualquier retroceso en la capacidad de Canarias para decidir sobre sus asuntos.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reforzar la relación bilateral Canarias-Estado y la participación canaria en decisiones con impacto singular en las islas.",
+    "cita": "Reforzaremos la relación bilateral entre Canarias y el Estado. Las decisiones con un impacto singular en las islas deberán contar con la participación efectiva de nuestras instituciones.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar mecanismos de acuerdo sobre infraestructuras científicas estratégicas y nombramientos en organismos estatales en Canarias.",
+    "cita": "Reclamaremos mecanismos de acuerdo sobre las infraestructuras científicas estratégicas y sobre los nombramientos en los organismos estatales radicados en Canarias, con criterios de competencia profesional e idoneidad.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Defender que una eventual reforma constitucional recoja la lejanía, la insularidad y la ultraperiferia de Canarias.",
+    "cita": "Defenderemos que una eventual reforma constitucional recoja las singularidades derivadas de la lejanía, la insularidad y la ultraperiferia.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Defender la integridad del Régimen Económico y Fiscal y que su actualización llegue al conjunto de las islas.",
+    "cita": "Defenderemos la integridad del Régimen Económico y Fiscal, nuestro fuero histórico y un instrumento esencial para compensar desventajas permanentes.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar más capacidad canaria sobre los instrumentos del REF y rechazar reformas unilaterales del Estado.",
+    "cita": "Reclamaremos más capacidad canaria para decidir sobre sus instrumentos y rechazaremos reformas unilaterales del Estado que prescindan de la participación del Gobierno y del Parlamento de Canarias.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Impedir que los recursos del REF se computen como financiación ordinaria de sanidad, educación, dependencia o servicios sociales.",
+    "cita": "Impediremos que los recursos del REF se computen como financiación ordinaria de la sanidad, la educación, la dependencia o los servicios sociales.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir una financiación autonómica que reconozca el coste real de prestar servicios en un archipiélago, con población efectiva y envejecimiento.",
+    "cita": "Exigiremos un sistema de financiación autonómica suficiente y estable que reconozca el coste real de prestar servicios en un archipiélago alejado. Deberá tener en cuenta la población efectiva y su evolución, la fragmentación territorial, la pobreza y el envejecimiento",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar el cumplimiento de los convenios de carreteras, vivienda, agua, costas e infraestructuras educativas y turísticas.",
+    "cita": "Reclamaremos el cumplimiento de los convenios de carreteras, vivienda, agua, costas e infraestructuras educativas y turísticas. Cada obligación deberá contar con financiación y plazos verificables",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Defender plazos de vigencia y ejecución que eviten perder recursos por retrasos ajenos a las administraciones canarias.",
+    "cita": "Defenderemos plazos de vigencia y ejecución que permitan completar las actuaciones, sin perder recursos por retrasos ajenos a las administraciones canarias.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Dar al Gobierno de Canarias y los cabildos un papel efectivo en la planificación y gestión de puertos y aeropuertos.",
+    "cita": "Desarrollaremos las previsiones del Estatuto para que el Gobierno de Canarias y los cabildos tengan un papel efectivo en la planificación, las inversiones, la estrategia y la gestión de los puertos y aeropuertos.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Exigir el régimen específico de los aeropuertos canarios y más inversión en los aeropuertos no capitalinos.",
+    "cita": "Exigiremos la aplicación efectiva del régimen específico de los aeropuertos canarios y la actualización de las inversiones para corregir las carencias de los aeropuertos no capitalinos.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Mejorar el Registro Especial de Buques de Canarias y negociar su gestión por la comunidad autónoma.",
+    "cita": "Impulsaremos también la mejora del Registro Especial de Buques de Canarias y la negociación de su gestión por la comunidad autónoma.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Recuperar para uso civil terrenos militares en Canarias, entre ellos el campo de tiro de Pájara.",
+    "cita": "Impulsaremos la recuperación para uso civil de terrenos e instalaciones militares en Canarias, entre ellos el campo de tiro de Pájara, en Fuerteventura.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Negociar con el Estado el cese de la actividad militar en esos espacios y su cesión a las administraciones canarias.",
+    "cita": "Negociaremos con el Estado el cese de la actividad militar en esos espacios, su cesión a las administraciones canarias y las actuaciones necesarias para su uso civil seguro y su recuperación ambiental.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Acordar el destino de esos espacios con cabildos y ayuntamientos, con participación ciudadana.",
+    "cita": "Su destino se acordará con los cabildos y ayuntamientos, con participación ciudadana y atendiendo a las necesidades de la población y a la protección del territorio.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Sanidad",
+    "resumen": "Defender una financiación sanitaria que reconozca el coste de atender a la población de ocho islas.",
+    "cita": "Defenderemos una financiación sanitaria que reconozca el coste de atender a la población de ocho islas y permita planificar las plantillas y los centros.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Sanidad",
+    "resumen": "Exigir al Estado una compensación específica por los sobrecostes sanitarios de la insularidad y la lejanía.",
+    "cita": "Exigiremos al Estado una compensación específica y actualizada por los sobrecostes sanitarios de la insularidad y la lejanía.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Sanidad",
+    "resumen": "Reclamar que la formación sanitaria especializada responda a las necesidades estructurales de Canarias.",
+    "cita": "Reclamaremos que la formación sanitaria especializada responda a las necesidades estructurales de Canarias y contribuya a disponer de los especialistas que hacen falta.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Sanidad",
+    "resumen": "Promover apoyo estatal a la movilidad de especialistas cuando sea más eficiente desplazar el servicio que al paciente.",
+    "cita": "Promoveremos el apoyo estatal a la movilidad de especialistas y otros profesionales cuando resulte más eficiente desplazar el servicio que al paciente.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Sanidad",
+    "resumen": "Reclamar que los Presupuestos Generales del Estado refuercen las partidas de salud mental en Canarias.",
+    "cita": "Reclamaremos que los Presupuestos Generales del Estado refuercen las partidas destinadas a la atención en salud mental en Canarias.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Sanidad",
+    "resumen": "Exigir una aportación estatal suficiente, estable y acorde con las obligaciones del sistema de dependencia.",
+    "cita": "Exigiremos una aportación estatal suficiente, estable y acorde con las obligaciones del sistema de dependencia.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Sanidad",
+    "resumen": "Impulsar una estrategia de envejecimiento y cuidados de larga duración con formación, innovación y accesibilidad.",
+    "cita": "Impulsaremos una estrategia de envejecimiento y cuidados de larga duración que incluya formación de profesionales, innovación, accesibilidad y adaptación de los servicios al cambio climático.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Reforzar la financiación estatal para plazas públicas gratuitas de educación infantil de cero a tres años.",
+    "cita": "Reforzaremos la financiación estatal para una oferta suficiente de plazas públicas gratuitas y de calidad.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Igualdad y familia",
+    "resumen": "Defender programas estatales contra la pobreza infantil mientras Canarias supere la media en indicadores de pobreza.",
+    "cita": "Defenderemos programas estatales específicos mientras Canarias mantenga indicadores de pobreza superiores a la media.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Igualdad y familia",
+    "resumen": "Priorizar la infancia y las familias con más dificultades en los recursos para reducir la desigualdad.",
+    "cita": "La atención a la infancia y el apoyo a las familias con mayores dificultades serán prioritarios en la asignación de los recursos destinados a reducir la desigualdad.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Igualdad y familia",
+    "resumen": "Abrir un debate estatal para una política común de infancia con ayudas a la crianza y protección frente a la violencia digital.",
+    "cita": "Planteamos abrir el debate y buscar consenso en el marco estatal para establecer una política común para reforzar la protección y el bienestar de la infancia mediante ayudas a la crianza, mayor acceso a la vivienda en hogares con menores, protección infantil frente a la violencia digital",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Igualdad y familia",
+    "resumen": "Reclamar que Canarias tramite el ingreso mínimo vital, con participación de cabildos y ayuntamientos.",
+    "cita": "Reclamaremos al Estado un sistema de cooperación que permita a Canarias tramitar las solicitudes y el reconocimiento del ingreso mínimo vital, con participación de cabildos y ayuntamientos.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Igualdad y familia",
+    "resumen": "Coordinar el ingreso mínimo vital con las prestaciones autonómicas para que aceptar un empleo no suponga perder protección.",
+    "cita": "Mejoraremos su coordinación con las prestaciones autonómicas. El objetivo es evitar que haya personas sin cobertura y que aceptar un empleo provoque una pérdida brusca de protección que empeore la situación del hogar.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Igualdad y familia",
+    "resumen": "Reclamar financiación estatal para aplicar el Pacto de Estado contra la violencia de género en todas las islas.",
+    "cita": "Reclamaremos financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas, reforzar la prevención y proteger a las víctimas y a sus hijos e hijas.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reclamar al Estado la financiación de 1.400 plazas de la Policía Canaria previstas en la propuesta de Decreto Canarias.",
+    "cita": "Reclamaremos al Estado la financiación de las 1.400 plazas del Cuerpo General de la Policía Canaria previstas en la propuesta de Decreto Canarias.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Seguridad y justicia",
+    "resumen": "Acordar en la Comisión Bilateral el coste del despliegue de la Policía Canaria, coordinada con las fuerzas estatales.",
+    "cita": "La Comisión Bilateral deberá acordar el coste efectivo de este despliegue y su desarrollo progresivo en las islas, en coordinación y complementariedad con las fuerzas y cuerpos de seguridad del Estado.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Pensiones",
+    "resumen": "Que los complementos canarios sean compatibles con las pensiones no contributivas, exentos de tributación y no las reduzcan.",
+    "cita": "Reclamaremos al Estado que los complementos de renta que establezca Canarias sean compatibles con las pensiones no contributivas, estén exentos de tributación y no computen para reducir o retirar la prestación.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Igualdad y familia",
+    "resumen": "Exigir que los programas estatales y europeos para Canarias incorporen las necesidades de las personas con discapacidad.",
+    "cita": "Exigiremos que los programas estatales y europeos de vivienda, transporte, empleo y servicios públicos destinados a Canarias incorporen las necesidades de las personas con discapacidad.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Recuperar programas estatales de inversión para corregir los déficits de las infraestructuras educativas.",
+    "cita": "Recuperaremos programas estatales de inversión para corregir los déficits de las infraestructuras educativas y adaptar los centros a las nuevas necesidades.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Impulsar un fondo estatal de ocho años para cofinanciar vivienda pública y asequible, con asignación ajustada para Canarias.",
+    "cita": "Impulsaremos un fondo estatal de ocho años para cofinanciar vivienda pública y asequible, con una asignación para Canarias ajustada a sus necesidades.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Que el fondo permita construir, adquirir y rehabilitar viviendas y comprar suelo, edificios y promociones.",
+    "cita": "Permitirá construir, adquirir y rehabilitar viviendas, además de comprar suelo, edificios y promociones disponibles.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Inventariar suelos y edificios del Estado en Canarias aptos para vivienda asequible y reclamar su cesión.",
+    "cita": "Promoveremos un inventario de los suelos y edificios del Estado y de sus entidades en Canarias que puedan destinarse a vivienda asequible y reclamaremos su cesión a las administraciones canarias competentes.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Impulsar un plan estatal de regeneración de barrios que incluya demolición y reposición cuando rehabilitar no baste.",
+    "cita": "Impulsaremos un plan estatal de reposición y regeneración de barrios que incluya demolición y reposición cuando la rehabilitación sea insuficiente.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Reforzar las ayudas para ascensores, aislamiento, eficiencia energética y adaptación climática, priorizando a mayores.",
+    "cita": "Reforzaremos las ayudas para conservación, ascensores, eliminación de barreras, aislamiento, fachadas, cubiertas, eficiencia energética, autoconsumo y adaptación climática, priorizando las necesidades de las personas mayores y de las personas con movilidad reducida.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Mejorar los incentivos fiscales a pequeños propietarios que pongan viviendas en alquiler asequible, con garantías públicas.",
+    "cita": "Mejoraremos los incentivos fiscales estatales para pequeños propietarios que incorporen voluntariamente viviendas a programas de alquiler asequible, con garantías públicas de cobro y conservación.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Vincular la financiación para rehabilitar viviendas vacías a su incorporación a programas de alquiler asequible.",
+    "cita": "La financiación de la rehabilitación de viviendas vacías se vinculará a su incorporación a esos programas durante un periodo suficiente.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Defender una regulación estatal estable que proteja a inquilinos y propietarios y facilite el alquiler de larga duración.",
+    "cita": "Defenderemos una regulación estatal estable que proteja a inquilinos y propietarios y facilite el alquiler de larga duración.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Defender una línea estatal reforzada de vivienda joven, alquiler asequible y cooperativas, con fórmulas para estudiantes y trabajadores.",
+    "cita": "Defenderemos una línea estatal reforzada de vivienda joven, alquiler asequible y cooperativas. Incluirá fórmulas residenciales para estudiantes, alumnado de formación profesional, jóvenes investigadores y trabajadores",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Impulsar reformas en las Cortes para limitar la compra de vivienda en Canarias por extranjeros.",
+    "cita": "Impulsaremos en las Cortes Generales las reformas necesarias para limitar la compra de vivienda en Canarias por extranjeros, con el objetivo de facilitar el acceso a un hogar a quienes viven en las islas.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Reclamar que el Estado defienda ante la UE un régimen específico para Canarias sobre la compra de vivienda.",
+    "cita": "Reclamaremos al Estado que defienda ante la Unión Europea un régimen específico para Canarias, atendiendo a nuestra condición de región ultraperiférica, con medidas justificadas, proporcionadas y compatibles con el marco jurídico europeo.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Promover reformas estatales y europeas para hacer viable una Ley Canaria de Residencia que ordene el crecimiento poblacional.",
+    "cita": "Promoveremos las reformas estatales y europeas necesarias para hacer viable una Ley Canaria de Residencia que permita ordenar el crecimiento poblacional y respetar los límites del territorio.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Dar cobertura jurídica para que Canarias y sus municipios limiten la vivienda vacacional donde haya presión residencial.",
+    "cita": "Defenderemos la cobertura jurídica estatal y europea necesaria para que Canarias y sus municipios puedan modular y limitar los usos turísticos donde exista presión acreditada sobre la vivienda residencial.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Diferenciar en la normativa el uso ocasional de una vivienda de su explotación turística profesional.",
+    "cita": "La normativa diferenciará el uso ocasional de una vivienda de la explotación profesional o intensiva.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Reformar procedimientos e informes sectoriales estatales para acortar los plazos de la vivienda protegida.",
+    "cita": "Impulsaremos reformas de los procedimientos estatales y de los informes sectoriales para acortar los plazos. La reducción de trámites deberá mantener las garantías ambientales, urbanísticas y de seguridad.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Impuestos",
+    "resumen": "Reclamar incentivos fiscales a la primera vivienda para jóvenes y familias con ingresos medios y bajos.",
+    "cita": "Reclamaremos incentivos fiscales estatales a la primera vivienda para jóvenes y familias con ingresos medios y bajos",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Apoyar la construcción industrializada para reducir costes y plazos de la vivienda protegida.",
+    "cita": "apoyo a la construcción industrializada para reducir los costes y los plazos de construcción de vivienda protegida.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Vivienda",
+    "resumen": "Reclamar ayudas estatales para proteger del calor las viviendas de los hogares con menos recursos.",
+    "cita": "Reclamaremos ayudas estatales para protección solar, aislamiento, ventilación, toldos, cerramientos y climatización eficiente en las viviendas de los hogares con menos recursos.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Actualizar las compensaciones por sobrecostes de insularidad y evaluar su efecto sobre el precio de los productos básicos.",
+    "cita": "Reclamaremos al Estado que las compensaciones por los sobrecostes de la insularidad se actualicen y que se evalúe su efecto sobre los precios finales de los productos básicos.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Empleo y salarios",
+    "resumen": "Defender la financiación del Plan Integral de Empleo de Canarias y los programas del REF mientras el paro supere la media.",
+    "cita": "Defenderemos la financiación del Plan Integral de Empleo de Canarias y de los programas específicos previstos en el REF mientras la situación del empleo en Canarias siga en clara desventaja respecto a la media estatal.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Empleo y salarios",
+    "resumen": "Priorizar a quienes tienen más dificultad para encontrar empleo y vincular la formación a empleo estable.",
+    "cita": "Priorizaremos a quienes encuentran más dificultades para acceder a un empleo y vincularemos la formación a oportunidades reales de trabajo estable y mejores salarios.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Reforzar las ayudas estatales a quienes empiezan como autónomos y a los autónomos con menores rendimientos.",
+    "cita": "Reforzaremos las ayudas estatales a quienes empiezan una actividad por cuenta propia y a los autónomos con menores rendimientos.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Adaptar los programas estatales de digitalización, innovación y financiación a la microempresa canaria.",
+    "cita": "Adaptaremos los programas estatales de digitalización, innovación y financiación al tamaño y a los costes logísticos de la microempresa canaria.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Defender condiciones para el comercio, la industria, las pequeñas empresas y las cooperativas.",
+    "cita": "Defenderemos condiciones que permitan avanzar al comercio, la industria, las pequeñas empresas y las cooperativas que sostienen la economía de nuestros pueblos y barrios.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Reclamar el convenio de infraestructuras turísticas y programas estatales de renovación de destinos maduros.",
+    "cita": "Reclamaremos el cumplimiento del convenio de infraestructuras turísticas, así como programas estatales de renovación de destinos maduros ligados a la accesibilidad, la calidad urbana, la eficiencia, la digitalización y la adaptación climática.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Que las inversiones turísticas tengan en cuenta la población real, incluida la no empadronada.",
+    "cita": "Las inversiones deberán tener en cuenta la población real de estos territorios, incluida la no empadronada, y contribuir a mejorar las condiciones de vida de sus residentes.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Impuestos",
+    "resumen": "Actualizar los instrumentos del REF para atraer inversión productiva que genere empleo estable, sobre todo en industria y tecnología.",
+    "cita": "Evaluaremos y actualizaremos sus instrumentos para atraer inversión productiva e innovadora que genere empleo estable en Canarias, especialmente en la industria y en actividades tecnológicas y creativas.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Impuestos",
+    "resumen": "Mantener el diferencial fiscal canario para la producción audiovisual.",
+    "cita": "Mantendremos el diferencial fiscal canario para la producción audiovisual.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Empleo y salarios",
+    "resumen": "Reclamar incentivos fiscales y bonificaciones de cotizaciones ligados a mejoras salariales pactadas en Canarias.",
+    "cita": "Reclamaremos al Estado incentivos fiscales y bonificaciones en las cotizaciones ligados a mejoras salariales pactadas y a la productividad de las empresas canarias.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Empleo y salarios",
+    "resumen": "Defender medidas dirigidas a las retribuciones públicas más bajas.",
+    "cita": "Defenderemos también las medidas dirigidas a las retribuciones públicas más bajas.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Impulsar un acuerdo con el Estado y la UE que elimine barreras y costes abusivos al comercio electrónico desde Canarias.",
+    "cita": "Impulsaremos un acuerdo con el Estado y la UE que elimine barreras y costes de intermediación abusivos en el comercio electrónico.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Impuestos",
+    "resumen": "Exigir que el comercio electrónico respete la fiscalidad canaria y se corrijan los cobros indebidos de IVA cuando corresponda IGIC.",
+    "cita": "Exigiremos que las operaciones respeten nuestra fiscalidad y que se corrijan los cobros indebidos de IVA cuando corresponda aplicar el IGIC.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Impuestos",
+    "resumen": "Mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro.",
+    "cita": "Defenderemos las medidas de la propuesta de Decreto Canarias para mantener la deducción del 60 % en el IRPF aplicable en La Palma y extenderla a La Gomera y El Hierro.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Empleo y salarios",
+    "resumen": "Reclamar una bonificación del 50 % de las cuotas empresariales a la Seguridad Social en La Palma, La Gomera y El Hierro.",
+    "cita": "Reclamaremos también la bonificación del 50 % de las cuotas empresariales de la Seguridad Social en las tres islas para los contratos previstos en esa propuesta.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Exigir que España defienda íntegramente el POSEI y su dotación diferenciada en el nuevo presupuesto europeo.",
+    "cita": "Exigiremos que España defienda íntegramente el programa europeo de apoyo al sector primario de las regiones ultraperiféricas, el POSEI, y su dotación diferenciada en el nuevo presupuesto europeo.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Reclamar cada año el 100 % de la aportación estatal a las ayudas adicionales al POSEI autorizadas por la UE.",
+    "cita": "Reclamaremos cada año el 100 % de la aportación estatal a las ayudas adicionales autorizadas por la Unión Europea.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Reclamar mecanismos estatales que eviten pérdidas al sector canario si la UE reduce los recursos del POSEI.",
+    "cita": "Si los cambios en la Unión Europea reducen esos recursos, reclamaremos mecanismos estatales que eviten una pérdida efectiva para el sector canario.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Actualizar las medidas estatales frente a los sobrecostes de energía, alimentación animal, fertilizantes y transporte.",
+    "cita": "Actualizaremos las medidas estatales frente a los sobrecostes de energía, alimentación animal, fertilizantes y transporte.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Reclamar apoyo a la producción local y a los seguros agrarios, ganaderos y pesqueros.",
+    "cita": "Reclamaremos apoyo a la producción local y a los seguros de la agricultura, la ganadería y la pesca, para sostener la actividad en las islas.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Exigir financiación estatal para prevenir y combatir plagas y atender sus daños al sector agrario.",
+    "cita": "Exigiremos financiación estatal para prevenir y combatir las plagas y atender los daños que causan al sector agrario.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Reclamar financiación estatal y europea para incorporar jóvenes a la agricultura, la ganadería y la pesca.",
+    "cita": "Reclamaremos financiación estatal y europea para incorporar jóvenes a la agricultura, la ganadería y la pesca y dar continuidad a estas actividades.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Exigir que España evalúe el impacto de los acuerdos comerciales sobre las producciones sensibles de Canarias.",
+    "cita": "Exigiremos que España evalúe el impacto de los acuerdos comerciales internacionales sobre las producciones sensibles de Canarias y defienda salvaguardas cuando proceda.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Reclamar reglas para la flota artesanal canaria, más cuota de atún rojo y patudo y acceso a fondos europeos.",
+    "cita": "Reclamaremos reglas adaptadas a la flota artesanal canaria, posibilidades de pesca suficientes, especialmente de atún rojo y patudo, y acceso efectivo a los fondos europeos.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Corregir reglas estatales para que trasladar residuos entre islas para reciclarlos no quede en desventaja frente a la Península.",
+    "cita": "Corregiremos las reglas estatales para que el transporte entre islas de residuos destinados a la reutilización, el reciclaje o el aprovechamiento no quede en desventaja frente a su envío a puertos peninsulares.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Que los materiales recuperados accedan a compensaciones al transporte y se favorezca su tratamiento en Canarias.",
+    "cita": "Los materiales recuperados podrán acceder a compensaciones al transporte cuando se destinen realmente a esos usos. Donde exista capacidad técnica, se favorecerá su tratamiento en Canarias.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Orientar los programas estatales de innovación e industria hacia la reparación, el reciclaje y los nuevos materiales.",
+    "cita": "Orientaremos los programas estatales de innovación e industria hacia la reparación, la reutilización, el reciclaje, el aprovechamiento de residuos y los nuevos materiales.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Empleo y salarios",
+    "resumen": "Reclamar la aportación estatal al plan cuatrienal de empleo para menores de 35 años del Decreto Canarias.",
+    "cita": "Reclamaremos la aportación estatal al plan cuatrienal de empleo para menores de 35 años previsto en la propuesta de Decreto Canarias.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Reclamar financiación estatal para la formación profesional y la dual, incluidas infraestructuras y apoyo a empresas.",
+    "cita": "Reclamaremos financiación estatal para la formación profesional y la formación dual, incluidas las infraestructuras y el apoyo a las empresas que participan en la formación.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Empleo y salarios",
+    "resumen": "Reforzar las primeras experiencias laborales de calidad y las vías para el retorno del talento.",
+    "cita": "Reforzaremos las primeras experiencias laborales de calidad y las vías para el retorno del talento.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Orientar la cualificación profesional hacia renovables, economía azul, industria, digitalización, cuidados y otros sectores.",
+    "cita": "Orientaremos la cualificación profesional hacia las energías renovables, el almacenamiento energético, la economía azul, la industria, la digitalización, el sector audiovisual, la rehabilitación, los cuidados y los combustibles sostenibles.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Exigir y reforzar las becas del REF para estudiantes que deben desplazarse porque sus estudios no se ofrecen en su isla.",
+    "cita": "Exigiremos el cumplimiento y el refuerzo de las previsiones del REF para las becas de quienes deben desplazarse porque sus estudios no se ofrecen en su isla.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Reclamar criterios que corrijan las desventajas de la ultraperiferia en las convocatorias estatales de I+D+i.",
+    "cita": "Reclamaremos criterios que corrijan las desventajas de la ultraperiferia en las convocatorias estatales de investigación, desarrollo e innovación.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Defender financiación estatal plurianual para modernizar las universidades públicas canarias y reforzar astrofísica y ciencias marinas.",
+    "cita": "Defenderemos financiación plurianual del Estado para modernizar las universidades públicas canarias y reforzar la astrofísica, las ciencias marinas y la biotecnología.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Que los grandes proyectos científicos en Canarias incorporen formación, transferencia y actividad empresarial local.",
+    "cita": "Los grandes proyectos científicos en Canarias deberán incorporar formación, transferencia de conocimiento y creación de actividad empresarial local, con la participación de las universidades y los centros de investigación.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Reforzar la Plataforma Oceánica de Canarias (PLOCAN) como infraestructura científica española y europea.",
+    "cita": "Reforzaremos la Plataforma Oceánica de Canarias, PLOCAN, como infraestructura científica y tecnológica española y europea.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Impulsar programas estatales de energías marinas, biotecnología azul, robótica submarina y acuicultura sostenible.",
+    "cita": "Impulsaremos programas estatales para las energías marinas, la biotecnología azul, la robótica submarina, la observación oceánica, la acuicultura sostenible y las tecnologías para actividades mar adentro.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Promover financiación para ensayar en Canarias soluciones en energía, agua, océanos, geotermia y adaptación climática.",
+    "cita": "Promoveremos financiación estatal y europea para proyectos que permitan ensayar y demostrar soluciones en energía, agua, océanos, biodiversidad, geotermia, economía circular y adaptación al cambio climático.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar el traspaso y la ampliación de competencias de gestión del litoral previstas en el Estatuto y el Decreto Canarias.",
+    "cita": "Reclamaremos al Estado el desarrollo y la ampliación de los traspasos de competencias ejecutivas y de gestión sobre el litoral previstos en el Estatuto y en la propuesta de Decreto Canarias, con medios suficientes.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Exigir una planificación estatal que sustituya progresivamente las centrales térmicas obsoletas por soluciones renovables.",
+    "cita": "Exigiremos una planificación estatal que sustituya progresivamente las instalaciones térmicas obsoletas por soluciones más eficientes, renovables y flexibles.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reducir la generación fósil a medida que avancen renovables y almacenamiento, manteniendo la seguridad del suministro.",
+    "cita": "La generación con combustibles fósiles deberá reducirse a medida que avancen las renovables, el almacenamiento, las interconexiones internas y la gestión de la demanda, manteniendo siempre la seguridad del suministro.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Impulsar la eólica marina en Gran Canaria con planificación, subastas y retribución adaptadas a los sistemas insulares.",
+    "cita": "Impulsaremos la eólica marina en Gran Canaria con planificación, subastas, conexión y retribución adaptadas a los sistemas insulares.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Exigir consenso social, político e institucional y compatibilidad ambiental para cualquier proyecto de eólica marina.",
+    "cita": "Cualquier proyecto en las islas requerirá suficiente consenso social, político e institucional, además de compatibilidad ambiental y territorial.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reclamar un programa estatal extraordinario para redes eléctricas, subestaciones y nueva capacidad de conexión.",
+    "cita": "Reclamaremos un programa estatal extraordinario para redes de transporte y distribución, subestaciones, digitalización y nueva capacidad de conexión.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Impulsar ayudas para baterías y almacenamiento en baja y media tensión y proyectos de gran capacidad.",
+    "cita": "Impulsaremos ayudas estatales y europeas para baterías y almacenamiento en baja y media tensión, ligados al autoconsumo y a las redes locales, junto con proyectos de gran capacidad y larga duración.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Incluir líneas específicas para el bombeo de agua de mar en ciclo abierto como almacenamiento, cuando sea viable.",
+    "cita": "Incluiremos líneas específicas para el bombeo de agua de mar en ciclo abierto como forma de almacenamiento cuando sea técnica, económica, territorial y ambientalmente viable.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reformar la retribución de los sistemas eléctricos no peninsulares para valorar almacenamiento, flexibilidad y reducción de fósiles.",
+    "cita": "Reformaremos la retribución de los sistemas eléctricos no peninsulares para valorar el almacenamiento, la flexibilidad, la gestión de la demanda y la reducción real de combustibles fósiles.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Defender un marco estatal favorable al autoconsumo colectivo y a las comunidades energéticas.",
+    "cita": "Defenderemos un marco estatal favorable al autoconsumo colectivo y a las comunidades energéticas, mejorando su acceso a la red y facilitando el reparto y el almacenamiento de la energía.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Priorizar autoconsumo y respaldo limpio en hospitales, centros de salud, desaladoras y telecomunicaciones.",
+    "cita": "Priorizaremos estos recursos y los sistemas de respaldo limpio en hospitales, centros de salud, desaladoras, depuradoras y telecomunicaciones para reforzar la continuidad de los servicios esenciales.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Mantener programas estatales estables para la recarga de vehículos eléctricos, sin vacíos entre convocatorias.",
+    "cita": "Mantendremos programas estatales estables para la recarga de vehículos eléctricos, sin vacíos entre convocatorias.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Simplificar trámites estatales para instalar puntos de recarga en comunidades de propietarios, aparcamientos y empresas.",
+    "cita": "Simplificaremos los aspectos estatales que dificultan instalar puntos en comunidades de propietarios, aparcamientos, empresas y estaciones de servicio.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Que los aeropuertos reserven potencia y espacio para la recarga rápida de coches, taxis y flotas.",
+    "cita": "Los aeropuertos deberán reservar potencia y espacio para la recarga rápida de vehículos particulares, taxis, vehículos de alquiler y flotas de servicio.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reclamar ayudas reforzadas para taxis eléctricos.",
+    "cita": "Reclamaremos ayudas reforzadas para los taxis eléctricos, por su uso intensivo y su capacidad para reducir emisiones locales.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Adaptar los programas estatales para acelerar la electrificación de las flotas de alquiler.",
+    "cita": "Adaptaremos también los programas estatales para acelerar la electrificación de las flotas de alquiler, una parte importante de la movilidad turística en Canarias.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Incorporar los puertos canarios a corredores marítimos verdes entre Europa, África y América.",
+    "cita": "Incorporaremos los puertos canarios a corredores marítimos verdes entre Europa, África y América.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Impulsar financiación y normas para que los barcos se conecten a la electricidad en puerto y apaguen motores auxiliares.",
+    "cita": "Impulsaremos financiación estatal y europea y un marco normativo que permita a los barcos conectarse a la electricidad en puerto y apagar sus motores auxiliares.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer renovables, almacenamiento y redes inteligentes en los recintos portuarios.",
+    "cita": "Favoreceremos las energías renovables, el almacenamiento y las redes inteligentes en los recintos portuarios y las actividades logísticas.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reclamar apoyo para producir y suministrar metanol renovable, hidrógeno y otros combustibles sostenibles para la navegación.",
+    "cita": "Reclamaremos apoyo estatal y europeo para infraestructuras de producción, almacenamiento y suministro de metanol renovable, hidrógeno y otros combustibles sostenibles para la navegación.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Impulsar incentivos para producir en Canarias combustibles sostenibles de aviación (SAF) para sus aeropuertos.",
+    "cita": "Impulsaremos incentivos estatales para producir en las islas combustibles sostenibles de aviación, conocidos como SAF, y abastecer progresivamente nuestros aeropuertos.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Exigir que España defienda ante la UE adaptar las políticas climáticas de aviación y navegación a la dependencia canaria.",
+    "cita": "Exigiremos que España defienda ante la Unión Europea las adaptaciones necesarias de las políticas climáticas de aviación y navegación para reconocer nuestra dependencia del avión y del barco.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reclamar un programa estatal plurianual de saneamiento y depuración para eliminar vertidos sin tratamiento suficiente.",
+    "cita": "Reclamaremos un programa estatal plurianual que permita acelerar las obras prioritarias y corregir los déficits históricos. La prioridad será eliminar vertidos sin tratamiento suficiente y adecuar los emisarios y las instalaciones de depuración.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Que los convenios de obras hidráulicas financien la regeneración del agua en las nuevas depuradoras.",
+    "cita": "Reclamaremos que los convenios estatales de obras hidráulicas financien la regeneración del agua en las nuevas depuradoras y en sus grandes reformas cuando exista demanda potencial.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Impulsar inversiones para usar agua depurada en la agricultura y en zonas verdes.",
+    "cita": "Impulsaremos inversiones para emplearla en la agricultura y en zonas verdes, siempre que esos usos sean compatibles, reservando los recursos hídricos de mayor valor para los usos que los requieran.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Defender inversiones y normas estatales adaptadas a las islas para garantizar el abastecimiento de agua.",
+    "cita": "Defenderemos inversiones y normas estatales adaptadas a las islas para garantizar el abastecimiento a los hogares y al sector agrícola.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reclamar compensaciones por el sobrecoste del agua desalada y financiación para renovables en desaladoras y depuradoras.",
+    "cita": "Reclamaremos compensaciones actualizadas por el sobrecoste del agua desalada, regenerada y reutilizada, además de financiación para mejorar la eficiencia e incorporar renovables y almacenamiento en desaladoras, depuradoras, bombeos y redes.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Crear y financiar el Centro Nacional de Vulcanología con sede principal en La Palma.",
+    "cita": "Defenderemos la creación y financiación estable del Centro Nacional de Vulcanología con sede principal en La Palma y en colaboración con el ecosistema científico de Tenerife.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reclamar que el Estado aporte el 50 % del mantenimiento del Centro Nacional de Vulcanología.",
+    "cita": "Reclamaremos la aportación estatal del 50 % del coste de su mantenimiento prevista en la propuesta de Decreto Canarias.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Impulsar un fondo estatal para arbolado, sombra, refugios climáticos y drenaje urbano sostenible.",
+    "cita": "Impulsaremos un fondo estatal para arbolado, corredores verdes, sombra, refugios climáticos, pavimentos permeables y sistemas de drenaje urbano sostenible que ayuden a absorber la lluvia.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Reclamar financiación estatal para dotar a los centros educativos de sombra, patios verdes, aislamiento y climatización.",
+    "cita": "Reclamaremos financiación estatal para dotar a los centros educativos de sombra, patios verdes, aislamiento, ventilación y climatización eficiente.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Adaptar al calor hospitales, centros de salud, residencias y centros de día.",
+    "cita": "La adaptación de hospitales y centros de salud deberá proteger la continuidad asistencial y mantener la eficiencia energética. Priorizaremos también residencias y centros de día",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reclamar financiación para diagnósticos de vulnerabilidad al calor de los equipamientos públicos.",
+    "cita": "Reclamaremos al Estado financiación para diagnósticos de vulnerabilidad al calor que permitan identificar los equipamientos públicos más expuestos y ordenar las inversiones.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Diseñar las nuevas infraestructuras con financiación estatal considerando escenarios climáticos futuros.",
+    "cita": "Las nuevas infraestructuras con financiación estatal significativa deberán diseñarse considerando escenarios climáticos futuros, además de los datos históricos.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Exigir una contribución estatal específica para cumplir en Canarias los objetivos europeos de restauración de la naturaleza.",
+    "cita": "Exigiremos una contribución específica del Estado para cumplir en Canarias los objetivos europeos de restauración de la naturaleza.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Reclamar financiación para restaurar dunas, playas, humedales y barrancos frente a la erosión y las inundaciones.",
+    "cita": "Reclamaremos financiación estatal y europea para restaurar dunas, playas, humedales, barrancos y desembocaduras.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Energía y clima",
+    "resumen": "Priorizar soluciones basadas en la naturaleza para preparar el litoral ante el cambio climático.",
+    "cita": "Priorizaremos las soluciones basadas en la naturaleza para reducir los efectos de la erosión y de las inundaciones y preparar el litoral ante el cambio climático.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Seguridad y justicia",
+    "resumen": "Que Canarias pueda pedir la activación temprana de la UME en incendios de nivel 1 con criterios objetivos de riesgo.",
+    "cita": "Impulsaremos cambios en el marco estatal para que Canarias pueda solicitar la activación temprana de la Unidad Militar de Emergencias en incendios de nivel 1 cuando se cumplan criterios objetivos de riesgo.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Seguridad y justicia",
+    "resumen": "Acordar protocolos para desplazar preventivamente medios estatales ante episodios meteorológicos extremos.",
+    "cita": "Acordaremos protocolos para desplazar preventivamente medios estatales ante episodios meteorológicos extremos cuando la insularidad pueda retrasar su llegada.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Que la conectividad, los servicios y las inversiones del Estado atiendan la doble insularidad y los municipios rurales.",
+    "cita": "Defenderemos que la conectividad, los servicios y las inversiones del Estado atiendan de forma específica la doble insularidad y las necesidades de los municipios rurales.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Exigir el Plan Específico de Telecomunicaciones de Canarias previsto en el Estatuto.",
+    "cita": "Exigiremos el Plan Específico de Telecomunicaciones de Canarias previsto en el Estatuto, dentro de la agenda digital estatal",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Proteger la bonificación del 75 % en el transporte aéreo y marítimo de residentes.",
+    "cita": "Protegeremos la bonificación del 75 % en el transporte aéreo y marítimo de residentes.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Reforzar la supervisión para detectar subidas artificiales de tarifas que absorban el descuento y combatir precios abusivos.",
+    "cita": "Reforzaremos la supervisión y la transparencia para detectar subidas artificiales de tarifas que absorban la ayuda y para combatir los precios abusivos.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Reclamar al Estado la revisión de las obligaciones de servicio público que garantizan un servicio mínimo en rutas necesarias.",
+    "cita": "Reclamaremos al Estado la revisión de las obligaciones de servicio público, que permiten exigir un servicio mínimo en las rutas necesarias.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Defender conexiones directas entre La Palma, La Gomera y El Hierro previstas en el Decreto Canarias.",
+    "cita": "Defenderemos las conexiones directas entre La Palma, La Gomera y El Hierro previstas en la propuesta de Decreto Canarias, de acuerdo con las necesidades de movilidad de su población.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Desarrollar la quinta libertad aérea prevista en el REF para conexiones directas con terceros países.",
+    "cita": "Impulsaremos el desarrollo efectivo de la quinta libertad aérea prevista en el REF para facilitar nuevas conexiones directas entre Canarias y terceros países.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Exigir financiación estatal estable para mantener la gratuidad de guaguas y tranvías para los beneficiarios.",
+    "cita": "Exigiremos financiación estatal estable que permita mantener la gratuidad del transporte público terrestre para los usuarios beneficiarios y cubra el coste efectivo de la bonificación.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Reclamar la aportación estatal al déficit del transporte público prevista en el Decreto Canarias.",
+    "cita": "Reclamaremos además la aportación estatal al déficit del sistema prevista en la propuesta de Decreto Canarias.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Financiación estatal del 50 % del transporte público por carretera en Lanzarote y Fuerteventura.",
+    "cita": "Para Lanzarote y Fuerteventura, defenderemos la financiación estatal del 50 % de los proyectos, infraestructuras y equipamientos de transporte público por carretera prevista en esa propuesta.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Reclamar un convenio estatal de diez años para el Tren de Gran Canaria y trato equivalente para los de Tenerife.",
+    "cita": "Reclamaremos un convenio estatal de diez años con financiación suficiente para ejecutar el Tren de Gran Canaria y un tratamiento equivalente para los proyectos ferroviarios de Tenerife.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Economía y empresas",
+    "resumen": "Actualizar las compensaciones al transporte de mercancías para cubrir el 100 % del coste real, hasta la isla de destino.",
+    "cita": "Exigiremos la actualización de las compensaciones estatales para cubrir el 100 % del coste real y efectivo subvencionable, incluyendo el transporte hasta la isla de destino final.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir financiación sostenida para la recuperación de La Palma y seguimiento de las inversiones.",
+    "cita": "Exigiremos financiación sostenida para la recuperación de La Palma y un seguimiento efectivo de las inversiones.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar la continuidad del plan especial de empleo de La Palma y el reintegro de lo adelantado por Canarias.",
+    "cita": "Reclamaremos la continuidad del plan especial de empleo y el reintegro de las aportaciones adelantadas por Canarias para la reconstrucción.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Defender contratación de emergencia para reconstruir La Palma cuando la seguridad lo permita.",
+    "cita": "Defenderemos procedimientos de contratación de emergencia para reconstruir cuando las condiciones de seguridad permitan intervenir.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Exigir que el Estado y la UE asuman los costes extraordinarios del salvamento y la acogida en la frontera atlántica.",
+    "cita": "Exigiremos que el Estado y la Unión Europea asuman los costes extraordinarios del salvamento, la acogida y la atención humanitaria en la frontera atlántica.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Que la solidaridad territorial en migración funcione con indicadores, plazos y financiación conocidos.",
+    "cita": "Exigiremos que los mecanismos estatales de solidaridad territorial funcionen con indicadores de capacidad, plazos y financiación conocidos.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Activar traslados automáticos a otras comunidades cuando un territorio de primera acogida supere los umbrales, con ajustes legales.",
+    "cita": "Cuando un territorio de primera acogida supere los umbrales previstos, deberán activarse los traslados y la participación de otras comunidades autónomas sin depender de negociaciones caso a caso.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Exigir financiación estatal suficiente y previsible para atender a los menores extranjeros no acompañados en Canarias.",
+    "cita": "Exigiremos al Estado financiación suficiente y previsible para atender a los menores extranjeros no acompañados acogidos en Canarias y para sostener los recursos de protección.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Que el interés superior del menor guíe los traslados y la continuidad educativa y sanitaria.",
+    "cita": "Su interés superior deberá guiar los traslados, las condiciones de atención y la continuidad educativa y sanitaria.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Reforzar la cooperación con Mauritania, Senegal, Marruecos, Cabo Verde y otros países de origen y tránsito.",
+    "cita": "Reforzaremos la cooperación estable con Mauritania, Senegal, Marruecos, Cabo Verde y otros países de origen y tránsito en materia de desarrollo, seguridad, formación y movilidad ordenada.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Incluir la lucha contra las redes que se lucran con la migración.",
+    "cita": "La respuesta incluirá la lucha contra las redes que se lucran a costa de las personas.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Que Canarias participe en el diseño y aplicación de las políticas migratorias españolas y europeas.",
+    "cita": "Canarias deberá participar en el diseño y la aplicación de las políticas migratorias españolas y europeas que la afectan.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Defender financiación para integración, convivencia intercultural y prevención de conflictos en territorios de primera acogida.",
+    "cita": "Defenderemos financiación estatal y europea para programas de integración, convivencia intercultural y prevención de conflictos en los territorios de primera acogida.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Inmigración",
+    "resumen": "Combatir los discursos racistas y el uso del miedo para dividir a la sociedad.",
+    "cita": "Combatiremos los discursos racistas y el uso del miedo para dividir a la sociedad canaria.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Reclamar recursos estatales para la atención social y sanitaria de los canarios del exterior.",
+    "cita": "Reclamaremos cooperación y recursos del Estado para la atención social y sanitaria de los canarios del exterior, con especial atención a las personas mayores y a las familias en situación de necesidad.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Apoyar el retorno de los canarios del exterior y reforzar los vínculos culturales con las nuevas generaciones.",
+    "cita": "Impulsaremos el apoyo a quienes quieran retornar y reforzaremos los vínculos culturales con las nuevas generaciones, especialmente en países con una presencia histórica de emigración canaria.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Mantener ayudas estatales para los desplazamientos de artistas y compañías canarias.",
+    "cita": "Mantendremos ayudas estatales específicas para los desplazamientos de artistas y compañías canarias a circuitos estatales e internacionales.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Reforzar la presencia de la creación canaria en programas estatales y su proyección exterior.",
+    "cita": "Reforzaremos la presencia de nuestra creación en los programas estatales y su proyección hacia Europa, América y África.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Eliminar obstáculos administrativos y fiscales a la circulación de las obras de artistas canarios.",
+    "cita": "Reclamaremos que se eliminen los obstáculos administrativos y fiscales que dificultan la circulación y exposición de las obras de artistas canarios.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Reclamar financiación estatal para los desplazamientos de deportistas y clubes canarios a competiciones oficiales.",
+    "cita": "Reclamaremos financiación estatal suficiente para los desplazamientos de deportistas y clubes canarios a las competiciones oficiales.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Exigir que España defienda los fondos específicos de las regiones ultraperiféricas en el próximo marco financiero de la UE.",
+    "cita": "Exigiremos que España defienda en el próximo marco financiero plurianual de la Unión Europea los instrumentos y las dotaciones específicas para las regiones ultraperiféricas (RUP).",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Fortalecer alianzas con las regiones ultraperiféricas y la cooperación con Francia y Portugal.",
+    "cita": "Fortaleceremos las alianzas con esas regiones y la cooperación de España con Francia y Portugal para conseguir políticas y recursos ajustados a nuestras realidades.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reclamar evaluaciones y adaptaciones del artículo 349 cuando normas europeas causen impactos desproporcionados en Canarias.",
+    "cita": "Reclamaremos evaluaciones específicas y las adaptaciones previstas para las regiones ultraperiféricas cuando las normas europeas sobre transporte, energía, emisiones, agricultura, residuos o industria causen impactos desproporcionados.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Defender la continuidad y el fortalecimiento de INTERREG con Madeira, Azores y África occidental.",
+    "cita": "Defenderemos la continuidad y el fortalecimiento de INTERREG, los programas de cooperación territorial que conectan Canarias con Madeira, las Azores y África occidental.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Educación",
+    "resumen": "Exigir reglas que faciliten la participación canaria en Horizon y otros programas europeos de investigación.",
+    "cita": "Exigiremos que España defienda reglas y recursos que faciliten la participación de universidades, centros de investigación y empresas canarias en Horizon y en los programas europeos de investigación e innovación.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Promover el reconocimiento estratégico europeo de la Macaronesia en energía, océanos, conectividad y ciencia.",
+    "cita": "Promoveremos el reconocimiento estratégico europeo de la Macaronesia, con Canarias, Madeira y las Azores, en los ámbitos de la energía, los océanos, la biodiversidad, la protección civil, la conectividad y la ciencia.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reforzar el papel de Canarias en la cooperación con África occidental y en la diplomacia científica.",
+    "cita": "Reforzaremos el papel de Canarias en la cooperación económica, científica, educativa y tecnológica con África occidental y en la diplomacia científica.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Impulsar nuevos cables submarinos que refuercen la seguridad de las telecomunicaciones con Europa, África y América.",
+    "cita": "Impulsaremos nuevos cables submarinos y conexiones alternativas que refuercen la seguridad a de las telecomunicaciones con Europa, África y América.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reclamar la participación de las instituciones canarias en los asuntos exteriores con impacto directo en el archipiélago.",
+    "cita": "Reclamaremos la participación de las instituciones canarias en los asuntos exteriores con impacto directo sobre el archipiélago.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Que Canarias esté presente en las negociaciones con Marruecos sobre espacios marítimos, recursos y migración.",
+    "cita": "En las relaciones con Marruecos, Canarias deberá estar presente en la formación de la posición española y en las negociaciones sobre delimitación de espacios marítimos, recursos naturales y migración.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Defender una solución al conflicto del Sáhara Occidental conforme a las resoluciones de Naciones Unidas.",
+    "cita": "Defenderemos ante el Estado y la UE una solución al conflicto del Sáhara Occidental conforme a las resoluciones de Naciones Unidas.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Defensa y política exterior",
+    "resumen": "Defender el derecho del pueblo saharaui a decidir su futuro y la protección de sus derechos y recursos.",
+    "cita": "Asimismo, defenderemos el derecho del pueblo saharaui a decidir su futuro y la protección de sus derechos humanos y de sus recursos naturales.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Incorporar las propuestas de municipios y cabildos a su acción en las Cortes Generales.",
+    "cita": "Incorporaremos sus propuestas a la acción común en las Cortes Generales.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Defender recursos suficientes y competencias claras para municipios y cabildos.",
+    "cita": "Defenderemos recursos suficientes y competencias claras para que puedan responder a las necesidades de su población.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar estabilidad en la participación local en los tributos del Estado y el Fondo de Compensación Interterritorial.",
+    "cita": "Reclamaremos estabilidad en su participación en los tributos del Estado y en los recursos del Fondo de Compensación Interterritorial que correspondan a Canarias.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Permitir a Gobierno canario, cabildos y ayuntamientos usar sus remanentes de tesorería en vivienda, sanidad, educación y bienestar social.",
+    "cita": "Defenderemos las reformas y los acuerdos estatales que permitan al Gobierno de Canarias, a los cabildos y a los ayuntamientos emplear sus remanentes de tesorería en vivienda, sanidad, educación y bienestar social.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar flexibilidad fiscal para las instituciones implicadas en la reconstrucción de La Palma.",
+    "cita": "Reclamaremos la flexibilidad fiscal necesaria para las instituciones implicadas en la reconstrucción de La Palma, con transparencia, control y garantías de sostenibilidad financiera.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Que el Instituto Canario de Estadística acceda a información tributaria para evaluar el REF.",
+    "cita": "Impulsaremos los cambios estatales necesarios para que el Instituto Canario de Estadística pueda acceder a la información tributaria que permita evaluar el REF y las políticas de ultraperiferia.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Defender el cumplimiento íntegro de la Agenda Canaria y las medidas de la propuesta de Decreto Canarias.",
+    "cita": "Defenderemos en las Cortes Generales el cumplimiento íntegro de la Agenda Canaria y las medidas de la propuesta de Decreto Canarias trasladada por el Gobierno de Canarias al Estado.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar aprobar lo pendiente y ejecutar lo acordado con Canarias, con financiación y continuidad presupuestaria.",
+    "cita": "Reclamaremos la aprobación de lo que siga pendiente y la ejecución de lo ya acordado, con financiación suficiente y continuidad en los próximos presupuestos.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Modelo territorial",
+    "resumen": "Que cada compromiso con Canarias cuente con financiación, plazos y responsables.",
+    "cita": "Cada compromiso deberá contar con financiación, plazos y responsables.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Impulsar un informe público anual sobre las obligaciones estatales con Canarias: presupuestado, transferido y ejecutado.",
+    "cita": "Impulsaremos un informe público anual sobre las obligaciones estatales con Canarias, que distinga las cantidades presupuestadas, transferidas y efectivamente ejecutadas.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "CCa",
+    "tema": "Otros",
+    "resumen": "Rendir cuentas de leyes modificadas, financiación obtenida, convenios firmados y competencias transferidas.",
+    "cita": "Explicaremos qué leyes se han modificado, qué financiación se ha obtenido, qué convenios se han firmado y qué competencias se han transferido.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
   }
 ]

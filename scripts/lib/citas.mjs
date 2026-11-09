@@ -18,12 +18,14 @@ export function crearVerificador(paginas) {
   // cortaría las citas que siguen en la página siguiente
   const sinPie = (t) => t.replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '').replace(/\s+\d{1,3}\s*$/, '');
   // Cabeceras y pies repetidos («M+J Programa electoral · …», «↑ Volver al índice») también cortarían
-  // las citas: se quitan las líneas que aparecen en al menos un tercio de las páginas (y en 5 o más)
+  // las citas: se quitan las líneas que aparecen en al menos un tercio de las páginas (y en 5 o más).
+  // Se respetan las que no tienen una palabra (viñetas «•»), pero no las cortas («DEFIENDE» / «CANARIAS»)
   const veces = new Map();
   for (const p of paginas) for (const l of new Set(p.texto.split('\n').map((x) => x.trim()).filter(Boolean))) veces.set(l, (veces.get(l) ?? 0) + 1);
   const minimo = Math.max(5, paginas.length / 3);
-  const sinRepetidas = (t) => t.split('\n').filter((l) => l.trim().length < 12 || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
-  const textoPagina = new Map(paginas.map((p) => [p.pagina, normalizar(sinPie(sinRepetidas(p.texto)))]));
+  const sinRepetidas = (t) => t.split('\n').filter((l) => !/\p{L}{3}/u.test(l) || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
+  const limpio = new Map(paginas.map((p) => [p.pagina, sinPie(sinRepetidas(p.texto))]));
+  const textoPagina = new Map([...limpio].map(([n, t]) => [n, normalizar(t)]));
   // En una fila de tabla («Qué · Meta · Plazo») las celdas salen sueltas en el texto del PDF:
   // cada celda tiene que estar en la página, entera o en hasta tres trozos (celdas de varias líneas)
   // con palabras completas: «30» no vale por estar dentro de «2030»
@@ -44,7 +46,8 @@ export function crearVerificador(paginas) {
     const buscada = normalizar(cita);
     const aqui = textoPagina.get(pagina) ?? '';
     if (tabla) return buscada.length > 0 && buscada.split(' · ').every((celda) => celda.length > 0 && enTrozos(celda, aqui));
-    const conSiguiente = `${aqui} ${textoPagina.get(pagina + 1) ?? ''}`;
+    // Se unen antes de normalizar para que una palabra partida entre páginas («consen-» / «so») se junte
+    const conSiguiente = normalizar(`${limpio.get(pagina) ?? ''}\n${limpio.get(pagina + 1) ?? ''}`);
     return buscada.length > 0 && (aqui.includes(buscada) || conSiguiente.includes(buscada));
   };
 }

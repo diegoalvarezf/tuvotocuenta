@@ -38,6 +38,13 @@ test('acepta una cita que cruza una cabecera y un pie repetidos en todas las pá
   assert.ok(pdf({ cita: 'Ampliar el parque social hasta el 5% en 2030.', pagina: 3 }));
 });
 
+test('acepta una cita que cruza una cabecera de palabras cortas y una palabra partida entre páginas', () => {
+  const pdf = crearVerificador(
+    [1, 2, 3, 4, 5, 6].map((n) => ({ pagina: n, texto: `DEFIENDE\nCANARIAS\n\n${n === 3 ? 'Buscaremos el consen-' : n === 4 ? 'so entre islas.' : 'Texto.'}` })),
+  );
+  assert.ok(pdf({ cita: 'Buscaremos el consenso entre islas.', pagina: 3 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });
