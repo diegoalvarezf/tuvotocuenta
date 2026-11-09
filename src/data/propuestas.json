@@ -13389,7 +13389,7 @@
     "partido": "CCa",
     "tema": "Otros",
     "resumen": "Mantener el contacto de sus representantes con pueblos y barrios durante la legislatura y rendir cuentas de los resultados.",
-    "cita": "Nuestra representación en las Cortes Generales mantendrá el contacto con los pueblos y los barrios durante toda la legislatura.",
+    "cita": "Nuestra representación en las Cortes Generales mantendrá el contacto con los pueblos y los barrios durante toda la legislatura. Escuchar en cada isla, explicar lo que se negocia y volver para rendir cuentas de los resultados forma parte de ese trabajo.",
     "pagina": 3,
     "concreta": false,
     "revisada": false
@@ -13460,8 +13460,8 @@
   {
     "partido": "CCa",
     "tema": "Modelo territorial",
-    "resumen": "Defender la integridad del Régimen Económico y Fiscal y que su actualización llegue al conjunto de las islas.",
-    "cita": "Defenderemos la integridad del Régimen Económico y Fiscal, nuestro fuero histórico y un instrumento esencial para compensar desventajas permanentes.",
+    "resumen": "Defender la integridad del REF, que considera su fuero histórico, y que su actualización beneficie al conjunto de las islas.",
+    "cita": "Defenderemos la integridad del Régimen Económico y Fiscal, nuestro fuero histórico y un instrumento esencial para compensar desventajas permanentes. Su actualización deberá responder a las necesidades de la sociedad canaria y hacer que sus beneficios lleguen al conjunto de las islas.",
     "pagina": 8,
     "concreta": false,
     "revisada": false
@@ -13488,7 +13488,7 @@
     "partido": "CCa",
     "tema": "Modelo territorial",
     "resumen": "Exigir una financiación autonómica que reconozca el coste real de prestar servicios en un archipiélago, con población efectiva y envejecimiento.",
-    "cita": "Exigiremos un sistema de financiación autonómica suficiente y estable que reconozca el coste real de prestar servicios en un archipiélago alejado. Deberá tener en cuenta la población efectiva y su evolución, la fragmentación territorial, la pobreza y el envejecimiento",
+    "cita": "Exigiremos un sistema de financiación autonómica suficiente y estable que reconozca el coste real de prestar servicios en un archipiélago alejado. Deberá tener en cuenta la población efectiva y su evolución, la fragmentación territorial, la pobreza y el envejecimiento, para planificar de forma estable los centros, las plantillas y las prestaciones.",
     "pagina": 8,
     "concreta": false,
     "revisada": false
@@ -13497,7 +13497,7 @@
     "partido": "CCa",
     "tema": "Modelo territorial",
     "resumen": "Reclamar el cumplimiento de los convenios de carreteras, vivienda, agua, costas e infraestructuras educativas y turísticas.",
-    "cita": "Reclamaremos el cumplimiento de los convenios de carreteras, vivienda, agua, costas e infraestructuras educativas y turísticas. Cada obligación deberá contar con financiación y plazos verificables",
+    "cita": "Reclamaremos el cumplimiento de los convenios de carreteras, vivienda, agua, costas e infraestructuras educativas y turísticas. Cada obligación deberá contar con financiación y plazos verificables, de modo que las cantidades anunciadas se conviertan en obras y servicios para las islas.",
     "pagina": 8,
     "concreta": false,
     "revisada": false
@@ -13612,7 +13612,7 @@
   },
   {
     "partido": "CCa",
-    "tema": "Sanidad",
+    "tema": "Igualdad y familia",
     "resumen": "Exigir una aportación estatal suficiente, estable y acorde con las obligaciones del sistema de dependencia.",
     "cita": "Exigiremos una aportación estatal suficiente, estable y acorde con las obligaciones del sistema de dependencia.",
     "pagina": 9,
@@ -13621,7 +13621,7 @@
   },
   {
     "partido": "CCa",
-    "tema": "Sanidad",
+    "tema": "Igualdad y familia",
     "resumen": "Impulsar una estrategia de envejecimiento y cuidados de larga duración con formación, innovación y accesibilidad.",
     "cita": "Impulsaremos una estrategia de envejecimiento y cuidados de larga duración que incluya formación de profesionales, innovación, accesibilidad y adaptación de los servicios al cambio climático.",
     "pagina": 9,
@@ -13666,11 +13666,11 @@
   },
   {
     "partido": "CCa",
-    "tema": "Igualdad y familia",
+    "tema": "Modelo territorial",
     "resumen": "Reclamar que Canarias tramite el ingreso mínimo vital, con participación de cabildos y ayuntamientos.",
     "cita": "Reclamaremos al Estado un sistema de cooperación que permita a Canarias tramitar las solicitudes y el reconocimiento del ingreso mínimo vital, con participación de cabildos y ayuntamientos.",
     "pagina": 10,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -13688,7 +13688,7 @@
     "resumen": "Reclamar financiación estatal para aplicar el Pacto de Estado contra la violencia de género en todas las islas.",
     "cita": "Reclamaremos financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas, reforzar la prevención y proteger a las víctimas y a sus hijos e hijas.",
     "pagina": 10,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -13712,7 +13712,7 @@
   {
     "partido": "CCa",
     "tema": "Pensiones",
-    "resumen": "Que los complementos canarios sean compatibles con las pensiones no contributivas, exentos de tributación y no las reduzcan.",
+    "resumen": "Reclamar que los complementos de renta canarios sean compatibles con las pensiones no contributivas, estén exentos de tributación y no las reduzcan.",
     "cita": "Reclamaremos al Estado que los complementos de renta que establezca Canarias sean compatibles con las pensiones no contributivas, estén exentos de tributación y no computen para reducir o retirar la prestación.",
     "pagina": 10,
     "concreta": true,
@@ -13856,7 +13856,7 @@
   {
     "partido": "CCa",
     "tema": "Vivienda",
-    "resumen": "Diferenciar en la normativa el uso ocasional de una vivienda de su explotación turística profesional.",
+    "resumen": "Que la normativa diferencie el uso ocasional de una vivienda de su explotación turística profesional o intensiva.",
     "cita": "La normativa diferenciará el uso ocasional de una vivienda de la explotación profesional o intensiva.",
     "pagina": 11,
     "concreta": false,
@@ -13873,7 +13873,7 @@
   },
   {
     "partido": "CCa",
-    "tema": "Impuestos",
+    "tema": "Vivienda",
     "resumen": "Reclamar incentivos fiscales a la primera vivienda para jóvenes y familias con ingresos medios y bajos.",
     "cita": "Reclamaremos incentivos fiscales estatales a la primera vivienda para jóvenes y familias con ingresos medios y bajos",
     "pagina": 11,
@@ -13883,7 +13883,7 @@
   {
     "partido": "CCa",
     "tema": "Vivienda",
-    "resumen": "Apoyar la construcción industrializada para reducir costes y plazos de la vivienda protegida.",
+    "resumen": "Reclamar apoyo a la construcción industrializada para reducir costes y plazos de la vivienda protegida.",
     "cita": "apoyo a la construcción industrializada para reducir los costes y los plazos de construcción de vivienda protegida.",
     "pagina": 11,
     "concreta": false,
@@ -13910,7 +13910,7 @@
   {
     "partido": "CCa",
     "tema": "Empleo y salarios",
-    "resumen": "Defender la financiación del Plan Integral de Empleo de Canarias y los programas del REF mientras el paro supere la media.",
+    "resumen": "Defender la financiación del Plan Integral de Empleo de Canarias y los programas del REF mientras su empleo siga por debajo de la media.",
     "cita": "Defenderemos la financiación del Plan Integral de Empleo de Canarias y de los programas específicos previstos en el REF mientras la situación del empleo en Canarias siga en clara desventaja respecto a la media estatal.",
     "pagina": 12,
     "concreta": true,
@@ -14027,7 +14027,7 @@
   {
     "partido": "CCa",
     "tema": "Impuestos",
-    "resumen": "Mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro.",
+    "resumen": "Defender, con el Decreto Canarias, mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro.",
     "cita": "Defenderemos las medidas de la propuesta de Decreto Canarias para mantener la deducción del 60 % en el IRPF aplicable en La Palma y extenderla a La Gomera y El Hierro.",
     "pagina": 13,
     "concreta": true,
@@ -14117,7 +14117,7 @@
   {
     "partido": "CCa",
     "tema": "Economía y empresas",
-    "resumen": "Reclamar reglas para la flota artesanal canaria, más cuota de atún rojo y patudo y acceso a fondos europeos.",
+    "resumen": "Reclamar reglas para la flota artesanal canaria, posibilidades de pesca suficientes, sobre todo de atún rojo y patudo, y fondos europeos.",
     "cita": "Reclamaremos reglas adaptadas a la flota artesanal canaria, posibilidades de pesca suficientes, especialmente de atún rojo y patudo, y acceso efectivo a los fondos europeos.",
     "pagina": 13,
     "concreta": false,
@@ -14255,7 +14255,7 @@
     "resumen": "Reclamar el traspaso y la ampliación de competencias de gestión del litoral previstas en el Estatuto y el Decreto Canarias.",
     "cita": "Reclamaremos al Estado el desarrollo y la ampliación de los traspasos de competencias ejecutivas y de gestión sobre el litoral previstos en el Estatuto y en la propuesta de Decreto Canarias, con medios suficientes.",
     "pagina": 15,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -14531,8 +14531,8 @@
   {
     "partido": "CCa",
     "tema": "Energía y clima",
-    "resumen": "Adaptar al calor hospitales, centros de salud, residencias y centros de día.",
-    "cita": "La adaptación de hospitales y centros de salud deberá proteger la continuidad asistencial y mantener la eficiencia energética. Priorizaremos también residencias y centros de día",
+    "resumen": "Adaptar al calor hospitales y centros de salud y priorizar residencias y centros de día de mayores, dependientes y discapacitados.",
+    "cita": "La adaptación de hospitales y centros de salud deberá proteger la continuidad asistencial y mantener la eficiencia energética. Priorizaremos también residencias y centros de día que atienden a personas mayores, personas en situación de dependencia y personas con discapacidad.",
     "pagina": 17,
     "concreta": false,
     "revisada": false
@@ -14660,7 +14660,7 @@
     "resumen": "Desarrollar la quinta libertad aérea prevista en el REF para conexiones directas con terceros países.",
     "cita": "Impulsaremos el desarrollo efectivo de la quinta libertad aérea prevista en el REF para facilitar nuevas conexiones directas entre Canarias y terceros países.",
     "pagina": 18,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -14684,7 +14684,7 @@
   {
     "partido": "CCa",
     "tema": "Otros",
-    "resumen": "Financiación estatal del 50 % del transporte público por carretera en Lanzarote y Fuerteventura.",
+    "resumen": "Defender la financiación estatal del 50 % de proyectos e infraestructuras de transporte público por carretera en Lanzarote y Fuerteventura.",
     "cita": "Para Lanzarote y Fuerteventura, defenderemos la financiación estatal del 50 % de los proyectos, infraestructuras y equipamientos de transporte público por carretera prevista en esa propuesta.",
     "pagina": 18,
     "concreta": true,
@@ -14757,7 +14757,7 @@
     "partido": "CCa",
     "tema": "Inmigración",
     "resumen": "Activar traslados automáticos a otras comunidades cuando un territorio de primera acogida supere los umbrales, con ajustes legales.",
-    "cita": "Cuando un territorio de primera acogida supere los umbrales previstos, deberán activarse los traslados y la participación de otras comunidades autónomas sin depender de negociaciones caso a caso.",
+    "cita": "Cuando un territorio de primera acogida supere los umbrales previstos, deberán activarse los traslados y la participación de otras comunidades autónomas sin depender de negociaciones caso a caso. Impulsaremos los ajustes legales necesarios para que esa respuesta sea efectiva.",
     "pagina": 19,
     "concreta": true,
     "revisada": false
