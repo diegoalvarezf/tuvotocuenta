@@ -17,3 +17,4 @@ Errores reales. Cada uno, una regla.
 - **Cabeceras de palabras cortas y palabras partidas entre páginas.** En CCa, «DEFIENDE / CANARIAS» no se quitaba por ser corta y «consen-» / «so» no se unía, y se caían 5 citas. Ahora el verificador quita las líneas repetidas que tienen una palabra y une las páginas antes de normalizar. (9-11-2026)
 - **Una frase, una cita.** En CCa una frase se partió en dos propuestas y la segunda empezaba en minúscula («apoyo a la…»). Si una frase tiene dos medidas, se cita entera y se resume junta. (9-11-2026)
 - **Comprobar los tests antes de subir.** Un `npm test | grep … && git commit` hizo commit con un test fallando, porque grep acertaba con «fail 1». Mirar que diga «fail 0». (9-11-2026)
+- **Guion de palabra compuesta a final de línea.** En el PH «público-» / «privada» se unía como «públicoprivada» y la cita literal no pasaba. Ahora el verificador acepta las dos formas; no se cambia la cita. (10-11-2026)
