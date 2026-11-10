@@ -15107,7 +15107,7 @@
   {
     "partido": "PH",
     "tema": "Impuestos",
-    "resumen": "Reforma progresiva del IRPF para rentas del capital y del trabajo superiores a 120.000 € anuales, con 55.000 M€ estimados.",
+    "resumen": "Reforma progresiva del IRPF para rentas del capital y del trabajo superiores a 120.000 €, que según el partido aportaría 55.000 M€.",
     "cita": "Una reforma progresiva del IRPF sobre las rentas del capital y del trabajo superiores a 120.000 € anuales (aportando 55.000 M€).",
     "pagina": 6,
     "concreta": true,
@@ -15116,7 +15116,7 @@
   {
     "partido": "PH",
     "tema": "Impuestos",
-    "resumen": "Impuesto a las grandes fortunas con patrimonio neto superior a 3 millones de euros, con 25.000 M€ estimados.",
+    "resumen": "Impuesto a las grandes fortunas con patrimonio neto superior a 3 millones de euros, que según el partido aportaría 25.000 M€.",
     "cita": "Un Impuesto a las Grandes Fortunas y Patrimonio Neto superior a 3 millones de euros (aportando 25.000 M€).",
     "pagina": 6,
     "concreta": true,
@@ -15125,7 +15125,7 @@
   {
     "partido": "PH",
     "tema": "Impuestos",
-    "resumen": "Tasa Tobin del 0,5 % en operaciones bursátiles de alta frecuencia, con 20.000 M€ estimados.",
+    "resumen": "Tasa Tobin del 0,5 % en operaciones bursátiles de alta frecuencia, que según el partido aportaría 20.000 M€.",
     "cita": "Una Tasa sobre Transacciones Financieras Especulativas (Tasa Tobin) del 0,5% en operaciones bursátiles de alta frecuencia (aportando 20.000 M€).",
     "pagina": 6,
     "concreta": true,
@@ -15143,7 +15143,7 @@
   {
     "partido": "PH",
     "tema": "Empleo y salarios",
-    "resumen": "Suprimir prestaciones mínimas que el partido considera redundantes y ahorrar costes administrativos, estimado en 10.000 M€.",
+    "resumen": "Suprimir prestaciones mínimas que el partido considera redundantes y ahorrar costes administrativos, por 10.000 M€ según su estimación.",
     "cita": "Ahorro de costes administrativos y supresión de partidas redundantes de prestaciones mínimas (10.000 M€).",
     "pagina": 6,
     "concreta": true,
@@ -15179,7 +15179,7 @@
   {
     "partido": "PH",
     "tema": "Economía y empresas",
-    "resumen": "Destinar esos créditos solo a primera vivienda, economía social, transición ecológica, pequeñas empresas y empresas de trabajadores.",
+    "resumen": "Destinar los créditos de la banca pública solo a primera vivienda, economía social, transición ecológica, pequeñas empresas y empresas de trabajadores.",
     "cita": "Estos créditos serán destinados exclusivamente a la adquisición de primera vivienda habitual, proyectos de economía social y cooperativa, transición ecológica, pequeñas empresas y sociedades laborales y empresas participadas por los trabajadores.",
     "pagina": 7,
     "concreta": false,
@@ -15251,8 +15251,8 @@
   {
     "partido": "PH",
     "tema": "Sanidad",
-    "resumen": "Asumir las reivindicaciones sanitarias (fin de guardias de 24 horas, jornada de 35 horas) y abrir una mesa de diálogo vinculante.",
-    "cita": "Hacemos nuestras sus reivindicaciones —desde la erradicación progresiva de las guardias de 24 horas y el reconocimiento adecuado de su cualificación profesional hasta el refuerzo inmediato de las plantillas y el respeto a la jornada de 35 horas—, y nos comprometemos a abrir una mesa de diálogo vinculante y permanente con las organizaciones y colectivos sanitarios para armonizar el marco legislativo estatal y los recursos de las comunidades autónomas, garantizando que todas estas demandas lleguen a buen término y devuelvan a la sanidad pública la dignidad que merece.",
+    "resumen": "Asumir las reivindicaciones del personal sanitario (fin progresivo de guardias de 24 horas, jornada de 35 horas) y abrir una mesa de diálogo vinculante.",
+    "cita": "Hacemos nuestras sus reivindicaciones —desde la erradicación progresiva de las guardias de 24 horas y el reconocimiento adecuado de su cualificación profesional hasta el refuerzo inmediato de las plantillas y el respeto a la jornada de 35 horas—, y nos comprometemos a abrir una mesa de diálogo vinculante y permanente con las organizaciones y colectivos sanitarios",
     "pagina": 10,
     "concreta": true,
     "revisada": false
@@ -15260,7 +15260,7 @@
   {
     "partido": "PH",
     "tema": "Sanidad",
-    "resumen": "Derogar la Ley 15/1997 y toda colaboración público-privada o concesión administrativa en la sanidad pública.",
+    "resumen": "Derogar de inmediato la Ley 15/1997 y suprimir toda colaboración público-privada o concesión administrativa en la sanidad pública.",
     "cita": "Derogación inmediata de la Ley 15/1997 y de todas las fórmulas de colaboración público-privada o concesiones administrativas en la sanidad pública.",
     "pagina": 11,
     "concreta": true,
@@ -15314,7 +15314,7 @@
   {
     "partido": "PH",
     "tema": "Sanidad",
-    "resumen": "Sustituir las residencias privadas por una red pública de centros de convivencia comunitarios de máximo 25 plazas por módulo.",
+    "resumen": "Sustituir progresivamente las residencias privadas por una red pública de centros de convivencia comunitarios de máximo 25 plazas por módulo.",
     "cita": "Sustitución progresiva del modelo masificado y lucrativo de residencias privadas por una Red Pública de Centros de Convivencia Comunitarios humanizados (máximo 25 plazas por módulo).",
     "pagina": 11,
     "concreta": true,
@@ -15404,7 +15404,7 @@
   {
     "partido": "PH",
     "tema": "Educación",
-    "resumen": "Transferir el 100 % del dinero público liberado a la red estatal para infraestructuras, materiales y personal de apoyo.",
+    "resumen": "Transferir a la red pública el 100 % del dinero liberado por los conciertos, para infraestructuras, materiales y personal de apoyo.",
     "cita": "El 100% del dinero público liberado se transferirá de forma blindada y directa a la red estatal para modernizar infraestructuras, financiar materiales y reforzar el personal de apoyo.",
     "pagina": 13,
     "concreta": true,
@@ -15512,7 +15512,7 @@
   {
     "partido": "PH",
     "tema": "Defensa y política exterior",
-    "resumen": "Cerrar las bases militares extranjeras de Rota y Morón y reconvertirlas en centros civiles.",
+    "resumen": "Cerrar y desmantelar las instalaciones militares extranjeras de Rota y Morón y reconvertirlas en centros civiles.",
     "cita": "Cierre programado y desmantelamiento de las instalaciones militares extranjeras en territorio nacional (Bases de Rota y Morón) y su reconversión pública en centros tecnológicos de investigación marina, logística humanitaria y energías renovables.",
     "pagina": 17,
     "concreta": true,
@@ -15548,7 +15548,7 @@
   {
     "partido": "PH",
     "tema": "Igualdad y familia",
-    "resumen": "Visibilizar las aportaciones de esos sectores a la sociedad.",
+    "resumen": "Visibilizar lo que aportan a la sociedad los sectores discriminados, aunque no coincida con lo que hoy ocupa un lugar central.",
     "cita": "Visibilización de los aportes que realizan al conjunto social, aunque no coincidan con los que hoy ocupan un lugar central.",
     "pagina": 17,
     "concreta": false,
@@ -15629,7 +15629,7 @@
   {
     "partido": "PH",
     "tema": "Energía y clima",
-    "resumen": "Fiscalidad progresiva para que quien más contamine financie la adaptación, el transporte colectivo electrificado y la justicia climática.",
+    "resumen": "Fiscalidad progresiva para que quien más contamine y especule financie la adaptación, el transporte colectivo electrificado y la justicia climática.",
     "cita": "Exigimos una fiscalidad progresiva donde quien más contamine y especule financie la adaptación a eventos extremos, el transporte colectivo electrificado y la justicia climática global con el Sur, garantizando que nadie quede atrás.",
     "pagina": 20,
     "concreta": false,
@@ -15686,7 +15686,7 @@
     "resumen": "Persecución penal del robo de agua y los pozos ilegales en acuíferos como Doñana, el Acuífero 23 o el Mar Menor.",
     "cita": "Persecución penal del robo de agua y pozos ilegales que agotan acuíferos clave (como Doñana, Acuífero 23 o el Mar Menor).",
     "pagina": 21,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -15710,7 +15710,7 @@
   {
     "partido": "PH",
     "tema": "Modelo territorial",
-    "resumen": "Que la Jefatura del Estado sea elegida por la ciudadanía y revocable, como cualquier otro puesto político.",
+    "resumen": "Que la Jefatura del Estado sea elegida por la ciudadanía, sujeta a las mismas leyes que el resto y revocable.",
     "cita": "Para nosotros la Jefatura del Estado como cualquier otro puesto político debe ser elegido por la gente, sujeto a las mismas leyes que los demás ciudadanos y a la posibilidad de ser revocado por el pueblo, quién detenta la verdadera soberanía según la Constitución.",
     "pagina": 25,
     "concreta": true,
@@ -15728,8 +15728,8 @@
   {
     "partido": "PH",
     "tema": "Modelo territorial",
-    "resumen": "Que el Estado y sus instituciones sean elegidos democráticamente.",
-    "cita": "Además, deben ser elegidas democráticamente.",
+    "resumen": "Que el Estado y sus instituciones, que el partido considera históricos y cambiables, sean elegidos democráticamente.",
+    "cita": "El Estado y sus diferentes instituciones, como cualquier otra construcción humana, son históricas y por tanto sujetas a variación. Además, deben ser elegidas democráticamente.",
     "pagina": 26,
     "concreta": false,
     "revisada": false
@@ -15788,6 +15788,16 @@
     "pagina": 29,
     "concreta": true,
     "tabla": true,
+    "revisada": false
+  },
+  {
+    "partido": "PH",
+    "tema": "Impuestos",
+    "resumen": "Equiparar en el IRPF la tributación del capital a la del trabajo, en una reforma que el partido estima en 55.000 M€.",
+    "cita": "Reforma del IRPF (Rentas del Trabajo > 120.000 € y Rentas del Capital) · +55.000 M€ · Tramos altos de renta y equiparación de tributación de rentas del capital al trabajo",
+    "pagina": 30,
+    "tabla": true,
+    "concreta": true,
     "revisada": false
   }
 ]
