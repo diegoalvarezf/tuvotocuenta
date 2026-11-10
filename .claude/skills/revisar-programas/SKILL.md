@@ -9,7 +9,7 @@ Lee antes `lecciones.md`, en esta carpeta: son errores reales que no se pueden r
 
 ## 1. El documento
 
-- Búscalo en la web oficial de la formación, entrando en sus secciones. Las webs de terceros solo sirven de pista.
+- Búscalo en la web oficial de la formación, entrando en sus secciones. Las webs de terceros solo sirven de pista. Cruza siempre con la prensa del día: un partido puede presentar su programa sin enlazarlo aún en su portada.
 - Léelo: portada, presentación y cómo se define a sí mismo.
 - Anota páginas (`pdfinfo`), fecha y si cita estas elecciones.
 - Cuenta como programa completo si la formación lo ofrece como su programa electoral y tiene 20 páginas o más. Si no, va en `documentos`, con `aviso` si se define de otra forma.
