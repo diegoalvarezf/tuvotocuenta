@@ -45,6 +45,11 @@ test('acepta una cita que cruza una cabecera de palabras cortas y una palabra pa
   assert.ok(pdf({ cita: 'Buscaremos el consenso entre islas.', pagina: 3 }));
 });
 
+test('acepta una palabra compuesta con guion partida a final de línea', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'Sin colaboración público-\nprivada en la sanidad.' }]);
+  assert.ok(pdf({ cita: 'Sin colaboración público-privada en la sanidad.', pagina: 1 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });

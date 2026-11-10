@@ -48,6 +48,8 @@ export function crearVerificador(paginas) {
     if (tabla) return buscada.length > 0 && buscada.split(' · ').every((celda) => celda.length > 0 && enTrozos(celda, aqui));
     // Se unen antes de normalizar para que una palabra partida entre páginas («consen-» / «so») se junte
     const conSiguiente = normalizar(`${limpio.get(pagina) ?? ''}\n${limpio.get(pagina + 1) ?? ''}`);
-    return buscada.length > 0 && (aqui.includes(buscada) || conSiguiente.includes(buscada));
+    // El guion de una palabra compuesta a final de línea («público-» / «privada») se pierde al unir los cortes
+    const sinGuion = buscada.replace(/(\p{L})-(\p{L})/gu, '$1$2');
+    return buscada.length > 0 && [buscada, sinGuion].some((b) => aqui.includes(b) || conSiguiente.includes(b));
   };
 }
