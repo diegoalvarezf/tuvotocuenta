@@ -469,7 +469,12 @@
     "circunscripciones": 1,
     "web": "https://partidohumanista.es",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral. Elecciones Generales 2026",
+      "url": "https://partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+      "fecha": "2026-11-10",
+      "paginas": 31
+    }
   },
   {
     "siglas": "PUEDE",
