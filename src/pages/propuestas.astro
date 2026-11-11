@@ -110,11 +110,12 @@ const fuenteDe = (siglas: string) => {
               {propuestas
                 .filter((p) => p.partido === partido.siglas)
                 .sort((a, b) => a.pagina - b.pagina)
-                .map((p, _, lista) => (
-                  // Llegan ya ocultas salvo las primeras del primer tema: así el móvil no dibuja miles de propuestas antes de que cargue el script
-                  <li data-tema={p.tema} data-concreta={String(p.concreta)} hidden={!inicial(p, lista)}>
+                .filter((p, _, lista) => inicial(p, lista))
+                .map((p, i) => (
+                  // Solo las que se ven al entrar; el resto llega de /datos/propuestas.json al cambiar de tema
+                  <li class:list={{ alterna: i % 2 === 1 }}>
                     <p class="resumen">{p.resumen}{!p.revisada && <span class="borrador"> · Sin revisar</span>}</p>
-                    <span class="tipo" data-concreta={String(p.concreta)}>{p.concreta ? 'Concreta' : 'Genérica'}</span>
+                    <span class:list={['tipo', { concreta: p.concreta }]}>{p.concreta ? 'Concreta' : 'Genérica'}</span>
                     <details>
                       <summary>{p.tabla ? 'Tabla' : 'Cita'} · pág. {p.pagina}</summary>
                       {p.tabla ? <blockquote>Fila de su tabla de compromisos: {p.cita}</blockquote> : <blockquote>«{p.cita}»</blockquote>}
@@ -123,8 +124,11 @@ const fuenteDe = (siglas: string) => {
                   </li>
                 ))}
             </ul>
-            <p class="vacio suave" hidden>No dice nada sobre este tema en su documento.</p>
-            <button type="button" class="ver-mas" data-ver-mas hidden></button>
+            <p class="vacio suave" hidden={propuestas.some((p) => p.partido === partido.siglas && p.tema === temas[0])}>No dice nada sobre este tema en su documento.</p>
+            {(() => {
+              const mas = propuestas.filter((p) => p.partido === partido.siglas && p.tema === temas[0]).length - VISIBLES_INICIO;
+              return <button type="button" class="ver-mas" data-ver-mas hidden={mas <= 0}>Ver {mas} más</button>;
+            })()}
           </section>
         ))}
       </div>
@@ -170,6 +174,33 @@ const fuenteDe = (siglas: string) => {
 
 <script>
   const VISIBLES = 3;
+  // [partido, tema, resumen, cita, página, concreta, tabla, revisada]
+  type Fila = [string, string, string, string, number, 0 | 1, 0 | 1, 0 | 1];
+  interface Datos {
+    documentos: Record<string, string>;
+    propuestas: Fila[];
+  }
+  // Se pide una sola vez, en cuanto se entra en la página
+  let datos: Promise<Datos> | undefined;
+  const cargar = () => (datos ??= fetch('/datos/propuestas.json').then((r) => r.json() as Promise<Datos>));
+
+  // Una propuesta tal como se ve en su tarjeta
+  function propuesta(f: Fila, documento: string, alterna: boolean) {
+    const [, , resumen, cita, pagina, concreta, tabla, revisada] = f;
+    const li = document.createElement('li');
+    if (alterna) li.className = 'alterna';
+    const p = li.appendChild(document.createElement('p'));
+    p.className = 'resumen';
+    p.textContent = resumen;
+    if (!revisada) p.append(Object.assign(document.createElement('span'), { className: 'borrador', textContent: ' · Sin revisar' }));
+    li.append(Object.assign(document.createElement('span'), { className: concreta ? 'tipo concreta' : 'tipo', textContent: concreta ? 'Concreta' : 'Genérica' }));
+    const det = li.appendChild(document.createElement('details'));
+    det.append(Object.assign(document.createElement('summary'), { textContent: `${tabla ? 'Tabla' : 'Cita'} · pág. ${pagina}` }));
+    det.append(Object.assign(document.createElement('blockquote'), { textContent: tabla ? `Fila de su tabla de compromisos: ${cita}` : `«${cita}»` }));
+    det.append(Object.assign(document.createElement('a'), { className: 'ir-pagina', href: `${documento}#page=${pagina}`, target: '_blank', rel: 'noopener', textContent: `Ver la página ${pagina} del documento` }));
+    return li;
+  }
+
   function iniciar() {
     const nav = document.querySelector<HTMLElement>('[data-filtro-propuestas]');
     if (!nav) return;
@@ -182,6 +213,7 @@ const fuenteDe = (siglas: string) => {
     const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-elegir]')];
     const chipTodas = document.querySelector<HTMLButtonElement>('[data-todas]')!;
     const ninguna = document.querySelector<HTMLElement>('[data-ninguna]')!;
+    cargar();
     // Formaciones en las que se han abierto todas las propuestas del tema
     const abiertas = new Set<string>();
 
@@ -225,8 +257,8 @@ const fuenteDe = (siglas: string) => {
       espera = setTimeout(marcarCol, 60);
     }, { passive: true });
 
-    const pintar = () => {
-      const tema = botones.find((b) => b.getAttribute('aria-pressed') === 'true')!.dataset.tema;
+    // Qué formaciones se ven (según provincia y formaciones elegidas): no necesita los datos
+    const pintarColumnas = () => {
       const provincia = selector.value;
       const elegidos = chips.filter((c) => c.getAttribute('aria-pressed') === 'true').map((c) => c.dataset.elegir);
       let conPrograma = 0;
@@ -236,16 +268,24 @@ const fuenteDe = (siglas: string) => {
         if (sePresenta) conPrograma++;
         col.hidden = !sePresenta || (elegidos.length > 0 && !elegidos.includes(col.dataset.partido));
         if (!col.hidden) visibles++;
-        const delTema = [...col.querySelectorAll<HTMLElement>('li[data-tema]')].filter((li) => {
-          li.hidden = true;
-          return li.dataset.tema === tema && (!concretas.checked || li.dataset.concreta === 'true');
-        });
-        const limite = abiertas.has(col.dataset.partido!) ? delTema.length : VISIBLES;
-        delTema.slice(0, limite).forEach((li, i) => {
-          li.hidden = false;
-          // Sombreado alterno entre las propuestas que se ven
-          li.classList.toggle('alterna', i % 2 === 1);
-        });
+      });
+      ninguna.hidden = visibles > 0;
+      nota.textContent = `Formaciones con un documento extenso ya revisado: ${conPrograma} de ${totales[provincia || 'todas']}. Las demás se añadirán cuando lo publiquen.`;
+      marcarCol();
+    };
+    // Propuestas del tema elegido en cada tarjeta
+    let turno = 0;
+    const pintarListas = async () => {
+      const mio = ++turno;
+      const d = await cargar();
+      // Si mientras llegaban los datos se eligió otra cosa, solo vale la última petición
+      if (mio !== turno) return;
+      const tema = botones.find((b) => b.getAttribute('aria-pressed') === 'true')!.dataset.tema;
+      columnas.forEach((col) => {
+        const siglas = col.dataset.partido!;
+        const delTema = d.propuestas.filter((f) => f[0] === siglas && f[1] === tema && (!concretas.checked || f[5] === 1));
+        const limite = abiertas.has(siglas) ? delTema.length : VISIBLES;
+        col.querySelector('ul')!.replaceChildren(...delTema.slice(0, limite).map((f, i) => propuesta(f, d.documentos[siglas], i % 2 === 1)));
         const verMas = col.querySelector<HTMLButtonElement>('[data-ver-mas]')!;
         verMas.hidden = delTema.length <= limite;
         verMas.textContent = `Ver ${delTema.length - limite} más`;
@@ -253,9 +293,11 @@ const fuenteDe = (siglas: string) => {
         vacio.hidden = delTema.length > 0;
         vacio.textContent = concretas.checked ? 'Sin propuestas concretas sobre este tema.' : 'No dice nada sobre este tema en su documento.';
       });
-      ninguna.hidden = visibles > 0;
-      nota.textContent = `Formaciones con un documento extenso ya revisado: ${conPrograma} de ${totales[provincia || 'todas']}. Las demás se añadirán cuando lo publiquen.`;
       marcarCol();
+    };
+    const pintar = () => {
+      pintarColumnas();
+      pintarListas();
     };
     const cambiar = () => {
       abiertas.clear();
@@ -288,7 +330,7 @@ const fuenteDe = (siglas: string) => {
         pintar();
       }),
     );
-    pintar();
+    pintarColumnas();
   }
   document.addEventListener('astro:page-load', iniciar);
 </script>
@@ -365,26 +407,25 @@ const fuenteDe = (siglas: string) => {
     scroll-snap-align: start;
     scroll-snap-stop: always;
   }
-  .columna[hidden], .columna li[hidden] { display: none; }
+  .columna[hidden] { display: none; }
   .columna header { padding-bottom: 10px; border-bottom: 1px solid var(--linea); }
   .columna h2 { font-size: 22px; line-height: 1.15; margin: 0; display: flex; align-items: baseline; }
   .columna ul { list-style: none; margin: 0; padding: 0; }
-  .columna li { padding: 12px; margin-inline: -12px; border-radius: 10px; }
-  .columna li:last-of-type { margin-bottom: 0; }
-  .columna li.alterna { background: var(--resalte); }
-  .resumen { margin: 0 0 8px; font-size: 15px; line-height: 1.4; }
-  .tipo { display: inline-block; font-size: 13px; color: var(--suave); margin-right: 8px; }
-  .tipo[data-concreta='true'] { color: var(--tinta); font-weight: 600; }
-  .columna details { display: inline; font-size: 13px; color: var(--suave); }
-  .columna summary { display: inline; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
-  .columna summary::-webkit-details-marker { display: none; }
-  .columna details[open] summary { color: var(--tinta); }
-  blockquote { margin: 10px 0 8px; padding-left: 10px; border-left: 2px solid var(--linea); color: var(--suave); font-size: 14px; line-height: 1.45; }
-  .ir-pagina { font-size: 13px; }
+  .columna :global(li) { padding: 12px; margin-inline: -12px; border-radius: 10px; }
+  .columna :global(li.alterna) { background: var(--resalte); }
+  .columna :global(.resumen) { margin: 0 0 8px; font-size: 15px; line-height: 1.4; }
+  .columna :global(.tipo) { display: inline-block; font-size: 13px; color: var(--suave); margin-right: 8px; }
+  .columna :global(.tipo.concreta) { color: var(--tinta); font-weight: 600; }
+  .columna :global(details) { display: inline; font-size: 13px; color: var(--suave); }
+  .columna :global(summary) { display: inline; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+  .columna :global(summary::-webkit-details-marker) { display: none; }
+  .columna :global(details[open] summary) { color: var(--tinta); }
+  .columna :global(blockquote) { margin: 10px 0 8px; padding-left: 10px; border-left: 2px solid var(--linea); color: var(--suave); font-size: 14px; line-height: 1.45; }
+  .columna :global(.ir-pagina) { font-size: 13px; }
   p.ninguna { font-size: 14px; margin: 16px 0 0; }
   p.aviso { font-size: 13px; line-height: 1.4; margin: 6px 0 0; }
   p.sin-programa { font-size: 13px; line-height: 1.4; margin: 12px 0 16px; }
-  .borrador { font-size: 12px; color: var(--suave); }
+  .columna :global(.borrador) { font-size: 12px; color: var(--suave); }
   .ver-mas { display: block; width: 100%; font: inherit; font-size: 14px; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; min-height: 44px; padding: 10px; margin: 8px 0 6px; cursor: pointer; }
   .ver-mas:hover { border-color: var(--suave); }
   .ver-mas[hidden] { display: none; }
