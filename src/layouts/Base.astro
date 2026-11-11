@@ -69,7 +69,7 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     </script>
   </head>
   <body>
-    <header class="cabecera" transition:persist="cabecera">
+    <header class="cabecera" transition:persist="cabecera" transition:name="cabecera" transition:animate="none">
       <div class="barra-superior">
         <a href="/" class="marca" aria-label="tuvotocuenta, inicio">tu<em>voto</em>cuenta</a>
         <p class="actualizada">Actualizado <time datetime={publicado.toISOString()}>{actualizado}</time></p>
@@ -77,7 +77,7 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
           <span class="tema-icono" aria-hidden="true"></span>
         </button>
       </div>
-      <nav aria-label="Secciones">
+      <nav aria-label="Secciones" transition:name="menu" transition:animate="none">
         <span class="subrayado" data-subrayado aria-hidden="true"></span>
         {nav.map((n) => (
           <a href={n.href} aria-current={actual.startsWith(n.href) ? 'page' : undefined}>
@@ -235,9 +235,8 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0 8px env(safe-area-inset-bottom);
-    background: color-mix(in srgb, var(--papel) 90%, transparent);
-    -webkit-backdrop-filter: blur(16px) saturate(1.4);
-    backdrop-filter: blur(16px) saturate(1.4);
+    /* Fondo opaco: la barra no se transparenta ni parpadea al cambiar de página */
+    background: var(--papel);
     border-top: 1px solid var(--linea);
   }
   .cabecera nav a {
@@ -313,7 +312,7 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     .actualizada { order: 2; }
     .tema { order: 3; }
     /* En pantallas anchas, el menú vuelve a la cabecera: texto con una raya que se desliza bajo la sección */
-    .cabecera nav { position: relative; inset: auto; display: flex; gap: 4px; padding: 0; background: none; -webkit-backdrop-filter: none; backdrop-filter: none; border: 0; }
+    .cabecera nav { position: relative; inset: auto; display: flex; gap: 4px; padding: 0; background: none; border: 0; }
     .cabecera nav a { flex-direction: row; min-height: 40px; padding: 0 12px; font-size: 15px; }
     .cabecera nav a[aria-current='page']::before { content: none; }
     .icono { display: none; }
