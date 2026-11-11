@@ -88,9 +88,16 @@ const fuenteDe = (siglas: string) => {
         </div>
       </div>
       <p class="sin-programa suave" data-sin-programa data-formaciones={JSON.stringify(totales)}></p>
-      <div class="comparador" aria-label="Propuestas por formación">
+      <div class="paginador" data-paginador>
+        <p class="cuenta" aria-live="polite"><span class="punto" data-cuenta-punto></span><strong data-cuenta-nombre></strong> <span class="suave cifra" data-cuenta></span></p>
+        <div class="flechas">
+          <button type="button" class="flecha izq" data-mover="-1" aria-label="Formación anterior"></button>
+          <button type="button" class="flecha der" data-mover="1" aria-label="Formación siguiente"></button>
+        </div>
+      </div>
+      <div class="comparador" aria-label="Propuestas por formación" data-comparador>
         {conPropuestas.map((partido) => (
-          <section class="columna" data-partido={partido.siglas} data-provincias={dondeSePresenta(partido.corto).join(' ')}>
+          <section class="columna" data-partido={partido.siglas} data-nombre={partido.corto} data-color={color(partido.siglas)} data-provincias={dondeSePresenta(partido.corto).join(' ')}>
             <header>
               <h2><span class="punto" style={`--c:${color(partido.siglas)}`}></span>{partido.nombre}</h2>
               {partido.aviso && <p class="aviso suave">{partido.aviso.texto} <a href={`${fuenteDe(partido.siglas)!.url}#page=${partido.aviso.pagina}`} target="_blank" rel="noopener">Página {partido.aviso.pagina}</a>.</p>}
@@ -112,11 +119,11 @@ const fuenteDe = (siglas: string) => {
                 ))}
             </ul>
             <p class="vacio suave" hidden>No dice nada sobre este tema en su documento.</p>
+            <button type="button" class="ver-mas" data-ver-mas hidden></button>
           </section>
         ))}
       </div>
       <p class="ninguna suave" data-ninguna hidden>Ninguna de las formaciones elegidas se presenta en esa provincia.</p>
-      <button type="button" class="ver-mas" data-ver-mas hidden></button>
     </>
   )}
 
@@ -166,19 +173,58 @@ const fuenteDe = (siglas: string) => {
     const concretas = document.querySelector<HTMLInputElement>('[data-concretas]')!;
     const columnas = [...document.querySelectorAll<HTMLElement>('.columna')];
     const nota = document.querySelector<HTMLElement>('[data-sin-programa]')!;
-    const verMas = document.querySelector<HTMLButtonElement>('[data-ver-mas]')!;
     const totales = JSON.parse(nota.dataset.formaciones!) as Record<string, number>;
     const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-elegir]')];
     const chipTodas = document.querySelector<HTMLButtonElement>('[data-todas]')!;
     const ninguna = document.querySelector<HTMLElement>('[data-ninguna]')!;
-    let todas = false;
+    // Formaciones en las que se han abierto todas las propuestas del tema
+    const abiertas = new Set<string>();
+
+    // Tarjetas: en el móvil una por pantalla, se pasa de una a otra deslizando o con las flechas
+    const comparador = document.querySelector<HTMLElement>('[data-comparador]')!;
+    const cuenta = document.querySelector<HTMLElement>('[data-cuenta]')!;
+    const cuentaNombre = document.querySelector<HTMLElement>('[data-cuenta-nombre]')!;
+    const cuentaPunto = document.querySelector<HTMLElement>('[data-cuenta-punto]')!;
+    const flechas = [...document.querySelectorAll<HTMLButtonElement>('[data-mover]')];
+    const visiblesCol = () => columnas.filter((c) => !c.hidden);
+    const inicio = () => parseFloat(getComputedStyle(comparador).paddingLeft) || 0;
+    const actualCol = () => {
+      const v = visiblesCol();
+      let mejor = 0;
+      v.forEach((c, i) => {
+        if (Math.abs(c.offsetLeft - inicio() - comparador.scrollLeft) < Math.abs(v[mejor].offsetLeft - inicio() - comparador.scrollLeft)) mejor = i;
+      });
+      return mejor;
+    };
+    const marcarCol = () => {
+      const v = visiblesCol();
+      const i = actualCol();
+      const c = v[i];
+      cuentaNombre.textContent = c?.dataset.nombre ?? '';
+      cuentaPunto.style.setProperty('--c', c?.dataset.color ?? 'transparent');
+      cuenta.textContent = v.length > 1 ? `${i + 1} de ${v.length}` : '';
+      flechas[0].disabled = i === 0;
+      // Al final del desplazamiento (pantallas anchas con varias tarjetas a la vista) tampoco se puede avanzar
+      flechas[1].disabled = i >= v.length - 1 || comparador.scrollLeft + comparador.clientWidth >= comparador.scrollWidth - 2;
+    };
+    const irCol = (i: number) => {
+      const v = visiblesCol();
+      const destino = v[Math.max(0, Math.min(v.length - 1, i))];
+      if (destino) comparador.scrollTo({ left: destino.offsetLeft - inicio(), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    };
+    flechas.forEach((b) => b.addEventListener('click', () => irCol(actualCol() + Number(b.dataset.mover))));
+    comparador.addEventListener('scrollend', marcarCol);
+    let espera: ReturnType<typeof setTimeout>;
+    comparador.addEventListener('scroll', () => {
+      clearTimeout(espera);
+      espera = setTimeout(marcarCol, 60);
+    }, { passive: true });
 
     const pintar = () => {
       const tema = botones.find((b) => b.getAttribute('aria-pressed') === 'true')!.dataset.tema;
       const provincia = selector.value;
       const elegidos = chips.filter((c) => c.getAttribute('aria-pressed') === 'true').map((c) => c.dataset.elegir);
       let conPrograma = 0;
-      let ocultas = 0;
       let visibles = 0;
       columnas.forEach((col) => {
         const sePresenta = !provincia || col.dataset.provincias!.split(' ').includes(provincia);
@@ -189,24 +235,26 @@ const fuenteDe = (siglas: string) => {
           li.hidden = true;
           return li.dataset.tema === tema && (!concretas.checked || li.dataset.concreta === 'true');
         });
-        const limite = todas ? delTema.length : VISIBLES;
+        const limite = abiertas.has(col.dataset.partido!) ? delTema.length : VISIBLES;
         delTema.slice(0, limite).forEach((li, i) => {
           li.hidden = false;
           // Sombreado alterno entre las propuestas que se ven
           li.classList.toggle('alterna', i % 2 === 1);
         });
-        if (!col.hidden) ocultas += Math.max(0, delTema.length - limite);
+        const verMas = col.querySelector<HTMLButtonElement>('[data-ver-mas]')!;
+        verMas.hidden = delTema.length <= limite;
+        verMas.textContent = `Ver ${delTema.length - limite} más`;
         const vacio = col.querySelector<HTMLElement>('.vacio')!;
         vacio.hidden = delTema.length > 0;
         vacio.textContent = concretas.checked ? 'Sin propuestas concretas sobre este tema.' : 'No dice nada sobre este tema en su documento.';
       });
       ninguna.hidden = visibles > 0;
-      verMas.hidden = ocultas === 0;
-      verMas.textContent = `Ver ${ocultas} más`;
       nota.textContent = `Formaciones con un documento extenso ya revisado: ${conPrograma} de ${totales[provincia || 'todas']}. Las demás se añadirán cuando lo publiquen.`;
+      marcarCol();
     };
     const cambiar = () => {
-      todas = false;
+      abiertas.clear();
+      comparador.scrollTo({ left: 0 });
       pintar();
     };
     botones.forEach((b) =>
@@ -229,10 +277,12 @@ const fuenteDe = (siglas: string) => {
     });
     selector.addEventListener('change', cambiar);
     concretas.addEventListener('change', cambiar);
-    verMas.addEventListener('click', () => {
-      todas = true;
-      pintar();
-    });
+    columnas.forEach((col) =>
+      col.querySelector('[data-ver-mas]')!.addEventListener('click', () => {
+        abiertas.add(col.dataset.partido!);
+        pintar();
+      }),
+    );
     pintar();
   }
   document.addEventListener('astro:page-load', iniciar);
@@ -275,15 +325,46 @@ const fuenteDe = (siglas: string) => {
   .desplegable { position: relative; display: inline-flex; }
   .desplegable::after { content: ''; position: absolute; right: 14px; top: 50%; width: 7px; height: 7px; border-right: 1.5px solid var(--tinta); border-bottom: 1.5px solid var(--tinta); transform: translateY(-70%) rotate(45deg); pointer-events: none; }
   .desplegable select { appearance: none; font: inherit; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 7px 34px 7px 14px; cursor: pointer; }
-  /* Una formación debajo de otra: en el móvil se lee de arriba abajo, sin desplazarse de lado */
-  .comparador { display: grid; grid-template-columns: 1fr; column-gap: 32px; border-top: 1px solid var(--tinta); }
-  .columna { padding: 16px 0 8px; min-width: 0; }
-  .columna + .columna { border-top: 1px solid var(--linea); }
+  /* Tarjetas: en el móvil una ocupa la pantalla y se desliza de una en una; en pantallas anchas se ven varias */
+  .paginador { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 4px 0 10px; }
+  .cuenta { display: flex; align-items: center; gap: 0; margin: 0; font-size: 15px; min-width: 0; }
+  .cuenta strong { font-weight: 600; margin-right: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .flechas { display: flex; gap: 8px; flex: none; }
+  .flecha { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--linea); background: transparent; cursor: pointer; position: relative; transition: border-color 0.15s, opacity 0.15s; }
+  .flecha::after { content: ''; position: absolute; top: 50%; left: 50%; width: 8px; height: 8px; border-top: 1.5px solid var(--tinta); border-right: 1.5px solid var(--tinta); }
+  .flecha.izq::after { transform: translate(-30%, -50%) rotate(-135deg); }
+  .flecha.der::after { transform: translate(-70%, -50%) rotate(45deg); }
+  .flecha:hover:not(:disabled) { border-color: var(--suave); }
+  .flecha:disabled { opacity: 0.35; cursor: default; }
+  .comparador {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    margin-inline: -20px;
+    padding: 0 20px 4px;
+    scroll-padding-inline: 20px;
+    scrollbar-width: none;
+  }
+  .comparador::-webkit-scrollbar { display: none; }
+  .columna {
+    flex: 0 0 100%;
+    min-width: 0;
+    padding: 18px 18px 10px;
+    border: 1px solid var(--linea);
+    border-radius: 16px;
+    background: var(--papel);
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
   .columna[hidden], .columna li[hidden] { display: none; }
-  .columna header { padding-bottom: 6px; }
+  .columna header { padding-bottom: 10px; border-bottom: 1px solid var(--linea); }
   .columna h2 { font-size: 22px; line-height: 1.15; margin: 0; display: flex; align-items: baseline; }
   .columna ul { list-style: none; margin: 0; padding: 0; }
   .columna li { padding: 12px; margin-inline: -12px; border-radius: 10px; }
+  .columna li:last-of-type { margin-bottom: 0; }
   .columna li.alterna { background: var(--resalte); }
   .resumen { margin: 0 0 8px; font-size: 15px; line-height: 1.4; }
   .tipo { display: inline-block; font-size: 12px; color: var(--suave); margin-right: 8px; }
@@ -298,7 +379,7 @@ const fuenteDe = (siglas: string) => {
   p.aviso { font-size: 13px; line-height: 1.4; margin: 6px 0 0; }
   p.sin-programa { font-size: 13px; line-height: 1.4; margin: 12px 0 16px; }
   .borrador { font-size: 12px; color: var(--suave); }
-  .ver-mas { display: block; width: 100%; font: inherit; font-size: 14px; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 10px; margin-top: 16px; cursor: pointer; }
+  .ver-mas { display: block; width: 100%; font: inherit; font-size: 14px; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 10px; margin: 8px 0 6px; cursor: pointer; }
   .ver-mas:hover { border-color: var(--suave); }
   .ver-mas[hidden] { display: none; }
 
@@ -316,7 +397,7 @@ const fuenteDe = (siglas: string) => {
     .temas, .partidos { display: flex; flex-wrap: wrap; overflow: visible; margin-inline: 0; }
     .temas { padding: 0; }
     .partidos { padding: 12px 0 0; }
-    .comparador { grid-template-columns: 1fr 1fr; border-top: 0; }
-    .columna, .columna + .columna { border-top: 1px solid var(--tinta); }
+    .comparador { margin-inline: 0; padding-inline: 0; scroll-padding-inline: 0; scroll-snap-type: x proximity; }
+    .columna { flex: 0 0 calc((100% - 12px) / 2); scroll-snap-stop: normal; }
   }
 </style>
