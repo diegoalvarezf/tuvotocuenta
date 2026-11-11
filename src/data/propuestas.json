@@ -15811,6 +15811,15 @@
   },
   {
     "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "No dar su apoyo incondicional («cheques en blanco») a ningún partido estatal.",
+    "cita": "Y tampoco daremos cheques en blanco a ningún partido estatal.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
     "tema": "Vivienda",
     "resumen": "Agilizar los trámites urbanísticos para facilitar la construcción de nuevas viviendas, con plazos razonables y garantías legales.",
     "cita": "Agilizar los trámites urbanísticos para facilitar la construcción de nuevas viviendas, con plazos razonables y garantías legales.",
@@ -15884,7 +15893,7 @@
   {
     "partido": "EAJ-PNV",
     "tema": "Vivienda",
-    "resumen": "Que las políticas de vivienda ofrezcan a los jóvenes opciones de emancipación distintas del alquiler protegido.",
+    "resumen": "Que las políticas de vivienda ofrezcan a los jóvenes varias opciones de emancipación, no solo el alquiler protegido.",
     "cita": "Asegurar que las políticas públicas de vivienda contemplen diferentes opciones de emancipación, evitando que el alquiler protegido se convierta en la única alternativa disponible para las personas jóvenes.",
     "pagina": 8,
     "concreta": false,
@@ -15911,7 +15920,7 @@
   {
     "partido": "EAJ-PNV",
     "tema": "Vivienda",
-    "resumen": "Promover políticas de emancipación estables y con financiación suficiente, complementarias de las de las instituciones vascas.",
+    "resumen": "Promover políticas de emancipación estables y con financiación suficiente que complementen las de las instituciones vascas.",
     "cita": "Promover políticas de emancipación estables y con financiación suficiente, que complementen las iniciativas de las instituciones vascas y respeten sus competencias.",
     "pagina": 8,
     "concreta": false,
@@ -16478,7 +16487,7 @@
   {
     "partido": "EAJ-PNV",
     "tema": "Economía y empresas",
-    "resumen": "Impulsar condiciones comerciales equivalentes para los productos agrarios importados, con más controles y trazabilidad.",
+    "resumen": "Impulsar condiciones comerciales equivalentes para los productos importados, con más controles y trazabilidad.",
     "cita": "Impulsar condiciones comerciales equivalentes para los productos importados, reforzando los controles, la trazabilidad y los mecanismos de protección de los sectores más sensibles.",
     "pagina": 18,
     "concreta": false,
@@ -16634,7 +16643,7 @@
     "resumen": "Favorecer el proyecto Vía Irun 2030 de transformación ferroviaria y urbana.",
     "cita": "Favorecer el proyecto Vía Irun 2030, integrando la transformación ferroviaria y urbana y facilitando la liberación de los espacios ferroviarios necesarios.",
     "pagina": 19,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -16670,7 +16679,7 @@
     "resumen": "Favorecer la Plataforma Multimodal de Jundiz como infraestructura del Corredor Atlántico.",
     "cita": "Favorecer la Plataforma Multimodal de Jundiz, reforzando su capacidad logística y ferroviaria como infraestructura del Corredor Atlántico.",
     "pagina": 19,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -16877,7 +16886,7 @@
     "resumen": "Avanzar en la asunción de competencias de extranjería por la Ertzaintza.",
     "cita": "Avanzar en la asunción de competencias de extranjería por parte de la Ertzaintza, mediante los acuerdos y modificaciones normativas necesarios.",
     "pagina": 24,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -17009,7 +17018,7 @@
   {
     "partido": "EAJ-PNV",
     "tema": "Igualdad y familia",
-    "resumen": "Modificar la Ley de Seguridad Ciudadana para fijar perímetros de al menos 150 metros alrededor de los centros que practican abortos.",
+    "resumen": "Modificar la Ley de Seguridad Ciudadana para fijar perímetros de al menos 150 metros alrededor de los centros donde se interrumpe el embarazo.",
     "cita": "Modificar la Ley de Seguridad Ciudadana para establecer perímetros de protección de al menos 150 metros alrededor de los centros donde se practica la interrupción voluntaria del embarazo, mediante medidas proporcionadas que impidan el acoso y protejan la intimidad y la libertad de las mujeres.",
     "pagina": 26,
     "concreta": true,
@@ -17072,10 +17081,10 @@
   {
     "partido": "EAJ-PNV",
     "tema": "Igualdad y familia",
-    "resumen": "Reconocer y reparar a las mujeres víctimas de la dictadura, especialmente del Patronato de Protección a la Mujer.",
+    "resumen": "Reconocer y reparar las vulneraciones de derechos de las mujeres en el franquismo, en especial las del Patronato de Protección a la Mujer.",
     "cita": "Reconocer y reparar las vulneraciones específicas de los derechos de las mujeres durante la dictadura franquista, especialmente las sufridas por las víctimas del Patronato de Protección a la Mujer, con participación de las víctimas y de Gogora.",
     "pagina": 26,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -17135,7 +17144,7 @@
   {
     "partido": "EAJ-PNV",
     "tema": "Seguridad y justicia",
-    "resumen": "Impulsar la reforma de la llamada «ley mordaza».",
+    "resumen": "Impulsar la reforma de la llamada «ley mordaza» para eliminar las restricciones a derechos y libertades que considera desproporcionadas.",
     "cita": "Impulsar la reforma de la legislación conocida como «ley mordaza», eliminando las restricciones desproporcionadas al ejercicio de derechos y libertades.",
     "pagina": 27,
     "concreta": true,
@@ -17660,7 +17669,7 @@
     "resumen": "Promover el reconocimiento de la Ertzaintza como Policía judicial en el ámbito vasco.",
     "cita": "Promover el reconocimiento de la Ertzaintza como Policía judicial en el ámbito vasco, con capacidad plena para ejercer las funciones correspondientes.",
     "pagina": 39,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -17755,7 +17764,7 @@
   },
   {
     "partido": "EAJ-PNV",
-    "tema": "Otros",
+    "tema": "Defensa y política exterior",
     "resumen": "Promover la oficialidad del euskera, el catalán y el gallego en la Unión Europea.",
     "cita": "Promover la oficialidad del euskera, el catalán y el gallego en la Unión Europea, garantizando su presencia y utilización efectiva en las instituciones comunitarias.",
     "pagina": 41,
@@ -17791,7 +17800,7 @@
   },
   {
     "partido": "EAJ-PNV",
-    "tema": "Defensa y política exterior",
+    "tema": "Modelo territorial",
     "resumen": "Asegurar la participación de Euskadi en la elaboración y gestión del Marco Financiero Plurianual europeo 2028-2034.",
     "cita": "Asegurar la participación efectiva de Euskadi en la elaboración y gestión del Marco Financiero Plurianual europeo 2028-2034, interviniendo en la definición de prioridades, el reparto de recursos y la toma de decisiones.",
     "pagina": 41,
