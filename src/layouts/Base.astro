@@ -69,16 +69,18 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
   </head>
   <body>
     <header class="cabecera">
-      <a href="/" class="marca" aria-label="tuvotocuenta, inicio">tu<em>voto</em>cuenta</a>
-      <p class="actualizada">Actualizado <time datetime={publicado.toISOString()}>{actualizado}</time></p>
-      <nav>
-        {nav.map((n) => (
-          <a href={n.href} aria-current={actual.startsWith(n.href) ? 'page' : undefined}>{n.texto}</a>
-        ))}
-        <span class="subrayado" data-subrayado aria-hidden="true"></span>
+      <div class="barra-superior">
+        <a href="/" class="marca" aria-label="tuvotocuenta, inicio">tu<em>voto</em>cuenta</a>
+        <p class="actualizada">Actualizado <time datetime={publicado.toISOString()}>{actualizado}</time></p>
         <button type="button" class="tema" data-tema-boton aria-label="Cambiar entre modo claro y oscuro">
           <span class="tema-icono" aria-hidden="true"></span>
         </button>
+      </div>
+      <nav aria-label="Secciones">
+        <span class="subrayado" data-subrayado aria-hidden="true"></span>
+        {nav.map((n) => (
+          <a href={n.href} aria-current={actual.startsWith(n.href) ? 'page' : undefined}>{n.texto}</a>
+        ))}
       </nav>
     </header>
     <main transition:animate="fade">
@@ -113,12 +115,12 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     const mover = (a: HTMLAnchorElement | undefined, animar = true) => {
       linea.classList.toggle('sin-transicion', !animar);
       if (!a) return (linea.style.opacity = '0');
-      // El subrayado ocupa el texto, sin el relleno del enlace (10 px por lado)
-      linea.style.width = `${a.offsetWidth - 20}px`;
-      linea.style.transform = `translateX(${a.offsetLeft + 10}px)`;
+      linea.style.width = `${a.offsetWidth}px`;
+      linea.style.transform = `translateX(${a.offsetLeft}px)`;
       linea.style.opacity = '1';
     };
     const actual = () => enlaces.find((a) => a.getAttribute('aria-current') === 'page');
+    nav.classList.add('con-indicador');
     mover(actual(), false);
     enlaces.forEach((a) =>
       a.addEventListener('mouseenter', () => {
@@ -174,6 +176,8 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     --serif: 'Instrument Serif', Georgia, serif;
     --sans: 'Instrument Sans Variable', system-ui, sans-serif;
     --ancho: 760px;
+    /* Texto bajo el título de cada página: contenido en el móvil, algo mayor en pantallas anchas */
+    --entradilla: 16px;
     color-scheme: light;
   }
   :root[data-tema='oscuro'] {
@@ -201,12 +205,8 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     margin: 0 auto;
     padding-inline: 20px;
   }
-  .cabecera {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    padding-block: 18px 8px;
-  }
+  .cabecera { display: flex; flex-direction: column; gap: 12px; padding-block: 14px 8px; }
+  .barra-superior { display: flex; align-items: center; gap: 12px; }
   .marca {
     font-family: var(--serif);
     font-size: 24px;
@@ -214,29 +214,53 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     text-decoration: none;
     letter-spacing: -0.01em;
   }
-  .cabecera { position: relative; }
-  .actualizada { position: absolute; top: 26px; right: 20px; margin: 0; font-size: 12px; line-height: 1.2; color: var(--suave); }
-  .cabecera nav { display: flex; gap: 4px; margin-left: -10px; font-size: 15px; }
-  .cabecera nav a { position: relative; color: var(--suave); text-decoration: none; padding: 10px; transition: color 0.2s ease; }
-  .cabecera nav a:hover, .cabecera nav a[aria-current='page'] { color: var(--tinta); }
-  /* Un único subrayado que se desliza al enlace señalado y vuelve a la sección actual */
-  .cabecera nav { position: relative; }
+  .actualizada { margin: 0 0 0 auto; font-size: 12px; line-height: 1.2; color: var(--suave); text-align: right; }
+  /* Menú: selector de secciones con borde, la actual rellena; en el móvil ocupa todo el ancho a partes iguales */
+  .cabecera nav {
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    padding: 4px;
+    border: 1px solid var(--linea);
+    border-radius: 999px;
+    font-size: 15px;
+  }
+  .cabecera nav a {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0 14px;
+    border-radius: 999px;
+    color: var(--tinta);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.25s ease;
+  }
+  .cabecera nav a[aria-current='page'] { color: var(--papel); font-weight: 500; }
+  /* Sin JavaScript, la sección actual se rellena directamente */
+  .cabecera nav:not(.con-indicador) a[aria-current='page'] { background: var(--tinta); }
+  /* Con JavaScript, un único relleno se desliza a la sección señalada y vuelve a la actual */
   .subrayado {
     position: absolute;
     left: 0;
+    top: 4px;
     bottom: 4px;
-    height: 1.5px;
     width: 0;
+    border-radius: 999px;
     background: var(--tinta);
     opacity: 0;
     pointer-events: none;
     transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), width 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s ease;
   }
   .subrayado.sin-transicion { transition: none; }
-  /* Mientras el ratón está sobre otro enlace, la sección actual deja de destacar */
-  .cabecera nav.senalando a[aria-current='page']:not(:hover) { color: var(--suave); }
-  .cabecera nav { align-items: center; }
-  .tema { margin-left: auto; background: none; border: 0; padding: 10px; cursor: pointer; color: var(--tinta); }
+  .cabecera nav.senalando a { color: var(--tinta); }
+  .cabecera nav.senalando a:hover { color: var(--papel); }
+  .cabecera nav a:not([aria-current='page']):active { background: var(--resalte); }
+  .tema { flex: none; display: grid; place-items: center; width: 40px; height: 40px; margin-right: -10px; background: none; border: 0; padding: 0; cursor: pointer; color: var(--tinta); }
   .tema-icono {
     display: block;
     width: 16px;
@@ -264,10 +288,10 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
   .cifra { font-variant-numeric: tabular-nums; }
   :focus-visible { outline: 2px solid var(--tinta); outline-offset: 3px; border-radius: 2px; }
   @media (min-width: 640px) {
+    :root { --entradilla: 18px; }
     body { font-size: 17px; }
-    .cabecera { flex-direction: row; justify-content: space-between; align-items: center; padding-block: 24px; }
-    .cabecera nav { margin-left: 0; margin-right: -10px; }
-    .actualizada { top: 10px; }
+    .cabecera { flex-direction: row; align-items: center; gap: 20px; padding-block: 20px; }
+    .barra-superior { flex: 1; }
     h1 { margin-top: 32px; }
     h2 { font-size: 32px; margin-top: 56px; }
     main { padding-bottom: 64px; }

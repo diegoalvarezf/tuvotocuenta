@@ -357,8 +357,8 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 
 <style>
   h1 em { font-style: italic; }
-  .entradilla { font-size: 18px; max-width: 38ch; margin: 0 0 12px; }
-  .nota { font-size: 15px; margin: 0; }
+  .entradilla { font-size: var(--entradilla); max-width: 38ch; margin: 0 0 12px; }
+  .nota { font-size: 14px; margin: 0; }
 
   /* Filtro de temas fijo arriba mientras se recorre la lista */
   .temas { position: sticky; top: 0; z-index: 5; display: flex; gap: 8px; overflow-x: auto; margin: 12px -20px 0; padding: 10px 20px; background: var(--papel); border-bottom: 1px solid var(--linea); scrollbar-width: none; }

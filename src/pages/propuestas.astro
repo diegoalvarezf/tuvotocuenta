@@ -36,6 +36,10 @@ const propuestas = (propuestasJson as Propuesta[]).filter((p) => p.revisada || i
 const partidos = programas.map((p) => ({ ...p, programa: p.programa as Programa | null, documentos: p.documentos as Documento[] }));
 const publicados = partidos.filter((p) => p.programa);
 const temas = TEMAS.filter((t) => propuestas.some((p) => p.tema === t));
+// Propuestas visibles al cargar: las 3 primeras de cada formación en el primer tema (lo mismo que muestra el script al iniciar)
+const VISIBLES_INICIO = 3;
+const inicial = (p: Propuesta, lista: Propuesta[]) =>
+  p.tema === temas[0] && lista.filter((x) => x.tema === temas[0]).indexOf(p) < VISIBLES_INICIO;
 // Formaciones con propuestas, en el orden de la lista (de más a menos circunscripciones)
 const conPropuestas = partidos.filter((p) => propuestas.some((x) => x.partido === p.siglas));
 // Dónde se presenta cada formación, para el filtro de provincia
@@ -106,8 +110,9 @@ const fuenteDe = (siglas: string) => {
               {propuestas
                 .filter((p) => p.partido === partido.siglas)
                 .sort((a, b) => a.pagina - b.pagina)
-                .map((p) => (
-                  <li data-tema={p.tema} data-concreta={String(p.concreta)}>
+                .map((p, _, lista) => (
+                  // Llegan ya ocultas salvo las primeras del primer tema: así el móvil no dibuja miles de propuestas antes de que cargue el script
+                  <li data-tema={p.tema} data-concreta={String(p.concreta)} hidden={!inicial(p, lista)}>
                     <p class="resumen">{p.resumen}{!p.revisada && <span class="borrador"> · Sin revisar</span>}</p>
                     <span class="tipo" data-concreta={String(p.concreta)}>{p.concreta ? 'Concreta' : 'Genérica'}</span>
                     <details>
@@ -290,7 +295,7 @@ const fuenteDe = (siglas: string) => {
 
 <style>
   h1 em { font-style: italic; }
-  .entradilla { font-size: 18px; max-width: 38ch; margin: 0 0 32px; }
+  .entradilla { font-size: var(--entradilla); max-width: 38ch; margin: 0 0 32px; }
 
   .espera { border-top: 1px solid var(--tinta); padding-top: 16px; }
   .estado { font-family: var(--serif); font-size: 28px; line-height: 1.2; margin: 0 0 8px; }

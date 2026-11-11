@@ -335,7 +335,8 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   .presentadas ol li { padding: 2px 0; }
   .volver { display: inline-block; margin-top: 24px; font-size: 15px; text-decoration: none; }
   .volver:hover { color: var(--tinta); }
-  .entradilla { font-size: 22px; margin: 0; }
+  .entradilla { font-size: 19px; margin: 0; }
+  @media (min-width: 640px) { .entradilla { font-size: 22px; } }
   .entradilla strong { font-weight: 600; }
 
   .tabla { width: 100%; border-collapse: collapse; font-size: 14px; }
