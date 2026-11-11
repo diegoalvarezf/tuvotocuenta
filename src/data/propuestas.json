@@ -17891,15 +17891,6 @@
   {
     "partido": "PP",
     "tema": "Otros",
-    "resumen": "Explicar qué se hará primero, qué tendrá que esperar y cómo se pagará.",
-    "cita": "Diremos la verdad a los españoles: qué haremos primero, qué tendrá que esperar y cómo se pagará.",
-    "pagina": 13,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Otros",
     "resumen": "Reducir ministerios, altos cargos y asesores.",
     "cita": "REDUCIREMOS LA ESTRUCTURA POLÍTICA. Habrá menos ministerios, altos cargos y asesores.",
     "pagina": 13,
@@ -18515,7 +18506,7 @@
     "resumen": "Recuperar y ampliar el castigo de difundir mensajes que inciten a cometer actos violentos.",
     "cita": "Recuperaremos y ampliaremos el castigo específico de la difusión pública de mensajes o consignas que inciten a cometer actos violentos o refuercen la decisión de hacerlo.",
     "pagina": 18,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -19457,7 +19448,7 @@
   {
     "partido": "PP",
     "tema": "Seguridad y justicia",
-    "resumen": "Pedir apoyo europeo sin esperarlo para actuar.",
+    "resumen": "Pedir apoyo europeo y actuar sin esperar a que llegue.",
     "cita": "Solicitaremos apoyo europeo sin esperar a su llegada para actuar.",
     "pagina": 25,
     "concreta": false,
@@ -20060,7 +20051,7 @@
   {
     "partido": "PP",
     "tema": "Otros",
-    "resumen": "Adoptar medidas para una información pública rigurosa, plural e independiente con dirección profesional.",
+    "resumen": "Adoptar desde el inicio medidas para que RTVE y EFE den información rigurosa, plural e independiente, con dirección profesional.",
     "cita": "Desde el inicio de la legislatura adoptaremos las medidas necesarias para garantizar una información rigurosa, plural e independiente, una dirección profesional y una verdadera vocación de servicio público.",
     "pagina": 33,
     "concreta": false,
@@ -20159,7 +20150,7 @@
   {
     "partido": "PP",
     "tema": "Economía y empresas",
-    "resumen": "Elegir a sus responsables entre profesionales independientes sin cargos políticos recientes.",
+    "resumen": "Elegir a los responsables de los reguladores entre profesionales independientes sin cargos políticos recientes.",
     "cita": "Sus máximos responsables serán elegidos entre profesionales independientes de acreditado prestigio que no hayan ejercido recientemente cargos políticos.",
     "pagina": 34,
     "concreta": false,
@@ -20231,16 +20222,7 @@
   {
     "partido": "PP",
     "tema": "Otros",
-    "resumen": "Devolver a las Cortes su posición central y gobernar con respeto a la división de poderes.",
-    "cita": "Devolveremos a las Cortes su posición central en la política española, su prestigio y el pleno ejercicio de sus funciones, revirtiendo la deriva presidencialista de los últimos años. Gobernaremos con lealtad institucional y respeto a la división de poderes.",
-    "pagina": 35,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Otros",
-    "resumen": "Reformar los Reglamentos del Congreso y del Senado para limitar las prórrogas sucesivas de plazos de enmiendas.",
+    "resumen": "Reformar los Reglamentos del Congreso y del Senado para que las Mesas no puedan alargar ni acortar los plazos a conveniencia.",
     "cita": "Reformaremos los Reglamentos del Congreso y del Senado para limitar las prórrogas sucesivas de los plazos, de modo que sus Mesas no puedan bloquear una ley alargándolos injustificadamente ni vaciar el debate acortándolos a conveniencia.",
     "pagina": 35,
     "concreta": true,
@@ -20356,7 +20338,7 @@
   },
   {
     "partido": "PP",
-    "tema": "Otros",
+    "tema": "Seguridad y justicia",
     "resumen": "Sustituir la Ley de Secretos Oficiales de 1968 con plazos máximos de desclasificación y control judicial.",
     "cita": "Sustituiremos la Ley de Secretos Oficiales de 1968 por una nueva regulación con criterios claros para clasificar información, plazos máximos de desclasificación y control judicial efectivo.",
     "pagina": 36,
@@ -20378,7 +20360,7 @@
     "resumen": "Fortalecer la Alta Inspección del Estado para comprobar que los derechos de las leyes nacionales se ejercen en toda España.",
     "cita": "Fortaleceremos la Alta Inspección del Estado para que compruebe que los derechos reconocidos por ley nacional se ejercen en toda España.",
     "pagina": 38,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -20396,15 +20378,6 @@
     "resumen": "Que la historia clínica y social pueda consultarse desde cualquier servicio asistencial, con garantías de privacidad.",
     "cita": "En coordinación con las Comunidades Autónomas, garantizaremos que la historia clínica y la historia social puedan consultarse desde cualquier servicio asistencial, con todas las garantías de privacidad y seguridad.",
     "pagina": 38,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Sanidad",
-    "resumen": "Atender en toda España a los pacientes desplazados con su historia clínica y social completa.",
-    "cita": "Un paciente que se desplace será atendido con su historia clínica y social completa en toda España.",
-    "pagina": 39,
     "concreta": false,
     "revisada": false
   },
@@ -20613,15 +20586,6 @@
     "cita": "Pondremos en marcha un nuevo sistema de financiación local, estable, equitativo y coordinado con el autonómico.",
     "pagina": 41,
     "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Vivienda",
-    "resumen": "Premiar en la financiación local a los ayuntamientos que faciliten suelo y vivienda asequible.",
-    "cita": "La financiación local premiará a los ayuntamientos que faciliten suelo y vivienda asequible.",
-    "pagina": 41,
-    "concreta": false,
     "revisada": false
   },
   {
@@ -20942,15 +20906,6 @@
   {
     "partido": "PP",
     "tema": "Otros",
-    "resumen": "Corregir ineficiencias por abandono, auditar el funcionamiento de las infraestructuras y atender lo urgente.",
-    "cita": "Además, corregiremos las ineficiencias generadas por el abandono continuado de los últimos años, auditaremos su funcionamiento y solventaremos las necesidades urgentes con la mayor celeridad.",
-    "pagina": 45,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Otros",
     "resumen": "Movilizar con el sector privado más de 300.000 millones en 15 años en un Plan Nacional de Infraestructuras.",
     "cita": "Por ello movilizaremos, junto con el sector privado, más de 300.000 millones en los próximos 15 años para impulsar autovías y redes viarias, Alta Velocidad y Cercanías e infraestructuras hidráulicas y energéticas a través de un Plan Nacional de Infraestructuras.",
     "pagina": 45,
@@ -20963,7 +20918,7 @@
     "resumen": "Analizar las más de 1.000 limitaciones temporales de velocidad ferroviarias y priorizar las inversiones para resolverlas.",
     "cita": "Analizaremos las más de 1.000 limitaciones temporales de velocidad y cuantificaremos las inversiones necesarias para abordarlas, estableciendo prioridades a corto y medio plazo.",
     "pagina": 45,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -20972,7 +20927,7 @@
     "resumen": "Aprobar un plan de atención urgente a pasajeros de trenes detenidos en trayecto.",
     "cita": "Aprobaremos un plan de atención urgente a los pasajeros cuando un tren quede detenido durante el trayecto.",
     "pagina": 45,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -21035,7 +20990,7 @@
     "resumen": "Programa de conservación de los más de 26.500 km de carreteras estatales, empezando por los tramos más peligrosos.",
     "cita": "Desplegaremos un programa de conservación para los más de 26.500 kilómetros de carreteras estatales, empezando por los tramos con mayor tráfico, más deteriorados y con mayor concentración de accidentes.",
     "pagina": 46,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -21062,7 +21017,7 @@
     "resumen": "Mejorar los accesos ferroviarios y viarios de los 46 puertos de interés general.",
     "cita": "Mejoraremos los accesos ferroviarios y viarios de la red de 46 puertos de interés general, reforzando su papel como enlace comercial entre Europa, América y África.",
     "pagina": 46,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -21090,24 +21045,6 @@
     "cita": "PROMOVEREMOS UN PACTO NACIONAL DEL AGUA. Dentro del Plan Nacional de Infraestructuras, movilizaremos hasta 40.000 millones de euros en inversiones hasta 2030.",
     "pagina": 46,
     "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Energía y clima",
-    "resumen": "Modernizar regadíos y generar recursos hídricos con infraestructuras, desalación y reutilización.",
-    "cita": "Modernizaremos los regadíos y generaremos recursos nuevos con infraestructuras, desalación y reutilización.",
-    "pagina": 46,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Energía y clima",
-    "resumen": "Impulsar el almacenamiento de energía a gran escala, como las centrales hidroeléctricas reversibles.",
-    "cita": "Impulsaremos también soluciones de alta eficiencia a gran escala para el almacenamiento de energía como las centrales hidroeléctricas reversibles.",
-    "pagina": 46,
-    "concreta": false,
     "revisada": false
   },
   {
@@ -21157,7 +21094,7 @@
   },
   {
     "partido": "PP",
-    "tema": "Otros",
+    "tema": "Seguridad y justicia",
     "resumen": "Derogar la Ley de Memoria Democrática y aprobar una ley de concordia.",
     "cita": "DEROGAREMOS LA LEY DE MEMORIA DEMOCRÁTICA Y APROBAREMOS UNA LEY DE CONCORDIA.",
     "pagina": 47,
@@ -21166,7 +21103,7 @@
   },
   {
     "partido": "PP",
-    "tema": "Otros",
+    "tema": "Seguridad y justicia",
     "resumen": "Que la norma de concordia proteja la investigación histórica y el legado de la Transición y mantenga la búsqueda de desaparecidos.",
     "cita": "La sustituiremos por una norma de concordia que proteja la investigación histórica, la reconciliación y el legado constitucional de la Transición, y que mantenga, con carácter humanitario, la búsqueda e identificación de desaparecidos.",
     "pagina": 47,
@@ -21293,19 +21230,10 @@
   {
     "partido": "PP",
     "tema": "Otros",
-    "resumen": "Promover el español en el mundo para atraer talento, eventos, inversión y público.",
-    "cita": "Seremos los mejores embajadores de nuestra lengua en el mundo con el objetivo de atraer talento, eventos, inversión y público, haciendo del español, que está en su mejor momento, una potencia cultural global.",
-    "pagina": 49,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Otros",
     "resumen": "Reforzar el Instituto Cervantes, abierto a países hispanohablantes, con nuevas Residencias de Artistas.",
     "cita": "Reforzaremos el liderazgo del Instituto Cervantes como el mayor organismo cultural del mundo en lengua española, abierto a la participación del resto de países hispanohablantes, con nuevas Residencias de Artistas inspiradas en la Real Academia de España en Roma y proyección exterior de los creadores españoles.",
     "pagina": 49,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -21598,7 +21526,7 @@
   },
   {
     "partido": "PP",
-    "tema": "Empleo y salarios",
+    "tema": "Inmigración",
     "resumen": "Tener en cuenta la mano de obra de la construcción al fijar los cupos de inmigración laboral.",
     "cita": "Las necesidades de mano de obra del sector se podrán tener en cuenta al fijar los cupos de inmigración laboral, facilitando la contratación en origen.",
     "pagina": 54,
@@ -22103,7 +22031,7 @@
   {
     "partido": "PP",
     "tema": "Empleo y salarios",
-    "resumen": "Perseguir el fraude en prestaciones de quien se aprovecha del sistema para no trabajar.",
+    "resumen": "Perseguir el fraude en las prestaciones por incapacidad temporal.",
     "cita": "Perseguiremos el fraude de quienes se aprovechan del sistema para no trabajar y cobrar prestaciones indebidas a costa del esfuerzo de los demás.",
     "pagina": 60,
     "concreta": false,
@@ -22286,7 +22214,7 @@
     "resumen": "Simplificar las obligaciones de empresas de hasta 250 trabajadores.",
     "cita": "Simplificaremos las obligaciones de las empresas de hasta 250 trabajadores.",
     "pagina": 62,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -22331,7 +22259,7 @@
     "resumen": "Aumentar la deducción por investigación e innovación y darle más seguridad jurídica.",
     "cita": "Incrementaremos la deducción por investigación e innovación y la dotaremos de mayor seguridad jurídica.",
     "pagina": 62,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -22499,19 +22427,10 @@
   {
     "partido": "PP",
     "tema": "Economía y empresas",
-    "resumen": "Aspirar a que España sea referente mundial en formación turística.",
-    "cita": "Aspiramos a convertir a España en referente mundial en formación vinculada al turismo: si somos una potencia turística, también debemos serlo en la captación y la formación de talento.",
-    "pagina": 64,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PP",
-    "tema": "Economía y empresas",
     "resumen": "Un Pacto Nacional para el Campo, el Mar y el Monte acordado con el sector y respaldado por el Congreso.",
     "cita": "UN PACTO NACIONAL PARA EL CAMPO, EL MAR Y EL MONTE. El Pacto abarcará la agricultura, la ganadería, la pesca, los montes y sus cadenas de valor, se acordará con sus protagonistas y con las administraciones y contará con el respaldo del Congreso.",
     "pagina": 64,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -22669,7 +22588,7 @@
   },
   {
     "partido": "PP",
-    "tema": "Economía y empresas",
+    "tema": "Inmigración",
     "resumen": "Agilizar la contratación en origen de mano de obra agraria.",
     "cita": "Agilizaremos la contratación de mano de obra en origen.",
     "pagina": 65,
@@ -22691,7 +22610,7 @@
     "resumen": "Un programa nacional de mujer rural y del mar que reúna vivienda, financiación, fiscalidad, titularidad y formación.",
     "cita": "Un programa nacional de mujer rural y del mar reunirá todas las políticas y apoyos: vivienda, financiación, fiscalidad, simplificación, incorporación, titularidad, formación y liderazgo.",
     "pagina": 66,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -22706,10 +22625,10 @@
   {
     "partido": "PP",
     "tema": "Energía y clima",
-    "resumen": "Reformar la Ley de Montes para facilitar la prevención y potenciar biomasa, selvicultura e industria forestal.",
+    "resumen": "Modelos de ordenación forestal predefinidos e impulso a la biomasa, la selvicultura, los aprovechamientos colectivos y la industria forestal.",
     "cita": "Reformaremos la Ley de Montes para facilitar la prevención, elaboraremos modelos de ordenación predefinidos y potenciaremos la agricultura y ganadería preventivas, la biomasa, los tratamientos selvícolas, los aprovechamientos colectivos y la industria forestal.",
     "pagina": 66,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -22961,7 +22880,7 @@
     "resumen": "Impulsar un Pacto de Estado por la Sanidad Pública con las comunidades autónomas.",
     "cita": "Impulsaremos un gran Pacto de Estado por la Sanidad Pública con las Comunidades Autónomas.",
     "pagina": 68,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -22979,7 +22898,7 @@
     "resumen": "Poner en marcha con las comunidades un plan urgente de reducción de listas de espera.",
     "cita": "Con ese objetivo, pondremos en marcha, de acuerdo con las Comunidades Autónomas y respetando sus competencias de gestión, un plan urgente de reducción de listas de espera para asegurar una atención ágil y de calidad.",
     "pagina": 69,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -23087,7 +23006,7 @@
     "resumen": "Fortalecer la Agencia Estatal de Salud Pública.",
     "cita": "Fortaleceremos la Agencia Estatal de Salud Pública para anticipar amenazas sanitarias y responder con rapidez.",
     "pagina": 70,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -23267,7 +23186,7 @@
     "resumen": "Aprobar una estrategia nacional de energía nuclear y participar en iniciativas europeas de pequeños reactores modulares.",
     "cita": "Aprobaremos una estrategia nacional de energía nuclear y participaremos en las iniciativas europeas de reactores avanzados y de pequeños reactores modulares.",
     "pagina": 71,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -23393,7 +23312,7 @@
     "resumen": "Aprobar un plan nacional de seguridad del sistema eléctrico y control de tensión.",
     "cita": "Aprobaremos un plan nacional para reforzar su seguridad y controlar las variaciones de tensión que puedan poner en riesgo el suministro.",
     "pagina": 72,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -23687,7 +23606,7 @@
   {
     "partido": "PP",
     "tema": "Defensa y política exterior",
-    "resumen": "Usar todos los instrumentos, con socios europeos, frente a distorsiones por malas prácticas, en referencia a China.",
+    "resumen": "Usar con los socios europeos todos los instrumentos frente a lo que considera malas prácticas de China.",
     "cita": "Tenemos que utilizar todos los instrumentos para evitar distorsiones provocadas por malas prácticas, en colaboración con nuestros socios europeos.",
     "pagina": 75,
     "concreta": false,
@@ -23705,7 +23624,7 @@
   {
     "partido": "PP",
     "tema": "Defensa y política exterior",
-    "resumen": "Una cooperación al desarrollo eficaz y sin motivos ideológicos.",
+    "resumen": "Cambiar el modelo de cooperación al desarrollo para hacerla eficaz y, según el partido, no ideológica.",
     "cita": "Haremos una cooperación eficaz que no responda a motivos ideológicos.",
     "pagina": 76,
     "concreta": false,
@@ -23735,7 +23654,7 @@
     "resumen": "Plan inmediato de refuerzo consular.",
     "cita": "LLEVAREMOS A CABO DE FORMA INMEDIATA UN PLAN DE REFUERZO CONSULAR.",
     "pagina": 76,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -23763,6 +23682,24 @@
     "cita": "Fortaleceremos la Unidad de Emergencia Consular del Ministerio de Asuntos Exteriores, mediante la creación de una centralita operativa las 24 horas con número único para canalizar llamadas de emergencia consular desde cualquier lugar del mundo.",
     "pagina": 76,
     "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PP",
+    "tema": "Defensa y política exterior",
+    "resumen": "Proteger a la población civil, especialmente en Gaza, cuya situación el partido califica de «masacre insostenible».",
+    "cita": "La masacre es insostenible y la población civil debe ser protegida, especialmente en Gaza.",
+    "pagina": 76,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "PP",
+    "tema": "Defensa y política exterior",
+    "resumen": "Usar la cooperación al desarrollo para estabilizar países y reducir la inmigración irregular.",
+    "cita": "La cooperación al desarrollo debe ser un instrumento de estabilización de los países que contribuya a disminuir la inmigración irregular.",
+    "pagina": 76,
+    "concreta": false,
     "revisada": false
   }
 ]
