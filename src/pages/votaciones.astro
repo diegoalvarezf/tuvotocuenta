@@ -401,7 +401,8 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .pildora {
     position: fixed;
     left: 50%;
-    bottom: calc(18px + env(safe-area-inset-bottom));
+    /* Encima de la barra de menú inferior del móvil */
+    bottom: calc(72px + env(safe-area-inset-bottom));
     display: flex;
     align-items: center;
     gap: 10px;
@@ -550,6 +551,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 
   @media (min-width: 640px) {
     .temas { margin-inline: 0; padding-inline: 0; flex-wrap: wrap; }
+    .pildora { bottom: calc(18px + env(safe-area-inset-bottom)); }
     .temas { position: static; border-bottom: 0; padding-block: 12px; }
     .votacion { scroll-margin-top: 16px; }
     .grupos { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; }

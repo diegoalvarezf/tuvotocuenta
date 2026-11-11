@@ -1,0 +1,64 @@
+---
+// Hemiciclo de 350 escaños dibujado en SVG a partir del reparto por candidaturas.
+// Los partidos se ordenan de más a menos escaños (no por ideología) y las federaciones se agrupan con su partido.
+import { color } from '../lib/partidos';
+
+interface Props {
+  reparto: { nombre: string; siglas: string; escanos: number }[];
+  etiqueta: string;
+}
+const { reparto, etiqueta } = Astro.props;
+const orden = [...reparto].sort((a, b) => b.escanos - a.escanos);
+const total = orden.reduce((s, p) => s + p.escanos, 0);
+
+// Filas concéntricas: cada fila tiene escaños en proporción a su radio, hasta sumar el total
+const FILAS = 10;
+const R0 = 0.38;
+const R1 = 1;
+const radios = Array.from({ length: FILAS }, (_, i) => R0 + ((R1 - R0) * i) / (FILAS - 1));
+const sumaR = radios.reduce((a, b) => a + b, 0);
+const porFila = radios.map((r) => Math.round((total * r) / sumaR));
+porFila[FILAS - 1] += total - porFila.reduce((a, b) => a + b, 0);
+const puestos = radios
+  .flatMap((r, f) =>
+    Array.from({ length: porFila[f] }, (_, i) => {
+      const angulo = Math.PI * (1 - i / (porFila[f] - 1));
+      return { x: r * Math.cos(angulo), y: r * Math.sin(angulo), angulo };
+    }),
+  )
+  // De izquierda a derecha por ángulo; así cada partido ocupa una cuña continua
+  .sort((a, b) => b.angulo - a.angulo || a.x - b.x);
+const colores = orden.flatMap((p) => Array.from({ length: p.escanos }, () => color(p.siglas)));
+const ANCHO = 200;
+const radioPunto = 3.1;
+const escala = (ANCHO / 2 - radioPunto - 1) / R1;
+---
+
+<figure class="hemiciclo">
+  <svg viewBox={`0 0 ${ANCHO} ${ANCHO / 2 + 2}`} role="img" aria-label={etiqueta}>
+    {puestos.map((p, i) => (
+      <circle cx={(ANCHO / 2 + p.x * escala).toFixed(2)} cy={(ANCHO / 2 - p.y * escala).toFixed(2)} r={radioPunto} fill={colores[i]} style={`--i:${i}`} />
+    ))}
+    <text x={ANCHO / 2} y={ANCHO / 2 - 4} text-anchor="middle" class="total">{total}</text>
+  </svg>
+  <ul class="leyenda">
+    {orden.map((p) => (
+      <li><span class="punto" style={`--c:${color(p.siglas)}`}></span>{p.nombre} <strong class="cifra">{p.escanos}</strong></li>
+    ))}
+  </ul>
+</figure>
+
+<style>
+  .hemiciclo { margin: 0; }
+  svg { display: block; width: 100%; max-width: 480px; height: auto; margin: 0 auto; overflow: visible; }
+  .total { font-family: var(--serif); font-size: 30px; fill: var(--tinta); }
+  .leyenda { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 14px 0 0; padding: 0; font-size: 14px; }
+  .leyenda li { display: inline-flex; align-items: center; white-space: nowrap; }
+  .leyenda strong { font-weight: 600; margin-left: 5px; }
+  .punto { width: 9px; height: 9px; border-radius: 50%; background: var(--c); margin-right: 6px; flex: none; }
+  /* Los escaños aparecen de izquierda a derecha al cargar */
+  @media (prefers-reduced-motion: no-preference) {
+    circle { animation: entra 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: calc(var(--i) * 2ms); transform-box: fill-box; transform-origin: center; }
+    @keyframes entra { from { opacity: 0; transform: scale(0.3); } }
+  }
+</style>

@@ -2,60 +2,110 @@
 import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
 import TuProvincia from '../components/TuProvincia.astro';
+import Hemiciclo from '../components/Hemiciclo.astro';
+import congreso2023 from '../data/congreso-2023.json';
+import votaciones from '../data/votaciones.json';
+import propuestas from '../data/propuestas.json';
+import { provincias } from '../lib/provincias';
 
-const secciones = [
-  { href: '/tu-voto', titulo: 'Tu voto en tu provincia', texto: 'Cuántos diputados elige y cómo se convierten los votos en escaños.' },
-  { href: '/votaciones', titulo: 'Lo que votaron', texto: 'Las votaciones clave de la última legislatura y qué votó cada grupo.' },
-  { href: '/propuestas', titulo: 'Lo que proponen', texto: 'Qué dice cada programa, tema a tema y con la página exacta.' },
-];
+const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
+
+// Congreso de 2023: escaños por grupo de candidaturas (las federaciones territoriales se suman a su partido)
+const NOMBRES: Record<string, string> = { PSOE: 'PSOE', SUMAR: 'Sumar', VOX: 'Vox', 'JxCAT - JUNTS': 'Junts', 'EAJ-PNV': 'PNV', 'B.N.G.': 'BNG', 'U.P.N.': 'UPN' };
+const grupos = new Map<string, { siglas: string[]; escanos: number }>();
+for (const p of congreso2023) {
+  for (const c of p.candidaturas) {
+    if (!c.escanos) continue;
+    const g = grupos.get(c.grupo) ?? { siglas: [], escanos: 0 };
+    if (!g.siglas.includes(c.siglas)) g.siglas.push(c.siglas);
+    g.escanos += c.escanos;
+    grupos.set(c.grupo, g);
+  }
+}
+const reparto = [...grupos.values()].map((g) => {
+  // Las siglas principales del grupo: la que tiene nombre propio o, si no, la más corta
+  const siglas = g.siglas.find((s) => NOMBRES[s]) ?? [...g.siglas].sort((a, b) => a.length - b.length)[0];
+  return { siglas, nombre: NOMBRES[siglas] ?? siglas, escanos: g.escanos };
+});
+
+// Cifras de cada sección
+const porEscano = (p: (typeof provincias)[number]) => Math.round(p.votosValidos / p.escanos2023);
+const extremos = [...provincias].sort((a, b) => porEscano(a) - porEscano(b));
+const barato = extremos[0];
+const caro = extremos[extremos.length - 1];
+const publicadas = propuestas.filter((p) => p.revisada);
+const formaciones = new Set(publicadas.map((p) => p.partido)).size;
 ---
 
 <Base title="tuvotocuenta · Elecciones generales del 29 de noviembre">
-  <p class="fecha suave">Elecciones generales · domingo 29 de noviembre de 2026</p>
-  <Fuente de="convocatoria2026" />
   <h1>Antes de votar,<br /><em>compara.</em></h1>
-  <p class="entradilla">Reunimos en un sitio lo que proponen los partidos, lo que votaron y cuánto pesa tu voto donde vives.</p>
-  <p class="lema">Para que decidas tu voto con toda la información a mano.</p>
-  <p class="principio suave">Sin opiniones y siempre con su fuente.</p>
+  <p class="entradilla">Lo que proponen los partidos, lo que votaron y cuánto pesa tu voto donde vives. Sin opiniones y siempre con su fuente.</p>
   <TuProvincia />
 
+  <section class="congreso" aria-labelledby="congreso-titulo">
+    <p class="antetitulo">Domingo 29 de noviembre</p>
+    <h2 id="congreso-titulo">Se eligen los 350 escaños del Congreso</h2>
+    <Fuente de="convocatoria2026" />
+    <Hemiciclo reparto={reparto} etiqueta={`Congreso elegido en 2023: ${reparto.map((r) => `${r.nombre} ${r.escanos}`).join(', ')}`} />
+    <p class="pie-grafico suave">Así quedó en 2023, de más a menos escaños.</p>
+    <Fuente de="resultados2023" calculo />
+  </section>
+
   <ol class="secciones">
-    {secciones.map((s, i) => (
-      <li>
-        <a href={s.pronto ? undefined : s.href} class:list={{ pronto: s.pronto }}>
-          <span class="num cifra">0{i + 1}</span>
-          <span class="texto">
-            <span class="titulo">{s.titulo}</span>
-            <span class="suave">{s.pronto ? 'Próximamente. ' : ''}{s.texto}</span>
-          </span>
-          {!s.pronto && <span class="flecha" aria-hidden="true">→</span>}
-        </a>
-      </li>
-    ))}
+    <li>
+      <a href="/tu-voto">
+        <span class="seccion">Tu voto en tu provincia <span class="flecha" aria-hidden="true">→</span></span>
+        <span class="dato"><strong class="cifra">{n(porEscano(barato))}</strong> <span class="frente">frente a</span> <strong class="cifra">{n(porEscano(caro))}</strong></span>
+        <span class="explica suave">votos costó un escaño en {barato.nombre} y en {caro.nombre} en 2023.</span>
+      </a>
+      <Fuente de="resultados2023" calculo />
+    </li>
+    <li>
+      <a href="/votaciones">
+        <span class="seccion">Lo que votaron <span class="flecha" aria-hidden="true">→</span></span>
+        <span class="dato"><strong class="cifra">{votaciones.length}</strong></span>
+        <span class="explica suave">votaciones clave de la legislatura y qué votó cada grupo.</span>
+      </a>
+      <Fuente de="votacionesCongreso" />
+    </li>
+    <li>
+      <a href="/propuestas">
+        <span class="seccion">Lo que proponen <span class="flecha" aria-hidden="true">→</span></span>
+        <span class="dato"><strong class="cifra">{n(publicadas.length)}</strong></span>
+        <span class="explica suave">propuestas de {formaciones} programas, cada una con su cita y su página.</span>
+      </a>
+      <span class="fuente-propia suave">Cálculo propio con los programas oficiales de cada formación.</span>
+    </li>
   </ol>
 </Base>
 
 <style>
-  .fecha { font-size: 14px; margin: 32px 0 0; }
+  h1 { margin-top: 28px; }
   h1 em { font-style: italic; }
-  .entradilla { font-size: var(--entradilla); max-width: 34ch; margin: 0; }
-  .lema { font-size: var(--entradilla); margin: 12px 0 0; }
-  .principio { font-size: 14px; margin: 8px 0 0; }
-  .secciones { list-style: none; margin: 44px 0 0; padding: 0; border-top: 1px solid var(--linea); }
-  .secciones li { border-bottom: 1px solid var(--linea); }
-  .secciones a {
-    display: grid;
-    grid-template-columns: 48px 1fr auto;
-    gap: 16px;
-    align-items: baseline;
-    padding: 22px 0;
-    text-decoration: none;
+  .entradilla { font-size: var(--entradilla); max-width: 36ch; margin: 0; }
+
+  .congreso { margin-top: 36px; padding: 20px 16px 16px; background: var(--resalte); border-radius: 18px; }
+  .antetitulo { margin: 0; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--suave); }
+  .congreso h2 { margin: 4px 0 0; font-size: 28px; }
+  .congreso :global(.hemiciclo) { margin-top: 18px; }
+  .pie-grafico { font-size: 13px; margin: 12px 0 0; }
+
+  .secciones { list-style: none; margin: 28px 0 0; padding: 0; }
+  .secciones li { padding: 20px 0; border-top: 1px solid var(--tinta); }
+  .secciones a { display: flex; flex-direction: column; gap: 4px; text-decoration: none; }
+  .seccion { display: flex; justify-content: space-between; align-items: baseline; font-size: 15px; font-weight: 600; }
+  .flecha { font-size: 20px; font-weight: 400; transition: transform 0.2s ease; }
+  .secciones a:hover .flecha { transform: translateX(4px); }
+  .dato { font-family: var(--serif); font-size: 52px; line-height: 1; letter-spacing: -0.02em; }
+  .dato strong { font-weight: 400; }
+  .frente { font-size: 22px; font-style: italic; color: var(--suave); }
+  .explica { font-size: 15px; max-width: 34ch; }
+  .fuente-propia { display: block; margin-top: 6px; font-size: 13px; line-height: 1.45; }
+
+  @media (min-width: 640px) {
+    .congreso { padding: 28px 28px 20px; }
+    .congreso h2 { font-size: 34px; }
+    .secciones { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 28px; }
+    .dato { font-size: 40px; }
   }
-  .num { color: var(--suave); font-size: 14px; }
-  .texto { display: flex; flex-direction: column; gap: 2px; }
-  .titulo { font-family: var(--serif); font-size: 28px; line-height: 1.15; }
-  .flecha { font-size: 22px; transition: transform 0.2s ease; }
-  a:not(.pronto):hover .flecha { transform: translateX(4px); }
-  .pronto { cursor: default; }
-  .pronto .titulo { color: var(--suave); }
 </style>
