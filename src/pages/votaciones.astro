@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
 import Coincidencias from '../components/Coincidencias.astro';
+import Compartir from '../components/Compartir.astro';
 import votaciones from '../data/votaciones.json';
 import pendientes from '../data/decretos-pendientes.json';
 import decretos from '../data/decretos.json';
@@ -211,6 +212,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
             <a href={v.enlaces.json} target="_blank" rel="noopener">Datos (JSON)</a>
           </span>
         </p>
+        <div class="compartir-votacion"><Compartir titulo={`${v.nombre}: qué votó cada grupo`} ancla={v.id} /></div>
       </li>
     ))}
   </ol>
@@ -363,6 +365,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .temas::-webkit-scrollbar { display: none; }
   .temas button {
     flex: none;
+    min-height: 44px;
     font: inherit;
     font-size: 14px;
     padding: 8px 14px;
@@ -376,7 +379,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .temas button[aria-pressed='true'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
 
   .derogados { margin: 14px 0 0; font-size: 15px; }
-  .derogados summary { cursor: pointer; padding: 4px 0; }
+  .derogados summary { cursor: pointer; padding: 10px 0; }
   .derogados ul { list-style: none; margin: 6px 0 0; padding: 0; }
   .derogados li { padding: 8px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
 
@@ -384,7 +387,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .pendientes h2 { margin: 0 0 6px; font-size: 26px; }
   .pendientes > p { margin: 0; font-size: 15px; }
   .pendientes details { margin-top: 10px; }
-  .pendientes summary { cursor: pointer; padding: 8px 0; font-weight: 500; }
+  .pendientes summary { cursor: pointer; padding: 10px 0; font-weight: 500; }
   .pendientes ul { list-style: none; margin: 4px 0 0; padding: 0; }
   .pendientes li { padding: 12px 0; border-top: 1px solid var(--linea); }
   .titulo-pendiente { margin: 2px 0 0; }
@@ -450,7 +453,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .asa { width: 36px; height: 4px; border-radius: 2px; background: var(--linea); margin: 10px auto 4px; }
   .panel-cabecera { position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center; padding: 8px 20px 12px; background: var(--papel); border-bottom: 1px solid var(--linea); z-index: 1; }
   .arriba { text-decoration: none; font-size: 15px; font-weight: 500; }
-  .cerrar { width: 32px; height: 32px; border-radius: 50%; border: 0; background: var(--resalte); cursor: pointer; position: relative; }
+  .cerrar { width: 40px; height: 40px; border-radius: 50%; border: 0; background: var(--resalte); cursor: pointer; position: relative; }
   .cerrar span::before, .cerrar span::after { content: ''; position: absolute; left: 50%; top: 50%; width: 12px; height: 1.5px; background: var(--tinta); }
   .cerrar span::before { transform: translate(-50%, -50%) rotate(45deg); }
   .cerrar span::after { transform: translate(-50%, -50%) rotate(-45deg); }
@@ -510,14 +513,14 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .sentidos ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; }
   .sentidos li { display: inline-flex; align-items: center; font-size: 15px; white-space: nowrap; }
   .sentidos .punto { width: 9px; height: 9px; margin-right: 7px; }
-  .sentidos-nota { font-size: 12px; margin: 6px 0 0; }
+  .sentidos-nota { font-size: 13px; margin: 6px 0 0; }
   .voto { font-weight: 600; }
   .voto.abstencion, .voto.noVota, .voto.dividido { font-weight: 500; color: var(--suave); }
 
   .punto { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; display: inline-block; }
 
   .desglose { margin-top: 14px; font-size: 15px; }
-  .desglose summary { cursor: pointer; padding: 6px 0; color: var(--suave); }
+  .desglose summary { cursor: pointer; padding: 10px 0; color: var(--suave); }
   .desglose[open] summary { color: var(--tinta); }
   .grupos { list-style: none; margin: 4px 0 0; padding: 0; }
   .grupos li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
@@ -536,7 +539,8 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 
   .aviso { margin: 16px 0 0; padding: 12px 14px; background: var(--resalte); border-radius: 10px; font-size: 15px; }
   .oficial { font-size: 13px; margin: 16px 0 0; }
-  .fuente-nota { display: block; margin-top: 6px; font-size: 12px; color: var(--suave); }
+  .compartir-votacion { margin-top: 16px; }
+  .fuente-nota { display: block; margin-top: 6px; font-size: 13px; line-height: 1.45; color: var(--suave); }
   .fuente-nota a { color: var(--suave); }
 
   .glosario { border-top: 1px solid var(--tinta); margin-top: 24px; }

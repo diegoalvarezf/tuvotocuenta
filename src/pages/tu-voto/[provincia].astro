@@ -3,6 +3,7 @@ import candidaturas2026 from '../../data/candidaturas-2026.json';
 import Base from '../../layouts/Base.astro';
 import Escanos from '../../components/Escanos.astro';
 import Fuente from '../../components/Fuente.astro';
+import Compartir from '../../components/Compartir.astro';
 import { provincias, resultados2026, ultimoEscano, type Provincia } from '../../lib/provincias';
 import { color } from '../../lib/partidos';
 import { UMBRAL } from '../../lib/dhondt';
@@ -56,8 +57,18 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   </p>
   <Fuente de="convocatoria2026" />
 
+  <div class="acciones" data-provincia-actual data-slug={p.slug} data-nombre={p.nombre}>
+    <nav class="saltos" aria-label="Ir a una sección">
+      {r26 && <a href="#resultado">Resultado</a>}
+      {presentadas && <a href="#quien">Quién se presenta</a>}
+      <a href="#reparto-2023">2023</a>
+      <a href="#simular">Simular</a>
+    </nav>
+    <Compartir titulo={`${p.nombre}: cómo cuenta tu voto el 29 de noviembre`} />
+  </div>
+
   {r26 && resultados2026 && (
-    <section class="r26">
+    <section class="r26" id="resultado">
       <h2>Resultado del 29 de noviembre</h2>
       <p class="estado suave">
         {resultados2026.provisional ? `Provisional · escrutado el ${resultados2026.escrutado.toLocaleString('es-ES')} %` : 'Resultado definitivo'} · actualizado el {hora}
@@ -94,7 +105,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   )}
 
   {presentadas && (
-    <section class="presentadas">
+    <section class="presentadas" id="quien">
       <h2>Quién se presenta</h2>
       <p class="suave nota-cand">{presentadas.candidaturas.length} candidaturas proclamadas al Congreso, en el orden del BOE. Pulsa una para ver su lista. Aún pueden cambiar por los recursos previstos en la ley.</p>
       <ul>
@@ -111,7 +122,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
     </section>
   )}
 
-  <h2>Así se repartieron en 2023</h2>
+  <h2 id="reparto-2023">Así se repartieron en 2023</h2>
   <Escanos reparto={p.candidaturas} />
 
   <table class="tabla">
@@ -191,7 +202,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   </p>
   <Fuente de={['resultados2023', 'loreg']} calculo />
 
-  <h2>¿Y si cambian los votos?</h2>
+  <h2 id="simular">¿Y si cambian los votos?</h2>
   <p class="suave">Mueve votos de una candidatura a otra y mira cómo quedarían los {p.escanos2026} escaños de 2026, partiendo de los votos de 2023.</p>
 
   <div class="simulador" data-simulador data-datos={JSON.stringify(datos)}>
@@ -221,6 +232,16 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
     votosValidos: number;
     candidaturas: { siglas: string; votos: number; color: string }[];
   }
+
+  // Se recuerda la última provincia consultada para ofrecerla en la portada y en «Tu voto»
+  function recordar() {
+    const el = document.querySelector<HTMLElement>('[data-provincia-actual]');
+    if (!el) return;
+    try {
+      localStorage.setItem('provincia', JSON.stringify({ slug: el.dataset.slug, nombre: el.dataset.nombre }));
+    } catch {}
+  }
+  document.addEventListener('astro:page-load', recordar);
 
   function iniciar() {
     const el = document.querySelector<HTMLElement>('[data-simulador]');
@@ -300,11 +321,16 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
 </script>
 
 <style>
+  .acciones { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-top: 20px; }
+  .saltos { display: flex; flex-wrap: wrap; gap: 6px; }
+  .saltos a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: 999px; background: var(--resalte); font-size: 14px; text-decoration: none; transition: background-color 0.15s; }
+  .saltos a:hover { background: var(--linea); }
+  h2[id], section[id] { scroll-margin-top: 16px; }
   .presentadas { margin-top: 32px; }
   .nota-cand { font-size: 14px; margin: 0 0 8px; }
   .presentadas ul { list-style: none; margin: 0; padding: 0; }
   .presentadas > ul > li { border-bottom: 1px solid var(--linea); font-size: 14px; }
-  .presentadas summary { cursor: pointer; padding: 10px 0; overflow-wrap: anywhere; }
+  .presentadas summary { cursor: pointer; padding: 12px 0; overflow-wrap: anywhere; }
   .presentadas ol { margin: 0 0 12px; padding-left: 24px; }
   .presentadas ol li { padding: 2px 0; }
   .volver { display: inline-block; margin-top: 24px; font-size: 15px; text-decoration: none; }
@@ -319,7 +345,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   .tabla td:first-child { overflow-wrap: anywhere; }
   .fuera td { color: var(--suave); }
   .estado { font-size: 14px; margin: 0; }
-  .fuente-26 { display: block; margin-top: 4px; font-size: 11px; color: var(--suave); }
+  .fuente-26 { display: block; margin-top: 6px; font-size: 13px; color: var(--suave); }
   .fuente-26 a { color: var(--suave); }
   .punto { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; }
 

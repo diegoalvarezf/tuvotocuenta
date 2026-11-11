@@ -1,24 +1,25 @@
-// Genera el icono de la web: la «v» en cursiva de tu·voto·cuenta sobre fondo tinta.
+// Genera el icono de la web: un sobre de votación abierto con la papeleta asomando, sobre fondo tinta.
 //   public/favicon.svg, public/favicon.ico (32 px) y public/apple-touch-icon.png (180 px)
 //
 // Uso: node scripts/favicon.mjs
 
-import { readFileSync, writeFileSync } from 'node:fs';
-import satori from 'satori';
+import { writeFileSync } from 'node:fs';
 import sharp from 'sharp';
 
-const serif = readFileSync('node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff');
 const TINTA = '#161615';
 const PAPEL = '#f7f6f2';
 
-const arbol = {
-  type: 'div',
-  props: {
-    style: { width: 64, height: 64, display: 'flex', alignItems: 'center', justifyContent: 'center', background: TINTA, borderRadius: 14 },
-    children: { type: 'span', props: { style: { fontFamily: 'Serif', fontStyle: 'italic', fontSize: 58, color: PAPEL, marginTop: -10 }, children: 'v' } },
-  },
-};
-const svg = await satori(arbol, { width: 64, height: 64, fonts: [{ name: 'Serif', data: serif, weight: 400, style: 'italic' }] });
+// Solapa abierta detrás (papel atenuado), papeleta con dos líneas de texto y bolsillo del sobre delante con sus pliegues en V
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="14" fill="${TINTA}"/>
+<path d="M11 30 L32 15 L53 30 Z" fill="${PAPEL}" opacity=".55"/>
+<rect x="19" y="11" width="26" height="28" rx="2" fill="${PAPEL}"/>
+<rect x="23" y="16" width="14" height="2.6" rx="1.3" fill="${TINTA}"/>
+<rect x="23" y="21" width="18" height="2.6" rx="1.3" fill="${TINTA}"/>
+<path d="M11 30 H53 V49 a3 3 0 0 1 -3 3 H14 a3 3 0 0 1 -3 -3 Z" fill="${PAPEL}"/>
+<path d="M11 30 L32 43 L53 30" fill="none" stroke="${TINTA}" stroke-width="2.6" stroke-linejoin="round"/>
+</svg>
+`;
 writeFileSync('public/favicon.svg', svg);
 
 const png = (tam) => sharp(Buffer.from(svg)).resize(tam, tam).png().toBuffer();

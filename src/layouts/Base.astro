@@ -135,6 +135,31 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
   }
   let controlResize: AbortController | undefined;
   document.addEventListener('astro:page-load', iniciarSubrayado);
+
+  // Gráficos que se animan al entrar en pantalla: escaños (aparecen uno a uno) y barras del resultado (crecen).
+  // Sin JavaScript o con movimiento reducido se ven directamente, sin animación
+  let observadorGraficos: IntersectionObserver | undefined;
+  function iniciarAnimaciones() {
+    observadorGraficos?.disconnect();
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const graficos = [...document.querySelectorAll<HTMLElement>('.escanos:not([data-escanos]), .barra')];
+    observadorGraficos = new IntersectionObserver(
+      (entradas) => {
+        for (const e of entradas) {
+          if (!e.isIntersecting) continue;
+          e.target.classList.add('en-vista');
+          observadorGraficos!.unobserve(e.target);
+        }
+      },
+      { rootMargin: '0px 0px -10% 0px' },
+    );
+    graficos.forEach((g) => {
+      [...g.children].forEach((h, i) => (h as HTMLElement).style.setProperty('--i', String(i)));
+      g.dataset.animar = '';
+      observadorGraficos!.observe(g);
+    });
+  }
+  document.addEventListener('astro:page-load', iniciarAnimaciones);
 </script>
 
 <style is:global>
@@ -245,6 +270,12 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     h2 { font-size: 32px; margin-top: 56px; }
     main { padding-bottom: 64px; }
   }
+  .escanos[data-animar]:not(.en-vista) > span { opacity: 0; }
+  .escanos.en-vista > span { animation: escano-entra 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: calc(min(var(--i, 0), 40) * 14ms); }
+  @keyframes escano-entra { from { opacity: 0; transform: scale(0.4); } }
+  .barra[data-animar]:not(.en-vista) { clip-path: inset(0 100% 0 0); }
+  .barra.en-vista { animation: barra-entra 0.8s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  @keyframes barra-entra { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     * { transition: none !important; animation: none !important; }

@@ -1,0 +1,29 @@
+---
+// Acceso directo a la última provincia consultada (se guarda solo en este navegador)
+---
+
+<p class="tu-provincia" data-tu-provincia hidden>
+  <span class="suave">Tu provincia</span>
+  <a href="/tu-voto"><span data-tu-provincia-nombre></span> <span aria-hidden="true">→</span></a>
+</p>
+
+<script>
+  function iniciar() {
+    const el = document.querySelector<HTMLElement>('[data-tu-provincia]');
+    if (!el) return;
+    try {
+      const p = JSON.parse(localStorage.getItem('provincia') ?? 'null') as { slug: string; nombre: string } | null;
+      if (!p?.slug) return;
+      el.querySelector('a')!.href = `/tu-voto/${p.slug}`;
+      el.querySelector('[data-tu-provincia-nombre]')!.textContent = p.nombre;
+      el.hidden = false;
+    } catch {}
+  }
+  document.addEventListener('astro:page-load', iniciar);
+</script>
+
+<style>
+  .tu-provincia { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 24px 0 0; padding: 14px 16px; border: 1px solid var(--tinta); border-radius: 14px; font-size: 15px; }
+  .tu-provincia[hidden] { display: none; }
+  .tu-provincia a { font-family: var(--serif); font-size: 24px; line-height: 1.1; text-decoration: none; }
+</style>

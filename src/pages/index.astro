@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
+import TuProvincia from '../components/TuProvincia.astro';
 
 const secciones = [
   { href: '/tu-voto', titulo: 'Tu voto en tu provincia', texto: 'Cuántos diputados elige y cómo se convierten los votos en escaños.' },
@@ -16,6 +17,7 @@ const secciones = [
   <p class="entradilla">Reunimos en un sitio lo que proponen los partidos, lo que votaron y cuánto pesa tu voto donde vives.</p>
   <p class="lema">Para que decidas tu voto con toda la información a mano.</p>
   <p class="principio suave">Sin opiniones y siempre con su fuente.</p>
+  <TuProvincia />
 
   <ol class="secciones">
     {secciones.map((s, i) => (
@@ -38,8 +40,8 @@ const secciones = [
   h1 em { font-style: italic; }
   .entradilla { font-size: 18px; max-width: 34ch; margin: 0; }
   .lema { font-size: 18px; margin: 12px 0 0; }
-  .principio { font-size: 14px; margin: 8px 0 44px; }
-  .secciones { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
+  .principio { font-size: 14px; margin: 8px 0 0; }
+  .secciones { list-style: none; margin: 44px 0 0; padding: 0; border-top: 1px solid var(--linea); }
   .secciones li { border-bottom: 1px solid var(--linea); }
   .secciones a {
     display: grid;

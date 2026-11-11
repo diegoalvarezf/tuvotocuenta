@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Fuente from '../../components/Fuente.astro';
+import TuProvincia from '../../components/TuProvincia.astro';
 import { provincias } from '../../lib/provincias';
 
 const lista = [...provincias].sort((a, b) => a.slug.localeCompare(b.slug, 'es'));
@@ -21,6 +22,8 @@ const n = (x: number) => x.toLocaleString('es-ES');
     Y no todas las provincias pesan igual: en 2023, un escaño costó {n(votosPorEscano(barato))} votos en {barato.nombre} y {n(votosPorEscano(caro))} en {caro.nombre}.
   </p>
   <Fuente de="resultados2023" calculo />
+
+  <TuProvincia />
 
   <label class="buscar">
     <span class="suave">¿Dónde votas?</span>

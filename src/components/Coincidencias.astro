@@ -68,6 +68,7 @@ const n = (x: number) => x.toLocaleString('es-ES', { maximumFractionDigits: 1, u
   .elegir { display: flex; gap: 8px; overflow-x: auto; margin: 16px -20px 4px; padding: 0 20px 8px; scrollbar-width: none; }
   .elegir button {
     flex: none;
+    min-height: 44px;
     display: flex;
     align-items: center;
     font: inherit;
@@ -93,7 +94,7 @@ const n = (x: number) => x.toLocaleString('es-ES', { maximumFractionDigits: 1, u
   @keyframes crecer { from { transform: scaleX(0); } }
   .valor { text-align: right; font-size: 14px; }
   .metodo-coin { margin-top: 12px; font-size: 14px; }
-  .metodo-coin summary { cursor: pointer; padding: 4px 0; color: var(--suave); }
+  .metodo-coin summary { cursor: pointer; padding: 10px 0; color: var(--suave); }
   .metodo-coin p { margin: 6px 0 0; }
   @media (min-width: 640px) {
     .elegir { margin-inline: 0; padding-inline: 0; flex-wrap: wrap; }
