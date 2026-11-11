@@ -19,3 +19,5 @@ Errores reales. Cada uno, una regla.
 - **Comprobar los tests antes de subir.** Un `npm test | grep … && git commit` hizo commit con un test fallando, porque grep acertaba con «fail 1». Mirar que diga «fail 0». (9-11-2026)
 - **Guion de palabra compuesta a final de línea.** En el PH «público-» / «privada» se unía como «públicoprivada» y la cita literal no pasaba. Ahora el verificador acepta las dos formas; no se cambia la cita. (10-11-2026)
 - **No fiarse solo de la portada de cada web.** El 10-11 se dijo que no había más programas y el PP había presentado el suyo ese día, sin enlazarlo en pp.es. En cada revisión, cruzar las webs oficiales con la prensa del día y buscar el documento en la web oficial antes de dar un «no hay». (10-11-2026)
+- **Memoria democrática y secretos oficiales van en «Seguridad y justicia».** Estaban repartidos entre Defensa, Otros e Igualdad según el partido. Decidido con Diego: leyes de memoria, lugares y símbolos del franquismo, reparación de sus víctimas, Ley de Secretos Oficiales y desclasificaciones. (11-11-2026)
+- **Una medida repetida en dos capítulos se cita una vez.** En el PNV la 5.2-02 repetía la 2.7-05. (11-11-2026)
