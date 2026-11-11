@@ -27,17 +27,19 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 
 <Base title="Lo que votaron · tuvotocuenta" description="Votaciones clave del Congreso en la legislatura 2023-2026: qué se votó y qué votó cada grupo, con el acta oficial.">
   <h1>Lo que<br /><em>votaron</em></h1>
-  <p class="entradilla">
-    {votaciones.length} votaciones clave del Congreso entre 2023 y 2026. Qué se votaba, qué votó cada grupo y el acta oficial de cada una.
-  </p>
-  <p class="suave nota">
-    En {aprobadas} ganó el sí y en {votaciones.length - aprobadas} ganó el no. Los datos abiertos del Congreso recogen 2.175 votaciones del Pleno en la legislatura: puedes{' '}
-    <a href="/descargas/votaciones-xv-legislatura.pdf" download>descargarlas todas en PDF</a>{' '}o{' '}
-    <a href="/descargas/votaciones-xv-legislatura.csv" download>en CSV</a>.
-  </p>
+  <p class="entradilla">Qué se votaba, qué votó cada grupo y el acta oficial de cada una.</p>
+
+  <dl class="cifras-cabecera">
+    <div><dt class="cifra">{votaciones.length}</dt><dd>votaciones clave de 2023 a 2026</dd></div>
+    <div><dt class="cifra">{aprobadas}<span class="suave"> / </span>{votaciones.length - aprobadas}</dt><dd>ganó el sí / ganó el no</dd></div>
+    <div><dt class="cifra">{derogados.length}<span class="suave"> de </span>{decretos.length}</dt><dd>decretos ley del Gobierno tumbados</dd></div>
+  </dl>
   <Fuente de="votacionesCongreso" />
+  <p class="suave nota">
+    Las 2.175 votaciones del Pleno de la legislatura, en <a href="/descargas/votaciones-xv-legislatura.pdf" download>PDF</a> o <a href="/descargas/votaciones-xv-legislatura.csv" download>CSV</a>.
+  </p>
   <details class="derogados">
-    <summary>El Congreso tumbó {derogados.length} de los {decretos.length} decretos ley del Gobierno en la legislatura</summary>
+    <summary>Ver los {derogados.length} decretos ley tumbados</summary>
     <ul>
       {derogados.map((d) => (
         <li>
@@ -53,10 +55,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   {pendientes.some((d) => !d.resultado) && (
     <section class="pendientes" aria-labelledby="pendientes-titulo">
       <h2 id="pendientes-titulo">Pendientes de votar</h2>
-      <p>
-        Decretos ley aprobados por el Gobierno después de disolverse las Cortes. Con el Congreso disuelto, los vota su Diputación Permanente,
-        que debe decidir en los 30 días siguientes si se mantienen o se derogan.
-      </p>
+      <p>Decretos ley aprobados con las Cortes disueltas. Los vota la Diputación Permanente del Congreso, que decide si se mantienen o se derogan.</p>
       <Fuente de="constitucion" detalle="arts. 78.2 y 86.2" />
       <details>
       <summary>Ver los {pendientes.filter((d) => !d.resultado).length} decretos pendientes</summary>
@@ -358,7 +357,11 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 <style>
   h1 em { font-style: italic; }
   .entradilla { font-size: var(--entradilla); max-width: 38ch; margin: 0 0 12px; }
-  .nota { font-size: 14px; margin: 0; }
+  .nota { font-size: 14px; margin: 10px 0 0; }
+  .cifras-cabecera { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 24px 0 0; padding-top: 14px; border-top: 1px solid var(--tinta); }
+  .cifras-cabecera dt { font-family: var(--serif); font-size: 38px; line-height: 1; letter-spacing: -0.02em; white-space: nowrap; }
+  .cifras-cabecera dt span { font-size: 0.6em; }
+  .cifras-cabecera dd { margin: 6px 0 0; font-size: 13px; line-height: 1.35; color: var(--suave); }
 
   /* Filtro de temas fijo arriba mientras se recorre la lista */
   .temas { position: sticky; top: 0; z-index: 5; display: flex; gap: 8px; overflow-x: auto; margin: 12px -20px 0; padding: 10px 20px; background: var(--papel); border-bottom: 1px solid var(--linea); scrollbar-width: none; }
