@@ -10,11 +10,14 @@ interface Props {
   description?: string;
   // Imagen para compartir (1200×630), generada por scripts/og.mjs
   imagen?: string;
+  // Páginas que no deben salir en los buscadores (la de error)
+  sinIndexar?: boolean;
 }
 const {
   title,
   description = 'Qué proponen los partidos, qué votaron y cómo cuenta tu voto en tu provincia.',
   imagen = '/og/general.png',
+  sinIndexar = false,
 } = Astro.props;
 // Dominio de astro.config (site); en desarrollo, si falta, el del propio servidor
 const base = Astro.site ?? Astro.url;
@@ -45,7 +48,7 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <title>{title}</title>
-    <link rel="canonical" href={url} />
+    {sinIndexar ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={url} />}
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:site_name" content="tuvotocuenta" />
