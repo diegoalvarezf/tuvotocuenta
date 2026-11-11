@@ -56,6 +56,20 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
+    {actual === '/' && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: 'tuvotocuenta',
+          alternateName: 'Tu voto cuenta',
+          url: 'https://tuvotocuenta.es/',
+          inLanguage: 'es',
+          description,
+        })}
+      />
+    )}
     <ClientRouter />
     <script is:inline>
       // Claro por defecto; el oscuro solo si la persona lo eligió. Se aplica antes de pintar para evitar parpadeos
