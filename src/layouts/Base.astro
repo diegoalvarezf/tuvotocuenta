@@ -69,7 +69,7 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     </script>
   </head>
   <body>
-    <header class="cabecera" transition:persist="cabecera" transition:name="cabecera" transition:animate="none">
+    <header class="cabecera" transition:persist="cabecera">
       <div class="barra-superior">
         <a href="/" class="marca" aria-label="tuvotocuenta, inicio">tu<em>voto</em>cuenta</a>
         <p class="actualizada">Actualizado <time datetime={publicado.toISOString()}>{actualizado}</time></p>
