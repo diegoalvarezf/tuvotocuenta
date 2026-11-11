@@ -15799,5 +15799,2030 @@
     "tabla": true,
     "concreta": true,
     "revisada": true
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "No facilitar nunca un gobierno que dependa de Vox.",
+    "cita": "EAJ-PNV nunca facilitará un gobierno que dependa de Vox.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Agilizar los trámites urbanísticos para facilitar la construcción de nuevas viviendas, con plazos razonables y garantías legales.",
+    "cita": "Agilizar los trámites urbanísticos para facilitar la construcción de nuevas viviendas, con plazos razonables y garantías legales.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Movilizar viviendas vacías y rehabilitar edificios para aumentar la oferta residencial.",
+    "cita": "Movilizar viviendas vacías y rehabilitar edificios para aumentar la oferta residencial.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Evitar el uso fraudulento de los contratos de temporada para eludir las garantías del alquiler de vivienda habitual.",
+    "cita": "Evitar que los contratos de temporada se utilicen fraudulentamente para eludir las garantías del alquiler de vivienda habitual.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Regular los alquileres de temporada y turísticos para que no resten viviendas al alquiler residencial.",
+    "cita": "Regular los alquileres de temporada y turísticos para que no resten viviendas al alquiler residencial.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Reducir las prácticas especulativas que encarecen la vivienda y dificultan el acceso al alquiler y la compra.",
+    "cita": "Reducir las prácticas especulativas que encarecen la vivienda y dificultan el acceso al alquiler y la compra.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Dar seguridad jurídica a inquilinos y pequeños propietarios para favorecer el alquiler habitual.",
+    "cita": "Dar seguridad jurídica a las personas inquilinas y a los pequeños propietarios para favorecer el alquiler habitual.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Ofrecer alternativas habitacionales a familias vulnerables sin trasladar toda la responsabilidad a los pequeños propietarios.",
+    "cita": "Ofrecer alternativas habitacionales a las familias vulnerables sin trasladar toda la responsabilidad a los pequeños propietarios.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Promover medidas específicas para el acceso de los jóvenes a su primera vivienda, en alquiler o en propiedad.",
+    "cita": "Promover medidas específicas para facilitar el acceso de las personas jóvenes a su primera vivienda, tanto en régimen de alquiler como en propiedad.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Que las políticas de vivienda ofrezcan a los jóvenes opciones de emancipación distintas del alquiler protegido.",
+    "cita": "Asegurar que las políticas públicas de vivienda contemplen diferentes opciones de emancipación, evitando que el alquiler protegido se convierta en la única alternativa disponible para las personas jóvenes.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Mejorar la conexión entre formación y empleo para que los jóvenes accedan a puestos de calidad acordes con su preparación.",
+    "cita": "Favorecer medidas que mejoren la conexión entre formación y empleo, facilitando la incorporación de las personas jóvenes a puestos de trabajo de calidad y acordes con su preparación.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Incorporar la emancipación juvenil como prioridad en las reformas estatales de vivienda, empleo, salarios y protección social.",
+    "cita": "Incorporar la emancipación juvenil como una prioridad en las reformas estatales de vivienda, empleo, salarios y protección social, evaluando cómo afectan estas decisiones a la capacidad de las personas jóvenes para vivir de forma independiente.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Vivienda",
+    "resumen": "Promover políticas de emancipación estables y con financiación suficiente, complementarias de las de las instituciones vascas.",
+    "cita": "Promover políticas de emancipación estables y con financiación suficiente, que complementen las iniciativas de las instituciones vascas y respeten sus competencias.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Reclamar para Euskadi la competencia plena para fijar un salario mínimo propio, siempre por encima del estatal, mediante diálogo social.",
+    "cita": "Reclamar, en el marco de un nuevo estatus político para Euskadi, la competencia plena para establecer un salario mínimo propio, adaptado al coste de vida y siempre por encima del mínimo estatal. Impulsar su definición mediante el diálogo social, con la participación de sindicatos y organizaciones empresariales.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Proteger un marco propio de relaciones laborales y la prevalencia de los convenios vascos cuando sean más favorables.",
+    "cita": "Proteger un marco propio de relaciones laborales y la prevalencia de los convenios colectivos vascos, en los términos previstos legalmente, cuando establezcan condiciones más favorables para las personas trabajadoras.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Favorecer la negociación colectiva para que las mejoras de productividad se traduzcan en mejores salarios.",
+    "cita": "Favorecer la negociación colectiva para que las mejoras de productividad se traduzcan en mejores salarios, mayor poder adquisitivo y un reparto equilibrado del valor generado.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Reforzar la Inspección de Trabajo contra el fraude laboral, los falsos autónomos y la economía sumergida.",
+    "cita": "Detectar y sancionar mejor los abusos laborales reforzando la Inspección de Trabajo para combatir el fraude laboral, la contratación irregular, las falsas personas autónomas, la economía sumergida y los incumplimientos de la normativa laboral.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Mejorar la prevención de riesgos laborales y la salud física y mental en el trabajo.",
+    "cita": "Mejorar la prevención de riesgos laborales y la protección de la salud física y mental en el trabajo, reforzando la coordinación entre servicios sanitarios, mutuas y Seguridad Social.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Aplicar la normativa europea de transparencia retributiva para corregir las desigualdades salariales entre mujeres y hombres.",
+    "cita": "Asegurar la aplicación de la normativa europea sobre transparencia retributiva, para detectar y corregir las desigualdades salariales entre mujeres y hombres.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Reforzar la prevención y actuación frente al acoso laboral, sexual y discriminatorio, con protocolos en las empresas.",
+    "cita": "Reforzar la prevención y la actuación frente al acoso laboral, sexual y discriminatorio, garantizando protocolos eficaces en las empresas.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Facilitar el acceso de los trabajadores a la formación continua y la recualificación profesional.",
+    "cita": "Facilitar el acceso de las personas trabajadoras a la formación continua y la recualificación profesional para adaptarse a los cambios tecnológicos y productivos.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Impulsar una regulación de las prácticas formativas que garantice los derechos del alumnado, respetando las competencias de Euskadi.",
+    "cita": "Impulsar una regulación de las prácticas formativas que garantice los derechos del alumnado y preserve su carácter educativo, respetando las competencias de Euskadi y el funcionamiento de la Formación Profesional Dual.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Ampliar la prestación por desempleo hasta un máximo de 36 meses, vinculada a la mejora de la empleabilidad.",
+    "cita": "Ampliar la cobertura de la prestación por desempleo hasta un máximo de 36 meses, vinculándola a procesos de mejora de la empleabilidad y reforzando la protección de las personas con mayores dificultades para reincorporarse al mercado laboral.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Analizar con administraciones, sindicatos y empresas la productividad, el absentismo y los salarios, y proponer medidas.",
+    "cita": "Analizar, con la participación de las administraciones, los sindicatos y las organizaciones empresariales, la productividad laboral, el absentismo, la competitividad y los salarios, y proponer medidas de prevención y control, así como actuaciones que mejoren el bienestar físico y mental de las personas trabajadoras.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Permitir actualizar el precio de contratos públicos estratégicos para cubrir mejoras salariales pactadas y garantizar el servicio.",
+    "cita": "Evitar que las mejoras salariales pactadas pongan en riesgo servicios públicos contratados: permitir, en casos estratégicos y justificados, actualizar el precio de los contratos para cubrir esos costes y garantizar tanto el empleo como la continuidad del servicio.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Educación",
+    "resumen": "Preservar las competencias educativas de Euskadi frente a interferencias estatales.",
+    "cita": "Preservar las competencias educativas de Euskadi, evitando interferencias estatales en los ámbitos de decisión que corresponden a las instituciones vascas.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Educación",
+    "resumen": "Impulsar una educación inclusiva, plurilingüe e intercultural que garantice la igualdad de oportunidades.",
+    "cita": "Impulsar una educación inclusiva, plurilingüe e intercultural, que garantice los derechos de la infancia y la adolescencia y la igualdad de oportunidades.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Educación",
+    "resumen": "Reforzar la coeducación y la educación afectivo-sexual en igualdad.",
+    "cita": "Reforzar la coeducación y la educación afectivo-sexual en igualdad, promoviendo el respeto a la diversidad y la prevención de cualquier forma de discriminación y violencia.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Educación",
+    "resumen": "Defender la capacidad normativa del Sistema Vasco de Becas.",
+    "cita": "Defender la capacidad normativa del Sistema Vasco de Becas, para mantener una política propia de apoyo al estudio adaptada a la realidad de Euskadi.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Educación",
+    "resumen": "Fortalecer la Formación Profesional Dual con colaboración entre centros y empresas.",
+    "cita": "Fortalecer la Formación Profesional Dual, favoreciendo la colaboración entre los centros formativos y las empresas y su conexión con las oportunidades de empleo.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Educación",
+    "resumen": "Favorecer la colaboración entre universidades y empresas en formación, investigación y empleo cualificado.",
+    "cita": "Favorecer la colaboración entre universidades y empresas, promoviendo la formación, la investigación y la generación de empleo cualificado.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Educación",
+    "resumen": "Defender la capacidad de Euskadi para decidir la gobernanza de sus universidades e impulsar su participación en proyectos europeos.",
+    "cita": "Defender la capacidad de Euskadi para decidir sobre la gobernanza de sus universidades e impulsar su participación en proyectos universitarios europeos.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Favorecer mecanismos de participación de los jóvenes en la elaboración, seguimiento y evaluación de las políticas públicas.",
+    "cita": "Favorecer mecanismos efectivos de participación de las personas jóvenes en la elaboración, seguimiento y evaluación de las políticas públicas.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Reforzar la participación juvenil en la vida pública con espacios donde sus propuestas sean tenidas en cuenta.",
+    "cita": "Reforzar la participación juvenil en la vida pública y democrática, garantizando espacios en los que sus propuestas sean escuchadas y tenidas en cuenta por las instituciones.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Incorporar la perspectiva juvenil en las iniciativas legislativas estatales, especialmente en vivienda, empleo y educación.",
+    "cita": "Incorporar la perspectiva juvenil en las iniciativas legislativas estatales, especialmente en vivienda, empleo, educación, investigación y protección social.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Fortalecer la industria vasca con una legislación industrial que facilite la inversión y la modernización.",
+    "cita": "Fortalecer la industria vasca, facilitando la inversión, la innovación y la modernización productiva mediante una legislación industrial que tenga en cuenta nuestra realidad.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Asegurar que el Estado cumpla sus compromisos con empresas vascas participadas o financiadas, manteniendo sus centros de decisión en Euskadi.",
+    "cita": "Asegurar el cumplimiento de los compromisos del Estado con las empresas vascas en las que tenga participación o financiación pública, defendiendo la actividad industrial, el empleo y el mantenimiento de los centros de decisión en Euskadi.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Proteger el futuro industrial de comarcas en crisis, como Aiaraldea, con inversiones, suelo industrial y diálogo.",
+    "cita": "Proteger el futuro industrial de las comarcas especialmente afectadas por procesos de crisis o transformación, como Aiaraldea, mediante inversiones, innovación, descarbonización, disponibilidad de suelo industrial y diálogo con los agentes implicados.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Adaptar los programas estatales de innovación a la industria vasca y facilitar su financiación para digitalización e investigación.",
+    "cita": "Adaptar los programas estatales de innovación y desarrollo tecnológico a las necesidades de nuestra industria, facilitando el acceso de las empresas vascas a financiación para digitalización, automatización, investigación y nuevas tecnologías.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Favorecer la modernización tecnológica de las pymes, incluida la inteligencia artificial.",
+    "cita": "Favorecer la modernización tecnológica de las pymes, apoyando la incorporación de soluciones digitales, inteligencia artificial y procesos productivos más eficientes y sostenibles.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Proteger el modelo cooperativo vasco, garantizando que la legislación estatal reconozca sus particularidades.",
+    "cita": "Proteger y promover el modelo cooperativo vasco, garantizando que la legislación estatal reconozca sus particularidades y favorezca su desarrollo, arraigo y contribución al empleo de calidad.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Reforzar el apoyo a la internacionalización de las empresas vascas.",
+    "cita": "Reforzar el apoyo a la internacionalización de las empresas vascas, facilitando su acceso a nuevos mercados, la diversificación de exportaciones y proveedores y su participación en proyectos industriales europeos.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Reducir la burocracia y eliminar duplicidades administrativas para crear y gestionar empresas.",
+    "cita": "Reducir la burocracia y eliminar duplicidades administrativas que dificultan la creación, ampliación y gestión de empresas y negocios.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Mejorar el acceso de pymes y autónomos a la financiación, reforzando las líneas del ICO y las garantías públicas.",
+    "cita": "Mejorar el acceso de pymes y personas autónomas a la financiación, reforzando las líneas del Instituto de Crédito Oficial y los instrumentos públicos de garantía para invertir, modernizar instalaciones y ampliar la actividad.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Eliminar barreras regulatorias al crecimiento de las pymes.",
+    "cita": "Eliminar barreras regulatorias al crecimiento de las pymes, favoreciendo la cooperación empresarial, los proyectos compartidos y la creación de nuevas actividades económicas.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Acercar progresivamente la protección por cese de actividad de los autónomos a la prestación por desempleo y simplificar su acceso.",
+    "cita": "Mejorar la protección de las personas autónomas cuando cesa su actividad, aproximándola progresivamente a la prestación por desempleo, simplificando los requisitos y facilitando su acceso cuando exista un cese involuntario.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Empleo y salarios",
+    "resumen": "Permitir compatibilizar temporalmente la prestación por cese de actividad con un nuevo proyecto empresarial.",
+    "cita": "Permitir la compatibilidad temporal de la prestación por cese de actividad con el inicio de un nuevo proyecto empresarial, favoreciendo que las personas autónomas puedan volver a emprender.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Facilitar el relevo generacional de empresas viables, especialmente familiares.",
+    "cita": "Facilitar el relevo generacional de empresas y negocios viables, especialmente familiares, evitando cierres por falta de continuidad y protegiendo los empleos existentes.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Facilitar que las plantillas asuman empresas viables como cooperativas o sociedades laborales capitalizando la prestación por desempleo.",
+    "cita": "Facilitar que las plantillas puedan hacerse cargo de empresas viables mediante cooperativas o sociedades laborales, utilizando para ello la capitalización de la prestación por desempleo.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Acelerar las inversiones en redes eléctricas de Euskadi para atender industria, electrificación y demanda residencial.",
+    "cita": "Acelerar las inversiones en redes eléctricas de Euskadi, garantizando capacidad suficiente para nuevas industrias, ampliaciones empresariales, electrificación y demanda residencial.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Revisar la planificación energética estatal y el Plan Nacional Integrado de Energía y Clima según las necesidades industriales.",
+    "cita": "Revisar la planificación energética estatal y el Plan Nacional Integrado de Energía y Clima, incorporando las necesidades industriales, la seguridad del suministro y la competitividad económica.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Establecer seguimiento, incentivos y penalizaciones para que las redes eléctricas planificadas no se retrasen.",
+    "cita": "Establecer mecanismos de seguimiento, incentivos y penalizaciones para garantizar la ejecución de las redes eléctricas planificadas, evitando que las inversiones aprobadas acumulen retrasos injustificados.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Agilizar el acceso y la conexión a las redes eléctricas, priorizando proyectos industriales viables.",
+    "cita": "Agilizar los procedimientos de acceso y conexión a las redes eléctricas, priorizando proyectos industriales viables y evitando la especulación con la capacidad disponible.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer el almacenamiento energético y activar mecanismos de capacidad para garantizar el suministro.",
+    "cita": "Favorecer el almacenamiento energético y activar los mecanismos de capacidad necesarios, para reforzar la estabilidad del sistema y garantizar el suministro eléctrico.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Impuestos",
+    "resumen": "Reducir de forma permanente el Impuesto Especial sobre la Electricidad al 0,5 %.",
+    "cita": "Reducir de forma permanente el Impuesto Especial sobre la Electricidad al 0,5 %, dentro de los límites permitidos por la normativa europea.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Destinar a compensar los costes indirectos del CO₂ de la industria el máximo permitido por la normativa europea.",
+    "cita": "Destinar a la compensación de los costes indirectos del CO₂ de la industria el máximo permitido por la normativa europea, contribuyendo a preservar su competitividad.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Asegurar un régimen transitorio de apoyo a la cogeneración industrial de alta eficiencia e impulsar nuevas subastas.",
+    "cita": "Asegurar un régimen transitorio de apoyo a la cogeneración industrial de alta eficiencia e impulsar nuevas subastas, favoreciendo la continuidad y modernización de las instalaciones.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Reforzar las infraestructuras de suministro y distribución de gas natural en Euskadi.",
+    "cita": "Reforzar las infraestructuras de suministro y distribución de gas natural en Euskadi, facilitando las inversiones necesarias para mejorar su capacidad operativa, garantizar la seguridad del abastecimiento y responder a las necesidades energéticas de la industria vasca.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer el biometano, el hidrógeno renovable y otros combustibles de bajas emisiones, con fiscalidad incentivadora.",
+    "cita": "Favorecer el desarrollo del biometano, el hidrógeno renovable y otros combustibles de bajas emisiones, especialmente para procesos industriales y transportes difíciles de electrificar, incluyendo una fiscalidad incentivadora.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Mantener los bonos sociales eléctrico y térmico y preservar la Tarifa de Último Recurso del gas natural.",
+    "cita": "Mantener la protección de las personas consumidoras de energía en situación de vulnerabilidad, incluidos los bonos sociales eléctrico y térmico, y preservar la Tarifa de Último Recurso del gas natural.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Culminar el restablecimiento de la Comisión Nacional de la Energía como regulador independiente.",
+    "cita": "Culminar el restablecimiento de la Comisión Nacional de la Energía como regulador independiente, reforzando la supervisión del mercado y la protección de las personas consumidoras.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer la rehabilitación energética de edificios actualizando el Código Técnico de la Edificación y con el Plan Nacional de Renovación de Edificios.",
+    "cita": "Favorecer la rehabilitación energética de edificios, mediante la actualización del Código Técnico de la Edificación y el desarrollo del Plan Nacional de Renovación de Edificios.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Facilitar el autoconsumo compartido y las comunidades energéticas reduciendo los plazos de tramitación.",
+    "cita": "Facilitar el autoconsumo compartido y las comunidades energéticas, reduciendo los plazos de tramitación y favoreciendo la generación renovable próxima al consumo.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Apoyar la electrificación de la movilidad y la climatización con ayudas e incentivos fiscales.",
+    "cita": "Apoyar la electrificación de la movilidad y la climatización, mediante programas de ayudas e incentivos fiscales compatibles con las competencias de las instituciones vascas.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer la economía circular: reparación, reciclaje y valorización de residuos.",
+    "cita": "Favorecer la economía circular y la reutilización de materiales, apoyando la reparación, el reciclaje, la valorización de residuos y su aprovechamiento en nuevos procesos industriales.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer la recuperación de suelos industriales degradados para nuevas actividades.",
+    "cita": "Favorecer la recuperación de suelos industriales degradados, facilitando su reutilización para nuevas actividades económicas y sociales.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer una estrategia de adaptación al cambio climático con financiación suficiente, priorizando la prevención de inundaciones e incendios.",
+    "cita": "Favorecer una estrategia de adaptación al cambio climático con financiación suficiente, priorizando la prevención de inundaciones, temporales, incendios y fenómenos meteorológicos extremos.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Reforzar la protección y restauración de ríos, bosques, humedales y ecosistemas marinos.",
+    "cita": "Reforzar la protección y restauración de ríos, bosques, humedales, espacios naturales y ecosistemas marinos, mejorando la conservación de la biodiversidad.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer una reforma integral de la Ley de Costas que adapte el litoral al cambio climático y respete las competencias de Euskadi.",
+    "cita": "Favorecer una reforma integral de la Ley de Costas, que aporte seguridad jurídica, permita adaptar el litoral al cambio climático y respete las competencias de Euskadi.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Que Euskadi pueda programar y ejecutar las inversiones de interés general para proteger su litoral, con sus recursos.",
+    "cita": "Promover que Euskadi pueda programar y ejecutar las inversiones de interés general destinadas a proteger su litoral, con los recursos económicos correspondientes.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer un plan de adaptación y protección de la costa vasca frente a la erosión, los temporales y la subida del mar.",
+    "cita": "Favorecer un plan de adaptación y protección de la costa vasca, frente a la erosión, los temporales, las inundaciones y la subida del nivel del mar.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Reforzar las inversiones en abastecimiento, saneamiento y depuración de aguas.",
+    "cita": "Reforzar las inversiones en abastecimiento, saneamiento y depuración de aguas, mejorando la eficiencia de las redes, la seguridad de las presas y la prevención de la contaminación.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Lograr que la PAC 2028-2034 reconozca un Plan Estratégico propio para Euskadi, gestionado desde sus instituciones.",
+    "cita": "Asegurar una Política Agraria Común 2028-2034 que reconozca un Plan Estratégico propio para Euskadi, con capacidad de gestión, programación y control desde las instituciones vascas y financiación suficiente y diferenciada.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Reforzar la protección frente a prácticas comerciales desleales y garantizar una remuneración que cubra los costes de producción.",
+    "cita": "Reforzar la protección frente a las prácticas comerciales desleales, mejorar la capacidad negociadora de personas productoras y cooperativas y garantizar una remuneración que tenga en cuenta los costes de producción.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Facilitar el relevo generacional agrario con cotizaciones reducidas para jóvenes y apoyo al acceso a la tierra.",
+    "cita": "Facilitar el relevo generacional en la agricultura y la ganadería, mediante cotizaciones reducidas para jóvenes que se incorporen al sector, medidas para la transmisión de explotaciones y apoyos al acceso a la tierra.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Impulsar condiciones comerciales equivalentes para los productos agrarios importados, con más controles y trazabilidad.",
+    "cita": "Impulsar condiciones comerciales equivalentes para los productos importados, reforzando los controles, la trazabilidad y los mecanismos de protección de los sectores más sensibles.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Asegurar financiación para la sanidad animal, los seguros agrarios y las emergencias, sin que recaiga solo en instituciones vascas y explotaciones.",
+    "cita": "Asegurar financiación para la sanidad animal, los seguros agrarios y las situaciones de emergencia, evitando que sus costes recaigan exclusivamente sobre las instituciones vascas y las explotaciones.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Proteger el futuro de Rioja Alavesa y reforzar la diferenciación de su origen en el etiquetado de los vinos.",
+    "cita": "Proteger el futuro de Rioja Alavesa, impulsando medidas de rentabilidad y comercialización y reforzando la diferenciación de su origen en el etiquetado y la identificación de los vinos.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Apoyar la modernización del sector forestal y de la industria de la madera.",
+    "cita": "Apoyar la modernización del sector forestal y de la industria de la madera, favoreciendo la gestión sostenible, la innovación y el aprovechamiento de recursos locales.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Impulsar una revisión de la Política Pesquera Común que garantice la viabilidad de la flota vasca.",
+    "cita": "Impulsar una revisión de la Política Pesquera Común que garantice la viabilidad de la flota vasca, con financiación europea suficiente y específica, estabilidad regulatoria y decisiones basadas en criterios científicos y socioeconómicos, con participación del sector pesquero.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Revisar las restricciones a la pesca de fondo en las 87 zonas afectadas por el Reglamento (UE) 2022/1614.",
+    "cita": "Revisar las restricciones europeas a la pesca de fondo en las 87 zonas del Atlántico nororiental afectadas por el Reglamento (UE) 2022/1614, incorporando evaluaciones científicas actualizadas y el conocimiento de los arrantzales.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Trabajar por un reparto justo de las cuotas pesqueras y más flexibilidad en su gestión.",
+    "cita": "Trabajar por un reparto justo de las cuotas pesqueras y mayor flexibilidad en su gestión, atendiendo a las capturas históricas y a las necesidades de las diferentes modalidades de pesca.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Facilitar la renovación de la flota pesquera vasca usando la capacidad pesquera disponible.",
+    "cita": "Facilitar la renovación de la flota pesquera vasca, utilizando la capacidad pesquera disponible (GT y kW) y mejorando la seguridad, las condiciones laborales, la eficiencia energética y la habitabilidad de los buques.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Mejorar la protección social de los trabajadores del mar, con coeficientes reductores de jubilación para autónomos de la pesca.",
+    "cita": "Mejorar la protección social de las personas trabajadoras del mar, incluyendo el reconocimiento de coeficientes reductores de jubilación para las personas autónomas de la pesca y la comercialización, y medidas específicas para las mujeres del sector.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Establecer ayudas a la pesca ante subidas extraordinarias de costes energéticos, vedas y paralizaciones.",
+    "cita": "Establecer ayudas ante incrementos extraordinarios de los costes energéticos, vedas y paralizaciones pesqueras, garantizando que lleguen a los colectivos afectados.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Combatir la pesca ilegal, exigir garantías equivalentes a las importaciones y reforzar la Ley de la Cadena Alimentaria.",
+    "cita": "Combatir la pesca ilegal y la competencia desleal, exigiendo a las importaciones garantías ambientales, laborales y sanitarias equivalentes, y reforzar la Ley de la Cadena Alimentaria para garantizar precios que cubran los costes de producción.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Apoyar el relevo generacional y la formación marítimo-pesquera.",
+    "cita": "Apoyar el relevo generacional y la formación marítimo-pesquera facilitando el acceso de las personas jóvenes a la actividad pesquera y la continuidad de las empresas del sector.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Terminar la Y vasca con un calendario verificable, respetando los accesos soterrados a Bilbao y Vitoria-Gasteiz y conectándola con Iruñea.",
+    "cita": "Terminar la Y vasca sin más demoras, con un calendario de ejecución verificable, respetando los acuerdos sobre los accesos soterrados a Bilbao y Vitoria-Gasteiz y garantizando su conexión con Iruñea.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Culminar la transferencia a Euskadi de las infraestructuras ferroviarias de cercanías que discurren íntegramente por su territorio.",
+    "cita": "Culminar la transferencia de las infraestructuras ferroviarias de cercanías que discurren íntegramente por Euskadi, para mejorar su gestión, mantenimiento, accesibilidad y coordinación con el sistema vasco de transporte.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Exigir al Ministerio de Transportes plazos vinculantes para eliminar los pasos a nivel pendientes, especialmente en Enkarterri y Zalla.",
+    "cita": "Exigir al Ministerio de Transportes que cumpla sus compromisos para eliminar los pasos a nivel pendientes, especialmente en Enkarterri y Zalla, fijando plazos vinculantes para su ejecución.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Promover el traslado del apeadero de Martutene y el nuevo viario previsto en Donostia.",
+    "cita": "Promover la ejecución del traslado del apeadero de Martutene y del nuevo viario previsto, poniendo fin a los retrasos de estas actuaciones en Donostia.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Asegurar el cumplimiento del acuerdo para construir el intercambiador de Riberas de Loiola.",
+    "cita": "Asegurar el cumplimiento del acuerdo para construir el intercambiador de Riberas de Loiola, mediante la colaboración del Estado, el Gobierno Vasco y la Diputación Foral de Gipuzkoa.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Favorecer el proyecto Vía Irun 2030 de transformación ferroviaria y urbana.",
+    "cita": "Favorecer el proyecto Vía Irun 2030, integrando la transformación ferroviaria y urbana y facilitando la liberación de los espacios ferroviarios necesarios.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Asegurar la accesibilidad universal del transporte ferroviario para personas con movilidad reducida.",
+    "cita": "Asegurar la accesibilidad universal del transporte ferroviario, eliminando barreras en estaciones y adaptando el material rodante para las personas con movilidad reducida.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Promover la ejecución de las inversiones comprometidas en el Corredor Ferroviario Atlántico.",
+    "cita": "Promover la ejecución de las inversiones comprometidas en el Corredor Ferroviario Atlántico, consolidando Euskadi como conexión ferroviaria estratégica entre la península ibérica y Europa.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Asegurar la ejecución prioritaria de la Variante Sur Ferroviaria de Bilbao.",
+    "cita": "Asegurar la ejecución prioritaria de la Variante Sur Ferroviaria de Bilbao, para reducir el tráfico de mercancías por entornos urbanos, mejorar la conexión con el Puerto de Bilbao y liberar capacidad para los servicios de viajeros.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Favorecer la Plataforma Multimodal de Jundiz como infraestructura del Corredor Atlántico.",
+    "cita": "Favorecer la Plataforma Multimodal de Jundiz, reforzando su capacidad logística y ferroviaria como infraestructura del Corredor Atlántico.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Desarrollar las conexiones ferroviarias de los puertos de Bilbao y Pasaia y del nodo logístico de Lezo-Gaintxurizketa.",
+    "cita": "Desarrollar las conexiones ferroviarias de los puertos de Bilbao y Pasaia y del nodo logístico de Lezo-Gaintxurizketa, avanzando en la interoperabilidad con la red europea.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Promover más inversión y capacidad de desarrollo para el aeropuerto de Foronda.",
+    "cita": "Promover más inversión y capacidad de desarrollo para el aeropuerto de Foronda, reforzando su actividad logística, industrial y de pasajeros, la puesta en marcha efectiva de su entorno de pruebas y su conectividad internacional.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Impulsar un modelo aeroportuario vasco coordinado, con más decisión de Euskadi sobre Bilbao, Donostia y Vitoria-Gasteiz.",
+    "cita": "Impulsar un modelo aeroportuario vasco coordinado, con mayor capacidad de decisión de Euskadi sobre la planificación, las inversiones y la conectividad de Bilbao, Donostia y Vitoria-Gasteiz, en colaboración con los aeropuertos del entorno.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Más autonomía de gestión para los puertos de Bilbao y Pasaia, y desclasificar Pasaia como puerto de interés general para transferirlo.",
+    "cita": "Asegurar mayor autonomía de gestión para los puertos de Bilbao y Pasaia, avanzando hacia su gestión integral desde Euskadi. En el caso de Pasaia, promoveremos su desclasificación como puerto de interés general para posibilitar la transferencia.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Favorecer la regeneración de la bahía de Pasaia mediante acuerdos entre instituciones.",
+    "cita": "Favorecer la regeneración de la bahía de Pasaia, mediante acuerdos entre las instituciones competentes y una planificación que integre las necesidades urbanas, portuarias y ambientales.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Mantener ayudas estables a la compra de vehículos electrificados, aplicadas directamente en el momento de la compra.",
+    "cita": "Mantener ayudas estables para la adquisición de vehículos electrificados, facilitando su aplicación directa en el momento de la compra y respetando las competencias de gestión de las instituciones vascas.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer la renovación de flotas de transporte pesado con ayudas plurianuales a vehículos de menores emisiones.",
+    "cita": "Favorecer la renovación de las flotas de transporte pesado y profesional, con ayudas plurianuales para camiones, autobuses y vehículos de menores emisiones.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Energía y clima",
+    "resumen": "Acelerar el despliegue de puntos de recarga eléctrica en corredores estratégicos y áreas industriales.",
+    "cita": "Acelerar el despliegue de puntos de recarga eléctrica, especialmente en corredores estratégicos, áreas industriales y rutas de transporte pesado.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Economía y empresas",
+    "resumen": "Modificar la Ley 15/2009 para que los costes de los peajes puedan repercutirse a los clientes del transporte.",
+    "cita": "Modificar la Ley 15/2009 para garantizar que los costes de los peajes de carretera puedan repercutirse a los clientes del transporte, evitando que recaigan exclusivamente sobre las empresas transportistas.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Impuestos",
+    "resumen": "Reforma del IVA de bienes esenciales, estudiando tipos cero o superreducidos para alimentos básicos y revisando suministros y transporte público.",
+    "cita": "Favorecer una reforma integral del IVA de los bienes y servicios esenciales, estudiando la aplicación de tipos cero o superreducidos a determinados alimentos básicos (pescado, carne, entre otros) y a productos alimenticios específicos (personas celíacas, entre otros colectivos) y la revisión de la tributación de suministros esenciales (electricidad, gas, combustibles…) y transporte público, dentro del marco europeo.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Impuestos",
+    "resumen": "Revisar el IVA cultural para favorecer la actividad de artistas y galerías.",
+    "cita": "Revisar el IVA cultural para favorecer la actividad de artistas y galerías, aprovechando las posibilidades de la normativa europea.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Revisar la normativa de estabilidad presupuestaria para dar más margen de inversión a las administraciones vascas.",
+    "cita": "Dar mayor margen de inversión a las administraciones vascas revisando la normativa de estabilidad presupuestaria, adaptándola al nuevo marco fiscal europeo y permitiendo reglas de gasto más flexibles.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Permitir que ayuntamientos, diputaciones forales y Gobierno Vasco usen sus superávits para inversiones prioritarias.",
+    "cita": "Facilitar que los ayuntamientos, las diputaciones forales y el Gobierno Vasco puedan utilizar sus superávits para inversiones prioritarias, evitando que recursos disponibles permanezcan bloqueados por restricciones generales.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Asegurar que las reformas fiscales y presupuestarias respeten el Concierto Económico y la autonomía financiera vasca.",
+    "cita": "Asegurar que las reformas fiscales y presupuestarias respeten el Concierto Económico y la autonomía financiera de las instituciones vascas, así como sus mecanismos propios de coordinación y relación con el Estado.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Impuestos",
+    "resumen": "Ampliar la capacidad normativa de las Haciendas Forales en el IVA y los Impuestos Especiales, actualizando el Concierto Económico.",
+    "cita": "Ampliar la capacidad normativa de las Haciendas Forales en el IVA y los Impuestos Especiales. Reclamar, mediante la actualización del Concierto Económico y las modificaciones legales necesarias, una mayor capacidad normativa de las instituciones competentes de los Territorios Históricos en estos impuestos, dentro de los límites de armonización establecidos por la Unión Europea, para adaptar mejor la fiscalidad a la realidad económica de Euskadi, apoyar la competitividad industrial y responder a las necesidades de las empresas y de las personas consumidoras.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Defender el reconocimiento de la Ertzaintza como policía integral de Euskadi.",
+    "cita": "Defender el reconocimiento efectivo de la Ertzaintza como policía integral de Euskadi, respetando sus competencias y garantizando su capacidad para ejercer plenamente las funciones que le corresponden.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Asegurar la participación directa de la Ertzaintza en los mecanismos europeos de cooperación policial.",
+    "cita": "Asegurar la participación directa y efectiva de la Ertzaintza en los mecanismos europeos de cooperación policial, sin intermediaciones que limiten su capacidad operativa.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Asegurar el acceso pleno y recíproco de la Ertzaintza a las bases de datos policiales europeas.",
+    "cita": "Asegurar el acceso recíproco y pleno de la Ertzaintza a las bases de datos policiales europeas, facilitando el intercambio de información con las agencias de seguridad de otros Estados.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reforzar la cooperación policial internacional contra la delincuencia organizada y transfronteriza.",
+    "cita": "Reforzar la cooperación policial internacional para prevenir y combatir la delincuencia, especialmente la organizada y transfronteriza, mediante mecanismos de intercambio de información y coordinación operativa.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Impulsar reformas legales para una respuesta judicial ágil frente a la multirreincidencia y reforzar la coordinación Ertzaintza-Justicia.",
+    "cita": "Combatir la multirreincidencia y proteger a las víctimas. Impulsar las reformas legales necesarias para garantizar una respuesta judicial ágil, eficaz y proporcionada frente a quienes cometen delitos de manera reiterada, especialmente aquellos que afectan a la seguridad de nuestros barrios, comercios y espacios públicos. Reforzar la coordinación entre la Ertzaintza y la Administración de Justicia para mejorar la prevención, evitar la reiteración delictiva y garantizar la protección de las víctimas, con pleno respeto a las garantías judiciales.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Promover más competencias para Euskadi en migración y extranjería, hacia una gestión integral.",
+    "cita": "Promover mayores competencias para Euskadi en materia de migración y extranjería, avanzando hacia una gestión integral que abarque la llegada, la acogida, la residencia, el trabajo y la integración.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Reclamar que Euskadi sea reconocida como frontera norte en la planificación migratoria, con recursos.",
+    "cita": "Reclamar que Euskadi sea reconocida y tenida en cuenta como frontera norte en la planificación y gestión migratoria, con recursos y coordinación adecuados.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Avanzar en la asunción de competencias de extranjería por la Ertzaintza.",
+    "cita": "Avanzar en la asunción de competencias de extranjería por parte de la Ertzaintza, mediante los acuerdos y modificaciones normativas necesarios.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Reforzar la planificación y coordinación de los recursos de acogida e integración.",
+    "cita": "Reforzar la planificación y coordinación de los recursos de acogida e integración, garantizando que las instituciones dispongan de medios suficientes y puedan anticipar las necesidades.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Reclamar un acuerdo Estado-instituciones vascas sobre acogida descentralizada, rechazando grandes centros como el previsto en Arana.",
+    "cita": "Un modelo de acogida coordinado y adecuado. Reclamar un acuerdo entre el Estado y las instituciones vascas que garantice la coordinación, la financiación suficiente y una atención digna a las personas solicitantes de protección internacional, priorizando un modelo de acogida descentralizado y rechazando la implantación de grandes centros como el previsto en Arana, Vitoria-Gasteiz.",
+    "pagina": 25,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Ampliar la gestión de Euskadi en los procedimientos de residencia y trabajo para reducir plazos.",
+    "cita": "Ampliar la capacidad de gestión de Euskadi en los procedimientos de residencia y trabajo, para reducir los plazos de tramitación y responder a las necesidades laborales y sociales del país.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Promover vías legales, seguras y ordenadas de migración.",
+    "cita": "Promover vías legales, seguras y ordenadas de migración, mediante una gestión planificada y respetuosa con los derechos humanos.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Favorecer la contratación en origen vinculada a las necesidades del mercado laboral vasco.",
+    "cita": "Favorecer la contratación en origen, vinculada a las necesidades del mercado laboral vasco y con garantías para las personas trabajadoras.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Avanzar en los procesos de regularización previstos en la legislación.",
+    "cita": "Avanzar en los procesos de regularización previstos en la legislación, facilitando la integración social y laboral de las personas que cumplen los requisitos establecidos.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Agilizar la homologación de titulaciones y cualificaciones profesionales extranjeras.",
+    "cita": "Agilizar la homologación y el reconocimiento de titulaciones y cualificaciones profesionales extranjeras, evitando que los trámites administrativos impidan aprovechar el talento y la formación de las personas migrantes.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Promover la mejora y agilización de los procedimientos de protección internacional y asilo.",
+    "cita": "Promover la mejora y agilización de los procedimientos de protección internacional y asilo, garantizando el acceso efectivo a los derechos y las garantías legales de las personas solicitantes.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Impulsar una política europea común de migración y asilo con distribución equilibrada de solicitantes y menores no acompañados.",
+    "cita": "Impulsar una política europea común de migración y asilo basada en la solidaridad y la responsabilidad compartida, con una distribución equilibrada de las personas solicitantes de protección internacional y de las personas menores migrantes no acompañadas.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Promover la integración social y laboral de las personas migrantes y el aprendizaje del euskera.",
+    "cita": "Promover la integración social y laboral de las personas migrantes, favoreciendo su autonomía, su participación en la sociedad vasca y el aprendizaje del euskera como herramienta de integración y convivencia.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Asegurar la aplicación de las leyes de igualdad y la perspectiva de género en las políticas públicas.",
+    "cita": "Asegurar la aplicación efectiva de las leyes de igualdad y la incorporación de la perspectiva de género en las políticas públicas, desde su elaboración hasta su evaluación.",
+    "pagina": 26,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Transponer y aplicar las Directivas europeas 2024/1499 y 2024/1500 sobre organismos de igualdad, respetando las funciones de Emakunde.",
+    "cita": "Asegurar la transposición y aplicación de las Directivas europeas 2024/1499 y 2024/1500, reforzando la independencia y capacidad de actuación de los organismos de igualdad y respetando las competencias y funciones de Emakunde.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Regular y reconocer la profesión de agente de igualdad.",
+    "cita": "Regular y reconocer la profesión de agente de igualdad, garantizando el reconocimiento de la formación universitaria especializada y la experiencia profesional acreditada.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Proteger los derechos sexuales y reproductivos de las mujeres y el acceso a los servicios sanitarios.",
+    "cita": "Proteger el ejercicio efectivo de los derechos sexuales y reproductivos de las mujeres, garantizando el acceso libre y seguro a los servicios sanitarios.",
+    "pagina": 26,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Modificar la Ley de Seguridad Ciudadana para fijar perímetros de al menos 150 metros alrededor de los centros que practican abortos.",
+    "cita": "Modificar la Ley de Seguridad Ciudadana para establecer perímetros de protección de al menos 150 metros alrededor de los centros donde se practica la interrupción voluntaria del embarazo, mediante medidas proporcionadas que impidan el acoso y protejan la intimidad y la libertad de las mujeres.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Asegurar el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género renovado en 2025.",
+    "cita": "Asegurar el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género renovado en 2025, especialmente en materia de violencia digital, económica y protección de las víctimas.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Favorecer una regulación que reconozca y defina la violencia vicaria.",
+    "cita": "Favorecer una regulación que reconozca y defina adecuadamente la violencia vicaria, garantizando su prevención y tratamiento en los sistemas de protección y atención.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar la formación obligatoria en perspectiva de género de jueces y fiscales.",
+    "cita": "Reforzar la formación obligatoria en perspectiva de género de la judicatura y la Fiscalía, mediante calendarios de aplicación y evaluaciones periódicas para prevenir estereotipos y evitar la revictimización.",
+    "pagina": 26,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Promover nuevos órganos judiciales y reforzar las secciones de Violencia sobre la Mujer en Euskadi, sobre todo en Vitoria-Gasteiz y Barakaldo.",
+    "cita": "Promover nuevos órganos judiciales especializados y reforzar las secciones de Violencia sobre la Mujer en Euskadi, especialmente en Vitoria-Gasteiz y Barakaldo, con medios humanos y materiales suficientes.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Equiparar el acceso a las ayudas estatales para víctimas de violencia de género y de violencias sexuales.",
+    "cita": "Equiparar los requisitos y condiciones de acceso a las ayudas económicas estatales para víctimas de violencia de género y de violencias sexuales, eliminando diferencias injustificadas.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Hacer compatibles las indemnizaciones judiciales por violencia machista con las pensiones no contributivas.",
+    "cita": "Asegurar la compatibilidad de las indemnizaciones judiciales por violencia machista con las pensiones no contributivas, evitando que la reparación económica perjudique el acceso a prestaciones sociales.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Reconocer y reparar a las mujeres víctimas de la dictadura, especialmente del Patronato de Protección a la Mujer.",
+    "cita": "Reconocer y reparar las vulneraciones específicas de los derechos de las mujeres durante la dictadura franquista, especialmente las sufridas por las víctimas del Patronato de Protección a la Mujer, con participación de las víctimas y de Gogora.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar la prevención, investigación y persecución de los delitos de odio contra personas LGTBIQ+.",
+    "cita": "Reforzar la prevención, investigación y persecución de los delitos de odio contra las personas LGTBIQ+, mediante formación especializada y aplicación efectiva de la legislación penal.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Exigir a las plataformas digitales cumplir el Reglamento europeo de Servicios Digitales frente a contenidos de odio.",
+    "cita": "Exigir a las plataformas digitales el cumplimiento del Reglamento europeo de Servicios Digitales, reforzando su respuesta frente a los contenidos ilícitos de odio y discriminación.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Garantizar los derechos de las personas LGTBIQ+ y proteger los avances frente a retrocesos.",
+    "cita": "Garantizar la aplicación efectiva de los derechos de las personas LGTBIQ+ y proteger los avances alcanzados frente a cualquier retroceso.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Favorecer la tipificación penal de las prácticas de conversión de la orientación sexual o la identidad de género.",
+    "cita": "Favorecer la tipificación penal específica de las prácticas de conversión o aversión dirigidas a modificar la orientación sexual, la identidad sexual o la expresión de género.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Desarrollar el artículo 50 de la Ley 4/2023 para adecuar la documentación de las personas extranjeras trans.",
+    "cita": "Asegurar el desarrollo reglamentario del artículo 50 de la Ley 4/2023, garantizando procedimientos claros para adecuar la documentación expedida en España a la identidad de género de las personas extranjeras trans.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Asegurar la elaboración de un Plan Estatal de Derechos Humanos con objetivos, plazos y seguimiento.",
+    "cita": "Asegurar la elaboración de un Plan Estatal de Derechos Humanos, con objetivos, medidas, plazos y mecanismos públicos de seguimiento y evaluación.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Impulsar la reforma de la llamada «ley mordaza».",
+    "cita": "Impulsar la reforma de la legislación conocida como «ley mordaza», eliminando las restricciones desproporcionadas al ejercicio de derechos y libertades.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Favorecer la reforma del Código Penal en los delitos de expresión sobre la Corona, las instituciones y los símbolos del Estado.",
+    "cita": "Favorecer la reforma del Código Penal en los delitos relacionados con la expresión de opiniones sobre la Corona, las instituciones y los símbolos del Estado, adecuando la legislación a los estándares europeos de libertad de expresión.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Favorecer la reforma de la Ley Orgánica del Poder Judicial para recuperar una jurisdicción universal efectiva.",
+    "cita": "Favorecer la reforma de la Ley Orgánica del Poder Judicial para recuperar una jurisdicción universal efectiva, facilitando la investigación de crímenes internacionales graves y promoviendo la ratificación de los instrumentos internacionales correspondientes.",
+    "pagina": 28,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Rechazar la prisión permanente revisable y defender un sistema penitenciario orientado a la reinserción.",
+    "cita": "Rechazar la prisión permanente revisable y defender un sistema penitenciario orientado a la reeducación y la reinserción, respetuoso con los derechos de las personas privadas de libertad.",
+    "pagina": 28,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Inmigración",
+    "resumen": "Reforzar las garantías de migrantes y solicitantes de asilo en frontera, con alternativas a los CIE.",
+    "cita": "Reforzar las garantías de las personas migrantes y solicitantes de asilo en las fronteras, promoviendo alternativas a la privación de libertad en los Centros de Internamiento de Extranjeros y la investigación de posibles vulneraciones de derechos.",
+    "pagina": 28,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Promover una política exterior comprometida con los derechos humanos y el derecho internacional.",
+    "cita": "Promover una política exterior comprometida con los derechos humanos y el derecho internacional, manteniendo una posición activa frente a las vulneraciones de derechos y las crisis humanitarias.",
+    "pagina": 28,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reforzar la cooperación internacional para el desarrollo, respetando el modelo vasco de cooperación.",
+    "cita": "Reforzar la cooperación internacional para el desarrollo, garantizando recursos suficientes y respetando la singularidad y capacidad de actuación del modelo vasco de cooperación.",
+    "pagina": 28,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Mantener el compromiso contra la pena de muerte y defender su abolición internacional.",
+    "cita": "Mantener el compromiso contra la pena de muerte, exigiendo garantías jurídicas para las personas condenadas y defendiendo su abolición internacional.",
+    "pagina": 28,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Revalorizar las pensiones anualmente conforme al IPC.",
+    "cita": "Evitar que las pensiones pierdan poder adquisitivo: revalorizarlas anualmente conforme al IPC, protegiendo su poder adquisitivo frente al incremento del coste de la vida.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Mejorar progresivamente las pensiones mínimas y no contributivas.",
+    "cita": "Mejorar progresivamente las pensiones mínimas y no contributivas, prestando especial atención a las personas con menores ingresos y en situación de vulnerabilidad.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Eliminar las penalizaciones de la jubilación anticipada para quienes tengan más de 40 años cotizados.",
+    "cita": "Eliminar las penalizaciones de la jubilación anticipada para las personas trabajadoras con más de 40 años cotizados, reconociendo las largas carreras laborales y promoviendo medidas para corregir las penalizaciones que afectan también a quienes ya están jubilados.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Reducir la brecha de género en las pensiones compensando las interrupciones laborales por cuidados.",
+    "cita": "Reducir la brecha de género en las pensiones, compensando las interrupciones laborales, las reducciones de jornada y las lagunas de cotización derivadas del cuidado de descendientes y familiares dependientes.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Reconocer en la Seguridad Social los periodos de cuidados familiares para acceder a la jubilación y calcular la pensión.",
+    "cita": "Asegurar el reconocimiento efectivo de los periodos dedicados a los cuidados familiares en la Seguridad Social, tanto para acceder a la jubilación como para calcular la cuantía de las pensiones.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Favorecer coeficientes reductores de la edad de jubilación para cuidadores no profesionales con convenio especial.",
+    "cita": "Favorecer coeficientes reductores de la edad de jubilación para las personas cuidadoras no profesionales acogidas al convenio especial de la Seguridad Social, reconociendo el desgaste físico y emocional de los cuidados prolongados.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Abogar por un sistema público de pensiones suficiente y sostenible, con acuerdos en el Pacto de Toledo.",
+    "cita": "Abogar por un sistema público de pensiones suficiente, sostenible y basado en la solidaridad entre generaciones, reforzando sus fuentes de financiación y promoviendo acuerdos estables en el marco del Pacto de Toledo.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Pensiones",
+    "resumen": "Favorecer la extensión de la previsión social de empleo como complemento, nunca sustitución, de las pensiones públicas.",
+    "cita": "Favorecer la extensión de los sistemas de previsión social de empleo, especialmente mediante la negociación colectiva y con participación de empresas y personas trabajadoras, como complemento y nunca como sustitución de las pensiones públicas.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Culminar la transferencia a Euskadi de la gestión del régimen económico de la Seguridad Social, conforme al Estatuto de Gernika.",
+    "cita": "Asegurar la culminación de la transferencia a Euskadi de la gestión del régimen económico de la Seguridad Social, conforme al Estatuto de Gernika, respetando el carácter unitario del sistema y el principio de solidaridad.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Adaptar el sistema MIR para ajustar las plazas a las necesidades reales y evitar vacantes.",
+    "cita": "Formar más especialistas sanitarios donde se necesitan, adaptando el sistema MIR para adecuar la oferta de plazas a las necesidades reales de profesionales, evitar que queden vacantes y agilizar la acreditación de nuevas unidades docentes.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Permitir valorar el conocimiento de las lenguas oficiales en el acceso a la formación sanitaria especializada.",
+    "cita": "Permitir la valoración del conocimiento de las lenguas oficiales en el acceso a la formación sanitaria especializada, en los territorios con más de una lengua oficial.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Reforzar la planificación de profesionales sanitarios.",
+    "cita": "Reforzar la planificación de profesionales sanitarios, mejorando la coordinación entre la oferta de formación especializada y las necesidades de los sistemas públicos de salud.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Asegurar la participación permanente de los Gobiernos Vasco y Navarro en los órganos estatales que autorizan y fijan precios de medicamentos.",
+    "cita": "Asegurar la participación permanente de los Gobiernos Vasco y Navarro en los órganos estatales encargados de autorizar, registrar y fijar los precios de los medicamentos, incorporando las necesidades de sus respectivos sistemas sanitarios a la toma de decisiones.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Favorecer la investigación y la atención a enfermedades raras y neurodegenerativas, incluido el Alzheimer.",
+    "cita": "Favorecer la investigación y mejorar la atención a las personas con enfermedades raras y neurodegenerativas, incluido el Alzheimer, favoreciendo el acceso a medicamentos huérfanos y tratamientos especializados.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Favorecer la regulación del uso medicinal del cannabis.",
+    "cita": "Favorecer la regulación del uso medicinal del cannabis, estableciendo las condiciones sanitarias y de seguridad necesarias para su utilización terapéutica.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Culminar las transferencias sanitarias pendientes: formación especializada, control de incapacidades laborales y sanidad exterior.",
+    "cita": "Culminar las transferencias sanitarias pendientes a Euskadi, especialmente en formación sanitaria especializada, acreditación de plazas, control sanitario de las incapacidades laborales y sanidad exterior.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Que la reforma del Estatuto Marco sanitario se negocie con profesionales, sindicatos y comunidades, con memoria económica.",
+    "cita": "Impulsar que la reforma del Estatuto Marco de las profesiones sanitarias se negocie con profesionales, sindicatos y comunidades autónomas, reconociendo la especificidad del trabajo médico y garantizando una memoria económica que permita aplicar los acuerdos.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Favorecer una solución dialogada a los conflictos laborales del ámbito sanitario.",
+    "cita": "Favorecer una solución dialogada a los conflictos laborales del ámbito sanitario, evitando que sus consecuencias recaigan sobre las personas pacientes y los servicios públicos de salud.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Prestación económica digna para cuidadores no profesionales que dejan o reducen su trabajo, tomando como referencia el salario mínimo.",
+    "cita": "Favorecer una prestación económica digna para las personas cuidadoras no profesionales que hayan abandonado su actividad laboral o reducido su jornada para atender a familiares dependientes, tomando como referencia el salario mínimo y la intensidad de los cuidados.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Revisar la normativa para compatibilizar prestaciones económicas y servicios de apoyo a los cuidados.",
+    "cita": "Revisar la normativa para facilitar la compatibilidad entre prestaciones económicas y servicios de apoyo a los cuidados, evitando que las familias tengan que renunciar a recursos necesarios.",
+    "pagina": 33,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar los servicios de apoyo, descanso y respiro para las familias cuidadoras.",
+    "cita": "Reforzar los servicios de apoyo, descanso y respiro para las familias cuidadoras, mediante la colaboración y financiación de las administraciones competentes.",
+    "pagina": 33,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Favorecer un Fondo Personal para Cuidados en la Comunidad que combine prestaciones, servicios y apoyos.",
+    "cita": "Favorecer un Fondo Personal para Cuidados en la Comunidad, que permita combinar prestaciones, servicios y apoyos de acuerdo con las necesidades de cada persona, respetando las competencias de las instituciones vascas.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Asegurar el cumplimiento íntegro y la financiación suficiente de la Ley ELA.",
+    "cita": "Asegurar el cumplimiento íntegro y la financiación suficiente de la Ley ELA, garantizando que las personas con esclerosis lateral amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible reciban las prestaciones, la atención y los apoyos reconocidos legalmente.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Promover un Real Decreto de Electrodependencia para personas que dependen de dispositivos médicos eléctricos.",
+    "cita": "Promover la aprobación de un Real Decreto de Electrodependencia, que reconozca las necesidades de las personas que utilizan dispositivos médicos eléctricos esenciales para su supervivencia.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Proteger a las personas electrodependientes frente a cortes de luz y darles acceso al bono social como consumidor vulnerable severo.",
+    "cita": "Asegurar la protección frente a cortes de suministro eléctrico de las personas electrodependientes, así como su acceso al bono social en la categoría de consumidor vulnerable severo y a bonificaciones por el consumo de los equipos médicos imprescindibles.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Evaluar cada año la prestación por cuidado de menores con cáncer u otras enfermedades graves (CUME) y corregir sus dificultades de acceso.",
+    "cita": "Evaluar anualmente la prestación por cuidado de menores afectados por cáncer u otras enfermedades graves (CUME), identificando y corrigiendo las dificultades que impiden a las familias acceder a ella.",
+    "pagina": 34,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Estudiar extender la prestación CUME al personal funcionario.",
+    "cita": "Estudiar la extensión de la prestación CUME al personal funcionario público, garantizando su compatibilidad con los permisos existentes y evitando la pérdida de derechos.",
+    "pagina": 34,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Reformar el Real Decreto 483/2025 para que el fondo de víctimas del amianto llegue a todos los beneficiarios de la Ley 21/2022.",
+    "cita": "Reformar el Real Decreto 483/2025 para corregir las dificultades de acceso al fondo, garantizando su aplicación a todos los colectivos beneficiarios previstos en la Ley 21/2022.",
+    "pagina": 34,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Revisar las cuantías de las indemnizaciones por amianto y simplificar su reconocimiento y pago.",
+    "cita": "Revisar las cuantías indemnizatorias y simplificar los procedimientos de reconocimiento y pago, eliminando obstáculos administrativos que retrasan las compensaciones.",
+    "pagina": 34,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Impuestos",
+    "resumen": "Modificar la Ley del IRPF para declarar exentas las indemnizaciones del Fondo de Compensación para las Víctimas del Amianto.",
+    "cita": "Modificar la Ley 35/2006 del IRPF para declarar exentas de tributación las indemnizaciones reconocidas por el Fondo de Compensación para las Víctimas del Amianto, evitando que las personas afectadas pierdan parte de la reparación que les corresponde.",
+    "pagina": 34,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Sanidad",
+    "resumen": "Asegurar dotación suficiente y plazos ágiles para que las indemnizaciones por amianto lleguen sin demoras.",
+    "cita": "Asegurar una dotación presupuestaria suficiente, plazos ágiles de resolución y criterios homogéneos, garantizando que las indemnizaciones lleguen a las víctimas y sus familias sin demoras ni desigualdades.",
+    "pagina": 34,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar la prevención y lucha contra la pobreza infantil, respetando las competencias vascas.",
+    "cita": "Reforzar las políticas de prevención y lucha contra la pobreza infantil, garantizando una protección adecuada a la infancia y la adolescencia en situación de vulnerabilidad y respetando las competencias de las instituciones vascas.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Asegurar la protección de la infancia frente a la violencia y la explotación.",
+    "cita": "Asegurar la protección de la infancia frente a la violencia y la explotación, reforzando la aplicación de la legislación vigente y los mecanismos de coordinación entre administraciones.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Promover órganos judiciales especializados en infancia y adolescencia en Euskadi.",
+    "cita": "Promover órganos judiciales especializados en infancia y adolescencia en Euskadi, con profesionales formados y procedimientos adaptados a sus necesidades para evitar la revictimización.",
+    "pagina": 35,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar las obligaciones de las plataformas digitales para proteger a la infancia frente al ciberacoso y la violencia sexual digital.",
+    "cita": "Reforzar las obligaciones de las plataformas digitales para proteger a la infancia, especialmente frente al ciberacoso, la violencia sexual digital y el uso indebido de datos e imágenes.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Igualdad y familia",
+    "resumen": "Favorecer mecanismos proporcionados de verificación de edad y retirada de contenidos ilícitos.",
+    "cita": "Favorecer mecanismos proporcionados de verificación de edad, denuncia y retirada de contenidos ilícitos, respetando los derechos y la privacidad de las personas menores de edad.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Apoyar una financiación suficiente del sistema público de protección social ante el envejecimiento y la dependencia.",
+    "cita": "Apoyar una financiación suficiente y sostenible del sistema público de protección social, que permita responder al envejecimiento de la población, la dependencia y las necesidades de las generaciones presentes y futuras.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Favorecer acuerdos estables entre administraciones ante los cambios demográficos, respetando las competencias de Euskadi.",
+    "cita": "Favorecer acuerdos estables entre administraciones para afrontar los cambios demográficos y las nuevas necesidades sociales, garantizando el respeto a las competencias de Euskadi y una gestión cercana de los servicios públicos.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Asegurar el cumplimiento íntegro del Estatuto de Gernika y la culminación de todas las transferencias pendientes.",
+    "cita": "Asegurar el cumplimiento íntegro del Estatuto de Gernika y la culminación de todas las transferencias pendientes, garantizando que las competencias reconocidas puedan ejercerse de forma efectiva y con los recursos correspondientes.",
+    "pagina": 38,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Rechazar cualquier recentralización o vaciamiento de las competencias vascas.",
+    "cita": "Rechazar cualquier intento de recentralización, invasión o vaciamiento de las competencias vascas, tanto mediante reformas legislativas como a través de decisiones administrativas o presupuestarias.",
+    "pagina": 38,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Establecer mecanismos bilaterales de negociación y seguimiento de los acuerdos entre Euskadi y el Estado.",
+    "cita": "Establecer mecanismos bilaterales de negociación y seguimiento de los acuerdos entre Euskadi y el Estado, que permitan verificar su cumplimiento y resolver las diferencias institucionales.",
+    "pagina": 38,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Proteger los Derechos Históricos del Pueblo Vasco y el reconocimiento nacional de Euskadi.",
+    "cita": "Proteger los Derechos Históricos del Pueblo Vasco y el reconocimiento nacional de Euskadi, como fundamento de una relación política basada en el pacto, la bilateralidad y el respeto mutuo.",
+    "pagina": 38,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Defender, con Geroa Bai, el Amejoramiento del Fuero, el Convenio Económico y las instituciones propias de Navarra.",
+    "cita": "Defender, junto a Geroa Bai, el Amejoramiento del Fuero, el Convenio Económico y las instituciones propias de Navarra, respetando su capacidad de decisión y el desarrollo de su autogobierno.",
+    "pagina": 38,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Apoyar que Trebiño y Villaverde Turtzioz se pronuncien sobre su futuro, incluida su incorporación a Euskadi.",
+    "cita": "Apoyar el derecho de la ciudadanía de Trebiño y Villaverde Turtzioz a pronunciarse democráticamente sobre su futuro, incluida, en su caso, la incorporación al territorio histórico correspondiente de Euskadi, mediante los procedimientos legales y el diálogo institucional necesarios.",
+    "pagina": 38,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Promover la modificación de la Ley del Concierto Económico y del Convenio para aumentar las capacidades financiero-fiscales.",
+    "cita": "Aumentar nuestras capacidades financiero-fiscales promoviendo la modificación de la Ley del Concierto económico y el convenio económico.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Favorecer una nueva relación política Euskadi-Estado basada en el reconocimiento de la realidad nacional vasca.",
+    "cita": "Favorecer una nueva relación política entre Euskadi y el Estado basada en el reconocimiento de la realidad nacional vasca, el respeto a la voluntad democrática de la sociedad vasca y la capacidad de decisión de sus instituciones.",
+    "pagina": 39,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Avanzar hacia un Concierto Político que traslade el pacto y la bilateralidad al ámbito institucional.",
+    "cita": "Avanzar hacia un Concierto Político que traslade los principios de pacto y bilateralidad al ámbito institucional.",
+    "pagina": 39,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Establecer mecanismos imparciales de prevención y resolución de conflictos entre Euskadi y el Estado.",
+    "cita": "Establecer mecanismos de prevención y resolución de conflictos entre Euskadi y el Estado, con garantías imparciales que impidan el incumplimiento, el vaciamiento o la modificación unilateral de los acuerdos.",
+    "pagina": 39,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reformas para que la organización judicial culmine en el Tribunal Superior de Justicia del País Vasco, salvo lo reservado al Supremo.",
+    "cita": "Favorecer las reformas necesarias para que la organización judicial culmine en el Tribunal Superior de Justicia del País Vasco, ante el que se agoten las sucesivas instancias procesales, incluidos los recursos de casación o la última instancia que proceda, con la única excepción de la jurisdicción reservada al Tribunal Supremo.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Impulsar la creación de un Consejo Vasco de Justicia con funciones de gobierno judicial en Euskadi.",
+    "cita": "Impulsar la creación de un Consejo Vasco de Justicia, con capacidad para ejercer las funciones de gobierno del Poder Judicial en Euskadi que le atribuya el nuevo marco jurídico.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Promover el reconocimiento de la Ertzaintza como Policía judicial en el ámbito vasco.",
+    "cita": "Promover el reconocimiento de la Ertzaintza como Policía judicial en el ámbito vasco, con capacidad plena para ejercer las funciones correspondientes.",
+    "pagina": 39,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Aprobar una nueva Ley de Secretos Oficiales con criterios objetivos y plazos de desclasificación automática.",
+    "cita": "Asegurar la aprobación de una nueva Ley de Secretos Oficiales, que sustituya la legislación vigente, establezca criterios objetivos de clasificación y fije plazos concretos de desclasificación automática.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Promover la desclasificación de los documentos sobre los sucesos del 3 de marzo de 1976 en Vitoria-Gasteiz.",
+    "cita": "Promover la desclasificación de los documentos oficiales relacionados con los sucesos del 3 de marzo de 1976 en Vitoria-Gasteiz, para contribuir al esclarecimiento de los hechos y al reconocimiento y reparación de las víctimas.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Asegurar el esclarecimiento de la muerte de Mikel Zabalza facilitando el acceso a la documentación oficial.",
+    "cita": "Asegurar el esclarecimiento de las circunstancias de la muerte de Mikel Zabalza, facilitando el acceso a la documentación oficial que pueda contribuir a conocer la verdad.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Promover la desclasificación de la documentación sobre el atentado del bar Aldana de Alonsotegi, de 1980.",
+    "cita": "Promover la desclasificación de la documentación relacionada con el atentado del bar Aldana de Alonsotegi, ocurrido el 20 de enero de 1980, y el esclarecimiento de los hechos y las responsabilidades correspondientes.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Asegurar el acceso a la documentación oficial sobre la actuación policial en los Sanfermines de 1978.",
+    "cita": "Asegurar el acceso a la documentación oficial sobre la actuación policial durante los Sanfermines de 1978, para avanzar en el conocimiento de la verdad y la reparación de las víctimas.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Seguridad y justicia",
+    "resumen": "Promover la aplicación íntegra de la legislación de Memoria Histórica y Memoria Democrática.",
+    "cita": "Promover la aplicación íntegra de la legislación de Memoria Histórica y Memoria Democrática, garantizando los derechos a la verdad, la justicia y la reparación de las víctimas de la Guerra Civil y la dictadura franquista.",
+    "pagina": 40,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Reforzar la transparencia y la rendición de cuentas de las administraciones públicas.",
+    "cita": "Reforzar la transparencia y la rendición de cuentas de las administraciones públicas, garantizando el acceso de la ciudadanía a información comprensible sobre sus decisiones, presupuestos y resultados.",
+    "pagina": 40,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Asegurar la participación directa de Euskadi en las instituciones de la UE en materias de su competencia.",
+    "cita": "Asegurar la participación directa y efectiva de Euskadi en las instituciones de la Unión Europea, especialmente en aquellas decisiones relacionadas con sus competencias.",
+    "pagina": 41,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Impulsar la voz propia de Euskadi en el Consejo de la UE, en particular en ECOFIN y Justicia y Asuntos de Interior.",
+    "cita": "Impulsar la presencia con voz propia de Euskadi en las distintas formaciones del Consejo de la Unión Europea, particularmente en el Consejo ECOFIN y en el Consejo de Justicia y Asuntos de Interior, cuando se aborden materias vinculadas a nuestras competencias.",
+    "pagina": 41,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Favorecer el reconocimiento y la representación de las realidades nacionales en las instituciones europeas.",
+    "cita": "Favorecer el reconocimiento y la representación de las realidades nacionales en las instituciones europeas, incluido el Parlamento Europeo.",
+    "pagina": 41,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Promover la oficialidad del euskera, el catalán y el gallego en la Unión Europea.",
+    "cita": "Promover la oficialidad del euskera, el catalán y el gallego en la Unión Europea, garantizando su presencia y utilización efectiva en las instituciones comunitarias.",
+    "pagina": 41,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Apoyar una Europa más democrática, competitiva y social, con autonomía estratégica.",
+    "cita": "Apoyar una Europa más democrática, competitiva y social, capaz de reforzar su autonomía estratégica, proteger su industria y responder a los desafíos tecnológicos, energéticos y climáticos.",
+    "pagina": 41,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Favorecer la creación de una Macrorregión Atlántica Europea.",
+    "cita": "Favorecer la creación de una Macrorregión Atlántica Europea, para reforzar la cooperación en infraestructuras ferroviarias y energéticas, industria, digitalización, pesca, economía azul, sostenibilidad y relaciones con el Reino Unido.",
+    "pagina": 41,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Otros",
+    "resumen": "Asegurar el cumplimiento de los plazos de las redes transeuropeas de transporte, sobre todo las conexiones ferroviarias transfronterizas.",
+    "cita": "Asegurar el cumplimiento de los plazos de las redes transeuropeas de transporte, especialmente en las conexiones ferroviarias transfronterizas que unen Euskadi con el resto de Europa.",
+    "pagina": 41,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Defensa y política exterior",
+    "resumen": "Asegurar la participación de Euskadi en la elaboración y gestión del Marco Financiero Plurianual europeo 2028-2034.",
+    "cita": "Asegurar la participación efectiva de Euskadi en la elaboración y gestión del Marco Financiero Plurianual europeo 2028-2034, interviniendo en la definición de prioridades, el reparto de recursos y la toma de decisiones.",
+    "pagina": 41,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Impulsar la gestión descentralizada de los fondos europeos, evitando su recentralización por el Estado.",
+    "cita": "Impulsar la gestión descentralizada de los fondos europeos, respetando las competencias de las instituciones vascas y evitando su recentralización por parte del Estado.",
+    "pagina": 41,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Asegurar que Euskadi participe directamente en la programación, ejecución y seguimiento de los fondos europeos que le afecten.",
+    "cita": "Asegurar que Euskadi participe directamente en los mecanismos de programación, ejecución y seguimiento de los fondos europeos que afecten a sus ámbitos competenciales.",
+    "pagina": 42,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "EAJ-PNV",
+    "tema": "Modelo territorial",
+    "resumen": "Promover una financiación europea adecuada a las prioridades de Euskadi.",
+    "cita": "Promover una financiación europea adecuada para las prioridades industriales, energéticas, tecnológicas, sociales y territoriales de Euskadi, garantizando que las decisiones sobre los recursos respondan a las necesidades de nuestro país.",
+    "pagina": 42,
+    "concreta": false,
+    "revisada": false
   }
 ]
