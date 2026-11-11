@@ -194,17 +194,19 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   <h2>¿Y si cambian los votos?</h2>
   <p class="suave">Mueve votos de una candidatura a otra y mira cómo quedarían los {p.escanos2026} escaños de 2026, partiendo de los votos de 2023.</p>
 
-  <div class="simulador" data-datos={JSON.stringify(datos)}>
+  <div class="simulador" data-simulador data-datos={JSON.stringify(datos)}>
     <div class="controles">
-      <label>De <span class="desplegable"><select name="de">{principales.map((c, i) => <option value={i} selected={i === 0}>{c.siglas}</option>)}</select></span></label>
-      <label>a <span class="desplegable"><select name="a">{principales.map((c, i) => <option value={i} selected={i === 1}>{c.siglas}</option>)}</select></span></label>
+      <label>Quitar votos a <span class="desplegable"><select name="de">{principales.map((c, i) => <option value={i} selected={i === 0}>{c.siglas}</option>)}</select></span></label>
+      <label>y dárselos a <span class="desplegable"><select name="a">{principales.map((c, i) => <option value={i} selected={i === 1}>{c.siglas}</option>)}</select></span></label>
     </div>
     <label class="deslizador">
-      <span>Mover <strong class="cifra" data-pct>0 %</strong> de sus votos <span class="suave cifra" data-votos></span></span>
-      <input type="range" name="pct" min="0" max="30" step="1" value="0" />
+      <span class="deslizador-texto"><span>Porcentaje de sus votos</span><strong class="cifra" data-pct>0 %</strong></span>
+      <input type="range" name="pct" min="0" max="50" step="1" value="0" />
+      <span class="suave cifra votos-movidos" data-votos>Ningún voto cambia todavía.</span>
     </label>
     <div class="escanos" data-escanos role="img" aria-label="Reparto simulado de escaños"></div>
-    <p class="cambio suave" data-cambio aria-live="polite">Mueve el control para ver si cambia algún escaño.</p>
+    <ul class="reparto" data-reparto aria-live="polite"></ul>
+    <p class="cambio" data-cambio aria-live="polite"></p>
   </div>
   <p class="suave nota">Reparto por la ley D'Hondt con mínimo del 3 % (art. 163 de la LOREG).</p>
 
@@ -221,52 +223,76 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   }
 
   function iniciar() {
-    const el = document.querySelector<HTMLElement>('.simulador');
+    const el = document.querySelector<HTMLElement>('[data-simulador]');
     if (!el) return;
     const datos: Datos = JSON.parse(el.dataset.datos!);
     const de = el.querySelector<HTMLSelectElement>('[name=de]')!;
     const a = el.querySelector<HTMLSelectElement>('[name=a]')!;
     const rango = el.querySelector<HTMLInputElement>('[name=pct]')!;
     const caja = el.querySelector<HTMLElement>('[data-escanos]')!;
+    const lista = el.querySelector<HTMLElement>('[data-reparto]')!;
     const cambio = el.querySelector<HTMLElement>('[data-cambio]')!;
     const fmt = (x: number) => x.toLocaleString('es-ES');
 
-    const reparto = (votos: number[]) =>
-      repartir(votos.map((v, i) => ({ id: String(i), votos: v })), datos.escanos, datos.votosValidos);
+    const reparto = (votos: number[]) => repartir(votos.map((v, i) => ({ id: String(i), votos: v })), datos.escanos, datos.votosValidos);
     const base = reparto(datos.candidaturas.map((c) => c.votos));
+    const escanosBase = (k: number) => base.get(String(k)) ?? 0;
 
     function pintar() {
       const i = Number(de.value);
       const j = Number(a.value);
-      const movidos = i === j ? 0 : Math.round((datos.candidaturas[i].votos * Number(rango.value)) / 100);
+      const pct = Number(rango.value);
+      const movidos = Math.round((datos.candidaturas[i].votos * pct) / 100);
       const votos = datos.candidaturas.map((c, k) => c.votos - (k === i ? movidos : 0) + (k === j ? movidos : 0));
       const r = reparto(votos);
+      const escanos = (k: number) => r.get(String(k)) ?? 0;
 
-      el!.querySelector('[data-pct]')!.textContent = `${rango.value} %`;
-      el!.querySelector('[data-votos]')!.textContent = movidos ? `(${fmt(movidos)} votos)` : '';
-      rango.setAttribute('aria-valuetext', `${rango.value} % de los votos de ${datos.candidaturas[i].siglas}${movidos ? `, ${fmt(movidos)} votos` : ''}`);
+      el!.querySelector('[data-pct]')!.textContent = `${pct} %`;
+      rango.style.setProperty('--p', `${(pct / Number(rango.max)) * 100}%`);
+      el!.querySelector('[data-votos]')!.textContent = movidos
+        ? `${fmt(movidos)} votos pasan de ${datos.candidaturas[i].siglas} a ${datos.candidaturas[j].siglas}.`
+        : 'Ningún voto cambia todavía.';
+      rango.setAttribute('aria-valuetext', `${pct} % de los votos de ${datos.candidaturas[i].siglas}${movidos ? `, ${fmt(movidos)} votos` : ''}`);
 
-      const asientos = datos.candidaturas.flatMap((c, k) => Array.from({ length: r.get(String(k))! }, () => c));
+      // Puntos de escaños, en el mismo orden de partidos
+      const asientos = datos.candidaturas.flatMap((c, k) => Array.from({ length: escanos(k) }, () => c));
       const puntos = [...caja.children] as HTMLElement[];
       asientos.forEach((c, k) => {
         const s = puntos[k] ?? caja.appendChild(document.createElement('span'));
         s.style.setProperty('--c', c.color);
         s.title = c.siglas;
       });
+      caja.setAttribute('aria-label', `Reparto simulado: ${datos.candidaturas.map((c, k) => `${c.siglas} ${escanos(k)}`).join(', ')}`);
 
-      caja.setAttribute('aria-label', `Reparto simulado: ${datos.candidaturas.map((c, k) => `${c.siglas} ${r.get(String(k))}`).join(', ')}`);
+      // Escaños de cada candidatura: los de 2023 y los simulados
+      lista.replaceChildren(
+        ...datos.candidaturas
+          .map((c, k) => ({ c, k, antes: escanosBase(k), ahora: escanos(k) }))
+          .filter((x) => x.antes > 0 || x.ahora > 0 || x.k === i || x.k === j)
+          .map((x) => {
+            const li = document.createElement('li');
+            const d = x.ahora - x.antes;
+            li.className = d > 0 ? 'gana' : d < 0 ? 'pierde' : '';
+            li.innerHTML = `<span class="nombre"><span class="punto" style="--c:${x.c.color}"></span></span><span class="cifra num"></span><span class="cifra dif"></span>`;
+            li.querySelector('.nombre')!.append(x.c.siglas);
+            li.querySelector('.num')!.textContent = String(x.ahora);
+            li.querySelector('.dif')!.textContent = d === 0 ? '' : `${d > 0 ? '+' : ''}${d}`;
+            return li;
+          }),
+      );
 
-      const cambios = datos.candidaturas
-        .map((c, k) => ({ siglas: c.siglas, d: r.get(String(k))! - base.get(String(k))! }))
-        .filter((c) => c.d !== 0);
-      cambio.textContent = cambios.length
-        ? cambios.map((c) => `${c.siglas} ${c.d > 0 ? '+' : ''}${c.d}`).join(' · ')
-        : movidos
-          ? 'Con este cambio, el reparto sería el mismo.'
-          : 'Mueve el control para ver si cambia algún escaño.';
+      const cambian = datos.candidaturas.some((_, k) => escanos(k) !== escanosBase(k));
+      cambio.textContent = !movidos ? 'Mueve el control para pasar votos.' : cambian ? 'Con este cambio, el reparto sería distinto.' : 'Con este cambio, el reparto sería el mismo.';
     }
 
-    [de, a, rango].forEach((c) => c.addEventListener('input', pintar));
+    // No se pueden pasar votos a la misma candidatura: se elige otra automáticamente
+    const distinta = (fija: HTMLSelectElement, otra: HTMLSelectElement) => {
+      if (fija.value === otra.value) otra.value = String((Number(fija.value) + 1) % datos.candidaturas.length);
+    };
+    de.addEventListener('change', () => (distinta(de, a), pintar()));
+    a.addEventListener('change', () => (distinta(a, de), pintar()));
+    rango.addEventListener('input', pintar);
+    rango.addEventListener('change', pintar);
     pintar();
   }
 
@@ -309,7 +335,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   .local { margin: 16px 0 0; }
   .local strong { font-weight: 600; }
 
-  .simulador { margin-top: 24px; padding: 24px; background: var(--resalte); border-radius: 14px; }
+  .simulador { margin-top: 24px; padding: 20px 16px; background: var(--resalte); border-radius: 14px; }
   .controles { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   .controles label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--suave); }
   .controles .desplegable, .controles select { width: 100%; max-width: none; }
@@ -331,40 +357,56 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
     appearance: none;
     -webkit-appearance: none;
     font: inherit;
-    font-size: 15px;
+    font-size: 16px;
     color: var(--tinta);
     background: var(--papel);
     border: 1px solid var(--linea);
     border-radius: 10px;
-    height: 44px;
-    padding: 0 40px 0 14px;
+    height: 46px;
+    padding: 0 36px 0 14px;
     min-width: 0;
     cursor: pointer;
     transition: border-color 0.15s;
   }
   select:hover { border-color: var(--suave); }
-  .deslizador { display: flex; flex-direction: column; gap: 14px; margin: 24px 0 8px; }
-  /* Deslizador: pista fina y tirador grande, fácil de usar con el dedo */
+  .deslizador { display: flex; flex-direction: column; gap: 8px; margin: 22px 0 4px; }
+  .deslizador-texto { display: flex; justify-content: space-between; align-items: baseline; font-size: 14px; }
+  .deslizador-texto strong { font-family: var(--serif); font-weight: 400; font-size: 30px; line-height: 1; }
+  .votos-movidos { font-size: 13px; min-height: 1.4em; }
+  /* Deslizador: pista con la parte recorrida en tinta y tirador grande, fácil de usar con el dedo */
   input[type='range'] {
     -webkit-appearance: none;
     appearance: none;
     width: 100%;
-    height: 24px;
+    height: 36px;
+    margin: 0;
     background: transparent;
     cursor: pointer;
+    touch-action: pan-y;
   }
-  input[type='range']::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: var(--linea); }
-  input[type='range']::-moz-range-track { height: 4px; border-radius: 2px; background: var(--linea); }
+  input[type='range']::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: linear-gradient(to right, var(--tinta) var(--p, 0%), var(--linea) var(--p, 0%)); }
+  input[type='range']::-moz-range-track { height: 6px; border-radius: 3px; background: var(--linea); }
+  input[type='range']::-moz-range-progress { height: 6px; border-radius: 3px; background: var(--tinta); }
   input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 24px;
-    height: 24px;
-    margin-top: -10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -12px;
     border-radius: 50%;
-    background: var(--tinta);
-    border: 3px solid var(--resalte);
+    background: var(--papel);
+    border: 2px solid var(--tinta);
   }
-  input[type='range']::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: var(--tinta); border: 3px solid var(--resalte); }
-  .cambio { margin: 0; min-height: 1.5em; }
+  input[type='range']::-moz-range-thumb { width: 26px; height: 26px; border-radius: 50%; background: var(--papel); border: 2px solid var(--tinta); }
+  .simulador .escanos { margin: 16px 0 12px; }
+  .reparto { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); }
+  .reparto :global(li) { display: grid; grid-template-columns: 1fr auto 36px; gap: 8px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--linea); font-size: 15px; }
+  .reparto :global(.nombre) { display: flex; align-items: center; overflow-wrap: anywhere; }
+  .reparto :global(.num) { text-align: right; font-weight: 600; }
+  .reparto :global(.dif) { text-align: right; font-size: 13px; font-weight: 600; }
+  .reparto :global(.pierde .dif) { color: var(--suave); }
+  .reparto :global(li) { transition: background-color 0.3s ease; }
+  .reparto :global(li.gana), .reparto :global(li.pierde) { background: var(--papel); margin-inline: -8px; padding-inline: 8px; }
+  .reparto :global(.punto) { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; }
+  .cambio { margin: 10px 0 0; min-height: 1.5em; font-size: 14px; }
   .nota { font-size: 13px; margin: 12px 0 0; }
 </style>

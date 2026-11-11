@@ -37,7 +37,7 @@ Decide tú lo mecánico, pero no apliques en bloque lo que proponga un agente si
 1. `npm test` comprueba cada cita contra el texto y la coherencia de los datos.
 2. Prepara una muestra de 15 propuestas por formación, repartidas por tema, para Diego.
 3. Solo con su visto bueno marca `revisada: true`.
-4. Actualiza `src/data/revision.json` y comprueba que se ve en producción.
+4. Comprueba que se ve en producción.
 
 ## 5. Al terminar
 

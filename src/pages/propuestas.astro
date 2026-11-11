@@ -65,7 +65,7 @@ const fuenteDe = (siglas: string) => {
   ) : (
     <>
       <div class="filtros">
-        <nav class="temas" aria-label="Elegir tema" data-temas>
+        <nav class="temas" aria-label="Elegir tema" data-filtro-propuestas>
           {temas.map((t, i) => <button type="button" aria-pressed={String(i === 0)} data-tema={t}>{t}</button>)}
         </nav>
         <nav class="partidos" aria-label="Elegir formaciones" data-partidos>
@@ -88,7 +88,7 @@ const fuenteDe = (siglas: string) => {
         </div>
       </div>
       <p class="sin-programa suave" data-sin-programa data-formaciones={JSON.stringify(totales)}></p>
-      <div class="comparador" tabindex="0" aria-label="Propuestas por formación">
+      <div class="comparador" aria-label="Propuestas por formación">
         {conPropuestas.map((partido) => (
           <section class="columna" data-partido={partido.siglas} data-provincias={dondeSePresenta(partido.corto).join(' ')}>
             <header>
@@ -159,7 +159,7 @@ const fuenteDe = (siglas: string) => {
 <script>
   const VISIBLES = 3;
   function iniciar() {
-    const nav = document.querySelector<HTMLElement>('[data-temas]');
+    const nav = document.querySelector<HTMLElement>('[data-filtro-propuestas]');
     if (!nav) return;
     const botones = [...nav.querySelectorAll<HTMLButtonElement>('button')];
     const selector = document.querySelector<HTMLSelectElement>('[data-provincia]')!;
@@ -275,22 +275,15 @@ const fuenteDe = (siglas: string) => {
   .desplegable { position: relative; display: inline-flex; }
   .desplegable::after { content: ''; position: absolute; right: 14px; top: 50%; width: 7px; height: 7px; border-right: 1.5px solid var(--tinta); border-bottom: 1.5px solid var(--tinta); transform: translateY(-70%) rotate(45deg); pointer-events: none; }
   .desplegable select { appearance: none; font: inherit; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 7px 34px 7px 14px; cursor: pointer; }
-  .comparador {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x proximity;
-    margin-inline: -20px;
-    padding-inline: 20px;
-    scroll-padding-inline: 20px;
-    border-top: 1px solid var(--tinta);
-  }
-  .columna { flex: 0 0 min(80vw, 300px); padding: 14px 14px 8px; scroll-snap-align: start; min-width: 0; }
-  .columna + .columna { border-left: 1px solid var(--linea); }
+  /* Una formación debajo de otra: en el móvil se lee de arriba abajo, sin desplazarse de lado */
+  .comparador { display: grid; grid-template-columns: 1fr; column-gap: 32px; border-top: 1px solid var(--tinta); }
+  .columna { padding: 16px 0 8px; min-width: 0; }
+  .columna + .columna { border-top: 1px solid var(--linea); }
   .columna[hidden], .columna li[hidden] { display: none; }
-  .columna header { padding-bottom: 10px; border-bottom: 1px solid var(--linea); }
+  .columna header { padding-bottom: 6px; }
   .columna h2 { font-size: 22px; line-height: 1.15; margin: 0; display: flex; align-items: baseline; }
   .columna ul { list-style: none; margin: 0; padding: 0; }
-  .columna li { padding: 14px; margin-inline: -14px; }
+  .columna li { padding: 12px; margin-inline: -12px; border-radius: 10px; }
   .columna li.alterna { background: var(--resalte); }
   .resumen { margin: 0 0 8px; font-size: 15px; line-height: 1.4; }
   .tipo { display: inline-block; font-size: 12px; color: var(--suave); margin-right: 8px; }
@@ -323,7 +316,7 @@ const fuenteDe = (siglas: string) => {
     .temas, .partidos { display: flex; flex-wrap: wrap; overflow: visible; margin-inline: 0; }
     .temas { padding: 0; }
     .partidos { padding: 12px 0 0; }
-    .columna { flex: 1 0 236px; }
-    .comparador { margin-inline: 0; padding-inline: 0; }
+    .comparador { grid-template-columns: 1fr 1fr; border-top: 0; }
+    .columna, .columna + .columna { border-top: 1px solid var(--tinta); }
   }
 </style>

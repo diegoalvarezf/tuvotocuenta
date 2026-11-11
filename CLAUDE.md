@@ -20,9 +20,9 @@ Claro, limpio, moderno y fluido; que no parezca hecho con IA:
 - Tema claro por defecto (fondo papel) con botón para pasar a oscuro; la elección se guarda en el navegador.
 - Cada dato visible lleva su fuente enlazada (componente `Fuente`, registro en `src/lib/fuentes.ts`). Si es un cálculo propio, se indica y se citan los datos de origen.
 
-## Revisión de datos
+## Fecha de actualización
 
-Cada vez que se revisen las fuentes oficiales (BOE, datos abiertos del Congreso, programas), actualizar `src/data/revision.json` con la fecha de esa revisión, haya o no cambios. Se muestra en el pie de todas las páginas.
+Solo arriba, en la cabecera, con fecha y hora: es la de la publicación (cada push genera la web de nuevo).
 
 ## Programas
 

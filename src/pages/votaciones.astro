@@ -7,7 +7,7 @@ import pendientes from '../data/decretos-pendientes.json';
 import decretos from '../data/decretos.json';
 import programas2023 from '../data/programas-2023.json';
 import citas2023 from '../data/votaciones-programas-2023.json';
-import { color, colorGrupo } from '../lib/partidos';
+import { color, colorGrupo, nombreGrupo } from '../lib/partidos';
 
 const n = (x: number) => x.toLocaleString('es-ES');
 const fecha = (f: string) =>
@@ -15,6 +15,10 @@ const fecha = (f: string) =>
 // Citas de los programas de 2023 relacionadas con cada votación (clave: fichero de la votación)
 const citasDe = (id: string) => (citas2023 as Record<string, { partido: keyof typeof programas2023; pagina: number; cita: string }[]>)[id.replace('-', '/') + '.json'] ?? [];
 const VOTO: Record<string, string> = { si: 'Sí', no: 'No', abstencion: 'Abstención', noVota: 'No vota', dividido: 'Dividido' };
+// Grupos agrupados por lo que votó la mayoría de sus diputados
+const SENTIDOS = ['si', 'no', 'abstencion', 'dividido', 'noVota'];
+const porSentido = (grupos: (typeof votaciones)[number]['grupos']) =>
+  SENTIDOS.map((s) => ({ sentido: s, grupos: grupos.filter((g) => g.sentido === s) })).filter((x) => x.grupos.length > 0);
 const temas = [...new Set(votaciones.map((v) => v.tema))].sort((a, b) => a.localeCompare(b, 'es'));
 const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
 const derogados = decretos.filter((d) => d.resultado === 'derogado');
@@ -44,7 +48,6 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
     </ul>
   </details>
 
-  <Coincidencias />
 
   {pendientes.some((d) => !d.resultado) && (
     <section class="pendientes" aria-labelledby="pendientes-titulo">
@@ -54,6 +57,8 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
         que debe decidir en los 30 días siguientes si se mantienen o se derogan.
       </p>
       <Fuente de="constitucion" detalle="arts. 78.2 y 86.2" />
+      <details>
+      <summary>Ver los {pendientes.filter((d) => !d.resultado).length} decretos pendientes</summary>
       <ul>
         {pendientes.filter((d) => !d.resultado).map((d) => (
           <li>
@@ -68,10 +73,12 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
           </li>
         ))}
       </ul>
+      </details>
     </section>
   )}
 
-  <nav class="temas" aria-label="Filtrar por tema" data-temas>
+  <h2 class="titulo-lista" id="lista">Las votaciones</h2>
+  <nav class="temas" aria-label="Filtrar por tema" data-filtro-votaciones>
     <button type="button" aria-pressed="true" data-tema="">Todas</button>
     {temas.map((t) => <button type="button" aria-pressed="false" data-tema={t}>{t}</button>)}
   </nav>
@@ -123,8 +130,10 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 
         <div class="resultado">
           <p class="gana">Ganó el <strong>{v.gana === 'si' ? 'sí' : 'no'}</strong></p>
-          <p class="cifras cifra suave">
-            {n(v.totales.si)} sí · {n(v.totales.no)} no · {n(v.totales.abstencion)} abstenciones
+          <p class="cifras cifra">
+            <span><strong>{n(v.totales.si)}</strong> sí</span>
+            <span><strong>{n(v.totales.no)}</strong> no</span>
+            <span><strong>{n(v.totales.abstencion)}</strong> abst.</span>
           </p>
           <div class="barra" role="img" aria-label={`${v.totales.si} sí, ${v.totales.no} no, ${v.totales.abstencion} abstenciones`}>
             <span class="si" style={`flex:${v.totales.si}`}></span>
@@ -134,17 +143,21 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
           <p class="significa">Votar sí era <strong>{v.siSignifica}</strong>.</p>
         </div>
 
-        <ul class="grupos">
-          {v.grupos.map((g) => (
-            <li>
-              <span class="grupo"><span class="punto" style={`--c:${colorGrupo(g.codigo)}`}></span>{g.nombre}</span>
-              <span class:list={['voto', g.sentido]}>{VOTO[g.sentido]}</span>
-              <span class="detalle suave cifra">
-                {[g.si && `${g.si} sí`, g.no && `${g.no} no`, g.abstencion && `${g.abstencion} abst.`, g.noVota && `${g.noVota} no votan`].filter(Boolean).join(' · ')}
-              </span>
-            </li>
+        <dl class="sentidos">
+          {porSentido(v.grupos).map((x) => (
+            <div>
+              <dt class:list={['voto', x.sentido]}>{VOTO[x.sentido]}</dt>
+              <dd>
+                <ul>
+                  {x.grupos.map((g) => (
+                    <li><span class="punto" style={`--c:${colorGrupo(g.codigo)}`}></span>{nombreGrupo(g.nombre)}</li>
+                  ))}
+                </ul>
+              </dd>
+            </div>
           ))}
-        </ul>
+        </dl>
+        <p class="sentidos-nota suave">Cada grupo aparece en lo que votó la mayoría de sus diputados.</p>
 
         {citasDe(v.id).length > 0 && (
           <section class="programa2023">
@@ -163,10 +176,20 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
           </section>
         )}
 
-        <details class="mixto">
-          <summary>Grupo Mixto, diputado a diputado</summary>
-          <p class="suave">El Mixto reúne a diputados de varias formaciones, así que mostramos el voto de cada uno.</p>
-          <ul>
+        <details class="desglose">
+          <summary>Votos de cada grupo, diputado a diputado en el Mixto</summary>
+          <ul class="grupos">
+            {v.grupos.map((g) => (
+              <li>
+                <span class="grupo"><span class="punto" style={`--c:${colorGrupo(g.codigo)}`}></span>{nombreGrupo(g.nombre)}</span>
+                <span class="detalle suave cifra">
+                  {[g.si && `${g.si} sí`, g.no && `${g.no} no`, g.abstencion && `${g.abstencion} abst.`, g.noVota && `${g.noVota} no votan`].filter(Boolean).join(' · ')}
+                </span>
+              </li>
+            ))}
+          </ul>
+          <p class="suave mixto-nota">El Grupo Mixto reúne a diputados de varias formaciones:</p>
+          <ul class="mixto">
             {v.mixto.map((d) => (
               <li><span>{d.diputado}</span><span class="suave">{VOTO[d.voto]}</span></li>
             ))}
@@ -191,6 +214,8 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
       </li>
     ))}
   </ol>
+
+  <Coincidencias />
 
   <section class="glosario" id="como-leer">
     <h2>Cómo leer estas votaciones</h2>
@@ -225,11 +250,25 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 </Base>
 
 <script>
+  // Con las transiciones entre páginas, los scripts de todas las páginas visitadas siguen escuchando:
+  // cada uno busca su propio elemento y deja de escuchar al salir de la página
+  let salir: AbortController | undefined;
+
   function iniciar() {
-    const nav = document.querySelector<HTMLElement>('[data-temas]');
+    salir?.abort();
+    const nav = document.querySelector<HTMLElement>('[data-filtro-votaciones]');
     if (!nav) return;
-    const botones = nav.querySelectorAll<HTMLButtonElement>('button');
-    const items = document.querySelectorAll<HTMLElement>('.votacion');
+    salir = new AbortController();
+    const { signal } = salir;
+    document.addEventListener('astro:before-swap', () => salir?.abort(), { once: true, signal });
+
+    const botones = [...nav.querySelectorAll<HTMLButtonElement>('button')];
+    const items = [...document.querySelectorAll<HTMLElement>('.votacion')];
+    const pildora = document.querySelector<HTMLButtonElement>('[data-burbuja]')!;
+    const posicion = pildora.querySelector('[data-posicion]')!;
+    const panel = document.querySelector<HTMLDialogElement>('[data-panel]')!;
+    const visibles = () => items.filter((li) => !li.hidden);
+
     botones.forEach((b) =>
       b.addEventListener('click', () => {
         const tema = b.dataset.tema;
@@ -237,15 +276,20 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
         items.forEach((li) => (li.hidden = !!tema && li.dataset.tema !== tema));
         // Los índices muestran solo las votaciones del tema elegido
         document.querySelectorAll<HTMLElement>('.panel li, .indice-lateral li').forEach((li) => (li.hidden = !!tema && li.dataset.tema !== tema));
+        posicion.textContent = `1 de ${visibles().length}`;
+        // Si la lista ya se había pasado, se vuelve a su principio para ver el resultado del filtro
+        const titulo = document.getElementById('lista')!;
+        if (titulo.getBoundingClientRect().top < 0) titulo.scrollIntoView();
       }),
     );
 
-    // Móvil: píldora flotante que indica la posición y abre el índice; aparece al pasar los filtros
-    const pildora = document.querySelector<HTMLButtonElement>('[data-burbuja]')!;
-    const posicion = pildora.querySelector('[data-posicion]')!;
-    const panel = document.querySelector<HTMLDialogElement>('[data-panel]')!;
-    const mostrar = () => pildora.classList.toggle('visible', nav.getBoundingClientRect().bottom < 0);
-    window.addEventListener('scroll', mostrar, { passive: true });
+    // Móvil: píldora flotante que indica la posición y abre el índice; solo mientras se recorre la lista
+    const lista = document.querySelector<HTMLElement>('.lista')!;
+    const mostrar = () => {
+      const r = lista.getBoundingClientRect();
+      pildora.classList.toggle('visible', r.top < innerHeight * 0.5 && r.bottom > innerHeight * 0.6);
+    };
+    addEventListener('scroll', mostrar, { passive: true, signal });
     mostrar();
 
     const cerrar = () => {
@@ -290,20 +334,21 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
       }),
     );
 
-    // Votación que se está leyendo: se marca en los dos índices y en la píldora («5 de 17»)
+    // Votación que se está leyendo: se marca en los dos índices y en la píldora («5 de 27»)
     const enlaces = [...document.querySelectorAll<HTMLAnchorElement>('.indice-lateral a, .panel a[data-indice]')];
     const observador = new IntersectionObserver(
       (entradas) => {
         for (const e of entradas) {
           if (!e.isIntersecting) continue;
           enlaces.forEach((a) => (a.dataset.indice === e.target.id ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current')));
-          const visibles = [...items].filter((li) => !li.hidden);
-          posicion.textContent = `${visibles.indexOf(e.target as HTMLElement) + 1} de ${visibles.length}`;
+          const v = visibles();
+          posicion.textContent = `${v.indexOf(e.target as HTMLElement) + 1} de ${v.length}`;
         }
       },
       { rootMargin: '-30% 0px -60% 0px' },
     );
     items.forEach((li) => observador.observe(li));
+    signal.addEventListener('abort', () => observador.disconnect());
   }
   document.addEventListener('astro:page-load', iniciar);
 </script>
@@ -313,7 +358,9 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .entradilla { font-size: 18px; max-width: 38ch; margin: 0 0 12px; }
   .nota { font-size: 15px; margin: 0; }
 
-  .temas { display: flex; gap: 8px; overflow-x: auto; margin: 32px -20px 8px; padding: 0 20px 8px; scrollbar-width: none; }
+  /* Filtro de temas fijo arriba mientras se recorre la lista */
+  .temas { position: sticky; top: 0; z-index: 5; display: flex; gap: 8px; overflow-x: auto; margin: 12px -20px 0; padding: 10px 20px; background: var(--papel); border-bottom: 1px solid var(--linea); scrollbar-width: none; }
+  .temas::-webkit-scrollbar { display: none; }
   .temas button {
     flex: none;
     font: inherit;
@@ -333,16 +380,18 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .derogados ul { list-style: none; margin: 6px 0 0; padding: 0; }
   .derogados li { padding: 8px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
 
-  .pendientes { margin: 32px 0 0; padding: 18px 18px 6px; background: var(--resalte); border-radius: 14px; }
+  .pendientes { margin: 32px 0 0; padding: 18px 18px 10px; background: var(--resalte); border-radius: 14px; }
   .pendientes h2 { margin: 0 0 6px; font-size: 26px; }
   .pendientes > p { margin: 0; font-size: 15px; }
-  .pendientes ul { list-style: none; margin: 12px 0 0; padding: 0; }
+  .pendientes details { margin-top: 10px; }
+  .pendientes summary { cursor: pointer; padding: 8px 0; font-weight: 500; }
+  .pendientes ul { list-style: none; margin: 4px 0 0; padding: 0; }
   .pendientes li { padding: 12px 0; border-top: 1px solid var(--linea); }
   .titulo-pendiente { margin: 2px 0 0; }
   .nota-pendiente { font-size: 14px; margin: 6px 0 0; }
 
   .lista { list-style: none; margin: 0; padding: 0; }
-  .votacion { scroll-margin-top: 16px; }
+  .votacion { scroll-margin-top: 64px; }
 
 
   /* Píldora flotante (móvil) */
@@ -434,49 +483,56 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
     .indice-lateral a:hover { color: var(--tinta); }
     .indice-lateral a[aria-current='true'] { color: var(--tinta); border-left-color: var(--tinta); }
   }
-  .votacion { border-top: 1px solid var(--tinta); padding: 20px 0 36px; }
-  .meta { font-size: 14px; margin: 0; }
-  .votacion h2 { margin: 6px 0 10px; font-size: 30px; }
-  .resumen { margin: 0 0 20px; }
+  .titulo-lista { margin: 48px 0 0; scroll-margin-top: 12px; }
+  .votacion { border-top: 1px solid var(--tinta); padding: 18px 0 40px; }
+  .lista > .votacion:first-child { border-top: 0; }
+  .meta { font-size: 13px; margin: 0; letter-spacing: 0.01em; }
+  .votacion h2 { margin: 6px 0 10px; font-size: 28px; line-height: 1.1; }
+  .resumen { margin: 0 0 18px; }
 
-  .resultado { margin-bottom: 20px; }
-  .gana { font-family: var(--serif); font-size: 26px; margin: 0; }
+  .resultado { margin-bottom: 18px; }
+  .gana { font-family: var(--serif); font-size: 26px; line-height: 1.1; margin: 0; }
   .gana strong { font-weight: 400; font-style: italic; }
-  .cifras { margin: 2px 0 10px; font-size: 14px; }
-  .barra { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--linea); gap: 2px; }
+  .cifras { display: flex; gap: 14px; margin: 4px 0 10px; font-size: 14px; color: var(--suave); }
+  .cifras strong { color: var(--tinta); font-weight: 600; }
+  .barra { display: flex; height: 10px; border-radius: 5px; overflow: hidden; gap: 2px; }
   .barra .si { background: var(--tinta); }
   .barra .abst { background: var(--suave); opacity: 0.45; }
-  .barra .no { background: transparent; box-shadow: inset 0 0 0 1.5px var(--tinta); border-radius: 0 4px 4px 0; }
-  .significa { font-size: 15px; margin: 12px 0 0; }
+  .barra .no { background: transparent; box-shadow: inset 0 0 0 1.5px var(--tinta); border-radius: 0 5px 5px 0; }
+  .significa { font-size: 15px; margin: 12px 0 0; padding-left: 12px; border-left: 2px solid var(--tinta); }
   .significa strong { font-weight: 600; }
 
-  .grupos { list-style: none; margin: 0; padding: 0; }
-  .grupos li {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    column-gap: 12px;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--linea);
-  }
-  .grupo { display: flex; align-items: center; }
-  .punto { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; }
-  .voto { font-weight: 600; text-align: right; }
-  .voto.no, .voto.abstencion, .voto.noVota, .voto.dividido { font-weight: 500; }
-  .voto.abstencion, .voto.noVota { color: var(--suave); }
-  .detalle { grid-column: 1 / -1; font-size: 13px; padding-left: 20px; }
+  /* Qué votó cada grupo: una fila por sentido del voto, con los grupos en línea */
+  .sentidos { margin: 0; border-top: 1px solid var(--linea); }
+  .sentidos div { display: grid; grid-template-columns: 92px 1fr; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--linea); align-items: baseline; }
+  .sentidos dt { font-size: 15px; }
+  .sentidos dd { margin: 0; }
+  .sentidos ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .sentidos li { display: inline-flex; align-items: center; font-size: 15px; white-space: nowrap; }
+  .sentidos .punto { width: 9px; height: 9px; margin-right: 7px; }
+  .sentidos-nota { font-size: 12px; margin: 6px 0 0; }
+  .voto { font-weight: 600; }
+  .voto.abstencion, .voto.noVota, .voto.dividido { font-weight: 500; color: var(--suave); }
 
-  .programa2023 { margin-top: 20px; padding-top: 4px; }
+  .punto { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-right: 10px; flex: none; display: inline-block; }
+
+  .desglose { margin-top: 14px; font-size: 15px; }
+  .desglose summary { cursor: pointer; padding: 6px 0; color: var(--suave); }
+  .desglose[open] summary { color: var(--tinta); }
+  .grupos { list-style: none; margin: 4px 0 0; padding: 0; }
+  .grupos li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
+  .grupo { display: flex; align-items: center; }
+  .detalle { text-align: right; font-size: 13px; }
+  .mixto-nota { font-size: 13px; margin: 14px 0 4px; }
+  .mixto { list-style: none; padding: 0; margin: 0; }
+  .mixto li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
+
+  .programa2023 { margin-top: 20px; }
   .programa2023 h3 { font-family: var(--serif); font-weight: 400; font-size: 22px; margin: 0 0 4px; }
   .programa2023 ul { list-style: none; margin: 0; padding: 0; }
   .programa2023 li { padding: 10px 0; border-bottom: 1px solid var(--linea); }
   .partido-cita { display: flex; align-items: center; margin: 0 0 4px; font-weight: 600; font-size: 15px; }
   .programa2023 blockquote { margin: 0; font-size: 15px; color: var(--tinta); }
-
-  .mixto { margin-top: 12px; font-size: 15px; }
-  .mixto summary { cursor: pointer; padding: 8px 0; }
-  .mixto p { font-size: 14px; margin: 4px 0 8px; }
-  .mixto ul { list-style: none; padding: 0; margin: 0; }
-  .mixto li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--linea); }
 
   .aviso { margin: 16px 0 0; padding: 12px 14px; background: var(--resalte); border-radius: 10px; font-size: 15px; }
   .oficial { font-size: 13px; margin: 16px 0 0; }
@@ -490,7 +546,10 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 
   @media (min-width: 640px) {
     .temas { margin-inline: 0; padding-inline: 0; flex-wrap: wrap; }
+    .temas { position: static; border-bottom: 0; padding-block: 12px; }
+    .votacion { scroll-margin-top: 16px; }
     .grupos { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; }
     .votacion h2 { font-size: 34px; }
+    .sentidos div { grid-template-columns: 120px 1fr; }
   }
 </style>

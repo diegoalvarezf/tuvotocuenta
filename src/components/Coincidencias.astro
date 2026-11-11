@@ -1,13 +1,12 @@
 ---
 import Fuente from './Fuente.astro';
 import datos from '../data/coincidencias.json';
-import { colorGrupo } from '../lib/partidos';
+import { colorGrupo, nombreGrupo as corto } from '../lib/partidos';
 
 // Orden de los botones: de más a menos diputados al inicio de la legislatura; se muestra primero el grupo más grande
 const ORDEN = ['GP', 'GS', 'GVOX', 'GSUMAR', 'GR', 'GJxCAT', 'GEH Bildu', 'GV (EAJ-PNV)'];
 const grupos = ORDEN.map((c) => datos.grupos.find((g) => g.codigo === c)!);
 const n = (x: number) => x.toLocaleString('es-ES', { maximumFractionDigits: 1, useGrouping: 'always' });
-const corto = (nombre: string) => nombre.replace(' (ERC)', '').replace('Vasco (PNV)', 'PNV').replace('Republicano', 'ERC');
 ---
 
 <section class="coincidencias" aria-labelledby="coincidencias-titulo">

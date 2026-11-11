@@ -3,7 +3,6 @@ import '@fontsource-variable/instrument-sans';
 import '@fontsource/instrument-serif';
 import '@fontsource/instrument-serif/400-italic.css';
 import { ClientRouter } from 'astro:transitions';
-import revision from '../data/revision.json';
 
 interface Props {
   title: string;
@@ -27,12 +26,10 @@ const nav = [
   { href: '/propuestas', texto: 'Propuestas' },
 ];
 const actual = Astro.url.pathname;
-// Última vez que se comprobaron las fuentes oficiales (se actualiza a mano en src/data/revision.json en cada revisión)
-const revisado = new Date(revision.fecha + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
-// Fecha de esta publicación: la web se genera de nuevo en cada actualización
+// Fecha y hora de esta publicación: la web se genera de nuevo en cada actualización
 const publicado = new Date();
-const actualizadoCorto = publicado.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', timeZone: 'Europe/Madrid' });
-const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Madrid' });
+const madrid = { timeZone: 'Europe/Madrid' } as const;
+const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: 'numeric', month: 'short' }).replace('.', '')}, ${publicado.toLocaleTimeString('es-ES', { ...madrid, hour: '2-digit', minute: '2-digit' })}`;
 ---
 
 <!doctype html>
@@ -71,7 +68,7 @@ const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', mont
   <body>
     <header class="cabecera">
       <a href="/" class="marca" aria-label="tuvotocuenta, inicio">tu<em>voto</em>cuenta</a>
-      <p class="actualizada">Actualizado el <time datetime={publicado.toISOString()}>{actualizadoCorto}</time></p>
+      <p class="actualizada">Actualizado <time datetime={publicado.toISOString()}>{actualizado}</time></p>
       <nav>
         {nav.map((n) => (
           <a href={n.href} aria-current={actual.startsWith(n.href) ? 'page' : undefined}>{n.texto}</a>
@@ -87,9 +84,6 @@ const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', mont
     </main>
     <footer class="pie">
       <p>Proyecto independiente y sin afiliación política. Datos del Ministerio del Interior, el Congreso y el BOE.</p>
-      <p class="revision">
-        Última actualización: <time datetime={publicado.toISOString()}>{actualizado}</time> · Datos revisados el <time datetime={revision.fecha}>{revisado}</time> ({revision.fuentes}).
-      </p>
       <p><a href="/sobre">Sobre el proyecto</a> · <a href="/sobre#errores">Avisar de un error</a> · <a href="/privacidad">Privacidad</a></p>
     </footer>
   </body>
@@ -235,7 +229,6 @@ const actualizado = publicado.toLocaleDateString('es-ES', { day: 'numeric', mont
     font-size: 14px;
     text-align: center;
   }
-  .revision { font-size: 13px; }
   h1, h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -0.015em; }
   h1 { font-size: clamp(44px, 12vw, 76px); line-height: 1; margin: 20px 0 14px; }
   h2 { font-size: 28px; line-height: 1.1; margin: 44px 0 10px; }

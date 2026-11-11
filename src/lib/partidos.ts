@@ -35,3 +35,8 @@ const SIGLAS_GRUPO: Record<string, string> = {
 export function colorGrupo(codigo: string): string {
   return SIGLAS_GRUPO[codigo] ? color(SIGLAS_GRUPO[codigo]) : COLOR_OTROS;
 }
+
+// Nombre corto de un grupo parlamentario, para listas compactas
+export function nombreGrupo(nombre: string): string {
+  return nombre.replace('Republicano (ERC)', 'ERC').replace('Vasco (PNV)', 'PNV').replace('Sin grupo en los datos del Congreso', 'Sin grupo');
+}
