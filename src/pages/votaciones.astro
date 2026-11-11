@@ -2,7 +2,6 @@
 import Base from '../layouts/Base.astro';
 import Fuente from '../components/Fuente.astro';
 import Coincidencias from '../components/Coincidencias.astro';
-import Compartir from '../components/Compartir.astro';
 import votaciones from '../data/votaciones.json';
 import pendientes from '../data/decretos-pendientes.json';
 import decretos from '../data/decretos.json';
@@ -211,7 +210,6 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
             <a href={v.enlaces.json} target="_blank" rel="noopener">Datos (JSON)</a>
           </span>
         </p>
-        <div class="compartir-votacion"><Compartir titulo={`${v.nombre}: qué votó cada grupo`} ancla={v.id} /></div>
       </li>
     ))}
   </ol>
@@ -543,7 +541,6 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 
   .aviso { margin: 16px 0 0; padding: 12px 14px; background: var(--resalte); border-radius: 10px; font-size: 15px; }
   .oficial { font-size: 13px; margin: 16px 0 0; }
-  .compartir-votacion { margin-top: 16px; }
   .fuente-nota { display: block; margin-top: 6px; font-size: 13px; line-height: 1.45; color: var(--suave); }
   .fuente-nota a { color: var(--suave); }
 

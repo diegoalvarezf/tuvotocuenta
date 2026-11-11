@@ -3,7 +3,6 @@ import candidaturas2026 from '../../data/candidaturas-2026.json';
 import Base from '../../layouts/Base.astro';
 import Escanos from '../../components/Escanos.astro';
 import Fuente from '../../components/Fuente.astro';
-import Compartir from '../../components/Compartir.astro';
 import { provincias, resultados2026, ultimoEscano, type Provincia } from '../../lib/provincias';
 import { color } from '../../lib/partidos';
 import { UMBRAL } from '../../lib/dhondt';
@@ -64,7 +63,6 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
       <a href="#reparto-2023">2023</a>
       <a href="#simular">Simular</a>
     </nav>
-    <Compartir titulo={`${p.nombre}: cómo cuenta tu voto el 29 de noviembre`} />
   </div>
 
   {r26 && resultados2026 && (
