@@ -50,6 +50,14 @@ test('acepta una palabra compuesta con guion partida a final de línea', () => {
   assert.ok(pdf({ cita: 'Sin colaboración público-privada en la sanidad.', pagina: 1 }));
 });
 
+test('acepta una cita que sigue en la página siguiente aunque esta empiece por su número', () => {
+  const pdf = crearVerificador([
+    { pagina: 41, texto: '41\n\nAseguraremos que mantengan su poder adquisitivo y suban' },
+    { pagina: 42, texto: '42\n\ncon el IPC.' },
+  ]);
+  assert.ok(pdf({ cita: 'Aseguraremos que mantengan su poder adquisitivo y suban con el IPC.', pagina: 41 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });

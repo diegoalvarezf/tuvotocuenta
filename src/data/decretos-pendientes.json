@@ -48,5 +48,37 @@
     "fecha": "2026-11-03",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23104",
     "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 33/2026",
+    "titulo": "Medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos de los días 17 a 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos.",
+    "tema": "Otros",
+    "fecha": "2026-11-10",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23602",
+    "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 34/2026",
+    "titulo": "Medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social del personal ferroviario.",
+    "tema": "Otros",
+    "fecha": "2026-11-10",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23603",
+    "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 35/2026",
+    "titulo": "Medidas urgentes para el reconocimiento y protección a las familias monoparentales y otras medidas de apoyo a familias.",
+    "tema": "Trabajo y familia",
+    "fecha": "2026-11-10",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23604",
+    "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 36/2026",
+    "titulo": "Medidas para el adecuado despliegue de la reforma del Sistema para la Autonomía y Atención a la Dependencia.",
+    "tema": "Otros",
+    "fecha": "2026-11-10",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23605",
+    "resultado": null
   }
 ]

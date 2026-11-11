@@ -16,7 +16,8 @@ export const normalizar = (s) =>
 export function crearVerificador(paginas) {
   // El pie (número de página, a veces tras el título de la sección en mayúsculas: «VIVENDA · 20»)
   // cortaría las citas que siguen en la página siguiente
-  const sinPie = (t) => t.replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '').replace(/\s+\d{1,3}\s*$/, '');
+  // Igual el número solo en la primera línea («42» en el PP)
+  const sinPie = (t) => t.replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '').replace(/\s+\d{1,3}\s*$/, '').replace(/^\s*\d{1,3}\s*\n/, '');
   // Cabeceras y pies repetidos («M+J Programa electoral · …», «↑ Volver al índice») también cortarían
   // las citas: se quitan las líneas que aparecen en al menos un tercio de las páginas (y en 5 o más).
   // Se respetan las que no tienen una palabra (viñetas «•»), pero no las cortas («DEFIENDE» / «CANARIAS»)

@@ -58,7 +58,12 @@
         "paginas": 4
       }
     ],
-    "programa": null
+    "programa": {
+      "titulo": "Reconstrucción Nacional. El programa del cambio necesario para España",
+      "url": "https://www.pp.es/wp-content/uploads/2026/11/LA-RECONSTRUCCION-NACIONAL.pdf",
+      "fecha": "2026-11-10",
+      "paginas": 82
+    }
   },
   {
     "siglas": "PCTE",
@@ -238,7 +243,12 @@
     "circunscripciones": 3,
     "web": "https://www.eaj-pnv.eus",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa Elecciones Generales 2026",
+      "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+      "fecha": "2026-11-10",
+      "paginas": 43
+    }
   },
   {
     "siglas": "PREPAL",
