@@ -149,6 +149,7 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     });
   }
   document.addEventListener('astro:page-load', iniciarCabecera);
+  iniciarCabecera();
 
   // Gráficos que se animan al entrar en pantalla: escaños (aparecen uno a uno) y barras del resultado (crecen).
   // Sin JavaScript o con movimiento reducido se ven directamente, sin animación
@@ -174,6 +175,7 @@ const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: '
     });
   }
   document.addEventListener('astro:page-load', iniciarAnimaciones);
+  iniciarAnimaciones();
 </script>
 
 <style is:global>

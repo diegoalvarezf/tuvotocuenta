@@ -50,7 +50,8 @@ const n = (x: number) => x.toLocaleString('es-ES', { maximumFractionDigits: 1, u
 <script>
   function iniciar() {
     const tabs = document.querySelector<HTMLElement>('[data-coincidencias]');
-    if (!tabs) return;
+    if (!tabs || tabs.dataset.iniciado) return;
+    tabs.dataset.iniciado = '1';
     const botones = [...tabs.querySelectorAll<HTMLButtonElement>('button')];
     const elegir = (b: HTMLButtonElement) => {
       botones.forEach((x) => x.setAttribute('aria-selected', String(x === b)));
@@ -59,6 +60,7 @@ const n = (x: number) => x.toLocaleString('es-ES', { maximumFractionDigits: 1, u
     botones.forEach((b) => b.addEventListener('click', () => elegir(b)));
   }
   document.addEventListener('astro:page-load', iniciar);
+  iniciar();
 </script>
 
 <style>

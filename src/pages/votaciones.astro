@@ -9,7 +9,7 @@ import programas2023 from '../data/programas-2023.json';
 import citas2023 from '../data/votaciones-programas-2023.json';
 import { color, colorGrupo, nombreGrupo } from '../lib/partidos';
 
-const n = (x: number) => x.toLocaleString('es-ES');
+const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 const fecha = (f: string) =>
   new Date(f + 'T12:00:00').toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 // Citas de los programas de 2023 relacionadas con cada votación (clave: fichero de la votación)
@@ -254,9 +254,10 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   let salir: AbortController | undefined;
 
   function iniciar() {
-    salir?.abort();
     const nav = document.querySelector<HTMLElement>('[data-filtro-votaciones]');
-    if (!nav) return;
+    if (!nav || nav.dataset.iniciado) return;
+    nav.dataset.iniciado = '1';
+    salir?.abort();
     salir = new AbortController();
     const { signal } = salir;
     document.addEventListener('astro:before-swap', () => salir?.abort(), { once: true, signal });
@@ -350,6 +351,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
     signal.addEventListener('abort', () => observador.disconnect());
   }
   document.addEventListener('astro:page-load', iniciar);
+  iniciar();
 </script>
 
 <style>

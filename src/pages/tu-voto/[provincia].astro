@@ -12,7 +12,7 @@ export function getStaticPaths() {
 }
 
 const { p } = Astro.props as { p: Provincia };
-const n = (x: number) => x.toLocaleString('es-ES');
+const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 const pct = (x: number) => (x * 100).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + '\u202f%';
 
 const umbral = Math.ceil(p.votosValidos * UMBRAL);
@@ -240,10 +240,12 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
     } catch {}
   }
   document.addEventListener('astro:page-load', recordar);
+  recordar();
 
   function iniciar() {
     const el = document.querySelector<HTMLElement>('[data-simulador]');
-    if (!el) return;
+    if (!el || el.dataset.iniciado) return;
+    el.dataset.iniciado = '1';
     const datos: Datos = JSON.parse(el.dataset.datos!);
     const de = el.querySelector<HTMLSelectElement>('[name=de]')!;
     const a = el.querySelector<HTMLSelectElement>('[name=a]')!;
@@ -251,7 +253,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
     const caja = el.querySelector<HTMLElement>('[data-escanos]')!;
     const lista = el.querySelector<HTMLElement>('[data-reparto]')!;
     const cambio = el.querySelector<HTMLElement>('[data-cambio]')!;
-    const fmt = (x: number) => x.toLocaleString('es-ES');
+    const fmt = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 
     const reparto = (votos: number[]) => repartir(votos.map((v, i) => ({ id: String(i), votos: v })), datos.escanos, datos.votosValidos);
     const base = reparto(datos.candidaturas.map((c) => c.votos));
@@ -316,6 +318,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   }
 
   document.addEventListener('astro:page-load', iniciar);
+  iniciar();
 </script>
 
 <style>

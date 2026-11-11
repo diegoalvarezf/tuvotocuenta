@@ -9,7 +9,7 @@ const votosPorEscano = (p: (typeof provincias)[number]) => Math.round(p.votosVal
 const extremos = [...provincias].sort((a, b) => votosPorEscano(a) - votosPorEscano(b));
 const barato = extremos[0];
 const caro = extremos[extremos.length - 1];
-const n = (x: number) => x.toLocaleString('es-ES');
+const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 ---
 
 <Base title="Tu voto en tu provincia · tuvotocuenta">
@@ -48,7 +48,8 @@ const n = (x: number) => x.toLocaleString('es-ES');
   function iniciar() {
     const input = document.querySelector<HTMLInputElement>('[data-buscar]');
     const items = document.querySelectorAll<HTMLElement>('[data-lista] li');
-    if (!input) return;
+    if (!input || input.dataset.iniciado) return;
+    input.dataset.iniciado = '1';
     input.addEventListener('input', () => {
       const q = input.value.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').trim();
       items.forEach((li) => (li.hidden = !!q && !li.dataset.nombre!.includes(q)));
@@ -60,6 +61,7 @@ const n = (x: number) => x.toLocaleString('es-ES');
     });
   }
   document.addEventListener('astro:page-load', iniciar);
+  iniciar();
 </script>
 
 <style>

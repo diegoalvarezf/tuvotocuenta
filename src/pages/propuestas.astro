@@ -203,7 +203,8 @@ const fuenteDe = (siglas: string) => {
 
   function iniciar() {
     const nav = document.querySelector<HTMLElement>('[data-filtro-propuestas]');
-    if (!nav) return;
+    if (!nav || nav.dataset.iniciado) return;
+    nav.dataset.iniciado = '1';
     const botones = [...nav.querySelectorAll<HTMLButtonElement>('button')];
     const selector = document.querySelector<HTMLSelectElement>('[data-provincia]')!;
     const concretas = document.querySelector<HTMLInputElement>('[data-concretas]')!;
@@ -333,6 +334,7 @@ const fuenteDe = (siglas: string) => {
     pintarColumnas();
   }
   document.addEventListener('astro:page-load', iniciar);
+  iniciar();
 </script>
 
 <style>
