@@ -5,6 +5,8 @@
 export const normalizar = (s) =>
   s
     .normalize('NFC')
+    // Entre cifras el guion es de rango («2028-» / «2034»), no de corte
+    .replace(/(\d)-\s*\n\s*(\d)/g, '$1-$2')
     .replace(/-\s*\n\s*/g, '')
     .replace(/[“”«»"]/g, '"')
     .replace(/[‘’]/g, "'")
@@ -16,8 +18,13 @@ export const normalizar = (s) =>
 export function crearVerificador(paginas) {
   // El pie (número de página, a veces tras el título de la sección en mayúsculas: «VIVENDA · 20»)
   // cortaría las citas que siguen en la página siguiente
-  // Igual el número solo en la primera línea («42» en el PP)
-  const sinPie = (t) => t.replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '').replace(/\s+\d{1,3}\s*$/, '').replace(/^\s*\d{1,3}\s*\n/, '');
+  // Igual el número solo en la primera línea («42» en el PP) y unas comillas decorativas al final («‘‘»)
+  const sinPie = (t) =>
+    t
+      .replace(/\n\s*[‘’“”"'«»]+\s*$/, '')
+      .replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '')
+      .replace(/\s+\d{1,3}\s*$/, '')
+      .replace(/^\s*\d{1,3}\s*\n/, '');
   // Cabeceras y pies repetidos («M+J Programa electoral · …», «↑ Volver al índice») también cortarían
   // las citas: se quitan las líneas que aparecen en al menos un tercio de las páginas (y en 5 o más).
   // Se respetan las que no tienen una palabra (viñetas «•»), pero no las cortas («DEFIENDE» / «CANARIAS»)
@@ -49,8 +56,8 @@ export function crearVerificador(paginas) {
     if (tabla) return buscada.length > 0 && buscada.split(' · ').every((celda) => celda.length > 0 && enTrozos(celda, aqui));
     // Se unen antes de normalizar para que una palabra partida entre páginas («consen-» / «so») se junte
     const conSiguiente = normalizar(`${limpio.get(pagina) ?? ''}\n${limpio.get(pagina + 1) ?? ''}`);
-    // El guion de una palabra compuesta a final de línea («público-» / «privada») se pierde al unir los cortes
-    const sinGuion = buscada.replace(/(\p{L})-(\p{L})/gu, '$1$2');
+    // pdftotext quita el guion a final de línea en palabras compuestas («público-» / «privada») y en rangos («2028-» / «2034»)
+    const sinGuion = buscada.replace(/([\p{L}\p{N}])-([\p{L}\p{N}])/gu, '$1$2');
     return buscada.length > 0 && [buscada, sinGuion].some((b) => aqui.includes(b) || conSiguiente.includes(b));
   };
 }

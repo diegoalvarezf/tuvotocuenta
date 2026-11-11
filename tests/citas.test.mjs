@@ -58,6 +58,14 @@ test('acepta una cita que sigue en la página siguiente aunque esta empiece por 
   assert.ok(pdf({ cita: 'Aseguraremos que mantengan su poder adquisitivo y suban con el IPC.', pagina: 41 }));
 });
 
+test('acepta una cita que cruza unas comillas decorativas al final de página y un rango de años partido', () => {
+  const pdf = crearVerificador([
+    { pagina: 1, texto: 'Defenderemos el marco 2028-\n2034 y bajaremos\n\n‘‘' },
+    { pagina: 2, texto: 'los impuestos.' },
+  ]);
+  assert.ok(pdf({ cita: 'Defenderemos el marco 2028-2034 y bajaremos los impuestos.', pagina: 1 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });
