@@ -51,6 +51,8 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   </details>
 
 
+  <Coincidencias />
+
   {pendientes.some((d) => !d.resultado) && (
     <section class="pendientes" aria-labelledby="pendientes-titulo">
       <h2 id="pendientes-titulo">Pendientes de votar</h2>
@@ -213,8 +215,6 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
       </li>
     ))}
   </ol>
-
-  <Coincidencias />
 
   <section class="glosario" id="como-leer">
     <h2>Cómo leer estas votaciones</h2>
