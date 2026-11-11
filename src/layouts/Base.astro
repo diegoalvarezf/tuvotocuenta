@@ -3,6 +3,7 @@ import '@fontsource-variable/instrument-sans';
 import '@fontsource/instrument-serif';
 import '@fontsource/instrument-serif/400-italic.css';
 import { ClientRouter } from 'astro:transitions';
+import actualizacion from '../data/actualizado.json';
 
 interface Props {
   title: string;
@@ -26,8 +27,9 @@ const nav = [
   { href: '/propuestas', texto: 'Propuestas' },
 ];
 const actual = Astro.url.pathname;
-// Fecha y hora de esta publicación: la web se genera de nuevo en cada actualización
-const publicado = new Date();
+// Fecha y hora del último cambio en la información (datos, propuestas, votaciones), no del último cambio de diseño.
+// Se pone a mano en src/data/actualizado.json cada vez que cambia algún dato publicado
+const publicado = new Date(actualizacion.fecha);
 const madrid = { timeZone: 'Europe/Madrid' } as const;
 const actualizado = `${publicado.toLocaleDateString('es-ES', { ...madrid, day: 'numeric', month: 'short' }).replace('.', '')}, ${publicado.toLocaleTimeString('es-ES', { ...madrid, hour: '2-digit', minute: '2-digit' })}`;
 ---

@@ -77,3 +77,9 @@ test('no falta ningún decreto ley de 2026: entre votados y pendientes, la numer
   const faltan = Array.from({ length: max }, (_, i) => i + 1).filter((n) => !numeros.has(n));
   assert.deepEqual(faltan, [], `Faltan los Reales Decretos-ley ${faltan.join(', ')}/2026`);
 });
+
+test('la fecha de la última actualización de la información es válida y no está en el futuro', async () => {
+  const { default: a } = await import('../src/data/actualizado.json', { with: { type: 'json' } });
+  assert.match(a.fecha, /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}$/);
+  assert.ok(new Date(a.fecha) <= new Date(), 'fecha de actualización futura');
+});

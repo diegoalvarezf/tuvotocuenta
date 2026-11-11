@@ -22,7 +22,7 @@ Claro, limpio, moderno y fluido; que no parezca hecho con IA:
 
 ## Fecha de actualización
 
-Solo arriba, en la cabecera, con fecha y hora: es la de la publicación (cada push genera la web de nuevo).
+Solo arriba, en la cabecera, con fecha y hora. Es la del último cambio en la información publicada (datos, votaciones, decretos, propuestas, programas), no la de cambios de diseño o código: cada vez que cambie un dato, actualizar `src/data/actualizado.json` con la fecha y hora de ese cambio (hora de Madrid, formato ISO con zona).
 
 ## Programas
 
