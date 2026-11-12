@@ -23708,7 +23708,7 @@
     "resumen": "Expulsar de forma inmediata a todas las personas que el programa llama «invasores» en Ceuta.",
     "cita": "Expulsión de todos los invasores con carácter inmediato.",
     "pagina": 7,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -23723,7 +23723,7 @@
   {
     "partido": "VOX",
     "tema": "Defensa y política exterior",
-    "resumen": "Militarizar la frontera de Ceuta y Melilla para repeler cualquier intento futuro de invasión o ataque híbrido.",
+    "resumen": "Militarizar la frontera de Ceuta y Melilla para repeler lo que llama futuros intentos de invasión o ataques híbridos.",
     "cita": "Militarización de la frontera para repeler cualquier intento futuro de invasión o ataque híbrido.",
     "pagina": 7,
     "concreta": true,
@@ -23759,7 +23759,7 @@
   {
     "partido": "VOX",
     "tema": "Seguridad y justicia",
-    "resumen": "Promover ante la Justicia el procesamiento de Pedro Sánchez y su Gobierno por traición por su actuación en Ceuta.",
+    "resumen": "Promover ante la Justicia el procesamiento de Pedro Sánchez y su Gobierno por lo que llama traición en Ceuta.",
     "cita": "Promover ante la Justicia el procesamiento a Pedro Sánchez y su gobierno por traición y delitos contra la seguridad del Estado por su actuación durante la invasión sufrida en Ceuta.",
     "pagina": 7,
     "concreta": true,
@@ -23789,7 +23789,7 @@
     "resumen": "Reducir el tipo del IRPF de cada contribuyente o familia según el número de hijos.",
     "cita": "Reducción del tipo aplicable del IRPF para cada contribuyente o familia en función del número de hijos.",
     "pagina": 9,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -23814,7 +23814,7 @@
     "partido": "VOX",
     "tema": "Empleo y salarios",
     "resumen": "Cuota de autónomos de cero euros si no se llega al Salario Mínimo y, por encima, cuota progresiva desde 50 euros.",
-    "cita": "Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional y, superado dicho umbral, una cuota progresiva desde los 50 euros en función de sus ingresos.",
+    "cita": "Apoyo a los trabajadores autónomos. Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional y, superado dicho umbral, una cuota progresiva desde los 50 euros en función de sus ingresos.",
     "pagina": 9,
     "concreta": true,
     "revisada": false
@@ -23869,15 +23869,6 @@
     "tema": "Economía y empresas",
     "resumen": "Reforzar la inversión en I+D+i, los incentivos fiscales a la innovación y la transferencia de conocimiento a las pymes.",
     "cita": "Reforzar la inversión en I+D+i, los incentivos fiscales a la innovación empresarial, la colaboración entre centros de investigación y empresas e industrias y la transferencia de conocimiento a nuestro tejido productivo, especialmente a las pymes.",
-    "pagina": 10,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "VOX",
-    "tema": "Empleo y salarios",
-    "resumen": "Plan para recuperar el talento que se marchó por falta de oportunidades.",
-    "cita": "Plan para recuperar el talento que se ha tenido que marchar ante la falta de oportunidades.",
     "pagina": 10,
     "concreta": false,
     "revisada": false
@@ -23987,7 +23978,7 @@
     "resumen": "Estudiar nuevas centrales nucleares junto a las actuales y llevar a cabo cuanto antes los proyectos viables.",
     "cita": "Se promoverán estudios urgentes para instalar centrales nucleares en los emplazamientos disponibles adyacentes a las actuales. Se llevarán a cabo aquellos proyectos que sean viables con la mayor brevedad posible.",
     "pagina": 12,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -24023,7 +24014,7 @@
     "resumen": "Derogar la legislación laboral aprobada por el Gobierno de Sánchez.",
     "cita": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad, desincentivado la contratación y empeorado una situación ya de por sí insostenible, que ha maquillado las cifras de temporalidad y que beneficia al duopolio sindical que ha traicionado a los trabajadores.",
     "pagina": 13,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -24110,7 +24101,7 @@
   {
     "partido": "VOX",
     "tema": "Inmigración",
-    "resumen": "Deportar a quienes cometan delitos graves o reiterados leves, o traten de imponer costumbres que considera incompatibles con su modo de vida.",
+    "resumen": "Deportar a autores de delitos graves o leves habituales y a quien imponga costumbres que considera ajenas al modo de vida español.",
     "cita": "Deportación de quienes cometan delitos graves o hagan del delito leve su forma de vida, así como de quienes traten de imponer costumbres, hábitos o culturas ajenas a nuestro modo de vida o incompatibles con el respeto a la dignidad de las mujeres.",
     "pagina": 15,
     "concreta": true,
@@ -24497,7 +24488,7 @@
   {
     "partido": "VOX",
     "tema": "Economía y empresas",
-    "resumen": "Ley de Unidad de Mercado: quien opere legalmente en una comunidad autónoma podrá hacerlo en toda España sin trámites adicionales.",
+    "resumen": "Que quien opere legalmente en una comunidad autónoma pueda hacerlo en toda España sin trámites, licencias ni registros adicionales.",
     "cita": "Cualquier empresa, profesional o producto que ya opere legalmente en una Comunidad Autónoma podrá hacerlo en el resto del territorio nacional sin trámites, licencias ni registros adicionales.",
     "pagina": 28,
     "concreta": true,
@@ -24572,7 +24563,7 @@
     "resumen": "Derogar las leyes de género, que según el programa han criminalizado a los hombres y desprotegido a las mujeres.",
     "cita": "Derogar las leyes que han criminalizado a los hombres y desprotegido a las mujeres.",
     "pagina": 30,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -24587,7 +24578,7 @@
   {
     "partido": "VOX",
     "tema": "Economía y empresas",
-    "resumen": "Oponerse a las medidas que perjudiquen al sector primario y protegerlo de las imposiciones de Bruselas y del Pacto Verde.",
+    "resumen": "Oponerse a las medidas que perjudiquen al sector primario y protegerlo de lo que llama «imposiciones» de Bruselas y del Pacto Verde.",
     "cita": "Oposición a todas las medidas que perjudiquen objetivamente al sector primario y proteger a los nuestros activamente -económica, política y jurídicamente- de las imposiciones de Bruselas y del Pacto Verde.",
     "pagina": 33,
     "concreta": false,
@@ -24608,7 +24599,7 @@
     "resumen": "Incluir cláusulas espejo y recuperar la preferencia comunitaria.",
     "cita": "Inclusión de cláusulas espejo. Recuperación del principio de preferencia comunitaria.",
     "pagina": 33,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -24653,7 +24644,7 @@
     "resumen": "Rechazar la reducción del presupuesto de la PAC.",
     "cita": "Rechazo frontal a la propuesta de reducción del presupuesto de la PAC.",
     "pagina": 34,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -24766,7 +24757,7 @@
   },
   {
     "partido": "VOX",
-    "tema": "Otros",
+    "tema": "Economía y empresas",
     "resumen": "Defender la caza como actividad esencial para el control de poblaciones y la protección de explotaciones.",
     "cita": "Defensa de la caza como actividad esencial para el control de las poblaciones y para la protección de las explotaciones agrícolas y ganaderas, así como por su valor medioambiental y económico.",
     "pagina": 35,
@@ -25000,7 +24991,7 @@
   },
   {
     "partido": "VOX",
-    "tema": "Otros",
+    "tema": "Inmigración",
     "resumen": "Prohibir el burka y el niqab en espacios públicos y donde se presten servicios públicos.",
     "cita": "Prohibición del burka y el niqab en todos los espacios públicos y lugares donde se presten servicios públicos, con particular atención a centros educativos o entornos donde se vea comprometida la seguridad.",
     "pagina": 42,
@@ -25478,7 +25469,7 @@
   {
     "partido": "VOX",
     "tema": "Seguridad y justicia",
-    "resumen": "Acabar con la colonización partidista de las instituciones judiciales.",
+    "resumen": "Acabar con lo que llama «colonización partidista» de las instituciones judiciales.",
     "cita": "Acabar con la colonización partidista de cualquier institución judicial.",
     "pagina": 55,
     "concreta": false,
@@ -25734,6 +25725,15 @@
     "cita": "Plan Nacional del Agua. Interconexión de todas las cuencas que permita una gestión más eficiente del agua y pueda servir para reactivar económicamente a nuestro sector primario, así como para impulsar y modernizar los regadíos y la producción de energía.",
     "pagina": 61,
     "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "VOX",
+    "tema": "Otros",
+    "resumen": "Revisar y reducir las sanciones económicas desproporcionadas para que su cuantía dependa de la gravedad y no de la recaudación.",
+    "cita": "Revisar y reducir las sanciones económicas desproporcionadas, garantizando que su cuantía responda a la gravedad de la infracción y no a criterios recaudatorios.",
+    "pagina": 29,
+    "concreta": false,
     "revisada": false
   }
 ]
