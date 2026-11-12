@@ -23,3 +23,5 @@ Errores reales. Cada uno, una regla.
 - **Una medida repetida en dos capítulos se cita una vez.** En el PNV la 5.2-02 repetía la 2.7-05. (11-11-2026)
 - **Programas muy largos: dos revisores y cruzar sus cambios.** En el PP (652 propuestas) un revisor quitó una medida que el otro usaba como referencia para recalificar su duplicado. Al juntar los ficheros, buscar cambios que se pisen antes de aplicarlos. (11-11-2026)
 - **Glifos decorativos y rangos partidos.** En el PP unas comillas «‘‘» al final de página y «2028-» / «2034» rompían citas literales. Ahora el verificador los trata. (11-11-2026)
+- **El enlace de la portada puede estar roto.** El 12-11 Vox anunciaba su programa en una noticia y el enlace «Programa electoral de VOX» daba 404; el PDF estaba en su biblioteca de archivos (`/wp-json/wp/v2/media?mime_type=application/pdf`). Buscar ahí antes de dar un «no hay». (12-11-2026)
+- **Derogar sin nombrar la ley es genérica.** «Derogar la legislación laboral de Sánchez» o «las leyes de género» no identifican una norma; en el PP solo son concretas las derogaciones de leyes con nombre. (12-11-2026)
