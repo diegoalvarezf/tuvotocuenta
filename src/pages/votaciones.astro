@@ -21,7 +21,14 @@ const porSentido = (grupos: (typeof votaciones)[number]['grupos']) =>
   SENTIDOS.map((s) => ({ sentido: s, grupos: grupos.filter((g) => g.sentido === s) })).filter((x) => x.grupos.length > 0);
 const temas = [...new Set(votaciones.map((v) => v.tema))].sort((a, b) => a.localeCompare(b, 'es'));
 const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
-const derogados = decretos.filter((d) => d.resultado === 'derogado');
+// Decretos votados por la Diputación Permanente cuyo acuerdo aún no ha publicado el BOE (fuente: nota del Congreso)
+const votadosDP = pendientes.filter((d) => d.resultado);
+const sinVotar = pendientes.filter((d) => !d.resultado);
+const derogados = [
+  ...decretos.filter((d) => d.resultado === 'derogado').map((d) => ({ ...d, fuente: { nombre: `acuerdo de derogación del ${d.nombre} (BOE)`, url: d.boe } })),
+  ...votadosDP.filter((d) => d.resultado === 'derogado').map((d) => ({ ...d, titulo: d.titulo.replace(/\.$/, ''), sinDatosAbiertos: true, fuente: d.fuenteResultado! })),
+];
+const totalDecretos = decretos.length + votadosDP.length;
 ---
 
 <Base title="Qué votó cada partido en el Congreso (2023-2026) · tuvotocuenta" description="Votaciones clave del Congreso en la legislatura 2023-2026: qué se votó y qué votó cada grupo, con el acta oficial.">
@@ -31,7 +38,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   <dl class="cifras-cabecera">
     <div><dt class="cifra">{votaciones.length}</dt><dd>votaciones clave de 2023 a 2026</dd></div>
     <div><dt class="cifra">{aprobadas}<span class="suave"> / </span>{votaciones.length - aprobadas}</dt><dd>ganó el sí / ganó el no</dd></div>
-    <div><dt class="cifra">{derogados.length}<span class="suave"> de </span>{decretos.length}</dt><dd>decretos ley del Gobierno tumbados</dd></div>
+    <div><dt class="cifra">{derogados.length}<span class="suave"> de </span>{totalDecretos}</dt><dd>decretos ley del Gobierno tumbados</dd></div>
   </dl>
   <Fuente de="votacionesCongreso" />
   <p class="suave nota">
@@ -44,7 +51,7 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
         <li>
           <span class="suave">{fecha(d.votacion)} · </span>{d.titulo.charAt(0).toUpperCase() + d.titulo.slice(1)}.
           {d.sinDatosAbiertos && <span class="suave"> Esta votación no figura en los datos abiertos del Congreso.</span>}
-          <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de derogación del {d.nombre} (BOE)</a></span>
+          <span class="fuente-nota">Fuente: <a href={d.fuente.url} target="_blank" rel="noopener">{d.fuente.nombre}</a></span>
         </li>
       ))}
     </ul>
@@ -53,28 +60,45 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
 
   <Coincidencias />
 
-  {pendientes.some((d) => !d.resultado) && (
+  {pendientes.length > 0 && (
     <section class="pendientes" aria-labelledby="pendientes-titulo">
-      <h2 id="pendientes-titulo">Pendientes de votar</h2>
-      <p>Decretos ley aprobados con las Cortes disueltas. Los vota la Diputación Permanente del Congreso, que decide si se mantienen o se derogan.</p>
+      <h2 id="pendientes-titulo">Decretos con las Cortes disueltas</h2>
+      <p>Los vota la Diputación Permanente del Congreso, que decide si se mantienen o se derogan.</p>
       <Fuente de="constitucion" detalle="arts. 78.2 y 86.2" />
-      <details>
-      <summary>Ver los {pendientes.filter((d) => !d.resultado).length} decretos pendientes</summary>
-      <ul>
-        {pendientes.filter((d) => !d.resultado).map((d) => (
-          <li>
-            <p class="meta suave"><time datetime={d.fecha}>{fecha(d.fecha)}</time> · {d.tema}</p>
-            <p class="titulo-pendiente">{d.titulo}</p>
-            <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">{d.nombre} (BOE)</a></span>
-            {d.nota && (
-              <p class="nota-pendiente suave">
-                {d.nota} <span class="fuente-nota">Fuente: <a href={d.notaFuente!.url} target="_blank" rel="noopener">{d.notaFuente!.nombre}</a></span>
+      {votadosDP.length > 0 && (
+        <ul class="votados">
+          {votadosDP.map((d) => (
+            <li>
+              <p class="meta suave"><time datetime={d.votacion}>{fecha(d.votacion!)}</time> · {d.tema}</p>
+              <p class="titulo-pendiente">{d.titulo}</p>
+              <p class="resultado-dp">
+                <strong class:list={['estado', d.resultado]}>{d.resultado === 'convalidado' ? 'Convalidado' : 'Derogado'}</strong>
+                <span class="cifra suave">{d.totales!.si} a favor · {d.totales!.no} en contra</span>
               </p>
-            )}
-          </li>
-        ))}
-      </ul>
-      </details>
+              <span class="fuente-nota">Fuente: <a href={d.fuenteResultado!.url} target="_blank" rel="noopener">{d.fuenteResultado!.nombre}</a> · texto: <a href={d.boe} target="_blank" rel="noopener">{d.nombre} (BOE)</a></span>
+            </li>
+          ))}
+        </ul>
+      )}
+      {sinVotar.length > 0 && (
+        <details>
+          <summary>Ver los {sinVotar.length} decretos pendientes de votar</summary>
+          <ul>
+            {sinVotar.map((d) => (
+              <li>
+                <p class="meta suave"><time datetime={d.fecha}>{fecha(d.fecha)}</time> · {d.tema}</p>
+                <p class="titulo-pendiente">{d.titulo}</p>
+                <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">{d.nombre} (BOE)</a></span>
+                {d.nota && (
+                  <p class="nota-pendiente suave">
+                    {d.nota} <span class="fuente-nota">Fuente: <a href={d.notaFuente!.url} target="_blank" rel="noopener">{d.notaFuente!.nombre}</a></span>
+                  </p>
+                )}
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
     </section>
   )}
 
@@ -394,6 +418,9 @@ const derogados = decretos.filter((d) => d.resultado === 'derogado');
   .pendientes ul { list-style: none; margin: 4px 0 0; padding: 0; }
   .pendientes li { padding: 12px 0; border-top: 1px solid var(--linea); }
   .titulo-pendiente { margin: 2px 0 0; }
+  .resultado-dp { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 6px 0 0; font-size: 15px; }
+  .estado { font-family: var(--serif); font-weight: 400; font-size: 22px; }
+  .estado.derogado { font-style: italic; }
   .nota-pendiente { font-size: 14px; margin: 6px 0 0; }
 
   .lista { list-style: none; margin: 0; padding: 0; }

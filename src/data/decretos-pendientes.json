@@ -5,11 +5,20 @@
     "tema": "Vivienda",
     "fecha": "2026-10-06",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20822",
-    "resultado": null,
+    "resultado": "derogado",
     "nota": "Tiene el mismo título que el Real Decreto-ley 27/2026, que el Pleno derogó el 2 de octubre.",
     "notaFuente": {
       "nombre": "acuerdo de derogación del Real Decreto-ley 27/2026 (BOE)",
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527"
+    },
+    "votacion": "2026-11-12",
+    "totales": {
+      "si": 34,
+      "no": 35
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 12 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52635"
     }
   },
   {
@@ -18,11 +27,20 @@
     "tema": "Vivienda",
     "fecha": "2026-10-06",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20823",
-    "resultado": null,
+    "resultado": "convalidado",
     "nota": "Tiene el mismo título que el Real Decreto-ley 26/2026, que el Pleno derogó el 2 de octubre.",
     "notaFuente": {
       "nombre": "acuerdo de derogación del Real Decreto-ley 26/2026 (BOE)",
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20526"
+    },
+    "votacion": "2026-11-12",
+    "totales": {
+      "si": 35,
+      "no": 34
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 12 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52634"
     }
   },
   {
