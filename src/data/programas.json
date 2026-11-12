@@ -42,7 +42,12 @@
         "paginas": 6
       }
     ],
-    "programa": null
+    "programa": {
+      "titulo": "Es sentido común. Programa electoral. 29 de noviembre de 2026",
+      "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+      "fecha": "2026-11-12",
+      "paginas": 66
+    }
   },
   {
     "siglas": "PP",
