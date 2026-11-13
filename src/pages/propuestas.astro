@@ -33,6 +33,7 @@ interface Propuesta {
 
 // Solo se publican las propuestas revisadas por una persona. En local se ven también los borradores, para revisarlos.
 const propuestas = (propuestasJson as Propuesta[]).filter((p) => p.revisada || import.meta.env.DEV);
+const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 const partidos = programas.map((p) => ({ ...p, programa: p.programa as Programa | null, documentos: p.documentos as Documento[] }));
 const publicados = partidos.filter((p) => p.programa);
 const temas = TEMAS.filter((t) => propuestas.some((p) => p.tema === t));
@@ -57,7 +58,17 @@ const fuenteDe = (siglas: string) => {
 
 <Base title="Programas electorales 2026 comparados por temas · tuvotocuenta" description="Qué propone cada partido para el 29 de noviembre, tema a tema, con la cita literal y la página exacta de su programa.">
   <h1>Lo que<br /><em>proponen</em></h1>
-  <p class="entradilla">Qué dice cada programa, tema a tema. Siempre con la cita literal y un enlace a la página exacta del documento.</p>
+  <p class="entradilla">Qué dice cada programa, tema a tema, con la cita literal y su página.</p>
+  {propuestas.length > 0 && (
+    <>
+      <dl class="cifras-cabecera">
+        <div><dt class="cifra">{n(propuestas.length)}</dt><dd>propuestas</dd></div>
+        <div><dt class="cifra">{conPropuestas.length}<span class="suave"> de </span>{partidos.length}</dt><dd>formaciones con programa revisado</dd></div>
+        <div><dt class="cifra">{Math.round((propuestas.filter((p) => p.concreta).length / propuestas.length) * 100)} %</dt><dd>son concretas: con cifra, plazo o medida identificable</dd></div>
+      </dl>
+      <span class="fuente-propia suave">Cálculo propio con los programas oficiales de cada formación.</span>
+    </>
+  )}
 
   {propuestas.length === 0 ? (
     <section class="espera">
@@ -339,7 +350,8 @@ const fuenteDe = (siglas: string) => {
 
 <style>
   h1 em { font-style: italic; }
-  .entradilla { font-size: var(--entradilla); max-width: 38ch; margin: 0 0 32px; }
+  .entradilla { font-size: var(--entradilla); max-width: 38ch; margin: 0; }
+  .fuente-propia { display: block; margin: 6px 0 28px; font-size: 13px; line-height: 1.45; }
 
   .espera { border-top: 1px solid var(--tinta); padding-top: 16px; }
   .estado { font-family: var(--serif); font-size: 28px; line-height: 1.2; margin: 0 0 8px; }

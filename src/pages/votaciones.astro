@@ -383,10 +383,6 @@ const mayuscula = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
   h1 em { font-style: italic; }
   .entradilla { font-size: var(--entradilla); max-width: 38ch; margin: 0 0 12px; }
   .nota { font-size: 14px; margin: 10px 0 0; }
-  .cifras-cabecera { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 24px 0 0; padding-top: 14px; border-top: 1px solid var(--tinta); }
-  .cifras-cabecera dt { font-family: var(--serif); font-size: 38px; line-height: 1; letter-spacing: -0.02em; white-space: nowrap; }
-  .cifras-cabecera dt span { font-size: 0.6em; }
-  .cifras-cabecera dd { margin: 6px 0 0; font-size: 13px; line-height: 1.35; color: var(--suave); }
 
   /* Filtro de temas fijo arriba mientras se recorre la lista */
   .temas { position: sticky; top: 0; z-index: 5; display: flex; gap: 8px; overflow-x: auto; margin: 12px -20px 0; padding: 10px 20px; background: var(--papel); border-bottom: 1px solid var(--linea); scrollbar-width: none; }

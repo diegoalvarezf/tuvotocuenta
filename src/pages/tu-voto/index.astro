@@ -9,38 +9,42 @@ const votosPorEscano = (p: (typeof provincias)[number]) => Math.round(p.votosVal
 const extremos = [...provincias].sort((a, b) => votosPorEscano(a) - votosPorEscano(b));
 const barato = extremos[0];
 const caro = extremos[extremos.length - 1];
+const maximo = Math.max(...provincias.map((p) => p.escanos2026));
 const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 ---
 
 <Base title="Diputados por provincia el 29 de noviembre · tuvotocuenta" description="Las 52 circunscripciones de las elecciones generales del 29 de noviembre: cuántos diputados elige cada una, quién se presenta y cuántos votos costó un escaño en 2023.">
   <h1>Tu voto en<br /><em>tu provincia</em></h1>
-  <p class="entradilla">
-    En las generales no se vota directamente al presidente: cada provincia elige a sus diputados y después es el Congreso quien elige al presidente.
-  </p>
+  <p class="entradilla">Cada provincia elige a sus diputados, y después el Congreso elige al presidente.</p>
   <Fuente de="constitucion" detalle="art. 99" />
-  <p class="entradilla segunda">
-    Y no todas las provincias pesan igual: en 2023, un escaño costó {n(votosPorEscano(barato))} votos en {barato.nombre} y {n(votosPorEscano(caro))} en {caro.nombre}.
-  </p>
-  <Fuente de="resultados2023" calculo />
+
+  <dl class="cifras-cabecera">
+    <div><dt class="cifra">52</dt><dd>circunscripciones</dd></div>
+    <div><dt class="cifra">350</dt><dd>diputados en juego</dd></div>
+    <div><dt class="cifra">×{(votosPorEscano(caro) / votosPorEscano(barato)).toLocaleString('es-ES', { maximumFractionDigits: 1 })}</dt><dd>cuesta más un escaño en {caro.nombre} que en {barato.nombre}</dd></div>
+  </dl>
+  <Fuente de={['convocatoria2026', 'resultados2023']} calculo />
 
   <TuProvincia />
 
   <label class="buscar">
-    <span class="suave">¿Dónde votas?</span>
-    <input type="search" placeholder="Escribe tu provincia" autocomplete="off" data-buscar />
+    <span class="visually-hidden">Busca tu provincia</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="M16 16l4.5 4.5" /></svg>
+    <input type="search" placeholder="Busca tu provincia" autocomplete="off" data-buscar />
   </label>
 
   <ul class="provincias" data-lista>
     {lista.map((p) => (
       <li data-nombre={`${p.nombre} ${p.slug}`.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '')}>
         <a href={`/tu-voto/${p.slug}`}>
-          <span>{p.nombre}</span>
-          <span class="suave cifra">{p.escanos2026}</span>
+          <span class="nombre">{p.nombre}</span>
+          <span class="escanos"><strong class="cifra">{p.escanos2026}</strong> <span class="suave">{p.escanos2026 === 1 ? 'diputado' : 'diputados'}</span></span>
+          <span class="barra-escanos" style={`--w:${(p.escanos2026 / maximo) * 100}%`} aria-hidden="true"></span>
         </a>
       </li>
     ))}
   </ul>
-  <p class="suave nota">El número es el de diputados que elige cada provincia en 2026.</p>
+  <p class="suave nota" data-sin-resultados hidden>Ninguna provincia coincide con la búsqueda.</p>
   <Fuente de="convocatoria2026" />
 </Base>
 
@@ -53,6 +57,7 @@ const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as 
     input.addEventListener('input', () => {
       const q = input.value.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').trim();
       items.forEach((li) => (li.hidden = !!q && !li.dataset.nombre!.includes(q)));
+      document.querySelector<HTMLElement>('[data-sin-resultados]')!.hidden = [...items].some((li) => !li.hidden);
     });
     input.addEventListener('keydown', (e) => {
       if (e.key !== 'Enter') return;
@@ -67,21 +72,38 @@ const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as 
 <style>
   h1 em { font-style: italic; }
   .entradilla { font-size: var(--entradilla); max-width: 40ch; margin: 0; }
-  .segunda { margin-top: 16px; }
-  .buscar { margin-top: 36px; display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
+
+  /* Buscador: campo con borde, lupa y altura cómoda para el dedo */
+  .buscar { position: relative; display: block; margin: 28px 0 8px; }
+  .buscar svg { position: absolute; left: 16px; top: 50%; width: 20px; height: 20px; transform: translateY(-50%); fill: none; stroke: var(--suave); stroke-width: 1.8; stroke-linecap: round; pointer-events: none; }
   input[type='search'] {
+    width: 100%;
     font: inherit;
-    font-size: 20px;
+    font-size: 17px;
     color: var(--tinta);
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid var(--tinta);
-    padding: 8px 0;
-    border-radius: 0;
+    background: var(--papel);
+    border: 1px solid var(--linea);
+    border-radius: 999px;
+    min-height: 52px;
+    padding: 0 18px 0 46px;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: border-color 0.15s;
   }
-  input[type='search']:focus { outline: none; border-bottom-width: 2px; }
-  .provincias { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); column-gap: 32px; }
-  .provincias a { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--linea); text-decoration: none; transition: padding 0.15s ease; }
-  .provincias a:hover { padding-left: 6px; }
+  input[type='search']:focus { outline: none; border-color: var(--tinta); }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* Provincias: nombre, diputados en grande y una barra proporcional a los escaños */
+  .provincias { list-style: none; padding: 0; margin: 8px 0 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; }
+  .provincias li[hidden] { display: none; }
+  .provincias a { position: relative; display: flex; flex-direction: column; gap: 2px; padding: 14px 0 16px; border-bottom: 1px solid var(--linea); text-decoration: none; }
+  .nombre { font-size: 15px; line-height: 1.25; overflow-wrap: anywhere; }
+  .escanos { font-size: 13px; }
+  .escanos strong { font-family: var(--serif); font-weight: 400; font-size: 26px; line-height: 1; margin-right: 2px; }
+  .barra-escanos { position: absolute; left: 0; bottom: -1px; height: 2px; width: var(--w); background: var(--tinta); transform-origin: left; transition: transform 0.3s ease; }
+  .provincias a:hover .nombre { text-decoration: underline; }
   .nota { font-size: 13px; margin-top: 16px; }
+  @media (min-width: 640px) {
+    .provincias { grid-template-columns: repeat(3, 1fr); column-gap: 28px; }
+  }
 </style>

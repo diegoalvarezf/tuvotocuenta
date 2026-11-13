@@ -49,12 +49,12 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
 <Base imagen={`/og/${p.slug}.png`} title={`${p.nombre} el 29 de noviembre: diputados y candidaturas · tuvotocuenta`} description={`${p.nombre} elige ${p.escanos2026} ${palabra(p.escanos2026)} el 29 de noviembre. Cómo se repartieron en 2023 y cuántos votos cuesta un escaño.`}>
   <a href="/tu-voto" class="volver suave">← Todas las provincias</a>
   <h1>{p.nombre}</h1>
-  <p class="entradilla">
-    {r26 ? 'Ha elegido' : 'Elige'} <strong>{p.escanos2026} {palabra(p.escanos2026)}</strong> el 29 de noviembre{
-      diferencia !== 0 && <span class="suave">, {Math.abs(diferencia)} {diferencia > 0 ? 'más' : 'menos'} que en 2023</span>
-    }.
-  </p>
-  <Fuente de="convocatoria2026" />
+  <dl class="cifras-cabecera">
+    <div><dt class="cifra">{p.escanos2026}</dt><dd>{palabra(p.escanos2026)} {r26 ? 'elegidos' : 'elige'} el 29 de noviembre{diferencia !== 0 && `, ${Math.abs(diferencia)} ${diferencia > 0 ? 'más' : 'menos'} que en 2023`}</dd></div>
+    {presentadas && <div><dt class="cifra">{presentadas.candidaturas.length}</dt><dd>candidaturas se presentan</dd></div>}
+    <div><dt class="cifra">{n(Math.round(p.votosValidos / p.escanos2023))}</dt><dd>votos costó un escaño en 2023</dd></div>
+  </dl>
+  <Fuente de={presentadas ? ['convocatoria2026', 'candidaturas2026', 'resultados2023'] : ['convocatoria2026', 'resultados2023']} calculo />
 
   <div class="acciones" data-provincia-actual data-slug={p.slug} data-nombre={p.nombre}>
     <nav class="saltos" aria-label="Ir a una sección">
@@ -105,7 +105,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   {presentadas && (
     <section class="presentadas" id="quien">
       <h2>Quién se presenta</h2>
-      <p class="suave nota-cand">{presentadas.candidaturas.length} candidaturas proclamadas al Congreso, en el orden del BOE. Pulsa una para ver su lista. Aún pueden cambiar por los recursos previstos en la ley.</p>
+      <p class="suave nota-cand">En el orden del BOE. Pulsa una para ver su lista.</p>
       <ul>
         {presentadas.candidaturas.map((c) => (
           <li>
@@ -150,10 +150,6 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
 
   <h2>Lo que conviene saber</h2>
   <dl class="datos">
-    <div>
-      <dt class="cifra">{n(Math.round(p.votosValidos / p.escanos2023))}</dt>
-      <dd>votos costó de media cada escaño en {p.nombre} en 2023.<Fuente de="resultados2023" calculo /></dd>
-    </div>
     <div>
       <dt class="cifra">{n(umbral)}</dt>
       <dd>votos, el 3 % de los válidos, era el mínimo para poder optar a un escaño.<Fuente de={['resultados2023', 'loreg']} calculo /></dd>
