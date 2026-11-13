@@ -66,6 +66,12 @@ test('acepta una cita que cruza unas comillas decorativas al final de página y 
   assert.ok(pdf({ cita: 'Defenderemos el marco 2028-2034 y bajaremos los impuestos.', pagina: 1 }));
 });
 
+test('acepta una cita que cruza viñetas «●» con espacios de ancho cero y un guion de corte con espacio', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'Reparto del sector:\n●\u200B Primario 8%.\n●\u200B Industria 47%.\nSegún sus necesidadesy priorizando a los nacionales.' }]);
+  assert.ok(pdf({ cita: 'Reparto del sector: Primario 8%. Industria 47%.', pagina: 1 }));
+  assert.ok(pdf({ cita: 'Según sus necesidades- y priorizando a los nacionales.', pagina: 1 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });

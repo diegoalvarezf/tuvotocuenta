@@ -5,6 +5,9 @@
 export const normalizar = (s) =>
   s
     .normalize('NFC')
+    // Viñetas «●» y espacios de ancho cero (FE de las JONS): no forman parte del texto citado
+    .replace(/[\u200B\u200C\u200D\uFEFF]/g, '')
+    .replace(/●/g, ' ')
     // Entre cifras el guion es de rango («2028-» / «2034»), no de corte
     .replace(/(\d)-\s*\n\s*(\d)/g, '$1-$2')
     .replace(/-\s*\n\s*/g, '')
@@ -58,6 +61,8 @@ export function crearVerificador(paginas) {
     const conSiguiente = normalizar(`${limpio.get(pagina) ?? ''}\n${limpio.get(pagina + 1) ?? ''}`);
     // pdftotext quita el guion a final de línea en palabras compuestas («público-» / «privada») y en rangos («2028-» / «2034»)
     const sinGuion = buscada.replace(/([\p{L}\p{N}])-([\p{L}\p{N}])/gu, '$1$2');
-    return buscada.length > 0 && [buscada, sinGuion].some((b) => aqui.includes(b) || conSiguiente.includes(b));
+    // Guion de corte seguido de espacio («necesidades- y»), que pdftotext pega sin guion ni espacio
+    const sinCorte = buscada.replace(/(\p{L})- (\p{L})/gu, '$1$2');
+    return buscada.length > 0 && [buscada, sinGuion, sinCorte].some((b) => aqui.includes(b) || conSiguiente.includes(b));
   };
 }
