@@ -24707,7 +24707,7 @@
     "resumen": "Endurecer las penas a los incendiarios.",
     "cita": "Endurecimiento de las penas a los incendiarios.",
     "pagina": 34,
-    "concreta": true,
+    "concreta": false,
     "revisada": true
   },
   {
@@ -25856,7 +25856,7 @@
   {
     "partido": "PACMA",
     "tema": "Otros",
-    "resumen": "Hasta su prohibición, vetar la retransmisión de estos espectáculos, retirarles subvenciones y protección cultural, derogando la Ley 18/2013 de la Tauromaquia como patrimonio cultural.",
+    "resumen": "Hasta prohibirlos, vetar la retransmisión de espectáculos con animales, retirarles subvenciones y protección cultural y derogar la Ley 18/2013 de Tauromaquia.",
     "cita": "Mientras conseguimos una prohibición real, exigiremos la prohibición de su retransmisión televisiva o radiofónica, la retirada inmediata de toda subvención pública que reciban directa o indirectamente, así como de cualquier reconocimiento que los proteja como patrimonio o bien de interés cultural, empezando por derogar la Ley 18/2013, de 12 de noviembre, para la regulación de la Tauromaquia como patrimonio cultural",
     "pagina": 12,
     "concreta": true,
@@ -26307,7 +26307,7 @@
     "partido": "PACMA",
     "tema": "Otros",
     "resumen": "Prohibir en España, como otros países europeos, el sacrificio de pollitos macho por trituración.",
-    "cita": "Es hora de que España también lo haga.",
+    "cita": "Algunos países europeos, como Alemania, Austria, Luxemburgo, Francia e Italia han prohibido ya el sacrificio por trituración, sustituyéndolo por prácticas alternativas, como las diseñadas para determinar el sexo de los polluelos pocos días después de que el huevo haya sido fertilizado, y antes de que esté formado el sistema nervioso, lo que permite que los huevos fecundados masculinos sean descartados y dejen de ser incubados. Es hora de que España también lo haga.",
     "pagina": 27,
     "concreta": true,
     "revisada": false
@@ -26343,7 +26343,7 @@
     "partido": "PACMA",
     "tema": "Otros",
     "resumen": "Prohibir los ingredientes de origen animal en cosméticos y productos de higiene personal.",
-    "cita": "desde el Partido Animalista consideramos necesario ir más allá, proponiendo la prohibición de utilizar ingredientes de origen animal en la elaboración de los productos cosméticos y de higiene personal.",
+    "cita": "La prohibición en la Unión Europea de la comercialización de productos cosméticos y de higiene personal testados en animales, así como de los productos que contuvieran ingredientes que habían sido testados en animales, supuso un gran avance, pero desde el Partido Animalista consideramos necesario ir más allá, proponiendo la prohibición de utilizar ingredientes de origen animal en la elaboración de los productos cosméticos y de higiene personal.",
     "pagina": 29,
     "concreta": true,
     "revisada": false
@@ -26459,8 +26459,8 @@
   {
     "partido": "PACMA",
     "tema": "Otros",
-    "resumen": "Modificar el Real Decreto de medicamentos veterinarios que, según el partido, causa malestar a veterinarios y propietarios de animales de compañía.",
-    "cita": "Desde PACMA queremos impulsar una modificación del Real Decreto que tanto malestar está provocando a veterinarios y propietarios de animales de compañía.",
+    "resumen": "Modificar el Real Decreto 666/2023 de medicamentos veterinarios, que según el partido causa malestar a veterinarios y propietarios de animales.",
+    "cita": "Desde PACMA queremos impulsar una modificación del Real Decreto que tanto malestar está provocando a veterinarios y propietarios de animales de compañía. Nos referimos al Real Decreto 666/2023, por el que se regula la distribución, prescripción, dispensación y uso de medicamentos veterinarios",
     "pagina": 31,
     "concreta": true,
     "revisada": false
@@ -26927,15 +26927,6 @@
   {
     "partido": "PACMA",
     "tema": "Energía y clima",
-    "resumen": "Entre las soluciones para proteger la fauna, sustituir los aerogeneradores de aspas por aerogeneradores de vibración.",
-    "cita": "Aerogeneradores: sustitución de los aerogeneradores de aspas por aerogeneradores de vibración.",
-    "pagina": 48,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PACMA",
-    "tema": "Energía y clima",
     "resumen": "Ley que obligue a infraestructuras públicas y privadas a adoptar medidas para evitar la muerte de fauna silvestre.",
     "cita": "Desde PACMA impulsaremos el desarrollo de una norma que aborde las distintas problemáticas derivadas de las diferentes infraestructuras, que prevea medidas de protección de la fauna silvestre y establezca la obligatoriedad de adoptarlas, ya se trate de infraestructuras de titularidad pública como privada, adaptando las existentes y exigiendo que las nuevas las incorporen desde su construcción o instalación, con la finalidad de evitar o, al menos, reducir la mortalidad de la fauna silvestre.",
     "pagina": 48,
@@ -26955,7 +26946,7 @@
     "partido": "PACMA",
     "tema": "Energía y clima",
     "resumen": "Prohibir la caza durante 30 años en terrenos quemados en incendios vinculados a intereses cinegéticos y en sus zonas colindantes.",
-    "cita": "desde PACMA proponemos prohibir la práctica de la actividad cinegética durante 30 años en terrenos afectados por incendios vinculados a intereses relacionados con esta actividad, en términos extensivos.",
+    "cita": "Para evitar estas situaciones, de la misma manera que la Ley prohíbe el cambio de uso forestal durante 30 años de terrenos forestales incendiados, para evitar su quema por intereses urbanísticos, agrícolas, mineros…, así como toda actividad incompatible con la regeneración de la cubierta vegetal durante el periodo que determine la legislación autonómica, desde PACMA proponemos prohibir la práctica de la actividad cinegética durante 30 años en terrenos afectados por incendios vinculados a intereses relacionados con esta actividad, en términos extensivos. Es decir, en las zonas directamente devastadas y en las colindantes a dónde se hayan desplazado los animales.",
     "pagina": 50,
     "concreta": true,
     "revisada": false
@@ -26963,10 +26954,10 @@
   {
     "partido": "PACMA",
     "tema": "Energía y clima",
-    "resumen": "Buscar alternativas al uso del fuego en el medio rural, sensibilizar sobre el riesgo de incendio y reforzar la selvicultura preventiva.",
-    "cita": "En la misma línea, PACMA apuesta por el impulso de otras medidas como realizar estudios para encontrar alternativas al uso del fuego en el medio rural y fomentar esas alternativas, recompensando las buenas prácticas y haciendo mayores esfuerzos para sensibilizar a la población sobre el creciente peligro de incendio; incidir en las medidas de selvicultura preventiva",
+    "resumen": "Buscar alternativas al uso del fuego en el medio rural, reforzar la selvicultura preventiva y prohibir la pirotecnia y los farolillos voladores.",
+    "cita": "En la misma línea, PACMA apuesta por el impulso de otras medidas como realizar estudios para encontrar alternativas al uso del fuego en el medio rural y fomentar esas alternativas, recompensando las buenas prácticas y haciendo mayores esfuerzos para sensibilizar a la población sobre el creciente peligro de incendio; incidir en las medidas de selvicultura preventiva, cuya finalidad es conseguir bosques con menor grado de combustibilidad, creando más áreas cortafuegos, mediante el clareo, la poda y el desbroce, de manera que se dificulte el paso del fuego y se facilite la circulación de los equipos de extinción; adoptar medidas de prevención en los núcleos urbanos, urbanizaciones y residencias cercanas a zonas forestales; y prohibir la pirotecnia y los farolillos voladores, por el elevado riesgo que su uso supone en la provocación de incendios",
     "pagina": 50,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -27207,7 +27198,7 @@
     "partido": "PACMA",
     "tema": "Sanidad",
     "resumen": "Más dietistas-nutricionistas en la sanidad pública.",
-    "cita": "Desde PACMA llevamos años reivindicando una mayor presencia de la figura del dietistanutricionista, dado que, en contraposición a la mayoría de los países europeos, España apenas cuenta con estos profesionales en el sistema público de salud.",
+    "cita": "Desde PACMA llevamos años reivindicando una mayor presencia de la figura del dietista-nutricionista, dado que, en contraposición a la mayoría de los países europeos, España apenas cuenta con estos profesionales en el sistema público de salud.",
     "pagina": 56,
     "concreta": false,
     "revisada": false
@@ -28521,7 +28512,7 @@
     "partido": "PACMA",
     "tema": "Otros",
     "resumen": "Prevenir el consumo de alcohol y drogas entre jóvenes con alternativas de ocio cultural, artístico y deportivo.",
-    "cita": "consideramos importante establecer medidas específicas para prevenir y/o reducir en la juventud el consumo de bebidas alcohólicas y drogas, mediante el impulso de la oferta y promoción de alternativas saludables de ocio, con actividades culturales, artísticas y deportivas",
+    "cita": "Además de las propuestas planteadas en otros ámbitos, como el de la educación, la cultura o el empleo, consideramos importante establecer medidas específicas para prevenir y/o reducir en la juventud el consumo de bebidas alcohólicas y drogas, mediante el impulso de la oferta y promoción de alternativas saludables de ocio, con actividades culturales, artísticas y deportivas",
     "pagina": 81,
     "concreta": false,
     "revisada": false
@@ -28712,7 +28703,7 @@
     "resumen": "Ampliar la capacidad de los CIE mientras se ejecutan las órdenes de expulsión.",
     "cita": "Ampliación de la capacidad los CIE mientras se ejecutan, con la máxima celeridad, las órdenes de expulsión.",
     "pagina": 11,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -28808,7 +28799,7 @@
   {
     "partido": "FE de las JONS",
     "tema": "Inmigración",
-    "resumen": "En 10 años, retirar la nacionalidad a quienes no sean hijos de español; pasarían a tener permiso de trabajo de hasta tres años.",
+    "resumen": "En 10 años, retirar la nacionalidad que llama «regalada» a quien incumpla su punto 1.4 y darle permiso de trabajo de hasta tres años.",
     "cita": "Retirada de la nacionalidad española regalada a todos los extranjeros que no cumplan el punto 1.4., pasando a ser inmigrantes con permiso de trabajo con una duración máxima de tres años.",
     "pagina": 12,
     "concreta": true,
@@ -28880,7 +28871,7 @@
   {
     "partido": "FE de las JONS",
     "tema": "Vivienda",
-    "resumen": "Plan fiscal para gravar a grandes tenedores, considerando gran tenedor a quien tenga 5 pisos alquilados.",
+    "resumen": "Plan fiscal para gravar a grandes tenedores, considerando gran tenedor a quien tenga 5 o más pisos alquilados.",
     "cita": "Medidas tributarias: Plan fiscal destinado a gravar a grandes tenedores. Se reducirá la categoría de gran tenedor a partir de 5 pisos en propiedad en situación de arrendamiento.",
     "pagina": 14,
     "concreta": true,
@@ -29009,7 +29000,7 @@
     "resumen": "Anular la aplicación de los principios de la Agenda 2030.",
     "cita": "Anulación de la aplicación de los principios firmados por nuestros traidores gobernantes en la ya conocida “Agenda 2030”, de sobra conocidos por su nocividad para con los intereses nacionales y populares.",
     "pagina": 17,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -29132,7 +29123,7 @@
   {
     "partido": "FE de las JONS",
     "tema": "Economía y empresas",
-    "resumen": "Cambiar el modelo productivo: reindustrializar con energía barata, FP, preferencia por la compra nacional, suelo e incentivos fiscales, y revitalizar el sector primario.",
+    "resumen": "Cambiar el modelo productivo y reindustrializar con energía barata, más FP, preferencia por la compra nacional, suelo, simplificación e incentivos fiscales.",
     "cita": "Giro de 180º en el modelo productivo, reindustrializando España mediante la soberanía y abaratamiento energético, vigorización de la Formación Profesional, blindando y dando preferencia a la compra nacional, proporcionando suelo, simplificando procedimientos, incentivando fiscalmente y demás medidas recogidas en este documento.",
     "pagina": 22,
     "concreta": false,
@@ -29360,15 +29351,6 @@
     "resumen": "Derogar las leyes que permiten el aborto y la eutanasia.",
     "cita": "Ilegalizaremos todas las leyes que permiten hoy arrebatarla, tales como las del aborto y la eutanasia.",
     "pagina": 25,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "FE de las JONS",
-    "tema": "Inmigración",
-    "resumen": "Prevé que, con su plan de remigración, la población baje a 30-35 millones en 15-20 años, y adaptar servicios e infraestructuras a esa cifra.",
-    "cita": "Con los planes de remigración propuestos y la actual pirámide poblacional, la población de España se reducirá a unos 30-35 millones de españoles en un plazo de 15-20 años, adecuando el país, sus servicios e infraestructuras a esta cifra, en todos y cada uno de sus territorios.",
-    "pagina": 26,
     "concreta": true,
     "revisada": false
   },
@@ -29897,7 +29879,7 @@
   {
     "partido": "FE de las JONS",
     "tema": "Seguridad y justicia",
-    "resumen": "Cerrar los centros okupas y detener a sus promotores.",
+    "resumen": "Cerrar los centros ocupados ilegalmente y detener a sus promotores.",
     "cita": "Clausura y detención de los promotores de “centros okupas” (sic), que constituyen un potente núcleo de tráfico de drogas y de actividades contrarias a los valores más elementales.",
     "pagina": 39,
     "concreta": false,
@@ -29906,7 +29888,7 @@
   {
     "partido": "FE de las JONS",
     "tema": "Vivienda",
-    "resumen": "Perseguir la okupación de viviendas de trabajadores españoles.",
+    "resumen": "Perseguir la ocupación ilegal de viviendas de trabajadores españoles.",
     "cita": "Persecución de la “okupación” de propiedades de trabajadores españoles que han adquirido con su esfuerzo.",
     "pagina": 39,
     "concreta": false,
@@ -29936,7 +29918,7 @@
     "resumen": "Reformar la Ley de Seguridad Ciudadana.",
     "cita": "Reforma de la Ley de Seguridad Ciudadana, que garantice su servicio real a los intereses de la Nación española.",
     "pagina": 39,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -30032,15 +30014,6 @@
   {
     "partido": "FE de las JONS",
     "tema": "Defensa y política exterior",
-    "resumen": "Militarizar las fronteras, sobre todo la frontera sur de Ceuta, Melilla y Canarias.",
-    "cita": "Militarización de las fronteras españolas, especialmente la frontera sur de Ceuta, Melilla y Canarias.",
-    "pagina": 41,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "FE de las JONS",
-    "tema": "Defensa y política exterior",
     "resumen": "Servicio militar obligatorio de 18 meses para hombres y mujeres de entre 18 y 22 años, remunerado y cotizado.",
     "cita": "Reintroducción del Servicio Militar obligatorio, con duración de 18 meses, tanto para hombres como para mujeres, a realizar entre los 18 y los 22 años, siendo este remunerado y cotizado.",
     "pagina": 41,
@@ -30077,7 +30050,7 @@
   {
     "partido": "FE de las JONS",
     "tema": "Seguridad y justicia",
-    "resumen": "Cadena perpetua no revisable para lo que llama delitos de «Lesa Patria» (incluida la difusión de ideas separatistas), asesinato, violación, pederastia y terrorismo.",
+    "resumen": "Permitir la cadena perpetua no revisable por delitos de lo que llama «Lesa Patria» (como promover ideas separatistas), asesinato, violación, pederastia o terrorismo.",
     "cita": "Reforma del Código penal, introduciendo la posibilidad de la cadena perpetua no revisable para delitos de Lesa Patria (latrocinio, promulgación de ideas separatistas, etc.) y para aquellos que atenten contra la vida humana, como son el asesinato, las violaciones y pederastia o el terrorismo.",
     "pagina": 42,
     "concreta": true,
@@ -30185,9 +30158,9 @@
   {
     "partido": "FE de las JONS",
     "tema": "Otros",
-    "resumen": "Optimizar la administración pública.",
-    "cita": "Optimización total de la administración pública.",
-    "pagina": 44,
+    "resumen": "Optimizar la administración pública y controlar al milímetro el gasto, ahorrando donde sea posible.",
+    "cita": "optimizando totalmente la administración pública y controlando milimétricamente el gasto, ahorrando allí donde sea posible",
+    "pagina": 37,
     "concreta": false,
     "revisada": false
   },
@@ -30356,10 +30329,10 @@
   {
     "partido": "FE de las JONS",
     "tema": "Educación",
-    "resumen": "Prohibir asociaciones y colectivos ideológicos en el espacio educativo.",
+    "resumen": "Prohibir en el espacio educativo las asociaciones y colectivos que considera ideológicos.",
     "cita": "Prohibición de asociaciones y colectivos ideológicos dentro del espacio educativo.",
     "pagina": 47,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -30629,7 +30602,7 @@
     "resumen": "Prohibir por ley que la inteligencia artificial altere, censure o manipule la historia, los valores y el idioma nacional.",
     "cita": "Prohibición por ley de que los algoritmos de Inteligencia Artificial utilizados en el país alteren, censuren o manipulen la historia, los valores y el idioma nacional.",
     "pagina": 53,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -30707,7 +30680,7 @@
   {
     "partido": "FE de las JONS",
     "tema": "Otros",
-    "resumen": "Invertir en líneas de autobús y tren, sobre todo en zonas rurales, y en su mantenimiento.",
+    "resumen": "Invertir en las líneas de transporte por carretera y tren, sobre todo en zonas rurales, y en su mantenimiento.",
     "cita": "Inversión decidida en el refuerzo de las líneas de transporte por carretera y tren, especialmente en zonas rurales, así como el correcto mantenimiento de estas.",
     "pagina": 55,
     "concreta": false,
@@ -30846,6 +30819,168 @@
     "cita": "Repoblación de la flora y fauna en riesgo.",
     "pagina": 56,
     "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir en la ley de protección animal tener animales de forma continuada en terrazas, patios u otros lugares inapropiados.",
+    "cita": "Tener de forma continuada animales en terrazas o patios, u otros lugares inapropiados.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir dar a los animales sustancias hormonales o químicas que alteren su salud o comportamiento, salvo prescripción veterinaria.",
+    "cita": "Suministrar a los animales sustancias hormonales o químicas que puedan causarles alteraciones de la salud, del metabolismo o del comportamiento, excepto por prescripción veterinaria.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir marcar a los animales a fuego o con otros métodos lacerantes.",
+    "cita": "Marcar a los animales a fuego o mediante cualquier otro método lacerante.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir usar animales en atracciones feriales y otras similares.",
+    "cita": "Utilizar animales en atracciones feriales y otras asimilables.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir adiestrar a los animales con métodos que dañen su salud o bienestar o les causen lesiones, dolor o angustia.",
+    "cita": "Adiestrar o entrenar a los animales mediante métodos que puedan perjudicar su salud y bienestar, obligándoles a superar sus fuerzas o capacidades naturales o utilizando medios que puedan provocar lesiones, dolores, sufrimientos o angustia.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir dar a los animales una educación agresiva, de ataque o de defensa.",
+    "cita": "Dar a los animales una educación agresiva, de ataque o defensa.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir usar animales como instrumento de defensa personal o de propiedades.",
+    "cita": "Valerse de animales como instrumentos de defensa, tanto personal como de propiedades.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir manipular artificialmente a los animales para hacerlos atractivos como diversión o juguete.",
+    "cita": "Manipular artificialmente a los animales con objeto de hacerlos atractivos como diversión o juguete.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Prohibir instrumentos o métodos dañinos de sujeción, retención o educación de los animales.",
+    "cita": "Emplear instrumentos o métodos dañinos de sujeción, retención o educación.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Hacer campañas informativas sobre el control de las colonias de gatos con el método CER (captura, esterilización y retorno).",
+    "cita": "Para un buen desarrollo, es igualmente necesaria la implementación de campañas de información dirigidas a la ciudadanía sobre el control poblacional de las colonias mediante el CER y sus beneficios, aún desconocidos para gran parte de la población.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Igualdad y familia",
+    "resumen": "Que las comunidades autónomas apoyen y asesoren a las empresas privadas para elaborar planes de igualdad.",
+    "cita": "Se debe prever, asimismo, que las comunidades autónomas fomenten y presten apoyo y asesoramiento para la elaboración de planes de igualdad en las empresas privadas.",
+    "pagina": 65,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Empleo y salarios",
+    "resumen": "Asesorar a las empresas sobre la inserción laboral de personas con discapacidad.",
+    "cita": "Asesoramiento a las empresas sobre inserción laboral de personas con discapacidad.",
+    "pagina": 66,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Seguridad y justicia",
+    "resumen": "Más control y publicidad de cómo se aprueban los sobrecostes en la contratación pública.",
+    "cita": "Además, se deben establecer un mayor control y publicidad de los mecanismos de aprobación de sobrecostes.",
+    "pagina": 73,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Incorporar recursos y nuevas tecnologías a la recogida de firmas de las iniciativas legislativas populares.",
+    "cita": "Incorporación de recursos y nuevas tecnologías para el procedimiento de recogida de firmas.",
+    "pagina": 74,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "PACMA",
+    "tema": "Otros",
+    "resumen": "Crear espacios para que los jóvenes compartan y desarrollen sus creaciones artísticas y culturales, como locales de ensayo.",
+    "cita": "Creación de espacios físicos donde la juventud pueda compartir sus inquietudes y creaciones a nivel artístico y cultural, así como desarrollar su talento (locales de ensayo, exposiciones, encuentros, debates, …).",
+    "pagina": 82,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "FE de las JONS",
+    "tema": "Empleo y salarios",
+    "resumen": "Controlar exhaustivamente las horas extra.",
+    "cita": "Control exhaustivo de las horas extra",
+    "pagina": 23,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "FE de las JONS",
+    "tema": "Inmigración",
+    "resumen": "Revisar una a una todas las nacionalidades concedidas en los últimos 50 años, que el anexo llama «regaladas».",
+    "cita": "Revisión, una a una, de todas las nacionalidades regaladas durante los últimos 50 años.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "FE de las JONS",
+    "tema": "Defensa y política exterior",
+    "resumen": "Tras el servicio militar, pasar a la reserva activa hasta los 45 años; a partir de esa edad, ser reservista sería voluntario.",
+    "cita": "A su término, todo aquel que lo haya realizado, pasará a un estado de reserva activa hasta los 45 años. Más allá de dicha edad, la posición de reservista será voluntaria.",
+    "pagina": 41,
+    "concreta": true,
     "revisada": false
   }
 ]
