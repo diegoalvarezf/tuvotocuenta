@@ -120,7 +120,12 @@
     "circunscripciones": 30,
     "web": "https://www.pacma.es",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral. Elecciones Generales 29 de noviembre de 2026",
+      "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+      "fecha": "2026-11-12",
+      "paginas": 82
+    }
   },
   {
     "siglas": "Mundo+Justo",
@@ -157,7 +162,12 @@
     "circunscripciones": 9,
     "web": "https://falange.es",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral. Elecciones Generales 29N 2026",
+      "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+      "fecha": "2026-11-13",
+      "paginas": 60
+    }
   },
   {
     "siglas": "ADELANTE ANDALUCÍA",
@@ -524,7 +534,14 @@
     "nombre": "TERUEL EXISTE",
     "circunscripciones": 1,
     "web": "https://teruelexiste.info",
-    "documentos": [],
+    "documentos": [
+      {
+        "titulo": "Programa electoral completo 29N",
+        "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
+        "fecha": "2026-11-12",
+        "paginas": 15
+      }
+    ],
     "programa": null
   },
   {
