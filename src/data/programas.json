@@ -8,7 +8,7 @@
     "documentos": [
       {
         "titulo": "Programa político",
-        "url": "https://frenteobrero.es/wp-content/uploads/2026/10/Programa.pdf",
+        "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
         "fecha": "2026-10-07",
         "paginas": 64
       }
@@ -180,7 +180,12 @@
     "circunscripciones": 8,
     "web": "https://adelanteandalucia.org",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral. Elecciones Generales 29-11-2026",
+      "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+      "fecha": "2026-11-10",
+      "paginas": 134
+    }
   },
   {
     "siglas": "ALHORA",
@@ -487,6 +492,12 @@
         "url": "https://www.feministasalcongreso.es/wp-content/uploads/2026/10/Programa_1IMP.pdf",
         "fecha": "2026-10-20",
         "paginas": 2
+      },
+      {
+        "titulo": "Programa electoral. Elecciones generales 29 de noviembre de 2026",
+        "url": "https://www.feministasalcongreso.es/wp-content/uploads/2026/11/PROGRAMA_ELECTORAL.pdf",
+        "fecha": "2026-11-13",
+        "paginas": 10
       }
     ],
     "programa": null
