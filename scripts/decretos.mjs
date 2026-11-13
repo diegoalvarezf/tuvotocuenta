@@ -114,10 +114,43 @@ const EXTRA = [
     resultado: 'derogado',
     boe: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20527',
   },
+  // Votados por la Diputación Permanente el 12-11-2026; los votos, de la nota de prensa del Congreso
+  {
+    "nombre": "Real Decreto-ley 28/2026",
+    "titulo": "por el que se adoptan medidas urgentes para reforzar la estabilidad de los contratos de arrendamiento de vivienda habitual",
+    "votacion": "2026-11-12",
+    "resultado": "derogado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23754",
+    "totales": {
+      "si": 34,
+      "no": 35
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 12 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52635"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 29/2026",
+    "titulo": "por el que se adoptan medidas urgentes para la protección de la función social de la vivienda y la ampliación de la oferta de vivienda asequible",
+    "votacion": "2026-11-12",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23755",
+    "totales": {
+      "si": 35,
+      "no": 34
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 12 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52634"
+    }
+  },
 ];
 for (const e of EXTRA) {
   if (salida.some((d) => d.nombre === e.nombre)) continue;
-  salida.push({ ...e, totales: null, grupos: null, sinDatosAbiertos: true });
+  salida.push({ totales: null, grupos: null, sinDatosAbiertos: true, ...e });
   console.log(`${e.votacion} ${e.nombre}: ${e.resultado} (añadido desde el BOE)`);
 }
 

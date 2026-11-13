@@ -21,14 +21,12 @@ const porSentido = (grupos: (typeof votaciones)[number]['grupos']) =>
   SENTIDOS.map((s) => ({ sentido: s, grupos: grupos.filter((g) => g.sentido === s) })).filter((x) => x.grupos.length > 0);
 const temas = [...new Set(votaciones.map((v) => v.tema))].sort((a, b) => a.localeCompare(b, 'es'));
 const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
-// Decretos votados por la Diputación Permanente cuyo acuerdo aún no ha publicado el BOE (fuente: nota del Congreso)
-const votadosDP = pendientes.filter((d) => d.resultado);
-const sinVotar = pendientes.filter((d) => !d.resultado);
-const derogados = [
-  ...decretos.filter((d) => d.resultado === 'derogado').map((d) => ({ ...d, fuente: { nombre: `acuerdo de derogación del ${d.nombre} (BOE)`, url: d.boe } })),
-  ...votadosDP.filter((d) => d.resultado === 'derogado').map((d) => ({ ...d, titulo: d.titulo.replace(/\.$/, ''), sinDatosAbiertos: true, fuente: d.fuenteResultado! })),
-];
-const totalDecretos = decretos.length + votadosDP.length;
+// Decretos votados por la Diputación Permanente con las Cortes disueltas (resultado del BOE; votos, si los hay, de la nota del Congreso)
+const votadosDP = decretos.filter((d) => d.organo === 'Diputación Permanente').sort((a, b) => b.votacion.localeCompare(a.votacion));
+const sinVotar = pendientes;
+const derogados = decretos.filter((d) => d.resultado === 'derogado');
+const totalDecretos = decretos.length;
+const mayuscula = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
 ---
 
 <Base title="Qué votó cada partido en el Congreso (2023-2026) · tuvotocuenta" description="Votaciones clave del Congreso en la legislatura 2023-2026: qué se votó y qué votó cada grupo, con el acta oficial.">
@@ -51,7 +49,7 @@ const totalDecretos = decretos.length + votadosDP.length;
         <li>
           <span class="suave">{fecha(d.votacion)} · </span>{d.titulo.charAt(0).toUpperCase() + d.titulo.slice(1)}.
           {d.sinDatosAbiertos && <span class="suave"> Esta votación no figura en los datos abiertos del Congreso.</span>}
-          <span class="fuente-nota">Fuente: <a href={d.fuente.url} target="_blank" rel="noopener">{d.fuente.nombre}</a></span>
+          <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de derogación del {d.nombre} (BOE)</a></span>
         </li>
       ))}
     </ul>
@@ -69,13 +67,16 @@ const totalDecretos = decretos.length + votadosDP.length;
         <ul class="votados">
           {votadosDP.map((d) => (
             <li>
-              <p class="meta suave"><time datetime={d.votacion}>{fecha(d.votacion!)}</time> · {d.tema}</p>
-              <p class="titulo-pendiente">{d.titulo}</p>
+              <p class="meta suave"><time datetime={d.votacion}>{fecha(d.votacion)}</time> · {d.nombre}</p>
+              <p class="titulo-pendiente">{mayuscula(d.titulo)}.</p>
               <p class="resultado-dp">
                 <strong class:list={['estado', d.resultado]}>{d.resultado === 'convalidado' ? 'Convalidado' : 'Derogado'}</strong>
-                <span class="cifra suave">{d.totales!.si} a favor · {d.totales!.no} en contra</span>
+                {d.totales && <span class="cifra suave">{d.totales.si} a favor · {d.totales.no} en contra</span>}
               </p>
-              <span class="fuente-nota">Fuente: <a href={d.fuenteResultado!.url} target="_blank" rel="noopener">{d.fuenteResultado!.nombre}</a> · texto: <a href={d.boe} target="_blank" rel="noopener">{d.nombre} (BOE)</a></span>
+              <span class="fuente-nota">
+                Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de {d.resultado === 'convalidado' ? 'convalidación' : 'derogación'} del {d.nombre} (BOE)</a>
+                {d.fuenteVotos && <> · votos: <a href={d.fuenteVotos.url} target="_blank" rel="noopener">{d.fuenteVotos.nombre}</a></>}
+              </span>
             </li>
           ))}
         </ul>
