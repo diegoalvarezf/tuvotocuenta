@@ -92,6 +92,12 @@ test('acepta el guion largo de un inciso y quita cabecera y pie en documentos de
   assert.ok(pdf({ cita: 'Salvo las que participan– excepto si cruzan de página y siguen aquí.', pagina: 2 }));
 });
 
+test('en trozos, un título partido en dos líneas se reconstruye', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'estatal de servicios sociales\n211 Ley\nMínimos comunes en todo el Estado.' }]);
+  assert.ok(pdf({ cita: 'Ley estatal de servicios sociales · Mínimos comunes en todo el Estado.', pagina: 1, trozos: true }));
+  assert.equal(pdf({ cita: 'Ley autonómica de servicios sociales · Mínimos comunes en todo el Estado.', pagina: 1, trozos: true }), false);
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });

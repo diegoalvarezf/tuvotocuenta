@@ -52,9 +52,11 @@ export function crearVerificador(paginas) {
     if (quedan === 1) return false;
     // también se parte tras un guion de rango: «2026–2030» puede salir como «2026–» y «2030»
     const palabras = celda.split(/ |(?<=–)(?=\S)/);
+    // Al recomponer, tras un guion de rango no va espacio («Huelva–Sevilla»)
+    const unir = (ps) => ps.reduce((acc, w) => (acc === '' ? w : acc.endsWith('–') ? acc + w : `${acc} ${w}`), '');
     for (let i = 1; i < palabras.length; i++) {
-      const inicio = palabras.slice(0, i).join(' ');
-      if (contiene(texto, inicio) && enTrozos(palabras.slice(i).join(' '), texto, quedan - 1)) return true;
+      const inicio = unir(palabras.slice(0, i));
+      if (contiene(texto, inicio) && enTrozos(unir(palabras.slice(i)), texto, quedan - 1)) return true;
     }
     return false;
   };
@@ -75,7 +77,9 @@ export function crearVerificador(paginas) {
       return texto.length > 0 && [texto, sinGuion, sinCorte].some((b) => aqui.includes(b) || conSiguiente.includes(b));
     };
     // Título y descripción que la maquetación a dos columnas separa: cada trozo, literal y entero, en la página
-    if (trozos) return buscada.includes(' · ') && buscada.split(' · ').every(entera);
+    // Un trozo (normalmente el título) puede salir a su vez partido en dos líneas separadas, como «estatal de servicios
+    // sociales» / «211 Ley»: vale si está entero o en dos fragmentos de palabras completas en la página
+    if (trozos) return buscada.includes(' · ') && buscada.split(' · ').every((t) => entera(t) || enTrozos(t, aqui, 2));
     return entera(buscada);
   };
 }
