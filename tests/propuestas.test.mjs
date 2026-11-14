@@ -13,7 +13,8 @@ test('cada formación con propuestas tiene un documento y su texto en el reposit
   for (const partido of new Set(propuestas.map((p) => p.partido))) {
     const p = programas.find((x) => x.siglas === partido);
     assert.ok(p?.programa ?? p?.documentos?.[0], `${partido} sin documento`);
-    assert.ok(existsSync(`programas-texto/${TEXTOS[partido]}.json`), `${partido} sin texto`);
+    // Un programa en varias partes guarda el texto de cada una en una carpeta
+    assert.ok(existsSync(`programas-texto/${TEXTOS[partido]}.json`) || existsSync(`programas-texto/${TEXTOS[partido]}`), `${partido} sin texto`);
   }
 });
 
