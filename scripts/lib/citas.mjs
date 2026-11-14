@@ -10,8 +10,6 @@ export const normalizar = (s) =>
     .replace(/●/g, ' ')
     // Entre cifras el guion es de rango («2028-» / «2034»), no de corte
     .replace(/(\d)-\s*\n\s*(\d)/g, '$1-$2')
-    // Guion largo a final de línea en nombres compuestos («Almería–» / «Aguadulce»): se une sin espacio
-    .replace(/(\p{L})–\s*\n\s*(\p{L})/gu, '$1–$2')
     .replace(/-\s*\n\s*/g, '')
     .replace(/[“”«»"]/g, '"')
     .replace(/[‘’]/g, "'")
@@ -35,7 +33,8 @@ export function crearVerificador(paginas) {
   // Se respetan las que no tienen una palabra (viñetas «•»), pero no las cortas («DEFIENDE» / «CANARIAS»)
   const veces = new Map();
   for (const p of paginas) for (const l of new Set(p.texto.split('\n').map((x) => x.trim()).filter(Boolean))) veces.set(l, (veces.get(l) ?? 0) + 1);
-  const minimo = Math.max(5, paginas.length / 3);
+  // En documentos cortos (las partes de 3 a 5 páginas del programa de D21) basta con que se repita en casi todas
+  const minimo = Math.min(Math.max(5, paginas.length / 3), Math.max(2, paginas.length - 1));
   const sinRepetidas = (t) => t.split('\n').filter((l) => !/\p{L}{3}/u.test(l) || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
   const base = new Map(paginas.map((p) => [p.pagina, sinPie(sinRepetidas(p.texto))]));
   // Marcas sueltas de una o dos cifras en mitad de la página (número de área en Adelante Andalucía: «02»)
@@ -59,12 +58,15 @@ export function crearVerificador(paginas) {
     }
     return false;
   };
+  // Fuera de las tablas, el guion largo se compara sin espacios alrededor: así valen el nombre compuesto partido
+  // a final de línea («Almería–» / «Aguadulce») y el inciso («participan– excepto»)
+  const sinEspacioGuion = (t) => t.replace(/\s*–\s*/g, '–');
   return ({ cita, pagina, tabla, trozos }) => {
-    const buscada = normalizar(cita);
-    const aqui = textoPagina.get(pagina) ?? '';
+    const buscada = tabla ? normalizar(cita) : sinEspacioGuion(normalizar(cita));
+    const aqui = sinEspacioGuion(textoPagina.get(pagina) ?? '');
     if (tabla) return buscada.length > 0 && buscada.split(' · ').every((celda) => celda.length > 0 && enTrozos(celda, textoTabla.get(pagina) ?? ''));
     // Se unen antes de normalizar para que una palabra partida entre páginas («consen-» / «so») se junte
-    const conSiguiente = normalizar(`${limpio.get(pagina) ?? ''}\n${limpio.get(pagina + 1) ?? ''}`);
+    const conSiguiente = sinEspacioGuion(normalizar(`${limpio.get(pagina) ?? ''}\n${limpio.get(pagina + 1) ?? ''}`));
     // pdftotext quita el guion a final de línea en palabras compuestas («público-» / «privada») y en rangos («2028-» / «2034»)
     const entera = (texto) => {
       const sinGuion = texto.replace(/([\p{L}\p{N}])-([\p{L}\p{N}])/gu, '$1$2');

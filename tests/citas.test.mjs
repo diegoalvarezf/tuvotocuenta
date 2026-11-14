@@ -83,6 +83,15 @@ test('con trozos, cada parte (título y descripción) debe estar entera en la p�
   assert.equal(pdf({ cita: 'Derogar la ley mordaza · Con anulación de todas las sanciones.', pagina: 1, trozos: true }), false);
 });
 
+test('acepta el guion largo de un inciso y quita cabecera y pie en documentos de pocas páginas', () => {
+  const pdf = crearVerificador([
+    { pagina: 1, texto: 'PORTADA' },
+    { pagina: 2, texto: 'CIENCIA\nSalvo las que participan–\nexcepto si cruzan de página y\nwww.democracia21.es' },
+    { pagina: 3, texto: 'CIENCIA\nsiguen aquí.\nwww.democracia21.es' },
+  ]);
+  assert.ok(pdf({ cita: 'Salvo las que participan– excepto si cruzan de página y siguen aquí.', pagina: 2 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });
