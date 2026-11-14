@@ -12,6 +12,8 @@ interface Propuesta {
   concreta: boolean;
   revisada: boolean;
   tabla?: boolean;
+  // Parte del programa, si se publica en varios documentos (D21)
+  documento?: string;
 }
 
 export function GET() {
@@ -23,10 +25,10 @@ export function GET() {
   );
   const datos = {
     documentos,
-    // Por formación y página: [partido, tema, resumen, cita, página, concreta, tabla, revisada]
+    // Por formación y página: [partido, tema, resumen, cita, página, concreta, tabla, revisada, documento si es una parte]
     propuestas: [...propuestas]
       .sort((a, b) => a.pagina - b.pagina)
-      .map((p) => [p.partido, p.tema, p.resumen, p.cita, p.pagina, p.concreta ? 1 : 0, p.tabla ? 1 : 0, p.revisada ? 1 : 0]),
+      .map((p) => [p.partido, p.tema, p.resumen, p.cita, p.pagina, p.concreta ? 1 : 0, p.tabla ? 1 : 0, p.revisada ? 1 : 0, ...(p.documento ? [p.documento] : [])]),
   };
   return new Response(JSON.stringify(datos), { headers: { 'Content-Type': 'application/json' } });
 }

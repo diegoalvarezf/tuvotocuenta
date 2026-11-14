@@ -312,21 +312,165 @@
     "nombre": "Democracia para el Siglo 21",
     "circunscripciones": 2,
     "web": "https://democracia21.es",
-    "documentos": [
-      {
-        "titulo": "España limpia",
-        "url": "https://democracia21.es/docs/espana-limpia-democracia21.pdf",
-        "fecha": "2026-10-15",
-        "paginas": 13
-      },
-      {
-        "titulo": "Vivienda, prioridad nº 1",
-        "url": "https://democracia21.es/docs/vivienda-prioridad-1-democracia21.pdf",
-        "fecha": "2026-10-20",
-        "paginas": 9
-      }
-    ],
-    "programa": null
+    "documentos": [],
+    "programa": {
+      "titulo": "La España que merecemos",
+      "url": "https://mi.democracia21.es/programa",
+      "fecha": "2026-11-13",
+      "paginas": 123,
+      "partes": [
+        {
+          "titulo": "Una administración moderna y digital",
+          "url": "https://mi.democracia21.es/docs/programa/administracion-moderna-digital-democracia21.pdf",
+          "paginas": 5,
+          "texto": "d21/administracion-moderna-digital"
+        },
+        {
+          "titulo": "Autónomo, estamos contigo",
+          "url": "https://mi.democracia21.es/docs/programa/autonomo-estamos-contigo-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/autonomo-estamos-contigo"
+        },
+        {
+          "titulo": "Talento científico",
+          "url": "https://mi.democracia21.es/docs/programa/ciencia-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/ciencia"
+        },
+        {
+          "titulo": "Contigo y con tu familia",
+          "url": "https://mi.democracia21.es/docs/programa/contigo-y-con-tu-familia-democracia21.pdf",
+          "paginas": 7,
+          "texto": "d21/contigo-y-con-tu-familia"
+        },
+        {
+          "titulo": "Cultura y talento",
+          "url": "https://mi.democracia21.es/docs/programa/cultura-democracia21.pdf",
+          "paginas": 6,
+          "texto": "d21/cultura"
+        },
+        {
+          "titulo": "Deporte para un país sano",
+          "url": "https://mi.democracia21.es/docs/programa/deporte-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/deporte"
+        },
+        {
+          "titulo": "Ni un paso atrás en derechos",
+          "url": "https://mi.democracia21.es/docs/programa/derechos-sociales-democracia21.pdf",
+          "paginas": 3,
+          "texto": "d21/derechos-sociales"
+        },
+        {
+          "titulo": "La educación en el centro",
+          "url": "https://mi.democracia21.es/docs/programa/educacion-en-el-centro-democracia21.pdf",
+          "paginas": 8,
+          "texto": "d21/educacion-en-el-centro"
+        },
+        {
+          "titulo": "España limpia",
+          "url": "https://mi.democracia21.es/docs/programa/espana-limpia-democracia21.pdf",
+          "paginas": 13,
+          "texto": "d21/espana-limpia"
+        },
+        {
+          "titulo": "Un Estado proactivo",
+          "url": "https://mi.democracia21.es/docs/programa/estado-proactivo-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/estado-proactivo"
+        },
+        {
+          "titulo": "Una función pública independiente",
+          "url": "https://mi.democracia21.es/docs/programa/funcion-publica-independiente-democracia21.pdf",
+          "paginas": 3,
+          "texto": "d21/funcion-publica-independiente"
+        },
+        {
+          "titulo": "Impuestos justificados y que se entiendan",
+          "url": "https://mi.democracia21.es/docs/programa/impuestos-justificados-que-se-entiendan-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/impuestos-justificados-que-se-entiendan"
+        },
+        {
+          "titulo": "Infraestructuras y crecimiento sostenibles",
+          "url": "https://mi.democracia21.es/docs/programa/infraestructuras-y-crecimiento-sostenibles-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/infraestructuras-y-crecimiento-sostenibles"
+        },
+        {
+          "titulo": "Más salario, más productividad",
+          "url": "https://mi.democracia21.es/docs/programa/mas-salario-mas-productividad-democracia21.pdf",
+          "paginas": 3,
+          "texto": "d21/mas-salario-mas-productividad"
+        },
+        {
+          "titulo": "Medio ambiente y adaptación climática",
+          "url": "https://mi.democracia21.es/docs/programa/medio-ambiente-anticipacion-climatica-democracia21.pdf",
+          "paginas": 5,
+          "texto": "d21/medio-ambiente-anticipacion-climatica"
+        },
+        {
+          "titulo": "Menos normas, más claras y estables",
+          "url": "https://mi.democracia21.es/docs/programa/menos-normas-mas-claras-y-estables-democracia21.pdf",
+          "paginas": 3,
+          "texto": "d21/menos-normas-mas-claras-y-estables"
+        },
+        {
+          "titulo": "Una política migratoria con cabeza",
+          "url": "https://mi.democracia21.es/docs/programa/politica-migratoria-con-cabeza-democracia21.pdf",
+          "paginas": 5,
+          "texto": "d21/politica-migratoria-con-cabeza"
+        },
+        {
+          "titulo": "Ser una potencia energética",
+          "url": "https://mi.democracia21.es/docs/programa/potencia-energetica-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/potencia-energetica"
+        },
+        {
+          "titulo": "Protección animal con los veterinarios",
+          "url": "https://mi.democracia21.es/docs/programa/proteccion-animal-veterinarios-democracia21.pdf",
+          "paginas": 3,
+          "texto": "d21/proteccion-animal-veterinarios"
+        },
+        {
+          "titulo": "Redefiniendo el envejecimiento",
+          "url": "https://mi.democracia21.es/docs/programa/redefiniendo-el-envejecimiento-democracia21.pdf",
+          "paginas": 3,
+          "texto": "d21/redefiniendo-el-envejecimiento"
+        },
+        {
+          "titulo": "Revolución pyme",
+          "url": "https://mi.democracia21.es/docs/programa/revolucion-pyme-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/revolucion-pyme"
+        },
+        {
+          "titulo": "Sanidad pública",
+          "url": "https://mi.democracia21.es/docs/programa/sanidad-publica-democracia21.pdf",
+          "paginas": 6,
+          "texto": "d21/sanidad-publica"
+        },
+        {
+          "titulo": "Seguridad y defensa para el mundo de hoy",
+          "url": "https://mi.democracia21.es/docs/programa/seguridad-defensa-mundo-hoy-democracia21.pdf",
+          "paginas": 5,
+          "texto": "d21/seguridad-defensa-mundo-hoy"
+        },
+        {
+          "titulo": "Construir la Unión Europea del siglo 21",
+          "url": "https://mi.democracia21.es/docs/programa/union-europea-siglo-21-democracia21.pdf",
+          "paginas": 4,
+          "texto": "d21/union-europea-siglo-21"
+        },
+        {
+          "titulo": "Vivienda, prioridad n.º 1",
+          "url": "https://mi.democracia21.es/docs/programa/vivienda-prioridad-1-democracia21.pdf",
+          "paginas": 9,
+          "texto": "d21/vivienda-prioridad-1"
+        }
+      ]
+    }
   },
   {
     "siglas": "FIA",

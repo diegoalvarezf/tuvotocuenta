@@ -29,6 +29,7 @@ interface Propuesta {
   concreta: boolean;
   revisada: boolean;
   tabla?: boolean;
+  documento?: string;
 }
 
 // Solo se publican las propuestas revisadas por una persona. En local se ven también los borradores, para revisarlos.
@@ -130,7 +131,7 @@ const fuenteDe = (siglas: string) => {
                     <details>
                       <summary>{p.tabla ? 'Tabla' : 'Cita'} · pág. {p.pagina}</summary>
                       {p.tabla ? <blockquote>Fila de su tabla de compromisos: {p.cita}</blockquote> : <blockquote>«{p.cita}»</blockquote>}
-                      <a class="ir-pagina" href={`${fuenteDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Ver la página {p.pagina} del documento</a>
+                      <a class="ir-pagina" href={`${p.documento ?? fuenteDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Ver la página {p.pagina} del documento</a>
                     </details>
                   </li>
                 ))}
@@ -186,7 +187,7 @@ const fuenteDe = (siglas: string) => {
 <script>
   const VISIBLES = 3;
   // [partido, tema, resumen, cita, página, concreta, tabla, revisada]
-  type Fila = [string, string, string, string, number, 0 | 1, 0 | 1, 0 | 1];
+  type Fila = [string, string, string, string, number, 0 | 1, 0 | 1, 0 | 1, string?];
   interface Datos {
     documentos: Record<string, string>;
     propuestas: Fila[];
@@ -197,7 +198,7 @@ const fuenteDe = (siglas: string) => {
 
   // Una propuesta tal como se ve en su tarjeta
   function propuesta(f: Fila, documento: string, alterna: boolean) {
-    const [, , resumen, cita, pagina, concreta, tabla, revisada] = f;
+    const [, , resumen, cita, pagina, concreta, tabla, revisada, parte] = f;
     const li = document.createElement('li');
     if (alterna) li.className = 'alterna';
     const p = li.appendChild(document.createElement('p'));
@@ -208,7 +209,7 @@ const fuenteDe = (siglas: string) => {
     const det = li.appendChild(document.createElement('details'));
     det.append(Object.assign(document.createElement('summary'), { textContent: `${tabla ? 'Tabla' : 'Cita'} · pág. ${pagina}` }));
     det.append(Object.assign(document.createElement('blockquote'), { textContent: tabla ? `Fila de su tabla de compromisos: ${cita}` : `«${cita}»` }));
-    det.append(Object.assign(document.createElement('a'), { className: 'ir-pagina', href: `${documento}#page=${pagina}`, target: '_blank', rel: 'noopener', textContent: `Ver la página ${pagina} del documento` }));
+    det.append(Object.assign(document.createElement('a'), { className: 'ir-pagina', href: `${parte ?? documento}#page=${pagina}`, target: '_blank', rel: 'noopener', textContent: `Ver la página ${pagina} del documento` }));
     return li;
   }
 
