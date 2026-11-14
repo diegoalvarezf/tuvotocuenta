@@ -10,6 +10,8 @@ export const normalizar = (s) =>
     .replace(/●/g, ' ')
     // Entre cifras el guion es de rango («2028-» / «2034»), no de corte
     .replace(/(\d)-\s*\n\s*(\d)/g, '$1-$2')
+    // Guion largo a final de línea en nombres compuestos («Almería–» / «Aguadulce»): se une sin espacio
+    .replace(/(\p{L})–\s*\n\s*(\p{L})/gu, '$1–$2')
     .replace(/-\s*\n\s*/g, '')
     .replace(/[“”«»"]/g, '"')
     .replace(/[‘’]/g, "'")
@@ -35,8 +37,12 @@ export function crearVerificador(paginas) {
   for (const p of paginas) for (const l of new Set(p.texto.split('\n').map((x) => x.trim()).filter(Boolean))) veces.set(l, (veces.get(l) ?? 0) + 1);
   const minimo = Math.max(5, paginas.length / 3);
   const sinRepetidas = (t) => t.split('\n').filter((l) => !/\p{L}{3}/u.test(l) || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
-  const limpio = new Map(paginas.map((p) => [p.pagina, sinPie(sinRepetidas(p.texto))]));
+  const base = new Map(paginas.map((p) => [p.pagina, sinPie(sinRepetidas(p.texto))]));
+  // Marcas sueltas de una o dos cifras en mitad de la página (número de área en Adelante Andalucía: «02»)
+  // cortarían las citas; en las tablas se mantienen, porque pueden ser celdas
+  const limpio = new Map([...base].map(([n, t]) => [n, t.replace(/\n\s*\d{1,2}\s*(?=\n)/g, '')]));
   const textoPagina = new Map([...limpio].map(([n, t]) => [n, normalizar(t)]));
+  const textoTabla = new Map([...base].map(([n, t]) => [n, normalizar(t)]));
   // En una fila de tabla («Qué · Meta · Plazo») las celdas salen sueltas en el texto del PDF:
   // cada celda tiene que estar en la página, entera o en hasta tres trozos (celdas de varias líneas)
   // con palabras completas: «30» no vale por estar dentro de «2030»
@@ -53,16 +59,21 @@ export function crearVerificador(paginas) {
     }
     return false;
   };
-  return ({ cita, pagina, tabla }) => {
+  return ({ cita, pagina, tabla, trozos }) => {
     const buscada = normalizar(cita);
     const aqui = textoPagina.get(pagina) ?? '';
-    if (tabla) return buscada.length > 0 && buscada.split(' · ').every((celda) => celda.length > 0 && enTrozos(celda, aqui));
+    if (tabla) return buscada.length > 0 && buscada.split(' · ').every((celda) => celda.length > 0 && enTrozos(celda, textoTabla.get(pagina) ?? ''));
     // Se unen antes de normalizar para que una palabra partida entre páginas («consen-» / «so») se junte
     const conSiguiente = normalizar(`${limpio.get(pagina) ?? ''}\n${limpio.get(pagina + 1) ?? ''}`);
     // pdftotext quita el guion a final de línea en palabras compuestas («público-» / «privada») y en rangos («2028-» / «2034»)
-    const sinGuion = buscada.replace(/([\p{L}\p{N}])-([\p{L}\p{N}])/gu, '$1$2');
-    // Guion de corte seguido de espacio («necesidades- y»), que pdftotext pega sin guion ni espacio
-    const sinCorte = buscada.replace(/(\p{L})- (\p{L})/gu, '$1$2');
-    return buscada.length > 0 && [buscada, sinGuion, sinCorte].some((b) => aqui.includes(b) || conSiguiente.includes(b));
+    const entera = (texto) => {
+      const sinGuion = texto.replace(/([\p{L}\p{N}])-([\p{L}\p{N}])/gu, '$1$2');
+      // Guion de corte seguido de espacio («necesidades- y»), que pdftotext pega sin guion ni espacio
+      const sinCorte = texto.replace(/(\p{L})- (\p{L})/gu, '$1$2');
+      return texto.length > 0 && [texto, sinGuion, sinCorte].some((b) => aqui.includes(b) || conSiguiente.includes(b));
+    };
+    // Título y descripción que la maquetación a dos columnas separa: cada trozo, literal y entero, en la página
+    if (trozos) return buscada.includes(' · ') && buscada.split(' · ').every(entera);
+    return entera(buscada);
   };
 }

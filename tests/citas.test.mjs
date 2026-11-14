@@ -72,6 +72,17 @@ test('acepta una cita que cruza viñetas «●» con espacios de ancho cero y un
   assert.ok(pdf({ cita: 'Según sus necesidades- y priorizando a los nacionales.', pagina: 1 }));
 });
 
+test('acepta guion largo a final de línea y quita marcas sueltas de dos cifras', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'Tren Almería–\nAguadulce y una beca de\n02\n22.000 € al año.' }]);
+  assert.ok(pdf({ cita: 'Tren Almería–Aguadulce y una beca de 22.000 € al año.', pagina: 1 }));
+});
+
+test('con trozos, cada parte (título y descripción) debe estar entera en la página', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'Derogar la ley mordaza\nOtra columna.\nCon anulación de las sanciones impuestas.' }]);
+  assert.ok(pdf({ cita: 'Derogar la ley mordaza · Con anulación de las sanciones impuestas.', pagina: 1, trozos: true }));
+  assert.equal(pdf({ cita: 'Derogar la ley mordaza · Con anulación de todas las sanciones.', pagina: 1, trozos: true }), false);
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });
