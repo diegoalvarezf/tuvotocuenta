@@ -60,14 +60,7 @@
     "nombre": "Partido Popular",
     "circunscripciones": 51,
     "web": "https://www.pp.es",
-    "documentos": [
-      {
-        "titulo": "Contrato con España",
-        "url": "https://www.pp.es/wp-content/uploads/2026/10/CONTRATO-CON-ESPANA-.pdf",
-        "fecha": "2026-10-19",
-        "paginas": 4
-      }
-    ],
+    "documentos": [],
     "programa": {
       "titulo": "Reconstrucción Nacional. El programa del cambio necesario para España",
       "url": "https://www.pp.es/wp-content/uploads/2026/11/LA-RECONSTRUCCION-NACIONAL.pdf",

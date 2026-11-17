@@ -1,7 +1,14 @@
-// Propuestas en un archivo aparte: la página /propuestas solo lleva las que se ven al entrar
-// y el resto se pide al elegir otro tema. Así la página pesa poco y responde enseguida en el móvil.
-import programas from '../../data/programas.json';
-import propuestasJson from '../../data/propuestas.json';
+// Propuestas en archivos aparte, uno por tema: la página /propuestas solo lleva las que se ven al entrar
+// y pide el tema que se elige. Así la página y cada descarga pesan poco y responden enseguida en el móvil.
+import programas from '../../../data/programas.json';
+import propuestasJson from '../../../data/propuestas.json';
+import TEMAS from '../../../data/temas.json';
+
+// Nombre del archivo de cada tema: «Seguridad y justicia» → «seguridad-y-justicia»
+const slugTema = (t: string) => t.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+export function getStaticPaths() {
+  return TEMAS.map((t) => ({ params: { tema: slugTema(t) }, props: { tema: t } }));
+}
 
 interface Propuesta {
   partido: string;
@@ -18,9 +25,9 @@ interface Propuesta {
   documento?: string;
 }
 
-export function GET() {
+export function GET({ props }: { props: { tema: string } }) {
   // Igual que en la página: solo las revisadas (en local, también los borradores)
-  const propuestas = (propuestasJson as Propuesta[]).filter((p) => p.revisada || import.meta.env.DEV);
+  const propuestas = (propuestasJson as Propuesta[]).filter((p) => (p.revisada || import.meta.env.DEV) && p.tema === props.tema);
   // Documento del que sale cada propuesta: el programa o, si no lo llama así, su documento principal
   const documentos = Object.fromEntries(
     programas.map((p) => [p.siglas, ((p.programa as { url: string } | null) ?? (p.documentos as { url: string }[])[0])?.url ?? '']),
