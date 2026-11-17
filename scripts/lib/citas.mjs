@@ -45,9 +45,9 @@ export function crearVerificador(paginas) {
   const minimo = Math.min(Math.max(5, paginas.length / 3), Math.max(2, paginas.length - 1));
   const sinRepetidas = (t) => t.split('\n').filter((l) => !/\p{L}{3}/u.test(l) || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
   const base = new Map(paginas.map((p) => [p.pagina, sinPie(sinRepetidas(p.texto))]));
-  // Marcas sueltas de una o dos cifras en mitad de la página (número de área en Adelante Andalucía: «02»)
+  // Marcas sueltas de una a tres cifras en mitad de la página (número de área en Adelante Andalucía: «02»; de compromiso en el PSOE: «136»)
   // cortarían las citas; en las tablas se mantienen, porque pueden ser celdas
-  const limpio = new Map([...base].map(([n, t]) => [n, t.replace(/\n\s*\d{1,2}\s*(?=\n)/g, '')]));
+  const limpio = new Map([...base].map(([n, t]) => [n, t.replace(/\n\s*\d{1,3}\s*(?=\n)/g, '')]));
   const textoPagina = new Map([...limpio].map(([n, t]) => [n, normalizar(t)]));
   const textoTabla = new Map([...base].map(([n, t]) => [n, normalizar(t)]));
   // En una fila de tabla («Qué · Meta · Plazo») las celdas salen sueltas en el texto del PDF:
