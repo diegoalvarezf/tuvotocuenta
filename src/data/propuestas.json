@@ -66686,7 +66686,7 @@
   {
     "partido": "SALF",
     "tema": "Otros",
-    "resumen": "Suprimir doce ministerios el primer día y pasar sus funciones a los diez que quedan.",
+    "resumen": "Suprimir doce ministerios el primer día y pasar sus funciones útiles a los diez que quedan.",
     "cita": "Doce ministerios desaparecen el primer día; sus funciones útiles pasan a los diez que quedan.",
     "pagina": 3,
     "concreta": true,
@@ -66698,15 +66698,6 @@
     "resumen": "Reducir a la mitad los altos cargos y dejar los asesores en 400.",
     "cita": "La mitad de los altos cargos y 400 asesores.",
     "pagina": 3,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "SALF",
-    "tema": "Otros",
-    "resumen": "Bloquear el sueldo público de Alvise Pérez en el Banco de España y perderlo si en 2030 no ha cumplido las 119 medidas.",
-    "cita": "Desde el 1.º día, el 100 % del sueldo público de Alvise Pérez queda bloqueado en una cuenta del Banco de España. En junio de 2030, se comparan las 119 medidas de este contrato electoral con los votos de Alvise en el Congreso de los Diputados: si no llegan al 100 %, ese dinero acumulado se lo queda España.",
-    "pagina": 4,
     "concreta": true,
     "revisada": false
   },
@@ -67005,7 +66996,7 @@
     "resumen": "Licencia de arma para defensa del domicilio sin trabas para ciudadanos sin antecedentes.",
     "cita": "Licencia de arma para defensa del domicilio sin trabas para ciudadanos sin antecedentes.",
     "pagina": 10,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -67029,7 +67020,7 @@
   {
     "partido": "SALF",
     "tema": "Seguridad y justicia",
-    "resumen": "Que ningún policía vuelva a investigar a periodistas por encargo.",
+    "resumen": "Que ningún policía vuelva a fichar periodistas por encargo.",
     "cita": "Ningún policía vuelve a fichar periodistas por encargo.",
     "pagina": 10,
     "concreta": false,
@@ -67353,20 +67344,22 @@
   {
     "partido": "SALF",
     "tema": "Modelo territorial",
-    "resumen": "Gestión mancomunada obligatoria en municipios de menos de 5.000 habitantes.",
-    "cita": "Gestión mancomunada obligatoria en municipios de menos de 5.000 habitantes",
+    "resumen": "Gestión mancomunada obligatoria en municipios de menos de 5.000 habitantes, para ahorrar 3.000 millones al año.",
+    "cita": "Gestión mancomunada obligatoria en municipios de menos de 5.000 habitantes · 3.000",
     "pagina": 16,
     "concreta": true,
-    "revisada": false
+    "revisada": false,
+    "tabla": true
   },
   {
     "partido": "SALF",
     "tema": "Modelo territorial",
-    "resumen": "Suprimir las diputaciones provinciales.",
-    "cita": "Supresión de las diputaciones provinciales",
+    "resumen": "Suprimir las diputaciones provinciales, para ahorrar 1.500 millones al año.",
+    "cita": "Supresión de las diputaciones provinciales · 1.500",
     "pagina": 16,
     "concreta": true,
-    "revisada": false
+    "revisada": false,
+    "tabla": true
   },
   {
     "partido": "SALF",
@@ -67867,7 +67860,7 @@
   {
     "partido": "SALF",
     "tema": "Seguridad y justicia",
-    "resumen": "Indultar a José Manuel Lomas, condenado por defender su finca, y concederle la Orden del Mérito Civil.",
+    "resumen": "Indultar a José Manuel Lomas, librero condenado, según SALF, «por defender su finca», y concederle la Orden del Mérito Civil.",
     "cita": "Antes de esta reforma, una única excepción: indultaremos a José Manuel Lomas, el librero de 82 años condenado por defender su finca, y le concederemos la Orden del Mérito Civil.",
     "pagina": 26,
     "concreta": true,
@@ -68293,7 +68286,7 @@
   {
     "partido": "SALF",
     "tema": "Economía y empresas",
-    "resumen": "Vetar en el Consejo de la UE el acuerdo con Mercosur, el recorte de la PAC y el Pacto Verde.",
+    "resumen": "Vetar el acuerdo con Mercosur, el recorte de la PAC y el Pacto Verde.",
     "cita": "Veto a Mercosur, al recorte de la PAC y al Pacto Verde.",
     "pagina": 35,
     "concreta": true,
@@ -68455,7 +68448,7 @@
   {
     "partido": "SALF",
     "tema": "Defensa y política exterior",
-    "resumen": "Gastar el 2 % de defensa en España y en sus militares.",
+    "resumen": "Que el 2 % destinado a defensa se gaste en España y en sus militares.",
     "cita": "Defensa: el 2 % se gasta en España y en sus militares.",
     "pagina": 38,
     "concreta": true,
@@ -68494,6 +68487,35 @@
     "resumen": "Cortar la ayuda al desarrollo salvo emergencias y programas con readmisión en 72 horas, respeto a la soberanía y cooperación contra narcotráfico y yihadismo.",
     "cita": "Se cortan salvo emergencias humanitarias y programas con retorno para España: readmisión de nacionales en 72 horas, respeto a la soberanía (quien reclame Ceuta, Melilla o Canarias no cobra) y cooperación contra el narcotráfico y el yihadismo.",
     "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "SALF",
+    "tema": "Otros",
+    "resumen": "Reducir las vicepresidencias de 3 a 1, las secretarías de Estado de 35 a 15 y las direcciones generales de 128 a 70.",
+    "cita": "vicepresidencias · 3→1 · secretarías de Estado · 35 → 15 · direcciones generales · 128 → 70",
+    "pagina": 3,
+    "concreta": true,
+    "tabla": true,
+    "revisada": false
+  },
+  {
+    "partido": "SALF",
+    "tema": "Otros",
+    "resumen": "Reducir los entes del sector público estatal de 452 a 300.",
+    "cita": "entes estatales · 452 → 300",
+    "pagina": 3,
+    "concreta": true,
+    "tabla": true,
+    "revisada": false
+  },
+  {
+    "partido": "SALF",
+    "tema": "Seguridad y justicia",
+    "resumen": "Presupuesto propio por ley para Anticorrupción, Antidroga, Vigilancia Aduanera y el SEPBLAC, fuera del alcance del ministro.",
+    "cita": "Presupuesto propio por ley, fuera del alcance del ministro.",
+    "pagina": 27,
     "concreta": true,
     "revisada": false
   }
