@@ -98,6 +98,15 @@ test('en trozos, un título partido en dos líneas se reconstruye', () => {
   assert.equal(pdf({ cita: 'Ley autonómica de servicios sociales · Mínimos comunes en todo el Estado.', pagina: 1, trozos: true }), false);
 });
 
+test('usa también el texto maquetado y quita el pie «PÁG. N»', () => {
+  const pdf = crearVerificador([
+    { pagina: 1, texto: 'Eliminar   cupos   los\nde empleo', textoMaquetado: 'Eliminar los cupos de empleo\nreservados y\n\nPÁG. 1' },
+    { pagina: 2, texto: 'otra cosa', textoMaquetado: 'sigue aquí.' },
+  ]);
+  assert.ok(pdf({ cita: 'Eliminar los cupos de empleo reservados y sigue aquí.', pagina: 1 }));
+  assert.equal(pdf({ cita: 'Eliminar los cupos de empleo privado.', pagina: 1 }), false);
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });

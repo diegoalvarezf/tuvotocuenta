@@ -19,12 +19,20 @@ export const normalizar = (s) =>
 
 // Devuelve una función que verifica { cita, pagina } contra las páginas del programa
 export function crearVerificador(paginas) {
+  // Si el texto trae también la versión maquetada (pdftotext -layout), una cita vale si está en cualquiera de las dos
+  if (paginas.some((p) => p.textoMaquetado)) {
+    const normal = crearVerificador(paginas.map(({ textoMaquetado, ...p }) => p));
+    const maquetado = crearVerificador(paginas.map((p) => ({ pagina: p.pagina, texto: p.textoMaquetado ?? p.texto })));
+    return (c) => normal(c) || maquetado(c);
+  }
   // El pie (número de página, a veces tras el título de la sección en mayúsculas: «VIVENDA · 20»)
   // cortaría las citas que siguen en la página siguiente
   // Igual el número solo en la primera línea («42» en el PP) y unas comillas decorativas al final («‘‘»)
   const sinPie = (t) =>
     t
       .replace(/\n\s*[‘’“”"'«»]+\s*$/, '')
+      // Pie «PÁG. 23» (PFAC), al final o en mitad de la página
+      .replace(/^\s*PÁG\.\s*\d{1,3}\s*$/gm, '')
       .replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '')
       .replace(/\s+\d{1,3}\s*$/, '')
       .replace(/^\s*\d{1,3}\s*\n/, '');
