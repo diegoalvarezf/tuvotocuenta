@@ -35,14 +35,17 @@ export function crearVerificador(paginas) {
       .replace(/^\s*PÁG\.\s*\d{1,3}\s*$/gm, '')
       .replace(/\n[^\na-záéíóúàèìòùñç]*·\s*\d{1,3}\s*$/, '')
       .replace(/\s+\d{1,3}\s*$/, '')
+      // Número de página al principio, a veces seguido del título del capítulo en mayúsculas (Frente Amplio: «22» / «ACABAR CON…»)
+      .replace(/^\s*\d{1,3}\s*\n(\s*\n)*\s*[^\na-záéíóúàèìòùñç]{8,}\n/, '')
       .replace(/^\s*\d{1,3}\s*\n/, '');
   // Cabeceras y pies repetidos («M+J Programa electoral · …», «↑ Volver al índice») también cortarían
-  // las citas: se quitan las líneas que aparecen en al menos un tercio de las páginas (y en 5 o más).
+  // las citas: se quitan las líneas que aparecen en al menos un cuarto de las páginas (y en 5 o más).
   // Se respetan las que no tienen una palabra (viñetas «•»), pero no las cortas («DEFIENDE» / «CANARIAS»)
   const veces = new Map();
   for (const p of paginas) for (const l of new Set(p.texto.split('\n').map((x) => x.trim()).filter(Boolean))) veces.set(l, (veces.get(l) ?? 0) + 1);
   // En documentos cortos (las partes de 3 a 5 páginas del programa de D21) basta con que se repita en casi todas
-  const minimo = Math.min(Math.max(5, paginas.length / 3), Math.max(2, paginas.length - 1));
+  // Un cuarto, no un tercio: hay cabeceras que alternan entre páginas pares e impares (Frente Amplio, 48 de 148)
+  const minimo = Math.min(Math.max(5, paginas.length / 4), Math.max(2, paginas.length - 1));
   const sinRepetidas = (t) => t.split('\n').filter((l) => !/\p{L}{3}/u.test(l) || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
   const base = new Map(paginas.map((p) => [p.pagina, sinPie(sinRepetidas(p.texto))]));
   // Marcas sueltas de una a tres cifras en mitad de la página (número de área en Adelante Andalucía: «02»; de compromiso en el PSOE: «136»)

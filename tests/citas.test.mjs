@@ -107,6 +107,14 @@ test('usa también el texto maquetado y quita el pie «PÁG. N»', () => {
   assert.equal(pdf({ cita: 'Eliminar los cupos de empleo privado.', pagina: 1 }), false);
 });
 
+test('quita el número de página y el título del capítulo en mayúsculas al principio de la página', () => {
+  const pdf = crearVerificador([
+    { pagina: 1, texto: 'Garantizaremos el carácter' },
+    { pagina: 2, texto: '22\n\nACABAR CON LA ESPECULACIÓN\n\ninembargable del parque público.' },
+  ]);
+  assert.ok(pdf({ cita: 'Garantizaremos el carácter inembargable del parque público.', pagina: 1 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });
