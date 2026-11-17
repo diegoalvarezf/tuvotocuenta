@@ -52397,7 +52397,7 @@
   {
     "partido": "PSOE",
     "tema": "Economía y empresas",
-    "resumen": "Reforzar el sector público empresarial y mantener la participación del Estado en sectores estratégicos.",
+    "resumen": "Mantener la participación del Estado en sectores estratégicos para preservar capacidades industriales y tecnológicas.",
     "cita": "Mantendremos la participación del Estado en sectores estratégicos, preservando capacidades industriales y tecnológicas esenciales, fortaleciendo la autonomía estratégica de España y Europa.",
     "pagina": 15,
     "concreta": false,
@@ -52517,7 +52517,7 @@
     "resumen": "Ampliar el Bono IA, la Red NEURONA y los programas de apoyo a la adopción de la IA por pymes, autónomos y universidades.",
     "cita": "Ampliaremos el Bono IA, la Red NEURONA y los programas de apoyo dirigidos a pymes, autónomos, universidades y centros de investigación para acelerar la adopción de estas tecnologías.",
     "pagina": 17,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -52532,7 +52532,7 @@
   {
     "partido": "PSOE",
     "tema": "Economía y empresas",
-    "resumen": "Combinar subvenciones, instrumentos financieros y talento para impulsar la microelectrónica, los semiconductores y la fotónica.",
+    "resumen": "Combinar subvenciones, instrumentos financieros y políticas de talento para impulsar sectores como la fotónica y el escalado industrial.",
     "cita": "Combinaremos subvenciones, instrumentos financieros y políticas de talento para impulsar sectores estratégicos como la fotónica, acelerar la adopción de nuevas tecnologías y facilitar el escalado industrial de proyectos estratégicos.",
     "pagina": 18,
     "concreta": false,
@@ -53192,7 +53192,7 @@
     "resumen": "Financiar más inspecciones en zonas tensionadas contra el fraude en alquileres cortos y en los precios.",
     "cita": "Perseguir el fraude en los alojamientos de corta duración y garantizar el cumplimiento de la normativa de precios del alquiler a través de una línea de financiación específica destinada a aumentar las inspecciones públicas en las zonas declaradas tensionadas.",
     "pagina": 32,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -53309,7 +53309,7 @@
     "resumen": "Adecuar cuantías y umbrales del Ingreso Mínimo Vital al coste de la crianza en hogares con hijos.",
     "cita": "Se adecuarán las cuantías y umbrales al coste de la crianza para hogares perceptores con niñas y niños.",
     "pagina": 38,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -53396,7 +53396,7 @@
   {
     "partido": "PSOE",
     "tema": "Economía y empresas",
-    "resumen": "Que sus resoluciones obliguen a la entidad financiera cuando se reclamen menos de 20.000 euros.",
+    "resumen": "Que las resoluciones de la Autoridad de Defensa del Cliente Financiero obliguen a la entidad cuando se reclamen menos de 20.000 euros.",
     "cita": "Sus resoluciones serán de obligado cumplimiento para la entidad financiera cuando el importe reclamado sea inferior a 20.000 euros.",
     "pagina": 39,
     "concreta": true,
@@ -53477,15 +53477,6 @@
   {
     "partido": "PSOE",
     "tema": "Pensiones",
-    "resumen": "Plantea compensar ese coste con aportaciones de empresas con beneficios que hagan ERE.",
-    "cita": "El coste de estas mejoras se podría compensar mediante aportaciones de empresas con beneficios que realicen ERE, para cubrir la pérdida de cotizaciones sociales y el mayor gasto en pensiones.",
-    "pagina": 40,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "PSOE",
-    "tema": "Pensiones",
     "resumen": "Aplicar los coeficientes reductores por penosidad de forma individual mediante una cuenta individual de penosidad.",
     "cita": "Impulsar los cambios necesarios para que los coeficientes reductores de la edad de jubilación por penosidad se apliquen de forma singularizada a través de una cuenta individual de penosidad, para reconocer el desgaste laboral real de cada trabajador.",
     "pagina": 40,
@@ -53549,8 +53540,8 @@
   {
     "partido": "PSOE",
     "tema": "Empleo y salarios",
-    "resumen": "Recuperar los salarios de tramitación y reforzar la protección frente a despidos discriminatorios.",
-    "cita": "Recuperar los salarios de tramitación en los supuestos legalmente establecidos y reforzar la protección frente a despidos discriminatorios",
+    "resumen": "Recuperar los salarios de tramitación y reforzar la protección frente a despidos discriminatorios o que vulneren derechos fundamentales.",
+    "cita": "Recuperar los salarios de tramitación en los supuestos legalmente establecidos y reforzar la protección frente a despidos discriminatorios o que vulneren derechos fundamentales.",
     "pagina": 41,
     "concreta": true,
     "revisada": false
@@ -53606,7 +53597,7 @@
     "resumen": "Acabar progresivamente con la alternatividad de las mutualidades, que quedarían como previsión complementaria.",
     "cita": "Asimismo, poner fin progresivamente a la alternatividad de las mutualidades, reservándolas a la previsión social complementaria.",
     "pagina": 42,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -53687,7 +53678,7 @@
     "resumen": "Hacer cumplir la cuota de reserva del 2% de empleo para personas con discapacidad en empresas y sector público.",
     "cita": "Garantizar el cumplimiento efectivo de la cuota de reserva del 2% de empleo para personas con discapacidad en las empresas y sector público, reforzando los mecanismos de inspección y control para promover un empleo inclusivo, estable y de calidad.",
     "pagina": 43,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -53810,7 +53801,7 @@
   {
     "partido": "PSOE",
     "tema": "Sanidad",
-    "resumen": "Mientras tanto, ayuda directa de hasta 200 euros al año por persona para el dentista, empezando por rentas medias y bajas.",
+    "resumen": "Crear una ayuda directa de hasta 200 euros anuales por persona para el dentista, empezando por rentas medias y bajas.",
     "cita": "Mientras tanto, y siguiendo el esquema desplegado por el Plan Veo desplegado para gafas y lentillas de niños y niñas, crearemos una ayuda directa de hasta 200 euros anuales por persona, que empezará por los hogares de rentas medias y bajas, para cuidar tu boca.",
     "pagina": 49,
     "concreta": true,
@@ -53894,7 +53885,7 @@
     "resumen": "Consolidar el Plan VEO y ampliarlo a otras edades en colectivos vulnerables.",
     "cita": "Consolidar el Plan VEO y ampliar progresivamente su cobertura en otros tramos de edad a colectivos vulnerables.",
     "pagina": 50,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -53993,7 +53984,7 @@
     "resumen": "Ayudas para compensar el sobrecoste de los productos sin gluten a personas celíacas.",
     "cita": "Garantizar el apoyo integral a las personas con celiaquía, estableciendo ayudas para compensar el sobrecoste de los productos sin gluten y actualizando los protocolos diagnósticos.",
     "pagina": 51,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -54079,7 +54070,7 @@
   },
   {
     "partido": "PSOE",
-    "tema": "Seguridad y justicia",
+    "tema": "Educación",
     "resumen": "Promover en la escuela el conocimiento de la memoria democrática, los derechos humanos y los valores cívicos.",
     "cita": "Promover el conocimiento de la memoria democrática, los derechos humanos y los valores cívicos, fortaleciendo el pensamiento crítico, la participación democrática y la lucha contra la desinformación y los discursos de odio.",
     "pagina": 52,
@@ -54182,7 +54173,7 @@
     "resumen": "Crear complementos de beca para universitarios de primera generación y con más dificultades económicas.",
     "cita": "Compensaremos las barreras económicas de partida creando complementos específicos para estudiantes que sean la primera generación en acceder a la universidad y para quienes afronten mayores dificultades económicas por su situación personal o familiar.",
     "pagina": 54,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -54200,7 +54191,7 @@
     "resumen": "Consolidar las Becas Luisa de Medrano para estudiar parte de la carrera en otra comunidad.",
     "cita": "Las nuevas Becas Luisa de Medrano serán consolidadas para permitir cursar parte de sus estudios en otra comunidad autónoma.",
     "pagina": 54,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -54218,7 +54209,7 @@
     "resumen": "Ampliar el alojamiento universitario público más allá de las 2.000 plazas aprobadas en 2026.",
     "cita": "Ampliar las plazas públicas de alojamiento universitario, expandiendo el compromiso ya aprobado en 2026 de crear 2.000 nuevas plazas y promoviendo acuerdos con las comunidades autónomas, los ayuntamientos y las universidades públicas para aumentar la oferta a precios asequibles.",
     "pagina": 54,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -54236,7 +54227,7 @@
     "resumen": "Ampliar la UNED a titulaciones presenciales en ámbitos estratégicos.",
     "cita": "Consolidar el crecimiento y la modernización de la UNED, ampliando su oferta a titulaciones presenciales en ámbitos estratégicos y de alta demanda.",
     "pagina": 54,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -54452,7 +54443,7 @@
     "resumen": "Consolidar el Servicio de Ayuda a Domicilio como servicio público esencial, con financiación estable.",
     "cita": "Consolidar el Servicio de Ayuda a Domicilio como servicio público esencial del sistema de dependencia, garantizando junto a las AA.PP. una financiación suficiente y estable, una atención de calidad centrada en las personas y la mejora progresiva de las condiciones laborales de sus profesionales.",
     "pagina": 57,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -54497,7 +54488,7 @@
     "resumen": "Reforzar la inspección de accesibilidad y financiar el Programa Estatal de Promoción de la Accesibilidad Universal.",
     "cita": "Garantizar la accesibilidad universal efectiva, reforzando la inspección y dotando de una financiación estable y suficiente al Programa Estatal de Promoción de la Accesibilidad Universal.",
     "pagina": 58,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -55017,7 +55008,7 @@
     "partido": "PSOE",
     "tema": "Economía y empresas",
     "resumen": "Aprobar una Ley de Agricultura Familiar y Profesional dentro de un paquete para el sector agrario.",
-    "cita": "El paquete comenzará por la aprobación de una Ley de Agricultura Familiar y Profesional y permitirá impulsar cinco objetivos:",
+    "cita": "Aprobar un paquete de medidas para garantizar la viabilidad económica, el reconocimiento social y el papel estratégico del sector agrario. El paquete comenzará por la aprobación de una Ley de Agricultura Familiar y Profesional y permitirá impulsar cinco objetivos:",
     "pagina": 69,
     "concreta": true,
     "revisada": false
@@ -55026,46 +55017,51 @@
     "partido": "PSOE",
     "tema": "Economía y empresas",
     "resumen": "Modernizar el campo renovando maquinaria e impulsando la agricultura de precisión.",
-    "cita": "modernizar el sector mediante la renovación de maquinaria y el impulso de la agricultura de precisión;",
+    "cita": "Aprobar un paquete de medidas para garantizar la viabilidad económica, el reconocimiento social y el papel estratégico del sector agrario. · modernizar el sector mediante la renovación de maquinaria y el impulso de la agricultura de precisión;",
     "pagina": 69,
     "concreta": false,
-    "revisada": false
+    "revisada": false,
+    "trozos": true
   },
   {
     "partido": "PSOE",
     "tema": "Economía y empresas",
     "resumen": "Reforzar los seguros agrarios.",
-    "cita": "reducir vulnerabilidades reforzando los seguros agrarios;",
+    "cita": "Aprobar un paquete de medidas para garantizar la viabilidad económica, el reconocimiento social y el papel estratégico del sector agrario. · reducir vulnerabilidades reforzando los seguros agrarios;",
     "pagina": 69,
     "concreta": false,
-    "revisada": false
+    "revisada": false,
+    "trozos": true
   },
   {
     "partido": "PSOE",
     "tema": "Economía y empresas",
     "resumen": "Incentivar la integración cooperativa agraria.",
-    "cita": "incentivar la integración cooperativa;",
+    "cita": "Aprobar un paquete de medidas para garantizar la viabilidad económica, el reconocimiento social y el papel estratégico del sector agrario. · incentivar la integración cooperativa;",
     "pagina": 69,
     "concreta": false,
-    "revisada": false
+    "revisada": false,
+    "trozos": true
   },
   {
     "partido": "PSOE",
     "tema": "Economía y empresas",
     "resumen": "Promover el relevo generacional en el campo con apoyo a jóvenes, mujeres e innovación.",
-    "cita": "promover el relevo generacional, impulsando el apoyo a jóvenes, mujeres e innovación agroalimentaria",
+    "cita": "Aprobar un paquete de medidas para garantizar la viabilidad económica, el reconocimiento social y el papel estratégico del sector agrario. · promover el relevo generacional, impulsando el apoyo a jóvenes, mujeres e innovación agroalimentaria",
     "pagina": 69,
     "concreta": false,
-    "revisada": false
+    "revisada": false,
+    "trozos": true
   },
   {
     "partido": "PSOE",
     "tema": "Economía y empresas",
     "resumen": "Evitar que los fondos de inversión concentren las tierras fértiles.",
-    "cita": "y evitar la concentración de los terrenos fértiles en manos de fondos de inversión.",
+    "cita": "Aprobar un paquete de medidas para garantizar la viabilidad económica, el reconocimiento social y el papel estratégico del sector agrario. · evitar la concentración de los terrenos fértiles en manos de fondos de inversión.",
     "pagina": 69,
     "concreta": false,
-    "revisada": false
+    "revisada": false,
+    "trozos": true
   },
   {
     "partido": "PSOE",
@@ -55172,7 +55168,7 @@
     "resumen": "Consolidar los Centros de Innovación Territorial y ampliar programas como Campus Rural.",
     "cita": "Reforzar la innovación, el emprendimiento y las oportunidades para la juventud rural, consolidando los Centros de Innovación Territorial y ampliando programas como Campus Rural.",
     "pagina": 71,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -55235,7 +55231,7 @@
     "resumen": "Culminar la restauración de Doñana, el Mar Menor, la Albufera, el Delta del Ebro y las Tablas de Daimiel.",
     "cita": "Culminar la restauración de los principales espacios naturales estratégicos, con actuaciones integrales en Doñana, el Mar Menor, la Albufera, el Delta del Ebro y las Tablas de Daimiel.",
     "pagina": 72,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -55556,7 +55552,7 @@
   {
     "partido": "PSOE",
     "tema": "Igualdad y familia",
-    "resumen": "Reformar el artículo 43 de la Constitución para blindar el derecho al aborto.",
+    "resumen": "Impulsar la reforma del artículo 43 de la Constitución, iniciada en 2026, para reforzar la garantía del derecho al aborto.",
     "cita": "Impulsaremos la reforma del artículo 43 de la Constitución, iniciada en 2026, para reforzar la garantía del derecho al aborto en condiciones de igualdad en todo el territorio frente a los intentos de retroceso.",
     "pagina": 81,
     "concreta": true,
@@ -56054,7 +56050,7 @@
     "resumen": "Desarrollar el Régimen Económico y Fiscal de Canarias y un plan integral para Ceuta y Melilla.",
     "cita": "Desarrollaremos plenamente el Régimen Económico y Fiscal de Canarias y su condición de región ultraperiférica, y aprobaremos un plan integral para Ceuta y Melilla que refuerce su conectividad, sus servicios públicos y su desarrollo económico.",
     "pagina": 92,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -56195,10 +56191,10 @@
   {
     "partido": "PSOE",
     "tema": "Otros",
-    "resumen": "Pedir a la Comisión Europea que lo exija en el procedimiento abierto contra TikTok.",
+    "resumen": "Pedir a la Comisión Europea que exija la invisibilidad por defecto de las cuentas de menores en su procedimiento contra TikTok.",
     "cita": "Pedir además expresamente a la Comisión Europea que lo exija en el procedimiento abierto contra TikTok en el marco del Reglamento de Servicios Digitales.",
     "pagina": 95,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -56306,7 +56302,7 @@
     "resumen": "Aprobar una estrategia integral frente a la desinformación.",
     "cita": "Aprobar una Estrategia integral frente a la desinformación.",
     "pagina": 96,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -56342,7 +56338,7 @@
     "resumen": "Incluir medidas sobre chemsex en la Estrategia Nacional sobre Adicciones.",
     "cita": "Incorporar medidas específicas de prevención, reducción de daños y atención al chemsex en la Estrategia Nacional sobre Adicciones y en las políticas de salud mental.",
     "pagina": 97,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -56636,8 +56632,8 @@
   {
     "partido": "PSOE",
     "tema": "Seguridad y justicia",
-    "resumen": "Reforzar el control de contratos, subvenciones y financiación política con análisis de datos.",
-    "cita": "Reforzar el control de la contratación, las subvenciones y la financiación política con análisis de datos y trazabilidad del gasto",
+    "resumen": "Reforzar el control de contratos, subvenciones y financiación política con análisis de datos y ampliar la información pública sobre agendas y gastos.",
+    "cita": "Reforzar el control de la contratación, las subvenciones y la financiación política con análisis de datos y trazabilidad del gasto, y ampliar el acceso a la información pública sobre agendas, gastos institucionales y evaluación independiente de las políticas.",
     "pagina": 102,
     "concreta": false,
     "revisada": false
@@ -57254,5 +57250,14 @@
     "cita": "Establecer protocolos de prevención, compensaciones justas, gestión ética del control de poblaciones y planes · de intervención en el territorio para evitar situaciones de conflicto humano-vida silvestre, estableciendo incentivos fiscales a las medidas preventivas como vallas, mastines, cultivos disuasorios, cámaras…",
     "pagina": 149,
     "concreta": false
+  },
+  {
+    "partido": "PSOE",
+    "tema": "Inmigración",
+    "resumen": "Simplificar trámites, dar seguridad jurídica, impulsar la contratación en origen y agilizar la homologación de títulos de quienes vienen a trabajar.",
+    "cita": "Queremos seguir avanzando en esta dirección: simplificar los trámites, dar seguridad jurídica, impulsar la contratación en origen, agilizar la homologación de títulos y facilitar el acceso al empleo, para aprovechar el talento de quienes vienen a vivir y trabajar aquí.",
+    "pagina": 92,
+    "concreta": false,
+    "revisada": false
   }
 ]
