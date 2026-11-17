@@ -107,7 +107,12 @@
     "circunscripciones": 44,
     "web": "https://frenteamplio.info",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral Frente Amplio",
+      "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
+      "fecha": "2026-11-16",
+      "paginas": 151
+    }
   },
   {
     "siglas": "Podemos",
@@ -649,7 +654,12 @@
         "paginas": 10
       }
     ],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral. Elecciones generales 29 nov 2026",
+      "url": "https://www.feministasalcongreso.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL_2026.pdf",
+      "fecha": "2026-11-17",
+      "paginas": 170
+    }
   },
   {
     "siglas": "PH",
