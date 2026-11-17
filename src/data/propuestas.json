@@ -57470,7 +57470,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Vivienda",
-    "resumen": "Financiar a ayuntamientos para expropiar suelo sin construir en plazo, en manos de «especuladores» según el partido, para vivienda pública.",
+    "resumen": "Dar recursos a ayuntamientos y comunidades autónomas para que hagan cumplir la normativa de pisos turísticos y de vivienda.",
     "cita": "Esto incluirá financiación a los ayuntamientos para que, una vez que hayan vencido los plazos de la licencia o del plan sin que se haya iniciado la construcción, puedan iniciar los trámites, declarar el incumplimiento de la obligación de construir y llevar a cabo la expropiación de los terrenos en manos de especuladores, pagando un precio justo, para destinarlos a viviendas públicas con alquileres asequibles.",
     "pagina": 12,
     "concreta": false,
@@ -57920,7 +57920,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Vivienda",
-    "resumen": "Reforma constitucional para que la vivienda sea un derecho fundamental recurrible en amparo.",
+    "resumen": "Reforma constitucional urgente para pasar el derecho a la vivienda de los principios rectores a los derechos fundamentales.",
     "cita": "Impulsaremos una reforma constitucional de urgencia para trasladar el derecho a la vivienda desde los principios rectores (Capítulo III) a la Sección 1.ª del Capítulo II del Título I de la Constitución Española.",
     "pagina": 19,
     "concreta": true,
@@ -57947,7 +57947,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Igualdad y familia",
-    "resumen": "Ley de Prestación Universal por Crianza: 200 € al mes por cada menor de 18 años, sin depender de los ingresos.",
+    "resumen": "Aprobar una Ley de Prestación Universal por Crianza de 200 € al mes por cada menor de 18 años a cargo.",
     "cita": "Aprobaremos la Ley de Prestación Universal por Crianza que concederá 200 € al mes por cada menor de 18 años a cargo.",
     "pagina": 21,
     "concreta": true,
@@ -58010,10 +58010,10 @@
   {
     "partido": "Frente Amplio",
     "tema": "Economía y empresas",
-    "resumen": "Desarrollar la Ley de Atención a la Clientela y reforzar los servicios públicos de consumo y su inspección.",
+    "resumen": "Desarrollar y hacer cumplir la Ley de Atención a la Clientela, con más recursos e inspección en servicios de consumo.",
     "cita": "Desarrollaremos y haremos cumplir la Ley de Atención a la Clientela, dotaremos de más recursos a los servicios públicos de consumo y reforzaremos la inspección de los servicios esenciales.",
     "pagina": 21,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -58139,7 +58139,7 @@
     "resumen": "Aplicar plenamente la Ley 4/2026 de dependencia hacia un modelo público de cuidados de larga duración.",
     "cita": "Avanzaremos en la plena implementación de la Ley 4/2026 de modificación de la Ley para la promoción de la Autonomía y Atención a la Dependencia, impulsando la transición hacia un modelo público de apoyos y cuidados de larga duración basado en los derechos, la autonomía personal y la voluntad y preferencias de cada persona.",
     "pagina": 23,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -58253,15 +58253,6 @@
   {
     "partido": "Frente Amplio",
     "tema": "Igualdad y familia",
-    "resumen": "Ampliar los permisos retribuidos y la protección laboral de quienes asuman esos cuidados.",
-    "cita": "Ampliaremos los permisos retribuidos y la protección laboral de quienes asuman estos cuidados.",
-    "pagina": 24,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Amplio",
-    "tema": "Igualdad y familia",
     "resumen": "Subir el IMV para que ningún hogar quede bajo el 40 % de la renta media y llevar pensiones mínimas al umbral de pobreza.",
     "cita": "Garantía de ingresos y erradicación de la pobreza severa: Incrementaremos gradualmente la renta garantizada del Ingreso Mínimo Vital (IMV) para asegurar que ningún hogar viva por debajo del 40 % de la renta media, equiparando pensiones mínimas y no contributivas al umbral de la pobreza.",
     "pagina": 24,
@@ -58352,7 +58343,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Educación",
-    "resumen": "Modificar el Real Decreto 132/2010 para bajar las ratios de 0 a 3 años a 4, 6 y 8 alumnos por profesor.",
+    "resumen": "Modificar el Real Decreto 132/2010 para fijar nuevas ratios alumnado-profesor de 0 a 3 años.",
     "cita": "Para ello realizaremos las modificaciones necesarias en el Real Decreto 132/2010, de 12 de febrero, para establecer las siguientes relaciones numéricas alumnado-profesor en el primer ciclo de la etapa de Educación Infantil:",
     "pagina": 25,
     "concreta": true,
@@ -58373,7 +58364,7 @@
     "resumen": "Aprobar un Plan Estratégico Estatal para modernizar los servicios sociales.",
     "cita": "Aprobaremos un Plan Estratégico Estatal para los servicios sociales, con el objetivo de promover su modernización y mejora en todo el Estado, reduciendo el asistencialismo y promoviendo el trabajo centrado en las personas y en sus relaciones, así como la activación comunitaria.",
     "pagina": 25,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -58418,7 +58409,7 @@
     "resumen": "Desarrollar plenamente la Ley 4/2026 de derechos de las personas con discapacidad.",
     "cita": "Desarrollaremos plenamente la Ley 4/2026 de extensión y refuerzo de los derechos de las personas con discapacidad, garantizando el cumplimiento efectivo de los nuevos derechos reconocidos en materia de accesibilidad universal, vida independiente o autonomía personal.",
     "pagina": 26,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -58517,7 +58508,7 @@
     "resumen": "Actualizar los criterios del FOGA y del FCS y crear un mecanismo para liquidar la asistencia a turistas.",
     "cita": "Equidad territorial y liquidación turística: Actualizaremos los criterios del FOGA y del FCS, junto con la creación de un mecanismo ágil para liquidar la asistencia a turistas internacionales.",
     "pagina": 27,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -58616,12 +58607,12 @@
     "resumen": "Primera estrategia estatal de cultura y salud para prescribir actividades culturales desde Atención Primaria.",
     "cita": "Estrategia de cultura y salud: Primera estrategia estatal con fondos finalistas para prescribir actividades culturales desde Atención Primaria y desarrollar programas culturales dentro de los centros sanitarios.",
     "pagina": 28,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "Frente Amplio",
-    "tema": "Igualdad y familia",
+    "tema": "Sanidad",
     "resumen": "Reformar el artículo 43 de la Constitución para incluir el derecho al aborto.",
     "cita": "Reformaremos el artículo 43 de la Constitución para incluir el derecho al aborto, incluyendo expresamente en la misma que los poderes públicos garantizarán el ejercicio del derecho de las mujeres a la interrupción voluntaria del embarazo en condiciones de igualdad real y efectiva con cuantas prestaciones y servicios sean necesarios para dicho ejercicio.",
     "pagina": 28,
@@ -58649,17 +58640,8 @@
   {
     "partido": "Frente Amplio",
     "tema": "Sanidad",
-    "resumen": "Aprobar una Ley Integral de Salud Obstétrica.",
-    "cita": "Ley Integral de Salud Obstétrica: Reconoceremos el embarazo, parto y posparto como procesos naturales.",
-    "pagina": 28,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Amplio",
-    "tema": "Sanidad",
-    "resumen": "Tipificar la violencia obstétrica y garantizar por ley una matrona por mujer en parto activo en un máximo de 5 años.",
-    "cita": "Tipificaremos la violencia obstétrica, crearemos un canal de denuncia confidencial y garantizaremos derechos por ley (acompañamiento, libre movimiento, alivio del dolor y ratio OMS de 1 matrona por mujer en parto activo en máximo 5 años).",
+    "resumen": "Ley Integral de Salud Obstétrica: tipificar la violencia obstétrica, canal de denuncia y una matrona por mujer en parto activo en 5 años.",
+    "cita": "Ley Integral de Salud Obstétrica: Reconoceremos el embarazo, parto y posparto como procesos naturales. Tipificaremos la violencia obstétrica, crearemos un canal de denuncia confidencial y garantizaremos derechos por ley (acompañamiento, libre movimiento, alivio del dolor y ratio OMS de 1 matrona por mujer en parto activo en máximo 5 años).",
     "pagina": 28,
     "concreta": true,
     "revisada": false
@@ -58967,7 +58949,7 @@
     "resumen": "Plan Estatal de lenguas cooficiales y garantía de la inmersión en catalán en Cataluña.",
     "cita": "Lenguas cooficiales y modelo lingüístico: Lanzaremos un Plan Estatal para el aprendizaje y divulgación de las lenguas cooficiales en todo el Estado, garantizando la inmersión lingüística en catalán como lengua vehicular en Cataluña.",
     "pagina": 32,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -59120,7 +59102,7 @@
     "resumen": "Reformar la ANECA para que sea un organismo de calidad y no un filtro de acceso.",
     "cita": "Reformaremos de forma integral la ANECA para que sea un organismo de calidad y supervisión académica y no un filtro de acceso.",
     "pagina": 33,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -59192,7 +59174,7 @@
     "resumen": "Ampliar el Plan de Impulso Territorial a los Equipamientos Culturales (PITEC).",
     "cita": "Equidad territorial en la cultura: Desarrollaremos y ampliaremos el Plan de Impulso Territorial a los Equipamientos Culturales (PITEC), con financiación estatal y en cooperación con las comunidades autónomas y entidades locales, para reforzar las infraestructuras culturales y corregir los desequilibrios territoriales, atendiendo a las necesidades y prioridades de cada territorio.",
     "pagina": 34,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -59201,7 +59183,7 @@
     "resumen": "Desplegar el Estatuto del Artista: fiscalidad, cotización y prestaciones de los trabajadores de la cultura.",
     "cita": "Desarrollo del Estatuto del Artista: Desplegaremos por completo la agenda normativa avanzando en el tratamiento fiscal y en el sistema de cotización y prestaciones de la Seguridad Social de los trabajadores y trabajadoras por cuenta propia, así como en el desarrollo reglamentario íntegro de la Ley de Enseñanzas Artísticas y la revisión de las titulaciones de Formación Profesional.",
     "pagina": 34,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -59318,14 +59300,14 @@
     "resumen": "Dotar de presupuesto el Plan de Acción de las Industrias Culturales para digitalización e internacionalización.",
     "cita": "Internacionalización y digitalización cultural: Dotación presupuestaria al Plan de Acción de las Industrias Culturales para fomentar la digitalización, la transición ecológica (eficiencia, medición de emisiones y reutilización) y la presencia internacional en ferias y festivales (audiovisual y sector literario).",
     "pagina": 36,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "Frente Amplio",
     "tema": "Otros",
     "resumen": "Biblioteca pública obligatoria en municipios de más de 2.000 habitantes, reformando la Ley de Bases del Régimen Local.",
-    "cita": "Modificaremos la Ley Reguladora de Bases del Régimen Local para reducirlo de 5.000 a 2.000.",
+    "cita": "Obligatoriedad del establecimiento de bibliotecas públicas en municipios de más de 2.000 personas. Modificaremos la Ley Reguladora de Bases del Régimen Local para reducirlo de 5.000 a 2.000.",
     "pagina": 36,
     "concreta": true,
     "revisada": false
@@ -59372,7 +59354,7 @@
     "resumen": "Seguir devolviendo a sus dueños los bienes incautados por la República y no devueltos por el franquismo.",
     "cita": "Seguiremos con el proceso de devoluciones de los bienes incautados por la República y no devueltos por el franquismo a sus legítimos dueños.",
     "pagina": 37,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -59414,7 +59396,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Igualdad y familia",
-    "resumen": "Cambiar la normativa electoral para que las listas cremallera sean una garantía mínima de paridad.",
+    "resumen": "Listas electorales con formato cremallera como mínimo, permitiendo que varias mujeres vayan seguidas en puestos elegibles.",
     "cita": "Proponemos un modelo de listas en el que el formato cremallera se aplique como garantía mínima, permitiendo la presencia consecutiva de mujeres en puestos elegibles como mecanismo legítimo de acción positiva frente a la desigualdad histórica.",
     "pagina": 37,
     "concreta": true,
@@ -59579,7 +59561,7 @@
     "resumen": "Financiar por completo la ley de protección de la infancia frente a la violencia (LOPIVI).",
     "cita": "Financiación completa de la LOPIVI: Aseguraremos la dotación presupuestaria suficiente para todos los ámbitos e instrumentos de la Ley Orgánica 8/2021 (LOPIVI) en todos los niveles administrativos (estatal, autonómico y local) y desplegaremos la Estrategia de Erradicación de la Violencia con sus planes operativos.",
     "pagina": 40,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -59696,7 +59678,7 @@
     "resumen": "Dotar la Estrategia Nacional de Entornos Digitales Seguros: alfabetización mediática y educación afectivo-sexual.",
     "cita": "Estrategia Nacional de Entornos Digitales Seguros: Despliegue presupuestario para alfabetización mediática, laboratorios públicos de cultura digital y educación afectivo-sexual basada en evidencia científica.",
     "pagina": 42,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -59837,7 +59819,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Energía y clima",
-    "resumen": "Prohibir que las energéticas trasladen el gravamen a sus clientes, bajo supervisión de la CNMC.",
+    "resumen": "Ayuda reconocida de oficio por Hacienda, sin trámites digitales, y prohibición de que las energéticas trasladen el gravamen al cliente, vigilada por la CNMC.",
     "cita": "Reconocimiento automático de la ayuda por parte de la Agencia Tributaria y las Haciendas Forales mediante transferencia bancaria o cheque nominativo (sin barreras digitales), junto a la prohibición expresa de que las energéticas trasladen el impuesto a los clientes, bajo la supervisión y régimen sancionador de la CNMC.",
     "pagina": 44,
     "concreta": true,
@@ -59973,7 +59955,7 @@
     "partido": "Frente Amplio",
     "tema": "Impuestos",
     "resumen": "Limitar las herencias a 10 millones por heredero con un tipo marginal del 100 % por encima.",
-    "cita": "Limitaremos las herencias de los ultrarricos a un máximo de 10 millones de euros por heredero.",
+    "cita": "Limitaremos las herencias de los ultrarricos a un máximo de 10 millones de euros por heredero. Esta limitación se implementará estableciendo un tipo impositivo marginal del 100 % sobre el tramo de la base imponible que supere esa cifra en el Impuesto sobre Sucesiones y Donaciones.",
     "pagina": 46,
     "concreta": true,
     "revisada": false
@@ -59982,7 +59964,7 @@
     "partido": "Frente Amplio",
     "tema": "Impuestos",
     "resumen": "Crear un impuesto estatal progresivo sobre inmuebles de más de un millón de euros.",
-    "cita": "Crearemos un impuesto estatal sobre las grandes propiedades inmobiliarias.",
+    "cita": "Crearemos un impuesto estatal sobre las grandes propiedades inmobiliarias. Homogeneizará la tributación de los inmuebles de más de un millón de euros y será progresivo según su valor catastral.",
     "pagina": 46,
     "concreta": true,
     "revisada": false
@@ -60000,7 +59982,7 @@
     "partido": "Frente Amplio",
     "tema": "Impuestos",
     "resumen": "Bajar el IRPF a las rentas del trabajo de hasta 27.000 euros; quien cobre el SMI no pagará IRPF.",
-    "cita": "Bajaremos el IRPF a las rentas del trabajo de hasta 27.000 euros (1,5 veces el SMI).",
+    "cita": "Bajaremos el IRPF a las rentas del trabajo de hasta 27.000 euros (1,5 veces el SMI). Aumentaremos la reducción por rendimientos del trabajo para que quien cobre el salario mínimo no pague IRPF y extenderemos esa rebaja, de forma decreciente, hasta los 27.000 euros.",
     "pagina": 46,
     "concreta": true,
     "revisada": false
@@ -60170,8 +60152,8 @@
   {
     "partido": "Frente Amplio",
     "tema": "Impuestos",
-    "resumen": "Ligar el impuesto de vehículos a las emisiones, con coeficiente de hasta 2,5 para los más contaminantes.",
-    "cita": "Permitiremos un coeficiente de hasta 2,5 para vehículos sin distintivo ambiental o con emisiones superiores a 120 g/km.",
+    "resumen": "Ligar el impuesto municipal de vehículos a las emisiones y la etiqueta, con un coeficiente de hasta 2,5 para los más contaminantes.",
+    "cita": "Reformaremos el impuesto municipal sobre vehículos según sus emisiones. El objetivo es vincularlo a las emisiones reales de CO₂ y a la etiqueta ambiental, en vez de a la potencia fiscal. Permitiremos un coeficiente de hasta 2,5 para vehículos sin distintivo ambiental o con emisiones superiores a 120 g/km.",
     "pagina": 48,
     "concreta": true,
     "revisada": false
@@ -60520,7 +60502,7 @@
   },
   {
     "partido": "Frente Amplio",
-    "tema": "Empleo y salarios",
+    "tema": "Modelo territorial",
     "resumen": "Reformar la Ley 23/2015 de la Inspección de Trabajo y traspasar todas sus funciones a la Generalitat de Cataluña.",
     "cita": "Refuerzo de la Inspección de Trabajo y traspaso a Cataluña: Reformaremos la Ley 23/2015 para el uso de nuevas tecnologías en inspecciones y traspasaremos por completo las funciones inspectoras (incluida Seguridad Social) a la Generalitat de Cataluña.",
     "pagina": 54,
@@ -60587,7 +60569,7 @@
     "resumen": "Estándares laborales obligatorios frente a olas de calor y cese de actividad en alertas extremas.",
     "cita": "Aumentaremos la protección de las personas trabajadoras frente a los riesgos climáticos desarrollando estándares laborales obligatorios para proteger a las personas trabajadoras frente a olas de calor y otros impactos, incluyendo adecuación de horarios, protocolos de hidratación, descanso y mecanismos de cese de actividad climática para autónomos y asalariados en alertas extremas.",
     "pagina": 55,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -60665,10 +60647,10 @@
   {
     "partido": "Frente Amplio",
     "tema": "Economía y empresas",
-    "resumen": "Hacer cumplir la Ley de la Cadena Alimentaria: prohibir la venta a pérdidas y pagar a productores por encima de costes.",
+    "resumen": "Hacer cumplir la prohibición de venta a pérdidas de la Ley de la Cadena Alimentaria con más inspecciones de oficio.",
     "cita": "Cumplimiento sancionador de la Ley de la Cadena Alimentaria: Prohibición efectiva y sancionadora de la venta a pérdidas en origen, garantizando la obligación de remunerar a los productores por encima de sus costes efectivos de producción mediante el refuerzo de las inspecciones de oficio y medios de control.",
     "pagina": 56,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -61134,7 +61116,7 @@
     "partido": "Frente Amplio",
     "tema": "Energía y clima",
     "resumen": "Crear una comercializadora pública de energía de referencia que gestione el PVPC y el bono social.",
-    "cita": "Esta empresa asumirá la gestión del PVPC y del bono social, ofrecerá una tarifa social que incluya un mínimo energético vital y utilizará contratos de suministro a largo plazo para ofrecer estabilidad.",
+    "cita": "Crearemos una comercializadora pública de referencia, que distribuya energía a los hogares y rompa el oligopolio y su integración vertical. Esta empresa asumirá la gestión del PVPC y del bono social, ofrecerá una tarifa social que incluya un mínimo energético vital y utilizará contratos de suministro a largo plazo para ofrecer estabilidad.",
     "pagina": 63,
     "concreta": true,
     "revisada": false
@@ -61160,8 +61142,8 @@
   {
     "partido": "Frente Amplio",
     "tema": "Energía y clima",
-    "resumen": "Plan de climatización de hogares para los 1,7 millones de familias con bono social térmico.",
-    "cita": "Aprobaremos un plan de climatización de hogares para los 1,7 millones de familias con bono social térmico.",
+    "resumen": "Plan de climatización para 1,7 millones de hogares con bono social térmico: 85-95 % de la bomba de calor y 144 kWh más.",
+    "cita": "Aprobaremos un plan de climatización de hogares para los 1,7 millones de familias con bono social térmico. Cubriremos entre el 85 % y el 95 % de la instalación de bombas de calor, aerotermia o bioclimatización, y aumentaremos en 144 kWh el umbral de consumo bonificado en junio, julio y agosto.",
     "pagina": 63,
     "concreta": true,
     "revisada": false
@@ -61511,8 +61493,8 @@
   {
     "partido": "Frente Amplio",
     "tema": "Otros",
-    "resumen": "Financiar transporte a demanda en el medio rural.",
-    "cita": "Financiaremos transporte a demanda en el medio rural.",
+    "resumen": "Financiar transporte a demanda en el medio rural: autobús y taxi compartido con apoyo estatal y de diputaciones.",
+    "cita": "Financiaremos transporte a demanda en el medio rural. Desarrollaremos autobús y taxi compartido con apoyo estatal y diputaciones, priorizando población vulnerable, personas mayores y con dificultades de movilidad.",
     "pagina": 67,
     "concreta": false,
     "revisada": false
@@ -61583,10 +61565,10 @@
   {
     "partido": "Frente Amplio",
     "tema": "Energía y clima",
-    "resumen": "Plan MOVES de ayudas directas a bicicletas, motos y patinetes eléctricos.",
+    "resumen": "Ayudas directas del Plan MOVES para comprar bicicletas, motos y patinetes eléctricos.",
     "cita": "Plan MOVES de ayudas a la movilidad eléctrica ligera: Ayudas directas a la compra de bicicletas, motocicletas y patinetes eléctricos.",
     "pagina": 68,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -61658,7 +61640,7 @@
     "resumen": "Ejecutar con urgencia las medidas del PNACC sobre agua e inundaciones e integrar el riesgo en el urbanismo.",
     "cita": "Gestión integral del riesgo de inundaciones (PNACC): Ejecución prioritaria y urgente de las medidas del Plan Nacional de Adaptación al Cambio Climático (PNACC) relativas a agua y recursos hídricos: evaluación de la gestión ante inundaciones, desarrollo de actuaciones de adaptación, e integración formal del riesgo de inundación en la ordenación territorial y urbanística.",
     "pagina": 69,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -61692,7 +61674,7 @@
     "partido": "Frente Amplio",
     "tema": "Energía y clima",
     "resumen": "Pagar a agricultores, a través de la PAC, por servicios ambientales como limpiar el monte.",
-    "cita": "Implantación de un sistema de pagos por servicios ambientales en zonas rurales: Quien cuida la naturaleza merece cobrar por ello.",
+    "cita": "Implantación de un sistema de pagos por servicios ambientales en zonas rurales: Quien cuida la naturaleza merece cobrar por ello. A través de la PAC, es posible pagar a agricultores por desarrollar prácticas que protegen a todos: el cuidado y limpieza del monte, la creación de paisajes mosaico que frenan el fuego, la regeneración de suelos que retienen el agua.",
     "pagina": 70,
     "concreta": false,
     "revisada": false
@@ -61775,7 +61757,7 @@
     "resumen": "Aplicar el Plan de Gestión del Corredor de Migración de Cetáceos del Mediterráneo: menos velocidad y ruido.",
     "cita": "Aplicaremos medidas de conservación a través del Plan de Gestión del Corredor de Migración de Cetáceos del Mediterráneo (reducción de velocidad según barco, reducción del ruido submarino, riesgo de colisión y emisiones de GEI).",
     "pagina": 71,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -61793,16 +61775,16 @@
     "resumen": "Aplicar los objetivos del Marco Mundial de Biodiversidad Kunming-Montreal.",
     "cita": "Marco Mundial Kunming-Montreal: Aplicaremos los objetivos y medidas del Convenio sobre la Diversidad Biológica de Montreal 2022 (Marco Mundial Kunming-Montreal).",
     "pagina": 71,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "Frente Amplio",
     "tema": "Energía y clima",
-    "resumen": "Prohibir de forma efectiva vender productos importados de la deforestación o sin diligencia debida, según el reglamento europeo.",
+    "resumen": "Hacer efectiva la prohibición europea de vender productos de la deforestación o sin diligencia debida.",
     "cita": "Haremos efectiva la prohibición de comercializar en nuestro territorio productos importados que provengan de la deforestación, que no respeten la legislación laboral y de derechos humanos del país de origen, o que carezcan de una declaración de diligencia debida verificable, exigiendo el cumplimiento estricto del Reglamento Europeo sobre la materia.",
     "pagina": 71,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -61937,7 +61919,7 @@
     "resumen": "Restringir hasta eliminar los plásticos de un solo uso.",
     "cita": "Restringiremos hasta eliminar los plásticos de un solo uso.",
     "pagina": 73,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -61996,7 +61978,7 @@
   },
   {
     "partido": "Frente Amplio",
-    "tema": "Otros",
+    "tema": "Energía y clima",
     "resumen": "Extender las fuentes de agua potable y los aseos públicos.",
     "cita": "Extenderemos el acceso a fuentes de agua potable y aseos públicos.",
     "pagina": 73,
@@ -62585,7 +62567,7 @@
     "resumen": "Devolución de ayudas si se incumplen y límites al reparto de dividendos extraordinarios mientras dure el apoyo público.",
     "cita": "Estableceremos cláusulas de devolución de ayudas ante incumplimientos y límites al reparto extraordinario de dividendos durante el periodo de apoyo público.",
     "pagina": 81,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -62603,7 +62585,7 @@
     "resumen": "Consolidar el Estatuto del Personal de Investigación con empleo estable y retorno del talento.",
     "cita": "Consolidaremos el Estatuto del Personal de Investigación y las reformas de la carrera científica con empleo estable, mejores condiciones y programas de retorno del talento.",
     "pagina": 81,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -62628,7 +62610,7 @@
     "partido": "Frente Amplio",
     "tema": "Economía y empresas",
     "resumen": "Considerar los centros de datos infraestructura estratégica bajo control nacional o europeo.",
-    "cita": "Planificación y gobernanza de infraestructuras digitales: Consideraremos los centros de datos como infraestructura estratégica nacional orientando su implantación según criterios de impacto socioeconómico y recursos disponibles.",
+    "cita": "Planificación y gobernanza de infraestructuras digitales: Consideraremos los centros de datos como infraestructura estratégica nacional orientando su implantación según criterios de impacto socioeconómico y recursos disponibles. Garantizaremos que su titularidad y gobernanza queden bajo control nacional o europeo, evaluando su impacto acumulado sobre el suelo, las redes y los recursos hídricos.",
     "pagina": 82,
     "concreta": false,
     "revisada": false
@@ -62771,8 +62753,8 @@
   {
     "partido": "Frente Amplio",
     "tema": "Energía y clima",
-    "resumen": "Planes de transición justa por comarca al menos cinco años antes de cada posible cierre.",
-    "cita": "Los planes se pondrán en marcha al menos cinco años antes de cada potencial cierre para cada comarca afectada, con calendario, presupuesto, indicadores de empleo y población y evaluación independiente.",
+    "resumen": "Ley de transición justa con planes por comarca al menos cinco años antes de cada posible cierre.",
+    "cita": "Aprobaremos una ley específica de transición justa. Garantizará planes anticipados para sectores potencialmente afectados por la transición ecológica. Los planes se pondrán en marcha al menos cinco años antes de cada potencial cierre para cada comarca afectada, con calendario, presupuesto, indicadores de empleo y población y evaluación independiente.",
     "pagina": 83,
     "concreta": true,
     "revisada": false
@@ -62780,17 +62762,8 @@
   {
     "partido": "Frente Amplio",
     "tema": "Economía y empresas",
-    "resumen": "Dar a la SEPI medios para entrar como accionista en nuevas empresas y sectores estratégicos.",
-    "cita": "Dotaremos a la SEPI de los medios económicos y humanos para entrar como accionista en nuevas empresas y sectores estratégicos y para modernizar las empresas públicas en las que participa.",
-    "pagina": 84,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Amplio",
-    "tema": "Economía y empresas",
     "resumen": "Más pedidos para Navantia, diversificación a renovables y un plan de inversiones hasta 2030.",
-    "cita": "Aumentaremos su cartera de pedidos para dar plena ocupación a todos sus centros, diversificaremos su actividad hacia las renovables y la construcción naval de más valor añadido y abordaremos un plan de inversiones hasta 2030.",
+    "cita": "Convertiremos a Navantia en motor de la reindustrialización. Aumentaremos su cartera de pedidos para dar plena ocupación a todos sus centros, diversificaremos su actividad hacia las renovables y la construcción naval de más valor añadido y abordaremos un plan de inversiones hasta 2030.",
     "pagina": 84,
     "concreta": true,
     "revisada": false
@@ -62808,7 +62781,7 @@
     "partido": "Frente Amplio",
     "tema": "Otros",
     "resumen": "Aumentar la financiación de la Agencia EFE hacia la de France Presse o Associated Press.",
-    "cita": "Aumentaremos su financiación como Servicio de Interés Económico General para acercarla a la de France Presse o Associated Press, incorporaremos y estabilizaremos perfiles informativos, mejoraremos la conciliación y negociaremos el convenio colectivo pendiente.",
+    "cita": "Reforzaremos la Agencia EFE como gran agencia de noticias en español. Aumentaremos su financiación como Servicio de Interés Económico General para acercarla a la de France Presse o Associated Press, incorporaremos y estabilizaremos perfiles informativos, mejoraremos la conciliación y negociaremos el convenio colectivo pendiente.",
     "pagina": 84,
     "concreta": false,
     "revisada": false
@@ -62924,10 +62897,10 @@
   {
     "partido": "Frente Amplio",
     "tema": "Economía y empresas",
-    "resumen": "En la PAC, eliminar los derechos históricos y orientar las ayudas a quien más aporta socialmente.",
+    "resumen": "Defender en la negociación de la futura PAC eliminar los derechos históricos y orientar las ayudas a quien más aporta socialmente.",
     "cita": "Adoptaremos el principio de «dinero público para bienes y servicios públicos» en las negociaciones para la futura Política Agraria Común que debe conllevar la eliminación de los derechos históricos y orientar las ayudas a los sistemas productivos que socialmente más aportan y no a los grandes terratenientes.",
     "pagina": 87,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -63017,7 +62990,7 @@
     "resumen": "Prioridad para jóvenes y agricultura familiar en la compra o arrendamiento de tierras y techo de superficie por comprador.",
     "cita": "Los agricultores y agricultoras jóvenes, familiares y sociales tendrán prioridad en la compra o el arrendamiento, y se establecerá un techo de superficie por comprador, según los cultivos, para evitar la concentración y acaparamiento de la tierra en manos de unos pocos.",
     "pagina": 88,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -63168,14 +63141,14 @@
     "partido": "Frente Amplio",
     "tema": "Impuestos",
     "resumen": "Transponer el IVA franquiciado: autónomos y pymes que facturen menos de 85.000 € sin liquidaciones periódicas.",
-    "cita": "Aquellos que facturen menos de 85.000 euros anuales quedarán exentos de liquidaciones periódicas y solo tendrán que presentar una declaración informativa anual.",
+    "cita": "Transpondremos de inmediato la directiva europea del IVA franquiciado para autónomos y pequeñas empresas. Aquellos que facturen menos de 85.000 euros anuales quedarán exentos de liquidaciones periódicas y solo tendrán que presentar una declaración informativa anual.",
     "pagina": 92,
     "concreta": true,
     "revisada": false
   },
   {
     "partido": "Frente Amplio",
-    "tema": "Economía y empresas",
+    "tema": "Empleo y salarios",
     "resumen": "Cotización fija bonificada para autónomos que ingresen menos del SMI, sin perder protección.",
     "cita": "Cuando los ingresos reales percibidos por la persona trabajadora autónoma sean inferiores al SMI anual por causas objetivas, tales como las condiciones del mercado o el inicio de actividad, se podrá acoger a una cotización fija bonificada sin pérdida de derechos de protección.",
     "pagina": 92,
@@ -63239,15 +63212,6 @@
   {
     "partido": "Frente Amplio",
     "tema": "Economía y empresas",
-    "resumen": "Evitar más concentración bancaria y proteger a las entidades que financian la economía real.",
-    "cita": "Defensa de la competencia bancaria: Garantizaremos la competencia real en el sector financiero, evitando mayores procesos de concentración bancaria y protegiendo a las entidades con vocación explícita de financiación a la economía real.",
-    "pagina": 93,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Amplio",
-    "tema": "Economía y empresas",
     "resumen": "Locales comerciales: contratos mínimos de 5 años, límite legal a las subidas y derecho a renovar.",
     "cita": "Garantizaremos contratos mínimos de 5 años, un límite legal a las subidas anuales y el derecho a la renovación del contrato (con indemnización por expulsión para especulación).",
     "pagina": 93,
@@ -63296,7 +63260,7 @@
     "resumen": "Crear un fondo estatal de economía social y solidaria.",
     "cita": "Crearemos un fondo estatal de economía social y solidaria.",
     "pagina": 93,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -63314,7 +63278,7 @@
     "resumen": "Impulsar el Hub de Vanguardia de la Economía Social en Donostia y reconocer las finanzas éticas.",
     "cita": "Infraestructuras de vanguardia y finanzas éticas: Impulsaremos el Hub de Vanguardia de la Economía Social en Donostia y reconoceremos las finanzas éticas como agente transformador a través de medidas legislativas, operativas y de sensibilización.",
     "pagina": 94,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -63377,13 +63341,13 @@
     "resumen": "Compensar los costes de inserción sociolaboral según el régimen de la Ley 1/2026.",
     "cita": "Reconocer y compensar los costes de inserción: Aplicación efectiva y homogénea del régimen de compensaciones por servicios de interés económico general (SIEG) que reconoce la Ley 1/2026, con criterios comunes entre territorios; compensación de los costes específicos de inserción sociolaboral, incluidos los sobrecostes laborales y el acompañamiento; y un marco que evite que los límites de las ayudas de minimis restrinjan las ayudas a las empresas de inserción.",
     "pagina": 94,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "Frente Amplio",
-    "tema": "Igualdad y familia",
-    "resumen": "Aprobar un marco estatal de gestión público-comunitaria de servicios.",
+    "tema": "Economía y empresas",
+    "resumen": "Aprobar un marco estatal de gestión público-comunitaria de servicios con entidades de la economía social.",
     "cita": "Aprobaremos un marco estatal de gestión público-comunitaria.",
     "pagina": 95,
     "concreta": false,
@@ -63472,11 +63436,11 @@
   },
   {
     "partido": "Frente Amplio",
-    "tema": "Modelo territorial",
+    "tema": "Otros",
     "resumen": "No recortar paradas de autobús en los pueblos y destinar parte del fondo de movilidad al transporte en zonas despobladas.",
     "cita": "Retiraremos las propuestas de recortar paradas en las líneas de autobús y destinaremos una parte relevante del Fondo Estatal de Contribución a la Movilidad Sostenible a sostener el transporte autonómico en los territorios afectados por la despoblación, según la superficie afectada.",
     "pagina": 97,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -63553,7 +63517,7 @@
   },
   {
     "partido": "Frente Amplio",
-    "tema": "Modelo territorial",
+    "tema": "Otros",
     "resumen": "Conexiones mínimas todo el año entre islas y con la península, reforzando las obligaciones de servicio público.",
     "cita": "Garantizaremos conexiones mínimas durante todo el año entre las islas y con la península, reforzando las obligaciones de servicio público, en especial entre las islas no capitalinas y la península (por ejemplo, Menorca-Barcelona).",
     "pagina": 98,
@@ -63590,8 +63554,8 @@
   {
     "partido": "Frente Amplio",
     "tema": "Empleo y salarios",
-    "resumen": "Reducir la temporalidad en el sector público hasta el 8 %.",
-    "cita": "Reduciremos la temporalidad en el sector público hasta el 8 %.",
+    "resumen": "Reducir la temporalidad en el sector público hasta el 8 %, bajándola 10 puntos el primer año.",
+    "cita": "Reduciremos la temporalidad en el sector público hasta el 8 %. Como primer paso, la bajaremos 10 puntos en el primer año, cumpliendo el acuerdo con la representación sindical y las sentencias del Tribunal de Justicia de la UE sobre las interinidades.",
     "pagina": 100,
     "concreta": true,
     "revisada": false
@@ -63620,7 +63584,7 @@
     "resumen": "Dar independencia y financiación plurianual a la Agencia Estatal de Evaluación de Políticas Públicas.",
     "cita": "Reforzaremos la Agencia Estatal de Evaluación de Políticas Públicas, creada recientemente, dotándola de independencia efectiva, financiación plurianual suficiente, una plantilla especializada y acceso a la información necesaria para cumplir su misión.",
     "pagina": 100,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -63638,7 +63602,7 @@
     "resumen": "Ampliar la Inspección de Trabajo hacia la ratio de la OIT, con nueva relación de puestos y plan estratégico.",
     "cita": "Ampliaremos la plantilla de inspectores, subinspectores y personal de apoyo para acercarnos a la ratio de la OIT, aprobaremos una nueva relación de puestos de trabajo y un nuevo plan estratégico para combatir los excesos de jornada ilegales, los accidentes laborales provocados por el cambio climático, la discriminación y la explotación laboral.",
     "pagina": 100,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -63656,7 +63620,7 @@
     "resumen": "Reformar de inmediato el sistema de financiación autonómica.",
     "cita": "Impulsaremos de forma inmediata la reforma del sistema de financiación autonómica.",
     "pagina": 103,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -63890,12 +63854,12 @@
     "resumen": "Priorizar los corredores Mediterráneo, Atlántico y Cantábrico-Mediterráneo y conexiones que no pasen por Madrid.",
     "cita": "Priorizaremos la ejecución de los Corredores Mediterráneo, Atlántico y Cantábrico-Mediterráneo, impulsaremos las conexiones directas entre ciudades sin pasar por las estaciones madrileñas (Atocha y Chamartín) y avanzaremos en la planificación ejecutiva de la Línea Orbital Ferroviaria.",
     "pagina": 106,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "Frente Amplio",
-    "tema": "Otros",
+    "tema": "Modelo territorial",
     "resumen": "Ejecutar el Plan de Rodalies con indicadores públicos y completar el traspaso a la Generalitat.",
     "cita": "Gestión de Rodalies, transparencia e intermodalidad urbana: Ejecutaremos con transparencia las actuaciones del Plan de Rodalies de Catalunya con publicaciones públicas de indicadores de fiabilidad, completando además el traspaso de servicios y medios a la Generalitat con recursos y coordinación efectiva.",
     "pagina": 106,
@@ -63935,7 +63899,7 @@
     "resumen": "Plan de reindustrialización verde para las comarcas afectadas por la DANA.",
     "cita": "Plan de Reindustrialización Verde comarcal: Elaboración coordinada con los municipios afectados de un plan de reindustrialización verde orientado a la reactivación económica de las comarcas devastadas por la DANA.",
     "pagina": 107,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -64040,7 +64004,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Modelo territorial",
-    "resumen": "Condonación extraordinaria de deuda para ayuntamientos en riesgo financiero, con condiciones.",
+    "resumen": "Aprobar una condonación extraordinaria de deuda para los ayuntamientos en riesgo financiero.",
     "cita": "Aprobaremos una condonación extraordinaria de deuda para los ayuntamientos en riesgo financiero.",
     "pagina": 110,
     "concreta": true,
@@ -64301,7 +64265,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Economía y empresas",
-    "resumen": "Reformar la Ley de Auditoría de Cuentas para prohibir que los auditores presten consultoría a la empresa auditada.",
+    "resumen": "Reformar la Ley de Auditoría de Cuentas para separar la auditoría financiera, la de sostenibilidad y cualquier otro servicio a la empresa.",
     "cita": "Reformaremos la Ley de Auditoría de Cuentas y la legislación societaria para separar entre sí la auditoría financiera y la verificación de la información de sostenibilidad, y ambas de cualquier otro servicio prestado a la empresa examinada.",
     "pagina": 115,
     "concreta": true,
@@ -64430,7 +64394,7 @@
     "resumen": "Atención bancaria presencial, servicios mínimos en todo el territorio y responsabilidad de la banca en fraudes digitales.",
     "cita": "Garantizaremos atención presencial, servicios mínimos territoriales evitando las zonas sin cobertura y responsabilidad legal de la banca en la prevención y reparación de fraudes digitales.",
     "pagina": 117,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -64472,7 +64436,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Otros",
-    "resumen": "Ley de Gobernanza de Servicios Digitales: la CNMC podrá multar a grandes plataformas hasta con el 6 % de su facturación.",
+    "resumen": "Ley de Gobernanza Democrática de los Servicios Digitales: la CNMC podrá multar a grandes plataformas hasta con el 6 % de su facturación.",
     "cita": "Ley de Gobernanza Democrática de los Servicios Digitales y capacidad sancionadora: Aprobaremos un marco regulatorio integral que faculte a la CNMC para supervisar a las grandes plataformas digitales con plantilla y recursos adecuados, pudiendo imponer multas de hasta el 6 % de su facturación mundial.",
     "pagina": 119,
     "concreta": true,
@@ -64706,15 +64670,6 @@
   {
     "partido": "Frente Amplio",
     "tema": "Otros",
-    "resumen": "Transparencia sobre los dueños de los medios y criterios auditables para la publicidad institucional.",
-    "cita": "Exigiremos transparencia sobre titulares reales, participaciones y financiación, aplicando criterios objetivos y auditables en el reparto de la publicidad institucional.",
-    "pagina": 121,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Amplio",
-    "tema": "Otros",
     "resumen": "Impulsar medios cooperativos, locales y sin ánimo de lucro con convocatorias objetivas.",
     "cita": "Impulsaremos medios cooperativos, locales y sin ánimo de lucro mediante convocatorias objetivas, preservando la independencia editorial de las presiones financieras.",
     "pagina": 121,
@@ -64745,7 +64700,7 @@
     "resumen": "Desplegar la Ley Trans y reconocer a las personas no binarias.",
     "cita": "Desplegaremos de forma efectiva la Ley Trans, reconoceremos a las personas no binarias y protegeremos frente a la violencia intragénero.",
     "pagina": 123,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -64790,7 +64745,7 @@
     "resumen": "Evitar intervenciones irreversibles no urgentes a personas intersexuales sin su consentimiento.",
     "cita": "Protegeremos la autonomía corporal de las personas intersexuales y evitaremos intervenciones irreversibles no urgentes sin consentimiento libre e informado de la persona afectada.",
     "pagina": 123,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -64844,7 +64799,7 @@
     "resumen": "Resolver todas las solicitudes de la regularización extraordinaria de 2026.",
     "cita": "Culminar la regularización extraordinaria de 2026: Resolveremos todas las solicitudes con medios suficientes, de modo que ninguna persona quede fuera por retrasos de la Administración.",
     "pagina": 126,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -64952,13 +64907,13 @@
     "resumen": "No condicionar la ayuda al desarrollo ni los acuerdos comerciales a la colaboración en retornos.",
     "cita": "La ayuda al desarrollo y los acuerdos comerciales no se condicionarán a la colaboración de terceros países en los retornos.",
     "pagina": 127,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "Frente Amplio",
     "tema": "Inmigración",
-    "resumen": "Aplicar el Pacto Europeo de Migración de la forma más garantista y priorizar el interés del menor.",
+    "resumen": "Aplicar el Pacto Europeo de Migración y Asilo en su interpretación más garantista.",
     "cita": "Aplicación garantista del Pacto Europeo y protección de la infancia: Interpretación y aplicación del Pacto Europeo de Migración y Asilo bajo su vertiente más garantista.",
     "pagina": 127,
     "concreta": false,
@@ -65156,15 +65111,6 @@
   {
     "partido": "Frente Amplio",
     "tema": "Defensa y política exterior",
-    "resumen": "Pleno apoyo político y financiero a la Corte Penal Internacional.",
-    "cita": "Apoyo político y financiero pleno a la Corte Penal Internacional frente a cualquier presión o sanción.",
-    "pagina": 131,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "Frente Amplio",
-    "tema": "Defensa y política exterior",
     "resumen": "Reformar la Ley 53/2007 para embargar armas a Estados investigados por la Corte Penal Internacional o que vulneren derechos humanos.",
     "cita": "Reforma de la ley de comercio de armas: Aprobaremos la reforma de la Ley 53/2007 para establecer el embargo automático de material de defensa y de doble uso a cualquier Estado cuyos dirigentes estén investigados por la Corte Penal Internacional, o sobre el que la Corte Internacional de Justicia haya dictado medidas provisionales, por genocidio, crímenes de guerra o de lesa humanidad, y a cualquier país o régimen que vulnere los derechos humanos.",
     "pagina": 131,
@@ -65321,7 +65267,7 @@
     "resumen": "Impulsar una cumbre anual UE-CELAC sobre desigualdad, clima y feminicidios.",
     "cita": "Relaciones con América Latina y salvaguardas en el Acuerdo UE-Mercosur: Construiremos relaciones horizontales con América Latina integrando a movimientos sociales e indígenas, e impulsaremos una cumbre anual UE-CELAC centrada en la desigualdad, la emergencia climática y los feminicidios.",
     "pagina": 133,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -65339,7 +65285,7 @@
     "resumen": "Impulsar una Fuerza Mediterránea de intervención climática y protección civil.",
     "cita": "Impulsaremos una Fuerza Mediterránea de intervención climática y protección civil enfocada en la extinción de incendios, rescate en el mar y lucha contra la contaminación.",
     "pagina": 133,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -65456,7 +65402,7 @@
     "resumen": "Reforzar la AECID con un nuevo Contrato de Gestión.",
     "cita": "Reforzaremos la Agencia Española de Cooperación Internacional para el Desarrollo (AECID), con nuevo Contrato de Gestión, como elemento clave e institución especializada y articuladora de esta política.",
     "pagina": 134,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -65681,7 +65627,7 @@
     "resumen": "Denunciar formalmente el Acuerdo de Asociación UE-Israel por vulnerar su cláusula de derechos humanos.",
     "cita": "Denunciaremos formalmente el Acuerdo de Asociación UE-Israel por vulneración sistemática de la cláusula de derechos humanos y principios democráticos que condiciona legalmente el acuerdo.",
     "pagina": 137,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -65726,7 +65672,7 @@
     "resumen": "Blindar en la Constitución las pensiones, la vivienda, la salud, el aborto y los derechos medioambientales.",
     "cita": "Blindaremos constitucionalmente la revalorización de las pensiones, el derecho a la vivienda, el derecho a la salud, el derecho al aborto, los derechos medioambientales, e incorporaremos nuevos ámbitos como el cambio climático o la digitalización.",
     "pagina": 140,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -65795,8 +65741,8 @@
   {
     "partido": "Frente Amplio",
     "tema": "Otros",
-    "resumen": "Reducir a la mitad las firmas necesarias para la iniciativa legislativa popular.",
-    "cita": "Rebajaremos a la mitad las firmas necesarias para la iniciativa legislativa popular.",
+    "resumen": "Bajar de 500.000 a 250.000 las firmas de la ILP y permitir a sus promotores retirarla o pedir consulta si el Congreso la desvirtúa.",
+    "cita": "Rebajaremos a la mitad las firmas necesarias para la iniciativa legislativa popular. Supondrá pasar de las 500.000 en la actualidad a 250.000 e incluir mecanismos para que los promotores de la misma puedan retirarla si el Congreso la desvirtúa, o que puedan solicitar una consulta popular al respecto.",
     "pagina": 141,
     "concreta": true,
     "revisada": false
@@ -65894,10 +65840,10 @@
   {
     "partido": "Frente Amplio",
     "tema": "Seguridad y justicia",
-    "resumen": "Obligar a cargos electos y altos cargos a publicar su agenda de reuniones con lobbies.",
+    "resumen": "Ampliar la obligación de cargos electos y altos cargos de publicar su agenda de reuniones con lobbies.",
     "cita": "Ampliaremos las obligaciones de todos los cargos electos y altos cargos de la administración de la publicación de la agenda de reuniones y contactos con lobbies.",
     "pagina": 142,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -65913,7 +65859,7 @@
     "partido": "Frente Amplio",
     "tema": "Otros",
     "resumen": "Auditar la deuda y las políticas públicas para saber a quién se ha beneficiado con dinero público.",
-    "cita": "Auditoría de la deuda y de las políticas públicas.",
+    "cita": "Auditoría de la deuda y de las políticas públicas. Queremos saber a quiénes y a qué empresas se ha beneficiado con dinero público.",
     "pagina": 142,
     "concreta": false,
     "revisada": false
@@ -65930,7 +65876,7 @@
   {
     "partido": "Frente Amplio",
     "tema": "Seguridad y justicia",
-    "resumen": "Multas proporcionales a los ingresos y la edad, con sanciones restaurativas.",
+    "resumen": "Reducir las multas excesivas y ajustarlas a la «capacidad de ingresos» y a la edad de las personas sancionadas.",
     "cita": "Reduciremos las multas excesivas y aplicaremos «criterios de proporcionalidad» para ajustarlas a la «capacidad de ingresos de las personas sancionadas», así como a su edad, en el caso de personas más jóvenes.",
     "pagina": 142,
     "concreta": false,
@@ -65957,10 +65903,10 @@
   {
     "partido": "Frente Amplio",
     "tema": "Seguridad y justicia",
-    "resumen": "Regular por ley el uso de la fuerza, las armas policiales y las herramientas de vigilancia.",
+    "resumen": "Establecer un marco regulatorio del uso de la fuerza, las armas policiales y otras herramientas de vigilancia.",
     "cita": "Estableceremos un marco regulatorio sobre el uso de la fuerza, las armas policiales y otras herramientas de vigilancia.",
     "pagina": 143,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -66003,7 +65949,7 @@
     "partido": "Frente Amplio",
     "tema": "Seguridad y justicia",
     "resumen": "Cambiar la LO 4/2000 para facilitar la reinserción y el tercer grado de presos extranjeros.",
-    "cita": "Cambiaremos la legislación penal y de extranjería para eliminar las contradicciones entre la LO 4/2000 y la finalidad constitucional de reinserción social de las personas extranjeras que cumplan condena en nuestro país.",
+    "cita": "Cambiaremos la legislación penal y de extranjería para eliminar las contradicciones entre la LO 4/2000 y la finalidad constitucional de reinserción social de las personas extranjeras que cumplan condena en nuestro país. Eliminaremos los obstáculos en la progresión de grados y el acceso a los medios abiertos (tercer grado y libertad condicional).",
     "pagina": 144,
     "concreta": true,
     "revisada": false
@@ -66021,7 +65967,7 @@
     "partido": "Frente Amplio",
     "tema": "Seguridad y justicia",
     "resumen": "Homologar los procesos disciplinarios policiales según el Código Europeo de Ética de la Policía.",
-    "cita": "Estandarizaremos, fortaleceremos y homologaremos los procesos de disciplina interna para que cumplan criterios mínimos en todo el Estado.",
+    "cita": "Estandarizaremos, fortaleceremos y homologaremos los procesos de disciplina interna para que cumplan criterios mínimos en todo el Estado. Asumiendo los contenidos básicos del Código Europeo de Ética de la Policía.",
     "pagina": 144,
     "concreta": false,
     "revisada": false
@@ -66221,7 +66167,7 @@
     "resumen": "Seguir el proceso judicial para cerrar las fundaciones Francisco Franco, Primo de Rivera, Blas Piñar y Serrano Suñer.",
     "cita": "Cierre de fundaciones franquistas: Continuaremos con el proceso judicial iniciado para el cierre de la Fundación Francisco Franco, Fundación Primo de Rivera, Fundación Blas Piñar y la Fundación Privada Ramón Serrano Suñer.",
     "pagina": 146,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -66470,8 +66416,269 @@
   {
     "partido": "Frente Amplio",
     "tema": "Sanidad",
-    "resumen": "Derecho al aborto, a la eutanasia y al suicidio asistido.",
+    "resumen": "Derecho a la eutanasia y al suicidio asistido.",
     "cita": "Derecho a la interrupción voluntaria del embarazo, a la eutanasia y al suicidio asistido.",
+    "pagina": 150,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Energía y clima",
+    "resumen": "Revisar el cálculo de capacidad de las redes eléctricas e implantar permisos de acceso flexible, manteniendo la seguridad del suministro.",
+    "cita": "Revisaremos los criterios de cálculo cuando restrinjan injustificadamente el aprovechamiento de la red e implantaremos los permisos de acceso flexible, preservando la seguridad del suministro.",
+    "pagina": 63,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Energía y clima",
+    "resumen": "Tarifa eléctrica propia para los grandes consumos de los centros de datos que cubra la red y la nueva generación.",
+    "cita": "Tarifa propia para grandes consumos que cubra la red y la nueva generación requerida (con contratos de larga duración y penalizaciones por cancelación anticipada).",
+    "pagina": 82,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "resumen": "Obligar a los centros de datos a contratar y formar personal de la región y dar prioridad de conexión eléctrica a viviendas e industrias.",
+    "cita": "Obligación de contratar y formar personal en la región y garantía de prioridad de conexión eléctrica para viviendas, industrias y comunidades energéticas.",
+    "pagina": 82,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "pagina": 93,
+    "concreta": false,
+    "resumen": "Locales comerciales en zonas tensionadas por el turismo: grandes tenedores sujetos a un índice de precios de referencia.",
+    "cita": "En zonas tensionadas por el turismo, los grandes tenedores deberán sujetarse a un índice de precios de referencia.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Impuestos",
+    "pagina": 93,
+    "concreta": false,
+    "resumen": "Mantener y consolidar el tratamiento fiscal ventajoso de las cooperativas frente a las sociedades de capital.",
+    "cita": "Mantendremos y consolidaremos el tratamiento fiscal específico y ventajoso para las cooperativas frente a las sociedades de capital.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "pagina": 100,
+    "concreta": false,
+    "resumen": "Priorizar en la contratación pública a empresas con convenio colectivo, representación sindical y participación de la plantilla.",
+    "cita": "Priorizaremos en la contratación pública a las empresas con convenio colectivo aplicable, representación sindical efectiva y órganos de participación de las plantillas.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Modelo territorial",
+    "pagina": 103,
+    "concreta": true,
+    "resumen": "La población ajustada tomará la más alta de los últimos tres años, para proteger a los territorios que pierden habitantes.",
+    "cita": "Tomará además la población más alta de los últimos tres años, para proteger a los territorios que pierden habitantes.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "pagina": 106,
+    "concreta": false,
+    "resumen": "Sistema oficial de acreditación de retrasos de tren para proteger derechos laborales y más conexiones fuera de las áreas metropolitanas.",
+    "cita": "Crearemos un sistema oficial de acreditación de retrasos para proteger los derechos laborales de las personas usuarias y reforzaremos las conexiones fuera de los núcleos metropolitanos.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Modelo territorial",
+    "pagina": 107,
+    "concreta": false,
+    "resumen": "Encomiendas de gestión y convenios con las comunidades con menor ejecución de inversión estatal.",
+    "cita": "Firmaremos encomiendas de gestión y convenios con las comunidades autónomas con menores índices de ejecución estatal para asegurar la materialización de los proyectos.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Impuestos",
+    "pagina": 112,
+    "concreta": true,
+    "resumen": "Impuesto de circulación según emisiones de CO₂ y etiqueta, con coeficiente de hasta 2,5 para vehículos sin distintivo o de más de 120 g/km.",
+    "cita": "El impuesto de circulación dependerá de las emisiones reales de CO₂ y de la etiqueta ambiental, no de la potencia fiscal, con un coeficiente de hasta 2,5 para los vehículos sin distintivo o con emisiones de más de 120 g/km.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "pagina": 115,
+    "concreta": true,
+    "resumen": "Derecho del comité de empresa a dos expertos pagados por la empresa, uno en IA y otro en impacto ambiental.",
+    "cita": "El comité tendrá derecho a dos expertos financiados por la empresa (uno en IA y otro en impacto ambiental), defendiendo la extensión de este derecho a los comités de empresa de ámbito europeo.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "pagina": 116,
+    "concreta": false,
+    "resumen": "Obligar a vincular la retribución variable de los altos directivos al largo plazo, la inversión, el empleo y la sostenibilidad.",
+    "cita": "Obligación de vincular la remuneración variable de los altos directivos a resultados de largo plazo, inversión productiva, creación de empleo y sostenibilidad.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "pagina": 117,
+    "concreta": false,
+    "resumen": "Normas para que la remuneración del ahorro siga obligatoriamente la evolución de los tipos de interés.",
+    "cita": "Estableceremos mecanismos normativos para que la remuneración del ahorro refleje obligatoriamente la evolución de los tipos de interés y el negocio crediticio.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "pagina": 117,
+    "concreta": false,
+    "resumen": "Más rendición de cuentas del Banco de España ante el Congreso, publicar sus decisiones supervisoras y evaluaciones externas.",
+    "cita": "Reforzaremos la rendición de cuentas periódica ante el Congreso de los Diputados, publicaremos las decisiones supervisoras tras decaer su confidencialidad, estableceremos evaluaciones externas independientes y circunscribiremos su servicio de estudios estrictamente a funciones monetarias.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "pagina": 119,
+    "concreta": false,
+    "resumen": "Facilitar la salida de usuarios de las plataformas y restringir que compren competidores o se autofavorezcan.",
+    "cita": "Abriremos plataformas para facilitar la salida de usuarios e impondremos restricciones a la adquisición de competidores y a la autofavoritización por posición dominante, promoviendo la separación estructural de actividades a nivel europeo cuando sea necesario.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "pagina": 120,
+    "concreta": false,
+    "resumen": "Exigir a los desarrolladores de IA generativa medidas de seguridad y campañas para jóvenes contra su uso humillante.",
+    "cita": "Exigencia a desarrolladores de IA generativa de acreditar medidas de seguridad eficaces ante los reguladores, y desarrollo de campañas educativas dirigidas a la juventud contra el uso humillante de estas tecnologías, con foco en la violencia de género.",
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Que los chatbots recuerden que no son humanos y remitan a ayuda médica o psicológica ante usos prolongados de riesgo.",
+    "cita": "Los sistemas deberán recordar explícitamente su naturaleza no humana y recomendar canales de asistencia médica o psicológica cuando detecten usos prolongados que puedan afectar a la salud mental de personas vulnerables, especialmente menores y mayores.",
+    "pagina": 121,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Defender en la UE el formato físico, el préstamo y la reventa de videojuegos digitales y que sigan funcionando sin soporte.",
+    "cita": "Defensa en el marco de la UE de la preservación del formato físico, el derecho al préstamo y reventa de videojuegos digitales, y el mantenimiento funcional de los títulos tras el cese de soporte de la desarrolladora.",
+    "pagina": 121,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Inmigración",
+    "resumen": "Sistema público y gratuito de citas de extranjería, con más medios y sin intermediación ni compraventa de citas.",
+    "cita": "Para ello, reforzaremos los recursos humanos, técnicos y materiales de estas oficinas y estableceremos un sistema público, gratuito, transparente y accesible de asignación de citas, eliminando las prácticas abusivas de intermediación y compraventa de citas.",
+    "pagina": 126,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Inmigración",
+    "resumen": "En el asilo en frontera, detención solo como último recurso excepcional, priorizando alternativas y sin prolongar plazos.",
+    "cita": "En los procedimientos de asilo en frontera, la detención se aplicará únicamente como último recurso excepcional, priorizando medidas alternativas y garantizando la no prolongación de plazos.",
+    "pagina": 127,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Inmigración",
+    "resumen": "Menores migrantes: primacía de su interés, edad según estándares internacionales y representación legal desde el primer momento.",
+    "cita": "En el caso de la infancia, primacía absoluta del interés superior del menor, determinación de la edad según estándares internacionales, evaluación continua de la vulnerabilidad y asignación de representación legal a la infancia no acompañada desde el primer momento.",
+    "pagina": 127,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Inmigración",
+    "resumen": "Si se superan los plazos de registro o formalización del asilo, expedir automáticamente el documento de solicitante.",
+    "cita": "Si se excede cualquiera de estos plazos, se expedirá automáticamente el documento acreditativo de solicitante de protección internacional.",
+    "pagina": 128,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "resumen": "Suspender las sendas de estabilidad si paro o pobreza superan la media de los cinco países UE con tasas más bajas.",
+    "cita": "Las sendas de estabilidad presupuestaria no podrán aplicarse cuando supongan riesgo para el principio de «estabilidad social» y también cuando la tasa de desempleo o la tasa de pobreza y exclusión social sean superiores a las existentes en promedio en los cinco países con menor tasa de la Unión Europea.",
+    "pagina": 141,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Seguridad y justicia",
+    "resumen": "Inscribir en el Registro Mercantil los cambios de propiedad de las SL y anónimas no cotizadas, con sus socios y quién las controla.",
+    "cita": "En dicha norma se establecerá la inscripción obligatoria y actualizada en el Registro Mercantil de los cambios de propiedad de las sociedades limitadas y las anónimas no cotizadas, identificando a sus socios, la cadena de propiedad y las personas que ejercen el control efectivo para levantar el velo tras el cual se ocultan los corruptores.",
+    "pagina": 141,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Seguridad y justicia",
+    "resumen": "Que las sanciones sean «de índole restaurativa» o resultado de la conciliación entre autor y ofendido.",
+    "cita": "Las posibles sanciones que se den deberán ser «de índole restaurativa» o el resultado de la conciliación «entre la persona autora y la persona o institución ofendida».",
+    "pagina": 142,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Seguridad y justicia",
+    "resumen": "Primar la resocialización y permitir sustituir las sanciones a menores por trabajo social o comunitario.",
+    "cita": "En todo caso, en el expediente debe primar la «resocialización por encima de la sanción», además de que se eliminará la «limitación actual para poder sustituir las sanciones a menores por trabajo social o comunitario».",
+    "pagina": 142,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Seguridad y justicia",
+    "resumen": "Impulsar la investigación histórica de la Transición, incluida la violencia política e institucional.",
+    "cita": "Impulsaremos también la investigación histórica de la Transición, incluyendo la violencia política e institucional y el papel de los movimientos sociales en la conquista y consolidación de las libertades democráticas.",
+    "pagina": 146,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Seguridad y justicia",
+    "resumen": "Convocar cada año plazas de letrados de la Administración de Justicia y de gestión y estabilizar al personal interino.",
+    "cita": "Convocaremos cada año las plazas de letrados de la Administración de Justicia y de los cuerpos de gestión, estabilizaremos al personal interino e incentivaremos los destinos de difícil cobertura para que ningún juzgado funcione a medio gas.",
+    "pagina": 149,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Impuestos",
+    "resumen": "Autofinanciación de las confesiones religiosas y supresión de sus exenciones y beneficios fiscales, en especial la del IBI.",
+    "cita": "Autofinanciación y supresión de las exenciones y beneficios fiscales de las confesiones religiosas, con especial atención a la exención del IBI.",
     "pagina": 150,
     "concreta": false,
     "revisada": false
