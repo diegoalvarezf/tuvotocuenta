@@ -26,7 +26,12 @@
     "circunscripciones": 52,
     "web": "https://www.psoe.es",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "La fuerza de seguir avanzando. Programa Elecciones Generales 29 noviembre 2026",
+      "url": "https://lafuerzadelagente.es/programa/PROGRAMA_PSOE_29N26.pdf",
+      "fecha": "2026-11-15",
+      "paginas": 114
+    }
   },
   {
     "siglas": "VOX",
