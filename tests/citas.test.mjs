@@ -115,6 +115,11 @@ test('quita el número de página y el título del capítulo en mayúsculas al p
   assert.ok(pdf({ cita: 'Garantizaremos el carácter inembargable del parque público.', pagina: 1 }));
 });
 
+test('acepta una lista con viñetas «»»', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'Nuevas competencias plenas:\n» migración\n» puertos y aeropuertos' }]);
+  assert.ok(pdf({ cita: 'Nuevas competencias plenas: migración puertos y aeropuertos', pagina: 1 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });

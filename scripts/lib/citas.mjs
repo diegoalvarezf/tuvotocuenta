@@ -8,6 +8,8 @@ export const normalizar = (s) =>
     // Viñetas «●» y espacios de ancho cero (FE de las JONS): no forman parte del texto citado
     .replace(/[\u200B\u200C\u200D\uFEFF]/g, '')
     .replace(/●/g, ' ')
+    // Viñetas «»» al principio de línea (EH Bildu), que si no se tomarían por comillas de cierre
+    .replace(/^[ \t]*»[ \t]+/gm, ' ')
     // Entre cifras el guion es de rango («2028-» / «2034»), no de corte
     .replace(/(\d)-\s*\n\s*(\d)/g, '$1-$2')
     .replace(/-\s*\n\s*/g, '')
