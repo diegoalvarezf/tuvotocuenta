@@ -230,7 +230,12 @@
     "circunscripciones": 4,
     "web": "https://ehbildu.eus",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa. Garantía y derechos",
+      "url": "https://posibleegin.ehbildu.eus/wp-content/uploads/2026/11/PROGRAMA-CAS.pdf",
+      "fecha": "2026-11-16",
+      "paginas": 30
+    }
   },
   {
     "siglas": "ERC",
@@ -257,7 +262,12 @@
     "circunscripciones": 3,
     "web": "https://compromis.net",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral Compromís: Front Valencià",
+      "url": "https://compromis.net/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-FRONTVALENCIA.pdf",
+      "fecha": "2026-11-18",
+      "paginas": 57
+    }
   },
   {
     "siglas": "PARTIDO AUTÓNOMOS",
