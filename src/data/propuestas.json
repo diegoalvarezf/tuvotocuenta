@@ -69137,7 +69137,7 @@
     "resumen": "Avanzar con las comunidades autónomas hacia una Farmacia Pública de materiales y medicamentos básicos.",
     "cita": "Avanzar junto con las comunidades autónomas hacia la creación de una Farmacia Pública con el objetivo de fomentar la autogestión de las comunidades autónomas de los materiales básicos de mayor uso en el Sistema Sanitario Público, de los medicamentos considerados básicos por la Organización Mundial de la Salud y de los fármacos que se ven abocados a la rotura de stock.",
     "pagina": 11,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -69440,7 +69440,7 @@
   {
     "partido": "EH Bildu",
     "tema": "Impuestos",
-    "resumen": "Recuperar el impuesto a las energéticas, que tumbaron PNV, UPN, PP, VOX y JUNTS, y hacerlo permanente.",
+    "resumen": "Recuperar el impuesto a las energéticas y hacerlo permanente.",
     "cita": "Recuperar el impuesto a la energéticas que PNV, UPN, PP, VOX y JUNTS tumbaron, haciéndolo permanente.",
     "pagina": 14,
     "concreta": true,
@@ -69665,10 +69665,10 @@
   {
     "partido": "EH Bildu",
     "tema": "Economía y empresas",
-    "resumen": "Impulsar la Seguridad Social Alimentaria.",
+    "resumen": "Impulsar herramientas como la Seguridad Social Alimentaria y reforzar el carácter social de la agricultura y la pesca.",
     "cita": "Impulsar herramientas como la Seguridad Social Alimentaria y reforzar el carácter social de la agricultura y la pesca como actividades esenciales para garantizar este derecho.",
     "pagina": 17,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -70226,16 +70226,16 @@
     "resumen": "Transferir todas las competencias pendientes del Estatuto Vasco y el Amejoramiento navarro.",
     "cita": "Exigiremos la transferencia de todas las competencias contempladas en el Estatuto Vasco y el Amejoramiento Navarro aún pendientes tras más de 40 años.",
     "pagina": 24,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "EH Bildu",
     "tema": "Modelo territorial",
-    "resumen": "Asumir nuevas competencias plenas para decidir y desarrollar políticas propias.",
-    "cita": "Propondremos la asunción de nuevas competencias plenas e instrumentos para ampliar nuestras capacidades de autogobierno que nos permitan decidir, diseñar y desarrollar políticas propias adaptadas a las realidades y necesidades de nuestro país y nuestra sociedad:",
+    "resumen": "Asumir nuevas competencias plenas en migración, Seguridad Social, protección social y desempleo, puertos y aeropuertos, energía y relaciones laborales.",
+    "cita": "Propondremos la asunción de nuevas competencias plenas e instrumentos para ampliar nuestras capacidades de autogobierno que nos permitan decidir, diseñar y desarrollar políticas propias adaptadas a las realidades y necesidades de nuestro país y nuestra sociedad: Migración Seguridad Social Protección social y desempleo Puertos y aeropuertos Energía Marco Vasco y Navarro de Relaciones Laborales",
     "pagina": 24,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -70267,15 +70267,6 @@
   },
   {
     "partido": "EH Bildu",
-    "tema": "Modelo territorial",
-    "resumen": "Reformar las leyes de la administración estatal para garantizar la atención en euskera, con la proposición de ley que decayó.",
-    "cita": "Para ello se deberán modificar las diferentes leyes que establecen los criterios de funcionamiento, selección y acceso a la administración estatal, mediante la Proposición de Ley que, junto al resto de grupos soberanistas, presentamos y que, pese a ser tomada en consideración, decayó en la tramitación debido al final anticipado de la legislatura.",
-    "pagina": 25,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "EH Bildu",
     "tema": "Otros",
     "resumen": "Más producción y consumo de contenidos en euskera en las plataformas digitales.",
     "cita": "Promover medidas para ampliar y extender el euskera en el ámbito digital y audiovisual, para alcanzar nuevos objetivos tanto en la producción como en el consumo de contenidos audiovisuales en euskera por parte de plataformas de contenido digitales.",
@@ -70298,7 +70289,7 @@
     "resumen": "Seguir trabajando por la oficialidad del euskera, el catalán y el gallego en la Unión Europea.",
     "cita": "Seguir trabajando para lograr la oficialidad del euskera, el catalá y el galego en la Unión Europea y sus instituciones, para que nuestra lengua conviva en igualdad de condiciones con el resto de las lenguas de europa.",
     "pagina": 25,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -70339,7 +70330,7 @@
   },
   {
     "partido": "EH Bildu",
-    "tema": "Modelo territorial",
+    "tema": "Otros",
     "resumen": "Cambiar la legislación para que las selecciones vascas compitan internacionalmente.",
     "cita": "Propondremos la modificación de la actual legislación que impide que nuestras selecciones, las selecciones vascas, puedan competir en cualquier ámbito y disciplina, en igual de condiciones que el resto de selecciones en el ámbito internacional, y con la participación de deportistas de los siete territorios que componen nuestro país, Euskal Herria.",
     "pagina": 26,
