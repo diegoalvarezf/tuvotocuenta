@@ -5,7 +5,17 @@
     "tema": "Economía e impuestos",
     "fecha": "2026-10-13",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21318",
-    "resultado": null
+    "resultado": "convalidado",
+    "votacion": "2026-11-18",
+    "totales": {
+      "si": 59,
+      "no": 5,
+      "abstencion": 1
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52653"
+    }
   },
   {
     "nombre": "Real Decreto-ley 31/2026",
@@ -13,7 +23,17 @@
     "tema": "Pensiones",
     "fecha": "2026-10-20",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21872",
-    "resultado": null
+    "resultado": "convalidado",
+    "votacion": "2026-11-18",
+    "totales": {
+      "si": 63,
+      "no": 6,
+      "abstencion": 0
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52655"
+    }
   },
   {
     "nombre": "Real Decreto-ley 32/2026",
@@ -21,7 +41,17 @@
     "tema": "Otros",
     "fecha": "2026-11-03",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23104",
-    "resultado": null
+    "resultado": "convalidado",
+    "votacion": "2026-11-18",
+    "totales": {
+      "si": 69,
+      "no": 0,
+      "abstencion": 0
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52657"
+    }
   },
   {
     "nombre": "Real Decreto-ley 33/2026",
@@ -29,7 +59,17 @@
     "tema": "Otros",
     "fecha": "2026-11-10",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23602",
-    "resultado": null
+    "resultado": "convalidado",
+    "votacion": "2026-11-18",
+    "totales": {
+      "si": 63,
+      "no": 6,
+      "abstencion": 0
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52654"
+    }
   },
   {
     "nombre": "Real Decreto-ley 34/2026",
@@ -37,7 +77,17 @@
     "tema": "Otros",
     "fecha": "2026-11-10",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23603",
-    "resultado": null
+    "resultado": "convalidado",
+    "votacion": "2026-11-18",
+    "totales": {
+      "si": 63,
+      "no": 6,
+      "abstencion": 0
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52656"
+    }
   },
   {
     "nombre": "Real Decreto-ley 35/2026",
@@ -45,7 +95,17 @@
     "tema": "Trabajo y familia",
     "fecha": "2026-11-10",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23604",
-    "resultado": null
+    "resultado": "convalidado",
+    "votacion": "2026-11-18",
+    "totales": {
+      "si": 62,
+      "no": 6,
+      "abstencion": 1
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52658"
+    }
   },
   {
     "nombre": "Real Decreto-ley 36/2026",
@@ -53,6 +113,40 @@
     "tema": "Otros",
     "fecha": "2026-11-10",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23605",
+    "resultado": "convalidado",
+    "votacion": "2026-11-18",
+    "totales": {
+      "si": 63,
+      "no": 6,
+      "abstencion": 0
+    },
+    "fuenteResultado": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52659"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 37/2026",
+    "titulo": "Medidas urgentes en materia de retribuciones del personal al servicio del sector público.",
+    "tema": "Empleo y salarios",
+    "fecha": "2026-11-17",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24119",
+    "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 38/2026",
+    "titulo": "Recursos de los sistemas de financiación territorial y medidas fiscales urgentes para evitar la tributación del salario mínimo interprofesional de 2027 en el IRPF.",
+    "tema": "Impuestos",
+    "fecha": "2026-11-17",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24120",
+    "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 39/2026",
+    "titulo": "Modificación del Estatuto de los Trabajadores, de la igualdad retributiva entre mujeres y hombres, de la Ley de Empleo y de la transposición de la directiva europea de condiciones laborales transparentes.",
+    "tema": "Empleo y salarios",
+    "fecha": "2026-11-17",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24121",
     "resultado": null
   }
 ]

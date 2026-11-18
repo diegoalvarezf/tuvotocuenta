@@ -22,10 +22,16 @@ const porSentido = (grupos: (typeof votaciones)[number]['grupos']) =>
 const temas = [...new Set(votaciones.map((v) => v.tema))].sort((a, b) => a.localeCompare(b, 'es'));
 const aprobadas = votaciones.filter((v) => v.gana === 'si').length;
 // Decretos votados por la Diputación Permanente con las Cortes disueltas (resultado del BOE; votos, si los hay, de la nota del Congreso)
-const votadosDP = decretos.filter((d) => d.organo === 'Diputación Permanente').sort((a, b) => b.votacion.localeCompare(a.votacion));
-const sinVotar = pendientes;
+// Votados por la Diputación Permanente: con el acuerdo ya en el BOE (decretos.json) o, mientras no se publica, con la nota
+// de prensa del Congreso (decretos-pendientes.json con resultado)
+type VotadoDP = { nombre: string; titulo: string; votacion: string; resultado: string; totales: { si: number; no: number; abstencion?: number } | null; boe?: string; fuenteVotos?: { nombre: string; url: string }; fuenteResultado?: { nombre: string; url: string } };
+const votadosDP: VotadoDP[] = [
+  ...pendientes.filter((d) => d.resultado).map((d) => ({ ...d, titulo: d.titulo.replace(/\.$/, ''), boe: undefined, textoBoe: d.boe }) as unknown as VotadoDP),
+  ...(decretos.filter((d) => d.organo === 'Diputación Permanente') as unknown as VotadoDP[]),
+].sort((a, b) => b.votacion.localeCompare(a.votacion) || b.nombre.localeCompare(a.nombre, 'es', { numeric: true }));
+const sinVotar = pendientes.filter((d) => !d.resultado);
 const derogados = decretos.filter((d) => d.resultado === 'derogado');
-const totalDecretos = decretos.length;
+const totalDecretos = decretos.length + pendientes.filter((d) => d.resultado).length;
 const mayuscula = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
 ---
 
@@ -71,10 +77,14 @@ const mayuscula = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
               <p class="titulo-pendiente">{mayuscula(d.titulo)}.</p>
               <p class="resultado-dp">
                 <strong class:list={['estado', d.resultado]}>{d.resultado === 'convalidado' ? 'Convalidado' : 'Derogado'}</strong>
-                {d.totales && <span class="cifra suave">{d.totales.si} a favor · {d.totales.no} en contra</span>}
+                {d.totales && <span class="cifra suave">{d.totales.si} a favor · {d.totales.no} en contra{d.totales.abstencion ? ` · ${d.totales.abstencion} ${d.totales.abstencion === 1 ? 'abstención' : 'abstenciones'}` : ''}</span>}
               </p>
               <span class="fuente-nota">
-                Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de {d.resultado === 'convalidado' ? 'convalidación' : 'derogación'} del {d.nombre} (BOE)</a>
+                {d.boe ? (
+                  <>Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de {d.resultado === 'convalidado' ? 'convalidación' : 'derogación'} del {d.nombre} (BOE)</a></>
+                ) : (
+                  <>Fuente: <a href={d.fuenteResultado!.url} target="_blank" rel="noopener">{d.fuenteResultado!.nombre}</a></>
+                )}
                 {d.fuenteVotos && <> · votos: <a href={d.fuenteVotos.url} target="_blank" rel="noopener">{d.fuenteVotos.nombre}</a></>}
               </span>
             </li>
