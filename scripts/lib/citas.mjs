@@ -45,7 +45,8 @@ export function crearVerificador(paginas) {
   // Se respetan las que no tienen una palabra (viñetas «•»), pero no las cortas («DEFIENDE» / «CANARIAS»)
   const veces = new Map();
   // Se comparan sin cifras: así una cabecera con el número de página («22 Eleccions al Congrés 2026 | …», ERC) cuenta como repetida
-  const clave = (l) => l.trim().replace(/\d+/g, '#');
+  // y con el número delante, detrás o sin él («22 Eleccions… | …», «… electoral 23», «Eleccions… | …»)
+  const clave = (l) => l.trim().replace(/\d+/g, '#').replace(/^#\s+|\s+#$/g, '');
   for (const p of paginas) for (const l of new Set(p.texto.split('\n').map(clave).filter(Boolean))) veces.set(l, (veces.get(l) ?? 0) + 1);
   // En documentos cortos (las partes de 3 a 5 páginas del programa de D21) basta con que se repita en casi todas
   // Un cuarto, no un tercio: hay cabeceras que alternan entre páginas pares e impares (Frente Amplio, 48 de 148)
