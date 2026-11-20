@@ -76055,8 +76055,8 @@
   {
     "partido": "JUNTS",
     "tema": "Seguridad y justicia",
-    "resumen": "Exigir el conocimiento del catalán a jueces, fiscales y letrados judiciales que ejerzan en Cataluña.",
-    "cita": "Establir el coneixement de la llengua catalana com a requisit obligatori per a jutges, fiscals i lletrats judicials que exerceixin a Catalunya.",
+    "resumen": "Exigir el catalán a jueces, fiscales y letrados que ejerzan en Cataluña, y competencia lingüística suficiente a todo el personal de Justicia.",
+    "cita": "Establir el coneixement de la llengua catalana com a requisit obligatori per a jutges, fiscals i lletrats judicials que exerceixin a Catalunya. Tot el personal de l’Administració de Justícia ha d’acreditar una competència lingüística suficient en les llengües oficials del territori on exerceix.",
     "pagina": 15,
     "concreta": true,
     "revisada": false
@@ -76405,7 +76405,7 @@
   },
   {
     "partido": "JUNTS",
-    "tema": "Vivienda",
+    "tema": "Impuestos",
     "resumen": "Crear incentivos fiscales para los propietarios que ofrezcan viviendas a precios asequibles.",
     "cita": "Crear incentius fiscals per als propietaris que ofereixin habitatges a preus assequibles.",
     "pagina": 18,
@@ -76668,7 +76668,7 @@
     "partido": "JUNTS",
     "tema": "Seguridad y justicia",
     "resumen": "Desarrollar el Sistema de Seguridad de Cataluña en dos subsistemas, policía y emergencias, ordenados y coordinados por la Generalitat.",
-    "cita": "Desenvolupar el Sistema de Seguretat de Catalunya. El Sistema de Seguretat de Catalunya s’ha d’estructurar en dos subsistemes: el de Policia, amb els Mossos d’Esquadra i les policies locals, i el d’Emergències, amb els bombers, la protecció civil i la resta de serveis que intervenen en les emergències.",
+    "cita": "Desenvolupar el Sistema de Seguretat de Catalunya. El Sistema de Seguretat de Catalunya s’ha d’estructurar en dos subsistemes: el de Policia, amb els Mossos d’Esquadra i les policies locals, i el d’Emergències, amb els bombers, la protecció civil i la resta de serveis que intervenen en les emergències. La Generalitat els ha de poder ordenar i coordinar tots dos, amb la participació dels ajuntaments i respectant-ne l’autonomia.",
     "pagina": 22,
     "concreta": false,
     "revisada": false
@@ -76838,17 +76838,8 @@
   {
     "partido": "JUNTS",
     "tema": "Defensa y política exterior",
-    "resumen": "Que las inversiones estatales en defensa tengan en Cataluña un retorno industrial al menos proporcional a su peso en el PIB.",
-    "cita": "Les inversions estatals en defensa i tecnologia estratègica han de tenir a Catalunya un retorn industrial com a mínim proporcional al seu pes en el PIB de l’Estat.",
-    "pagina": 24,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "JUNTS",
-    "tema": "Defensa y política exterior",
-    "resumen": "Transparencia sobre el reparto territorial de contratos y programas de I+D de defensa y una comisión de seguimiento.",
-    "cita": "Per comprovar-ho, demanem transparència sobre el repartiment territorial dels contractes i dels programes d’R+D i una comissió que en faci el seguiment.",
+    "resumen": "Que la inversión estatal en defensa tenga en Cataluña un retorno industrial al menos proporcional a su PIB, con transparencia y comisión de seguimiento.",
+    "cita": "Les inversions estatals en defensa i tecnologia estratègica han de tenir a Catalunya un retorn industrial com a mínim proporcional al seu pes en el PIB de l’Estat. Per comprovar-ho, demanem transparència sobre el repartiment territorial dels contractes i dels programes d’R+D i una comissió que en faci el seguiment.",
     "pagina": 24,
     "concreta": false,
     "revisada": false
@@ -77261,8 +77252,8 @@
   {
     "partido": "JUNTS",
     "tema": "Defensa y política exterior",
-    "resumen": "Que, mediante convenios, los residentes en el extranjero puedan ser atendidos e informados en catalán en los servicios consulares.",
-    "cita": "Amb convenis, els residents a l’estranger han de poder ser atesos i informats en català.",
+    "resumen": "Servicios consulares accesibles con protocolos de emergencia coordinados con la Generalitat y, mediante convenios, atención e información en catalán.",
+    "cita": "Serveis consulars accessibles, documentació àgil i protocols d’emergència coordinats amb la Generalitat. Amb convenis, els residents a l’estranger han de poder ser atesos i informats en català.",
     "pagina": 28,
     "concreta": false,
     "revisada": false
@@ -77387,15 +77378,6 @@
   {
     "partido": "JUNTS",
     "tema": "Otros",
-    "resumen": "Regular los grupos de interés con criterios de transparencia y proporcionalidad.",
-    "cita": "Regular els grups d’interès amb criteris de transparència i proporcionalitat.",
-    "pagina": 30,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "JUNTS",
-    "tema": "Otros",
     "resumen": "Obligaciones reforzadas de registro y transparencia para lobistas profesionales y grandes consultoras, y menos cargas para actores no profesionales.",
     "cita": "Sotmetre els lobbistes professionals i les grans consultores a obligacions reforçades de registre, informació financera, declaració de clients i transparència; i simplificar o eximir aquestes càrregues quan es tracti d’actors no professionals.",
     "pagina": 30,
@@ -77453,7 +77435,7 @@
     "resumen": "Hacer efectivo de inmediato el traspaso a la Generalitat de la gestión integral de secretarios, interventores y tesoreros locales.",
     "cita": "Secretaris i interventors municipals: executar totes les actuacions necessàries per fer immediatament efectiu el traspàs a la Generalitat de la gestió integral (oferta pública, selecció, formació, habilitació i nomenament) de secretaris, interventors i tresorers d’administració local (competència recuperada la passada legislatura mitjançant un règim específic per a Catalunya a la Llei de Bases de Règim Local).",
     "pagina": 30,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -77882,19 +77864,10 @@
   {
     "partido": "JUNTS",
     "tema": "Seguridad y justicia",
-    "resumen": "Recuperar y aprobar la ley orgánica que tipifica como delito las terapias de conversión, aprobada por el Congreso el 25 de junio de 2026.",
-    "cita": "Recuperar i aprovar la llei orgànica que tipifica com a delicte les teràpies de conversió, aprovada pel Congrés el 25 de juny de 2026 i caducada al Senat amb la dissolució de les Corts.",
+    "resumen": "Recuperar y aprobar la ley orgánica que tipifica como delito las terapias de conversión, con penas más altas y ayudas a las víctimas.",
+    "cita": "Recuperar i aprovar la llei orgànica que tipifica com a delicte les teràpies de conversió, aprovada pel Congrés el 25 de juny de 2026 i caducada al Senat amb la dissolució de les Corts. Hi incorporarem les millores de la proposició de llei de No és Teràpia que vam cosignar: penes més altes i ajuts a les víctimes.",
     "pagina": 36,
     "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "JUNTS",
-    "tema": "Seguridad y justicia",
-    "resumen": "Incorporar a esa ley las mejoras de la proposición de No és Teràpia: penas más altas y ayudas a las víctimas.",
-    "cita": "Hi incorporarem les millores de la proposició de llei de No és Teràpia que vam cosignar: penes més altes i ajuts a les víctimes.",
-    "pagina": 36,
-    "concreta": false,
     "revisada": false
   },
   {
@@ -78799,7 +78772,7 @@
   },
   {
     "partido": "JUNTS",
-    "tema": "Seguridad y justicia",
+    "tema": "Inmigración",
     "resumen": "Prohibir en el espacio público las prendas que tapan el rostro, como niqab y burka, según su ley del velo integral.",
     "cita": "Prohibir a l’espai públic les peces que cobreixen totalment o substancialment el rostre i impedeixen identificar la persona, com el niqab i el burca, tal com proposa la llei del vel integral que Junts va presentar el febrer de 2026.",
     "pagina": 48,
@@ -78811,15 +78784,6 @@
     "tema": "Igualdad y familia",
     "resumen": "Reforzar la lucha contra los matrimonios forzados y la mutilación genital femenina.",
     "cita": "Reforçar la lluita contra els matrimonis forçats i la mutilació genital femenina, i garantir la igualtat entre dones i homes com a norma comuna per a tothom.",
-    "pagina": 48,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "JUNTS",
-    "tema": "Inmigración",
-    "resumen": "Aplicar el principio de responsabilidad compartida: quien llega debe conocer las normas y quien vive aquí, cumplirlas.",
-    "cita": "Aplicar el principi de responsabilitat compartida: qui arriba ha de conèixer les normes, i qui ja viu aquí, sigui d’on sigui, les ha de complir.",
     "pagina": 48,
     "concreta": false,
     "revisada": false
@@ -79025,7 +78989,7 @@
   {
     "partido": "JUNTS",
     "tema": "Modelo territorial",
-    "resumen": "Capacidad de definir un currículo propio del sistema educativo no universitario.",
+    "resumen": "Reclamar para Cataluña la capacidad de definir un currículo propio de la enseñanza no universitaria.",
     "cita": "Capacitat de definir un currículum propi del sistema educatiu no universitari.",
     "pagina": 53,
     "concreta": true,
@@ -79097,8 +79061,8 @@
   {
     "partido": "JUNTS",
     "tema": "Educación",
-    "resumen": "Exigir al Gobierno la eliminación de la tasa de reposición en las universidades.",
-    "cita": "Això requereix, en primer lloc, exigir al Govern de l’Estat l’eliminació de la taxa de reposició que impedeix el necessari relleu generacional a les universitats catalanes, i en redueix l’autonomia.",
+    "resumen": "Autonomía total de las universidades en política de personal, empezando por exigir al Gobierno que elimine la tasa de reposición.",
+    "cita": "Molt especialment, cal permetre a les institucions acadèmiques una total autonomia en les polítiques de personal, que els permeti fomentar polítiques d’atracció i retenció de talent, estabilització, reducció de la precarització, etc. Això requereix, en primer lloc, exigir al Govern de l’Estat l’eliminació de la taxa de reposició que impedeix el necessari relleu generacional a les universitats catalanes, i en redueix l’autonomia.",
     "pagina": 54,
     "concreta": true,
     "revisada": false
@@ -79416,15 +79380,6 @@
     "cita": "Establir per llei un mecanisme automàtic de revisió de la fiscalitat en funció de la inflació, de l’IPC català i el superior cost de la vida a Catalunya, per impedir que l’augment nominal dels ingressos provoqui una pèrdua de poder adquisitiu real.",
     "pagina": 57,
     "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "JUNTS",
-    "tema": "Pensiones",
-    "resumen": "Garantizar una política de pensiones que tenga en cuenta las carreras laborales largas.",
-    "cita": "Garantir una política de pensions que tingui especialment en compte les persones amb carreres laborals llargues i cotitzacions suficients.",
-    "pagina": 58,
-    "concreta": false,
     "revisada": false
   },
   {
@@ -79798,7 +79753,7 @@
   },
   {
     "partido": "JUNTS",
-    "tema": "Otros",
+    "tema": "Seguridad y justicia",
     "resumen": "Reconocer la continuidad de las federaciones catalanas creadas antes de 1936 y anular las órdenes franquistas de disolución.",
     "cita": "Impulsar els canvis legislatius necessaris per reconèixer la continuïtat històrica de les federacions esportives catalanes creades abans del 1936 i anul·lar les ordres de dissolució franquistes.",
     "pagina": 64,
@@ -79872,7 +79827,7 @@
     "partido": "JUNTS",
     "tema": "Impuestos",
     "resumen": "Incluir por una vía simplificada a los clubes deportivos federados sin ánimo de lucro en la Ley de mecenazgo 49/2002.",
-    "cita": "Incloure una via simplificada perquè els clubs esportius sense ànim de lucre afiliats a una federació esportiva i inscrits al registre d’entitats esportives corresponent siguin entitats beneficiàries, amb requisits de transparència adaptats a la seva mida.",
+    "cita": "Mecenatge, accés dels clubs federats a la Llei 49/2002. Incloure una via simplificada perquè els clubs esportius sense ànim de lucre afiliats a una federació esportiva i inscrits al registre d’entitats esportives corresponent siguin entitats beneficiàries, amb requisits de transparència adaptats a la seva mida.",
     "pagina": 64,
     "concreta": true,
     "revisada": false
@@ -79970,7 +79925,7 @@
   {
     "partido": "JUNTS",
     "tema": "Modelo territorial",
-    "resumen": "Modificar la LOFCA y aprobar una ley del Concierto Económico Catalán; la Agència Tributària de Catalunya gestionaría todos los tributos.",
+    "resumen": "Modificar la LOFCA con una disposición específica para Cataluña y aprobar una ley del Concierto Económico Catalán fuera del régimen común.",
     "cita": "Concert econòmic català: modificar la LOFCA amb una disposició addicional específica per a Catalunya i aprovar una llei del Concert Econòmic Català que ens situï fora del règim comú.",
     "pagina": 68,
     "concreta": true,
@@ -80045,7 +80000,7 @@
     "resumen": "Deflactar el IRPF, bajar los primeros tramos y subir los mínimos personales y familiares actualizándolos cada año con la inflación.",
     "cita": "Deflactar l’IRPF, rebaixar els primers trams, augmentar els mínims personals i familiars i actualitzar-los anualment segons la inflació.",
     "pagina": 68,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -80423,7 +80378,7 @@
     "resumen": "Exigir el traspaso íntegro de las competencias de transporte ferroviario, viario, aeroportuario y portuario y el pago de la deuda por inversiones no ejecutadas.",
     "cita": "Mentrestant, a les Corts Generals exigirem el traspàs íntegre de les competències de transport ferroviari, viari, aeroportuari i portuari i el pagament del deute acumulat per dècades d’inversions no executades a Catalunya.",
     "pagina": 71,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -80446,7 +80401,7 @@
   },
   {
     "partido": "JUNTS",
-    "tema": "Economía y empresas",
+    "tema": "Otros",
     "resumen": "Exigir un plan de choque contra retrasos y averías en Rodalies con auditorías externas e inversiones inmediatas.",
     "cita": "Exigir un pla de xoc contra els retards i les avaries, amb auditories externes i inversions immediates per reduir les incidències que pateixen cada dia els usuaris.",
     "pagina": 72,
@@ -80474,17 +80429,8 @@
   {
     "partido": "JUNTS",
     "tema": "Economía y empresas",
-    "resumen": "Exigir que se cumpla el calendario del Corredor Mediterráneo.",
-    "cita": "Exigir a l’Estat espanyol que compleixi el calendari d’execució del Corredor Mediterrani.",
-    "pagina": 72,
-    "concreta": false,
-    "revisada": false
-  },
-  {
-    "partido": "JUNTS",
-    "tema": "Economía y empresas",
-    "resumen": "Que el Corredor Mediterráneo sea una vía independiente, en ancho europeo, fuera de núcleos urbanos y no un tercer carril.",
-    "cita": "Ha de ser una via independent, amb ample europeu i fora dels nuclis urbans, i en cap cas un tercer fil sobre la línia convencional de passatgers.",
+    "resumen": "Exigir al Estado que cumpla el calendario del Corredor Mediterráneo, como vía independiente en ancho europeo, fuera de núcleos urbanos y sin tercer carril.",
+    "cita": "Exigir a l’Estat espanyol que compleixi el calendari d’execució del Corredor Mediterrani. Ha de ser una via independent, amb ample europeu i fora dels nuclis urbans, i en cap cas un tercer fil sobre la línia convencional de passatgers.",
     "pagina": 72,
     "concreta": false,
     "revisada": false
@@ -80672,7 +80618,7 @@
   {
     "partido": "JUNTS",
     "tema": "Impuestos",
-    "resumen": "Mientras tanto, rebajar con urgencia los impuestos sobre los carburantes agrícolas.",
+    "resumen": "Mientras no exista el gasóleo profesional agrario, rebajar con urgencia los impuestos sobre los carburantes agrícolas.",
     "cita": "Mentre no arribi, rebaixar de manera urgent els impostos sobre els carburants agrícoles per compensar l’augment dels costos de producció.",
     "pagina": 74,
     "concreta": false,
@@ -81221,7 +81167,7 @@
   {
     "partido": "JUNTS",
     "tema": "Energía y clima",
-    "resumen": "Fomentar la separación de residuos industriales, la recogida selectiva textil y el reciclaje químico de plásticos.",
+    "resumen": "Fomentar la separación en origen de residuos industriales y la recogida selectiva textil e impulsar la despolimerización y repolimerización.",
     "cita": "Fomentar la separació en origen dels residus industrials i la recollida selectiva del tèxtil, i impulsar les tecnologies de despolimerització i repolimerització.",
     "pagina": 81,
     "concreta": false,
@@ -81585,15 +81531,6 @@
     "cita": "Exigir i executar les inversions pendents en eixos estratègics (N-260, N-230, N-240, pas de Comiols, etc.) que connecten les comarques de muntanya i de l’interior.",
     "pagina": 86,
     "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "JUNTS",
-    "tema": "Otros",
-    "resumen": "Crear una estructura de gobernanza rural descentralizada que coordine las políticas rurales.",
-    "cita": "Crear l’estructura de governança rural descentralitzada que coordini totes les polítiques que afecten el món rural i impulsi el Pacte Nacional Rural-Urbà.",
-    "pagina": 86,
-    "concreta": false,
     "revisada": false
   },
   {
@@ -92880,6 +92817,96 @@
     "cita": "Revisar els requisits bàsics de creació i reconeixement d’universitats per garantir, com a mínim, que els projectes disposin d’un model acadèmic viable, recursos suficients, professorat adequat i infraestructures d’acord amb l’oferta formativa prevista.",
     "pagina": 46,
     "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Hacer efectivo el derecho a usar el catalán ante los órganos judiciales de todo el Estado y exigir al Gobierno los medios técnicos previstos.",
+    "cita": "Fer efectiu el dret a utilitzar el català davant els òrgans amb jurisdicció a tot l’Estat, que hem aconseguit a la Llei orgànica 5/2024, del dret de defensa, i exigir al Govern espanyol els mitjans tècnics que preveu la llei.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reservar una cuota de plazas para catalanohablantes en las ofertas de empleo de la Administración de Justicia, como en el País Vasco y Navarra.",
+    "cita": "Reservar una quota de places per a catalanoparlants a les ofertes de treball de l’Administració de Justícia, amb especial valoració del mèrit lingüístic, en termes similars als existents al País Basc i Navarra.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Impuestos",
+    "resumen": "Recuperar la deducción del 15% en el IRPF por el alquiler de la vivienda habitual.",
+    "cita": "Recuperar la deducció del 15% a l’IRPF pel lloguer de l’habitatge habitual.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Vivienda",
+    "resumen": "Ampliar la línea de avales contra el impago del alquiler para jóvenes y familias con dificultades, con fondos estatales y gestión de la Generalitat.",
+    "cita": "Ampliar la línia d’avals contra l’impagament del lloguer per a joves i famílies amb dificultats econòmiques, amb finançament estatal suficient i gestió íntegra de la Generalitat, perquè el propietari tingui garantit el cobrament i els joves i famílies vulnerables puguin llogar.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reformar la legislación estatal para que los Mossos actúen como policía integral, también en policía judicial, investigación criminal y cooperación internacional.",
+    "cita": "Reformar la legislació estatal perquè els Mossos exerceixin plenament com a policia integral, també en policia judicial, investigació criminal, ordre públic i cooperació internacional.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Defensa y política exterior",
+    "resumen": "Que universidades, centros tecnológicos y empresas catalanas puedan participar en los programas europeos y estatales de seguridad y defensa.",
+    "cita": "Universitats, centres tecnològics i empreses catalanes han de poder participar en els programes europeus i estatals de seguretat i defensa, en recerca, formació, indústria de defensa i tecnologies d’ús dual.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Modelo territorial",
+    "resumen": "Que la Generalitat y los sectores afectados, sobre todo agricultura e industria, intervengan antes de que el Estado fije posición en acuerdos comerciales europeos.",
+    "cita": "La Generalitat i els sectors afectats, especialment la pagesia i la indústria, han de poder intervenir abans que l’Estat fixi la seva posició.",
+    "pagina": 28,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Inmigración",
+    "resumen": "Recursos para la acogida y participación vinculante de Cataluña en las decisiones estatales sobre regularizaciones, flujos y repartos que la afecten.",
+    "cita": "Rebre els recursos necessaris per a l’acollida i la integració, i participar de manera vinculant en les decisions estatals sobre regularitzacions, fluxos i repartiments que afectin Catalunya.",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Impuestos",
+    "resumen": "Reducir del 21% al 10% el IVA de los servicios de peluquería.",
+    "cita": "Reduir del 21% al 10% l’IVA dels serveis de perruqueria.",
+    "pagina": 69,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "JUNTS",
+    "tema": "Impuestos",
+    "resumen": "Consolidar el aplazamiento de Verifactu y coordinarlo con la factura electrónica y el marco europeo para evitar duplicidades y costes.",
+    "cita": "Consolidar l’ajornament del Verifactu i coordinar-lo amb l’aplicació de la facturació electrònica i el marc europeu per evitar duplicitats i costos desproporcionats.",
+    "pagina": 69,
+    "concreta": true,
     "revisada": false
   }
 ]

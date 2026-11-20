@@ -98,10 +98,16 @@ export function crearVerificador(paginas) {
     if (trozos) return buscada.includes(' · ') && buscada.split(' · ').every((t) => entera(t) || enTrozos(t, aqui, 2));
     if (entera(buscada)) return true;
     // Frase cuya primera parte la maquetación deja en otro sitio de la página (Junts: «5.3. Blindar el parc…» y la
-    // continuación más abajo): vale si está en dos tramos literales seguidos, de 3 palabras o más cada uno
-    const palabras = buscada.split(' ');
-    for (let i = 3; i <= palabras.length - 3; i++) {
-      if (entera(palabras.slice(0, i).join(' ')) && entera(palabras.slice(i).join(' '))) return true;
+    // continuación más abajo): vale si está en dos tramos literales seguidos, de 3 palabras o más cada uno o uno corto
+    // si el otro tiene 5 o más
+    // También se prueba a cortar por el guion de una palabra compuesta que salta de línea («coordinar-» / «lo amb…»)
+    for (const lista of [buscada.split(' '), buscada.replace(/(\p{L})-(\p{L})/gu, '$1 $2').split(' ')]) {
+      for (let i = 1; i < lista.length; i++) {
+        const [a, b] = [lista.slice(0, i), lista.slice(i)];
+        // Ambos de 3 palabras o más, o uno corto (1-2, la palabra que salta de línea) si el otro tiene 5 o más
+        const valido = (a.length >= 3 && b.length >= 3) || Math.max(a.length, b.length) >= 5;
+        if (valido && entera(a.join(' ')) && entera(b.join(' '))) return true;
+      }
     }
     return false;
   };
