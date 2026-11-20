@@ -75,7 +75,8 @@ export function crearVerificador(paginas) {
   };
   // Fuera de las tablas, el guion largo se compara sin espacios alrededor: así valen el nombre compuesto partido
   // a final de línea («Almería–» / «Aguadulce») y el inciso («participan– excepto»)
-  const sinEspacioGuion = (t) => t.replace(/\s*–\s*/g, '–');
+  // y lo mismo con la barra de género partida a final de línea («ganaderos/» / «as»)
+  const sinEspacioGuion = (t) => t.replace(/\s*–\s*/g, '–').replace(/\/\s+/g, '/');
   return ({ cita, pagina, tabla, trozos }) => {
     const buscada = tabla ? normalizar(cita) : sinEspacioGuion(normalizar(cita));
     const aqui = sinEspacioGuion(textoPagina.get(pagina) ?? '');

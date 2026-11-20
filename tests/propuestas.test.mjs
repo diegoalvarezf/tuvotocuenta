@@ -7,7 +7,7 @@ import TEMAS from '../src/data/temas.json' with { type: 'json' };
 import { crearVerificador } from '../scripts/lib/citas.mjs';
 
 // Texto de cada documento, generado con scripts/programa-paginas.mjs
-const TEXTOS = { 'Frente Obrero': 'frente-obrero', CNV: 'cnv', IE: 'ie', 'B.N.G.': 'bng', 'Mundo+Justo': 'mundo-mas-justo', CCa: 'cc', PH: 'ph', 'EAJ-PNV': 'pnv', PP: 'pp', VOX: 'vox', PACMA: 'pacma', 'FE de las JONS': 'fe-jons', D21: 'd21', 'ADELANTE ANDALUCÍA': 'adelante-andalucia', PFAC: 'pfac', PSOE: 'psoe', 'Frente Amplio': 'frente-amplio', SALF: 'salf', 'EH Bildu': 'bildu', 'COMPROMIS-EUPV-PODEM-ERPV': 'compromis', JUNTS: 'junts' };
+const TEXTOS = { 'Frente Obrero': 'frente-obrero', CNV: 'cnv', IE: 'ie', 'B.N.G.': 'bng', 'Mundo+Justo': 'mundo-mas-justo', CCa: 'cc', PH: 'ph', 'EAJ-PNV': 'pnv', PP: 'pp', VOX: 'vox', PACMA: 'pacma', 'FE de las JONS': 'fe-jons', D21: 'd21', 'ADELANTE ANDALUCÍA': 'adelante-andalucia', PFAC: 'pfac', PSOE: 'psoe', 'Frente Amplio': 'frente-amplio', SALF: 'salf', 'EH Bildu': 'bildu', 'COMPROMIS-EUPV-PODEM-ERPV': 'compromis', JUNTS: 'junts', Podemos: 'podemos' };
 
 test('cada formación con propuestas tiene un documento y su texto en el repositorio', () => {
   for (const partido of new Set(propuestas.map((p) => p.partido))) {

@@ -126,6 +126,11 @@ test('acepta una frase partida por la maquetación en dos tramos de 3 o más pal
   assert.equal(pdf({ cita: 'Blindar el parc privat d’habitatge de titularitat estatal.', pagina: 1 }), false);
 });
 
+test('une la barra de género a final de línea', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: 'Ayudas a los ganaderos/\nas del territorio.' }]);
+  assert.ok(pdf({ cita: 'Ayudas a los ganaderos/as del territorio.', pagina: 1 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });
