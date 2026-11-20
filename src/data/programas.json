@@ -290,7 +290,20 @@
     "nombre": "PARTIDO AUTÓNOMOS",
     "circunscripciones": 3,
     "web": "https://www.partidoautonomos.es",
-    "documentos": [],
+    "documentos": [
+      {
+        "titulo": "Programa político 2026 · 100 propuestas",
+        "url": "https://www.partidoautonomos.es/wp-content/uploads/2026/11/PARTIDO-AUTONOMOS-PROGRAMA-ELECCIONES-GENERALES-2026-29N.pdf",
+        "fecha": "2026-11-13",
+        "paginas": 15
+      },
+      {
+        "titulo": "10 propuestas estrella",
+        "url": "https://www.partidoautonomos.es/wp-content/uploads/2026/11/10-Propuestas-Estrella-PARTIDO-AUTONOMOS-ELECCIONES-GENERALES-2026.pdf",
+        "fecha": "2026-11-14",
+        "paginas": 12
+      }
+    ],
     "programa": null
   },
   {
@@ -519,8 +532,13 @@
     "corto": "LIB",
     "nombre": "LIBERACIÓN CANARIA",
     "circunscripciones": 2,
-    "web": null,
-    "documentos": [],
+    "web": "https://liberacioncanaria.org",
+    "documentos": [
+      {
+        "titulo": "Nuestras propuestas (web)",
+        "url": "https://liberacioncanaria.org/nuestras-propuestas/"
+      }
+    ],
     "programa": null
   },
   {
@@ -571,8 +589,13 @@
     "corto": "AGENDA VALENCIANA",
     "nombre": "AGENDA VALENCIANA",
     "circunscripciones": 1,
-    "web": null,
-    "documentos": [],
+    "web": "https://agendavalenciana.org",
+    "documentos": [
+      {
+        "titulo": "Programa (web)",
+        "url": "https://agendavalenciana.org/#programa"
+      }
+    ],
     "programa": null
   },
   {
@@ -604,7 +627,14 @@
     "nombre": "GEROA BAI",
     "circunscripciones": 1,
     "web": "https://geroabai.eus",
-    "documentos": [],
+    "documentos": [
+      {
+        "titulo": "Bases políticas 29N",
+        "url": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+        "fecha": "2026-11-13",
+        "paginas": 14
+      }
+    ],
     "programa": null
   },
   {
@@ -737,6 +767,12 @@
         "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
         "fecha": "2026-11-12",
         "paginas": 15
+      },
+      {
+        "titulo": "Programa electoral en lectura fácil",
+        "url": "https://teruelexiste.info/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-TERUEL-EXISTE-LECTURA-FACIL-DEFINITIVO.pdf",
+        "fecha": "2026-11-16",
+        "paginas": 27
       }
     ],
     "programa": null

@@ -10,7 +10,7 @@ const desde = process.argv[2] ?? '2026-09-01';
 const UA = { 'User-Agent': 'Mozilla/5.0 (tuvotocuenta; datos abiertos)' };
 const SECCION = /program|propuest|elecci|generales|29n|eleccions|hauteskunde|compromis/i;
 const PDF_BUENO = /2026|29n|generales|generals|xerais|program/i;
-const PDF_FUERA = /andaluc|arag|extremad|cyl|castilla|europ|municip|auton|2019|2020|2021|2022|2023|2024|23j/i;
+const PDF_FUERA = /andaluc|arag|extremad|cyl|castilla|europ|municip|auton[oó]mic|2019|2020|2021|2022|2023|2024|23j/i;
 
 async function get(url) {
   try {
