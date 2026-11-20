@@ -68813,7 +68813,7 @@
     "resumen": "Mantener y blindar la revalorización anual de las pensiones con el IPC.",
     "cita": "Garantizar el poder adquisitivo de las y los pensionistas, manteniendo y blindando la revalorización anual al IPC.",
     "pagina": 7,
-    "concreta": false,
+    "concreta": true,
     "revisada": true
   },
   {
@@ -92943,6 +92943,3071 @@
     "cita": "Cal garantir que qualsevol ciutadà es pugui relacionar amb totes les institucions de l’Estat en qualsevol llengua oficial, amb plena validesa jurídica, independentment del lloc on sigui.",
     "pagina": 9,
     "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Eximir de la cuota de autónomos los meses con rendimientos netos por debajo del SMI y ampliar la tarifa plana a 24 meses.",
+    "cita": "Exención total e inmediata de la cuota de autónomos en cualquier mes en que los rendimientos netos del trabajador por cuenta propia no superen el Salario Mínimo Interprofesional (SMI), ampliando además la tarifa plana reducida inicial a 24 meses sin burocracia previa.",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Transponer la Directiva 2020/285 para eximir del IVA a quien facture menos de 85.000 € al año e implantar el IVA de caja.",
+    "cita": "Transposición inmediata de la Directiva Europea 2020/285 para que autónomos y microempresas que facturen menos de 85.000 € anuales queden exentos de repercutir y liquidar el IVA trimestral, implantando además el IVA de caja real para que nadie adelante impuestos de facturas no cobradas.",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Sustituir las licencias previas de apertura de locales por una declaración responsable telemática que permita abrir en 24 horas.",
+    "cita": "Sustitución de todas las licencias municipales y autonómicas previas de apertura, reforma inocua o cambio de titularidad de locales comerciales por una declaración responsable telemática única que habilita para abrir el negocio en 24 horas, reservando el control previo solo a actividades peligrosas o contaminantes.",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Equiparar cese de actividad y paro, bonificar toda la cuota desde el primer día de baja y calcular la pensión con los mejores años.",
+    "cita": "Equiparación objetiva de la prestación por cese de actividad con el desempleo asalariado, eliminando requisitos probatorios abusivos, junto con la bonificación del 100 % de la cuota desde el primer día de baja médica acreditada y el cálculo de pensiones sobre los años más favorables cotizados.",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Prohibir sanciones automáticas por errores formales de buena fe, dar 15 días hábiles para subsanar y agilizar la exoneración de deudas públicas.",
+    "cita": "Prohibición legal de imponer sanciones económicas automáticas por errores formales o discrepancias contables de buena fe sin ánimo de defraudación, estableciendo un plazo obligatorio de 15 días hábiles para subsanar sin recargo y agilizando la exoneración de deudas públicas en la Ley de Segunda Oportunidad.",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Recortar un 50 % los asesores y cargos de confianza, limitando por ley su número y sueldo y sustituyéndolos por funcionarios y colegios profesionales.",
+    "cita": "Recorte del 50 % en asesores y cargos de confianza política · Limitación legal estricta del número y retribución de personal eventual y cargos de libre designación en ministerios, autonomías y diputaciones, sustituyendo el asesoramiento partidista por funcionarios de carrera cualificados y colegios profesionales mediante convenios técnicos.",
+    "pagina": 2,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Eliminar la prórroga automática de partidas: cada ente justificará cada euro desde cero cada año, y suprimir organismos duplicados.",
+    "cita": "Eliminación de la prórroga automática de partidas presupuestarias: cada ministerio y ente público deberá justificar anualmente desde cero la utilidad de cada euro solicitado, suprimiendo observatorios, fundaciones y organismos duplicados entre Estado y Comunidades Autónomas.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Interconectar las bases de datos de Hacienda, Seguridad Social, SEPE, DGT y registros y prohibir sancionar por no aportar certificados que ya tiene.",
+    "cita": "Interconexión obligatoria de todas las bases de datos de Hacienda, Seguridad Social, SEPE, DGT y registros autonómicos o locales bajo el principio europeo de «solo una vez», prohibiendo sancionar o paralizar trámites por no aportar certificados que obran en poder público.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Bonificar toda la cuota empresarial el primer año a quien contrate indefinido a su primer empleado, y el 50 % el segundo.",
+    "cita": "Bonificación íntegra de la cuota empresarial a la Seguridad Social durante los primeros doce meses para cualquier autónomo persona física o microempresa que contrate de forma indefinida a su primer trabajador asalariado, manteniendo un 50 % de reducción durante el segundo año.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Reconocer automáticamente en IRPF e IVA el 100 % de los gastos necesarios para la actividad: vehículo, combustible, suministros y manutención.",
+    "cita": "Reconocimiento automático en IRPF e IVA del 100 % de los gastos reales necesarios para ejercer la actividad (vehículo profesional, combustible, suministros en teletrabajo y manutención en jornada laboral) mediante reglas claras que acaben con la arbitrariedad inspectora.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Enviar a cada contribuyente un informe anual con el destino de sus impuestos y la calidad de los servicios frente a la media europea.",
+    "cita": "Creación de un informe anual personalizado para cada contribuyente que detalle el destino exacto de sus impuestos pagados y la calidad real de los servicios públicos recibidos frente a la media europea (donde el IVA general medio ronda el 21,6 %).",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Bajar al 10 % el IVA de la luz con menos de 15 kW y permitir cambiar gratis la potencia dos veces al año.",
+    "cita": "Reducción permanente del IVA de la electricidad al 10 % para hogares y pequeños negocios con potencia contratada inferior a 15 kW, permitiendo además cambiar gratuitamente la potencia contratada dos veces al año para adaptarla a la estacionalidad.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Bonificar al 99 % el Impuesto sobre Sucesiones y Donaciones entre familiares directos en toda España.",
+    "cita": "Armonización nacional mediante bonificación del 99 % del Impuesto sobre Sucesiones y Donaciones en todo el territorio español para familiares directos, evitando la doble imposición sobre ahorros y patrimonios familiares que ya tributaron en vida.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Bonificar al 100 % transmisión y plusvalías al traspasar un negocio por jubilación si el comprador mantiene actividad y empleo tres años.",
+    "cita": "Bonificación del 100 % en impuestos de transmisión patrimonial y plusvalías cuando se traspase un comercio o microempresa por jubilación del titular, siempre que el adquirente mantenga la actividad y el empleo durante al menos tres años.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Aplicar el IVA del 4 % a pañales, compresas, tampones y productos básicos de higiene femenina.",
+    "cita": "Aplicación permanente del tipo superreducido del 4 % de IVA a pañales infantiles y de adultos, compresas, tampones y productos básicos de higiene femenina, equiparándolos fiscalmente a los alimentos de primera necesidad.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Suprimir la retención del 19 % en el alquiler de locales cuando el inquilino sea un autónomo o microempresa al corriente con Hacienda.",
+    "cita": "Supresión de la obligación de practicar retención del 19 % en el alquiler de locales afectos a actividades económicas cuando el arrendatario sea un autónomo o microempresa al corriente de sus obligaciones fiscales.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Recuperar la deducción estatal en el IRPF por alquiler de vivienda habitual para rentas medias y bajas, con un tramo extra si se teletrabaja.",
+    "cita": "Recuperación de la deducción estatal en el IRPF por alquiler de vivienda habitual para rentas medias y bajas, extendiendo un tramo deducible específico cuando parte de la vivienda esté afecta declaradamente al teletrabajo o actividad profesional.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Obligar a los bancos a pagar al menos el 50 % de notaría, gestoría y tasación en financiación empresarial, traspasos y novaciones.",
+    "cita": "Obligación legal de que las entidades financieras asuman al menos el 50 % de los gastos de notaría, gestoría y tasación en operaciones de financiación empresarial, traspaso de negocios y novaciones hipotecarias.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Fijar una tarifa notarial y registral máxima de 100 € para constituir por vía telemática sociedades limitadas y profesionales.",
+    "cita": "Fijación de una tarifa plana notarial y registral máxima de 100 € para la constitución telemática de sociedades limitadas y sociedades profesionales, eliminando tasas intermedias del BORME.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Rebajar un 50 % el ICIO en obras de mantenimiento, accesibilidad y eficiencia energética de viviendas y locales.",
+    "cita": "Reducción obligatoria del 50 % en el Impuesto sobre Construcciones, Instalaciones y Obras (ICIO) para reformas de mantenimiento, accesibilidad y eficiencia energética tanto en viviendas particulares como en locales comerciales.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Rebajar los tipos mínimo y máximo del IBI y bonificar a los locales comerciales en zonas con obras o caída de tráfico.",
+    "cita": "Rebaja del tipo mínimo y máximo del IBI urbano y rústico tras la actualización de valores catastrales, estableciendo bonificaciones obligatorias para locales comerciales abiertos al público en zonas afectadas por obras o caída de tráfico.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Recuperar las reducciones en IRPF por aportaciones a planes de pensiones hasta 5.000 € al año y crear una cuenta ahorro vivienda exenta.",
+    "cita": "Recuperación de las reducciones en IRPF por aportaciones a planes de pensiones individuales y planes de previsión social empresarial hasta 5.000 € anuales, junto con una cuenta ahorro vivienda libre de tributación por rendimientos.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Bajar el IVA del 21 % al 10 % a peluquería, imagen personal, estética y centros deportivos.",
+    "cita": "Rebaja definitiva del tipo de IVA del 21 % al 10 % para los servicios de peluquería, imagen personal, estética y centros deportivos, corrigiendo la subida excepcional aprobada en 2012.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Fijar en 22.000 € el umbral para declarar la Renta sin importar los pagadores y obligar a retenciones proporcionales en contratos temporales.",
+    "cita": "Unificación del umbral obligatorio para presentar la declaración de la Renta en 22.000 € anuales con independencia del número de pagadores, obligando además al SEPE y a las empresas a aplicar retenciones proporcionales reales en contratos temporales.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Devolver cada mes, de forma automática y ampliada, el impuesto de hidrocarburos a transportistas, taxistas, VTC y maquinaria agrícola.",
+    "cita": "Devolución mensual automática y ampliada del impuesto sobre hidrocarburos (gasóleo profesional) para transportistas autónomos, taxistas, VTC y maquinaria agrícola, vinculada a índices objetivos de costes energéticos.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Rebajar dos puntos las cotizaciones empresariales por contingencias comunes en empresas de menos de 50 trabajadores que mantengan el empleo indefinido.",
+    "cita": "Rebaja escalonada de dos puntos en las cotizaciones empresariales por contingencias comunes para pymes y autónomos con menos de 50 trabajadores, vinculada al mantenimiento del empleo indefinido.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Eximir de cotizaciones empresariales al sustituido y al sustituto cuando un autónomo o pyme contrate a un parado para cubrir una baja.",
+    "cita": "Exención total de las cotizaciones empresariales tanto del trabajador sustituido como del sustituto cuando un autónomo o pyme contrate a un desempleado para cubrir una baja por enfermedad común, accidente o maternidad/paternidad.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Igualdad y familia",
+    "resumen": "Bonificar toda la cuota de autónomos hasta doce meses a quien reduzca actividad para cuidar a hijos gravemente enfermos o familiares dependientes.",
+    "cita": "Bonificación del 100 % de la cuota de autónomos durante un máximo de doce meses para trabajadores por cuenta propia que reduzcan su actividad para cuidar a hijos menores con enfermedad grave o familiares dependientes en primer grado.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Reconocer a los familiares colaboradores del autónomo el derecho a cotizar y cobrar paro en igualdad de condiciones.",
+    "cita": "Reconocimiento del derecho a cotizar y percibir prestación por desempleo en igualdad de condiciones para los familiares colaboradores del autónomo, eliminando la presunción automática de exclusión del régimen general cuando exista salario y jornada acreditados.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Pensiones",
+    "resumen": "Permitir al autónomo elegir sus 25 mejores años cotizados para calcular la pensión de jubilación.",
+    "cita": "Permitir que el trabajador autónomo elija para el cálculo de su pensión de jubilación los 25 mejores años cotizados de toda su carrera laboral, evitando que una caída de ingresos en los últimos años previo al retiro penalice su pensión.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Pensiones",
+    "resumen": "Eliminar los coeficientes reductores de la jubilación para autónomos y asalariados con 40 o más años cotizados.",
+    "cita": "Eliminación de los coeficientes reductores permanentes en la pensión de jubilación para aquellos trabajadores autónomos y asalariados que acrediten 40 o más años de cotización efectiva a la Seguridad Social.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Cambiar la devolución anual por una exención directa del 75 % de la cuota de autónomos a los asalariados que emprendan una actividad complementaria.",
+    "cita": "Sustitución de la actual devolución anual tardía por una exención directa en origen del 75 % de la cuota de autónomos para trabajadores por cuenta ajena que emprendan una actividad complementaria, hasta alcanzar el tope máximo de cotización.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Crear una línea permanente de financiación directa del ICO con 2 años de carencia para emprendedores y pymes.",
+    "cita": "Creación de una línea permanente de financiación directa del Instituto de Crédito Oficial (ICO) sin intermediación bancaria abusiva, con 2 años de carencia de capital e interés referenciado al Euríbor para emprendedores y pymes.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Reformar la regulación del autónomo dependiente con libertad de horarios y tarifas mínimas pactadas, sin forzar la asalarización.",
+    "cita": "Reforma de la regulación del autónomo que trabaja mayoritariamente para uno o pocos clientes (repartidores, consultores, transportistas), garantizando libertad real de horarios y tarifas mínimas pactadas sin imposición forzosa de asalarización.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Integrar en las oficinas de empleo asesoría financiera, fiscal y comercial gratuita para parados que capitalicen el paro para emprender.",
+    "cita": "Transformación de las oficinas de empleo para integrar unidades de consultoría financiera, fiscal y comercial gratuita impartida por mentores empresariales para desempleados que capitalicen el paro para emprender.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Bonificar durante dos años las cotizaciones de pymes que contraten indefinidos a jóvenes sin experiencia o a parados de larga duración mayores de 45.",
+    "cita": "Bonificación progresiva en cotizaciones sociales durante dos años para pymes que contraten de forma indefinida a jóvenes sin experiencia previa o a desempleados mayores de 45 años de larga duración.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Crear un fondo individual de capitalización que acompañe al trabajador y que pueda rescatar si le despiden, para formarse o al jubilarse.",
+    "cita": "Creación de un fondo individual de capitalización laboral portátil que acompaña al trabajador durante toda su vida profesional, acumulando aportaciones mensuales que puede rescatar en caso de despido, formación o jubilación.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Sancionar y excluir de la contratación pública a quien supere los plazos legales de pago (30 días el sector público, 60 el privado).",
+    "cita": "Sanciones económicas automáticas y exclusión de contratación pública para grandes empresas y administraciones que superen los plazos legales de pago (30 días sector público y 60 días sector privado), con devengo automático de intereses de demora.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Dividir obligatoriamente en lotes los contratos públicos de ayuntamientos, hospitales y universidades para que accedan autónomos y pymes locales.",
+    "cita": "Impulso a la contratación pública de proximidad en ayuntamientos, hospitales y universidades mediante la división obligatoria de contratos en lotes accesibles para autónomos y pymes locales.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Simplificar los pliegos y obligar a la adjudicataria a asumir con aval bancario cualquier sobrecoste de obra de hasta el 15 %.",
+    "cita": "Simplificación de pliegos administrativos eliminando requisitos de solvencia desproporcionados y obligación legal de que la empresa adjudicataria asuma cualquier sobrecoste de obra de hasta el 15 % mediante aval bancario previo.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Lanzar un Plan Industrial «Made in Spain» con incentivos fiscales, suelo bonificado y deducciones por I+D+i para que vuelvan fábricas deslocalizadas.",
+    "cita": "Plan Industrial «Made in Spain» y retorno de empresas deslocalizadas · Incentivos fiscales a la inversión productiva, suelo industrial bonificado y deducciones por I+D+i para atraer de vuelta a España fábricas y centros logísticos deslocalizados por costes regulatorios.",
+    "pagina": 7,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Hacer planes municipales de comercio de proximidad con tasas bonificadas, carga y descarga, primera hora de aparcamiento gratis y digitalización.",
+    "cita": "Planes municipales de dinamización del comercio de proximidad con bonificaciones de tasas, zonas de carga y descarga inteligentes, aparcamiento gratuito la primera hora y digitalización compartida.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Diferenciar en la negociación colectiva a bares, restaurantes y comercios familiares de menos de 10 empleados de las grandes cadenas.",
+    "cita": "Adaptación de la negociación colectiva para diferenciar la realidad operativa y salarial de las grandes cadenas multinacionales frente a los pequeños bares, restaurantes y comercios familiares de menos de 10 empleados.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Dar a los autónomos acceso directo al crédito de formación de FUNDAE para cursos de IA, marketing digital, gestión financiera e idiomas.",
+    "cita": "Acceso directo de los trabajadores por cuenta propia al crédito de formación profesional (FUNDAE) para cursos prácticos de inteligencia artificial, marketing digital, gestión financiera y idiomas vinculados a su actividad.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Bajar las tasas de ocupación de vía pública, ampliar a 25 años las concesiones y ayudar a modernizar mercados y mercadillos.",
+    "cita": "Reducción de tasas municipales de ocupación de vía pública, ampliación de concesiones administrativas a 25 años y ayudas para modernización energética en mercados de abastos y mercadillos.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Modelo territorial",
+    "resumen": "Auditar las competencias y transferir las duplicadas para garantizar la unidad de mercado y que una pyme no cumpla 17 normativas distintas.",
+    "cita": "Auditoría constitucional y transferencia de competencias duplicadas para garantizar la unidad de mercado en España, evitando que una pyme tenga que cumplir 17 normativas distintas de etiquetado, licencias o impuestos para operar en todo el país.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reformar la Ley Orgánica del Poder Judicial para que jueces y magistrados elijan a los vocales del CGPJ, sin intervención parlamentaria.",
+    "cita": "Reforma de la Ley Orgánica del Poder Judicial para que los vocales del Consejo General del Poder Judicial sean elegidos directamente por jueces y magistrados en activo, con participación consultiva de colegios de abogados y fiscales, sin intervención parlamentaria.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Ampliar a cinco años la incompatibilidad de exministros y altos cargos para fichar por empresas reguladas o contratistas públicas.",
+    "cita": "Ampliación a cinco años del periodo de incompatibilidad para que exministros, secretarios de Estado y altos cargos puedan fichar por empresas reguladas o contratistas del sector público, bajo sanción de pérdida de retribuciones.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Eliminar las pensiones indemnizatorias, complementos vitalicios y privilegios retributivos de expresidentes, exministros y exparlamentarios.",
+    "cita": "Eliminación de cualquier pensión indemnizatoria, complemento vitalicio o privilegio retributivo de expresidentes, exministros y exparlamentarios, sometiéndolos exactamente al mismo régimen general de cotización que cualquier ciudadano.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Presentar al Congreso una auditoría semestral del programa de gobierno, con rendición de cuentas si al tercer año no se cumple el 50 %.",
+    "cita": "Obligación legal de presentar ante el Congreso una auditoría pública semestral del grado de ejecución del programa de gobierno, activando mecanismos de rendición de cuentas si al tercer año no se supera el 50 % de compromisos cumplidos.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Suprimir las subvenciones de los Presupuestos Generales del Estado a sindicatos, organizaciones empresariales y asociaciones políticas.",
+    "cita": "Supresión de las subvenciones nominativas y estructurales con cargo a los Presupuestos Generales del Estado para sindicatos, organizaciones empresariales y asociaciones políticas, que deberán financiarse exclusivamente con las cuotas de sus afiliados.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Prohibir las ayudas directas y el reparto discrecional de publicidad institucional a medios privados, con criterios objetivos de audiencia.",
+    "cita": "Prohibición de ayudas directas y reparto discrecional de publicidad institucional a medios de comunicación privados, estableciendo criterios estrictamente objetivos de audiencia auditada y utilidad pública.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Impedir que afiliados o exdirigentes de partidos ocupen puestos directivos en RTVE y entes autonómicos y fijarles un techo de gasto.",
+    "cita": "Incompatibilidad absoluta para que afiliados o exdirigentes de partidos políticos ocupen puestos directivos en RTVE y entes autonómicos, fijando un techo máximo de gasto y programación de servicio público.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Modificar la LOREG para corregir la sobrerrepresentación de partidos regionalistas y valorar la doble vuelta en alcaldías.",
+    "cita": "Modificación de la LOREG para corregir la sobrerrepresentación de partidos minoritarios regionalistas frente a fuerzas nacionales, valorando la elección a doble vuelta en alcaldías para garantizar gobiernos estables.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Crear plataformas municipales de consulta telemática vinculante sobre grandes proyectos urbanísticos, tasas extraordinarias e inversiones.",
+    "cita": "Creación de plataformas municipales seguras de consulta telemática vinculante para proyectos urbanísticos de gran impacto, tasas locales extraordinarias y prioridades de inversión vecinal.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Aprobar proyectos tipo, modulares y eficientes para construir colegios, centros de salud, residencias y comisarías.",
+    "cita": "Aprobación de proyectos arquitectónicos tipo, modulares y energéticamente eficientes para la construcción de colegios, centros de salud, residencias y comisarías según ratios poblacionales.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Completar la equiparación salarial de Policía Nacional y Guardia Civil con las policías autonómicas, incluidas pagas, productividad y jubilación.",
+    "cita": "Culminación efectiva de la equiparación salarial real (incluyendo pagas extraordinarias, productividad y jubilación) de las Fuerzas y Cuerpos de Seguridad del Estado con las policías autonómicas.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Obligar a cubrir automáticamente las vacantes de policía, guardia civil, bomberos y protección civil con convocatorias anuales unificadas.",
+    "cita": "Obligación legal de cubrir de forma automática las vacantes por jubilación o traslado en policía, guardia civil, bomberos y protección civil mediante convocatorias anuales unificadas.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Renovar periódicamente chalecos antibalas, vehículos patrulla, dispositivos no letales y equipo de todos los agentes.",
+    "cita": "Renovación periódica obligatoria de chalecos antibalas individuales, vehículos patrulla, dispositivos no letales y equipamiento técnico para todos los efectivos de seguridad.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Vivienda",
+    "resumen": "Desalojar en menos de 24 horas en casos de ocupación ilegal, endurecer penas a las mafias y suspender el empadronamiento fraudulento.",
+    "cita": "Desalojo policial inmediato en menos de 24 horas en casos de allanamiento o usurpación sin título habilitante, endurecimiento de penas para mafias de ocupación y suspensión del empadronamiento fraudulento.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reformar el Código Penal para ampliar la presunción de legítima defensa ante intrusiones violentas en casa o en el negocio.",
+    "cita": "Reforma del Código Penal para ampliar la presunción de legítima defensa proporcionada cuando un ciudadano o comerciante repele una intrusión violenta en su vivienda habitual o establecimiento mercantil.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reformar la Ley del Menor para agilizar la reparación del daño por vandalismo o agresiones y establecer servicios obligatorios a la comunidad.",
+    "cita": "Reforma de la Ley del Menor para agilizar la reparación económica directa del daño causado por actos vandálicos o agresiones, estableciendo servicios obligatorios a la comunidad bajo tutela judicial.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Garantizar la presunción de inocencia y la tutela de todas las víctimas de violencia intrafamiliar y perseguir de oficio las denuncias falsas.",
+    "cita": "Garantía absoluta de la presunción de inocencia, tutela judicial efectiva para todas las víctimas de violencia intrafamiliar sin discriminación y persecución de oficio del falso testimonio y la denuncia falsa.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Inmigración",
+    "resumen": "Agilizar los visados de trabajo en origen para vacantes en sectores deficitarios y exigir legalidad y arraigo para acceder a ayudas.",
+    "cita": "Agilización administrativa de los visados de trabajo en origen para cubrir vacantes reales en sectores deficitarios, exigiendo cumplimiento de la legalidad y arraigo efectivo para el acceso a ayudas.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Inmigración",
+    "resumen": "Expulsar de inmediato y prohibir la reentrada a extranjeros condenados por delitos graves o multirreincidentes en robos y agresiones.",
+    "cita": "Ejecución inmediata de la expulsión del territorio nacional y prohibición de reentrada para ciudadanos extranjeros condenados por delitos graves o multirreincidencia en robos y agresiones.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Sanidad",
+    "resumen": "Implantar una historia clínica digital y una tarjeta sanitaria única válida en las 17 comunidades, Ceuta y Melilla.",
+    "cita": "Implantación definitiva de una historia clínica digital y tarjeta sanitaria única válida en las 17 comunidades autónomas, Ceuta y Melilla para atención primaria, especialistas y retirada de recetas sin trámites de desplazado.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Impuestos",
+    "resumen": "Deducir el 20 % en el IRPF los gastos en dentista, óptica, audífonos y prótesis no cubiertos por la sanidad pública.",
+    "cita": "Deducción estatal del 20 % en la cuota del IRPF por gastos sanitarios necesarios no cubiertos por la cartera pública básica (salud bucodental, óptica, audífonos y prótesis ortopédicas) mediante factura médica.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Sanidad",
+    "resumen": "Crear el título oficial de Técnico de Formación Profesional para los celadores sanitarios.",
+    "cita": "Creación del título oficial de Técnico de Formación Profesional para el colectivo de celadores sanitarios, reconociendo su cualificación clínica, movilización de pacientes y apoyo hospitalario.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Igualdad y familia",
+    "resumen": "Exigir por ley ratios mínimos de personal sanitario y equipamiento en todas las residencias, con inspecciones sin previo aviso.",
+    "cita": "Exigencia legal de ratios mínimos de personal sanitario y equipamiento de primera intervención en todas las residencias geriátricas públicas y privadas, con inspecciones periódicas sin previo aviso.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Igualdad y familia",
+    "resumen": "Fijar un plazo máximo de 60 días para resolver la dependencia, con baremo médico unificado y silencio positivo.",
+    "cita": "Plazo máximo legal de 60 días para resolver las solicitudes de dependencia mediante baremación médica unificada y silencio positivo administrativo en prestaciones vinculadas al servicio.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Igualdad y familia",
+    "resumen": "Controlar las cuentas de las entidades que gestionan centros de dependencia con subvenciones y prohibir el lucro encubierto.",
+    "cita": "Control financiero estricto sobre fundaciones y asociaciones que gestionan centros de dependencia con subvenciones públicas, prohibiendo el lucro encubierto y garantizando que los fondos lleguen al usuario.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Educación",
+    "resumen": "Pacto Nacional por una Ley Única de Educación: mismos contenidos troncales en toda España, blindados frente a cambios de gobierno.",
+    "cita": "Pacto Nacional por una Ley Única de Educación estable y sin ideología · Aprobación de un marco educativo común en toda España que garantice el mismo nivel de contenidos troncales (matemáticas, lengua, ciencias e idiomas) en todas las autonomías y blinde el sistema frente a cambios de gobierno.",
+    "pagina": 11,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Educación",
+    "resumen": "Subvencionar a las pymes que acojan alumnos de FP en prácticas y permitir que autónomos mayores de 55 años sean profesores técnicos.",
+    "cita": "Equiparación de prestigio de la FP con la universidad, subvencionando a las pymes que acojan alumnos en prácticas reales y permitiendo que autónomos veteranos mayores de 55 años ejerzan como profesores técnicos.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Educación",
+    "resumen": "Aprobar una ley orgánica que garantice estudiar y relacionarse con la Administración en español en todo el territorio.",
+    "cita": "Ley orgánica que garantice el derecho a estudiar y relacionarse con la Administración en español en todo el territorio nacional, considerando las lenguas cooficiales como mérito cultural pero nunca como barrera excluyente.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Educación",
+    "resumen": "Consolidar una escuela pública laica y respetar el derecho de las familias a elegir centros concertados o privados.",
+    "cita": "Consolidación de una escuela pública laica centrada en la excelencia académica y científica, respetando plenamente el derecho constitucional de las familias a elegir centros concertados o privados con ideario propio.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Educación",
+    "resumen": "Incorporar en Secundaria formación práctica en RCP, emergencias y educación financiera básica.",
+    "cita": "Incorporación en Educación Secundaria de formación práctica en reanimación cardiopulmonar (RCP), actuación ante emergencias y educación financiera básica (impuestos, ahorro y emprendimiento).",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Educación",
+    "resumen": "Implantar protocolos obligatorios de detección, mediación e intervención contra el acoso escolar y digital en todos los centros.",
+    "cita": "Implantación obligatoria de protocolos rápidos de detección, mediación e intervención psicológica en todos los centros escolares y actividades extraescolares frente al acoso escolar y digital.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Igualdad y familia",
+    "resumen": "Supervisar judicial y externamente todos los centros de menores tutelados y garantizar su seguridad, atención psicológica y paso al empleo.",
+    "cita": "Supervisión judicial y fiscalización externa permanente de todos los centros de menores tutelados, garantizando su seguridad física, atención psicológica y transición al empleo al cumplir la mayoría de edad.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Educación",
+    "resumen": "Hacer gratuitos el transporte adaptado, las terapias y el material del alumnado con discapacidad o necesidades educativas especiales.",
+    "cita": "Gratuidad real en transporte adaptado, terapias complementarias y material específico para alumnado con discapacidad o necesidades educativas especiales en centros ordinarios y de educación especial.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Educación",
+    "resumen": "Universalizar la educación infantil de 0 a 3 años con plazas públicas gratuitas y cheques guardería.",
+    "cita": "Universalización de la educación infantil de primer ciclo (0-3 años) mediante plazas públicas gratuitas y cheques guardería directos para que las familias elijan centro privado o público.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Vivienda",
+    "resumen": "Plan Nacional de Vivienda Asequible: liberar suelo público en desuso para alquiler asequible con colaboración público-privada.",
+    "cita": "Plan Nacional de Vivienda Asequible y movilización de suelo público · Liberación ágil de suelo público en desuso para construcción de vivienda en alquiler asequible mediante colaboración público-privada, reduciendo plazos urbanísticos y cargas fiscales sobre la primera vivienda.",
+    "pagina": 12,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Vivienda",
+    "resumen": "Establecer una moratoria y mediación obligatoria ante ejecuciones hipotecarias de familias vulnerables en paro, facilitando alquiler social.",
+    "cita": "Moratoria temporal y mediación obligatoria para familias vulnerables en paro sobrevenido con riesgo de ejecución hipotecaria de su vivienda habitual, facilitando alquileres sociales o reestructuraciones.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Vivienda",
+    "resumen": "Obligar por ley a bancos y fondos con viviendas adjudicadas a pagar las cuotas y derramas de la comunidad.",
+    "cita": "Exigencia legal inmediata para que entidades financieras y fondos propietarios de viviendas adjudicadas abonen puntualmente las cuotas ordinarias y derramas de las comunidades de propietarios.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Evaluar las ayudas del rescate bancario pendientes de recuperar e impulsar acuerdos de retorno social para mayores y educación financiera.",
+    "cita": "Evaluación transparente de las ayudas públicas pendientes de recuperación del sector financiero, impulsando acuerdos de retorno social destinados a atención domiciliaria de mayores y educación financiera.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Sanidad",
+    "resumen": "Prohibir la publicidad del juego y las apuestas online en medios, redes sociales y patrocinios deportivos, igual que la del tabaco.",
+    "cita": "Equiparación legal de la publicidad del juego y apuestas deportivas online con la prohibición vigente para el tabaco, erradicando anuncios en medios audiovisuales, redes sociales y patrocinios deportivos.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Energía y clima",
+    "resumen": "Invertir en interconexión de cuencas, balsas, desaladoras y regadíos para garantizar agua en todo el territorio.",
+    "cita": "Inversión prioritaria en interconexión de cuencas, balsas de regulación, desaladoras energéticamente eficientes y modernización de regadíos para garantizar agua en todo el territorio y apoyar la extinción aérea de incendios.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Energía y clima",
+    "resumen": "Paralizar las recalificaciones en ramblas, cauces y zonas inundables y hacer obras de encauzamiento y drenaje preventivo.",
+    "cita": "Paralización inmediata de cualquier nueva recalificación urbanística en ramblas, cauces fluviales y zonas de riesgo inundable acreditado, ejecutando obras de encauzamiento y drenaje preventivo tras episodios extremos como las DANA.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Inspeccionar los contratos agrarios para prohibir la venta a pérdidas y garantizar que el precio en origen cubra los costes.",
+    "cita": "Inspección efectiva de los contratos agrarios para prohibir la venta a pérdidas de agricultores y ganaderos, garantizando que el precio en origen cubra los costes reales de producción y frenando márgenes especulativos.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Auditar el PER para corregir fraudes en peonadas y transformar sus ayudas en incentivos a la contratación agraria y el emprendimiento rural.",
+    "cita": "Auditoría integral del Programa de Fomento de Empleo Agrario (PER) para corregir fraudes en peonadas y transformar las ayudas pasivas en incentivos directos a la contratación agraria real, la agroindustria y el emprendimiento rural.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Convocar plazas extraordinarias de examinadores de tráfico para acabar con las esperas en provincias colapsadas.",
+    "cita": "Convocatoria extraordinaria de plazas de examinadores de tráfico para eliminar los meses de espera en provincias colapsadas, dando salida a la demanda acumulada de aspirantes que ya han abonado la tasa oficial de 94,05 €.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Sustituir el sistema CAPA de reparto de exámenes por una planificación flexible según la demanda y con examinadores itinerantes.",
+    "cita": "Sustitución del actual sistema CAPA de reparto rígido de minutos de examen por una planificación flexible basada en demanda real y refuerzo itinerante de examinadores, desbloqueando la actividad de miles de autoescuelas.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Empleo y salarios",
+    "resumen": "Prohibir que los conductores profesionales hagan carga y descarga pesada y construir áreas de descanso seguras y vigiladas.",
+    "cita": "Actualización del marco laboral del transporte profesional de mercancías y viajeros, prohibiendo que los conductores realicen carga y descarga pesada y construyendo áreas de descanso seguras y vigiladas.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Instalar con un plan plurianual protecciones para motoristas en todos los quitamiedos de carreteras estatales y autonómicas.",
+    "cita": "Plan plurianual obligatorio para instalar sistemas de protección para motoristas (SPM) en todos los quitamiedos de la red viaria estatal y autonómica, priorizando tramos de alta siniestralidad.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reformar el Código Penal para agravar las penas y retirar para siempre el carné a quien cause víctimas conduciendo bajo alcohol o drogas.",
+    "cita": "Reforma del Código Penal para agravar las penas de prisión y retirada definitiva del permiso de conducir cuando se causen víctimas bajo los efectos del alcohol o drogas, especialmente si existe abandono del lugar del accidente.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Proteger penalmente a los animales domésticos frente al maltrato y abandono, apoyar a protectoras y distinguirlos de los de trabajo, caza y ganadería.",
+    "cita": "Protección penal firme contra el maltrato y abandono de animales domésticos, con apoyo a protectoras para esterilización y vacunación, diferenciando claramente las mascotas urbanas de los animales de trabajo, caza y ganadería.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Aumentar las becas ADO y paralímpicas, bonificar el patrocinio deportivo de pymes y mejorar instalaciones del deporte base.",
+    "cita": "Incremento de las becas ADO y paralímpicas, bonificaciones fiscales al patrocinio deportivo de pymes y mejora de instalaciones municipales para el deporte base e inclusivo.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Otros",
+    "resumen": "Fijar franjas obligatorias de deporte base, femenino y paralímpico en medios públicos y ampliar las extraescolares deportivas.",
+    "cita": "Franjas obligatorias de difusión del deporte base, femenino y paralímpico en los medios públicos y ampliación de actividades deportivas extraescolares en centros educativos.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Energía y clima",
+    "resumen": "Apoyar renovables y autoconsumo sin cerrar antes de tiempo centrales de respaldo ni restringir arbitrariamente las zonas de bajas emisiones.",
+    "cita": "Apoyo a las energías renovables y al autoconsumo industrial sin cierres ideológicos prematuros de centrales de respaldo que encarezcan la factura eléctrica ni restricciones arbitrarias en zonas de bajas emisiones que arruinen al comercio local.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Bonificar al 100 % el transporte marítimo y aéreo de mercancías entre la Península, Baleares, Canarias, Ceuta y Melilla y simplificar aduanas.",
+    "cita": "Bonificación permanente del 100 % en el transporte marítimo y aéreo de mercancías entre la Península, Baleares, Canarias, Ceuta y Melilla, simplificando los trámites aduaneros para pymes insulares.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PARTIDO AUTÓNOMOS",
+    "tema": "Economía y empresas",
+    "resumen": "Aplicar la regla «una norma nueva, dos derogadas» y crear un órgano técnico independiente que evalúe el impacto de cada ley en autónomos.",
+    "cita": "Regla obligatoria de «una norma nueva, dos derogadas»: creación de un órgano técnico independiente que revise toda nueva ley o reglamento antes de su aprobación para evaluar su impacto real sobre autónomos y microempresas.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir que el Estado cumpla sus obligaciones en Navarra en infraestructuras ferroviarias y de regadío.",
+    "cita": "exige el cumplimiento de las obligaciones que el Estado quiere obviar en nuestro territorio en materia de infraestructuras ferroviarias o de regadío.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir el cumplimiento de la LORAFNA en materia de transferencias.",
+    "cita": "exige el cumplimiento de lo marcado por la LORAFNA en materia de transferencias.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir que el Gobierno de Navarra tenga representación con voz y voto en las instituciones europeas que deciden sobre competencias forales, como el Ecofin.",
+    "cita": "exige la presencia de una representación del Gobierno de Navarra con voz y con voto en aquellas instituciones europeas que deciden sobre competencias forales (como es el Ecofin).",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Seguridad y justicia",
+    "resumen": "Exigir que la reforma de la Ley de Secretos Oficiales reconozca el daño causado y permita resolver casos como el de Mikel Zabalza.",
+    "cita": "exige el reconocimiento del daño causado con la reforma de la Ley de Secretos Oficiales, que permita resolver casos como el de Mikel Zabalza ante los que los sucesivos gobiernos de PP y PSOE han optado por mirar a otro lado.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Modelo territorial",
+    "resumen": "Defender la permanencia del Convenio Económico como herramienta básica del autogobierno.",
+    "cita": "Por eso Geroa Bai defenderá en las urnas el próximo 29 de noviembre la permanencia del Convenio Económico como herramienta básica del autogobierno, frente a quienes amparan gamazadas encubiertas.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Otros",
+    "resumen": "Defender el Estado del bienestar y los servicios públicos frente a los recortes que, según el programa, se avecinan.",
+    "cita": "Todo esto debe tener respuesta desde la izquierda plural los próximos cuatro años, y ese es el compromiso de Geroa Bai: la defensa el Estado de Bienestar y los servicios públicos de los recortes que se avecinan.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Modelo territorial",
+    "resumen": "Cerrar la posición de Navarra en la planificación eléctrica 2030, la conexión con la Y vasca, el regadío y el traspaso de becas.",
+    "cita": "Con respecto a nuestra comunidad, quedan pendientes asuntos de envergadura para nuestra realidad hoy, pero también para el futuro de las próximas generaciones: en el momento de la convocatoria electoral quedan pendientes de cerrar cuestiones nucleares para nuestra comunidad como la posición de Navarra en la planificación eléctrica 2030, la definición de la conexión ferroviaria navarra con la Y vasca, los compromisos con el regadío navarro o la transferencia de la competencia de becas a Navarra. Estos entre otros, como la presencia reglada y regulada de Navarra en reuniones con la UE sobre materias reguladas por nuestra comunidad son compromisos de Geroa Bai en las Cortes Generales, también a partir de las próximas elecciones del 29 de noviembre.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Igualdad y familia",
+    "resumen": "Mantener vigentes los derechos civiles conquistados por el colectivo LGTBI.",
+    "cita": "Porque combatir a la ultraderecha es mantener vigentes los derechos civiles conquistados estos años para el colectivo LGTBI.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar las políticas públicas de protección de mujeres víctimas de maltrato.",
+    "cita": "Combatir a la ultraderecha reforzando las políticas públicas de protección de mujeres víctimas de maltrato.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "GBAI",
+    "tema": "Inmigración",
+    "resumen": "Seguir siendo tierra de acogida y reforzar las políticas frente al cambio climático y de memoria.",
+    "cita": "Combatir a la ultraderecha es seguir siendo tierra de acogida, reforzar las políticas frente al cambio climático o reforzar las políticas de memoria.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Publicar contratos, subvenciones, presupuestos, ejecución y declaraciones de bienes de altos cargos en formatos claros y reutilizables.",
+    "cita": "Publicar contratos, subvenciones, presupuestos, ejecución y declaraciones de bienes de altos cargos en formatos claros y reutilizables.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Revisar periódicamente programas y organismos para detectar duplicidades y gasto ineficaz y reorientar esos recursos a servicios prioritarios.",
+    "cita": "Implantar una revisión periódica de programas y organismos para identificar duplicidades y gasto ineficaz; reorientar los recursos liberados a servicios prioritarios.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Simplificar trámites y fijar plazos de respuesta, con seguimiento del expediente y atención presencial para quien la necesite.",
+    "cita": "Simplificar trámites y fijar plazos de respuesta, con seguimiento del expediente y atención presencial para quien la necesite.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Reforzar auditorías, canales protegidos de denuncia y controles de conflicto de interés, con garantías para denunciantes.",
+    "cita": "Reforzar auditorías, canales protegidos de denuncia y controles de conflicto de interés, con garantías para denunciantes.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Acompañar las principales iniciativas de memoria de impacto, calendario, coste estimado e indicadores públicos.",
+    "cita": "Acompañar las principales iniciativas de memoria de impacto, calendario, coste estimado e indicadores públicos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Pensiones",
+    "resumen": "Defender un sistema público de pensiones sostenible, con información periódica y transparente sobre sus perspectivas y opciones de equilibrio.",
+    "cita": "Defender un sistema público de pensiones sostenible con información periódica y transparente sobre sus perspectivas y opciones de equilibrio.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Pensiones",
+    "resumen": "Garantizar la revalorización automática anual de las pensiones contributivas según el IPC.",
+    "cita": "Garantizar la revalorización automática anual de las pensiones contributivas conforme a la evolución del Índice de Precios de Consumo (IPC).",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Pensiones",
+    "resumen": "Equiparar las pensiones mínimas de jubilación al SMI en tres fases anuales, cerrando en cada una un tercio de la brecha.",
+    "cita": "Equiparar progresivamente las pensiones mínimas de jubilación al Salario Mínimo Interprofesional (SMI), comparando los importes brutos anuales. Aplicar la equiparación en tres fases anuales, cerrando en cada fase un tercio de la brecha inicial y actualizando la referencia si cambia el SMI.",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Impuestos",
+    "resumen": "Proponer la exención del IRPF para pensiones bajas según la renta total anual y estudiar un alivio fiscal decreciente con la renta.",
+    "cita": "Proponer la exención del IRPF para las pensiones bajas según la renta total anual de la persona y estudiar un alivio fiscal que disminuya gradualmente a medida que aumente dicha renta, de acuerdo con el apartado 7.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Pensiones",
+    "resumen": "Publicar un seguimiento trimestral de los gastos básicos de pensionistas y evaluar compensaciones si suben más que el IPC dos trimestres seguidos.",
+    "cita": "Publicar un seguimiento trimestral de estos gastos. Abrir una evaluación de compensaciones cuando su coste conjunto crezca por encima del IPC general durante dos trimestres consecutivos. Priorizar a los hogares pensionistas de menor renta y tener en cuenta el tamaño del hogar.",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Pensiones",
+    "resumen": "Revisar los coeficientes reductores de la jubilación anticipada en carreras largas o trabajos penosos, peligrosos o insalubres, y estudiar reducirlos o suprimirlos.",
+    "cita": "Revisar los coeficientes reductores de la jubilación anticipada en casos de largas carreras de cotización o de trabajos especialmente penosos, peligrosos o insalubres. Estudiar su reducción gradual según los años cotizados y su supresión al alcanzar los requisitos de edad y cotización que fije la reforma.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Igualdad y familia",
+    "resumen": "Priorizar la atención a la dependencia, reducir listas de espera y coordinar sanidad, servicios sociales y cuidados de larga duración.",
+    "cita": "Priorizar la atención a la dependencia, reducir listas de espera y coordinar sanidad, servicios sociales y cuidados de larga duración.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Igualdad y familia",
+    "resumen": "Ampliar centros de día, atención domiciliaria y alternativas residenciales de calidad, con inspección y estándares públicos.",
+    "cita": "Ampliar centros de día, atención domiciliaria y alternativas residenciales de calidad, sujetas a inspección y estándares públicos.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Igualdad y familia",
+    "resumen": "Impulsar la adaptación de viviendas, la accesibilidad universal, las viviendas colaborativas y programas contra la soledad no deseada.",
+    "cita": "Impulsar adaptación de viviendas, accesibilidad universal, viviendas colaborativas y programas comunitarios contra la soledad no deseada.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Igualdad y familia",
+    "resumen": "Combatir el edadismo y facilitar que quien lo desee comparta experiencia o siga trabajando y emprendiendo.",
+    "cita": "Combatir el edadismo y facilitar, dentro de reglas claras, que quienes lo deseen compartan experiencia o sigan trabajando y emprendiendo.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Sanidad",
+    "resumen": "Reforzar la atención primaria, la salud mental, la prevención y la atención a enfermedades crónicas.",
+    "cita": "Reforzar atención primaria, salud mental, prevención y atención a enfermedades crónicas.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Sanidad",
+    "resumen": "Mejorar la planificación y estabilidad de las plantillas sanitarias y publicar indicadores comparables de esperas, calidad y resultados.",
+    "cita": "Mejorar la planificación y estabilidad de las plantillas sanitarias y publicar indicadores comparables de esperas, calidad y resultados.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Sanidad",
+    "resumen": "Facilitar que la información clínica acompañe al paciente entre territorios, con garantías de privacidad y seguridad.",
+    "cita": "Facilitar que la información clínica acompañe al paciente entre territorios, con garantías estrictas de privacidad y seguridad.",
+    "pagina": 2,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Sanidad",
+    "resumen": "Coordinar la asistencia sanitaria con dependencia y servicios sociales y extender los cuidados domiciliarios cuando sean adecuados.",
+    "cita": "Coordinar la asistencia sanitaria con dependencia y servicios sociales, y extender cuidados domiciliarios cuando sean adecuados.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Economía y empresas",
+    "resumen": "Reducir trámites y cargas para autónomos, microempresas y pymes y mejorar su acceso a orientación y financiación.",
+    "cita": "Reducir trámites y cargas evitables para autónomos, microempresas y pymes y mejorar su acceso a orientación y financiación.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Educación",
+    "resumen": "Ampliar la Formación Profesional y la formación dual, conectándolas con necesidades verificables de empresas y territorios.",
+    "cita": "Ampliar la Formación Profesional y la formación dual, conectándolas con necesidades verificables de empresas y territorios.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Empleo y salarios",
+    "resumen": "Ofrecer recualificación en competencias digitales, inteligencia artificial, energía y otros cambios que transforman los empleos.",
+    "cita": "Ofrecer recualificación en competencias digitales, inteligencia artificial, energía y otros cambios que transforman los empleos.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Empleo y salarios",
+    "resumen": "Impulsar el empleo de larga duración y la participación laboral de mayores de 50 años, incluida la transmisión de conocimiento.",
+    "cita": "Impulsar el empleo de larga duración y la participación laboral de mayores de 50 años, incluida la transmisión de conocimiento.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Igualdad y familia",
+    "resumen": "Favorecer la conciliación y la corresponsabilidad, evaluando sus efectos sobre empleo, cuidados y bienestar familiar.",
+    "cita": "Favorecer la conciliación y la corresponsabilidad, evaluando sus efectos sobre empleo, cuidados y bienestar familiar.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Vivienda",
+    "resumen": "Aumentar la vivienda asequible con colaboración entre administraciones, movilización de suelo disponible y rehabilitación.",
+    "cita": "Aumentar la oferta de vivienda asequible mediante colaboración entre administraciones, movilización de suelo disponible y rehabilitación, respetando competencias.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Vivienda",
+    "resumen": "Reducir plazos de planeamiento y licencias con procesos transparentes y criterios de calidad urbana y ambiental.",
+    "cita": "Reducir plazos de planeamiento y licencias con procesos transparentes y criterios de calidad urbana y ambiental.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Vivienda",
+    "resumen": "Facilitar vivienda adaptada para mayores y personas con discapacidad y soluciones de emancipación juvenil.",
+    "cita": "Facilitar vivienda adaptada para mayores y personas con discapacidad, así como soluciones de emancipación juvenil.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar escuelas infantiles y servicios de conciliación y evaluar las ayudas familiares según sus resultados y equidad.",
+    "cita": "Reforzar escuelas infantiles y servicios de conciliación y evaluar las ayudas familiares según sus resultados y equidad.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Educación",
+    "resumen": "Promover un marco educativo fruto de acuerdos amplios y evaluación pública, dentro de las competencias constitucionales y autonómicas.",
+    "cita": "Promover un marco educativo fruto de acuerdos amplios y evaluación pública, dentro de las competencias constitucionales y autonómicas.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Educación",
+    "resumen": "Extender las competencias digitales, financieras, cívicas y de seguridad en internet.",
+    "cita": "Extender competencias digitales, financieras, cívicas y de seguridad en internet.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Educación",
+    "resumen": "Preparar a estudiantes y trabajadores para la inteligencia artificial, fomentando su uso seguro y responsable.",
+    "cita": "Preparar a estudiantes y trabajadores para la inteligencia artificial, fomentando su uso seguro y responsable.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Impuestos",
+    "resumen": "Evaluar impuestos y beneficios fiscales por equidad, eficacia y coste, publicando los resultados.",
+    "cita": "Evaluar impuestos y beneficios fiscales por equidad, eficacia y coste, publicando sus resultados.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Impuestos",
+    "resumen": "Estudiar ajustes tributarios para rentas bajas y medias de pensionistas y hogares vulnerables, con estimación de impacto y financiación.",
+    "cita": "Estudiar ajustes tributarios para rentas bajas y medias de pensionistas y hogares vulnerables, con estimación de impacto y financiación.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Impuestos",
+    "resumen": "Revisar cargas sobre vivienda habitual, ahorro y transmisiones patrimoniales, con seguridad jurídica y protección de hogares vulnerables.",
+    "cita": "Revisar cargas sobre vivienda habitual, ahorro y transmisiones patrimoniales con criterios de seguridad jurídica y protección de hogares vulnerables.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Economía y empresas",
+    "resumen": "Simplificar obligaciones de autónomos y pequeñas empresas, sobre todo cuando contratan y crean actividad.",
+    "cita": "Simplificar obligaciones de autónomos y pequeñas empresas, especialmente cuando contratan y crean actividad.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Seguridad y justicia",
+    "resumen": "Mejorar medios y organización judicial para reducir demoras y facilitar la atención a víctimas.",
+    "cita": "Mejorar medios y organización judicial para reducir demoras y facilitar atención a víctimas.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reforzar la prevención y coordinación policial y la protección frente a ciberdelitos, estafas y delitos contra personas mayores.",
+    "cita": "Reforzar prevención y coordinación policial y la protección frente a ciberdelitos, estafas y delitos contra personas mayores.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Seguridad y justicia",
+    "resumen": "Proteger la privacidad y los datos personales en los servicios públicos y en el uso de nuevas tecnologías.",
+    "cita": "Proteger privacidad y datos personales en los servicios públicos y en el uso de nuevas tecnologías.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Inmigración",
+    "resumen": "Combatir las redes de tráfico y explotación de personas y cooperar con países de origen y tránsito y con la UE.",
+    "cita": "Combatir las redes de tráfico y explotación de personas y cooperar con países de origen y tránsito y con la Unión Europea.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Inmigración",
+    "resumen": "Coordinar acogida e integración con itinerarios de idioma, formación, acceso al empleo y conocimiento de las leyes.",
+    "cita": "Coordinar acogida e integración con itinerarios de idioma, formación, acceso al empleo y conocimiento de las leyes.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Inmigración",
+    "resumen": "Publicar costes, objetivos y resultados de los programas de acogida e integración con indicadores claros.",
+    "cita": "Publicar costes, objetivos y resultados de programas de acogida e integración con indicadores claros.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Economía y empresas",
+    "resumen": "Mejorar la transparencia de la cadena alimentaria y la capacidad negociadora de los productores.",
+    "cita": "Mejorar la transparencia de la cadena alimentaria y la capacidad negociadora de productores.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Economía y empresas",
+    "resumen": "Promover controles sanitarios y de calidad equivalentes dentro del marco europeo.",
+    "cita": "Promover controles sanitarios y de calidad equivalentes dentro del marco europeo.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Energía y clima",
+    "resumen": "Modernizar regadíos y fomentar el ahorro, la reutilización y la gestión eficiente del agua.",
+    "cita": "Modernizar regadíos y fomentar ahorro, reutilización y gestión eficiente del agua.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Energía y clima",
+    "resumen": "Planificar el agua con cooperación territorial, evidencia técnica y evaluación ambiental, usando desalación cuando resulte adecuada.",
+    "cita": "Planificar el agua con cooperación territorial, evidencia técnica y evaluación ambiental, utilizando desalación cuando resulte adecuada.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Modelo territorial",
+    "resumen": "Combatir la despoblación acercando conectividad, servicios públicos y actividad económica al medio rural.",
+    "cita": "Combatir la despoblación acercando conectividad, servicios públicos y actividad económica al medio rural.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Energía y clima",
+    "resumen": "Favorecer la eficiencia energética, el autoconsumo, el almacenamiento y la modernización de redes.",
+    "cita": "Favorecer eficiencia energética, autoconsumo, almacenamiento y modernización de redes.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Energía y clima",
+    "resumen": "Promover el transporte público y la electrificación donde sean eficaces, accesibles y adecuados al territorio.",
+    "cita": "Promover transporte público y electrificación donde sean eficaces, accesibles y adecuados al territorio.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Economía y empresas",
+    "resumen": "Apoyar a pymes y ciudadanía en la adopción tecnológica y ampliar las competencias digitales para todas las edades.",
+    "cita": "Apoyar a pymes y ciudadanía en la adopción tecnológica y ampliar competencias digitales para todas las edades.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Exigir seguridad, transparencia, supervisión humana y protección de datos en los sistemas de inteligencia artificial de uso público.",
+    "cita": "Exigir seguridad, transparencia, supervisión humana adecuada y protección de datos en sistemas de inteligencia artificial de uso público.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Proteger la libertad de prensa, el pluralismo y la independencia profesional de los medios.",
+    "cita": "Proteger libertad de prensa, pluralismo e independencia profesional de los medios.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Publicar criterios objetivos de asignación de la publicidad institucional.",
+    "cita": "Publicar criterios objetivos de asignación de publicidad institucional.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Promover la educación mediática y herramientas contra estafas y contenidos fraudulentos, respetando la libertad de expresión.",
+    "cita": "Promover educación mediática y herramientas contra estafas y contenidos fraudulentos, respetando la libertad de expresión.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Seguridad y justicia",
+    "resumen": "Prevenir y atender la violencia y proteger a personas vulnerables, respetando la ley y la dignidad humana.",
+    "cita": "Prevenir y atender la violencia y proteger a personas vulnerables, con actuaciones respetuosas con la ley y la dignidad humana.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Impulsar el diálogo intergeneracional y la participación ciudadana en la evaluación de servicios.",
+    "cita": "Impulsar diálogo intergeneracional y participación ciudadana en la evaluación de servicios.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Defensa y política exterior",
+    "resumen": "Coordinar posiciones europeas en energía, agricultura, seguridad, tecnología, migración y bienestar.",
+    "cita": "Coordinar posiciones europeas en energía, agricultura, seguridad, tecnología, migración y bienestar.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Defensa y política exterior",
+    "resumen": "Promover una cooperación internacional orientada a prevenir conflictos, defender derechos humanos y crear oportunidades de desarrollo.",
+    "cita": "Promover cooperación internacional orientada a prevenir conflictos, defender derechos humanos y crear oportunidades de desarrollo.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Publicar para cada medida una ficha con punto de partida, objetivo, calendario, coste, financiación e indicador, e informar al menos una vez al año.",
+    "cita": "Para cada medida que se ponga en marcha, la administración competente publicará una ficha con la situación de partida, el objetivo, el calendario, el coste previsto, la fuente de financiación y el indicador de resultado. Se informará del avance al menos una vez al año, con datos comprensibles y desglosados cuando sea posible por edad, territorio y situación de vulnerabilidad.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Evaluar los programas relevantes antes de ampliarlos o mantenerlos, atendiendo a resultados y efectos no previstos.",
+    "cita": "Evaluar los programas relevantes antes de ampliarlos o mantenerlos, atendiendo a resultados y efectos no previstos.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "3e",
+    "tema": "Otros",
+    "resumen": "Abrir canales de participación para ciudadanía, profesionales, entidades sociales y sectores afectados.",
+    "cita": "Abrir canales de participación para ciudadanía, profesionales, entidades sociales y sectores afectados.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Diseñar, adaptar y evaluar toda ley y política pública pensando en sus efectos sobre el medio y las sociedades rurales.",
+    "cita": "Toda ley y política pública se diseñará, adaptará y evaluará pensando en sus efectos sobre el medio y las sociedades rurales.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Priorizar la cohesión territorial y la eficiencia del gasto e incorporar la perspectiva rural al diseño y rendición de las cuentas.",
+    "cita": "Daremos prioridad a la cohesión territorial y a la eficiencia del gasto, e incorporaremos la perspectiva rural al diseño de las cuentas y a su rendición.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Diseñar y evaluar las políticas públicas con el objetivo de equilibrar el territorio.",
+    "cita": "Las políticas públicas se diseñarán y evaluarán con el objetivo de equilibrar el territorio.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Aplicar en los fondos europeos los criterios de la UE para comarcas escasamente pobladas, con desventajas demográficas graves y permanentes.",
+    "cita": "Aplicar los criterios de la UE para comarcas escasamente pobladas, con desventajas demográficas graves y permanentes.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Actualizar de forma efectiva la Ley 45/2007 de Desarrollo Sostenible del Medio Rural.",
+    "cita": "Actualizar de forma efectiva la Ley 45/2007.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Moratoria en grandes parques renovables y líneas de muy alta tensión para ordenar el proceso.",
+    "cita": "Moratoria en grandes parques renovables y líneas de muy alta tensión, para ordenar el proceso.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Aplicar la normativa ambiental y de paisaje con un nuevo modelo de implantación que respete a propietarios y compense a comunidades locales.",
+    "cita": "Aplicaremos la normativa ambiental, de ordenación del territorio y de paisaje, con un nuevo modelo físico de implantación que respete los derechos de los propietarios del suelo y compense a las comunidades locales.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Cobrar a los macroparques un canon destinado al desarrollo local.",
+    "cita": "Los macroparques pagarán un canon que se destinará al desarrollo local.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Actualizar la ley de cambio climático con planes estratégicos municipales de energía, planes sectoriales y modelo físico de implantación.",
+    "cita": "Actualizar la ley de cambio climático con instrumentos para llevarla al territorio: planes estratégicos municipales de energía, planes sectoriales y modelo físico de implantación.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Cambiar el sistema de subastas para que accedan pequeños inversores y comunidades.",
+    "cita": "Cambiaremos el sistema de subastas para que accedan pequeños inversores y comunidades.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Controlar estrictamente las instituciones que intervienen en las renovables y sus relaciones con las empresas del sector.",
+    "cita": "Impulsaremos un control estricto de las instituciones que intervienen en estos asuntos y de las relaciones entre quienes las dirigen y las empresas del sector.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Exigir a los centros de datos las máximas garantías ambientales, sociales y de transparencia.",
+    "cita": "Si vienen, será con las máximas garantías ambientales, sociales y de transparencia.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Transformar en el territorio lo que se extraiga en los proyectos mineros autorizables.",
+    "cita": "Que lo que se extrae, si es autorizable, se transforme aquí.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Transponer por completo las directivas del paquete de invierno para que el ciudadano produzca y consuma energía.",
+    "cita": "Transposición completa de las directivas del paquete de invierno, para que el ciudadano activo (prosumidor) produzca y consuma energía.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Abrir las redes al autoconsumo y reservar el 20 % de la capacidad de acceso en los nudos de transporte a pequeñas instalaciones.",
+    "cita": "Abriremos las redes a la conexión de instalaciones de autoconsumo y reservaremos el 20 % de la capacidad de acceso en los nudos de la red de transporte para las pequeñas instalaciones.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Apoyar el autoconsumo y un modelo de pequeñas renovables repartidas por el territorio y cerca del consumo.",
+    "cita": "Apoyo al autoconsumo residencial, industrial, agropecuario y de servicios, y a un modelo de pequeñas fuentes renovables repartidas por el territorio y cerca de donde se consume.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Apostar por las comunidades ciudadanas de energía y por sistemas municipales de almacenamiento.",
+    "cita": "Apuesta decidida por las comunidades ciudadanas de energía y las de energías renovables, en las ciudades y en el medio rural, y por sistemas municipales de almacenamiento.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Compromiso voluntario de comarcas, ciudades y gobiernos locales contra el cambio climático, con más participación y mejor diseño urbano.",
+    "cita": "Compromiso voluntario de comarcas, ciudades y gobiernos locales contra el cambio climático, con más participación ciudadana, mejores espacios públicos y mejor diseño urbano.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Fomentar proyectos renovables ligados a las comunidades de regantes.",
+    "cita": "Fomentaremos proyectos renovables ligados a las comunidades de regantes.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Programa de rehabilitación con un fondo de ayudas para 700.000 viviendas al año, el 30 % para vivienda rural.",
+    "cita": "Un programa de rehabilitación con soluciones técnicas y un fondo de ayudas para 700.000 viviendas al año, de las que el 30 % se destinará a vivienda rural.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Cumplir los objetivos de reducción de emisiones para 2030 y la neutralidad climática en 2050, protegiendo a consumidores vulnerables.",
+    "cita": "Cumplir los objetivos de reducción de emisiones para 2030 y la neutralidad climática en 2050, con políticas de mitigación, adaptación y resiliencia, y protección a los consumidores vulnerables en la factura energética.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Impuestos",
+    "resumen": "Crear un fondo soberano que grave las actividades extractivas para mejorar infraestructuras y servicios públicos.",
+    "cita": "Impulsaremos la creación de un instrumento que grave las actividades extractivas para generar beneficios a la ciudadanía como mejora de infraestructuras y servicios públicos.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Recuperar el canon de los años 80 con el que las provincias consumidoras compensaban a las productoras de energía.",
+    "cita": "Recuperaremos el canon que existió en los años 80 por el que las provincias productoras de energía eran compensadas por aquellas consumidoras.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Exigir a los proyectos extractivos un plan de empleo con seguimiento y sanciones si no se cumple.",
+    "cita": "Todos los proyectos extractivos deben ir acompañados de un plan de empleo serio, con seguimiento y sanciones si no se cumple.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Nuevo Plan estatal de actuación específico para Teruel, con objetivos a corto, medio y largo plazo e inversiones coordinadas entre ministerios.",
+    "cita": "Nuevo Plan estatal de actuación específico para Teruel. · fijación de objetivos a corto, medio y largo plazo, y programación coordinada de inversiones desde los distintos Ministerios.",
+    "pagina": 5,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Aumentar el FITE hasta 100 millones de euros y destinarlo a proyectos estratégicos, no a gastos ordinarios del Gobierno de Aragón.",
+    "cita": "Pediremos que se incremente hasta los 100 millones de euros y exigiremos que se destinen a proyectos estratégicos de desarrollo, que generen actividad económica y empleo, no a gastos e inversiones ordinarias que corresponden al Gobierno de Aragón.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Reformar la financiación autonómica para reflejar el coste real de los servicios según despoblación, orografía, dispersión y densidad.",
+    "cita": "Reforma de la financiación autonómica para que los criterios reflejen el coste efectivo real de los servicios, con la despoblación, orografía, dispersión y densidad de población tenidas en cuenta.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Que el Estado asuma el coste efectivo del nivel mínimo de sanidad, educación y servicios sociales.",
+    "cita": "Asumirá el coste del nivel mínimo de los servicios públicos del Estado del bienestar (sanidad, educación y servicios sociales) según su coste efectivo.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Reformar con urgencia la financiación local, con un marco estable y suficiente para los ayuntamientos de menos de 2.000 habitantes.",
+    "cita": "Reforma urgente y prioritaria de la financiación local, con un marco estable y suficiente para los ayuntamientos de menos de 2.000 habitantes.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Negociar el reconocimiento y la subsanación de la deuda histórica del Estado con Teruel.",
+    "cita": "Negociaremos el reconocimiento y la subsanación de la deuda histórica del Estado con Teruel, teniendo en cuenta los servicios infrafinanciados y el déficit histórico en infraestructuras.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Impuestos",
+    "resumen": "Sistema fiscal equitativo y progresivo con bonificaciones para objetivos como asentar y atraer población en la provincia.",
+    "cita": "Un sistema general, equitativo y progresivo, acorde con los servicios que sostiene, que a su vez aplique bonificaciones para el desarrollo de objetivos estratégicos prioritarios para la provincia, como el de asentar y atraer población.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Crear un fondo para proyectos empresariales gestionado desde la SEPI en colaboración con entidades bancarias.",
+    "cita": "Fondo específico para financiación de proyectos empresariales, creado y gestionado desde la SEPI (Sociedad Estatal de Participaciones Industriales) en colaboración con entidades bancarias.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Trabajar por un Pacto de Estado por una sanidad pública, universal y de calidad que llegue también al medio rural.",
+    "cita": "Trabajaremos por un Pacto de Estado por una sanidad pública, universal y de calidad, que llegue a todas las personas, también a las del medio rural.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Pacto nacional para llevar la financiación de la atención primaria hasta el 25 % del presupuesto sanitario.",
+    "cita": "Atención primaria. Un pacto nacional para llevar su financiación hasta el 25 % del presupuesto sanitario, con recursos suficientes que lleguen al medio rural.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Formar, atraer y retener personal sanitario con mejores condiciones, salarios y carrera, sobre todo en centros rurales.",
+    "cita": "Formar, atraer y retener talento con mejores condiciones, salarios y carrera profesional, sobre todo en los centros rurales, y evitar que se marche al extranjero.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Ajustar las plazas MIR a las necesidades y cubrir vacaciones, bajas, formación y permisos del personal.",
+    "cita": "Ajustaremos las plazas MIR a las necesidades y cubriremos las vacaciones, bajas, formación continua, permisos de natalidad,.. para garantizar el servicio sin sobrecarga de los compañeros.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Reducir las listas de espera de diagnóstico y cirugía actuando sobre los cuellos de botella.",
+    "cita": "Reducirlas, en diagnóstico y en cirugía, actuando sobre los cuellos de botella: consulta, diagnóstico, pruebas e intervención.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Listas de espera únicas, accesibles y con los mismos parámetros en todas las comunidades autónomas.",
+    "cita": "Las listas de espera deben ser únicas, accesibles y con los mismos parámetros asumidos por todas las CCAA.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Implantar el cribado de cáncer de próstata y de pulmón y mejorar los de mama, colorrectal y cuello de útero.",
+    "cita": "Apostando por mayor prevención y cribado: implantaremos el del cáncer de próstata y de pulmón y mejoraremos los de mama, colorrectal y cuello de útero.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Que dirijan los centros sanitarios profesionales formados en gestión y crear una red pública de formación.",
+    "cita": "Los centros y administraciones sanitarias serán dirigidos por profesionales con formación en gestión sanitaria, y se creará una red pública de formación.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Historia clínica electrónica operativa al 100 % en todos los centros y en cualquier punto del Estado.",
+    "cita": "Historia clínica electrónica que funcione plenamente y esté operativa al 100% en todos centros sanitarios y en cualquier punto del Estado.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Cartera de servicios del Sistema Nacional de Salud coordinada con las comunidades, incluidas salud mental y bucodental.",
+    "cita": "Cartera de servicios del Sistema Nacional de Salud, coordinada con las comunidades autónomas: salud pública, primaria, especializada, urgencias, farmacia, ortoprótesis, productos dietéticos, salud mental y bucodental.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Transporte sanitario urgente público, 24 horas los 365 días, con vehículos sostenibles y personal sanitario.",
+    "cita": "El transporte sanitario urgente funcionará 24 horas, 365 días al año, será público, con vehículos sostenibles, personal sanitario y equipamiento adecuado.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Sanidad",
+    "resumen": "Crear un panel público de indicadores de salud y de efectos en la calidad de vida.",
+    "cita": "Panel de indicadores de salud, público, con datos del sistema sanitario y de sus efectos en la calidad de vida (esperanza de vida, esperanza de vida en buena salud, acceso a cuidados).",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Educación",
+    "resumen": "Reforzar la red de centros, impulsar la escolarización de 0 a 3 años, ampliar la oferta formativa y fijar ratios mínimos de profesorado.",
+    "cita": "Reforzaremos la red de centros educativos, impulsaremos la escolarización de 0 a 3 años, ampliaremos la oferta formativa y estableceremos ratios mínimos de profesorado y profesionales que garanticen una atención adecuada al alumnado, teniendo en cuenta las particularidades del medio rural.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Educación",
+    "resumen": "Reconocer la labor docente y promover una FP vinculada al territorio y la formación continua.",
+    "cita": "Reconoceremos la labor docente y promoveremos una Formación Profesional vinculada a las necesidades y oportunidades del territorio, así como la formación continua a lo largo de la vida.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Reconocer los servicios sociales como derecho subjetivo y universal mediante una Ley Estatal General Básica.",
+    "cita": "Para ello, impulsaremos el reconocimiento de los servicios sociales como un derecho subjetivo y universal mediante una Ley Estatal General Básica que garantice unas prestaciones básicas para toda la ciudadanía.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Servicios sociales de proximidad en todos los municipios y un catálogo común de prestaciones básicas garantizadas.",
+    "cita": "Promoveremos servicios sociales de proximidad en todos los municipios, facilitando el acceso efectivo a la atención primaria y especializada, especialmente en el medio rural, y estableceremos un catálogo común de prestaciones básicas garantizadas con estándares de calidad, cobertura y atención que aseguren la igualdad de derechos en todo el territorio.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Financiación suficiente y estable para los servicios sociales municipales y comarcales y atención social profesionalizada y preventiva.",
+    "cita": "Asimismo, defenderemos una financiación pública suficiente, estable y corresponsable, que refuerce los recursos económicos, humanos y materiales de los servicios sociales municipales y comarcales, y potenciaremos una atención social profesionalizada y preventiva, que garantice el acompañamiento, la autonomía personal, la prevención de las situaciones de vulnerabilidad y la inclusión social.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar la atención domiciliaria, la teleasistencia y los cuidados compartidos entre municipios, y atraer profesionales al medio rural.",
+    "cita": "Apostamos por reforzar la atención domiciliaria y comunitaria, la ayuda a domicilio, la teleasistencia y los centros de proximidad; impulsar modelos flexibles e innovadores de cuidados compartidos entre municipios y garantizar medidas específicas para atraer y fijar profesionales en el medio rural, facilitando la cobertura de puestos de difícil contratación.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Combatir la soledad no deseada de las personas mayores y ampliar los servicios de comedor.",
+    "cita": "Combatiremos la soledad no deseada y ampliaremos los servicios de comedor.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Impulsar las «islas de cuidados», un modelo de vecindad sociosanitaria para mayores.",
+    "cita": "Impulsaremos las «islas de cuidados», un modelo de vecindad sociosanitaria con actividad, deporte, alimentación sana y rutinas que favorezcan el bienestar emocional.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Seguridad y justicia",
+    "resumen": "Más guardias civiles, cuarteles mantenidos, mejor vivienda y medios tecnológicos en el medio rural.",
+    "cita": "Más guardias civiles, cuarteles mantenidos y con mejor vivienda, cooperación con la administración local y medios suficientes, incluida nueva tecnología (telecomunicaciones, videovigilancia, drones).",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Parques públicos de vivienda en alquiler en todos los municipios.",
+    "cita": "Parques Público de Vivienda en todos los municipios en modalidad de alquiler.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Promover al menos cuatro viviendas públicas por localidad en las localidades pequeñas.",
+    "cita": "Para localidades pequeñas, al menos cuatro vivendas por localidad.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Impulsar la rehabilitación para recuperar pueblos y ciudades.",
+    "cita": "Impulso a la rehabilitación para recuperar nuestros pueblos y ciudades",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Mejorar la eficiencia energética y la accesibilidad en edificios públicos y privados.",
+    "cita": "Mejora de eficiencia energética y accesibilidad en edificios públicos y privados.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Impulsar la construcción y puesta en alquiler de vivienda pública en el medio rural.",
+    "cita": "Impulsaremos la construcción y puesta en alquiler de vivienda pública en el medio rural.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Llevar las viviendas protegidas a todo el territorio, no solo a las grandes ciudades.",
+    "cita": "Es hora de que las Viviendas Protegidas lleguen a todo el territorio y no se queden únicamente en las grandes ciudades.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Impulsar medidas para poner más viviendas en alquiler en el medio rural.",
+    "cita": "Impulsaremos medidas para poner más viviendas en alquiler en el medio rural para potenciar la repoblación.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Permitir limitar las viviendas de uso turístico a un porcentaje (5 % por ejemplo) del parque en municipios con alta presión turística.",
+    "cita": "En municipios con posible alta presión turística, permitir la limitación del número de viviendas de uso turístico a un porcentaje (5% por ejemplo) sobre el parque de vivienda existente, de forma que se garantice la disponibilidad de viviendas para el uso residencial normal de los vecinos, y por otro lado se difunda hacia localidades cercanas la actividad económica generada por el turismo.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Aprovechar el suelo rural para ofrecer vivienda protegida con más superficie y espacios libres, nueva o rehabilitada.",
+    "cita": "Aprovechar la amplia oferta de suelo y su menor coste para ofrecer un tipo de vivienda más atractivo que garantice mayor calidad de vida frente a la vivienda urbana, con más superficie y espacios libres propios.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Autovía A-68: ejecutar los tramos entre Fuentes de Ebro y Ventas de Valdealgorfa y aprobar el estudio de su prolongación hasta Vinarós.",
+    "cita": "Desarrollar los proyectos y ejecutar las obras de los tramos entre Fuentes de Ebro y Ventas de Valdealgorfa, así como tramitar y aprobar el estudio informativo para su prolongación hasta el Mediterráneo (Vinarós)",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Autovía A-40: desbloquear el anteproyecto Cuenca-Teruel, aprobar la autovía y arreglar la N-330 entre Villastar y Ademuz.",
+    "cita": "Desbloquear el Anteproyecto Cuenca-Teruel, aprobar la realización de la autovía, así como de manera paralela el arreglo de la N 330 entre Villastar y Ademuz.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Prolongar la A-40 por las Cuencas Mineras, Alcañiz, Reus y Tarragona, y por Caspe, Fraga y Lleida.",
+    "cita": "Prolongación de la A40 por las Cuencas Mineras, Alcañiz, Reus y Tarragona, así como Caspe, Fraga y Lleida.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Autovía A-25: aprobar el estudio informativo, redactar los proyectos y licitar los tramos entre Monreal del Campo y Alcolea del Pinar.",
+    "cita": "Aprobar el nuevo estudio informativo, redactar los proyectos y licitar los tramos para conectar Monreal del campo (Jiloca) con Alcolea del Pinar.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Planificar la continuidad de la A-25 hasta Montalbán.",
+    "cita": "Planificar la continuidad de la autovía hasta Montalbán (allí conexión con la prolongación de la A40).",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Nueva autovía Teruel–Requena–Almansa para conectar la A23 con Alicante y Murcia.",
+    "cita": "Nueva autovía Teruel–Requena–Almansa, para conectar la A23 con Alicante y Murcia.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Continuar o iniciar las variantes del PITVI en Utrillas, Montalbán, Calanda y otras localidades.",
+    "cita": "Continuar (o iniciar) los trámites de las variantes incluidas en el PITVI: Utrillas, Montalbán, Calanda (DIA caducada),La Mata de los Olmos (DIA caducada), Villalba Baja, Gargallo, Valdeltormo, Calaceite, Vivel del Río y Martín del Río.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Nuevos enlaces en la A23: acceso al aeropuerto, enlace completo en Calamocha Sur y nuevo enlace en el km 191.",
+    "cita": "Acceso directo al aeropuerto, convertir en enlace completo la salida Calamocha Sur, y nuevo enlace en el km. 191, de acuerdo con los compromisos adquiridos por el Ministerio en el PGE 2023.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Plan de infraestructuras que una Teruel y el este de Aragón con el interior y el litoral mediterráneo mediante autovías.",
+    "cita": "Un plan de infraestructuras que una de norte a sur Teruel y el sector oriental de Aragón con el interior peninsular y el litoral mediterráneo, mediante la conexión de autovías.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Red mallada de carreteras que llegue a todas las comarcas y plan estatal para modernizar las provinciales.",
+    "cita": "Red mallada de carreteras para permeabilizar el territorio y superar el aislamiento del interior, con rutas que lleguen a todas las comarcas, mejor integración de las carreteras autonómicas y provinciales con la estatal y un plan estatal para ayudar a la modernización de las provinciales.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Aprobar definitivamente el Estudio Informativo del Corredor Cantábrico-Mediterráneo entre Zaragoza y Teruel.",
+    "cita": "Aprobación definitiva del Estudio Informativo entre Zaragoza y Teruel.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Retirar el Estudio Informativo del tramo Sagunto-Teruel y presentar otro con doble vía electrificada, alta capacidad y uso mixto.",
+    "cita": "Retirada del Estudio Informativo expuesto al público para el tramo Sagunto-Teruel y presentación de uno de acuerdo con las características técnicas inicialmente previstas, como en el resto del corredor: doble vía electrificada, alta capacidad, uso mixto pasajeros y mercancías.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Mantener la velocidad alta (200-250) en todo el trazado del corredor.",
+    "cita": "No vamos a renunciar a la velocidad alta (200-250) en todo el trazado.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Terminar la electrificación Zaragoza–Teruel y abrirla al tráfico, y comenzar la del tramo Teruel–Sagunto.",
+    "cita": "Finalizar la electrificación del tramo Zaragoza–Teruel y su inmediata apertura al tráfico; comenzar sin más demoras la del tramo Teruel–Sagunto.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Poner en funcionamiento la plataforma ferroviaria de PLATEA y su conexión con el aeropuerto para carga.",
+    "cita": "Puesta en funcionamiento de la plataforma ferroviaria de PLATEA , y de la conexión con el aeropuerto para intermodalidad de carga aero-ferroviaria.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Dejar operativos los dos apartaderos de 750 m entre Teruel y Sagunto y terminar el de Cella.",
+    "cita": "Dejar operativos los dos apartaderos pendientes de 750 m. entre Teruel y Sagunto, así como la finalización del de Cella.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Circunvalación ferroviaria de Teruel por el norte para sacar las mercancías del casco urbano.",
+    "cita": "Circunvalación ferroviaria de la ciudad de Teruel, para evitar el paso de mercancías -algunas de ellas peligrosas- por el casco urbano de la ciudad, por el norte según la propuesta trasladada al Ministerio por Teruel Existe e incluida en las fases iniciales del estudio Informativo.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Estación intermodal de Teruel que combine ferrocarril, autovía y aeropuerto.",
+    "cita": "Estación intermodal de Teruel, combinando ferrocarril, autovía y aeropuerto.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Puerto seco de la Autoridad Portuaria de Valencia en Teruel.",
+    "cita": "Puerto seco de la Autoridad Portuaria de Valencia en Teruel.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Ramal ferroviario Samper de Calanda–Alcañiz para conectar Zaragoza con el Bajo Aragón y Motorland.",
+    "cita": "Ramal Samper de Calanda–Alcañiz para conectar Zaragoza con el Bajo Aragón y Motorland.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Reconvertir la vía del tren minero de Andorra para viajeros y mercancías.",
+    "cita": "Reconversión de la vía del tren minero de Andorra para viajeros y mercancías.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Tren directo Teruel–Madrid de altas prestaciones, en ambas direcciones y de forma inmediata.",
+    "cita": "Tren directo Teruel–Madrid, con trenes de altas prestaciones, en ambas direcciones y de forma inmediata.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Más frecuencia, mejores horarios y más velocidad en los regionales Teruel–Zaragoza y Teruel–Valencia.",
+    "cita": "Más frecuencia, mejores horarios y más velocidad en los regionales Teruel–Zaragoza y Teruel–Valencia, que permita ir y volver en el mismo día.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Recuperar la larga distancia Bilbao–Zaragoza–Teruel–Cartagena.",
+    "cita": "Recuperación de la larga distancia Bilbao–Zaragoza–Teruel–Cartagena.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "No perder líneas ni paradas de autobús, modernizar el servicio y desarrollar el transporte bajo demanda en el medio rural.",
+    "cita": "No perder líneas ni paradas en el Plan estatal de viajeros, modernizar el servicio y desarrollar el transporte bajo demanda para que nadie se quede sin transporte público en el medio rural.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Nodos de fibra a menos de 20 km de cada población y al menos 300 Mbps simétricos en zonas rurales.",
+    "cita": "Cumplir el Mecanismo «Conectar Europa»: nodos de fibra a menos de 20 km de cada población y al menos 300 Mbps simétricos en zonas rurales, usando las ayudas estatales para llevar fibra o accesos equivalentes a las zonas blancas NGA.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Implantar el 5G en la España vaciada con estándares reales de conectividad.",
+    "cita": "Lo implantaremos en la España vaciada, con estándares reales de conectividad.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Formación digital, estudios de digitalización, administración electrónica accesible y digitalización de sectores, con más seguridad digital.",
+    "cita": "Formación en competencias digitales, estudios universitarios y de FP centrados en digitalización, administración electrónica accesible, digitalización de agricultura, industria, turismo, sanidad y educación, y más seguridad digital.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Pagar la PAC por lo que se produce hoy, no por lo que se sembraba hace veinte años.",
+    "cita": "Pagar por lo que se produce hoy, no por lo que se sembraba hace veinte años.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Revisar y equiparar las asignaciones de la PAC entre territorios colindantes y compensar las que la PAC 2023-2027 no corrigió.",
+    "cita": "Revisar y equiparar las diferencias de asignación entre actividades y estratos similares de distintos territorios colindantes, y compensar las que la PAC 2023-2027 no ha corregido.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Defender la agricultura familiar frente a la uberización del campo y los fondos de inversión.",
+    "cita": "Defenderemos la agricultura familiar frente a la uberización del campo y frente a fondos de inversión que solo buscan rentabilizar la tierra, sin fijar población ni generar riqueza local.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Destinar la tierra y el agua antes a la agricultura que a proyectos tecnológicos sin retorno en el territorio.",
+    "cita": "La tierra y el agua, antes para la agricultura que para proyectos tecnológicos que no dejan retorno real en el territorio.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Apoyar a las explotaciones familiares agrícolas y ganaderas, con especial atención a los jóvenes.",
+    "cita": "Apoyo a explotaciones familiares, agrícolas y ganaderas, para mejorar su rentabilidad e innovación, con especial atención a los jóvenes.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Ganadería familiar y extensiva frente a las megagranjas y una ley de agricultura familiar con medidas de fomento.",
+    "cita": "Ganadería familiar y extensiva frente a las megagranjas, y una ley de agricultura familiar con medidas de fomento diferenciadas.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Apoyo extraordinario a la ganadería extensiva por su aportación a la biodiversidad y a la limpieza de los montes.",
+    "cita": "Apoyo extraordinario, por su aportación a la biodiversidad y a la limpieza de los montes, que durante milenios han protegido el territorio del fuego.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Defender precios justos, modernizar el sector agroalimentario y reforzar su peso en la cadena alimentaria.",
+    "cita": "Defenderemos precios justos, modernizaremos el sector agroalimentario y reforzaremos su peso en los beneficios de la cadena alimentaria.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Política de I+D+i agroalimentaria y silvícola coordinada por los institutos tecnológicos, con más bioseguridad.",
+    "cita": "Una política de I+D+i centrada en el sector agroalimentario y la silvicultura, coordinada por los institutos tecnológicos, con más bioseguridad en las explotaciones.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Más valor añadido, km 0 y ampliar las Denominaciones de Origen, las IGP y la marca de calidad Teruel.",
+    "cita": "Más valor añadido, productos de km 0, refuerzo y ampliación de las Denominaciones de Origen, de las IGP y de la marca de calidad Teruel , así como de las marcas comarcales, y alimentos de quinta y sexta gama.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Proteger y mejorar las masas de agua superficiales y subterráneas y garantizar el suministro.",
+    "cita": "Proteger y mejorar las masas de agua superficiales y subterráneas y garantizar el suministro sin comprometer los recursos.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Rechazar el trasvase del Ebro.",
+    "cita": "Trasvase del Ebro, no. Rechazamos esos proyectos y rebatiremos los argumentos que intentan justificarlos.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Actualizar los planes de sequía, ahorrar agua, mejorar la depuración y separar redes de pluviales y residuales.",
+    "cita": "Actualizar los planes de sequía, ahorro en todos los usos, mejor depuración para reutilizar caudales, separación progresiva de redes de pluviales y residuales, y microactuaciones de regulación.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Adaptar el Pacto del Agua al cambio climático y garantizar las demandas de los afectados por embalses y los caudales.",
+    "cita": "Adaptar el Pacto del Agua al cambio climático y garantizar las demandas de los afectados por embalses, la reserva estratégica y los caudales para cada uso y los ecológicos.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Defender los embalses, canales y regadíos sostenibles.",
+    "cita": "Defender los embalses, canales y regadíos que sean sostenibles social, ecológica y económicamente.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Defender a los usuarios del Guadalope ante la CHE tras liberar a ENDESA de sus obligaciones en Santolea.",
+    "cita": "Defensa de los usuarios del Guadalope ante la CHE tras liberar a ENDESA de sus obligaciones en el pantano de Santolea.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Completar la elevación de aguas del Ebro a la zona de Andorra sin limitar usos.",
+    "cita": "Completar la elevación de aguas del Ebro a la zona de Andorra sin limitar usos.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Construir balsas laterales en el Matarraña.",
+    "cita": "Balsas laterales en el Matarraña.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Mantener y usar la presa de los Toranes.",
+    "cita": "Mantenimiento y uso de la presa de los Toranes.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Más recursos hídricos para el abastecimiento de Teruel y su comarca.",
+    "cita": "Más recursos hídricos para el abastecimiento de Teruel y su comarca.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Mantener y limpiar riberas y cauces, con parque lineal y usos lúdico-deportivos en el embalse de Lechago.",
+    "cita": "Mantenimiento, limpieza y conservación de la vegetación natural, así como de los cauces; parque lineal y usos lúdico-deportivos en el embalse de Lechago.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Educación ambiental sobre la importancia y el uso del agua.",
+    "cita": "Educación ambiental sobre la importancia y el uso del agua.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Reconocer con acuerdos y compensaciones la custodia del territorio rural y la captación de CO₂ de bosques y parcelas.",
+    "cita": "Reconoceremos con acuerdos, compensaciones y medidas el trabajo de custodia que los habitantes del medio rural han hecho durante siglos, y la captación de CO₂ de bosques tradicionales y parcelas agrarias.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Estrategia nacional contra los incendios con medios, fondos y coordinación todo el año.",
+    "cita": "Estrategia nacional contra los incendios. Medios, fondos y coordinación suficientes para la prevención y la extinción durante todo el año, con refuerzo en las zonas de más riesgo y un salto en tecnología y control.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Nueva ley de montes de socios que respete su naturaleza jurídica y fije un marco fiscal adecuado.",
+    "cita": "Exigimos una nueva ley que respete su naturaleza jurídica, mejore sus órganos de gestión, adecue los medios de titulación a sus peculiaridades y fije un marco fiscal adecuado.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Atraer industrias ligadas a recursos endógenos y apostar por la agroalimentación con transformación in situ y la economía circular.",
+    "cita": "Atraeremos industrias nuevas ligadas a los recursos endógenos y a otros sectores, apostaremos por la agroalimentación de calidad con transformación «in situ», la logística en ciudades pequeñas y la economía circular.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Exigir que las empresas con ayudas públicas se desconcentren y atraer capital humano cualificado.",
+    "cita": "Exigiremos que las empresas que reciben ayudas públicas se desconcentren, y atraeremos capital humano cualificado.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Ayudas al funcionamiento de empresas y autónomos de Teruel al máximo autorizado por la UE (20 % de costes laborales).",
+    "cita": "Ayudas al funcionamiento de las empresas y autónomos en la provincia de Teruel, en los niveles máximos autorizados por la UE (20% de los costes laborales) y mejora en las retribuciones de los empleados",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Más ayudas, espacios multiuso y pequeñas naves con vivienda para autónomos y emprendedores.",
+    "cita": "Más ayudas, espacios multiuso y pequeñas naves con vivienda adyacente.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Políticas activas de empleo orientadas a las habilidades que demanda el mercado laboral.",
+    "cita": "Políticas activas de empleo orientadas a las habilidades que demanda el mercado laboral.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Ayudas y trato fiscal específico para comercios y bares de localidades de menos de 200 habitantes.",
+    "cita": "Los pequeños comercios y bares de localidades de menos de 200 habitantes dirigidos al mercado local serán reconocidos como economía de alto contenido social y recibirán ayudas y tratamiento fiscal específico por su función.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Turismo rural con medidas según el potencial de cada zona y su digitalización.",
+    "cita": "Turismo rural con medidas concretas según el potencial de cada zona, y su digitalización.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Más financiación para los Grupos de Acción Local del programa LEADER.",
+    "cita": "LEADER. Más financiación para los Grupos de Acción Local.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Plataforma logístico-industrial Teruel Norte del SEPES en La Puebla de Híjar, con plataforma ferroviaria y acceso desde la A-68.",
+    "cita": "Plataforma logístico-industrial Teruel Norte. A construir por el SEPES (entidad pública empresarial de suelo) en La Puebla de Híjar, incluyendo plataforma ferroviaria de carga y elevación de aguas desde el Ebro, y acceso directo desde la futura A.68.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Reindustrializar las cuencas mineras y Andorra con inversión, FP en nuevos sectores y comunicaciones (A68 y autovía de las Cuencas Mineras).",
+    "cita": "Reindustrialización e inversión que generen alternativas reales de actividad y empleo; formación profesional en nuevos sectores; infraestructuras de comunicación para la zona (A68 y autovía de las Cuencas Mineras).",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Exigir planes de empleo en las adjudicaciones del nudo mudéjar y prolongar la vía de Andorra hasta su área industrial.",
+    "cita": "Mantener la exigencia de planes de acompañamiento con creación de empleo suficiente en las nuevas adjudicaciones de megavatios en el concurso del nudo mudéjar por parte del Ministerio; reconversión de la vía de tren de Andorra, prolongada hasta una terminal ferroviaria integrada en su área industrial.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Crear un polo logístico-industrial en el Jiloca aprovechando la A23, la futura A25 y el corredor cantábrico-mediterráneo.",
+    "cita": "Creación de un nuevo polo logístico-industrial en el oeste de la provincia que aproveche la accesibilidad desde la A23, la conexión con Madrid por la futura A25, y el corredor ferroviario cantábrico-mediterráneo.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Impulsar el programa «Ciencia en el Parlamento» y exigir políticas públicas basadas en evidencia científica.",
+    "cita": "Impulsaremos el programa «Ciencia en el Parlamento» y exigiremos políticas públicas basadas en evidencia científica.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Educación",
+    "resumen": "Mejorar el Plan de Atracción y Retención de Talento con ayudas para instalarse en provincias menos pobladas.",
+    "cita": "Mejorar el Plan de Atracción y Retención de Talento, con ayudas para instalarse y conciliar en provincias menos pobladas y un programa de ciencia y cohesión territorial para empresas y centros de esas zonas.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Impulsar la internacionalización, por ejemplo con una convención anual sobre geoparques y patrimonio natural.",
+    "cita": "Impulso a la internacionalización, por ejemplo con una convención anual sobre geoparques y patrimonio natural.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Educación",
+    "resumen": "Más investigación, transferencia de conocimiento, proyectos en los campus y más grados y másteres en el territorio.",
+    "cita": "Más investigación sobre el entorno, más transferencia de conocimiento, nuevos proyectos de formación e investigación en los campus y más grados y másteres.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Educación",
+    "resumen": "Apoyar a UNIZAR para crear los grados de Ingeniería Aeronáutica y de Medicina.",
+    "cita": "Apoyo a UNIZAR para la creación de los grados de Ingeniería Aeronáutica y de Medicina.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Educación",
+    "resumen": "Consolidar la extensión de la UNED por la provincia (Teruel, Alcañiz, Calamocha).",
+    "cita": "Consolidar la extensión de la UNED por la provincia (Teruel, Alcañiz, Calamocha) .",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Educación",
+    "resumen": "Potenciar el Instituto de Investigación Astrofísica de Teruel, el CEFCA y la red del CSIC en Aragón.",
+    "cita": "Potenciaremos el Instituto de Investigación Astrofísica de Teruel, el CEFCA con su Observatorio Astronómico de Javalambre y la red del CSIC en Aragón, y sus sinergias con universidades y empresas, así como otros institutos vinculados al Gobierno de Aragón.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Educación",
+    "resumen": "Crear un Centro Nacional de Investigación sobre Paleontología de dinosaurios a partir de Dinópolis.",
+    "cita": "Centro Nacional de Investigación sobre Paleontología de dinosaurios, a partir del trabajo de la Fundación Conjunto Paleontológico de Teruel-Dinópolis, y de la Unidad de Paleontología de Dinosaurios, ya creada a instancias de Teruel Existe.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Que el Ministerio de Cultura desarrolle el Museo Nacional de Etnografía en Teruel, en la antigua Casa de la Beneficencia.",
+    "cita": "Desarrollo, por el Ministerio de Cultura, del Museo Nacional de Etnografía en Teruel (MNET) comprometido con la provincia, en la antigua Casa de la Beneficencia.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Crear el Centro Nacional de Diseño Contemporáneo «Manuel Pertegaz», con sedes en Olba y Teruel.",
+    "cita": "Creación de mencionado centro, con sedes en Olba y Teruel, a partir de la exposición de la obra y legado del modisto turolense, que incluiría también docencia, investigación, talleres de conservación y creación relacionados con la industria textil.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Desarrollar la iniciativa «Power Experience» para recuperar el patrimonio industrial minero, con el Instituto de Transición Justa.",
+    "cita": "Desarrollo de la iniciativa “Power Experience”, para la dinamización económica y cultural de la provincia a partir de la protección y recuperación del patrimonio industrial minero de las comarcas turolenses, con la participación del Instituto de Transición Justa y el propio Ministerio de Transición Ecológica y Reto Demográfico.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Impulsar Teruel como destino de turismo cultural en torno a sus museos.",
+    "cita": "Impulsar Teruel como destino de turismo cultural de calidad en torno a actividad museística, que podría articularse en el eje ribera del río-avda. Zaragoza con el Centro Pertegaz + Museo Nacional de Etnografía + Museo de la Guerra Civil.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Redes de patrimonio, bibliotecas, creación, fomento de la lectura y festivales que dinamicen el medio rural.",
+    "cita": "Redes de patrimonio cultural y natural, bibliotecas, creación literaria, artística, musical y científica, fomento de la lectura y festivales que dinamizan el medio rural.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Preservar el patrimonio geológico y potenciar la red de geoparques y el turismo de naturaleza.",
+    "cita": "Preservar el patrimonio geológico y potenciar la red de geoparques y el turismo de geología y naturaleza.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Proyectos dinamizadores como el centro de tecnificación de atletismo en ruta de Allepuz, en Griegos.",
+    "cita": "Proyectos dinamizadores como el centro de tecnificación deportiva de atletismo en ruta de Allepuz, en Griegos, …",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Pacto de Estado por el Desarrollo Rural, la Repoblación y el Reequilibrio Territorial: al menos el 2 % del PIB anual, 30 años.",
+    "cita": "Pacto de Estado por el Desarrollo Rural, la Repoblación y el Reequilibrio Territorial, con un mecanismo estable de financiación, que destine anualmente, durante 30 años, al menos el equivalente al 2% del PIB para corregir los desequilibrios territoriales internos.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Impuestos",
+    "resumen": "En pueblos despoblados de menos de 5.000 habitantes, exención del IBI y rebaja del 80 % del ITP para rentas bajas y medias.",
+    "cita": "En localidades de menos de 5.000 habitantes de zonas afectadas por la despoblación, los residentes y propietarios de rentas bajas y medias podrán quedar exentos del IBI si utilizan o alquilan sus viviendas y ver reducido en un 80 % el impuesto de transmisiones patrimoniales al comprar vivienda.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Impuestos",
+    "resumen": "Que el Estado compense a los ayuntamientos lo que dejen de ingresar por las exenciones del IBI.",
+    "cita": "El Estado compensará a cada administración local los ingresos que deje de percibir por las exenciones de IBI.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Impuestos",
+    "resumen": "Poder reducir un 25 % la cuota del IRPF a residentes de rentas bajas y medias en localidades despobladas de menos de 5.000 habitantes.",
+    "cita": "Igualmente, a estos residentes se les podrá reducir en un 25% la cuota del IRPF.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Plan 300/30/30: 300 megas y móvil en todos los municipios, servicios básicos a 30 minutos y vía rápida a 30 km.",
+    "cita": "300 megas simétricos y cobertura móvil en todos los municipios; servicios públicos básicos (sanidad, educación, servicios sociales, seguridad) a un máximo de 30 minutos; y vía de alta capacidad a no más de 30 kilómetros.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Acabar con la brecha financiera con soluciones donde no haya oficinas bancarias.",
+    "cita": "Acabar con la brecha financiera con soluciones adaptadas donde no existan oficinas.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Descentralizar sedes de la Administración y empresas públicas, aplicar el Real Decreto de desconcentración y crear una red de oficinas.",
+    "cita": "Descentralizar sedes de órganos de la Administración y de empresas públicas; aplicar de verdad el Real Decreto de desconcentración; y crear una red de oficinas de servicios públicos a partir de los centros existentes.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Dar a Correos nuevas funciones para acercar la administración al territorio.",
+    "cita": "Correos tendrá nuevas funciones para acercar la administración al territorio.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Complemento de territorialidad para empleados públicos en zonas menos pobladas y subida salarial en plazas de difícil cobertura.",
+    "cita": "Complemento de territorialidad para empleados públicos en zonas menos pobladas y subida salarial en las plazas de difícil cobertura.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Vivienda",
+    "resumen": "Ayudas para rehabilitar vivienda rural vinculadas al alquiler y a vivienda protegida asequible, con apoyo a la eficiencia energética.",
+    "cita": "Ayudas para la rehabilitación del parque rural vinculada al alquiler y vivienda protegida asequible, con apoyo a la eficiencia energética.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Apoyar a los sectores económicos rurales y fomentar el teletrabajo en la Administración y el sector privado para fijar población.",
+    "cita": "Apoyo a todos los sectores económicos del medio rural, sobre todo a los basados en recursos endógenos, y fomento del teletrabajo, en la Administración y en el sector privado, para fijar población.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Economía y empresas",
+    "resumen": "Emprendimiento, FP e investigación vinculados al territorio y fomento de la economía social y solidaria.",
+    "cita": "Emprendimiento, FP e investigación vinculados al territorio, y fomento de la economía social y solidaria.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Oponerse al cluster del Maestrazgo y a los parques eólicos en el Matarraña y la Sierra de Albarracín.",
+    "cita": "Oposición al cluster del Maestrazgo, los parques eólicos en el Matarraña y en la Sierra de Albarracín.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Aplicar estrictamente las normas de protección del aire, agua, suelos y biodiversidad y el principio «quien contamina paga».",
+    "cita": "Aplicación estricta de las normas de protección y calidad del aire, agua, suelos y biodiversidad, y de los principios europeos de cautela, prevención y «quien contamina paga».",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Exigir la evaluación rigurosa de los proyectos de renovables, de biogás y de minas.",
+    "cita": "Exigiremos la evaluación rigurosa de los proyectos de renovables, de biogás y de minas.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Crear parques naturales y figuras de protección para el Maestrazgo, los Pinares de Rodeno y los Puertos de Beceite.",
+    "cita": "Debe impulsarse la creación de parques naturales en la provincia y figuras de protección más potentes para nuestros mejores paisajes (Maestrazgo, Pinares de Rodeno, Puertos de Beceite).",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Aplicar el Convenio Europeo del Paisaje con políticas adaptadas a cada comarca.",
+    "cita": "Aplicar el Convenio Europeo del Paisaje con políticas adaptadas a cada comarca.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Energía y clima",
+    "resumen": "Reducir el uso de recursos y la presión sobre el medio y acelerar la economía circular.",
+    "cita": "Reducir el uso de recursos y la presión sobre el medio, avanzar hacia un crecimiento regenerativo y acelerar la economía circular.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Impulsar la conciliación con teletrabajo, flexibilidad laboral y reparto corresponsable de cuidados entre mujeres y hombres.",
+    "cita": "Impulsaremos políticas que faciliten la conciliación de la vida laboral, personal y familiar, fomentando el teletrabajo y la flexibilidad laboral, así como el reparto corresponsable de los cuidados y las tareas domésticas entre mujeres y hombres.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Garantizar servicios de apoyo a la conciliación, sobre todo en el medio rural, para que ninguna mujer renuncie a su carrera.",
+    "cita": "Garantizaremos servicios y recursos de apoyo a la conciliación, especialmente en el medio rural, para que ninguna mujer tenga que renunciar a su desarrollo profesional por asumir responsabilidades familiares.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Igualdad laboral en empleo, puestos de responsabilidad y salarios, y medidas para el empleo de mujeres con personas a cargo.",
+    "cita": "Igualdad laboral en el empleo, en los puestos de responsabilidad y en los salarios, y medidas para facilitar el acceso al empleo de mujeres con hijos e hijas, mayores o dependientes a su cargo.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Financiar el emprendimiento de mujeres rurales en negocios verdes y de economía circular y reconocer su papel agrario.",
+    "cita": "Financiación al emprendimiento de las mujeres rurales en negocios verdes y de economía circular, y reconocimiento de su papel en el sector agrario y ganadero.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Ampliar el permiso de lactancia hasta un año acumulable, flexibilidad horaria por cuidado de hijos y educación infantil de 0 a 3 años.",
+    "cita": "Reparto de la crianza, ampliación del permiso de lactancia hasta un año con disfrute acumulativo, emancipación de los jóvenes, ayuda a domicilio, flexibilidad horaria, días de asuntos propios y jornada continuada por cuidado de hijos, y educación infantil de 0 a 3 años.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Cumplir, actualizar y seguir el Pacto de Estado contra la Violencia de Género, reforzando prevención y protección.",
+    "cita": "Garantizar el cumplimiento íntegro, la actualización y el seguimiento del Pacto de Estado contra la Violencia de Género, reforzando la educación, la prevención, la atención y la protección de las víctimas.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Que las medidas y recursos contra la violencia de género lleguen a todos los territorios, adaptados al medio rural.",
+    "cita": "Asegurar que las medidas y recursos lleguen a todos los territorios, adaptándose a las necesidades y particularidades del medio rural, para que ninguna mujer quede desprotegida por vivir en un municipio pequeño o alejado.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Otros",
+    "resumen": "Reforzar el espíritu crítico en la escuela y promover una comisión de estudio en el Congreso sobre la desinformación.",
+    "cita": "En el sistema educativo reforzaremos la comprensión, la expresión y el espíritu crítico, y promoveremos una comisión de estudio en el Congreso sobre la desinformación.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Seguridad y justicia",
+    "resumen": "Participación ciudadana, transparencia, rendición de cuentas y políticas antifraude contra la corrupción.",
+    "cita": "Buen gobierno. Participación ciudadana, transparencia, rendición de cuentas y políticas antifraude efectivas contra la corrupción.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "TERUEL EXISTE",
+    "tema": "Modelo territorial",
+    "resumen": "Elegir directamente a los representantes de las diputaciones provinciales y de las entidades comarcales.",
+    "cita": "Elección directa de los representantes en las diputaciones provinciales y en las entidades comarcales.",
+    "pagina": 15,
+    "concreta": true,
     "revisada": true
   }
 ]

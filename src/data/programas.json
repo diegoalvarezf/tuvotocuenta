@@ -292,19 +292,18 @@
     "web": "https://www.partidoautonomos.es",
     "documentos": [
       {
-        "titulo": "Programa político 2026 · 100 propuestas",
-        "url": "https://www.partidoautonomos.es/wp-content/uploads/2026/11/PARTIDO-AUTONOMOS-PROGRAMA-ELECCIONES-GENERALES-2026-29N.pdf",
-        "fecha": "2026-11-13",
-        "paginas": 15
-      },
-      {
         "titulo": "10 propuestas estrella",
         "url": "https://www.partidoautonomos.es/wp-content/uploads/2026/11/10-Propuestas-Estrella-PARTIDO-AUTONOMOS-ELECCIONES-GENERALES-2026.pdf",
         "fecha": "2026-11-14",
         "paginas": 12
       }
     ],
-    "programa": null
+    "programa": {
+      "titulo": "Programa político 2026 · 100 propuestas",
+      "url": "https://www.partidoautonomos.es/wp-content/uploads/2026/11/PARTIDO-AUTONOMOS-PROGRAMA-ELECCIONES-GENERALES-2026-29N.pdf",
+      "fecha": "2026-11-13",
+      "paginas": 15
+    }
   },
   {
     "siglas": "EAJ-PNV",
@@ -574,15 +573,13 @@
     "nombre": "TERCERA EDAD EN ACCIÓN",
     "circunscripciones": 1,
     "web": "https://3edad.org",
-    "documentos": [
-      {
-        "titulo": "Programa político 2026 (revisado)",
-        "url": "https://3edad.org/wp-content/uploads/2026/11/Programa_Politico_En_Accion_3e_2026_Propuesta_Revisada.pdf",
-        "fecha": "2026-11-06",
-        "paginas": 6
-      }
-    ],
-    "programa": null
+    "documentos": [],
+    "programa": {
+      "titulo": "Programa político 2026 (revisado)",
+      "url": "https://3edad.org/wp-content/uploads/2026/11/Programa_Politico_En_Accion_3e_2026_Propuesta_Revisada.pdf",
+      "fecha": "2026-11-06",
+      "paginas": 6
+    }
   },
   {
     "siglas": "AGENDA VALENCIANA",
@@ -627,15 +624,13 @@
     "nombre": "GEROA BAI",
     "circunscripciones": 1,
     "web": "https://geroabai.eus",
-    "documentos": [
-      {
-        "titulo": "Bases políticas 29N",
-        "url": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
-        "fecha": "2026-11-13",
-        "paginas": 14
-      }
-    ],
-    "programa": null
+    "documentos": [],
+    "programa": {
+      "titulo": "Bases políticas 29N",
+      "url": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+      "fecha": "2026-11-13",
+      "paginas": 14
+    }
   },
   {
     "siglas": "IE",
@@ -763,19 +758,18 @@
     "web": "https://teruelexiste.info",
     "documentos": [
       {
-        "titulo": "Programa electoral completo 29N",
-        "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
-        "fecha": "2026-11-12",
-        "paginas": 15
-      },
-      {
         "titulo": "Programa electoral en lectura fácil",
         "url": "https://teruelexiste.info/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-TERUEL-EXISTE-LECTURA-FACIL-DEFINITIVO.pdf",
         "fecha": "2026-11-16",
         "paginas": 27
       }
     ],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral completo 29N",
+      "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
+      "fecha": "2026-11-12",
+      "paginas": 15
+    }
   },
   {
     "siglas": "UPN-PP",
