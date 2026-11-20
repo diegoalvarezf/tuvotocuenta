@@ -147,6 +147,126 @@ const EXTRA = [
       "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52634"
     }
   },
+  // Convalidados por la Diputación Permanente el 18-11-2026; los votos, de las notas de prensa del Congreso
+  {
+    "nombre": "Real Decreto-ley 30/2026",
+    "titulo": "medidas extraordinarias y urgentes de apoyo financiero a la Ciudad de Ceuta",
+    "votacion": "2026-11-18",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24291",
+    "totales": {
+      "si": 59,
+      "no": 5,
+      "abstencion": 1
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52653"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 31/2026",
+    "titulo": "para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales",
+    "votacion": "2026-11-18",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24292",
+    "totales": {
+      "si": 63,
+      "no": 6,
+      "abstencion": 0
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52655"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 32/2026",
+    "titulo": "ayudas a las víctimas del accidente ferroviario de Urda (Toledo) y garantía de accesibilidad equitativa a bienes y servicios en situaciones de emergencia",
+    "votacion": "2026-11-18",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24293",
+    "totales": {
+      "si": 69,
+      "no": 0,
+      "abstencion": 0
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52657"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 33/2026",
+    "titulo": "medidas urgentes en respuesta a los daños causados por las inundaciones y otros sucesos de los días 17 a 19 de octubre de 2026, como consecuencia de la Depresión Aislada en Niveles Altos",
+    "votacion": "2026-11-18",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24294",
+    "totales": {
+      "si": 63,
+      "no": 6,
+      "abstencion": 0
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52654"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 34/2026",
+    "titulo": "medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social del personal ferroviario",
+    "votacion": "2026-11-18",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24295",
+    "totales": {
+      "si": 63,
+      "no": 6,
+      "abstencion": 0
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52656"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 35/2026",
+    "titulo": "medidas urgentes para el reconocimiento y protección a las familias monoparentales y otras medidas de apoyo a familias",
+    "votacion": "2026-11-18",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24296",
+    "totales": {
+      "si": 62,
+      "no": 6,
+      "abstencion": 1
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52658"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 36/2026",
+    "titulo": "medidas para el adecuado despliegue de la reforma del Sistema para la Autonomía y Atención a la Dependencia",
+    "votacion": "2026-11-18",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24297",
+    "totales": {
+      "si": 63,
+      "no": 6,
+      "abstencion": 0
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 18 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52659"
+    }
+  },
 ];
 for (const e of EXTRA) {
   if (salida.some((d) => d.nombre === e.nombre)) continue;
