@@ -34067,7 +34067,7 @@
     "resumen": "Comedores, hospitales y residencias públicos con alimentos locales y ecológicos a precio digno y una opción vegetal diaria.",
     "cita": "Compra pública de producto local · Comedores, hospitales y residencias · públicos con alimentos locales y ecológicos pagados a precio digno, y una opción vegetal diaria en todos ellos.",
     "pagina": 68,
-    "concreta": false,
+    "concreta": true,
     "revisada": true,
     "trozos": true
   },
@@ -82148,7 +82148,7 @@
   {
     "partido": "Podemos",
     "tema": "Economía y empresas",
-    "resumen": "Red pública de supermercados que venda al público y suministre alimentos a las administraciones.",
+    "resumen": "Red pública de supermercados que venda al público y que pueda abastecer de alimentos a todas las administraciones.",
     "cita": "Esta red pública de supermercados, además de ocuparse de la venta al público, también se puede ocupar de suministrar alimentos a todas las administraciones públicas canalizando así la producción ecológica y nacional hacia el conjunto del sector público.",
     "pagina": 18,
     "concreta": true,
@@ -82436,7 +82436,7 @@
   {
     "partido": "Podemos",
     "tema": "Impuestos",
-    "resumen": "Eliminar la exención del IBI y lo que el programa llama cualquier privilegio fiscal de la Iglesia católica.",
+    "resumen": "Eliminar cualquier privilegio fiscal de la Iglesia católica, aplicándole el mismo modelo que al resto de entidades.",
     "cita": "Eliminaremos cualquier privilegio fiscal de la Iglesia Católica, aplicando a las entidades idéntico modelo que al resto de entidades.",
     "pagina": 22,
     "concreta": true,
@@ -82544,7 +82544,7 @@
   {
     "partido": "Podemos",
     "tema": "Economía y empresas",
-    "resumen": "Derogar la reforma de 2011 del artículo 135 de la Constitución, sobre prioridad del pago de la deuda.",
+    "resumen": "Derogar la reforma del artículo 135 de la Constitución para que el pago de la deuda no tenga prioridad sobre la inversión social.",
     "cita": "Derogaremos la reforma constitucional que afectó al artículo 135 de la Constitución para evitar que el pago de la deuda externa sea preferente a la inversión social y las limitaciones en la financiación de los servicios públicos.",
     "pagina": 23,
     "concreta": true,
@@ -82556,7 +82556,7 @@
     "resumen": "Reformar el sistema fiscal de Canarias para que autónomos y pymes paguen menos y las grandes empresas más.",
     "cita": "Se reformará el sistema para hacerlo verdaderamente progresivo, de forma que los autónomos y las PyMEs paguen menos y las grandes empresas paguen más.",
     "pagina": 23,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -83291,8 +83291,8 @@
   {
     "partido": "Podemos",
     "tema": "Inmigración",
-    "resumen": "Respuesta humanitaria en Ceuta con un mecanismo de traslado de personas migrantes a la península.",
-    "cita": "Garantizaremos una respuesta humanitaria para todas las personas migrantes en Ceuta basada en el respeto a los derechos humanos para ello estableceremos un mecanismo de traslado de personas migrantes a la península que garantice la capacidad asistencial de los servicios públicos",
+    "resumen": "Respuesta humanitaria en Ceuta con un mecanismo de traslado de migrantes a la península, vivienda digna, servicios básicos y asistencia letrada.",
+    "cita": "Garantizaremos una respuesta humanitaria para todas las personas migrantes en Ceuta basada en el respeto a los derechos humanos para ello estableceremos un mecanismo de traslado de personas migrantes a la península que garantice la capacidad asistencial de los servicios públicos, garantizando que todas ellas tienen acceso a una solución habitacional digna, a los servicios públicos básicos y a las mayores garantías jurídicas y representación letrada para respetar sus derechos humanos, el derecho de asilo y el derecho internacional.",
     "pagina": 36,
     "concreta": true,
     "revisada": false
@@ -83329,15 +83329,6 @@
     "tema": "Impuestos",
     "resumen": "Impuesto europeo sobre las transacciones financieras: una Tasa Tobin complementaria de las tasas estatales.",
     "cita": "También impulsaremos un impuesto europeo sobre las transacciones financieras: se implantará una Tasa Tobin, complementaria de las tasas estatales.",
-    "pagina": 36,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "Podemos",
-    "tema": "Impuestos",
-    "resumen": "Eliminar los paraísos fiscales, listar jurisdicciones de baja tributación y prohibir contratar con empresas que operen a través de ellos.",
-    "cita": "Impulsaremos la eliminación de los paraísos fiscales, la creación de una lista de países y jurisdicciones de baja tributación y la prohibición de contratar con las administraciones públicas a empresas que operen a través de ellos, directamente o mediante su cadena de producción.",
     "pagina": 36,
     "concreta": true,
     "revisada": false
@@ -83696,7 +83687,7 @@
   {
     "partido": "Podemos",
     "tema": "Empleo y salarios",
-    "resumen": "Tipificar esas prácticas como infracciones muy graves y endurecer sanciones a las empresas responsables.",
+    "resumen": "Tipificar como infracciones muy graves las listas negras y represalias por actividad sindical, con más sanciones e investigación de la Inspección.",
     "cita": "Tipificaremos estas prácticas como infracciones muy graves, endureceremos las sanciones a las empresas responsables y garantizaremos la investigación de estos casos por la Inspección de Trabajo, la reparación del daño causado y la protección efectiva de las personas afectadas.",
     "pagina": 44,
     "concreta": true,
@@ -83849,10 +83840,10 @@
   {
     "partido": "Podemos",
     "tema": "Empleo y salarios",
-    "resumen": "Convertir el Ingreso Mínimo Vital en una renta universal incondicionada.",
+    "resumen": "Potenciar el Ingreso Mínimo Vital con el objetivo de convertirlo en una renta universal incondicionada.",
     "cita": "Potenciaremos el Ingreso Mínimo Vital con el objetivo de convertirlo en una renta universal incondicionada para todos los ciudadanos y ciudadanas.",
     "pagina": 45,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -84019,7 +84010,7 @@
   },
   {
     "partido": "Podemos",
-    "tema": "Igualdad y familia",
+    "tema": "Sanidad",
     "resumen": "Eliminar del Código Penal todas las referencias al aborto consentido.",
     "cita": "Eliminaremos todas las referencias al aborto consentido dentro del Código Penal.",
     "pagina": 51,
@@ -84028,7 +84019,7 @@
   },
   {
     "partido": "Podemos",
-    "tema": "Igualdad y familia",
+    "tema": "Sanidad",
     "resumen": "Incluir el derecho al aborto en la Constitución como derecho fundamental, en el artículo 15.",
     "cita": "Incorporar expresamente el derecho al aborto en la Constitución dentro del Título I Capítulo II Sección 1º como parte de los derechos fundamentales, concretamente en el Artículo 15 como ya lo reconoce la jurisprudencia del Tribunal Constitucional.",
     "pagina": 51,
@@ -84316,7 +84307,7 @@
   },
   {
     "partido": "Podemos",
-    "tema": "Igualdad y familia",
+    "tema": "Sanidad",
     "resumen": "Incluir la violencia obstétrica en la Ley 1/2023 de salud sexual y reproductiva.",
     "cita": "Incluir esta violencia en la Ley 1/2023, de 28 de febrero, por la que se modifica la Ley Orgánica 2/2010, de 3 de marzo, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo, para que las mujeres que enfrenten este tipo de violencia puedan acceder a todos los derechos que establece dicha ley.",
     "pagina": 56,
@@ -84662,21 +84653,21 @@
     "resumen": "Reconocer legalmente a las familias monomarentales con un marco específico de protección social.",
     "cita": "Reconocer legalmente a las familias monomarentales, dotándolas de seguridad jurídica y de un marco específico de protección social.",
     "pagina": 61,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
     "partido": "Podemos",
     "tema": "Igualdad y familia",
     "resumen": "Equiparar a familia numerosa a las monomarentales con un solo hijo, desde su nacimiento.",
-    "cita": "Asimismo, equipararemos a las familias monomarentales con un solo hijo o hija a las familias numerosas, reconociéndoles desde el nacimiento del primer hijo o hija los mismos derechos,",
+    "cita": "Asimismo, equipararemos a las familias monomarentales con un solo hijo o hija a las familias numerosas, reconociéndoles desde el nacimiento del primer hijo o hija los mismos derechos",
     "pagina": 61,
     "concreta": true,
     "revisada": false
   },
   {
     "partido": "Podemos",
-    "tema": "Empleo y salarios",
+    "tema": "Igualdad y familia",
     "resumen": "Permiso por fallecimiento de un familiar de 10 días hábiles, 12 si es en otra localidad.",
     "cita": "Ampliaremos el permiso retribuido por fallecimiento de un familiar hasta los 10 días hábiles, que serán 12 cuando el fallecimiento se produzca en una localidad distinta a la de residencia.",
     "pagina": 61,
@@ -86048,7 +86039,7 @@
     "resumen": "Fondo estatal solo para la educación pública de gestión directa, repartido según población, costes y zonas rurales.",
     "cita": "Crearemos un fondo estatal para reforzar exclusivamente la educación pública de gestión directa, con un sistema de reparto territorial que tenga en cuenta la población, el coste de los servicios y las necesidades de las zonas rurales y despobladas.",
     "pagina": 80,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -86288,7 +86279,7 @@
   {
     "partido": "Podemos",
     "tema": "Educación",
-    "resumen": "Complemento específico para estos puestos y revisar la normativa de jornada en los centros de educación especial.",
+    "resumen": "Complemento específico para el personal de orientación y atención a la diversidad y revisar la jornada de los centros de educación especial.",
     "cita": "Asimismo, reconoceremos la especial responsabilidad de estos puestos mediante un complemento específico y revisaremos la normativa que limita la organización de la jornada en los centros de educación especial.",
     "pagina": 83,
     "concreta": false,
@@ -86840,7 +86831,7 @@
     "resumen": "Crear un conglomerado industrial público para diseñar, producir y almacenar material sanitario como mascarillas y respiradores.",
     "cita": "Crearemos un conglomerado industrial de titularidad pública con capacidad para diseñar, producir y almacenar material y tecnología sanitaria, como mascarillas, respiradores y equipos de protección, para garantizar el abastecimiento ante cualquier contingencia, impulsar la investigación y la innovación y generar empleo público de calidad.",
     "pagina": 88,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -86891,8 +86882,8 @@
   {
     "partido": "Podemos",
     "tema": "Sanidad",
-    "resumen": "Al menos 30 % del fondo a Atención Primaria y 20 % a salud mental; mínimo 25 % del presupuesto sanitario a Primaria.",
-    "cita": "Al menos el 30% de los fondos se destinará a la Atención Primaria y al menos el 20% al sistema público de salud mental; y del total del presupuesto sanitario, un mínimo del 25% irá a Atención Primaria.",
+    "resumen": "Al menos el 30 % del fondo estatal sanitario irá a Atención Primaria y el 20 % a salud mental.",
+    "cita": "Al menos el 30% de los fondos se destinará a la Atención Primaria y al menos el 20% al sistema público de salud mental",
     "pagina": 89,
     "concreta": true,
     "revisada": false
@@ -86990,8 +86981,8 @@
   {
     "partido": "Podemos",
     "tema": "Sanidad",
-    "resumen": "La ley fijará 25 % del presupuesto para Primaria, 700 euros por habitante, máximo 1.300 pacientes por médico y cita en 48 horas.",
-    "cita": "La ley establecerá que al menos el 25% del presupuesto sanitario se destine efectivamente a Atención Primaria, con el objetivo de alcanzar una inversión de 700 euros por habitante y año; fijará un máximo de 1.300 pacientes por profesional de medicina de familia y 800 menores por profesional de pediatría, adaptando las ratios y las plantillas a las necesidades demográficas, sociales y territoriales de cada zona; garantizará una cita en un máximo de 48 horas hábiles y la continuidad asistencial con los mismos profesionales;",
+    "resumen": "Ley de Atención Primaria: 25 % del presupuesto sanitario, 700 euros por habitante, máximo 1.300 pacientes por médico y cita en 48 horas.",
+    "cita": "La ley establecerá que al menos el 25% del presupuesto sanitario se destine efectivamente a Atención Primaria, con el objetivo de alcanzar una inversión de 700 euros por habitante y año; fijará un máximo de 1.300 pacientes por profesional de medicina de familia y 800 menores por profesional de pediatría, adaptando las ratios y las plantillas a las necesidades demográficas, sociales y territoriales de cada zona; garantizará una cita en un máximo de 48 horas hábiles y la continuidad asistencial con los mismos profesionales; facilitará el acceso a pruebas diagnósticas a las y los médico de familia para aumentar la capacidad resolutiva del primer nivel asistencial; y mejorará las condiciones laborales y salariales, reduciendo la temporalidad y garantizando una distribución territorial suficiente de profesionales, especialmente en las zonas de difícil cobertura.",
     "pagina": 90,
     "concreta": true,
     "revisada": false
@@ -87353,7 +87344,7 @@
     "resumen": "Fondo estatal para financiar la renaturalización urbana, priorizando municipios con menos recursos.",
     "cita": "Además, pondremos en marcha un fondo estatal para financiar estas actuaciones, priorizando a los municipios con menos recursos.",
     "pagina": 95,
-    "concreta": false,
+    "concreta": true,
     "revisada": false
   },
   {
@@ -88197,7 +88188,7 @@
     "partido": "Podemos",
     "tema": "Energía y clima",
     "resumen": "Moratoria a nuevos regadíos hiperintensivos de grandes propietarios y a nuevos regadíos en cuencas con sequía, y control o corte del suministro.",
-    "cita": "se pondrá en marcha una moratoria inmediata a la apertura de sistemas de regadíos hiperintensivos en manos de grandes propietarios —moratoria que se extenderá a la apertura de nuevos regadíos ordinarios en cuencas afectadas habitualmente por la sequía— así como el control (o corte) del suministro a aquellos ya existentes en cuencas que se encuentren en situación de sequía o que haya predicciones científicas ciertas de que se pueden hallar en esa situación en el futuro próximo.",
+    "cita": "Por todo ello, para evitar quedarse sin agua o incluso transitar a épocas de colapso hídrico en las que se puedan llegar a ver restricciones de suministro a las grandes ciudades, pero también para proteger a los pequeños y medianos productores de la agricultura tradicional y familiar, garantizando para ellos el suministro de agua, se pondrá en marcha una moratoria inmediata a la apertura de sistemas de regadíos hiperintensivos en manos de grandes propietarios —moratoria que se extenderá a la apertura de nuevos regadíos ordinarios en cuencas afectadas habitualmente por la sequía— así como el control (o corte) del suministro a aquellos ya existentes en cuencas que se encuentren en situación de sequía o que haya predicciones científicas ciertas de que se pueden hallar en esa situación en el futuro próximo.",
     "pagina": 108,
     "concreta": true,
     "revisada": false
@@ -88785,15 +88776,6 @@
     "cita": "Prohibiremos las autorizaciones de vertido de aguas residuales e industriales procedentes de la exploración, extracción y tratamiento de minerales en los cauces públicos y demás masas de agua superficiales y costeras.",
     "pagina": 119,
     "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "Podemos",
-    "tema": "Energía y clima",
-    "resumen": "Poner en marcha en todo el territorio el sistema de depósito, devolución y retorno (SDDR) de envases de bebidas.",
-    "cita": "Pondremos en marcha los Sistemas de Depósito, Devolución y Retorno (SDDR) de envases de bebidas en todo el territorio, cumpliendo los objetivos y plazos establecidos en la legislación de residuos.",
-    "pagina": 119,
-    "concreta": false,
     "revisada": false
   },
   {
@@ -89564,15 +89546,6 @@
   {
     "partido": "Podemos",
     "tema": "Seguridad y justicia",
-    "resumen": "Sistema «Barnahus» para la infancia víctima y declaración en espacios amables y seguros.",
-    "cita": "Mejoraremos la atención y protección integral de las víctimas, especialmente las más vulnerables, con el sistema “Barnahus” para la infancia, garantizando en todo caso la posibilidad de prestar declaración desde espacios amables y seguros.",
-    "pagina": 131,
-    "concreta": true,
-    "revisada": false
-  },
-  {
-    "partido": "Podemos",
-    "tema": "Seguridad y justicia",
     "resumen": "Mejorar la protección de testigos, peritos y denunciantes, sobre todo en corrupción y crimen organizado.",
     "cita": "Se modernizarán y mejorarán las medidas de protección de testigos y peritos, así como de denunciantes, especialmente en casos de corrupción y crimen organizado.",
     "pagina": 131,
@@ -89672,10 +89645,10 @@
   {
     "partido": "Podemos",
     "tema": "Seguridad y justicia",
-    "resumen": "Esclarecer el espionaje con Pegasus: quién lo ordenó, quién lo ejecutó y con qué autorizaciones.",
+    "resumen": "Investigar el espionaje con Pegasus: quién lo ordenó, quién lo ejecutó, con qué autorizaciones y qué responsabilidades hay.",
     "cita": "Esclareceremos el alcance del espionaje realizado mediante el software Pegasus, quién lo ordenó, quién lo ejecutó y con qué autorizaciones, así como las posibles responsabilidades de las autoridades y organismos implicados.",
     "pagina": 132,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -89717,7 +89690,7 @@
   {
     "partido": "Podemos",
     "tema": "Seguridad y justicia",
-    "resumen": "Derogar la reforma de la Ley de protección de la seguridad ciudadana y prohibir las pelotas de goma.",
+    "resumen": "Derogar la reforma de la ley de seguridad ciudadana, que llama «Ley Mordaza», y prohibir las pelotas de goma.",
     "cita": "Derogaremos la Ley de Reforma de la Ley Orgánica de protección de la seguridad ciudadana, y promoveremos una nueva regulación garantista que proteja la libertad de expresión, reunión y manifestación, y que incluya expresamente la prohibición del uso de pelotas de goma como método de contención.",
     "pagina": 133,
     "concreta": true,
@@ -89855,7 +89828,7 @@
     "resumen": "Reconocer a las víctimas de la violencia institucional y la que el programa llama ultraderechista entre 1977 y 1983.",
     "cita": "Reconoceremos especialmente a las personas que sufrieron violencia institucional y ultraderechista por su lucha por la democracia entre 1977 y el 31 de diciembre de 1983, un periodo en el que se produjeron más de 170 muertes por violencia de origen institucional y 67 asesinatos cometidos por grupos ultraderechistas.",
     "pagina": 135,
-    "concreta": true,
+    "concreta": false,
     "revisada": false
   },
   {
@@ -92907,6 +92880,24 @@
     "cita": "Consolidar l’ajornament del Verifactu i coordinar-lo amb l’aplicació de la facturació electrònica i el marc europeu per evitar duplicitats i costos desproporcionats.",
     "pagina": 69,
     "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "Podemos",
+    "tema": "Sanidad",
+    "resumen": "El fondo sanitario estatal y la aportación autonómica solo podrán ir a la sanidad pública de gestión directa, no a servicios privatizados.",
+    "cita": "Este dinero, y la aportación autonómica complementaria, solo podrá destinarse a la sanidad pública de gestión directa y en ningún caso a servicios parcial o totalmente privatizados.",
+    "pagina": 89,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "Podemos",
+    "tema": "Educación",
+    "resumen": "Contenidos y talleres en los centros sobre masculinidades igualitarias y el valor de los cuidados.",
+    "cita": "Incorporaremos también contenidos y talleres sobre masculinidades igualitarias y la realidad de los cuidados, su contribución a la reproducción social y a la riqueza del país.",
+    "pagina": 83,
+    "concreta": false,
     "revisada": false
   }
 ]
