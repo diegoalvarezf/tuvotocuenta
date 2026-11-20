@@ -93,6 +93,13 @@ export function crearVerificador(paginas) {
     // Un trozo (normalmente el título) puede salir a su vez partido en dos líneas separadas, como «estatal de servicios
     // sociales» / «211 Ley»: vale si está entero o en dos fragmentos de palabras completas en la página
     if (trozos) return buscada.includes(' · ') && buscada.split(' · ').every((t) => entera(t) || enTrozos(t, aqui, 2));
-    return entera(buscada);
+    if (entera(buscada)) return true;
+    // Frase cuya primera parte la maquetación deja en otro sitio de la página (Junts: «5.3. Blindar el parc…» y la
+    // continuación más abajo): vale si está en dos tramos literales seguidos, de 3 palabras o más cada uno
+    const palabras = buscada.split(' ');
+    for (let i = 3; i <= palabras.length - 3; i++) {
+      if (entera(palabras.slice(0, i).join(' ')) && entera(palabras.slice(i).join(' '))) return true;
+    }
+    return false;
   };
 }

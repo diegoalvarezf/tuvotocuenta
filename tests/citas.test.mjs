@@ -120,6 +120,12 @@ test('acepta una lista con viñetas «»»', () => {
   assert.ok(pdf({ cita: 'Nuevas competencias plenas: migración puertos y aeropuertos', pagina: 1 }));
 });
 
+test('acepta una frase partida por la maquetación en dos tramos de 3 o más palabras', () => {
+  const pdf = crearVerificador([{ pagina: 1, texto: '5.3. Blindar el parc públic\nAltres coses del capítol.\nd’habitatge de titularitat estatal.' }]);
+  assert.ok(pdf({ cita: 'Blindar el parc públic d’habitatge de titularitat estatal.', pagina: 1 }));
+  assert.equal(pdf({ cita: 'Blindar el parc privat d’habitatge de titularitat estatal.', pagina: 1 }), false);
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });
