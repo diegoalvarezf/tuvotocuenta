@@ -131,6 +131,13 @@ test('une la barra de género a final de línea', () => {
   assert.ok(pdf({ cita: 'Ayudas a los ganaderos/as del territorio.', pagina: 1 }));
 });
 
+test('quita cabeceras con número de página variable y números de lista sueltos', () => {
+  const pdf = crearVerificador(
+    [1, 2, 3, 4, 5, 6].map((n) => ({ pagina: n, texto: `${n} Eleccions al Congrés 2026 | Programa electoral\n${n === 3 ? '14.\nMillorar la qualitat edu-' : n === 4 ? '15.\ncativa de tots.' : 'Text.'}` })),
+  );
+  assert.ok(pdf({ cita: 'Millorar la qualitat educativa de tots.', pagina: 3 }));
+});
+
 test('rechaza una cita con un dato cambiado', () => {
   assert.equal(verificar({ cita: 'hasta alcanzar una cobertura del 95%', pagina: 2 }), false);
 });

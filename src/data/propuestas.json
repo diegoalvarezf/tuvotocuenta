@@ -84,7 +84,7 @@
     "partido": "Frente Obrero",
     "tema": "Empleo y salarios",
     "resumen": "Acabar con los falsos autónomos.",
-    "cita": "Garantizar la jubilación a los autónomos. 6. Acabar con los falsos autónomos.",
+    "cita": "Garantizar la jubilación a los autónomos. Acabar con los falsos autónomos.",
     "pagina": 9,
     "concreta": false,
     "revisada": true
@@ -165,7 +165,7 @@
     "partido": "Frente Obrero",
     "tema": "Defensa y política exterior",
     "resumen": "Delimitación de las aguas archipelágicas.",
-    "cita": "el derecho del pueblo saharaui a la autodeterminación. 5. Delimitación de las aguas archipelágicas.",
+    "cita": "Delimitación de las aguas archipelágicas.",
     "pagina": 11,
     "concreta": true,
     "revisada": true
@@ -939,7 +939,7 @@
     "partido": "Frente Obrero",
     "tema": "Sanidad",
     "resumen": "Asegurar plazas públicas en residencias de la tercera edad.",
-    "cita": "la dependencia de grandes corporaciones privadas. 9. Asegurar plazas públicas en residencias de la tercera edad.",
+    "cita": "Asegurar plazas públicas en residencias de la tercera edad.",
     "pagina": 43,
     "concreta": false,
     "revisada": true
@@ -90234,6 +90234,2652 @@
     "cita": "Por todo ello, se vuelve necesario devolver ese espacio al ámbito de la democracia y del interés general mediante la creación de una red social pública que ejercite la máxima transparencia en sus algoritmos, que implemente estrictos sistemas de control contra la desinformación, los bulos y los discursos de odio, que garantice los derechos laborales de sus trabajadores y trabajadoras, que blinde la privacidad de sus usuarios y que implemente el mismo nivel de neutralidad del sistema durante los procesos electorales que ya existe en todo el sistema de votación y recuento.",
     "pagina": 139,
     "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Negociar un referéndum de autodeterminación en Cataluña con acompañamiento internacional, con la UE y el Consejo de Europa como facilitadores.",
+    "cita": "Dret d’autodeterminació. Negociar la convocatòria d’un referèndum d’autodeterminació a Catalunya amb acompanyament internacional, amb la Unió Europea i el Consell d’Europa com a facilitadors, en línia amb la resolució Cilevičs del Consell d’Europa i les bones pràctiques determinades per la Comissió de Venècia (2007).",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Derogar la Ley Orgánica 4/2015 de protección de la seguridad ciudadana, que el programa llama «Llei mordassa».",
+    "cita": "Derogar la Llei mordassa.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Que, mientras tanto, la ley de seguridad ciudadana no se aplique en los territorios con competencias de seguridad transferidas.",
+    "cita": "La llei mordassa, mentrestant, no s’hauria d’aplicar en els territoris amb les competències de seguretat transferides, perquè puguin usar íntegrament la seva pròpia norma en aquesta matèria.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Suprimir los delitos de ofensa a los sentimientos religiosos y de injurias y calumnias a la Corona y a las asambleas legislativas.",
+    "cita": "Suprimir els delictes d’ofensa als sentiments religiosos i d’injúries i calúmnies contra la Corona i contra les assemblees legislatives.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Aprobar una ley estatal de desaparición forzosa de menores para garantizar verdad, justicia y reparación.",
+    "cita": "Aprovar una llei estatal de desaparició forçosa de menors per garantir veritat, justícia i reparació.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reconocer a las víctimas del servicio militar obligatorio (1976-2001) y desclasificar los archivos sobre abusos y muertes de soldados.",
+    "cita": "Reconèixer la realitat de les Víctimes del Servei Militar Obligatori (1976-2001) i treballar per aconseguir veritat i reparació. Resulta urgent la desclassificació d’arxius militars, judicials i administratius relacionats amb abusos i morts de soldats a causa dels maltractaments en el servei militar obligatori.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Terminar la auditoría de bienes expoliados por el franquismo a entidades y asociaciones.",
+    "cita": "Finalitzar l’Auditoria de Béns Espoliats pel Franquisme a Entitats i Associacions.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Traspasar a la Generalitat el edificio de la Jefatura de Policía de Via Laietana 43 para convertirlo en centro de memoria.",
+    "cita": "Traspassar la titularitat de l’edifici de la Prefectura Superior de la Policia Nacional de Via Laietana 43 a la Generalitat de Catalunya, conjuntament amb el fons arxivístic i els recursos econòmics que s’estimin oportuns per convertir les dependències actuals en un centre memorialístic i commemoratiu.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Aplicar el IBI a todas las propiedades religiosas, dejando sin efecto los acuerdos con la Santa Sede de 1979 y los de 1992.",
+    "cita": "Aplicar l’impost sobre béns immobles a totes les propietats de les confessions religioses, sense excepcionalitats i deixant sense efecte els acords de Govern de l’any 1979 amb la Santa Seu i les actualitzacions de l’any 2023, com també els acords de 1992 de l’Estat amb la resta de federacions religioses.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Iniciativas para fiscalizar al rey y la Casa Real y para poner fin a la monarquía, que llama contraria al principio democrático.",
+    "cita": "Impulsar totes les iniciatives parlamentàries oportunes per fiscalitzar l’activitat del rei d’Espanya, la casa reial i la família reial i totes les iniciatives que puguin influir a l’hora de posar fi a aquesta institució contrària al principi democràtic.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Aprobar una Ley del plurilingüismo que refuerce los derechos lingüísticos y proteja las lenguas oficiales distintas del castellano.",
+    "cita": "Aprovar una Llei del plurilingüisme per reforçar els drets lingüístics i garantir una protecció més efectiva de les llengües oficials diferents del castellà.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Que esa ley exija la lengua oficial propia a empleados del Estado y fije criterios lingüísticos en contratación, etiquetado y cuotas de radio.",
+    "cita": "La llei ha de regular l’ús de les llengües oficials en els procediments administratius; exigir el coneixement de les llengües oficials pròpies de cada territori als treballadors de l’Administració de l’Estat (cossos policials, administració de justícia i tributària...); incorporar criteris lingüístics en la contractació pública; garantir la presència de les llengües oficials en l’etiquetatge; reforçar el paper de les llengües pròpies com a llengües vehiculars de l’ensenyament, i establir quotes mínimes de programació radiofònica en les llengües oficials diferents del castellà.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Reclamar que el catalán, el occitano y la lengua de signos catalana sean oficiales en la Unión Europea.",
+    "cita": "Reclamar el reconeixement oficial del català, l’occità i la llengua de signes catalana a la Unió Europea.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Fijar por ley una aportación mínima del Estado a las ayudas al cine y audiovisual en catalán y occitano.",
+    "cita": "Establir per llei una aportació mínima de l’Estat espanyol al fons d’ajuts i crèdits per a la cinematografia i l’audiovisual en llengües catalana i occitana, i garantir que els productes siguin igualment accessibles als usuaris de la llengua de signes catalana.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Cuota de pantalla para el catalán, el occitano y la lengua de signos catalana, y obligar a las plataformas a publicar su cumplimiento.",
+    "cita": "En la mateixa línia, establir una quota de pantalla en el sector cinematogràfic i audiovisual per promoure l’ús social de la llengües catalana i occitana i de la llengua de signes catalana, i regular l’obligació de les plataformes de publicar les dades de compliment de quotes lingüístiques.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Derogar el artículo 145 de la Constitución para permitir la cooperación entre Cataluña, la Comunidad Valenciana y Baleares sin veto del Estado.",
+    "cita": "Derogar l’article 145 de la Constitució espanyola per facilitar la cooperació bilateral entre la Generalitat de Catalunya, la Generalitat Valenciana i el Govern de les Illes Balears, eliminant tot possible veto de l’Estat espanyol o de les Corts espanyoles.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Equiparar las denominaciones «catalán» y «valenciano» como sinónimas e intercambiables.",
+    "cita": "En la mateixa línia, cal aprovar l’equiparació de les denominacions català i valencià com a sinònimes i intercanviables.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Acuerdos para enseñar catalán y occitano en la educación en el exterior y colaborar con el Instituto Cervantes.",
+    "cita": "Promoure acords de col·laboració amb l’Estat per incorporar l’ensenyament del català i de l’occità en el sistema d’educació a l’exterior, com també vies de col·laboració amb l’Instituto Cervantes per ampliar-ne l’oferta formativa i la difusió internacional.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Planes lingüísticos en las empresas y formación en catalán en horario laboral, sobre todo en empresas con servicios o fondos públicos.",
+    "cita": "Impulsar l’elaboració i aplicació de plans lingüístics a les empreses, garantir els drets lingüístics de les persones treballadores i usuàries, especialment en les empreses que presten serveis públics o reben finançament públic, i facilitar l’accés a la formació de català dins l’horari laboral.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Un pacto de país para defender la escuela catalana y la inmersión ante lo que llama injerencias judiciales del Estado.",
+    "cita": "Promoure un gran pacte de país, amb la participació de les institucions, la comunitat educativa i les entitats socials, per defensar el model d’escola catalana, la immersió lingüística i el català com a llengua vehicular i de cohesió social, davant les ingerències judicials i els intents de desmantellar-lo de l’Estat espanyol.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Garantizar con recursos y formación docente que todo el alumnado alcance competencia plena en catalán y, en Arán, en aranés.",
+    "cita": "Garantir, amb recursos i formació del professorat, que tot l’alumnat assoleixi una competència plena en català i, a l’Aran, en aranès.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir las competencias exclusivas en educación para Cataluña.",
+    "cita": "Exigir les competències exclusives en matèria educativa.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Destinar el 6 % del PIB estatal a educación, reducir ratios y mejorar los salarios del profesorado.",
+    "cita": "Destinar el 6 % del PIB estatal a l’educació i posar fi a l’infrafinançament del sistema educatiu, assegurant els recursos necessaris per reforçar l’escola pública, reduir les ràtios i millorar les condicions salarials del professorat.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Financiación estatal para una plaza educativa pública, universal y gratuita de 0 a 3 años, con calendario de implantación progresiva.",
+    "cita": "Establir un sistema de finançament estatal suficient i estable per fer efectiu l’accés universal i gratuït de tots els infants a una plaça educativa pública de 0 a 3 anys, amb un calendari d’implantació progressiva i recursos per cobrir el cost real del servei.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Protección y asesoramiento jurídico a centros y profesorado ante presiones e interferencias externas.",
+    "cita": "Exigir mecanismes efectius de protecció i assessorament jurídic perquè els centres i el professorat puguin desenvolupar els seus projectes educatius sense pressions ni interferències externes.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Garantizar las competencias exclusivas de la Generalitat para elaborar los currículos educativos.",
+    "cita": "Garantir les competències exclusives de la Generalitat de Catalunya en l’elaboració dels currículums.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Un modelo de financiación en la línea de un «concierto económico solidario», como preveía el Estatut aprobado por el Parlament en 2006.",
+    "cita": "Per posar fil a l’agulla, Esquerra Republicana proposa un model de finançament que avanci en la línia d’un concert econòmic solidari, tal com es preveia a l’Estatut d’Autonomia aprovat pel Parlament el 2006, i que faci efectius els compromisos que el Govern de l’Estat no ha estat capaç de materialitzar aquesta legislatura.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Condonar los más de 17.100 millones de euros de deuda del FLA de la Generalitat.",
+    "cita": "Condonar de forma efectiva els més de 17.100 milions d’euros del FLA.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Reformar el modelo de ingresos de los entes locales y aumentar sus recursos propios.",
+    "cita": "Cal reformar el model d’ingressos i augmentar els recursos propis de què disposen per reduir la dependència de l’Estat i permetre’ls dur a terme inversions clau en mobilitat, habitatge o transició ecològica.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Constituir el Consorcio de la Zona Franca con mayoría de las instituciones catalanas en su gobierno.",
+    "cita": "Constituir el Consorci de la Zona Franca amb majoria de les institucions catalanes en els òrgans de governança.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Un Plan de Soberanía Cultural para completar el traspaso de museos, como el Arqueológico de Tarragona, y revisar el gobierno del MNAC y MACBA.",
+    "cita": "Impulsar un Pla de Sobirania Cultural per culminar el traspàs dels museus i equipaments culturals transferibles a Catalunya, incloent-hi el Museu Nacional Arqueològic de Tarragona, i revisar la governança del MNAC i del MACBA perquè les decisions estratègiques es prenguin des de les institucions catalanes.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Modificar la Ley del Patrimonio Histórico para transferir a la Generalitat el 2 % cultural de las obras estatales en Cataluña.",
+    "cita": "Exigir la modificació de la Llei del Patrimoni Històric espanyol perquè els recursos generats per les obres públiques estatals executades a Catalunya es transfereixin automàticament a la Generalitat, que gestionarà un Fons Català del 2 % Cultural destinat a conservar, restaurar i activar el patrimoni, amb especial atenció als municipis petits, el patrimoni en risc i industrial i els projectes d’ús social i comunitari.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Que las pinturas murales de la Sala Capitular de Sijena no se desmonten ni se trasladen del MNAC.",
+    "cita": "Exigir que les pintures murals de la Sala Capitular de Sixena no siguin desmuntades ni traslladades del MNAC.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Reformar la legislación estatal de patrimonio para que ningún bien muy frágil se traslade sin dictamen técnico previo.",
+    "cita": "Cal una reforma de la legislació estatal de patrimoni perquè cap bé cultural d’una fragilitat extraordinària pugui ser traslladat sense un dictamen tècnic previ que n’avali la viabilitat i en garanteixi la preservació.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Completar el Estatuto del Artista para adaptar fiscalidad, Seguridad Social y protección laboral a la intermitencia del trabajo cultural.",
+    "cita": "Completar l’Estatut de l’Artista perquè la fiscalitat, la Seguretat Social i la protecció laboral s’adaptin de manera real a la intermitència del treball cultural.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Reservar al menos el 50 % de la emisión de obras europeas a obras en lenguas oficiales del Estado o de las comunidades.",
+    "cita": "Almenys el 50 % del temps d’emissió dedicat a obres audiovisuals europees es reservarà a obres en les llengües oficials de l’Estat o de les Comunitats Autònomes.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Que TVE reserve al menos el 25 % de esas obras a producciones en lenguas oficiales distintas del castellano.",
+    "cita": "En aquest marc, TVE reservarà un mínim del 25 % d’aquestes obres a produccions en les llengües oficials diferents del castellà.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Plataformas con un 35 % de obras europeas y televisiones públicas con un 25 % de su financiación anticipada a otras lenguas oficiales.",
+    "cita": "Així mateix, les plataformes de televisió i de vídeo a petició reservaran a obres europees almenys el 35 % del seu catàleg, i les televisions públiques hauran de destinar un 25 % del finançament anticipat d’obra audiovisual europea a obres en les llengües oficials diferents del castellà.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Que consejos audiovisuales autonómicos como el CAC ejerzan funciones de la CNMC y participen en la representación del Estado en el Media Board europeo.",
+    "cita": "Ampliar les competències de les autoritats reguladores autonòmiques com el Consell Audiovisual de Catalunya (CAC) i el Consell Audiovisual de la Comunitat Valenciana (CACV), perquè puguin exercir les funcions de la Comissió Nacional dels Mercats i la Competència (CNMC) mitjançant acords formals, i garantir la participació dels organismes reguladors autonòmics en la representació de l’Estat al Comitè Europeu dels Serveis de Mitjans de Comunicació (Media Board).",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Considerar las radiotelevisiones públicas servicio público o infraestructura crítica a efectos de telecomunicaciones.",
+    "cita": "Les radiotelevisions públiques tindran la consideració de servei públic o d’infraestructures crítiques als efectes dels serveis de telecomunicacions, perquè proporcionen serveis essencials per al funcionament social i econòmic del país.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Reclamar la oficialidad y el reconocimiento internacional de las selecciones deportivas catalanas.",
+    "cita": "Reclamar l’oficialitat i el reconeixement internacional de les seleccions catalanes en totes les disciplines esportives.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Modificar la Ley del Deporte para eliminar la obligación de los deportistas de jugar con la selección española bajo amenaza de sanción.",
+    "cita": "Simultàniament, és necessari impulsar la modificació de la Llei de l’Esport espanyola per eliminar l’obligatorietat de participació dels esportistes amb la selecció espanyola sota amenaça de sanció.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Cumplir el acuerdo bilateral de julio de 2025 para que la Generalitat recaude el IRPF y todos los impuestos generados en Cataluña.",
+    "cita": "Complir amb els acords de la Comissió Bilateral Generalitat Estat de juliol de 2025 sobre l’assumpció de competències en l’IRPF per part de la Generalitat, fent efectius els canvis legislatius pertinents per a la recaptació no només d’aquest tribut sinó de tots els impostos que es generen a Catalunya.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar a Cataluña todas las competencias en migración y asilo.",
+    "cita": "Exigir el traspàs integral de les competències en migració i asil a Catalunya per garantir una gestió pròpia de l’acollida, l’avaluació de les necessitats i la integració, des d’una perspectiva de drets humans i inclusió social.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Inmigración",
+    "resumen": "Condicionar la aplicación del Reglamento europeo de Retorno a garantías de derechos fundamentales para evitar deportaciones automáticas.",
+    "cita": "Condicionar l’aplicació i el desenvolupament legislatiu del Reglament europeu de Retorn a garanties efectives dels drets fonamentals, per evitar la deriva punitiva i les deportacions automàtiques.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Inmigración",
+    "resumen": "Rechazar los centros de retorno en terceros países y reclamar asistencia legal independiente durante todo el proceso migratorio.",
+    "cita": "Rebutgem la creació de centres de retorn a països tercers i reclamem la màxima protecció jurídica, assistència legal independent i respecte als drets fonamentals durant tot el procés migratori.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar a la Generalitat todos los inmuebles de la Administración General del Estado en Cataluña.",
+    "cita": "Traspassar a la Generalitat tots els immobles de l’Administració General de l’Estat a Catalunya.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar a la Generalitat la homologación y el reconocimiento de títulos extranjeros.",
+    "cita": "Reclamar el traspàs de les funcions i els recursos necessaris perquè la Generalitat pugui gestionar l’homologació i el reconeixement de les titulacions obtingudes a l’estranger, d’acord amb les necessitats del país i amb les garanties de qualitat corresponents.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Completar el traspaso íntegro de la Inspección de Trabajo y Seguridad Social a la Generalitat.",
+    "cita": "Completar el traspàs integral de la Inspecció de Treball i Seguretat Social.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar a la Generalitat el pago de las prestaciones por desempleo a través del Servicio de Empleo de Cataluña (SOC).",
+    "cita": "Acordar amb l’Estat les cessions, delegacions i traspassos de competències i de béns patrimonials i personals necessaris a la Generalitat de Catalunya per fer efectiu el pagament de les prestacions contributives per atur i les prestacions assistencials per desocupació des del SOC.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Reformar la Ley Orgánica del Poder Judicial para crear un Consejo de Justicia de Cataluña, órgano desconcentrado del CGPJ con sede en Barcelona.",
+    "cita": "Estructurar el govern judicial propi a Catalunya i, per a això, cal impulsar la reforma de la Llei Orgànica del Poder Judicial per fer possible la creació d’un Consell de Justícia de Catalunya, com a òrgan desconcentrat del CGPJ, amb seu a Barcelona i competències sobre govern judicial, territorial, nomenaments, formació, inspecció, disciplina, organització i planta.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Promover que el Estado aplique un embargo completo de armas a Israel.",
+    "cita": "Promoure un embargament complet d’armes a Israel per part de l’Estat.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Apoyar a la CIJ y la CPI y que la UE suspenda los acuerdos de asociación con Israel mientras dure lo que llama genocidio.",
+    "cita": "Donar suport a la Cort Internacional de Justícia i a la Cort Penal Internacional i exigir a l’Estat que pressioni perquè la Unió Europea suspengui els acords d’associació amb Israel mentre duri el genocidi i l’ocupació il·legal de Palestina.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Revertir la posición de 2022 sobre el Sáhara y asumir las sentencias del TJUE que anulan los acuerdos UE-Marruecos.",
+    "cita": "El govern espanyol ha de revertir la posició respecte el Sàhara adoptada l’any 2022 i assumir les resolucions del Tribunal de Justícia de la Unió Europea que anul·len els acords UE-Marroc per haver-se pres sense el consentiment del poble sahrauí.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Condicionar los acuerdos con Marruecos al respeto de los derechos humanos y la soberanía del Sáhara Occidental.",
+    "cita": "Cal també que el govern espanyol condicioni qualsevol acord de cooperació o relació amb el Marroc al respecte escrupolós dels drets humans i la sobirania del Sàhara Occidental.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Exigir, con la UE, respeto a la soberanía del Estado de Palestina en el marco de la solución de los dos Estados.",
+    "cita": "A més, el govern espanyol ha d’exigir, en coordinació amb la Unió Europea, el respecte a la sobirania de l’Estat de Palestina sobre el territori reconegut internacionalment en el marc de la solució dels dos estats.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Mantener el apoyo a Ucrania frente a la agresión rusa, con ayuda de la UE y vía diplomática.",
+    "cita": "Mantenir el suport a Ucraïna davant l’agressió russa, apostant tant per mantenir l’ajuda des de la Unió Europea com per fomentar la via diplomàtica i la negociació com a eines essencials de prevenció i resolució de conflictes.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Fiscalizar el gasto de Defensa y sus programas especiales de armamento y evitar ocultar gasto.",
+    "cita": "Fiscalitzar el model de Defensa espanyol i els seus programes especials d’armament. Garantir el compliment de la normativa pressupostària també al ministeri de defensa, evitar l’ocultació de despesa per motius polítics i denunciar l’adjudicació de contractes públics a empreses implicades i condemnades en casos de corrupció.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Cumplir el compromiso del 0,7 % en Ayuda Oficial al Desarrollo.",
+    "cita": "Complir amb el compromís del 0,7 % d’Ajut Oficial al Desenvolupament.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Canalizar un porcentaje vinculante de la ayuda al desarrollo a través de la cooperación descentralizada y feminista.",
+    "cita": "A més, cal garantir que un percentatge vinculant d’aquests recursos es canalitzi mitjançant la cooperació descentralitzada i feminista, evitant la centralització dels fons europeus en l’administració central.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Más financiación al Institut Ramon Llull e incluir catalán y occitano en Erasmus+ y en el Centro Europeo de Lenguas Modernas.",
+    "cita": "Facilitar l’accés a l’ensenyament del català a l’exterior, exigint a l’Estat que augmenti el finançament de l’Institut Ramon Llull per ampliar la xarxa de lectorats i incloent el català i l’occità en l’oferta d’idiomes dels programes europeus d’educació (Erasmus+) i del Centre Europeu de Llengües Modernes del Consell d’Europa.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Promover internacionalmente la abolición de la pena de muerte y la ratificación del Segundo Protocolo Facultativo del PIDCP.",
+    "cita": "Promoure internacionalment la lluita contra la pena de mort, impulsant la ratificació del Segon Protocol Facultatiu del Pacte Internacional dels Drets Civils i Polítics i el compliment amb la Convenció Europea de Drets Humans.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Que la Generalitat participe en la negociación de tratados de la ONU en sus ámbitos de competencia.",
+    "cita": "Reclamar la participació de la Generalitat de Catalunya en la negociació de tractats internacionals en el marc de Nacions Unides dels àmbits de la seva competència, seguint l’aposta per la governança multinivell que ja s’està duent a terme per avançar objectius de desenvolupament i foment dels DDHH, la pau i el multilateralisme en l’àmbit global.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Autonomía estratégica de la UE con una estrategia de seguridad basada en la diplomacia y la solución negociada de conflictos.",
+    "cita": "Fomentar l’autonomia geopolítica i estratègica de la Unió Europea apostant per una estratègia de seguretat pròpia basada en la diplomàcia i la solució negociada de conflictes, tant en els pressupostos dels estats membres com en el Marc Financer Pluriennal de la Unió Europea.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Inmigración",
+    "resumen": "Una nueva Ley de asilo que impida externalizar las solicitudes de protección internacional a terceros países.",
+    "cita": "Impulsar una nova Llei d’asil que impedeixi externalitzar les sol·licituds de protecció internacional a tercers països amb els quals les persones sol·licitants no tinguin cap vincle i que no respectin els drets humans.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Inmigración",
+    "resumen": "Abrir y ampliar vías legales y seguras de migración y protección internacional.",
+    "cita": "Obrir i ampliar vies legals i segures de migració i protecció internacional, amb mecanismes i recursos suficients perquè les persones puguin migrar en condicions dignes.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Que el Estado defienda en el Marco Financiero Plurianual la gobernanza multinivel y se oponga a recentralizar programas gestionados por territorios.",
+    "cita": "Exigir a l’Estat espanyol que, durant les negociacions per al Marc Financer Pluriennal (MFP), defensi el principi de governança multinivell, un pilar fonamental per a la política de cohesió europea durant dècades, i s’oposi a la recentralització de programes gestionats per autoritats locals i de territoris com Catalunya.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Un presupuesto europeo ambicioso con nuevos ingresos propios, como un impuesto digital a las grandes plataformas.",
+    "cita": "A més, Esquerra Republicana aposta per un pressupost europeu ambiciós, que pugui fer front a reptes compartits en matèria de canvi climàtic, competitivitat o reindustrialització, i que disposi de noves fonts d’ingressos propis europeus, com ara un impost digital dirigit a les grans plataformes tecnològiques.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Transponer la Ley Electoral Europea sin umbrales ni circunscripciones que bloqueen a minorías nacionales.",
+    "cita": "Promoure la transposició de la Llei Electoral Europea, assegurant que garanteixi la pluralitat i la representativitat i que no s’utilitzen els llindars electorals i la configuració de circumscripcions com a minories de bloqueig contra minories nacionals ni contra la pluralitat política.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Promover el derecho a voto desde los 16 años.",
+    "cita": "En aquest marc, promoure també l’exercici del dret de vot a partir dels 16 anys.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reformar el gobierno de la AECID para que la Agencia Catalana de Cooperación gestione directamente fondos europeos de cooperación delegada.",
+    "cita": "Reclamar que l’Estat modifiqui la governança de l’AECID i del marc normatiu perquè l’Agència Catalana de Cooperació al Desenvolupament (ACCD) i altres agències territorials reconegudes es puguin acreditar i gestionar directament fons europeus de cooperació indirecta i delegada de la UE (Team Europe).",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Delegar a la Generalitat, por el artículo 150.1 de la Constitución, la facultad de legislar plenamente sobre arrendamientos urbanos.",
+    "cita": "Impulsar l’aprovació d’una legislació estatal, per la via de l’article 150.1 de la Constitució espanyola, que delegui formalment a la Generalitat de Catalunya la facultat de legislar de manera plena i integral en matèria d’arrendaments urbans.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Dedicar al menos el 1,5 % del PIB a políticas de vivienda en los presupuestos del Estado.",
+    "cita": "Cal garantir un finançament públic adequat a les polítiques d’habitatge i incloure’l als pressupostos generals de l’Estat, que dediqui a aquestes polítiques almenys l’1,5 % del Producte Interior Brut (PIB), la qual cosa implica multiplicar els recursos que actualment es dediquen a les polítiques d’habitatge a l’Estat espanyol.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Traspasar de inmediato a la Generalitat todos los inmuebles de la SAREB y de Casa 47.",
+    "cita": "Traspàs immediat de tots els immobles de la SAREB i Casa 47 a la Generalitat de Catalunya.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Incluir en la ley de suelo el deber de urbanizar en plazo, con venta o sustitución forzosa a los propietarios que lo incumplan.",
+    "cita": "S’ha d’incorporar a la legislació bàsica en matèria de sòl el deure legal de transformar el sòl en el termini que fixi el planejament urbanístic o, subsidiàriament, la legislació urbanística, habilitant la possibilitat de recórrer als mecanismes de venda i substitució forçosa als propietaris que incompleixin aquest deure o establint l’obligació de les administracions públiques de revisar el sòl no construït en el termini legalment previst.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Subir el IVA y el ITP en la compra de viviendas que no sean residencia habitual.",
+    "cita": "Incrementar els tipus de l’IVA i l’ITP sobre la compra d’habitatge quan aquest es destini a usos diferents a l’habitatge habitual.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Bajar los tipos impositivos cuando la vivienda sea primera residencia del propietario o del inquilino.",
+    "cita": "Alhora, cal que es redueixin els tipus impositius quan l’ús final de l’habitatge sigui la primera residència, del propietari o de l’arrendatari..",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "IVA del 21 % al alquiler turístico, incluidas las viviendas ofrecidas en plataformas digitales.",
+    "cita": "Elevar el tipus d’IVA aplicable al lloguer turístic al 21 %, inclosos els habitatges oferts o gestionats per plataformes digitals.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Deducciones e incentivos fiscales a la rehabilitación, la vivienda protegida y la eficiencia energética.",
+    "cita": "Aplicar deduccions i incentius fiscals sobre la rehabilitació d’habitatge, la construcció d’habitatge protegit i les millores d’eficiència energètica als habitatges.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Mejorar la regulación del alquiler para evitar desahucios de personas vulnerables sin alternativa, compensando a pequeños propietarios.",
+    "cita": "Millorar la regulació dels arrendaments per protegir els drets dels arrendataris i evitar els desnonaments de les persones vulnerables sense habitatge alternatiu i mantenir les compensacions als petits propietaris que es puguin veure perjudicats per aquestes situacions.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Nuevas limitaciones y obligaciones fiscales a lo que llama fondos buitre y a grandes tenedores que no destinen viviendas a residencia habitual.",
+    "cita": "Imposar noves limitacions i obligacions fiscals als fons voltors i grans tenidors que operin al mercat destinant pisos i cases a usos diferents dels d’habitatge habitual.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Obligar a la AEAT a publicar cada año, por territorios, los datos de compraventas y alquileres declarados.",
+    "cita": "Establir l’obligació de l’Agència Estatal d’Administració Tributària (AEAT) de publicar anualment, de manera desagregada territorialment, les dades relatives a les operacions de compravenda i als arrendaments d’immobles declarats, incloent-hi els imports i les principals característiques de les operacions.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Que la AEAT informe cada trimestre a las administraciones de vivienda sobre los inmuebles de grandes tenedores.",
+    "cita": "Així mateix, obligar l’AEAT a facilitar trimestralment a les administracions competents en matèria d’habitatge i drets socials informació sobre els immobles propietat de grans tenidors, incloent-hi la ubicació, la titularitat i la situació d’ús, amb les garanties legals de protecció de dades i confidencialitat tributària.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Vivienda",
+    "resumen": "Obligar a las suministradoras de agua, luz y gas a dar información a las administraciones de vivienda y servicios sociales.",
+    "cita": "Establir l’obligació de les empreses subministradores d’aigua, electricitat i gas de facilitar a les administracions competents en matèria d’habitatge i drets socials la informació necessària per millorar la planificació, la gestió i l’eficàcia de les polítiques públiques, garantint la protecció de les dades personals.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Subir el salario mínimo interprofesional hasta el 60 % del salario medio bruto.",
+    "cita": "Incrementar el Salari Mínim Interprofessional de l’estat fins al 60 % del salari mitjà brut d’acord amb les exigències del dret internacional comunitari i, en particular, de la Carta Social Europea.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Transferir a la Generalitat la competencia para fijar un salario mínimo catalán de 1.460 euros.",
+    "cita": "Transferir les competències a la Generalitat de Catalunya per establir un salari mínim català (SMC) a 1.460 €.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Crear una prestación universal por crianza de al menos 200 euros por familia, más alta en territorios con mayor coste de vida.",
+    "cita": "Traspassar els recursos necessaris per a la creació d’una prestació universal per criança adaptada a cada territori. La distribució d’una prestació universal per criança a partir de 200 euros per família que s’elevi en aquells territoris amb un cost de vida més alt, com és Catalunya, permetria una redistribució de la riquesa i una reducció de la pobresa a molt curt termini.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Subir el tipo máximo del IRPF sobre las ganancias de capital del 30 % al 35 %.",
+    "cita": "Augmentar el tipus màxim de l’IRPF sobre els guanys de capital del 30 % al 35 % per acabar amb el tracte de favor respecte a les rendes del treball.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Bajar el IRPF del trabajo en los tramos inferiores a 35.000 euros.",
+    "cita": "Alhora, cal reduir els tipus de la fiscalitat del treball per als trams inferiors als 35.000 euros per augmentar els recursos disponibles i la capacitat adquisitiva de la classe treballadora.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Bajar el IVA de alimentos básicos y productos de higiene, y reducir rebajas y deducciones respecto a la media europea.",
+    "cita": "Rebaixar l’IVA aplicable a aliments bàsics i productes d’higiene, acabant amb un gran nombre de les reduccions i deduccions respecte a la mitjana europea.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Aportación estructural del Estado al transporte público y a revertir el déficit acumulado de la ATM de Barcelona.",
+    "cita": "Reclamar a l’Estat una aportació estructural que contribueixi a garantir aquest model i a revertir el dèficit de finançament acumulat de l’ATM de Barcelona.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Un plan conjunto Estado-comunidades contra la inflación en alimentos, energía y vivienda, analizando márgenes y competencia.",
+    "cita": "Presentar un pla conjunt entre l’Administració General de l’Estat i les comunitats autònomes per combatre la inflació dels sectors on ha crescut més (aliments, energia, habitatge), analitzant marges de benefici, competència sectorial, política de subsidis i colls d’ampolla que permetin acordar mesures conjunturals i estructurals com a alternativa a mesures que perjudiquen la classe treballadora.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Conceder de forma automática el bono social eléctrico y ampliar sus umbrales de renta.",
+    "cita": "Reduir els obstacles burocràtics per accedir al bo social elèctric, automatitzant-ne la concessió, ampliant els llindars de renda per accedir-hi i revisant els límits de consum bonificat per adaptar-los a les necessitats energètiques reals de les llars.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Hacer permanente el impuesto a las grandes fortunas, con más tipo desde 10 millones y un tramo nuevo desde 100 millones.",
+    "cita": "Fer permanent l’impost temporal de solidaritat de les grans fortunes, augmentant el tipus per a fortunes de més de 10 milions d’euros i creant un tram nou a partir de 100 milions d’euros.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Recuperar el impuesto a las grandes energéticas, con exenciones para invertir en transición energética.",
+    "cita": "Recuperar l’impost a les grans energètiques, consolidant la tributació dels beneficis i establint exempcions per incentivar la inversió en transició energètica.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Convertir el impuesto extraordinario a la banca en un tributo permanente.",
+    "cita": "Convertir l’impost extraordinari a la banca en un tribut permanent.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Combatir lo que llama dumping fiscal de las comunidades gobernadas por el PP, sobre todo Madrid.",
+    "cita": "Adoptar les polítiques necessàries per combatre el dúmping fiscal de les comunitats autònomes governades pel Partit Popular, especialment la Comunitat de Madrid.",
+    "pagina": 22,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Fiscalidad coordinada en Europa para que las grandes corporaciones digitales tributen por sus ingresos.",
+    "cita": "Avançar cap a una fiscalitat justa i coordinada a escala europea per a les grans corporacions digitals, assegurant que tributin de manera justa pels ingressos que generen, combatent l’elusió fiscal i les pràctiques que permeten deslocalitzar beneficis.",
+    "pagina": 22,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Que el Institut Català de Finances obtenga la licencia bancaria plena.",
+    "cita": "Concloure l’obtenció de la llicència bancària plena per part de l’Institut Català de Finances, que el permeti créixer i operar com a node de la xarxa a Catalunya.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Servicio bancario universal: efectivo y atención presencial en cada municipio, financiado con un fondo de todas las entidades.",
+    "cita": "Per això, com ja passa amb el servei postal, cal garantir l’accés a efectiu i a atenció presencial en cada municipi per sobre d’un llindar, finançant-ho amb un fons sectorial al qual contribueixin totes les entitats segons quota de mercat.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Líneas públicas de crédito para pequeños negocios y convertir el ICO en un banco de promoción con préstamo directo.",
+    "cita": "Crear línies públiques de crèdit per al petit negoci amb repartiment de risc (avals parcials) i amb una banca pública que garanteixi el crèdit a la inversió productiva. Per fer-ho caldria convertir l’ICO en un banc de promoció amb capacitat de préstec directe a projectes industrials i de transició.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Programa de inversión pública en baterías, paneles solares, eólica, bombas de calor y reciclaje de materias primas críticas.",
+    "cita": "Impulsar un programa ambiciós d’inversió pública en tecnologies verdes crítiques per a la transició ecològica i l’autonomia estratègica europea: bateries, panells solars, energia eòlica i bombes de calor, així com capacitats de reciclatge de matèries primeres crítiques.",
+    "pagina": 22,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Quitar los beneficios fiscales a los títulos de deuda más especulativos y orientar la demanda a bonos a largo plazo.",
+    "cita": "Així, cal orientar la demanda en bons sobirans cap als de termini més llarg, eliminant els beneficis fiscals a títols de deute de caràcter més especulatiu.",
+    "pagina": 22,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Pedir a la UE una cláusula de inversión verde en las reglas fiscales y deuda común para la transición ecológica.",
+    "cita": "A més, cal que el govern espanyol reclami a la Unió Europea la creació d’una clàusula d’inversió verda en les regles fiscals i mecanismes d’endeutament comú per a la transició ecològica.",
+    "pagina": 22,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Eliminar las exenciones fiscales al combustible de aviación y navegación.",
+    "cita": "Eliminar les exempcions al combustible d’aviació i navegació, promovent les modificacions de normatives europees que pertoquin.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Revisar la fiscalidad del consumo de gas y la configuración de su tarifa.",
+    "cita": "Revisar també la fiscalitat energètica aplicada al consum del gas, conjuntament amb la configuració de la tarifa i els càrrecs i costos associats.",
+    "pagina": 22,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Acabar con la «ley Beckham», el régimen fiscal especial de quienes llegan del extranjero.",
+    "cita": "Posar fi a la llei Beckham, que permet a les persones que arribin a l’Estat des de l’estranger tributar com a no residents durant 6 anys, fins a la meitat en concepte d’IRPF i sense tributar pels rendiments patrimonials a l’estranger.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Eliminar el régimen fiscal favorable para teletrabajadores internacionales.",
+    "cita": "Eliminar la possibilitat de teletreballadors internacionals d’acollir-se a un règim fiscal favorable.",
+    "pagina": 23,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Exigir permanencia de la actividad y mantenimiento del empleo a empresas que reciban ayudas públicas.",
+    "cita": "Exigir també clàusules de permanència de l’activitat i garantia de manteniment de l’ocupació a empreses que s’acullin a ajudes públiques i deduccions a la inversió.",
+    "pagina": 23,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Permitir aplazar el pago de tributos cedidos hasta 4 años después del hecho imponible.",
+    "cita": "Modificar la legislació vigent i els reglaments que la despleguen per facilitar que, en les liquidacions dels tributs cedits, es puguin sol·licitar pròrrogues en el pagament fins a 4 anys després d’haver-se concretat el fet imposable.",
+    "pagina": 23,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Reforzar la financiación de las pymes y garantizar que se cumplan los plazos legales de pago.",
+    "cita": "Reforçar els instruments de finançament de les petites i mitjanes empreses i establir mecanismes efectius per garantir el compliment dels terminis legals de pagament.",
+    "pagina": 23,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Facilitar a las pymes la contratación pública con procedimientos digitales, división en lotes y requisitos proporcionados.",
+    "cita": "Cal també revisar la contractació pública per facilitar la participació directa de les pimes mitjançant la digitalització dels procediments, la divisió justificada en lots i l’adaptació de la planificació, preparació i disseny de licitacions per estimular la participació de pimes, assegurant la proporcionalitat dels requisits de solvència i la transparència en els pagaments a subcontractistes.",
+    "pagina": 23,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Garantías normativas y presupuestarias para la continuidad de las políticas feministas y contra la violencia machista.",
+    "cita": "Establir garanties normatives, pressupostàries i institucionals que assegurin la continuïtat de les polítiques feministes, els serveis d’atenció i els recursos de prevenció de les violències masclistes.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Perseguir los discursos racistas, xenófobos, misóginos y negacionistas de la violencia machista, sobre todo en redes.",
+    "cita": "Reforçar la prevenció, la investigació i la persecució dels discursos racistes, xenòfobs, misògins i negacionistes de les violències masclistes, especialment a les xarxes socials, els entorns digitals i les institucions.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Reformar la Ley Orgánica 1/2004 para incluir todas las violencias machistas, también la económica, la vicaria y la digital.",
+    "cita": "Reformar la Llei orgànica 1/2004 i la resta de legislació estatal per garantir la prevenció, detecció, protecció i reparació davant totes les violències masclistes, incloses l’econòmica, la vicària i la digital.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Regular de forma específica la violencia vicaria y luchar contra la difusión no consentida de imágenes íntimas, con peritajes digitales gratuitos.",
+    "cita": "Aprovar una regulació específica de la violència vicària i reforçar la lluita contra l’assetjament digital i la difusió no consentida d’imatges íntimes, garantint peritatges digitals gratuïts, la retirada ràpida de continguts il·legals, més responsabilitat de les plataformes i una protecció especial dels infants i adolescents.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Aprobar una ley integral contra la trata y la explotación de seres humanos.",
+    "cita": "Aprovar una llei integral contra el tràfic i l’explotació d’éssers humans.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reformar la ley de extranjería para proteger a las víctimas de trata y crear un fondo estatal para sus indemnizaciones.",
+    "cita": "Garantir-ne els drets independentment de la situació administrativa, reformant la legislació d’estrangeria, i crear un fons estatal que asseguri les indemnitzacions judicials quan els responsables no les paguin.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Permiso laboral retribuido por duelo gestacional para pérdidas entre la sexta semana y el día 179 de gestación.",
+    "cita": "Reconèixer el dret al dol gestacional, establint un permís laboral retribuït per les pèrdues gestacionals entre la sisena setmana i el dia 179 de gestació, independentment de les situacions d’incapacitat temporal reconegudes legalment.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Igualar los permisos de ambos progenitores en caso de muerte fetal desde el día 180 de gestación.",
+    "cita": "Garantir la igualtat de drets dels dos progenitors davant la pèrdua gestacional, equiparant la protecció i els permisos retribuïts en els casos de mort fetal a partir del dia 180 de gestació.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Equiparar los derechos de las familias monoparentales a los de las familias numerosas.",
+    "cita": "Equiparar els drets de les famílies monoparentals als de les famílies nombroses, estenent els beneficis fiscals, socials i laborals, amb respecte a les competències de les administracions corresponents.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Reconocer legalmente las identidades no binarias en el Registro Civil y la documentación, sin requisitos patologizantes.",
+    "cita": "Reconèixer legalment les identitats no-binàries. Adaptar la normativa relativa al Registre Civil, la documentació identificativa i els procediments administratius per garantir-ne el reconeixement sense requisits patologitzadors, protegint la privacitat i evitant discriminacions.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Reformar la legislación civil y el Registro Civil contra la discriminación en la filiación de familias de dos madres, trans y no binarias.",
+    "cita": "Reformar la legislació civil i del Registre Civil per eliminar les discriminacions en la filiació de les famílies de dues mares, les persones trans i no-binàries i altres models familiars, garantint el reconeixement dels vincles parentals i la seguretat jurídica, amb participació de les entitats LGBTI+ i prioritzant l’interès superior de l’infant.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Tipificar penalmente las terapias de conversión graves o coercitivas, sin penalizar el acompañamiento psicológico voluntario.",
+    "cita": "Tipificar penalment els casos greus o coercitius, protegir especialment els menors i les persones vulnerables i reforçar els mecanismes de denúncia i atenció a les víctimes, sense penalitzar l’acompanyament psicològic voluntari i afirmatiu.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Una ley estatal de memoria y reparación LGTBI+ que repare la persecución histórica, incluidas las mujeres del Patronato de Protección a la Mujer.",
+    "cita": "Impulsar una llei estatal de memòria i reparació LGBTI+. Reconèixer i reparar la persecució històrica de les persones LGBTI+ per les institucions, incloent-hi la repressió de les persones trans, les lesbianes i les dones sotmeses al Patronato de Protección a la Mujer.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Obligar a identificar las imágenes corporales retocadas en publicidad y redes, y regular anuncios que fomenten trastornos alimentarios.",
+    "cita": "Obligar a identificar les imatges corporals retocades digitalment en la publicitat i els continguts comercials de les xarxes socials, i reforçar la regulació dels anuncis que promoguin models corporals irreals o fomentin conductes alimentàries perjudicials i trastorns com l’anorèxia i la bulímia.",
+    "pagina": 24,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Cotizaciones con financiación pública para cuidadores familiares no profesionales.",
+    "cita": "Garantir que cuidar un familiar no suposi perdre drets de Seguretat Social ni oportunitats laborals, assegurant les cotitzacions de les persones cuidadores no professionals amb finançament públic.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Combatir la discriminación racial y étnica en el acceso al empleo, la vivienda y los servicios, con más garantías legales.",
+    "cita": "Combatre la discriminació racial i ètnica en l’accés a l’ocupació, l’habitatge i els béns i serveis; reforçant les garanties legals davant les pràctiques discriminatòries tant en l’àmbit públic com privat.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Formar a jueces y fiscales para identificar la motivación racista en los delitos de odio.",
+    "cita": "Reforçar la formació especialitzada de jutges, magistrats i fiscals en la identificació de la motivació racista i xenòfoba i l’aplicació efectiva dels delictes d’odi i de les circumstàncies agreujants.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Perseguir a las organizaciones que fomenten el odio y la violencia por origen o etnia.",
+    "cita": "Perseguir les estructures i organitzacions que fomentin de manera organitzada l’odi, la discriminació i la violència contra persones per raó d’origen o pertinença ètnica.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Más responsabilidad de las plataformas ante contenidos racistas, con mecanismos de denuncia accesibles.",
+    "cita": "Exigir a les plataformes digitals més responsabilitat davant la difusió de continguts racistes i xenòfobs, amb mecanismes accessibles de denúncia i resposta efectiva davant els continguts il·lícits.",
+    "pagina": 25,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Recuperar la indemnización por despido improcedente de 45 días por año, con un máximo de 42 mensualidades, y los salarios de tramitación.",
+    "cita": "Revertir l’abaratiment i la facilitació de l’acomiadament, recuperant la indemnització per acomiadament improcedent de 45 dies per any treballat, amb un màxim de 42 mensualitats, i els salaris de tramitació.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Restablecer la autorización administrativa previa de la autoridad laboral de la Generalitat para despidos colectivos y ERTE.",
+    "cita": "Restablir l’autorització administrativa prèvia de l’autoritat laboral de la Generalitat per als acomiadaments col·lectius, les suspensions de contractes i les reduccions col·lectives de jornada.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Reformar el Estatuto de los Trabajadores para que el despido sin causa no tenga tope de indemnización.",
+    "cita": "Així, per donar compliment a la Carta Social Europea, cal reformar l’Estatut dels Treballadors i permetre que en aquest tipus de cessaments no operi cap tipus de topall màxim a l’hora de fixar la indemnització.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Reducir la jornada máxima legal a 37,5 horas semanales sin reducción salarial.",
+    "cita": "Reduir la durada màxima de la jornada laboral setmanal a 37 hores i mitja sense reducció salarial.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Reforzar el registro diario de jornada digital y el derecho a la desconexión digital.",
+    "cita": "Reforçar el registre diari de jornada, garantint-ne el caràcter digital, fiable i accessible a la Inspecció de Treball, així com el dret a la desconnexió digital, per evitar els abusos en el temps de treball i garantir el descans de les persones treballadores.",
+    "pagina": 26,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Pensiones",
+    "resumen": "Garantizar la revalorización de las pensiones según la inflación.",
+    "cita": "Cal garantir l’actualització de pensions públiques d’acord amb la inflació.",
+    "pagina": 26,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Pensiones",
+    "resumen": "Revalorizar las pensiones según el IPC de cada territorio.",
+    "cita": "Revalorar les pensions d’acord amb l’IPC de cada territori.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Actualizar la Ley de prevención de riesgos laborales ante digitalización y cambio climático, con perspectiva de género y edad.",
+    "cita": "Actualitzar la Llei de prevenció de riscos laborals per garantir entorns de treball segurs i saludables. Reformar la legislació estatal per reduir la sinistralitat laboral i adaptar la prevenció als nous riscos derivats de la digitalització, el canvi climàtic i les transformacions del mercat de treball, incorporant-hi la perspectiva de gènere i d’edat.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Representación de los trabajadores en los consejos de administración, con cuotas mínimas según el tamaño de la empresa.",
+    "cita": "Impulsar una reforma de la legislació laboral i mercantil per garantir la participació efectiva de la representació legal de les persones treballadores en els consells d’administració de les empreses, establint quotes mínimes de representació en funció de la dimensió.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Pensiones",
+    "resumen": "Jubilación anticipada sin penalización en profesiones penosas, peligrosas, tóxicas o insalubres.",
+    "cita": "Garantir l’accés a la jubilació anticipada sense penalitzacions en la pensió a les persones treballadores de sectors i professions especialment penosos, perillosos, tòxics o insalubres, quan les condicions de treball i els riscos per a la salut justifiquin una reducció de l’edat mínima de jubilació.",
+    "pagina": 26,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Pensiones",
+    "resumen": "Reconocer la jubilación anticipada a los conductores profesionales de mercancías y viajeros por carretera.",
+    "cita": "En particular, fer efectiu el reconeixement d’aquest dret als conductors i conductores professionals del transport de mercaderies i de viatgers per carretera, atenent a la sinistralitat i als riscos associats a l’exercici prolongat d’aquestes professions.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Pensiones",
+    "resumen": "Aprobar ya la jubilación anticipada del Cuerpo de Agentes Rurales, equiparándola a la de los Mossos d’Esquadra.",
+    "cita": "Igualment, aprovar de forma immediata la jubilació anticipada del Cos d’Agents Rurals equiparant les seves condicions a les del cos de Mossos d’Esquadra.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Ampliar los permisos parentales retribuidos.",
+    "cita": "Ampliar els permisos parentals retribuïts i impulsar, conjuntament amb les administracions competents, mesures que permetin disposar de més temps per a la criança durant els primers anys de vida, sense penalitzacions econòmiques ni professionals.",
+    "pagina": 26,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Cuotas reducidas para autónomos con ingresos inferiores al salario mínimo, con aportaciones de los Presupuestos del Estado.",
+    "cita": "Establir quotes reduïdes per als treballadors autònoms amb ingressos inferiors al salari mínim interprofessional, amb les aportacions necessàries dels Pressupostos Generals de l’Estat per garantir el manteniment de les bases de cotització i l’accés a futures prestacions socials.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Nuevos tramos de cotización para autónomos con ingresos superiores a 6.000 euros mensuales.",
+    "cita": "També aconseguir que les rendes més altes contribueixin més, amb nous trams per als ingressos superiors als 6.000 euros mensuals.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Reformar el cese de actividad de los autónomos para que sea una protección por desempleo efectiva.",
+    "cita": "Reformar la prestació per cessament d’activitat perquè esdevingui una protecció per desocupació efectiva, amb requisits d’accés més flexibles i tràmits àgils, adaptada a les particularitats de cada sector.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Un subsidio para autónomos mayores de 52 años que cesen su actividad y equiparar sus prestaciones a las del Régimen General.",
+    "cita": "Crear un subsidi per als autònoms més grans de 52 anys que hagin cessat l’activitat i garantir l’equiparació de les prestacions per incapacitat temporal, naixement i cura de menors, lactància i atenció de fills i filles amb malalties greus amb les del Règim General de la Seguretat Social.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Cuota cero para autónomos con enfermedad grave y bonificaciones para contratar sustitutos.",
+    "cita": "Eximir els treballadors autònoms del pagament de les quotes des del moment en què es produeixi una situació de malaltia greu i establir bonificacions per a la contractació de substituts, per facilitar la continuïtat de l’activitat econòmica.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Invertir la carga de la prueba en juicios por falsos autónomos contra empresas condenadas por casos similares en los 9 meses anteriores.",
+    "cita": "Modificar la legislació perquè, en els procediments judicials de reconeixement de relació laborals contra empreses que hagin rebut sentències contràries per casos similars durant els 9 mesos anteriors a la interposició de la demanda, s’inverteixi la càrrega de la prova, de manera que el treballador demandant únicament hagi d’aportar indicis de laboralitat.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Ampliar los gastos deducibles en el IRPF de los autónomos: vehículo, suministros y vivienda usada como lugar de trabajo.",
+    "cita": "Ampliar les despeses fiscalment deduïbles a l’IRPF vinculades a l’activitat econòmica, especialment les relacionades amb el vehicle professional, els subministraments i l’ús de l’habitatge habitual com a lloc de treball, establint criteris clars que en facilitin la justificació.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Hacer más progresivo el impuesto sobre sociedades según el tamaño de la empresa.",
+    "cita": "Paral·lelament, reforçar la progressivitat de l’impost sobre societats, amb criteris de dimensió empresarial i capacitat econòmica.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Pensiones",
+    "resumen": "Reforzar la pasarela al RETA de la Ley 2/2026 reconociendo a los mutualistas todos los años aportados como cotizados.",
+    "cita": "Reforçar la passarel·la al Règim Especial de Treballadors Autònoms (RETA) de la Llei 2/2026 per als mutualistes amb reconeixement de tots els anys aportats com a anys cotitzats.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Integrar la FP del sistema educativo, la formación para el empleo y la formación en el trabajo.",
+    "cita": "Impulsar una ordenació que integri la formació professional del sistema educatiu, la formació per a l’ocupació i la formació en el treball, incorporant els ensenyaments de règim especial i respectant-ne les singularitats.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Coordinar FP, universidades, centros de investigación y empresas, con pasarelas y reconocimiento de créditos.",
+    "cita": "Establir mecanismes de coordinació i projectes compartits entre centres de formació professional, universitats, centres de recerca i empreses, i facilitar les passarel·les formatives mitjançant el reconeixement de crèdits i aprenentatges.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Agilizar la acreditación de competencias adquiridas con la experiencia y garantizar orientación profesional a todas las edades.",
+    "cita": "Agilitzar l’acreditació de les competències adquirides mitjançant l’experiència professional i la formació no formal, facilitar l’acumulació d’aprenentatges i garantir serveis d’orientació professional accessibles a totes les edats.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Financiación estable de los centros de FP, con equipos actualizados y formación del profesorado.",
+    "cita": "Garantir un finançament estable i suficient dels centres de formació professional, amb equipaments actualitzats i recursos per a la formació permanent del professorat.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Hacer permanente la prohibición de cortes de suministros a hogares vulnerables, hoy vigente hasta el 31 de diciembre de 2026.",
+    "cita": "Convertir en estable la garantia de subministrament que actualment es manté amb caràcter temporal fins a 31 de desembre de 2026, adaptant el marc estatal als estàndards de protecció dels consumidors vulnerables de la Directiva europea 2024/1711.",
+    "pagina": 27,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Un plan para condonar la deuda acumulada por hogares vulnerables durante la moratoria de cortes, con corresponsabilidad de las suministradoras.",
+    "cita": "Posar en marxa un pla de condonació del deute de les llars en situació de vulnerabilitat acumulat durant la moratòria de talls de subministrament, assegurant la corresponsabilitat econòmica de les empreses subministradores d’aquests serveis bàsics.",
+    "pagina": 27,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Más recursos estatales para adaptar el ingreso mínimo vital al coste de la vida en Cataluña.",
+    "cita": "Exigir a l’Estat els recursos necessaris per adaptar l’ingrés mínim vital al cost de la vida a Catalunya.",
+    "pagina": 28,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Revisar la prestación CUME por cuidado de menores con cáncer u otra enfermedad grave para que llegue a todas las familias.",
+    "cita": "Revisar la prestació per cura de menors afectats per càncer o una altra malaltia greu (CUME) per garantir-ne l’accés a totes les famílies que ho necessitin, simplificar-ne els tràmits i evitar que els requisits administratius en dificultin el reconeixement.",
+    "pagina": 28,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Prohibir externalizar las tareas ordinarias de las camareras de piso y compensar a las empleadas del hogar por periodos anteriores a 2022 sin paro.",
+    "cita": "Dignificar les condicions laborals de les treballadores del Servei d’Atenció Domiciliària (SAD), prohibir l’externalització de les tasques ordinàries de les cambreres de pis en el sector hoteler i reconèixer o compensar els períodes treballats per les empleades de la llar abans de 2022 que no van generar drets de protecció per desocupació.",
+    "pagina": 28,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Revisar el cuadro de enfermedades profesionales con perspectiva de género e incluir fibromialgia, fatiga crónica o lupus de origen laboral.",
+    "cita": "Incorporar la perspectiva de gènere al reconeixement de les malalties professionals, revisant el quadre de patologies per corregir els biaixos que hi consten i incloure-hi malalties com ara la fibromiàlgia, la fatiga crònica o el lupus quan se n’acrediti l’origen laboral.",
+    "pagina": 28,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Sustituir los PERTE, que acaban en 2026, por proyectos estratégicos descentralizados, recuperando el «PERTE territorial».",
+    "cita": "Cal substituir els PERTE, que acaben aquest 2026, per projectes estratègics amb una gestió descentralitzada, recuperant la idea del PERTE territorial que serveixi per mobilitzar els recursos que l’Estat espanyol ha estat incapaç de distribuir.",
+    "pagina": 29,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Ampliar el Programa Auto+ dando más peso a la fabricación en la Unión Europea.",
+    "cita": "Ampliar el volum i el marc temporal del Programa Auto+ per accelerar l’electrificació del parc de vehicles i la instal·lació de punts de recàrrega atorgant més pes al criteri de fabricació a la Unió Europea.",
+    "pagina": 29,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Priorizar en la contratación pública la fabricación local y la sostenibilidad.",
+    "cita": "Prioritzar la contractació pública, la fabricació local i la sostenibilitat, especialment en sectors clau en matèria de llocs de treball de qualitat i cohesió territorial.",
+    "pagina": 29,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Ayudas plurianuales para comprar camiones de cero emisiones, accesibles a pymes.",
+    "cita": "Establir programes pluriennals d’ajuts per a l’adquisició de camions de zero emissions, accessibles a treballadors de pimes.",
+    "pagina": 29,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Vincular la renovación de vehículos a la retirada de los antiguos e incentivar fiscalmente la electrificación de flotas.",
+    "cita": "Cal també vincular els programes de renovació del parc de vehicles a la retirada de vehicles antics i incentivar fiscalment l’electrificació de les flotes empresarials.",
+    "pagina": 29,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Que el Ministerio de Industria defienda en la UE el clúster químico de Tarragona como proyecto estratégico (EU Critical Chemical Sites).",
+    "cita": "Exigir que el Ministeri d’Indústria defensi davant la Comissió i el Consell la candidatura del clúster químic de Tarragona com a projecte estratègic en el marc del Pla d’Acció per a la Indústria Química de la UE (EU Critical Chemical Sites), impulsant-ne la descarbonització.",
+    "pagina": 29,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Más capacidad de decisión de la Generalitat en la planificación y gobierno de la red eléctrica.",
+    "cita": "Garantir la participació efectiva i l’increment de la capacitat de decisió de la Generalitat de Catalunya en la planificació, determinació de prioritats i governança sobre el seu sistema energètic en matèria de xarxes, inversions i desplegament de nova capacitat.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Nueva Ley de Bases del Sector Eléctrico y Ley de Gases Renovables que sustituya la Ley de Hidrocarburos.",
+    "cita": "Cal una nova Llei de Bases del Sector Elèctric i una Llei dels Gasos Renovables en substitució de la Llei d’Hidrocarburs que transposi les directives del Clean Energy Package i actualitzi la realitat del sector als reptes climàtics, de seguretat energètica i econòmics de la pròxima dècada.",
+    "pagina": 30,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Modificar los incentivos del RD 8/2023 para que no refuercen lo que llama el oligopolio eléctrico y entren nuevos agentes.",
+    "cita": "Modificar els incentius del RD 8/2023 per evitar que les bonificacions fiscals per inversions en renovables funcionin com a subvencions que reforcin la posició de domini de l’oligopoli, afavorint en el seu lloc l’entrada de nous agents i la diversificació del mercat.",
+    "pagina": 30,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Traspasar a la Generalitat la titularidad pública de las centrales hidroeléctricas a medida que caduquen las concesiones.",
+    "cita": "Recuperar i traspassar la gestió i la titularitat pública de les centrals hidroelèctriques a la Generalitat de Catalunya a mesura que vagin caducant les concessions.",
+    "pagina": 30,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Un plan estatal de inversiones en la red eléctrica catalana con proyectos, calendario y compromisos anuales.",
+    "cita": "Exigir a l’Estat un pla d’inversions en les xarxes de transport i distribució elèctrica de Catalunya, amb projectes identificats, calendaris executables i compromisos anuals verificables.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Actualizar los requisitos técnicos de conexión de las grandes fotovoltaicas para la estabilidad del sistema.",
+    "cita": "Actualitzar els requisits tècnics de connexió de les grans instal·lacions fotovoltaiques per garantir l’estabilitat del sistema, exigint mecanismes de resposta ràpida davant fluctuacions i incidències.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Condicionar la autorización de líneas de muy alta tensión al informe favorable del órgano de biodiversidad de la Generalitat.",
+    "cita": "Condicionar l’autorització estatal de les línies d’evacuació elèctrica, especialment les de molt alta tensió (MAT), a l’informe favorable de l’òrgan competent en biodiversitat de la Generalitat de Catalunya.",
+    "pagina": 30,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Evitar las líneas de muy alta tensión vinculadas al clúster Forestalia.",
+    "cita": "Evitar la imposició de projectes contraris al model energètic català, com ara les línies MAT vinculades al clúster Forestalia.",
+    "pagina": 30,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Transponer con urgencia las directivas NIS2 y CER para proteger las infraestructuras energéticas críticas.",
+    "cita": "Transposar urgentment les directives europees NIS2 i CER per reforçar la protecció de les infraestructures energètiques crítiques, reduir les vulnerabilitats davant de ciberatacs i altres amenaces i millorar la prevenció i la capacitat de resposta davant de les incidències que hi pugui haver.",
+    "pagina": 30,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Facilitar que demanda, almacenamiento, agregadores y comunidades energéticas participen en los mercados eléctricos.",
+    "cita": "Desenvolupar el marc normatiu europeu per facilitar la participació activa de la demanda, l’emmagatzematge, els agregadors independents i les comunitats energètiques locals en els mercats elèctrics, inclosos els serveis de regulació de freqüència.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Crear una plataforma neutral de datos de recursos energéticos distribuidos, con cesión a terceros solo con consentimiento.",
+    "cita": "Crear una plataforma neutral de dades dels recursos energètics distribuïts que garanteixi l’accés igualitari a la informació i la cessió de dades a tercers únicament amb el consentiment exprés de les persones consumidores.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Ampliar el autoconsumo compartido hasta 10 km en general y 20 km en zonas rurales.",
+    "cita": "Modificar la legislació per ampliar l’àmbit de l’autoconsum col·lectiu fins als 10 km amb caràcter general i fins als 20.000 metres (20 km) en àrees rurals, redefinint els peatges d’accés de manera proporcional als que s’indueixen a la xarxa.",
+    "pagina": 30,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Agilizar la legalización del autoconsumo compartido, con plazos exigibles a distribuidoras, y apostar por el balance neto cero.",
+    "cita": "Agilitzar els tràmits de legalització de les instal·lacions d’autoconsum compartit, garantir una bona qualitat de la senyal elèctrica de la xarxa de distribució, fixar procediments simples amb terminis exigibles per a distribuïdores i comercialitzadores, i apostar pel balanç net zero per a l’autoconsum.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Ampliar las ayudas estatales al autoconsumo, con incentivos al almacenamiento y a instalaciones que funcionen en modo isla.",
+    "cita": "Ampliar els programes estatals d’ajuts per fomentar l’autoconsum individual i col·lectiu, amb incentius per a l’emmagatzematge energètic i les instal·lacions capaces de funcionar en mode illa davant de talls de subministrament.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Reforzar el programa CE IMPLEMENTA y apoyar a comunidades energéticas, cooperativas, municipios y pymes.",
+    "cita": "Reforçar el programa CE IMPLEMENTA i crear línies de suport a les comunitats energètiques, cooperatives, llars, municipis, comerços i pimes, facilitant l’aprofitament de cobertes, aparcaments, equipaments públics i espais industrials.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Ayudas para sustituir combustibles fósiles por electricidad en climatización y movilidad, aislar edificios y renovar electrodomésticos.",
+    "cita": "Impulsar ajuts per substituir els combustibles fòssils per alternatives elèctriques en la climatització i la mobilitat, millorar l’aïllament dels edificis i renovar els electrodomèstics i equips per models més eficients.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Red de recarga eléctrica y de hidrógeno con el objetivo de 4.000 puntos de más de 350 kW antes de 2030.",
+    "cita": "Desplegar una xarxa de recàrrega de vehicles elèctrics i d’hidrogen alineada amb els objectius europeus, amb especial atenció al transport de mercaderies i l’objectiu d’assolir 4.000 punts de recàrrega de més de 350 kW abans de 2030.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Ampliar los plazos de concesión de las estaciones de carga ultrarrápida.",
+    "cita": "Adaptar el marc normatiu i ampliar els terminis de concessió de les estacions de càrrega ultraràpida per facilitar-ne el desplegament i fomentar la competència.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Sistemas eléctricos de emergencia en estaciones ferroviarias e infraestructuras críticas de transporte.",
+    "cita": "Garantir sistemes d’alimentació elèctrica d’emergència a les estacions ferroviàries i infraestructures crítiques de transport per mantenir les comunicacions, la il·luminació i la senyalització quan hi hagi talls de subministrament.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Un paquete estatal de ayudas a la electrificación industrial, la eficiencia, el almacenamiento y la recuperación de calor.",
+    "cita": "Aprovar un paquet estatal d’ajuts per accelerar l’electrificació industrial, l’eficiència energètica, l’emmagatzematge i la recuperació de calor.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Reformar la fiscalidad para favorecer la sustitución de combustibles fósiles por electricidad.",
+    "cita": "Reformar la fiscalitat per afavorir la substitució dels combustibles fòssils per electricitat i garantir que les obligacions socials del sistema energètic disposin de finançament públic transparent.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Compensar a los pequeños inversores fotovoltaicos afectados por los cambios retroactivos del régimen retributivo de las renovables.",
+    "cita": "Establir mecanismes de compensació per als petits inversors fotovoltaics afectats per les modificacions retroactives del règim retributiu de les energies renovables, garantint la seguretat jurídica i la protecció de les inversions realitzades sota el marc regulador anterior.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Recuperar el Fondo Nacional para la Sostenibilidad del Sistema Eléctrico para que los fósiles financien las renovables.",
+    "cita": "Recuperar el Fons Nacional per a la Sostenibilitat del Sistema Elèctric perquè els combustibles fòssils contribueixin al finançament de les renovables i es redueixin els costos de la factura elèctrica.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Incorporar las redes de 25 y 30 kV a la tarifa 6.2 y regular la contratación de potencia estacional.",
+    "cita": "Corregir els greuges tarifaris de les xarxes de 25 i 30 kV, incorporant-les a la tarifa 6.2, i regular la contractació de potència estacional per adaptar els costos al consum real.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Impulsar el biometano, el hidrógeno verde y la cogeneración de alta eficiencia en la industria.",
+    "cita": "Impulsar els gasos renovables, especialment el biometà i l’hidrogen verd, i la cogeneració d’alta eficiència per descarbonitzar els processos industrials difícils d’electrificar.",
+    "pagina": 31,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Flexibilizar la Ley 7/2022 de residuos para usar los del sector primario en biogás y energía renovable.",
+    "cita": "Modificar i flexibilitzar la Llei 7/2022 de residus i sòls contaminats per a una economia circular, facilitant que els residus procedents de la ramaderia, l’agricultura i la pesca es puguin utilitzar àgilment per a la producció de biogàs, la generació d’energia renovable i l’impuls de la bioeconomia.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Que el Estado aporte al Fondo de Transición Nuclear de la Generalitat lo mismo que la administración catalana.",
+    "cita": "Exigir la contribució obligatòria de l’Estat al Fons de Transició Nuclear de la Generalitat de Catalunya per un import equivalent al que aporta anualment l’administració catalana, mitjançant la recaptació finalista de l’impost sobre instal·lacions amb impacte ambiental provinent dels ingressos estatals de l’energia nuclear.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Modificar el Plan Hidrológico del Ebro para garantizar los caudales ecológicos.",
+    "cita": "Modificar el Pla Hidrològic de l’Ebre i garantir els cabals ecològics i l’equilibri mediambiental.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Convocar la comisión bilateral entre Costas y la Generalitat para proteger el litoral del delta del Ebro.",
+    "cita": "Convocar la comissió bilateral entre la Direcció General de Costes i la Generalitat de Catalunya per coordinar les estratègies de protecció del litoral i incrementar la seguretat jurídica dels titulars de drets al delta de l’Ebre.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar la gestión de las cuencas catalanas que dependen de la Confederación Hidrográfica del Ebro.",
+    "cita": "Reclamar el traspàs i la cessió de la gestió de les conques catalanes que depenen de la Confederació Hidrogràfica de l’Ebre (CHE).",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Convertir los 435 millones del RDL 4/2023 para las desaladoras de la Tordera y el Foix en aportación estatal a fondo perdido.",
+    "cita": "Reclamar la modificació de la via de finançament establerta al RDL 4/2023 per convertir els 435 milions d’euros en una injecció directament estatal a fons perdut, evitant que s’articulin com un crèdit que acabi sent repercutit sobre la factura de l’aigua dels ciutadans de Catalunya.",
+    "pagina": 31,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Ampliar la ZEPA del delta del Llobregat de 935 a 2.372 hectáreas.",
+    "cita": "Donar suport a la iniciativa de la Generalitat per ampliar la Zona d’Especial Protecció per a les Aus (ZEPA) del delta del Llobregat de 935 ha a 2.372 ha, donant compliment a la carta d’emplaçament de la Comissió Europea (2018), preservant el patrimoni natural i agrícola i limitant l’especulació urbanística.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Normativa estatal para usar agua regenerada en limpieza de granjas y vehículos de animales, ahorrando más de 460 millones de litros al año.",
+    "cita": "Desenvolupar la normativa estatal necessària per permetre l’ús d’aigua regenerada en activitats industrials i ramaderes que no suposin risc per a la salut pública (com la neteja i desinfecció de vehicles de transport d’animals o de granges), evitant el malbaratament de més de 460 milions de litres d’aigua potable a l’any.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Reducir las emisiones de CO2 al menos un 65 % en 2030 y un 95 % en 2040 respecto a 1990.",
+    "cita": "Cal assegurar el compliment amb els objectius de reducció d’emissions de CO2 d’almenys el 65 % el 2030 i del 95 % el 2040, respecte a 1990.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Ayudas periódicas a municipios rurales y de montaña para redes de calor con biomasa forestal.",
+    "cita": "Crear una convocatòria periòdica d’ajuts a municipis rurals i de muntanya per a xarxes de calor amb estella forestal de proximitat, promovent la gestió sostenible dels boscos locals, la prevenció d’incendis i la creació d’ocupació.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Un plan estatal anual contra la regresión, la subsidencia y la subida del mar en el delta del Ebro.",
+    "cita": "Exigir un pla estatal anual acordat amb el territori per combatre la regressió, la subsidència i la pujada del mar al delta de l’Ebre, prioritzant la mobilització de sorres i la recuperació de sediments d’embassaments, adaptant la gestió d’inundacions i eliminant tràmits que bloquegen les actuacions catalanes.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Que el Marco Financiero Plurianual 2028-2034 garantice recursos propios para agricultura, pesca y desarrollo rural.",
+    "cita": "Exigir que el nou Marc Financer Pluriennal (MFP) de la Unió Europea per al període 2028-2034 garanteixi recursos suficients i diferenciats per a l’agricultura, la ramaderia, la pesca i el desenvolupament rural, evitant que la integració dels actuals instruments de finançament en fons més amplis comporti una reducció dels recursos o una recentralització de les competències.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Que Cataluña participe directamente en definir, repartir y gestionar los fondos europeos agrarios y pesqueros.",
+    "cita": "Reclamar que Catalunya participi directament en la definició, distribució i gestió dels fons europeus, apropant les decisions a les explotacions agràries, ramaderes i pesqueres.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Rechazar la ratificación del acuerdo UE-Mercosur y su aplicación provisional mientras no se pronuncie el TJUE.",
+    "cita": "El govern espanyol ha de rebutjar la ratificació de l’acord de lliure comerç UE-Mercosur i oposar-se a l’aplicació provisional mentre no es pronunciï el TJUE.",
+    "pagina": 32,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Cláusulas de salvaguarda y reciprocidad de normas para los productos agroalimentarios importados.",
+    "cita": "Alhora, cal garantir clàusules de salvaguarda i reciprocitat de normes per als productes agroalimentaris importats en els tractats comercials.",
+    "pagina": 32,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Competencias de la Generalitat para ordenar el espacio marítimo de sus costas, según la Directiva 2014/89/UE.",
+    "cita": "Exigir que el govern de la Generalitat de Catalunya disposi de les competències i dels instruments necessaris per planificar i ordenar els usos de l’espai marítim de les seves costes, d’acord amb la Directiva 2014/89/UE.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Reformar la Ley de la cadena alimentaria para asegurar precios justos a los agricultores.",
+    "cita": "Reformar i garantir l’aplicació efectiva de la Llei de la cadena alimentària per assegurar preus justos a la pagesia.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Promover la comercialización de vinos y espumosos catalanes y reforzar sus denominaciones de origen.",
+    "cita": "Impulsar mesures de comercialització dels vins i escumosos catalans, tant al mercat interior com als mercats internacionals, reforçant el reconeixement de les denominacions d’origen i la qualitat dels productes del país.",
+    "pagina": 33,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Un mecanismo para actualizar los costes de producción agraria según los precios de combustibles y fertilizantes.",
+    "cita": "Establir un mecanisme dinàmic d’actualització dels costos de producció agraris i ramaders que respecti la variació dels preus d’inputs clau, com ara combustibles i fertilitzants, i garanteixi la repercussió en la revisió dels contractes alimentaris, protegint la viabilitat de les explotacions familiars davant les fluctuacions internacionals mitjançant observatoris de preus i costos més transparents i actualitzats.",
+    "pagina": 33,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Aumentar la aportación estatal a ENESA para abaratar los seguros agrarios.",
+    "cita": "Incrementar l’aportació estatal a ENESA per augmentar les subvencions a les pimes, abaratir les assegurances agràries i ramaderes i fomentar-ne la contractació.",
+    "pagina": 33,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Incluir a Cataluña en la cobertura de seguros por daños del mildiu en la uva de vinificación.",
+    "cita": "Eliminar les discriminacions territorials, especialment incorporant Catalunya a la cobertura dels danys provocats pel míldiu al raïm de vinificació.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Priorizar la modernización de los Canales de Urgell con calendario plurianual de financiación que no recaiga en los regantes.",
+    "cita": "Prioritzar la modernització integral dels Canals d’Urgell, incloent-hi la connexió amb el Segarra-Garrigues i el Canal Auxiliar, amb un calendari pluriennal de finançament que eviti carregar-ne el cost sobre els regants, així com les actuacions a les conques compartides de l’Ebre, el Xúquer i el Segura.",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Regularizar la potencia real de los motores pesqueros y pedir a la UE revisar los criterios de capacidad de la flota.",
+    "cita": "Impulsar la regularització de la potència real dels motors pesquers, especialment de l’arrossegament, per resoldre les discrepàncies documentals que n’amenacen la continuïtat, exigint a l’Estat que defensi davant la Unió Europea una revisió dels criteris de capacitat (GT i kW).",
+    "pagina": 33,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Que las sanciones pesqueras y la pérdida de ayudas del FEMPA sean proporcionales.",
+    "cita": "Revisar la legislació estatal i negociar les modificacions europees oportunes per garantir que la qualificació d’infraccions pesqueres i la pèrdua d’ajuts del FEMPA s’ajustin als principis de proporcionalitat, individualització i seguretat jurídica.",
+    "pagina": 33,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Economía y empresas",
+    "resumen": "Cuotas o autorizaciones para las capturas accidentales de atún rojo en la pesca de pequeños pelágicos.",
+    "cita": "Reclamar mecanismes específics d’assignació de quotes o autoritzacions per a les captures accidentals de tonyina roja en la pesca de petits pelàgics (especialment d’encerclament), permetent-ne el desembarcament i la comercialització sota control i traçabilitat.",
+    "pagina": 33,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Energía y clima",
+    "resumen": "Crear un fondo estatal para municipios propietarios forestales (FEMUPF) para la gestión de bosques y la prevención de incendios.",
+    "cita": "Crear un fons estatal per a municipis propietaris forestals (FEMUPF) per finançar la gestió sostenible dels boscos, la prevenció de grans incendis i el reconeixement dels serveis ecosistèmics (regulació hídrica, biodiversitat i fixació de carboni).",
+    "pagina": 33,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Una estrategia de soberanía digital que reduzca la dependencia de las grandes tecnológicas en infraestructuras, IA y nube.",
+    "cita": "Impulsar una estratègia de sobirania digital que redueixi la dependència de les grans corporacions tecnològiques i reforci les capacitats pròpies en infraestructures digitals, computació, intel·ligència artificial i serveis al núvol.",
+    "pagina": 34,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Proteger los derechos laborales y los empleos ante la automatización.",
+    "cita": "Protegir els drets laborals davant l’automatització, protegint els llocs de treball, facilitant la formació i evitant que la riquesa i el poder tecnològic es concentrin en unes poques grans corporacions.",
+    "pagina": 34,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Reforzar la protección de datos, defender el cifrado de las comunicaciones y rechazar la vigilancia masiva.",
+    "cita": "Reforçar la protecció de les dades personals, la privacitat i el dret a comunicar-se de manera segura, defensant el xifratge de les comunicacions i rebutjant la vigilància massiva indiscriminada.",
+    "pagina": 34,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Exigir a las plataformas prevenir riesgos para menores y evitar diseños manipuladores y adictivos.",
+    "cita": "Exigir a les plataformes digitals mecanismes efectius de prevenció i detecció de riscos, sistemes de denúncia accessibles i dissenys adequats a l’edat que evitin les pràctiques manipuladores i addictives.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Una legislación sobre transparencia de algoritmos y derecho a cuestionar decisiones automatizadas.",
+    "cita": "En la línia de la declaració de Ginebra, reforçar els drets digitals de la ciutadania mitjançant una legislació que garanteixi la transparència dels algoritmes i el dret de les persones a conèixer, comprendre i qüestionar les decisions automatitzades que les afecten.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Supervisar la IA en empleo, educación, salud, justicia y servicios públicos para prevenir la discriminación algorítmica.",
+    "cita": "Reforçarem la supervisió dels sistemes d’IA, especialment en àmbits sensibles com l’ocupació, l’educació, la salut, la justícia i els serveis públics, per prevenir la discriminació algorítmica, la manipulació i les decisions automatitzades sense garanties.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Protección de menores en el entorno digital desde el diseño y prohibir prácticas que exploten sus vulnerabilidades.",
+    "cita": "Establir garanties perquè els infants i adolescents puguin exercir els seus drets digitals, respectant-ne l’autonomia progressiva, la participació i l’interès superior, i exigir a les plataformes digitals que incorporin la protecció dels seus drets des del disseny i per defecte. Prohibir les pràctiques que n’explotin les vulnerabilitats, en manipulin el comportament o en condicionin l’autonomia.",
+    "pagina": 35,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Revisar la normativa de la profesión veterinaria para mejorar sus condiciones y reducir cargas burocráticas.",
+    "cita": "Impulsar una revisió integral del marc normatiu que regula l’exercici de la professió veterinària, amb l’objectiu de garantir unes condicions laborals dignes, reconèixer el seu paper essencial en la salut pública i el benestar animal i eliminar les càrregues burocràtiques i les limitacions normatives que dificulten l’exercici professional i l’atenció adequada als animals.",
+    "pagina": 36,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Reconocer legalmente la violencia contra animales de compañía como forma de violencia vicaria.",
+    "cita": "Promoure el reconeixement legal de la violència exercida contra els animals de companyia com a instrument de control, intimidació, coacció i patiment envers les dones víctimes de violència masclista, incorporant-la expressament al marc normatiu de prevenció i protecció davant la violència de gènere i la violència vicària.",
+    "pagina": 36,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Modificar la ley estatal de bienestar animal para incluir a los perros de caza y de trabajo.",
+    "cita": "Impulsar la modificació de la legislació estatal de protecció i benestar animal per eliminar les exclusions que afecten els gossos destinats a activitats de caça, treball i altres finalitats específiques.",
+    "pagina": 36,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Reformar el Código Penal para endurecer el maltrato animal y que los animales retirados no vuelvan a los condenados.",
+    "cita": "Impulsar la reforma del Codi Penal per reforçar les conseqüències dels delictes de maltractament i garantir que els animals retirats a persones condemnades no tornin a estar en les seves mans.",
+    "pagina": 36,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Adaptar las infraestructuras al cambio climático y evitar obras que considera sobredimensionadas, como el Cuarto Cinturón.",
+    "cita": "La gestió i construcció d’infraestructures ha de tenir en compte el context d’emergència climàtica: cal adaptar les infraestructures actuals al canvi climàtic i construir-ne de noves que ajudin a la reducció de la contaminació atmosfèrica i afavoreixin el transport públic i el desenvolupament ferroviari i, alhora, cal evitar la construcció d’infraestructures sobredimensionades amb criteris del passat com ara el Quart Cinturó.",
+    "pagina": 37,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Un órgano bilateral Generalitat-Estado para traspasar y gestionar por separado los aeropuertos de El Prat, Girona, Reus y Sabadell.",
+    "cita": "Paral·lelament, establir un òrgan bilateral Generalitat–Estat de governança aeroportuària que permeti avançar en el traspàs i la gestió individualitzada dels aeroports de Barcelona-El Prat, Girona, Reus i Sabadell, integrats en una estratègia aeroportuària catalana en xarxa.",
+    "pagina": 38,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar la titularidad y la gestión de los aeropuertos de Girona, Reus y Sabadell.",
+    "cita": "Traspassar la titularitat i la gestió dels aeroports de Girona, Reus i Sabadell, sense renunciar al traspàs de la resta d’infraestructures aeroportuàries i portuàries dels Països Catalans.",
+    "pagina": 38,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Conectar los aeropuertos de Girona y Reus con la alta velocidad, con estación del AVE en el aeropuerto de Girona.",
+    "cita": "Impulsar la integració dels aeroports de Girona i Reus en el sistema ferroviari d’alta velocitat, accelerant la redacció del projecte constructiu i l’execució de l’estació de l’AVE a l’aeroport de Girona.",
+    "pagina": 38,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Planes de aislamiento acústico para viviendas afectadas por los aeropuertos, sobre todo El Prat.",
+    "cita": "Impulsar i finançar plans d’aïllament acústic dels habitatges i equipaments afectats per les infraestructures aeroportuàries estatals a Catalunya, especialment a l’aeroport de Barcelona - El Prat, amb criteris de protecció de la salut, transparència i participació dels municipis i de les persones afectades.",
+    "pagina": 38,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Más autonomía de gestión para las autoridades portuarias.",
+    "cita": "Modificar el marc legal per incrementar l’autonomia operativa i de gestió de les autoritats portuàries, per reduir la burocràcia, guanyant agilitat i eficiència, seguint el model del centre i el nord d’Europa i en la línia de les recomanacions del marc regulador europeu.",
+    "pagina": 38,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Constituir el Consorcio de Inversiones de Cataluña y la Sociedad Mercantil de Inversiones, paritarios entre Generalitat y Estado.",
+    "cita": "Materialitzar els acords entre la Generalitat i l’Estat per constituir i posar en funcionament el Consorci d’Inversions de Catalunya i la Societat Mercantil d’Inversions de Catalunya, amb participació paritària de les dues administracions.",
+    "pagina": 38,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Ampliar las encomiendas de gestión a la Generalitat para AP-7, AP-2, A-2 y A-27.",
+    "cita": "Incrementar les encomanes de gestió perquè la Generalitat pugui projectar, executar i mantenir les infraestructures viàries de titularitat estatal, especialment les vies d’alta capacitat AP-7, AP-2, A-2 i A-27.",
+    "pagina": 38,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar a Cataluña carreteras estatales como la N-II, N-340, N-260, N-230 y N-240, con recursos.",
+    "cita": "Avançar en el traspàs de les carreteres estatals que transcorren per Catalunya, com l’N II, l’N 340, l’N 260, l’N 230 i l’N 240, amb els recursos econòmics necessaris per garantir-ne la conservació i la millora.",
+    "pagina": 38,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Un consorcio Estado-Generalitat de la red viaria y la viñeta como sistema único de pago en vías de alta capacidad.",
+    "cita": "Crear un consorci Estat-Generalitat per mancomunar els actius de la xarxa viària i establir la vinyeta com a sistema únic de pagament i control de pas.",
+    "pagina": 38,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Mejorar la N-260 y traspasar a la Generalitat su titularidad entre el Pont de Suert y Portbou.",
+    "cita": "Garantir la millora integral de la carretera i, un cop executades les inversions compromeses, traspassar a la Generalitat la titularitat de l’N-260 entre el Pont de Suert i Portbou.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Tercer carril por sentido en la AP-7 entre Amposta y l’Hospitalet de l’Infant.",
+    "cita": "Accelerar la tramitació, la dotació pressupostària i l’execució del tercer carril per sentit de l’AP-7, entre Amposta i l’Hospitalet de l’Infant.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Terminar la autovía A-27 entre Valls y Montblanc y conectarla con la AP-2.",
+    "cita": "Finalitzar l’autovia A 27 entre Valls i Montblanc i garantir-ne la connexió amb l’AP-2.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Accesos directos de los polígonos Torreblanca-Quatre Pilans y Camí dels Frares a la red de alta capacidad.",
+    "cita": "Executar els accessos directes dels polígons industrials de Torreblanca-Quatre Pilans i Camí dels Frares a la xarxa viària d’alta capacitat.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Completar la A-2 y la N-II en Girona, incluida la conexión Tordera-Maçanet de la Selva y la variante de Figueres.",
+    "cita": "Completar les actuacions pendents de l’A-2 i l’N-II a les comarques gironines, especialment la connexió entre Tordera i Maçanet de la Selva i la variant de Figueres, per millorar la connectivitat territorial i descongestionar l’AP-7.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Licitar en 2027 los nuevos accesos ferroviarios y viarios al Puerto de Barcelona.",
+    "cita": "Garantir la finalització dels projectes constructius, la licitació de les obres durant el 2027 i la consignació pressupostària necessària per executar els nous accessos al Port de Barcelona.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Desdoblar la vía de mercancías entre la futura estación intermodal de Lleida y Picamoixons.",
+    "cita": "Accelerar els estudis informatius, els projectes constructius i les inversions necessàries per desdoblar el tram ferroviari entre la futura estació intermodal de Lleida i Picamoixons.",
+    "pagina": 39,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Hacer efectivo el traspaso de la línea R1 de Rodalies e iniciar el de las R2 Sud, R3, R4 Nord y R16.",
+    "cita": "Fer efectiu el traspàs de la línia R1 i iniciar el de la resta de línies acordades amb l’Estat —R2 Sud, R3, R4 Nord i R16 (l’Aldea-Tortosa)—, incloent-hi les vies, les estacions, les instal·lacions i tots els elements necessaris per garantir-ne una gestió integral des de Catalunya, amb els recursos humans, materials i econòmics corresponents.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Exigir a Adif mantenimiento preventivo de la alta velocidad con inspecciones e inversiones.",
+    "cita": "Exigir a Adif un manteniment preventiu adequat de les infraestructures d’alta velocitat, amb les inspeccions, les renovacions i les inversions necessàries per garantir-ne la seguretat i el bon funcionament.",
+    "pagina": 40,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar a Cataluña la conservación, el mantenimiento y la gestión de las infraestructuras ferroviarias de Rodalies.",
+    "cita": "Traspassar progressivament a Catalunya les funcions de conservació, manteniment i gestió de les infraestructures ferroviàries vinculades a Rodalies, amb els recursos necessaris per garantir un servei segur, fiable i de qualitat.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Financiar todo el Plan de Rodalies 2026-2030, incluidos 1.400 millones adicionales acordados con la Generalitat.",
+    "cita": "Comprometre els recursos necessaris per executar totes les actuacions del Pla de Rodalies 2026-2030, inclosos els 1.400 milions d’euros addicionals anunciats pel Ministeri de Transports i acordats amb la Generalitat.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Estudios y proyectos para desdoblar la vía única en Arenys-Maçanet, Tarragona-Lleida, Vic-Ripoll y Lleida-Cervera-Manresa.",
+    "cita": "Impulsar els estudis i projectes necessaris per desdoblar els trams de via única dels corredors Arenys de Mar-Maçanet-Massanes, Tarragona-Lleida, Vic-Ripoll i Lleida-Cervera-Manresa, prioritzant en aquest darrer eix el tram Lleida-Cervera.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Acelerar el tramo Granollers-Terrassa de la Línea Orbital Ferroviaria y licitar su proyecto en 2027.",
+    "cita": "Accelerar el tram Granollers-Terrassa, que ha de connectar les línies R4 i R8, i licitar-ne el projecte constructiu durant el 2027, amb l’objectiu de reforçar la mobilitat transversal i descongestionar la xarxa ferroviària centrada a Barcelona.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Estudios para construir el eje transversal ferroviario.",
+    "cita": "Impulsar els estudis necessaris per executar l’obra de l’eix transversal ferroviari.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Construir los intercambiadores de Volpelleres y Hospital General en Sant Cugat entre la R8 y FGC.",
+    "cita": "Accelerar la redacció dels projectes constructius i l’execució dels intercanviadors de Volpelleres, entre la R8 i la línia S2 de FGC, i de l’Hospital General, entre la R8 i la línia S1 de FGC.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Acelerar las obras pendientes del Corredor Mediterráneo, incluida la adecuación de las vías Tarragona-Lleida.",
+    "cita": "Accelerar l’execució de les obres pendents del Corredor Mediterrani, incloent-hi l’adequació de les vies entre Tarragona i Lleida com a part d’aquest corredor mediterrani per garantir que les línies destinades a la mobilitat de passatgers podran satisfer les necessitats actuals i futures, convertint així l’eix transversal ferroviari com a línia prioritària de transport de mercaderies.",
+    "pagina": 40,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Igualdad y familia",
+    "resumen": "Ejecutar el suplemento de crédito para dependencia de 2.018 millones en 2026 y 7.200 en 2027, y que el Estado financie el 50 %.",
+    "cita": "Cal garantir l’execució pressupostària del suplement de crèdit de 2.018 MEUR per al 2026, 7.200 MEUR per al 2027 i el pressupost aprovat per als anys següents. Així mateix, vetllar pel compliment estricte del finançament del 50 % de l’Administració General de l’Estat.",
+    "pagina": 41,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Empleo y salarios",
+    "resumen": "Equiparar al nivel A a las profesionales del sector social.",
+    "cita": "Equiparar a nivell A de les professionals del sector social.",
+    "pagina": 41,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Sanidad",
+    "resumen": "Reforzar la sanidad pública para reducir las listas de espera y frenar la privatización.",
+    "cita": "Blindar una sanitat pública, universal i de qualitat, reforçant la capacitat assistencial del sistema per reduir les llistes d’espera, garantir una atenció equitativa i frenar la privatització de la sanitat.",
+    "pagina": 41,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Sanidad",
+    "resumen": "Aumentar las transferencias estatales a las administraciones sanitarias para reducir listas de espera.",
+    "cita": "Augmentar de manera estructural i suficient els recursos que l’Administració General de l’Estat transfereix a les administracions sanitàries competents per afrontar la situació de saturació del sistema, reduir les llistes d’espera i garantir una atenció sanitària universal.",
+    "pagina": 41,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar de inmediato a la Generalitat las funciones y competencias sanitarias pendientes.",
+    "cita": "Exigir el traspàs immediat de totes les funcions i competències encara pendents, acompanyat dels recursos econòmics, humans i materials necessaris.",
+    "pagina": 42,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Sanidad",
+    "resumen": "Incluir en la cartera del SNS la atención oftalmológica y optométrica y financiar gafas graduadas y lentillas.",
+    "cita": "Incorporar a la cartera comuna del Sistema Nacional de Salut l’atenció oftalmològica i optomètrica, com també el finançament públic de les ulleres graduades i les lents de contacte prescrites, garantint l’accés universal amb independència de la renda i el finançament estatal de les prestacions.",
+    "pagina": 42,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Sanidad",
+    "resumen": "Incluir en la cartera del SNS la atención bucodental universal y gratuita, con empastes, endodoncias y prótesis.",
+    "cita": "Ampliar la cartera comuna de serveis del Sistema Nacional de Salut per garantir l’accés universal i gratuït a l’atenció bucodental, incloent-hi la prevenció, les revisions i els tractaments necessaris, com ara les càries, les endodòncies i les pròtesis dentals.",
+    "pagina": 42,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Sanidad",
+    "resumen": "Atención psicológica y de salud mental universal y gratuita, con psicoterapia.",
+    "cita": "Garantir l’accés universal i gratuït a l’atenció psicològica i a la salut mental, així com l’accés a la psicoteràpia i als tractaments necessaris.",
+    "pagina": 42,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Hacer efectivo el traspaso de la seguridad ciudadana y la investigación de delitos en los puertos y aeropuertos de Cataluña.",
+    "cita": "Reclamar l’execució efectiva del traspàs de les funcions de seguretat ciutadana, prevenció i investigació de delictes i manteniment de les infraestructures crítiques als ports i aeroports de Catalunya.",
+    "pagina": 42,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Integrar plenamente a los Mossos en Interpol y Europol en igualdad con los cuerpos policiales españoles.",
+    "cita": "Atenent que el Cos de Mossos d’Esquadra, com a policia integral, és també encarregat de la lluita i prevenció en matèria antiterrorista i del crim organitzat, és imprescindible la plena integració del CME a organismes d’àmbit internacional com són la Interpol i l’Europol en pla d’igualtat amb els cossos policials espanyols.",
+    "pagina": 42,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Acceso de los Mossos a las bases de datos estatales y a los órganos de coordinación antiterrorista.",
+    "cita": "Fer possible l’accés del Cos de Mossos d’Esquadra a les bases de dades d’àmbit estatal per protegir la seguretat ciutadana, la investigació criminal, la lluita contra el crim organitzat i el terrorisme, com també la participació efectiva del Cos de Mossos d’Esquadra en els òrgans de cooperació i coordinació policials estatals contra l’amenaça terrorista i la delinqüència organitzada amb la mateixa condició i forma que ja tenen la resta de cossos i forces de seguretat de l’Estat espanyol.",
+    "pagina": 43,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Cumplir el acuerdo de 180 nuevas plazas de jueces en Cataluña entre 2026 y 2027.",
+    "cita": "Cal continuar apostant pel desplegament de noves places de jutges i jutgesses a Catalunya, garantint el compliment de l’acord a iniciativa d’Esquerra Republicana per incorporar 180 places entre 2026 i 2027 per accelerar els tràmits judicials, especialment els derivats de processos de reincidència, el cost del qual, per al Govern, serà de 20 milions d’euros anuals.",
+    "pagina": 43,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Revisar el tratamiento penal de las armas y el robo de cable para aumentar las penas.",
+    "cita": "Promoure una revisió del tractament penal de la tinença i l’ús il·lícit d’armes de foc, la possessió d’armes blanques prohibides i els robatoris de cable, amb l’objectiu d’incrementar-ne les penes.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar a Cataluña, Comunidad Valenciana y Baleares las competencias plenas de tráfico: permisos, matriculación, velocidad, puntos e ITV.",
+    "cita": "Reclamar el traspàs immediat de les competències plenes en matèria de trànsit i seguretat viària als governs de Catalunya, el País Valencià i les Illes Balears, referides al control de la matriculació i l’expedició de permisos o llicències de conducció i circulació, la capacitat per autoritzar transferències, duplicats i baixes de vehicles, per poder fixar la velocitat en totes les vies del territori català, per la pèrdua i la devolució de punts del carnet de conduir i pel registre de la inspecció tècnica de vehicles.",
+    "pagina": 43,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Otros",
+    "resumen": "Más examinadores de tráfico y menos carga burocrática para ellos.",
+    "cita": "Resulta urgent, a més, incrementar els examinadors i alliberar-los de sobrecàrrega burocràtica.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Modificar la disposición adicional quinta de la Ley Orgánica 2/1986 para facilitar servicios policiales compartidos entre municipios.",
+    "cita": "Impulsar la modificació de la disposició addicional cinquena de la Llei orgànica 2/1986, de forces i cossos de seguretat, desenvolupada per l’Ordre INT/2944/2010, per flexibilitzar els requisits que dificulten la prestació conjunta de serveis policials entre municipis.",
+    "pagina": 43,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Seguridad y justicia",
+    "resumen": "Participación estable de Protección Civil de Cataluña en los programas europeos de emergencias.",
+    "cita": "Promoure una participació estable de Protecció Civil de Catalunya als programes europeus de prevenció, preparació i resposta davant d’emergències; amb presència a les xarxes tècniques, exercicis conjunts, intercanvis d’informació i projectes de cooperació.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Modificar la Ley 7/1985 de bases del régimen local para aclarar competencias y facilitar la remunicipalización de servicios.",
+    "cita": "Cal modificar la Llei 7/1985, de 2 d’abril, reguladora de les bases del règim local PER clarificar les competències locals i flexibilitzar les condicions per remunicipalitzar serveis actualment externalitzats.",
+    "pagina": 43,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Permitir a los ayuntamientos endeudarse para inversiones hasta el 50 % de sus ingresos corrientes.",
+    "cita": "En aquest sentit, cal autoritzar l’endeutament gradual dels ajuntaments per a inversions fins a un límit del 50 % dels ingressos corrents, permetent distribuir el cost de les grans infraestructures al llarg del temps.",
+    "pagina": 44,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Reformar la Ley 39/1988 de haciendas locales para actualizar la financiación municipal y reducir la dependencia de subvenciones.",
+    "cita": "Cal una reforma de la Llei 39/1988, de 28 de desembre, reguladora de les hisendes locals que actualitzi el finançament per exercir les competències que avui en dia tenen els ajuntaments i altres ens locals, tendint a un sistema de finançament que doni estabilitat als ajuntaments i els faci menys dependents de les subvencions.",
+    "pagina": 44,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Que todos los ayuntamientos, no solo los de más de 75.000 habitantes, reciban un porcentaje del IRPF y el IVA.",
+    "cita": "Aquesta reforma ha de permetre incrementar els ingressos per la participació en els ingressos de l’Estat i que tots els ajuntaments, no només els més grans de 75.000 habitants, puguin rebre un percentatge dels grans impostos com l’IRPF i l’IVA.",
+    "pagina": 44,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Asegurar la financiación del Área Metropolitana de Barcelona con exenciones y tipos diferenciados del IBI.",
+    "cita": "També ha de servir per assegurar la viabilitat econòmica de l’AMB i d’altres àrees que es puguin crear en un futur, permetent establir exempcions, reduccions i tipus de gravàmens diferenciats en l’aplicació de l’IBI, assegurant la justícia fiscal del tribut.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Impuestos",
+    "resumen": "Igualar en el IBI los beneficios de las familias monoparentales a los de las numerosas.",
+    "cita": "Cal modificar la legislació relativa a l’IBI per equiparar els beneficis per les famílies monoparentals als previstos per les famílies nombroses.",
+    "pagina": 44,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Bajar de 20.000 a 10.000 habitantes el umbral para considerar turístico un municipio a efectos de financiación.",
+    "cita": "Atès la pressió real que l’activitat turística exerceix sobre els serveis municipals, cal redefinir el concepte de municipi turístic rebaixant el llindar poblacional actual de 20.000 a 10.000 habitants i establint altres criteris alternatius més enllà del poblacional.",
+    "pagina": 44,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Derogar la Ley de Racionalización y Sostenibilidad de la Administración Local (LRSAL) y reformar la Ley de Estabilidad Presupuestaria.",
+    "cita": "Derogar la Llei de Racionalització i Sostenibilitat de l’Administració Local (LRSAL) i reforma de la Llei Orgànica d’Estabilitat Pressupostària i Sostenibilitat Financera.",
+    "pagina": 44,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Más flexibilidad presupuestaria para ayuntamientos saneados, uso de remanentes y regla de gasto adaptada al marco fiscal europeo.",
+    "cita": "Cal dotar de més flexibilitat pressupostària els ajuntaments sanejats econòmicament, facilitar l’ús d’excedents i romanents, anticipar recursos per respondre a emergències, actualitzar la regla de despesa al nou marc fiscal europeu, facilitar la inversió en habitatge i establir uns objectius de deute i dèficit justos per a la Generalitat i els ajuntaments.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Que la Generalitat seleccione y forme a los funcionarios de habilitación nacional (secretarios, interventores y tesoreros).",
+    "cita": "Recuperar i desplegar les competències de la Generalitat en la selecció i formació dels funcionaris d’habilitació nacional per adaptar els processos a la realitat catalana, agilitzar la cobertura de vacants i reduir el dèficit estructural de professionals que tant dificulta el funcionament dels ajuntaments.",
+    "pagina": 44,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Aumentar la inversión estatal en universidades un 0,07 % del PIB al año hasta el 1 % del PIB en 2030.",
+    "cita": "Assumir el compromís d’incrementar plurianualment la inversió estatal en universitats en un 0,07 % del PIB per assolir una despesa pública de l’1 % del PIB el 2030, tal com preveu la Llei Orgànica del Sistema Universitari (LOSU).",
+    "pagina": 45,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Llevar la inversión pública en investigación al 1,5 % del PIB en 2030.",
+    "cita": "En recerca, incrementar progressivament la inversió pública fins a assolir l’1,5 % del PIB el 2030, amb un augment de la inversió estatal equivalent al 0,14 % del PIB, d’acord amb el que preveu la Llei de la Ciència, la Tecnologia i la Innovació.",
+    "pagina": 45,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Reducir la precariedad del personal investigador y acelerar su contratación indefinida.",
+    "cita": "Reduir la precarietat i la temporalitat, accelerar la contractació indefinida del personal investigador, millorar les retribucions i garantir una carrera professional digna per al personal investigador, docent, tècnic i de gestió.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Eliminar las tasas de reposición en universidades e investigación y desplegar la carrera profesional horizontal.",
+    "cita": "També cal eliminar les taxes de reposició, desplegar la carrera professional horitzontal, reforçar les plantilles de suport i reduir la càrrega burocràtica, així com avaluar i abordar els riscos psicosocials, protegir la salut mental i combatre les dinàmiques de precarietat i explotació en l’àmbit universitari i científic.",
+    "pagina": 45,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Recursos estables para centros de investigación, infraestructuras científicas y grupos de investigación.",
+    "cita": "Assegurar recursos estables per als centres de recerca, les infraestructures científiques singulars i els grups de recerca universitaris i hospitalaris, amb especial atenció als àmbits estratègics per al país.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Atribuir a la agencia catalana AQU las competencias de acreditación del profesorado reservadas a la ANECA.",
+    "cita": "Reformar la normativa estatal per atribuir-li les competències encara reservades a l’ANECA, especialment l’acreditació del professorat per accedir als cossos docents funcionarials i el reconeixement dels mèrits docents i investigadors.",
+    "pagina": 45,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Eliminar el distrito único universitario.",
+    "cita": "Eliminar el districte únic universitari.",
+    "pagina": 45,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Modelo territorial",
+    "resumen": "Que Cataluña planifique la formación de las profesiones sanitarias en un marco propio.",
+    "cita": "Així mateix, garantir que Catalunya pugui planificar i executar les competències en formació de les professions sanitàries en un marc nacional, d’acord amb les necessitats del sistema de salut català i no amb una planificació centralitzada des de l’Estat.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Actualizar el Real Decreto 592/2014 de prácticas universitarias para reforzar los derechos del estudiantado.",
+    "cita": "Actualitzar el Reial decret 592/2014 per adaptar la regulació de les pràctiques acadèmiques externes a la realitat actual, reforçar els drets de l’estudiantat, garantir unes condicions dignes i evitar que les pràctiques esdevinguin una via de substitució de llocs de treball remunerats.",
+    "pagina": 45,
+    "concreta": true,
+    "revisada": false
+  },
+  {
+    "partido": "ERC",
+    "tema": "Educación",
+    "resumen": "Revisar los requisitos para crear y reconocer universidades: modelo académico viable, recursos, profesorado e infraestructuras adecuados.",
+    "cita": "Revisar els requisits bàsics de creació i reconeixement d’universitats per garantir, com a mínim, que els projectes disposin d’un model acadèmic viable, recursos suficients, professorat adequat i infraestructures d’acord amb l’oferta formativa prevista.",
+    "pagina": 46,
+    "concreta": false,
     "revisada": false
   }
 ]

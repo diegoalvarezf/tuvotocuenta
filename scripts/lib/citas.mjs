@@ -44,15 +44,17 @@ export function crearVerificador(paginas) {
   // las citas: se quitan las líneas que aparecen en al menos un cuarto de las páginas (y en 5 o más).
   // Se respetan las que no tienen una palabra (viñetas «•»), pero no las cortas («DEFIENDE» / «CANARIAS»)
   const veces = new Map();
-  for (const p of paginas) for (const l of new Set(p.texto.split('\n').map((x) => x.trim()).filter(Boolean))) veces.set(l, (veces.get(l) ?? 0) + 1);
+  // Se comparan sin cifras: así una cabecera con el número de página («22 Eleccions al Congrés 2026 | …», ERC) cuenta como repetida
+  const clave = (l) => l.trim().replace(/\d+/g, '#');
+  for (const p of paginas) for (const l of new Set(p.texto.split('\n').map(clave).filter(Boolean))) veces.set(l, (veces.get(l) ?? 0) + 1);
   // En documentos cortos (las partes de 3 a 5 páginas del programa de D21) basta con que se repita en casi todas
   // Un cuarto, no un tercio: hay cabeceras que alternan entre páginas pares e impares (Frente Amplio, 48 de 148)
   const minimo = Math.min(Math.max(5, paginas.length / 4), Math.max(2, paginas.length - 1));
-  const sinRepetidas = (t) => t.split('\n').filter((l) => !/\p{L}{3}/u.test(l) || (veces.get(l.trim()) ?? 0) < minimo).join('\n');
+  const sinRepetidas = (t) => t.split('\n').filter((l) => !/\p{L}{3}/u.test(l) || (veces.get(clave(l)) ?? 0) < minimo).join('\n');
   const base = new Map(paginas.map((p) => [p.pagina, sinPie(sinRepetidas(p.texto))]));
   // Marcas sueltas de una a tres cifras en mitad de la página (número de área en Adelante Andalucía: «02»; de compromiso en el PSOE: «136»)
   // cortarían las citas; en las tablas se mantienen, porque pueden ser celdas
-  const limpio = new Map([...base].map(([n, t]) => [n, t.replace(/\n\s*\d{1,3}\s*(?=\n)/g, '')]));
+  const limpio = new Map([...base].map(([n, t]) => [n, t.replace(/^(\s*\d{1,3}\.?[ \t]*\n)+/, '').replace(/\n[ \t]*\d{1,3}[ \t]*(?=\n)/g, '')]));
   const textoPagina = new Map([...limpio].map(([n, t]) => [n, normalizar(t)]));
   const textoTabla = new Map([...base].map(([n, t]) => [n, normalizar(t)]));
   // En una fila de tabla («Qué · Meta · Plazo») las celdas salen sueltas en el texto del PDF:
