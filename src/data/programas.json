@@ -119,7 +119,12 @@
     "circunscripciones": 41,
     "web": "https://podemos.info",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral. Así de básico: Paz, casa y trabajo",
+      "url": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf",
+      "fecha": "2026-11-17",
+      "paginas": 141
+    }
   },
   {
     "siglas": "PACMA",
@@ -244,7 +249,12 @@
     "circunscripciones": 4,
     "web": "https://www.esquerra.cat",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Eleccions al Congrés 2026. Programa electoral. Pel país. Per la gent. Pel futur.",
+      "url": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+      "fecha": "2026-11-17",
+      "paginas": 48
+    }
   },
   {
     "siglas": "JUNTS",
@@ -253,7 +263,12 @@
     "circunscripciones": 4,
     "web": "https://junts.cat",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral 29N. Eleccions generals · 29 de novembre de 2026",
+      "url": "https://www.tualcentre.cat/app/uploads/2026/11/PROGRAMA-ELECTORAL_JUNTS_29N.pdf",
+      "fecha": "2026-11-18",
+      "paginas": 90
+    }
   },
   {
     "siglas": "COMPROMIS-EUPV-PODEM-ERPV",
