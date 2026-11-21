@@ -781,7 +781,12 @@
     "circunscripciones": 1,
     "web": null,
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa Generales 2026: esto es lo que exigiremos",
+      "url": "https://soriaya.org/wp-content/uploads/2026/11/ProgramaGenerales_26.pdf",
+      "fecha": "2026-11-12",
+      "paginas": 1
+    }
   },
   {
     "siglas": "TERUEL EXISTE",

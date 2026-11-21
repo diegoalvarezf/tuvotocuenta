@@ -8,7 +8,7 @@ Errores reales. Cada uno, una regla.
 - **«Genérica» no es «eliminar».** Una pasada quiso quitar 60 propuestas vagas, entre ellas reducir listas de espera. La web habría dicho «no dice nada sobre este tema», y eso sería falso. (3-11-2026)
 - **Una regla de recuento es una decisión.** El corte de 20 páginas se puso sin consultar. Toda regla que cambie lo que se publica se le plantea a Diego, y aparece en los resúmenes. (3-11-2026)
 - **Dominios con el nombre del partido no son su web.** frenteamplio.es está aparcado; la web es frenteamplio.info. Confirmar con su aviso legal. (3-11-2026)
-- **No enlazar webs dudosas.** soriaya.org tiene enlaces ocultos a casinos. PANCAL-URCI publica un PDF con DNI y cuenta bancaria: enlazar solo la portada. (3-11-2026)
+- **No enlazar webs dudosas.** soriaya.org tiene enlaces ocultos a casinos: se enlaza solo su PDF de programa, nunca sus páginas (Diego, 21-11-2026; archive.org no pudo guardarlo). PANCAL-URCI publica un PDF con DNI y cuenta bancaria: enlazar solo la portada. (3-11-2026)
 - **Pies de página.** El número de página cortaba citas entre páginas; ahora el verificador lo ignora. (3-11-2026)
 - **El pie puede llevar el título de la sección.** En el BNG («VIVENDA · 20») cortaba las citas entre páginas y los agentes recortaron o quitaron propuestas. Ahora el verificador lo ignora; si un pie nuevo rompe citas, se arregla el verificador, no se recortan. (8-11-2026)
 - **No perder propuestas por longitud.** La regla de 10 a 60 palabras es una guía: una medida completa más corta se cita tal cual, y una frase larga se cita en un fragmento continuo. (8-11-2026)

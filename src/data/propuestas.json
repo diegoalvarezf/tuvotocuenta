@@ -100284,5 +100284,213 @@
     "pagina": 21,
     "concreta": false,
     "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Modelo territorial",
+    "concreta": true,
+    "resumen": "Plan extraordinario de 10 años contra la despoblación con un Fondo de Inversiones para Soria, como el de Teruel.",
+    "cita": "PLAN EXTRAORDINARIO DE 10 AÑOS CONTRA LA DESPOBLACIÓN · Impulsar un programa específico para Soria, con financiación estable mediante un Fondo de Inversiones (similar al existente en Teruel) que permita aplicar medidas excepcionales de fiscalidad para residentes, empresas y autónomos, así como actuaciones especiales en vivienda, empleo, inversión y servicios públicos.",
+    "trozos": true,
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Economía y empresas",
+    "concreta": false,
+    "resumen": "Ayudas al funcionamiento al máximo legal permitido por la Unión Europea.",
+    "cita": "Ayudas al funcionamiento al máximo legal permitido por la Unión Europea.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": false,
+    "resumen": "Internet de alta velocidad y buena cobertura móvil en todos los municipios de Soria.",
+    "cita": "Acceso a internet de alta velocidad y cobertura de telefonía móvil de calidad en todos los municipios sorianos, sin excepción.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Economía y empresas",
+    "concreta": false,
+    "resumen": "Ayudas directas para que jóvenes asuman negocios y explotaciones agrarias cuyos titulares se jubilen.",
+    "cita": "Establecer ayudas directas para facilitar que jóvenes asuman negocios, empresas y explotaciones agrarias cuyos titulares se jubilen, mediante mecanismos de financiación, asesoramiento y apoyo a la transmisión de la actividad para evitar el cierre de negocios viables, preservar el empleo y la actividad en nuestros pueblos.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Vivienda",
+    "concreta": false,
+    "resumen": "Programa nacional de construcción de vivienda, sobre todo rural, ayudas a rehabilitar para alquiler asequible e incentivos a la primera vivienda.",
+    "cita": "Impulsar un programa nacional de construcción de viviendas, especialmente en el medio rural; ayudas a la rehabilitación vinculadas al alquiler asequible, garantías para propietarios que incorporen sus viviendas al mercado; incentivos para adquisición de primera vivienda y fórmulas de alquiler con opción a compra.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Economía y empresas",
+    "concreta": false,
+    "resumen": "Apoyar a agricultores y ganaderos con menos burocracia y ayudas adaptadas al medio rural despoblado.",
+    "cita": "Apoyo a agricultores y ganaderos, con menos burocracia, ayudas adaptadas a las dificultades del medio rural despoblado y medidas que garanticen la rentabilidad de las explotaciones, el relevo generacional y la transformación de nuestros productos en Soria.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Energía y clima",
+    "concreta": false,
+    "resumen": "Aprovechar los recursos forestales y compensar a los municipios por los beneficios ambientales de sus montes.",
+    "cita": "Aprovechamiento de nuestros recursos forestales, favoreciendo la creación de industrias y empleo. Reconocimiento y compensación económica a nuestros municipios por los beneficios ambientales de sus montes.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": true,
+    "resumen": "Terminar la A-11 hasta Valladolid y la A-15 hasta Navarra.",
+    "cita": "Finalización de la A-11 hasta Valladolid y de la A-15 hasta Navarra.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": true,
+    "resumen": "Autovías Soria–Logroño, Soria–Calamocha y Soria–Segovia y variante de San Esteban de Gormaz.",
+    "cita": "Impulso de las conexiones por autovía Soria–Logroño, Soria–Calamocha y Soria–Segovia y ejecución de la variante de San Esteban de Gormaz, A11 con la N 110.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": true,
+    "resumen": "Modernizar por completo la circunvalación SO-20.",
+    "cita": "Modernización integral de la circunvalación SO-20.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": true,
+    "resumen": "Electrificar y duplicar la vía Soria–Torralba y aumentar las frecuencias a Madrid.",
+    "cita": "Electrificación y doble vía de la línea férrea Soria–Torralba, y aumento de frecuencias a Madrid.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": true,
+    "resumen": "Reabrir la línea de tren Soria–Castejón.",
+    "cita": "Reapertura de la línea Soria–Castejón.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": true,
+    "resumen": "Estación de AVE en el sur de Soria con conexión directa a Madrid, Zaragoza y Barcelona.",
+    "cita": "Estación de AVE en el sur de Soria, para conexión directa a Madrid-Zaragoza-Barcelona.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": true,
+    "resumen": "Impulsar el corredor ferroviario Valladolid–Aranda–San Esteban de Gormaz–El Burgo de Osma–Soria–Zaragoza.",
+    "cita": "Impulso del corredor ferroviario Valladolid-Aranda-San Esteban de Gormaz- El Burgo de Osma-Soria-Zaragoza.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Energía y clima",
+    "concreta": false,
+    "resumen": "Invertir en redes eléctricas para los polos industriales de Soria y compensar por la energía que genera.",
+    "cita": "Reclamamos inversiones urgentes en las redes de transporte y distribución que garanticen el suministro y la capacidad de acceso en nuestros polos industriales, así como compensaciones económicas por la energía generada.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Otros",
+    "concreta": true,
+    "resumen": "Autovía Soria–Burgos para llegar rápido y seguro al hospital de referencia.",
+    "cita": "Autovía Soria-Burgos: infraestructura imprescindible para garantizar conexión rápida y segura con Burgos, donde se encuentra el hospital de referencia de Soria.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Economía y empresas",
+    "concreta": true,
+    "resumen": "Crear un puerto seco en el Alto Jalón para corregir el déficit logístico de la provincia.",
+    "cita": "Corregir el déficit de infraestructuras logísticas de la provincia, aprovechando su posición estratégica entre el corredor del Henares y el valle del Ebro mediante el desarrollo de un puerto seco en el Alto Jalón.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Economía y empresas",
+    "concreta": false,
+    "resumen": "Incentivos a la inversión y al empleo en territorios poco poblados y más plazo de residencia para nómadas digitales.",
+    "cita": "Establecer incentivos específicos a la inversión empresarial y a la creación de empleo en territorios escasamente poblados. Favorecer la atracción de profesionales y nómadas digitales mediante una reforma normativa que permita ampliar los plazos de autorización de residencia y teletrabajo para quienes se establezcan en estas provincias.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Empleo y salarios",
+    "concreta": true,
+    "resumen": "Cuota reducida permanente de 80 euros al mes para autónomos en zonas escasamente pobladas.",
+    "cita": "Implantar una cuota reducida permanente de 80 euros mensuales para los trabajadores autónomos que desarrollen su actividad en zonas escasamente pobladas, con el objetivo de favorecer el emprendimiento, la continuidad de los negocios y la fijación de población.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Modelo territorial",
+    "concreta": true,
+    "resumen": "Garantizar los servicios públicos esenciales a un máximo de 30 minutos de cualquier lugar de residencia.",
+    "cita": "Garantizar los servicios públicos esenciales en un máximo de 30 minutos, con independencia del lugar de residencia, mediante una financiación suficiente, estable y adaptada a la dispersión territorial y al envejecimiento de la población, incluyendo los servicios prestados por las entidades locales.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Modelo territorial",
+    "concreta": false,
+    "resumen": "Incentivos económicos, profesionales y de vivienda para atraer y retener empleados públicos en zonas despobladas.",
+    "cita": "Establecer incentivos económicos, profesionales y de vivienda para atraer y retener empleados públicos en zonas despobladas, asegurando la cobertura efectiva de las plazas y la continuidad y calidad de los servicios.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Modelo territorial",
+    "concreta": true,
+    "resumen": "Llevar organismos estatales a Soria: Academia Nacional de Bomberos Forestales y una unidad permanente de la UME.",
+    "cita": "Descentralización de organismos estatales en Soria, garantizando su funcionamiento mediante la dotación de personal, recursos y competencias reales: creación de la Academia Nacional de Bomberos Forestales y de una Unidad Militar de Emergencias (UME) permanente en Soria.",
+    "pagina": 1,
+    "revisada": true
+  },
+  {
+    "partido": "SY",
+    "tema": "Educación",
+    "concreta": false,
+    "resumen": "Becas de movilidad, prácticas remuneradas y ayudas al retorno de jóvenes titulados a zonas poco pobladas.",
+    "cita": "Becas especiales de movilidad y residencia, prácticas remuneradas, incentivos al primer empleo y ayudas al retorno de jóvenes titulados a zonas escasamente pobladas.",
+    "pagina": 1,
+    "revisada": true
   }
 ]
