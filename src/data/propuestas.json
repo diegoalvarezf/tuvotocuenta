@@ -96009,5 +96009,759 @@
     "pagina": 15,
     "concreta": true,
     "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Vivienda",
+    "resumen": "Impulsar una Ley de Residencia para que Canarias regule residencia y empadronamiento según la capacidad de carga de cada isla.",
+    "cita": "Impulsaremos en el Congreso una Ley de Residencia para que Canarias, al amparo de los artículos 100 y 101 del Estatuto de Autonomía, pueda regular el acceso a la residencia y los requisitos de empadronamiento efectivo según la capacidad de carga demográfica, habitacional, hídrica y de servicios públicos de cada una de las islas que componen nuestro país.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Vivienda",
+    "resumen": "Exigir que España negocie en Bruselas un régimen para Canarias que permita limitar la compra de vivienda por no residentes.",
+    "cita": "Exigiremos que España negocie en Bruselas un régimen propio para Canarias, como región ultraperiférica y según prevé el Estatuto de Autonomía, que permita limitar la compra de vivienda por quienes no residen en las islas, sea cual sea su nacionalidad.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Economía y empresas",
+    "resumen": "Firmar un convenio Estado-Canarias para el decrecimiento turístico, con financiación plurianual en los Presupuestos Generales del Estado.",
+    "cita": "Queremos un convenio entre el Estado y Canarias para el decrecimiento turístico, con financiación plurianual en los Presupuestos Generales del Estado, que reduzca la presión turística, urbanística y sobre los recursos de las islas.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Vivienda",
+    "resumen": "Pedir que el Estado duplique su aportación a Canarias en el Plan Estatal de Vivienda 2026-2030, con 222,6 millones más para alquiler público.",
+    "cita": "Pediremos que el Estado duplique lo que aporta a Canarias en el Plan Estatal de Vivienda 2026-2030, con otros 222,6 millones dedicados íntegramente a comprar y rehabilitar viviendas ya construidas para el parque público de alquiler.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Vivienda",
+    "resumen": "Pedir que las viviendas de la Sareb en Canarias y el suelo y edificios de Defensa sin uso pasen a vivienda pública de alquiler.",
+    "cita": "Pediremos que las viviendas de la Sareb, el llamado banco malo, que estén en Canarias y en condiciones de uso pasen al parque público de alquiler, y que el suelo y los edificios de Defensa que ya no hagan falta se destinen a vivienda pública.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Impuestos",
+    "resumen": "Permitir a cualquier ayuntamiento aplicar por ordenanza un recargo del IBI a las viviendas turísticas, más alto para quien tenga más.",
+    "cita": "Más IBI a la vivienda turística, si el ayuntamiento lo decide · Proponemos que cualquier ayuntamiento pueda aplicarlo por ordenanza, más alto para quien tenga más viviendas turísticas.",
+    "pagina": 8,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Impuestos",
+    "resumen": "Limitar el tipo cero de las SOCIMI al alquiler protegido permanente y que el resto de beneficios tribute como en cualquier empresa.",
+    "cita": "Suprimir el régimen fiscal especial de las SOCIMI · Proponemos que ese tipo cero valga solo para la vivienda en alquiler protegido permanente, y que el resto de sus beneficios tribute como en cualquier empresa.",
+    "pagina": 8,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Modelo territorial",
+    "resumen": "Defender el reconocimiento y la transferencia de un Marco Canario de Relaciones Laborales para fijar desde Canarias las condiciones de trabajo.",
+    "cita": "Frente a un modelo centralizado que perpetúa la precariedad, defenderemos en el Congreso el reconocimiento y la transferencia de un Marco Canario de Relaciones Laborales que dote a las instituciones y a la clase trabajadora de Canarias de capacidad real para negociar y fijar sus propias condiciones de trabajo.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Empleo y salarios",
+    "resumen": "Eximir de cuota a los autónomos en Canarias que ganen menos del salario mínimo y cobrar 50 euros al mes hasta el doble.",
+    "cita": "Proponemos que los autónomos con actividad en Canarias no paguen cuota a la Seguridad Social mientras sus rendimientos netos estén por debajo del salario mínimo. Si ganan entre una y dos veces el salario mínimo, pagarían 50 euros al mes, y la cuota subiría poco a poco hasta llegar a 2,5 veces.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Empleo y salarios",
+    "resumen": "Aprobar una ley de las camareras de piso con coeficientes reductores para jubilarse antes y jornada reducida progresivamente hasta 35 horas.",
+    "cita": "Llevaremos al Congreso una ley de protección de las camareras de piso, como la que ya existe para el sector del mar, con coeficientes reductores para adelantar su jubilación y una reducción progresiva de su jornada hasta las 35 horas semanales.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir el traspaso a Canarias de la Inspección de Trabajo con su personal y su financiación.",
+    "cita": "Que la Inspección de Trabajo dependa de Canarias · Exigiremos el traspaso con su personal y su financiación, para que sea Canarias quien decida sus campañas de inspección según los problemas de su mercado laboral, como la temporalidad, los salarios bajos o la siniestralidad.",
+    "pagina": 10,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Empleo y salarios",
+    "resumen": "Fijar por ley dos refuerzos anuales de la Inspección de Trabajo en Canarias, en la temporada alta de verano y en la de invierno.",
+    "cita": "Dos refuerzos al año de la Inspección de Trabajo, fijados por ley · Queremos que una ley lo haga fijo, con un refuerzo en la temporada alta de verano y otro en la de invierno, todos los años.",
+    "pagina": 10,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Empleo y salarios",
+    "resumen": "Bajar el umbral de sindicato más representativo en una comunidad al 5 % y 500 representantes.",
+    "cita": "Representatividad sindical en Canarias · Proponemos bajarlo al 5 % y 500 representantes, para que los sindicatos de ámbito canario participen en igualdad de condiciones en la negociación colectiva y en las instituciones laborales de las islas.",
+    "pagina": 10,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Sanidad",
+    "resumen": "Sustituir la Ley 15/1997 por otra que haga de la gestión pública directa la regla y de la privada una excepción justificada.",
+    "cita": "La Ley 15/1997 abrió la puerta a gestionar la sanidad pública a través de empresas privadas. · Proponemos sustituir esa ley por otra que haga de la gestión pública directa la regla y de la privada una excepción justificada.",
+    "pagina": 11,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Educación",
+    "resumen": "Crear un fondo estatal, acordado con Canarias y las universidades, que pague abrir y mantener estudios en cada isla.",
+    "cita": "Estudiar sin hacer la maleta · Queremos un fondo estatal, acordado con el Gobierno de Canarias y las universidades, que pague la apertura y el mantenimiento de esos estudios: profesorado, talleres y laboratorios, desplazamientos y alojamiento cuando hagan falta, y prácticas con empresas y entidades de cada isla.",
+    "pagina": 11,
+    "concreta": false,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Revisar las plantillas de las oficinas estatales en las islas, sobre todo INSS, Tesorería y SEPE, para garantizar atención presencial con cita.",
+    "cita": "Proponemos revisar las plantillas de las oficinas estatales en las islas, sobre todo las del INSS, la Tesorería de la Seguridad Social y el SEPE, para garantizar en cada isla atención presencial con cita en un plazo razonable.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Igualdad y familia",
+    "resumen": "Pagar durante un año a la cuidadora la cotización y una prestación de transición cuando fallece la persona dependiente.",
+    "cita": "Un año de respaldo para la cuidadora cuando fallece la persona cuidada · Proponemos que durante un año el Estado le siga pagando la cotización a la Seguridad Social y una prestación de transición, mientras se incorpora a las políticas de empleo, en las que la ley ya le da prioridad.",
+    "pagina": 12,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Pensiones",
+    "resumen": "Blindar en la Constitución la revalorización de las pensiones con el IPC, subir mínimas y no contributivas y crear un complemento de insularidad.",
+    "cita": "Proponemos blindar en la Constitución la revalorización anual de todas las pensiones conforme al IPC real y elevar las pensiones mínimas y no contributivas por encima del umbral de la pobreza. Pediremos además un complemento de insularidad, financiado por el Estado, para las pensiones contributivas más bajas y las no contributivas en Canarias, que compense el mayor coste de la cesta de la compra y de la vida en las islas.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Educación",
+    "resumen": "Subir cada año con el IPC las ayudas de insularidad de las becas y 130 euros más a quien estudie en universidad canaria.",
+    "cita": "Becas que reconozcan lo que cuesta estudiar en Canarias · Queremos que suban cada año con el IPC y que quien estudie en una universidad canaria cobre 130 euros más por lo que cuesta vivir en las islas, aunque no tenga que cambiar de isla.",
+    "pagina": 12,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Educación",
+    "resumen": "Crear un programa de cooperación Estado-Canarias con partida finalista en los Presupuestos para rehabilitar, ampliar y adaptar centros educativos.",
+    "cita": "Queremos un programa de cooperación territorial entre el Estado y Canarias, con una partida finalista en los Presupuestos Generales del Estado, para mejorar la infraestructura educativa del archipiélago: rehabilitar y ampliar centros, adaptarlos al calor y hacerlos accesibles.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Educación",
+    "resumen": "Reservar al estudiantado el 25 % del Consejo de Gobierno, al personal técnico el 15 % y tres puestos estudiantiles en el Consejo Social.",
+    "cita": "La ley universitaria solo garantiza al estudiantado el 10 % del Consejo de Gobierno y un único representante en el Consejo Social. Proponemos subir ese mínimo al 25 % para el estudiantado y al 15 % para el personal técnico, de gestión y de administración y servicios, y dar al estudiantado tres representantes en el Consejo Social.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Igualdad y familia",
+    "resumen": "Financiar cuatro o cinco años las actuaciones estables de las entidades sociales y resolver las ayudas tres meses antes de empezar.",
+    "cita": "Proponemos que las actuaciones estables tengan financiación para cuatro o cinco años, que las ayudas se resuelvan al menos tres meses antes de empezar y que haya anticipos y pagos previsibles, para que las entidades puedan mantener a sus equipos con contratos estables y sin cortar la atención.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Pedir que Defensa traslade al Puerto de La Luz lo imprescindible del Arsenal y ceda gratis el recinto al Ayuntamiento para un parque marítimo.",
+    "cita": "Un parque marítimo donde hoy está el Arsenal · Pediremos que Defensa traslade al Puerto de La Luz las funciones imprescindibles y ceda gratis el recinto al Ayuntamiento, para hacer allí un parque marítimo con equipamientos públicos, sin hoteles ni usos comerciales.",
+    "pagina": 13,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Exigir obligaciones de servicio público con precios máximos en las rutas aéreas entre Canarias y el resto del Estado en temporada alta.",
+    "cita": "Exigiremos que el Gobierno justifique ante la Comisión Europea obligaciones de servicio público, con precios máximos, en las rutas aéreas entre Canarias y el resto del Estado en las épocas de más demanda.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Crear un plan estatal que localice en 90 días las zonas de Canarias sin internet y financie su despliegue con ayudas a operadores.",
+    "cita": "Queremos un plan estatal para Canarias que en 90 días localice, parcela a parcela, dónde sigue sin haber conexión ni previsión de que llegue, y que después financie el despliegue en esas zonas con ayudas a los operadores, como ya se hizo con el programa UNICO-Banda Ancha.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Empleo y salarios",
+    "resumen": "Exigir a los barcos con bandera europea en líneas de servicio público de Canarias aplicar el convenio colectivo español del sector.",
+    "cita": "A los barcos con bandera de otro país europeo que hacen líneas regulares entre las islas o con la Península solo se les exige pagar a sus tripulaciones el salario mínimo español. Proponemos que tengan que aplicar el convenio colectivo español del sector, como condición para obtener y mantener la autorización o el contrato de las líneas de servicio público.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Economía y empresas",
+    "resumen": "Exigir un tiempo mínimo en el registro de buques para sus ventajas, con devolución si se sale antes, y ampliar la exención de IRPF.",
+    "cita": "Un registro de buques que deje empleo y salarios en Canarias · Queremos que esas ventajas obliguen a mantener el buque en el registro un tiempo mínimo, y que la naviera devuelva la parte proporcional si lo saca antes. También proponemos ampliar la exención del IRPF de las tripulaciones, hoy del 50 % de su salario, para que cobren más en neto.",
+    "pagina": 15,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Fijar por ley y para siempre la prohibición de cortar luz, agua y gas a hogares vulnerables y dar de oficio el bono social.",
+    "cita": "Hoy la prohibición de cortar la luz, el agua y el gas a los hogares vulnerables depende de decretos-ley que se renuevan cada año. · Proponemos fijarla por ley y de forma permanente. También queremos que el bono social se conceda de oficio, sin tener que pedirlo, a quienes ya acreditan su vulnerabilidad ante el Estado, como quienes cobran el Ingreso Mínimo Vital.",
+    "pagina": 16,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Cambiar la Ley de Minas: en Canarias, ningún permiso de tierras raras sin referéndum vinculante en la isla e informe favorable del Cabildo.",
+    "cita": "Proponemos cambiar la Ley de Minas, que es de 1973. En Canarias no podrá concederse ningún permiso de investigación ni de explotación de tierras raras u otras materias primas críticas sin un referéndum vinculante en la isla afectada y un informe favorable del Cabildo.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Someter el Parque Nacional Marino del Mar de las Calmas a referéndum vinculante en El Hierro.",
+    "cita": "Exigiremos que la declaración del Parque Nacional Marino del Mar de las Calmas se someta a un referéndum vinculante en El Hierro, de modo que la ley solo entre en vigor si la población herreña la aprueba.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Pedir que se apruebe ya el Real Decreto de comunidades energéticas, con capacidad de red reservada para proyectos vecinales.",
+    "cita": "El Real Decreto de comunidades energéticas sigue pendiente. Pediremos que se apruebe ya, con una reserva de capacidad de la red eléctrica en cada punto de conexión para los proyectos vecinales.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Reinvertir por ley en almacenamiento y renovables en las islas lo que baje la compensación estatal por la electricidad fósil.",
+    "cita": "Reinvertir en renovables lo que se ahorre en electricidad fósil · A medida que entren renovables y baje esa compensación, queremos que el dinero ahorrado se reinvierta por ley en almacenamiento y energías renovables en las islas, en lugar de volver a la caja común.",
+    "pagina": 17,
+    "concreta": false,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "No autorizar ni renovar en las islas vertidos de agua depurada al mar sin una evaluación pública previa de cómo reutilizarla.",
+    "cita": "Cuando se incorpore a la ley española la nueva directiva europea de aguas residuales, queremos que en las islas y en las zonas con escasez de agua no se pueda autorizar ni renovar ningún vertido de agua depurada al mar sin una evaluación pública previa de cómo reutilizarla.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Reformar la ley estatal de parques nacionales para limitar el acceso según su capacidad de carga y reservar plazas a residentes en Canarias.",
+    "cita": "Queremos reformar la ley estatal de parques nacionales para limitar el acceso según la capacidad de carga de cada espacio, con un registro común de visitantes, y reservar una parte de las plazas a la población residente en Canarias y a los usos tradicionales, educativos y de voluntariado.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Economía y empresas",
+    "resumen": "Hacer una auditoría independiente y pública del POSEI y el REA: cuánto llega a los precios, a quién beneficia y a las pequeñas explotaciones.",
+    "cita": "POSEI y REA: saber a quién llega la ayuda · Proponemos una auditoría independiente y pública que responda a tres preguntas: cuánto de la ayuda llega de verdad a los precios, a quién beneficia y cómo afecta a las pequeñas explotaciones.",
+    "pagina": 18,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Imponer medidas obligatorias contra choques de barcos con cetáceos en zonas de riesgo: límites de velocidad, cambios de ruta y alerta temprana.",
+    "cita": "Que los barcos dejen de matar cetáceos · Proponemos medidas obligatorias en las zonas de más riesgo, sobre todo en los canales entre islas, como límites de velocidad y cambios de ruta con base científica, protocolos ante avistamientos y un sistema compartido de detección y alerta temprana.",
+    "pagina": 18,
+    "concreta": false,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Igualdad y familia",
+    "resumen": "Facilitar que las mujeres del campo acrediten su trabajo, ampliar su cotización bonificada y quitar los límites de edad para las agricultoras mayores.",
+    "cita": "Reconocer el trabajo de las mujeres en el campo · Queremos que sea más fácil acreditar ese trabajo y cobrar la compensación económica que la ley ya prevé, que se amplíe la cotización bonificada a la Seguridad Social y que desaparezcan los límites de edad que dejan fuera a las agricultoras mayores.",
+    "pagina": 18,
+    "concreta": false,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Economía y empresas",
+    "resumen": "Crear un contrato específico en la Ley de Arrendamientos Rústicos para recuperar fincas abandonadas.",
+    "cita": "Proponemos un contrato específico en la Ley de Arrendamientos Rústicos para recuperar fincas abandonadas, con seguridad para las dos partes.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Cambiar la ley estatal de residuos para obligar a grandes hoteles y comercios a medir sus residuos y cumplir planes de reducción.",
+    "cita": "Proponemos cambiar la ley estatal de residuos para obligar a los grandes establecimientos turísticos y comerciales a medir sus residuos y a cumplir planes de reducción con objetivos mínimos verificables, con prioridad para la reutilización y para eliminar los desechables evitables.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Economía y empresas",
+    "resumen": "Pedir una línea de financiación estatal para que pequeñas explotaciones y cooperativas canarias puedan abastecer a los centros públicos.",
+    "cita": "Para que esa compra llegue de verdad al campo canario, pediremos una línea de financiación estatal que ayude a las pequeñas explotaciones y cooperativas de las islas a prepararse para abastecer a los centros públicos: transporte entre islas, almacenamiento y las certificaciones que piden los contratos.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Exigir que se cumpla el reparto de menores migrantes, con plazas, responsables y calendario, y que el reparto obligatorio no caduque.",
+    "cita": "Exigiremos que se cumplan las asignaciones acordadas, con plazas identificadas en cada comunidad, responsables y calendario, y mirando siempre por el interés de cada menor. Pediremos también que el reparto obligatorio no tenga fecha de caducidad y que el Gobierno rinda cuentas de su cumplimiento en el Congreso.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Hacer que funcione el asilo en los países de origen, en embajadas y consulados, con un órgano responsable y un plazo de respuesta.",
+    "cita": "Asimismo, solicitamos que funcione el sistema de asilo en los países de origen, con las máximas garantías para pedir protección internacional en las embajadas y consulados, con un órgano responsable y un plazo de respuesta, empezando por los países de origen cercanos a la ruta atlántica.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Pedir el cierre de los CIE de Barranco Seco, en Gran Canaria, y de Hoya Fría, en Tenerife.",
+    "cita": "Pediremos el cierre de los Centros de Internamiento de Extranjeros de Barranco Seco, en Gran Canaria, y de Hoya Fría, en Tenerife.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Subir unos 6,5 millones al año el presupuesto de Salvamento Marítimo y dirigir ese refuerzo primero a Canarias.",
+    "cita": "Pediremos subir el presupuesto de Salvamento Marítimo en unos 6,5 millones al año para aumentar sus recursos materiales y humanos, y que ese refuerzo, junto con más embarcaciones y medios aéreos, vaya en primer lugar a Canarias.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Defensa y política exterior",
+    "resumen": "Defender un referéndum de autodeterminación del pueblo saharaui, apoyando las resoluciones de la ONU.",
+    "cita": "Por justicia histórica, en defensa de la soberanía de todos los pueblos y en apoyo de los movimientos anticoloniales, defenderemos la celebración de un referéndum que permita al pueblo saharaui decidir sobre su futuro como pueblo y el de su territorio, apoyando las resoluciones de la ONU que instan a celebrar un referéndum de autodeterminación en el Sáhara Occidental.",
+    "pagina": 22,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Retomar la proposición de ley de nacionalidad española para saharauis nacidos bajo administración española e incluir el Sáhara en la Ley de Memoria Democrática.",
+    "cita": "Finalmente, proponemos retomar la proposición de ley de concesión de la nacionalidad española a las y los saharauis nacidos bajo la administración española, e incluir el Sáhara en la Ley de Memoria Democrática.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Igualdad y familia",
+    "resumen": "Actualizar cada año, al menos con el IPC, los fondos del Pacto de Estado contra la Violencia de Género, con peso a la insularidad.",
+    "cita": "Proponemos que los fondos del Pacto de Estado contra la Violencia de Género que reciben las comunidades se actualicen cada año, como mínimo con el IPC, y que el reparto dé más peso a la insularidad, para reforzar la atención en las islas no capitalinas, que tienen menos recursos.",
+    "pagina": 23,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Igualdad y familia",
+    "resumen": "Exigir plan de igualdad y auditoría salarial desde 25 trabajadores, en vez de 50, y ampliar los permisos retribuidos de conciliación a 24 semanas.",
+    "cita": "Proponemos reformar la ley de igualdad y el Estatuto de los Trabajadores para rebajar de 50 a 25 personas trabajadoras la obligación de tener plan de igualdad y auditoría salarial, adaptando la ley al tamaño de las empresas canarias, y para ampliar los permisos retribuidos de conciliación a 24 semanas.",
+    "pagina": 23,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Igualdad y familia",
+    "resumen": "Exigir protocolo frente al acoso y la discriminación de las personas LGTBI a las empresas desde 25 trabajadores, en vez de 50.",
+    "cita": "Y en el trabajo, proponemos rebajar de 50 a 25 personas trabajadoras la obligación de las empresas de contar con un protocolo frente al acoso y la discriminación de las personas LGTBI, adaptando la ley al tamaño real de las empresas canarias.",
+    "pagina": 23,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Reclamar la derogación del Pacto Europeo de Migración y Asilo y recursos para atender con dignidad a las personas en territorio fronterizo.",
+    "cita": "La aprobación e implementación del Pacto Europeo de Migración y Asilo responde a la estrategia de la Unión Europea y de España para frenar los flujos migratorios en la ruta atlántica, y transforma el archipiélago en un espacio de control y contención. · Desde Canarias nos negamos a ser cómplices de las políticas necrocidas de la Unión Europea y del Gobierno de España: reclamamos la derogación de este pacto, que convierte el archipiélago en una cárcel a cielo abierto para las personas migrantes, y solicitamos los recursos necesarios para que se atienda a las personas con dignidad en territorio fronterizo.",
+    "pagina": 23,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Rechazar la intervención de Frontex en Canarias.",
+    "cita": "Dado que hay pruebas de la participación de esta agencia en prácticas contrarias a la legislación europea de migración y asilo, como devoluciones en caliente y faltas graves en la protección de la vida en el mar en la ruta mediterránea, rechazamos frontalmente su intervención en Canarias.",
+    "pagina": 24,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Crear un plan estatal con más personal y citas de extranjería en las oficinas de Canarias y publicar el tiempo de espera.",
+    "cita": "Citas de extranjería sin esperas imposibles · Queremos un plan estatal con más personal y más citas en las oficinas que atienden a Canarias, con atención presencial y ayuda para los trámites digitales, y que se publique el tiempo de espera de cada oficina y de cada trámite.",
+    "pagina": 24,
+    "concreta": false,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Unir Canarias en una sola provincia por ley orgánica, para que vote al Congreso como una sola circunscripción.",
+    "cita": "Defendemos que el archipiélago sea una sola provincia, mediante la ley orgánica que exige la Constitución. Canarias votaría al Congreso como una sola circunscripción, se unificarían órganos hoy duplicados, como las juntas electorales, y los recursos se seguirían repartiendo por islas.",
+    "pagina": 25,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Ampliar el Congreso a 400 escaños, bajar de 2 a 1 el mínimo por provincia y cambiar D'Hondt por Sainte-Laguë.",
+    "cita": "Proponemos ampliar el Congreso a 400 escaños, el máximo que permite la Constitución, bajar de 2 a 1 el mínimo por provincia y cambiar D’Hondt por Sainte-Laguë, que es más proporcional.",
+    "pagina": 25,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reformar la Ley de Memoria Democrática para que el Gobierno retire los símbolos catalogados si la administración no lo hace en plazo.",
+    "cita": "Llevaremos al Congreso una reforma de la Ley de Memoria Democrática para que, si una administración no retira en plazo un símbolo catalogado, lo retire el Gobierno del Estado, y para que ninguna protección patrimonial posterior al catálogo pueda impedirlo.",
+    "pagina": 25,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Reformar el Reglamento: cada partido del Mixto con escaño propio tendrá preguntas orales, al menos una al mes, turno y firma propios.",
+    "cita": "Proponemos reformar el Reglamento para que cada formación del Mixto que haya obtenido escaño con candidatura propia tenga derechos propios: un cupo de preguntas orales, con un mínimo garantizado de una al mes, turno propio en el Pleno y firma propia para presentar iniciativas.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Hacer de Canarias una circunscripción propia en las elecciones europeas.",
+    "cita": "Una circunscripción canaria en las elecciones europeas · Queremos que Canarias sea circunscripción propia, como lo son las islas en Italia, con escaños que reconozcan que está fuera del continente europeo.",
+    "pagina": 26,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir que toda norma estatal analice su impacto en Canarias y justifique sus adaptaciones, con informe preceptivo del Gobierno canario.",
+    "cita": "Proponemos que toda norma estatal incluya un análisis de su impacto en Canarias y que, si ese impacto es distinto que en el resto del Estado, justifique qué adaptaciones incluye o por qué no las incluye. El Gobierno de Canarias emitirá además un informe preceptivo durante su tramitación.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Reformar el Reglamento del Congreso para que el Gobierno responda en 15 días, prorrogables 7, con requerimiento de la Mesa en 3 días.",
+    "cita": "Proponemos reformar el Reglamento del Congreso para que el Gobierno tenga 15 días, prorrogables 7, para dar la información que se le pide, y para que la Mesa le haga un requerimiento en 3 días si no la da.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Reformar la ley de evaluación para que los programas de gasto, subvenciones y beneficios fiscales nazcan con su evaluación prevista y presupuestada.",
+    "cita": "Llevaremos al Congreso una reforma de la ley de evaluación para que todo programa de gasto, subvención o beneficio fiscal del Estado por encima de cierto importe nazca con su evaluación prevista y presupuestada, según los métodos de la Agencia Estatal de Evaluación de Políticas Públicas.",
+    "pagina": 26,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Impuestos",
+    "resumen": "Negociar la continuidad de la ZEC con nuevas condiciones: al menos la mitad de los puestos nuevos para personas desempleadas en Canarias.",
+    "cita": "Una ZEC que deje empleo de calidad en las islas · Exigiremos que el Gobierno negocie con la Comisión Europea su continuidad, con condiciones nuevas. Empadronar a personal traído de fuera ya no bastará: al menos la mitad de los puestos nuevos serán para personas inscritas como desempleadas en Canarias desde hace dos meses o más.",
+    "pagina": 28,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir que la ley de financiación autonómica cuente a turistas y residentes temporales que usan los servicios sin estar empadronados.",
+    "cita": "Una financiación que cuente a toda la gente que usa nuestros servicios · Exigiremos que esa ley cuente a quienes usan la sanidad y otros servicios públicos sin estar en el padrón, como turistas y residentes temporales, medidos con estadísticas oficiales.",
+    "pagina": 28,
+    "concreta": false,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Impuestos",
+    "resumen": "Aplicar el beneficio fiscal por reinvertir en vivienda de alquiler solo a vivienda protegida, con alquiler limitado y compromiso mínimo de veinte años.",
+    "cita": "Beneficio fiscal solo para la vivienda asequible · Queremos que ese beneficio solo se aplique a vivienda protegida, con alquiler limitado y un compromiso mínimo de veinte años, sin que cueste más dinero público.",
+    "pagina": 28,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Defensa y política exterior",
+    "resumen": "Garantizar por ley a Canarias un puesto al negociar aguas y espacio aéreo con Marruecos y oponerse a prospecciones en aguas en disputa.",
+    "cita": "Mientras tanto, proponemos una ley que garantice al Gobierno de Canarias un puesto en las delegaciones que negocien con Marruecos la delimitación de las aguas y del espacio aéreo. Y exigiremos que España se oponga a cualquier prospección de gas, petróleo o minerales en las aguas en disputa frente a Canarias, como las del monte submarino Tropic.",
+    "pagina": 29,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir el traspaso completo de costas y reformar la Ley de Costas para que no se derriben poblados de pescadores protegidos.",
+    "cita": "Exigiremos el traspaso completo de costas y una reforma de la Ley de Costas para que los poblados de pescadores protegidos como patrimonio cultural no puedan derribarse.",
+    "pagina": 29,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Modelo territorial",
+    "resumen": "Fijar un calendario público para completar en esta legislatura los traspasos pendientes, financiados con la regla del Estatuto.",
+    "cita": "Completar los traspasos pendientes con su dinero · Proponemos un calendario público para completarlos en esta legislatura, y que cada uno se financie con la regla que ya fija el Estatuto: medios por habitante no inferiores a la media del Estado, más lo que cuesta la insularidad.",
+    "pagina": 29,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Modelo territorial",
+    "resumen": "Reformar la Constitución para que reconozca la realidad nacional canaria y su hecho diferencial.",
+    "cita": "Proponemos una reforma de la Constitución que reconozca la realidad nacional canaria y nuestro hecho diferencial ante el Estado, lo que en la Unión Europea y en la legislación canaria y estatal se conoce como ultraperiferia.",
+    "pagina": 29,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Defensa y política exterior",
+    "resumen": "Prohibir firmar acuerdos que cedan el control aéreo a otro Estado sin autorización previa de las Cortes y audiencia del Gobierno canario.",
+    "cita": "Ninguna cesión del control aéreo sin pasar por las Cortes · Ningún acuerdo que ceda ese control a otro Estado podrá firmarse sin autorización previa de las Cortes y audiencia motivada del Gobierno de Canarias.",
+    "pagina": 30,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Defensa y política exterior",
+    "resumen": "Incorporar de forma permanente una delegación del Gobierno de Canarias a la representación de España ante la Unión Africana.",
+    "cita": "Una delegación canaria ante la Unión Africana · Proponemos que esa representación incorpore de forma permanente una delegación del Gobierno de Canarias, para que el archipiélago participe en la relación con la organización y en la cooperación con África Occidental.",
+    "pagina": 30,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Crear un programa plurianual del Consejo Superior de Deportes para rehabilitar instalaciones deportivas públicas en Canarias.",
+    "cita": "Queremos un programa plurianual del Consejo Superior de Deportes, cofinanciado con el Gobierno de Canarias, los cabildos y los ayuntamientos y con una convocatoria específica para Canarias, que rehabilite las instalaciones deportivas públicas.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Presentar iniciativas legislativas para el reconocimiento de las selecciones canarias en competiciones estatales e internacionales.",
+    "cita": "Queremos ver jugar a las selecciones canarias con regularidad en el concierto estatal y en el internacional, en disciplinas como el fútbol masculino y femenino y en otros deportes. Presentaremos iniciativas legislativas en el Congreso para lograr su reconocimiento.",
+    "pagina": 30,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Vivienda",
+    "resumen": "Reformar la ley estatal de inversiones extranjeras para someter a requisitos y control en Canarias las compras de vivienda desde fuera de la UE.",
+    "cita": "Para quienes compran desde fuera de la Unión Europea, impulsaremos además una reforma de la ley estatal de inversiones extranjeras que someta esas compras a requisitos y control en Canarias, por la emergencia habitacional.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Empleo y salarios",
+    "resumen": "Reformar el Estatuto de los Trabajadores para equiparar a las kellys con la plantilla del hotel y prevenir su desgaste físico.",
+    "cita": "Defenderemos también cambiar el Estatuto de los Trabajadores para que las kellys sean contratadas como lo que son, actividad principal, con las mismas condiciones que la plantilla del hotel, y la ley de prevención de riesgos laborales para que se evalúe y se prevenga el desgaste físico de su trabajo.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Otros",
+    "resumen": "Que los canarios que viven fuera por estudios o trabajo conserven el descuento de residente en un número limitado de viajes al año.",
+    "cita": "Y los canarios y canarias que viven fuera por estudios o trabajo conservarán el descuento en un número limitado de viajes al año.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Suspender por ley los nuevos permisos de tierras raras en Canarias mientras no se reforme la Ley de Minas.",
+    "cita": "Mientras esa reforma no esté en vigor, una ley suspenderá la tramitación de nuevos permisos de este tipo en el archipiélago.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Adaptar la normativa de autoconsumo para dar prioridad a los tejados, con un trámite simplificado.",
+    "cita": "Proponemos también adaptar la normativa de autoconsumo para dar prioridad a los tejados, con un trámite simplificado.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Energía y clima",
+    "resumen": "Acordar entre el Estado y Canarias un plan de reservas estratégicas de combustible y alimentos por si se cortan las rutas de suministro.",
+    "cita": "El Estado y Canarias acordarán además un plan de reservas estratégicas de combustible y alimentos, para que el archipiélago aguante si se cortan las rutas de suministro.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Inmigración",
+    "resumen": "Ampliar la atención jurídica, psicosocial, sanitaria y de acogida a solicitantes de asilo y facilitar reunificaciones y traslados a la Península.",
+    "cita": "Asimismo, es urgente y necesario ampliar los recursos de atención jurídica, psicosocial, sanitaria y de acogida, asegurando suficientes plazas alojativas en programas especializados e itinerarios de atención individualizada para las personas solicitantes de asilo y protección internacional, con el máximo respeto a su dignidad y a su proyecto migratorio, y facilitando las reunificaciones familiares y los traslados al territorio continental.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Defensa y política exterior",
+    "resumen": "Que cualquier cambio de posición sobre el futuro del Sáhara pase por las Cortes y el Gobierno de Canarias.",
+    "cita": "Cualquier cambio de posición sobre el futuro del Sáhara deberá pasar por las Cortes y el Gobierno de Canarias.",
+    "pagina": 22,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Igualdad y familia",
+    "resumen": "Obligar a las empresas de 100 o más trabajadores a ofrecer cuidado infantil o una compensación equivalente si no hay alternativa pública.",
+    "cita": "También queremos que, si no existe alternativa pública, las empresas con 100 o más personas en plantilla ofrezcan un espacio de cuidado infantil o una compensación económica equivalente.",
+    "pagina": 23,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "D.R.G",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar la legislación estatal contra los delitos de odio, también en el Código Penal.",
+    "cita": "Proponemos reforzar la legislación estatal contra los delitos de odio, también en el Código Penal.",
+    "pagina": 23,
+    "concreta": false,
+    "revisada": true
   }
 ]

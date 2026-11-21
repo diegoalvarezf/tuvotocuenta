@@ -349,7 +349,12 @@
     "circunscripciones": 2,
     "web": "https://www.dragocanarias.com",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral 29N. La esperanza vence al miedo",
+      "url": "https://www.dragocanarias.com/wp-content/uploads/2026/11/Drago-Canarias-Programa-electoral-29N.pdf",
+      "fecha": "2026-11-20",
+      "paginas": 32
+    }
   },
   {
     "siglas": "D21",
