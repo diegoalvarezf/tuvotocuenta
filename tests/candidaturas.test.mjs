@@ -33,9 +33,10 @@ test('toda formación proclamada está en la lista de programas, y solo esas', (
 });
 
 // Desde el 20-11-2026 cuentan también programas cortos si la formación los presenta como su programa (decisión de Diego)
-test('un programa completo tiene páginas y un enlace', () => {
+test('un programa tiene páginas y un enlace, o es una página web con su copia en archive.org', () => {
   for (const p of programas.filter((x) => x.programa)) {
-    assert.ok(p.programa.paginas >= 1, p.corto);
+    if (p.programa.web) assert.match(p.programa.archivo ?? '', /^https:\/\/web\.archive\.org\/web\/\d{14}\//, p.corto);
+    else assert.ok(p.programa.paginas >= 1, p.corto);
     assert.match(p.programa.url, /^https:/, p.corto);
   }
 });

@@ -100492,5 +100492,574 @@
     "cita": "Becas especiales de movilidad y residencia, prácticas remuneradas, incentivos al primer empleo y ayudas al retorno de jóvenes titulados a zonas escasamente pobladas.",
     "pagina": 1,
     "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Otros",
+    "resumen": "Reforzar el papel de las Cortes Generales.",
+    "cita": "Reforzar el papel de las Cortes Generales.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Seguridad y justicia",
+    "resumen": "Aplicar tolerancia cero con la corrupción.",
+    "cita": "Tolerancia cero con la corrupción.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Modelo territorial",
+    "resumen": "Mantener a Navarra como Comunidad Foral.",
+    "cita": "Navarra es y va a seguir siendo una Comunidad Foral.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Modelo territorial",
+    "resumen": "Defender el Fuero y el Convenio Económico de Navarra.",
+    "cita": "Defensa del Fuero y del Convenio Económico.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Modelo territorial",
+    "resumen": "Suprimir la disposición transitoria cuarta de la Constitución, que prevé la posible incorporación de Navarra al País Vasco.",
+    "cita": "Supresión de la Transitoria Cuarta, que abre la puerta a anexionar Navarra con el País Vasco.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Seguridad y justicia",
+    "resumen": "Garantizar memoria, dignidad, justicia y verdad para las víctimas del terrorismo.",
+    "cita": "Memoria, dignidad, justicia y verdad para las víctimas del terrorismo.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Sanidad",
+    "resumen": "Reducir las listas de espera para diagnosticar antes y tratar mejor.",
+    "cita": "Menos listas de espera para diagnosticar antes y tratar mejor.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Sanidad",
+    "resumen": "Aumentar la prevención sanitaria y mejorar los resultados.",
+    "cita": "Más prevención y mejores resultados.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Sanidad",
+    "resumen": "Aumentar las plazas MIR.",
+    "cita": "Más plazas MIR.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Igualdad y familia",
+    "resumen": "Acortar los plazos en dependencia.",
+    "cita": "En dependencia, plazos más cortos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Igualdad y familia",
+    "resumen": "Evitar duplicidades y abusos en las ayudas.",
+    "cita": "Ayudas sin duplicidades ni abusos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Educación",
+    "resumen": "Orientar la educación a mejorar el rendimiento escolar.",
+    "cita": "Educación de calidad orientada a la mejora del rendimiento escolar.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Educación",
+    "resumen": "Conectar la FP dual con las empresas y garantizar becas a quien las necesite.",
+    "cita": "FP dual conectada con las empresas y un sistema de becas garantizado para quien las necesite.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Seguridad y justicia",
+    "resumen": "Dar más medios a las policías y mejorar su coordinación.",
+    "cita": "Más medios y mejor coordinación entre todas las policías.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Seguridad y justicia",
+    "resumen": "Garantizar la seguridad en las calles de cada barrio y pueblo.",
+    "cita": "Calles seguras en cada barrio y pueblo.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Impuestos",
+    "resumen": "Bajar impuestos para aumentar la actividad, el poder adquisitivo y la competitividad de las empresas.",
+    "cita": "Un alivio fiscal que genere más actividad, que ayude a las personas a tener más poder adquisitivo y a las empresas a ser más competitivas.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Impuestos",
+    "resumen": "Evitar que la inflación suba los impuestos.",
+    "cita": "Que la inflación no te suba los impuestos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Pensiones",
+    "resumen": "Mantener el poder adquisitivo de las pensiones.",
+    "cita": "Pensiones que mantengan tu poder adquisitivo.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Otros",
+    "resumen": "Fijar calendario y financiación para la segunda fase del Canal de Navarra, el recrecimiento de Yesa, el tren de alta velocidad y la A-15.",
+    "cita": "Calendario y financiación para la segunda fase del Canal de Navarra, el recrecimiento de Yesa, el tren de alta velocidad y la autovía A-15.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Energía y clima",
+    "resumen": "Desarrollar la red eléctrica para la industria.",
+    "cita": "Red eléctrica para la industria.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Otros",
+    "resumen": "Mejorar las conexiones aéreas.",
+    "cita": "Mejores conexiones aéreas.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Otros",
+    "resumen": "Llevar internet y cobertura a todos los pueblos.",
+    "cita": "Internet y cobertura en todos los pueblos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Vivienda",
+    "resumen": "Aumentar la oferta de vivienda para bajar los precios.",
+    "cita": "Más oferta para bajar los precios.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Vivienda",
+    "resumen": "Destinar suelo público a vivienda asequible.",
+    "cita": "Suelo público para vivienda asequible.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Vivienda",
+    "resumen": "Reducir trámites para desbloquear las 20.000 viviendas protegidas pendientes en Navarra.",
+    "cita": "Menos trámites para desbloquear las 20.000 viviendas protegidas que esperan en Navarra.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Vivienda",
+    "resumen": "Desalojar las viviendas ocupadas ilegalmente en 48 horas.",
+    "cita": "Okupas fuera en 48 horas.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Economía y empresas",
+    "resumen": "Reforzar el tejido empresarial, la industria y los servicios con un ecosistema innovador.",
+    "cita": "Refuerzo del tejido empresarial, la industria y los servicios, con un ecosistema innovador.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Empleo y salarios",
+    "resumen": "Defender salarios dignos y la concertación social.",
+    "cita": "Salarios dignos y respeto a la concertación social.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Inmigración",
+    "resumen": "Impulsar la contratación en origen y homologar títulos en 6 meses.",
+    "cita": "Contratación en origen y títulos homologados en 6 meses.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Empleo y salarios",
+    "resumen": "Cuota cero para autónomos los dos primeros años, sin IVA hasta 85.000 € de facturación y más cobertura social.",
+    "cita": "Autónomos: cuota cero los dos primeros años, sin IVA hasta 85.000€ de facturación y mayor cobertura social.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Inmigración",
+    "resumen": "Promover una inmigración legal y ordenada, con derechos y obligaciones.",
+    "cita": "Inmigración legal, ordenada, con derechos y obligaciones.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Economía y empresas",
+    "resumen": "Orientar la PAC a agricultores y ganaderos profesionales, con relevo generacional.",
+    "cita": "Una PAC para agricultores y ganaderos profesionales, con relevo generacional.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "UPN-PP",
+    "tema": "Modelo territorial",
+    "resumen": "Garantizar servicios y actividad económica en todos los pueblos.",
+    "cita": "Servicios y actividad económica en todos nuestros pueblos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Modelo territorial",
+    "resumen": "Reivindicar en el Congreso la autonomía leonesa como principal objetivo.",
+    "cita": "Nuestro autogobierno será la principal reivindicación que llevaremos al Congreso.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Energía y clima",
+    "resumen": "Defender una transición ecológica justa que integre medioambiente, salud ambiental y sostenibilidad territorial con la justicia social.",
+    "cita": "Alantre defiende un modelo de transición ecológica justa, donde la protección del medioambiente, la salud ambiental y la sostenibilidad territorial se integren con la justicia social y económica.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Otros",
+    "resumen": "Garantizar servicios públicos universales y gratuitos, en especial en las comarcas rurales.",
+    "cita": "Blindaje de los Servicios públicos · Garantizar servicios públicos universales y gratuitos es indispensable para combatir las desigualdades sociales, educativas, sanitarias y laborales que atraviesan de forma estructural nuestro territorio, especialmente en las comarcas rurales, envejecidas y castigadas por la despoblación.",
+    "pagina": 1,
+    "concreta": false,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Igualdad y familia",
+    "resumen": "Defender los avances en derechos laborales y civiles, en especial los de mujeres y personas LGTBIQ+.",
+    "cita": "Defenderemos los avances en derechos laborales y civiles contra involuciones, especialmente los conseguidos por mujeres, gente LGTBIQ+ y otros colectivos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Otros",
+    "resumen": "Exigir inversiones en Torneros, Lazo del Manzanal, Vía de la Plata, FEVE, autovías pendientes y el Corredor Atlántico.",
+    "cita": "Exigiremos las inversiones necesarias para nuestro desarrollo: Torneros, Lazo del Manzanal, Vía de la Plata, terminal de mercancías en el aeropuerto, integración de FEVE, soterramiento en Trobajo del Camino, las autovías de Braganza, Bierzo-Ourense y León-Valladolid, así como la ejecución inmediata de la red del Corredor Atlántico de ferrocarril y por carretera, para comunicar con los puertos de Oporto, Lisboa, Vigo y Xixón.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar un plan estatal para León, Zamora y Salamanca y reconocer El Bierzo como comarca estratégica.",
+    "cita": "Reclamaremos un plan estatal específico para León, Zamora y Salamanca, así como el reconocimiento de El Bierzo como comarca estratégica.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Otros",
+    "resumen": "Crear un Plan Estratégico de Movilidad y Transporte consensuado entre administraciones y basado en la eficiencia energética.",
+    "cita": "Plan Estratégico de Movilidad y Transporte · Que será consensuado entre las diferentes administraciones, basado en la eficiencia energética y la sostenibilidad ambiental.",
+    "pagina": 1,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Otros",
+    "resumen": "Suprimir los peajes de las autopistas del Huerna y Astorga-León.",
+    "cita": "Exigiremos la supresión de los peajes de las autopistas del Huerna y Astorga-León.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Otros",
+    "resumen": "Pedir que se cumplan las recomendaciones del Consejo de Europa y la Carta Europea de las Lenguas Regionales o Minoritarias.",
+    "cita": "Pediremos el cumplimiento de las Recomendaciones del Consejo de Europa, así como de la Carta Europea de las Lenguas regionales o Minoritarias firmada por el Estado español.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Otros",
+    "resumen": "Dar prioridad al leonés y al gallego en las políticas culturales.",
+    "cita": "Las lenguas propias del territorio, el leonés y el gallego, forman parte del patrimonio cultural inmaterial y deben ocupar un lugar prioritario en las políticas culturales.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Otros",
+    "resumen": "Reclamar una protección efectiva del patrimonio cultural.",
+    "cita": "Del mismo modo, reclamaremos una protección efectiva de nuestro patrimonio cultural.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Modelo territorial",
+    "resumen": "Proponer reformas legales para recuperar juntas vecinales, proteger el Concejo Abierto y defender los bienes comunales.",
+    "cita": "Plantearemos las reformas legislativas para recuperar juntas vecinales perdidas, proteger el Concejo Abierto, reforzar la autonomía de las entidades locales menores y asegurar la defensa de los bienes comunales, garantizando que la gestión de lo público se mantenga en manos de quienes mejor conocen el territorio.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Economía y empresas",
+    "resumen": "Apoyar la explotación agraria extensiva y familiar y la creación de pymes industriales y de servicios.",
+    "cita": "Apoyar una explotación extensiva y familiar, junto con la creación de pequeñas y medianas empresas industriales y de servicios.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Economía y empresas",
+    "resumen": "Apoyar a agricultores y ganaderos frente a la industria agroalimentaria y la gran distribución.",
+    "cita": "Apoyaremos a agricultores y ganaderos frente a la industria agroalimentaria y la gran distribución.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "P. ALANTRE",
+    "tema": "Vivienda",
+    "resumen": "Rehabilitar viviendas vacías, ofrecer alquiler asequible y facilitar el acceso a un hogar digno.",
+    "cita": "Frente a los desahucios y la despoblación, un modelo adaptado a nuestra realidad: rehabilitación de viviendas vacías, alquiler asequible y el acceso a un hogar digno.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir un nuevo modelo de financiación autonómica, con una igualación transitoria mientras llega la reforma.",
+    "cita": "Reforma inmediata del sistema de financiación: Exigir un nuevo modelo para garantizar recursos suficientes en sanidad, educación, dependencia y bienestar social, estableciendo una igualación transitoria mientras llega la reforma definitiva.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar que el Estado asuma y compense la deuda valenciana generada por la infrafinanciación.",
+    "cita": "Compensación de la deuda por infrafinanciación: Reclamar al Estado la asunción y compensación de la deuda valenciana generada por el retraso y la falta de reforma del modelo autonómico.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Modelo territorial",
+    "resumen": "Impulsar reformas para reducir trámites y agilizar la contratación de obras y personal en los ayuntamientos.",
+    "cita": "Agilización legal en el Congreso: Impulsar reformas urgentes para eliminar trabas burocráticas y agilizar la contratación de obras y personal en los ayuntamientos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Modelo territorial",
+    "resumen": "Garantizar apoyo a familias, autónomos y empresas, prevenir nuevos daños y acelerar los fondos asignados a los municipios.",
+    "cita": "Prevención y ayudas directas: Garantizar apoyo efectivo a familias, personas autónomas y empresas, previniendo nuevos daños y acelerando la ejecución de los fondos asignados a los municipios.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Otros",
+    "resumen": "Ampliar frecuencias y capacidad en las líneas C1, C2, C3 y C6 de Cercanías y mejorar Metrovalencia.",
+    "cita": "Plan de Cercanías y Metrovalencia: Ampliar frecuencias, capacidad y fiabilidad en las líneas C1, C2, C3 y C6 de Renfe, y mejorar la red de Metrovalencia, prestando especial atención a los municipios de l'Horta.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Otros",
+    "resumen": "Terminar las obras de la línea C3, acelerar el corredor ferroviario con Europa y adecuar enlaces viarios y logísticos.",
+    "cita": "Ejes estratégicos y conexión logística: Finalizar las actuaciones en la línea C3, acelerar el corredor ferroviario con Europa y adecuar enlaces viarios y logísticos.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Otros",
+    "resumen": "Exigir para el área metropolitana de Valencia dotaciones estatales equivalentes a las de Madrid y Barcelona.",
+    "cita": "Financiación metropolitana equitativa: Exigir dotaciones presupuestarias estatales equivalentes a las de las áreas metropolitanas de Madrid y Barcelona.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Modelo territorial",
+    "resumen": "Recuperar las competencias en Derecho Civil Valenciano.",
+    "cita": "Recuperación del Derecho Civil Valenciano: Restablecer las competencias y un marco civil propio.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Seguridad y justicia",
+    "resumen": "Impulsar una Policía Valenciana preparada para responder a emergencias.",
+    "cita": "Seguridad y emergencias: Impulsar una Policía Valenciana capacitada y dotada para la respuesta ante emergencias.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Otros",
+    "resumen": "Fomentar el uso del valenciano y profundizar en el autogobierno.",
+    "cita": "Promoción lingüística y autogobierno: Proteger y fomentar activamente el uso de la lengua valenciana y profundizar en el autogobierno autonómico.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Economía y empresas",
+    "resumen": "Reducir cargas administrativas y apoyar a autónomos, comercio local y empresas familiares frente a grandes multinacionales.",
+    "cita": "Protección del tejido empresarial y pymes: Reducción de cargas administrativas, apoyo prioritario a autónomos, comercio local y empresas familiares frente a abusos de grandes multinacionales.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Economía y empresas",
+    "resumen": "Garantizar agua, modernizar regadíos, exigir reciprocidad en importaciones y apoyar el relevo generacional en el sector primario.",
+    "cita": "Sector primario y agua: Garantizar agua suficiente, modernizar regadíos, exigir reciprocidad en las importaciones frente a terceros países y apoyar el relevo generacional en cítricos, arroz, caqui, vid, ganadería y pesca.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Seguridad y justicia",
+    "resumen": "Crear plazas judiciales y reforzar plantillas y medios tecnológicos para reducir retrasos.",
+    "cita": "Justicia eficaz: Crear plazas judiciales, reforzar plantillas e infraestructuras tecnológicas para descongestionar juzgados y reducir retrasos procesales.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Otros",
+    "resumen": "Más canales temáticos de À Punt y financiación estatal del Palau de les Arts igual a la del Teatro Real o el Liceu.",
+    "cita": "Cultura y medios públicos: Aumentar los canales temáticos de À Punt y equiparar la financiación estatal del Palau de les Arts a la de recintos como el Teatro Real o el Liceu.",
+    "pagina": 1,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "AGENDA VALENCIANA",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reducir los aforamientos, aumentar la transparencia y la rendición de cuentas de los representantes.",
+    "cita": "Regeneración democrática: Reducción drástica de aforamientos, mayor transparencia en la gestión pública y rendición de cuentas directa de los representantes ante los ciudadanos.",
+    "pagina": 1,
+    "concreta": false,
+    "revisada": true
   }
 ]

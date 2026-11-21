@@ -221,6 +221,10 @@
       {
         "titulo": "Compromiso (web)",
         "url": "https://foraespanya.cat"
+      },
+      {
+        "titulo": "Programa per a Catalunya (web)",
+        "url": "https://alhora.cat/politiques/"
       }
     ],
     "programa": null
@@ -539,7 +543,12 @@
     "nombre": "Federación de los Independientes de Aragón",
     "circunscripciones": 2,
     "web": "https://www.fia-independientes.es",
-    "documentos": [],
+    "documentos": [
+      {
+        "titulo": "10 compromisos (folletos en imagen)",
+        "url": "https://www.fia-independientes.es/ELECCIONES-29N/"
+      }
+    ],
     "programa": null
   },
   {
@@ -596,7 +605,7 @@
     "corto": "29",
     "nombre": "ALTERNATIVA MALAGUEÑA",
     "circunscripciones": 1,
-    "web": null,
+    "web": "https://alternativamalaguena.com",
     "documentos": [],
     "programa": null
   },
@@ -620,13 +629,14 @@
     "nombre": "AGENDA VALENCIANA",
     "circunscripciones": 1,
     "web": "https://agendavalenciana.org",
-    "documentos": [
-      {
-        "titulo": "Programa (web)",
-        "url": "https://agendavalenciana.org/#programa"
-      }
-    ],
-    "programa": null
+    "documentos": [],
+    "programa": {
+      "titulo": "Programa electoral (página web)",
+      "url": "https://www.agendavalenciana.org/programa.html",
+      "archivo": "https://web.archive.org/web/20261121123425/https://www.agendavalenciana.org/programa.html",
+      "fecha": "2026-11-17",
+      "web": true
+    }
   },
   {
     "siglas": "CNV",
@@ -647,8 +657,13 @@
     "corto": "EGUZKILORE",
     "nombre": "EGUZKILORE",
     "circunscripciones": 1,
-    "web": null,
-    "documentos": [],
+    "web": "https://www.eguzkilore-na.org",
+    "documentos": [
+      {
+        "titulo": "Programa (web, no específico del 29N)",
+        "url": "https://www.eguzkilore-na.org/sample-page/"
+      }
+    ],
     "programa": null
   },
   {
@@ -686,7 +701,13 @@
     "circunscripciones": 1,
     "web": "https://www.alantre.org",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa: doce compromisos (página web)",
+      "url": "https://ya-toca.com/programa/",
+      "archivo": "https://web.archive.org/web/20261121123401/https://ya-toca.com/programa/",
+      "fecha": "2026-11-16",
+      "web": true
+    }
   },
   {
     "siglas": "P.D.S.J.E.",
@@ -814,9 +835,15 @@
     "corto": "UPN-PP",
     "nombre": "Unión del Pueblo Navarro en coalición con el Partido Popular",
     "circunscripciones": 1,
-    "web": "https://www.upn.org",
+    "web": "https://upn-pp.es",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Compromisos (página web)",
+      "url": "https://upn-pp.es/#compromisos",
+      "archivo": "https://web.archive.org/web/20261121123334/https://upn-pp.es/",
+      "fecha": "2026-11-21",
+      "web": true
+    }
   },
   {
     "siglas": "VLC",

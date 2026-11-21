@@ -29,11 +29,14 @@ export function GET({ props }: { props: { tema: string } }) {
   // Igual que en la página: solo las revisadas (en local, también los borradores)
   const propuestas = (propuestasJson as Propuesta[]).filter((p) => (p.revisada || import.meta.env.DEV) && p.tema === props.tema);
   // Documento del que sale cada propuesta: el programa o, si no lo llama así, su documento principal
-  const documentos = Object.fromEntries(
-    programas.map((p) => [p.siglas, ((p.programa as { url: string } | null) ?? (p.documentos as { url: string }[])[0])?.url ?? '']),
-  );
+  // Si el programa es una página web, el enlace es su copia en archive.org (sin número de página)
+  type Fuente = { url: string; web?: boolean; archivo?: string };
+  const fuente = (p: (typeof programas)[number]) => (p.programa as Fuente | null) ?? (p.documentos as Fuente[])[0];
+  const documentos = Object.fromEntries(programas.map((p) => [p.siglas, (fuente(p)?.web ? fuente(p)?.archivo : fuente(p)?.url) ?? '']));
+  const web = programas.filter((p) => fuente(p)?.web).map((p) => p.siglas);
   const datos = {
     documentos,
+    web,
     // Por formación y página: [partido, tema, resumen, cita, página, concreta, tabla (1) o trozos (2), revisada, documento si es una parte]
     propuestas: [...propuestas]
       .sort((a, b) => a.pagina - b.pagina)

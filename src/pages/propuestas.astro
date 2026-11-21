@@ -12,7 +12,10 @@ interface Programa {
   url: string;
   fecha: string;
   titulo: string;
-  paginas: number;
+  paginas?: number;
+  // Programa publicado solo como página web: se cita sin página y se enlaza su copia en archive.org
+  web?: boolean;
+  archivo?: string;
 }
 interface Documento {
   titulo: string;
@@ -56,6 +59,13 @@ const fuenteDe = (siglas: string) => {
   const p = partidos.find((x) => x.siglas === siglas);
   return p?.programa ?? p?.documentos[0];
 };
+// Enlace a la cita: la página del PDF o, si el programa es una página web, su copia guardada con el texto resaltado
+const enlaceCita = (p: Propuesta) => {
+  const f = fuenteDe(p.partido) as Programa;
+  if (f?.web) return `${f.archivo}#:~:text=${encodeURIComponent(p.cita.split(' · ')[0].split(/\s+/).slice(0, 8).join(' '))}`;
+  return `${p.documento ?? f!.url}#page=${p.pagina}`;
+};
+const esWeb = (siglas: string) => Boolean((fuenteDe(siglas) as Programa)?.web);
 ---
 
 <Base title="Programas electorales 2026 comparados por temas · tuvotocuenta" description="Qué propone cada partido para el 29 de noviembre, tema a tema, con la cita literal y la página exacta de su programa.">
@@ -130,9 +140,9 @@ const fuenteDe = (siglas: string) => {
                     <p class="resumen">{p.resumen}{!p.revisada && <span class="borrador"> · Sin revisar</span>}</p>
                     <span class:list={['tipo', { concreta: p.concreta }]}>{p.concreta ? 'Concreta' : 'Genérica'}</span>
                     <details>
-                      <summary>{p.tabla ? 'Tabla' : 'Cita'} · pág. {p.pagina}</summary>
+                      <summary>{p.tabla ? 'Tabla' : 'Cita'} · {esWeb(p.partido) ? 'su web' : `pág. ${p.pagina}`}</summary>
                       {p.tabla ? <blockquote>Fila de su tabla de compromisos: {p.cita}</blockquote> : <blockquote>«{p.trozos ? p.cita.split(' · ').join('» … «') : p.cita}»</blockquote>}
-                      <a class="ir-pagina" href={`${p.documento ?? fuenteDe(p.partido)!.url}#page=${p.pagina}`} target="_blank" rel="noopener">Ver la página {p.pagina} del documento</a>
+                      <a class="ir-pagina" href={enlaceCita(p)} target="_blank" rel="noopener">{esWeb(p.partido) ? 'Ver en su web (copia guardada)' : `Ver la página ${p.pagina} del documento`}</a>
                     </details>
                   </li>
                 ))}
@@ -155,7 +165,13 @@ const fuenteDe = (siglas: string) => {
       <li>
         <span><span class="punto" style={`--c:${color(p.siglas)}`}></span><span>{p.nombre} <span class="suave donde">{p.circunscripciones} de 52</span></span></span>
         <span class="suave">
-          {p.programa ? <a href={p.programa.url} target="_blank" rel="noopener">Programa ({p.programa.paginas} págs.)</a> : 'Pendiente'}
+          {p.programa ? (
+            p.programa.web ? (
+              <><a href={p.programa.url} target="_blank" rel="noopener">Programa (página web)</a> · <a href={p.programa.archivo} target="_blank" rel="noopener">copia guardada</a></>
+            ) : (
+              <a href={p.programa.url} target="_blank" rel="noopener">Programa ({p.programa.paginas} {p.programa.paginas === 1 ? 'pág.' : 'págs.'})</a>
+            )
+          ) : 'Pendiente'}
           {p.web && <> · <a href={p.web} target="_blank" rel="noopener">web oficial</a></>}
           {p.documentos.map((d) => (
             <> · <a href={d.url} target="_blank" rel="noopener">{d.titulo}</a>{d.paginas && ` (${d.paginas} págs.)`}</>
@@ -166,8 +182,8 @@ const fuenteDe = (siglas: string) => {
   </ul>
   <p class="suave nota">
     Las formaciones con candidaturas proclamadas al Congreso y en cuántas de las 52 circunscripciones se presentan. Se agrupan las variantes
-    territoriales de una misma formación. Aún pueden cambiar por los recursos previstos en la ley. Contamos como programa completo el documento de 20 páginas o más que la
-    formación ofrece como su programa electoral. Los textos más breves se enlazan junto a su nombre, sin contarlos. «Pendiente» significa que no lo hemos
+    territoriales de una misma formación. Aún pueden cambiar por los recursos previstos en la ley. Contamos como programa el documento que la formación
+    ofrece como su programa para estas elecciones, sea cual sea su extensión. Si solo lo publica como página web, lo enlazamos junto a una copia guardada en archive.org. Folletos y documentos de otras elecciones se enlazan junto a su nombre, sin contarlos. «Pendiente» significa que no lo hemos
     localizado en su web. Si falta algo, avísanos.
   </p>
   <Fuente de={['candidaturas2026', 'candidaturas2026correccion', 'loreg']} calculo detalle="art. 49 de la ley electoral" />
@@ -175,8 +191,8 @@ const fuenteDe = (siglas: string) => {
   <section class="metodo">
     <h2>Cómo lo hacemos</h2>
     <ol>
-      <li><strong>Solo el programa oficial.</strong> Usamos el PDF que publica cada partido en su web, nada más: ni entrevistas ni declaraciones.</li>
-      <li><strong>Cita literal y página.</strong> Cada propuesta lleva el fragmento exacto del programa y un enlace a su página, para que lo compruebes tú.</li>
+      <li><strong>Solo el programa oficial.</strong> Usamos el programa que publica cada partido, en PDF o en su web, nada más: ni entrevistas ni declaraciones.</li>
+      <li><strong>Cita literal y página.</strong> Cada propuesta lleva el fragmento exacto del programa y un enlace a su página (o a la copia guardada de su web), para que lo compruebes tú.</li>
       <li><strong>Verificación automática.</strong> Una IA ayuda a localizar y clasificar las propuestas. Después, un programa comprueba que cada cita aparece palabra por palabra en esa página del PDF; si no aparece, se descarta. Si la propuesta es una fila de una tabla del programa, se cita la fila (qué, meta y plazo) y se comprueba cada celda.</li>
       <li><strong>Revisión.</strong> Una segunda pasada con IA comprueba cada propuesta contra su página. Después, una persona revisa una muestra de cada formación antes de publicar.</li>
       <li><strong>Concreta o genérica.</strong> Es concreta si se puede comprobar su cumplimiento: tiene una cifra, una fecha, un plazo o una medida legal o administrativa identificable, como crear o suprimir un impuesto o una ley, o una deducción bien definida aunque no lleve cifra. «Impulsaremos» o «apostaremos por» sin nada más, o un plan sin nombre ni cifra, es genérica. No mide si la propuesta es buena o mala, y el límite a veces es discutible.</li>
@@ -191,6 +207,8 @@ const fuenteDe = (siglas: string) => {
   type Fila = [string, string, string, string, number, 0 | 1, 0 | 1 | 2, 0 | 1, string?];
   interface Datos {
     documentos: Record<string, string>;
+    // Formaciones cuyo programa es una página web: su documento es la copia de archive.org y no hay página
+    web: string[];
     propuestas: Fila[];
   }
   // Cada tema se pide una vez, cuando se elige (el primero ya viene en la página)
@@ -202,7 +220,7 @@ const fuenteDe = (siglas: string) => {
   };
 
   // Una propuesta tal como se ve en su tarjeta
-  function propuesta(f: Fila, documento: string, alterna: boolean) {
+  function propuesta(f: Fila, documento: string, alterna: boolean, web = false) {
     const [, , resumen, cita, pagina, concreta, tabla, revisada, parte] = f;
     const li = document.createElement('li');
     if (alterna) li.className = 'alterna';
@@ -212,9 +230,9 @@ const fuenteDe = (siglas: string) => {
     if (!revisada) p.append(Object.assign(document.createElement('span'), { className: 'borrador', textContent: ' · Sin revisar' }));
     li.append(Object.assign(document.createElement('span'), { className: concreta ? 'tipo concreta' : 'tipo', textContent: concreta ? 'Concreta' : 'Genérica' }));
     const det = li.appendChild(document.createElement('details'));
-    det.append(Object.assign(document.createElement('summary'), { textContent: `${tabla === 1 ? 'Tabla' : 'Cita'} · pág. ${pagina}` }));
+    det.append(Object.assign(document.createElement('summary'), { textContent: `${tabla === 1 ? 'Tabla' : 'Cita'} · ${web ? 'su web' : `pág. ${pagina}`}` }));
     det.append(Object.assign(document.createElement('blockquote'), { textContent: tabla === 1 ? `Fila de su tabla de compromisos: ${cita}` : `«${tabla === 2 ? cita.split(' · ').join('» … «') : cita}»` }));
-    det.append(Object.assign(document.createElement('a'), { className: 'ir-pagina', href: `${parte ?? documento}#page=${pagina}`, target: '_blank', rel: 'noopener', textContent: `Ver la página ${pagina} del documento` }));
+    det.append(Object.assign(document.createElement('a'), { className: 'ir-pagina', href: web ? `${documento}#:~:text=${encodeURIComponent(cita.split(' · ')[0].split(/\s+/).slice(0, 8).join(' '))}` : `${parte ?? documento}#page=${pagina}`, target: '_blank', rel: 'noopener', textContent: web ? 'Ver en su web (copia guardada)' : `Ver la página ${pagina} del documento` }));
     return li;
   }
 
@@ -302,7 +320,7 @@ const fuenteDe = (siglas: string) => {
         const siglas = col.dataset.partido!;
         const delTema = d.propuestas.filter((f) => f[0] === siglas && f[1] === tema && (!concretas.checked || f[5] === 1));
         const limite = abiertas.has(siglas) ? delTema.length : VISIBLES;
-        col.querySelector('ul')!.replaceChildren(...delTema.slice(0, limite).map((f, i) => propuesta(f, d.documentos[siglas], i % 2 === 1)));
+        col.querySelector('ul')!.replaceChildren(...delTema.slice(0, limite).map((f, i) => propuesta(f, d.documentos[siglas], i % 2 === 1, d.web.includes(siglas))));
         const verMas = col.querySelector<HTMLButtonElement>('[data-ver-mas]')!;
         verMas.hidden = delTema.length <= limite;
         verMas.textContent = `Ver ${delTema.length - limite} más`;
