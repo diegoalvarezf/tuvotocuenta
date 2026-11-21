@@ -74,8 +74,19 @@
     "nombre": "Partido Comunista de los Trabajadores de España",
     "circunscripciones": 46,
     "web": "https://www.pcte.es",
-    "documentos": [],
-    "programa": null
+    "documentos": [
+      {
+        "titulo": "Programa de lucha 29N",
+        "url": "https://oposicionobrera.pcte.es/assets/docs/CAS-Programa-de-lucha-PCTE-d.pdf",
+        "fecha": "2026-11-16",
+        "paginas": 24
+      }
+    ],
+    "programa": null,
+    "aviso": {
+      "texto": "Su documento dice que «este no es un programa electoral», sino un programa de lucha.",
+      "pagina": 3
+    }
   },
   {
     "siglas": "SALF",
@@ -557,9 +568,14 @@
     "corto": "NC-BC, PODEMOS, IU, SUMAR",
     "nombre": "UNIDAD DEL PUEBLO CANARIO UPC",
     "circunscripciones": 2,
-    "web": null,
+    "web": "https://www.unidadpueblocanario.org",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Manifiesto electoral 29N",
+      "url": "https://www.unidadpueblocanario.org/manifiesto-20261119/manifiesto-electoral-upc.pdf",
+      "fecha": "2026-11-19",
+      "paginas": 19
+    }
   },
   {
     "siglas": "NEX",
@@ -568,7 +584,12 @@
     "circunscripciones": 2,
     "web": "https://www.nuevoext.es",
     "documentos": [],
-    "programa": null
+    "programa": {
+      "titulo": "Programa electoral Generales 29N. 150 medidas",
+      "url": "https://www.nuevoext.es/descargas/Programa-Electoral-Generales-29N.pdf",
+      "fecha": "2026-11-16",
+      "paginas": 15
+    }
   },
   {
     "siglas": "29",

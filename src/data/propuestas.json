@@ -13904,7 +13904,7 @@
     "resumen": "Defender la financiación del Plan Integral de Empleo de Canarias y los programas del REF mientras su empleo siga por debajo de la media.",
     "cita": "Defenderemos la financiación del Plan Integral de Empleo de Canarias y de los programas específicos previstos en el REF mientras la situación del empleo en Canarias siga en clara desventaja respecto a la media estatal.",
     "pagina": 12,
-    "concreta": true,
+    "concreta": false,
     "revisada": true
   },
   {
@@ -96761,6 +96761,3527 @@
     "resumen": "Reforzar la legislación estatal contra los delitos de odio, también en el Código Penal.",
     "cita": "Proponemos reforzar la legislación estatal contra los delitos de odio, también en el Código Penal.",
     "pagina": 23,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Contratos de alquiler de vivienda habitual indefinidos mientras se pague y cumpla: primero para familias con hijos, mayores y dependientes; después, para todos.",
+    "cita": "Contratos indefinidos de vivienda habitual: mientras pagues y cumplas, nadie te echa. Primero para familias con hijos, mayores y dependientes; después, para todos los inquilinos.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Congelar los alquileres mientras dure la emergencia habitacional.",
+    "cita": "Congelación de los alquileres mientras dure la emergencia habitacional.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Dar los mismos derechos al alquiler de temporada y por habitaciones usado como residencia permanente.",
+    "cita": "Los mismos derechos en el alquiler de temporada y por habitaciones cuando se use como residencia permanente.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Prohibir el desahucio de familias vulnerables sin alternativa habitacional.",
+    "cita": "Ningún desahucio de una familia vulnerable sin alternativa habitacional.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Impuestos",
+    "resumen": "Suprimir el régimen fiscal especial de las SOCIMI en toda España.",
+    "cita": "Fin del régimen fiscal especial de las SOCIMIs en toda España.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Destinar a alquiler social las viviendas de Sareb en Extremadura.",
+    "cita": "Las viviendas de Sareb en Extremadura, a alquiler social.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Cesión obligatoria del uso de la vivienda vacía de grandes propietarios para alquiler social.",
+    "cita": "Cesión obligatoria del uso de la vivienda vacía de los grandes propietarios para alquiler social.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Protección permanente de toda vivienda protegida construida con dinero público.",
+    "cita": "Protección permanente de toda vivienda protegida construida con dinero público.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Precios de referencia del alquiler por código postal, ligados a los ingresos, para todos los alquileres de zonas tensionadas.",
+    "cita": "Precios de referencia del alquiler por código postal, ligados a los ingresos de la población, como en París, para todos los alquileres de las zonas tensionadas y no solo los de los grandes tenedores.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Limitar la compra especulativa y por empresas de vivienda en zonas tensionadas.",
+    "cita": "Límites a la compra especulativa y a la compra por empresas en zonas tensionadas.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Hacer públicos los datos de propiedad de los grandes tenedores de vivienda.",
+    "cita": "Transparencia total sobre la propiedad: datos públicos de los grandes tenedores.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Impuestos",
+    "resumen": "0 % de impuestos en la compra de la primera vivienda habitual.",
+    "cita": "0 % de impuestos en la compra de la primera vivienda cuando vaya a ser vivienda habitual.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Plan Estatal de Vivienda para un parque público de alquiler social a precio de coste.",
+    "cita": "Plan Estatal de Vivienda para un parque público de alquiler social a precio de coste, como en Viena.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Plan estatal de rehabilitación de vivienda vacía y en ruina, sobre todo en pueblos, a cambio de destinarla a alquiler social.",
+    "cita": "Plan estatal de rehabilitación de la vivienda vacía y en ruina, sobre todo en los pueblos, a cambio de destinarla a alquiler social.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Incluir la construcción bioclimática en el Código Técnico de la Edificación.",
+    "cita": "Construcción bioclimática en el Código Técnico de la Edificación.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Impulsar recursos ante el Tribunal Constitucional contra leyes o decretos autonómicos que esquiven la Ley de Vivienda.",
+    "cita": "Freno judicial al boicot autonómico de la Ley de Vivienda: impulsaremos, junto a otros grupos, el recurso ante el Tribunal Constitucional de toda ley o decreto autonómico que intente esquivarla, y exigiremos al Gobierno que lo presente.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Ley de Garantía de Empleo: derecho voluntario a un empleo de utilidad social para toda persona en paro, pagado por el Estado.",
+    "cita": "Lo que llevaremos al Congreso: una Ley de Garantía de Empleo, pagada por el Estado a través del SEPE y puesta en marcha por fases, empezando por los territorios con más paro, como Extremadura. · Derecho a un empleo de utilidad social para toda persona en paro que quiera trabajar, con puestos adaptados para personas con discapacidad. Participar es voluntario.",
+    "pagina": 4,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Empleo garantizado con salario mínimo, 30 horas semanales y formación continua para pasar al empleo privado.",
+    "cita": "Salario mínimo, 30 horas semanales y formación continua para dar el salto al empleo privado.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Salario mínimo de 1.500 euros en 14 pagas, nunca por debajo del 70 % del salario medio, actualizado con el IPC.",
+    "cita": "Salario mínimo de 1.500 euros en 14 pagas, nunca por debajo del 70 % del salario medio y actualizado cada año con el IPC.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Ley de actualización de los salarios con la inflación.",
+    "cita": "Ley de actualización de los salarios con la inflación.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Jornada de 32 horas en todas las empresas y de 30 en las grandes, sin bajar el sueldo.",
+    "cita": "Jornada de 32 horas en todas las empresas y de 30 en las grandes, sin bajar el sueldo y con un año de apoyo a las pymes para contratar.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Limitar la jornada partida, con mejor cotización y parte del descanso pagado.",
+    "cita": "Límites a la jornada partida, con mejor cotización y parte del descanso pagado.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Más negociación colectiva y voz de los trabajadores en las decisiones de las grandes empresas.",
+    "cita": "Más negociación colectiva y voz de los trabajadores en las decisiones de las grandes empresas.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Plan de choque contra los accidentes laborales y reforma de la Ley de Prevención de Riesgos Laborales.",
+    "cita": "Plan de choque contra los accidentes laborales y reforma de la Ley de Prevención de Riesgos Laborales.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Buzón de denuncias anónimas conectado directamente con la Inspección de Trabajo.",
+    "cita": "Buzón de denuncias anónimas conectado directamente con la Inspección de Trabajo.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Jornada de 32 horas en la Administración General del Estado y en las administraciones que lo decidan.",
+    "cita": "Jornada de 32 horas en la Administración General del Estado y en todas las administraciones que lo decidan.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Cuota de autónomos cero para quien ingrese menos del salario mínimo.",
+    "cita": "Cuota cero para quien ingrese menos del salario mínimo.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Baja médica de los autónomos cobrada al 100 % desde el primer día.",
+    "cita": "Baja médica cobrada al 100 % desde el primer día.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "30 días de vacaciones pagadas al año para autónomos mediante una nueva prestación de la Seguridad Social.",
+    "cita": "30 días de vacaciones pagadas al año, mediante una nueva prestación de la Seguridad Social.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Que el Estado pague a los autónomos el salario del sustituto durante permisos de nacimiento, lactancia y cuidado de dependientes.",
+    "cita": "El Estado paga el salario del sustituto durante los permisos de nacimiento, lactancia y cuidado de dependientes, no solo sus cotizaciones.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Fondo público de anticipo de facturas y reforma de la Ley de Morosidad.",
+    "cita": "Fondo público de anticipo de facturas y reforma de la Ley de Morosidad.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Datáfonos sin comisiones abusivas para el pequeño comercio.",
+    "cita": "Datáfonos sin comisiones abusivas para el pequeño comercio.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Ley de Red Pública de Estaciones de Servicio con un fondo estatal de inversión y gestión autonómica y municipal.",
+    "cita": "Lo que llevaremos al Congreso: una Ley de Red Pública de Estaciones de Servicio. · Una ley y un fondo estatal de inversión; la gestión, para comunidades autónomas, ayuntamientos y mancomunidades.",
+    "pagina": 6,
+    "concreta": true,
+    "trozos": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Priorizar en la red pública de gasolineras los 212 municipios extremeños sin gasolinera y las zonas agrícolas.",
+    "cita": "Prioridad para los 212 municipios extremeños sin gasolinera y para las zonas agrícolas.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Vender el combustible de las gasolineras públicas a precio de coste más un margen mínimo.",
+    "cita": "Precio de coste más un margen mínimo para mantener el servicio. Nunca por debajo de coste.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Convenios con cooperativas que ya tienen surtidores para abrirlos al público.",
+    "cita": "Convenios con las cooperativas que ya tienen surtidores para abrirlos al público en gasolina y gasóleo A.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Garantizar combustible a precio justo para el campo mientras se descarboniza.",
+    "cita": "Combustible garantizado y a precio justo para el campo mientras se descarboniza.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Cuantificar oficialmente la deuda histórica del Estado con Extremadura y fijar un calendario de pago anual en los Presupuestos.",
+    "cita": "Cuantificación oficial de la deuda histórica del Estado con Extremadura y calendario de pago anual en los Presupuestos Generales.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Reclamar la deuda histórica por la vía bilateral Junta-Estado, con comisión de seguimiento.",
+    "cita": "Reclamación por la vía bilateral Junta-Estado, con comisión de seguimiento.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Reformar la financiación autonómica para que pese la dispersión, el envejecimiento y la superficie.",
+    "cita": "Reforma de la financiación autonómica que pese la dispersión, el envejecimiento y la superficie.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Inversión estatal en transformación agraria y energía en Extremadura como parte del pago de la deuda histórica.",
+    "cita": "Reindustrialización como parte del pago: inversión estatal en transformación agraria y energía dentro de Extremadura.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Reabrir el ferrocarril Ruta de la Plata, con partidas y fechas en los Presupuestos Generales del Estado.",
+    "cita": "Reapertura de la Ruta de la Plata, con partidas y fechas en los Presupuestos Generales del Estado.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Completar la electrificación pendiente y un tren digno que vertebre Extremadura.",
+    "cita": "Electrificación pendiente y un tren digno que vertebre la región.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Vía doble en los grandes ejes ferroviarios extremeños.",
+    "cita": "Vía doble en los grandes ejes ferroviarios extremeños para acabar con los cuellos de botella, mejorar la puntualidad y que convivan trenes de pasajeros y de mercancías.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Traspasar a la Junta de Extremadura los servicios ferroviarios regionales, con su financiación.",
+    "cita": "Traspaso a la Junta de Extremadura de los servicios ferroviarios regionales, con la financiación necesaria.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Estudiar trenes de proximidad entre Zafra y Navalmoral de la Mata.",
+    "cita": "Trenes de proximidad entre Zafra y Navalmoral de la Mata: estudio de su integración, a medio camino entre Cercanías y Media Distancia, para los trayectos de cada día.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Estudiar la viabilidad de nuevas líneas Coria-Plasencia, Villanueva de la Serena-Herrera del Duque y Cáceres-Trujillo.",
+    "cita": "Nuevas líneas: estudio de viabilidad de Coria-Plasencia, Villanueva de la Serena-Herrera del Duque y Cáceres-Trujillo.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Más frecuencias en líneas existentes como Cáceres-Valencia de Alcántara, Mérida-Zafra y Zafra-Jerez de los Caballeros.",
+    "cita": "Más frecuencias en las líneas que ya existen, como Cáceres-Valencia de Alcántara, Mérida-Zafra y Zafra-Jerez de los Caballeros.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Reabrir líneas y estaciones de tren clausuradas.",
+    "cita": "Recuperación de las vías tradicionales: reapertura de líneas y estaciones clausuradas para dar servicio a la población local y conectar, de forma barata y eficiente, territorios hoy aislados.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Tren de Media Distancia y Regional Exprés gratuito dentro de Extremadura, financiado por el Estado.",
+    "cita": "Tren de Media Distancia y Regional Exprés gratuito dentro de Extremadura, financiado por el Estado hasta que salde la deuda histórica en transporte.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Independencia energética en 2040, electrificando hogares, industria y transporte.",
+    "cita": "Independencia energética en 2040, electrificando hogares, industria y transporte.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Fondo Generacional de la Energía: participación estatal del 30 % en cada nueva planta renovable y de almacenamiento.",
+    "cita": "Fondo Generacional de la Energía: el Estado entra con un 30 % en cada nueva planta renovable y de almacenamiento, y sus beneficios financian vivienda pública en alquiler, rehabilitación de edificios sin derramas y, con el tiempo, las pensiones.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Consulta vecinal vinculante para plantas de más de 50 MW y ninguna en suelo agrícola.",
+    "cita": "Consulta vecinal vinculante para las plantas de más de 50 MW, que autoriza el Estado, y ninguna en suelo agrícola.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Agrivoltaica obligatoria y parques renovables con cultivo o pastoreo, praderas autóctonas, charcas y setos.",
+    "cita": "Renovables por la regeneración: agrivoltaica obligatoria y cada parque, un refugio de vida, con cultivo o pastoreo, praderas autóctonas, charcas y setos.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Peaje eléctrico a las megaplantas para abaratar la luz a familias y pymes donde se genera.",
+    "cita": "Peaje eléctrico a las megaplantas para abaratar la luz a familias y pymes donde se genera.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Reversión pública de los saltos hidroeléctricos del Tajo y el Guadiana al vencer las concesiones, con gestión extremeña.",
+    "cita": "Reversión pública de los saltos hidroeléctricos del Tajo y el Guadiana al vencer las concesiones, con gestión pública extremeña.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Reformar la Ley de Minas de 1973 con consulta vecinal vinculante para la megaminería.",
+    "cita": "Reforma de la Ley de Minas de 1973 con consulta vecinal vinculante para la megaminería.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Que Almaraz sea nodo de estabilidad de la red, reutilizando sus alternadores, con garantía de empleo para la comarca.",
+    "cita": "Almaraz, nodo de estabilidad de la red, reutilizando sus alternadores y con garantía de empleo para la comarca.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Incluir el bombeo reversible como almacenamiento energético en la planificación nacional.",
+    "cita": "Bombeo reversible como almacenamiento energético en la planificación nacional.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Destinar parte de los impuestos de los parques a comunidades energéticas locales y crear un marco estatal del autoconsumo.",
+    "cita": "Energía que deja riqueza en el territorio: parte de los impuestos que pagan los parques, para crear comunidades energéticas de vecinos y ayuntamientos, y un marco estatal para el autoconsumo.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Posición extremeña en los planes hidrológicos del Tajo y el Guadiana.",
+    "cita": "Posición extremeña en los planes hidrológicos del Tajo y el Guadiana, que aprueba el Estado.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Moratoria a nuevos regadíos superintensivos y freno a usos de alto consumo de agua como los centros de datos.",
+    "cita": "Moratoria a nuevos regadíos superintensivos y freno a los usos de alto consumo de agua, como los centros de datos.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Plan Nacional de Siembra de Agua: recuperar acequias y zanjas de infiltración, presas permeables y un plan del castor.",
+    "cita": "Plan Nacional de Siembra de Agua: recuperar acequias, regueras y zanjas de infiltración, presas permeables en los torrentes y un plan de recuperación del castor.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Recarga de acuíferos y reforestación autóctona de las cabeceras de cuenca.",
+    "cita": "Recarga de acuíferos y reforestación autóctona de las cabeceras de cuenca.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Rechazar Mercosur y cualquier tratado comercial sin cláusulas espejo.",
+    "cita": "No a Mercosur ni a ningún tratado comercial sin cláusulas espejo: las mismas exigencias laborales, ambientales y sanitarias para lo que viene de fuera.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Plan Nacional de Agricultura Regenerativa con 6 millones de hectáreas ecológicas en 2030.",
+    "cita": "Plan Nacional de Agricultura Regenerativa: 6 millones de hectáreas ecológicas en 2030, con fincas demostrativas, técnicos de apoyo, biofábricas de biofertilizantes en las cooperativas y un seguro de transición.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Una PAC para la agricultura familiar, regenerativa y cooperativa.",
+    "cita": "Una PAC para la agricultura familiar, regenerativa y cooperativa.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Crear un sello público Ecorregenerativo (ECO+) para el ecológico con regeneración de suelos y biodiversidad.",
+    "cita": "Sello público Ecorregenerativo (ECO+): el ecológico más regeneración de suelos y biodiversidad, un valor añadido que cobra el agricultor.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Endurecer la Ley de la Cadena Alimentaria: precios dignos en origen, persecución de la venta a pérdidas y etiquetado.",
+    "cita": "Una Ley de la Cadena Alimentaria más dura: precios dignos en origen, persecución real de la venta a pérdidas y etiquetado con lo que cobra el productor.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Seguros agrarios públicos contra el clima y las plagas.",
+    "cita": "Seguros agrarios públicos contra el clima y las plagas, sin esperas.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Pagar por la captura de carbono en suelos agrarios.",
+    "cita": "Pago por la captura de carbono en suelos agrarios.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Aplicar todas las flexibilidades europeas de higiene a pequeños productores artesanos y venta directa.",
+    "cita": "Todas las flexibilidades europeas de higiene para pequeños productores artesanos y venta directa.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Registro público de semillas autóctonas de libre circulación.",
+    "cita": "Registro público de semillas autóctonas de libre circulación.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Normativa básica contra las macrogranjas.",
+    "cita": "Normativa básica contra las macrogranjas.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Igualdad y familia",
+    "resumen": "Titularidad compartida de las explotaciones para las mujeres rurales.",
+    "cita": "Titularidad compartida de las explotaciones para las mujeres rurales.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Convertir los pinares de repoblación en bosques diversos y paisajes en mosaico contra los grandes incendios.",
+    "cita": "Bosques vivos: convertir los pinares de repoblación en bosques diversos y paisajes en mosaico que frenen los grandes incendios.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Más medios estatales contra los incendios, con brigadas activas todo el año.",
+    "cita": "Más medios estatales contra los incendios, con brigadas activas todo el año y prevención en invierno.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Ley de Herbivoría: pastoreo de conservación en montes públicos, pagando a los pastores por hectárea cuidada.",
+    "cita": "Ley de Herbivoría: pastoreo superextensivo de conservación en montes públicos, con pastores que cobren por cada hectárea cuidada.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Recuperar las vías pecuarias como corredores ecológicos, con pasos de fauna, trashumancia y ecoturismo.",
+    "cita": "Cañadas vivas: recuperar las vías pecuarias como corredores de vida, con pasos de fauna, trashumancia y ecoturismo.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Que la UME reforeste y regenere suelos degradados.",
+    "cita": "La UME, a reforestar y regenerar suelos degradados.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Energía y clima",
+    "resumen": "Consejos biorregionales y Cuerpo Civil de Regeneración con 20.000 empleos al año dentro del Trabajo Garantizado.",
+    "cita": "Consejos biorregionales y Cuerpo Civil de Regeneración: vecinos, ayuntamientos y agricultores deciden su paisaje, con 20.000 empleos al año, sobre todo para jóvenes, dentro del Trabajo Garantizado.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Desbloquear los traspasos pendientes y cumplir íntegramente el Estatuto de Autonomía de Extremadura.",
+    "cita": "Desbloqueo de los traspasos pendientes y cumplimiento íntegro del Estatuto de Autonomía.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Proteger el estremeñu, A Fala y el portugués raiano y cumplir la Carta Europea de las Lenguas Regionales o Minoritarias.",
+    "cita": "Protección del estremeñu, A Fala y el portugués raiano y cumplimiento de la Carta Europea de las Lenguas Regionales o Minoritarias.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Concejo abierto en todos los municipios de menos de 5.000 habitantes.",
+    "cita": "Concejo abierto en todos los municipios de menos de 5.000 habitantes.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Reformar la Ley de Racionalización de la Administración Local para que los ayuntamientos recuperen la gestión directa de servicios.",
+    "cita": "Reforma de la Ley de Racionalización de la Administración Local para que los ayuntamientos puedan recuperar la gestión directa del agua, la basura y otros servicios sin trabas.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Fondo estatal contra la despoblación para sanidad, transporte, internet y efectivo en cada pueblo.",
+    "cita": "Fondo estatal contra la despoblación: sanidad, transporte, internet y efectivo en cada pueblo.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Banda ancha y móvil en todo el medio rural como servicio universal.",
+    "cita": "Banda ancha y móvil en todo el medio rural como servicio universal.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Devolver a Extremadura su patrimonio arqueológico y artístico custodiado en museos estatales.",
+    "cita": "Devolución a Extremadura de su patrimonio arqueológico y artístico custodiado en museos estatales.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Seguridad y justicia",
+    "resumen": "Aplicar la Ley de Memoria Democrática en Extremadura, con financiación para exhumaciones y espacios de memoria.",
+    "cita": "Ley de Memoria Democrática aplicada en Extremadura, con financiación para exhumaciones y espacios de memoria.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Defensa y política exterior",
+    "resumen": "Cooperación transfronteriza con Portugal a lo largo de la Raya.",
+    "cita": "Cooperación transfronteriza con Portugal a lo largo de la Raya.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Apoyo estatal a los Hogares Extremeños y a la memoria de la emigración.",
+    "cita": "Apoyo estatal a los Hogares Extremeños y a la memoria de la emigración.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Limitar el sueldo de diputados y senadores al salario medio y suprimir las dietas injustificadas.",
+    "cita": "Sueldo de diputados y senadores limitado al salario medio y fin de las dietas injustificadas.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Seguridad y justicia",
+    "resumen": "Suprimir los aforamientos de diputados, senadores y cargos autonómicos.",
+    "cita": "Fin de los aforamientos de diputados y senadores, y de los cargos autonómicos mediante la reforma del Estatuto en las Cortes.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Contra las puertas giratorias, 15 años de incompatibilidad para los altos cargos del Estado.",
+    "cita": "Contra las puertas giratorias: 15 años de incompatibilidad para los altos cargos del Estado.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Auditoría patrimonial de entrada y salida de cargos y registro obligatorio de lobbies.",
+    "cita": "Auditoría patrimonial de entrada y salida y registro obligatorio de lobbies.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Reforma constitucional para ampliar los referéndums y ley de democracia directa comarcal.",
+    "cita": "Reforma constitucional para ampliar los referéndums y ley de democracia directa comarcal.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Reducir las firmas necesarias para la Iniciativa Legislativa Popular, hoy 500.000.",
+    "cita": "Menos firmas para la Iniciativa Legislativa Popular, hoy fijadas en 500.000.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Modelo territorial",
+    "resumen": "Suprimir la tasa de reposición y la Ley Montoro.",
+    "cita": "Fuera la tasa de reposición y la Ley Montoro, que asfixian a ayuntamientos y comunidades.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Más plazas MIR y de especialistas para Extremadura.",
+    "cita": "Más plazas MIR y de especialistas para Extremadura.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Incentivos estatales para plazas rurales de difícil cobertura en sanidad y educación.",
+    "cita": "Incentivos estatales para las plazas rurales de difícil cobertura en sanidad y educación.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Más inspectores de Trabajo en Extremadura.",
+    "cita": "Más inspectores de Trabajo en Extremadura.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Impuestos",
+    "resumen": "Recargos en IRPF y Patrimonio sobre la vivienda vacía y la acumulación de viviendas, y más margen municipal en el IBI.",
+    "cita": "Recargos sobre la vivienda vacía y la acumulación de viviendas en IRPF y Patrimonio, y más margen municipal en el IBI.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Impuestos",
+    "resumen": "Más margen municipal en el IAE para multinacionales y en las tasas a plataformas de reparto.",
+    "cita": "Más margen municipal en el IAE para las multinacionales y en las tasas a las plataformas de reparto.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Impuestos",
+    "resumen": "IVA reducido en la factura de la luz para el consumo básico.",
+    "cita": "IVA reducido en la factura de la luz para el consumo básico.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Limitar la subcontratación a un solo nivel en los contratos públicos.",
+    "cita": "Subcontratación limitada a un solo nivel en los contratos públicos.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Hacer del empleo estable un criterio obligatorio de adjudicación en los contratos públicos.",
+    "cita": "El empleo estable, criterio obligatorio de adjudicación en los contratos públicos.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Estabilizar el empleo público cumpliendo la directiva europea y las sentencias del TJUE sobre temporalidad.",
+    "cita": "Estabilización del empleo público: cumplir la directiva europea y las sentencias del Tribunal de Justicia de la UE contra el abuso de la temporalidad.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Valorar la cercanía y el tamaño de la empresa en las licitaciones públicas.",
+    "cita": "Valorar la cercanía y el tamaño de la empresa en las licitaciones, dentro de lo que permite el derecho europeo.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Economía y empresas",
+    "resumen": "Alimentos de cercanía en los comedores de colegios, hospitales y residencias.",
+    "cita": "Alimentos de cercanía en los comedores de colegios, hospitales y residencias.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Igualdad y familia",
+    "resumen": "Permisos de nacimiento de un año, iguales e intransferibles, y 15 días retribuidos al año hasta que los hijos cumplan 14.",
+    "cita": "Permisos de nacimiento de un año, iguales e intransferibles, y 15 días retribuidos al año hasta que los hijos cumplan 14.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Igualdad y familia",
+    "resumen": "Permiso adicional por parto por cesárea o con complicaciones, sin restar semanas del permiso de nacimiento.",
+    "cita": "Permiso adicional por parto por cesárea o con complicaciones, que no reste semanas del permiso de nacimiento.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Igualdad y familia",
+    "resumen": "Derecho a adaptar y reducir la jornada con hijos de 0 a 3 años.",
+    "cita": "Derecho a adaptar y reducir la jornada con hijos de 0 a 3 años.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Igualdad y familia",
+    "resumen": "Más derechos de conciliación para familias con personas con discapacidad.",
+    "cita": "Más derechos de conciliación para familias con personas con discapacidad.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Estatuto del Becario con prácticas 100 % remuneradas en FP y universidad.",
+    "cita": "Estatuto del Becario: prácticas 100 % remuneradas en FP y universidad.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Aprobar un Estatuto del Trabajador Joven.",
+    "cita": "Estatuto del Trabajador Joven.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Vivienda",
+    "resumen": "Bono Alquiler Joven y Aval Joven al alcance de cualquier joven.",
+    "cita": "Bono Alquiler Joven y Aval Joven al alcance de cualquier joven.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Empleo y salarios",
+    "resumen": "Becas Retorno para que los jóvenes emigrados vuelvan con un empleo o un proyecto.",
+    "cita": "Becas Retorno para que los jóvenes que emigraron puedan volver con un empleo o un proyecto.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Otros",
+    "resumen": "Crear un Alto Comisionado para las Generaciones Futuras, independiente, que evalúe cada ley.",
+    "cita": "Alto Comisionado para las Generaciones Futuras, independiente, que evalúe cada ley.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Incluir la salud mental en el Seguro Escolar en todos los niveles educativos.",
+    "cita": "Salud mental en el Seguro Escolar, en todos los niveles educativos.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Pensiones",
+    "resumen": "Pensión mínima por encima de 1.200 euros y rebaja de la edad de jubilación.",
+    "cita": "Pensión mínima por encima de 1.200 euros y rebaja de la edad de jubilación.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Pensiones",
+    "resumen": "Integrar las Clases Pasivas en el régimen general, respetando las pensiones reconocidas.",
+    "cita": "Integración de las Clases Pasivas en el régimen general, respetando las pensiones ya reconocidas.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Igualdad y familia",
+    "resumen": "Más financiación estatal de la Dependencia y de las plazas residenciales públicas.",
+    "cita": "Más financiación estatal de la Dependencia y de las plazas residenciales públicas.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Tiempos máximos garantizados en el Sistema Nacional de Salud: cita en atención primaria en 48 horas.",
+    "cita": "Tiempos máximos garantizados en todo el Sistema Nacional de Salud: cita en atención primaria en 48 horas y plazos máximos para especialistas, quirófanos y dependencia.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Terapia psicológica gratuita hasta los 35 años en la sanidad pública.",
+    "cita": "Terapia psicológica gratuita hasta los 35 años en la sanidad pública.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Incluir gafas y lentes en la cartera de servicios de la sanidad pública.",
+    "cita": "Gafas y lentes en la cartera de servicios de la sanidad pública.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Plan Nacional de Salud Mental y Prevención del Suicidio, con financiación para las comunidades.",
+    "cita": "Plan Nacional de Salud Mental y Prevención del Suicidio, con financiación para las comunidades.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Derogar la Ley 15/1997 sobre nuevas formas de gestión de la sanidad pública.",
+    "cita": "Derogar la Ley 15/1997, que abrió la puerta a la gestión privada de la sanidad pública.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Ley estatal contra el cáncer para igualdad de diagnóstico y tratamiento en todo el territorio.",
+    "cita": "Ley estatal contra el cáncer: diagnóstico y tratamiento en igualdad en todo el territorio.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Sanidad",
+    "resumen": "Garantizar el aborto en los centros públicos.",
+    "cita": "Aborto garantizado en los centros públicos.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Pacto de Estado por la Educación con un marco legal estable al menos dos décadas e inversión mínima blindada por ley.",
+    "cita": "Pacto de Estado por la Educación: un acuerdo con todas las fuerzas políticas y la comunidad educativa para sacar la educación de la confrontación partidista, con un marco legal estable durante al menos dos décadas y una inversión mínima blindada por ley.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Bajar las ratios de alumnos por aula.",
+    "cita": "Bajada de ratios: menos alumnos por aula para mejorar la atención y la calidad educativa.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Fondos de los Presupuestos para aislar, climatizar, dar sombra y renaturalizar todos los colegios e institutos públicos.",
+    "cita": "Aulas climatizadas y patios verdes: fondos de los Presupuestos Generales del Estado, transferidos sin tutelas, para el aislamiento, la climatización, la sombra y la renaturalización de todos los colegios e institutos públicos.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Nuevo sistema estatal de acceso a la docencia.",
+    "cita": "Nuevo sistema estatal de acceso a la docencia, más justo y planificado.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Estabilizar al profesorado interino con más de tres años de servicio.",
+    "cita": "Estabilización del profesorado interino con más de tres años de servicio.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Adaptar los títulos de Formación Profesional a la realidad productiva de cada territorio.",
+    "cita": "Títulos de Formación Profesional adaptados a la realidad productiva de cada territorio.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Becas solo por renta, sin requisitos de nota añadidos.",
+    "cita": "Becas solo por renta, sin requisitos de nota añadidos.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Plazas en los másteres habilitantes para todos los titulados.",
+    "cita": "Plazas en los másteres habilitantes para todos los titulados.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Becas de doctorado de cuatro años en todas las áreas de conocimiento.",
+    "cita": "Becas de doctorado de cuatro años en todas las áreas de conocimiento.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Homologación salarial y estabilización del personal docente e investigador universitario.",
+    "cita": "Fin de la precariedad del profesorado universitario: homologación salarial y estabilización real del personal docente e investigador, frente a la precariedad y la temporalidad.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Educación",
+    "resumen": "Llevar a una ley los requisitos del Real Decreto 905/2025 para crear universidades privadas.",
+    "cita": "Llevar a una ley los requisitos del Real Decreto 905/2025 para crear universidades privadas, anulado por el Tribunal Supremo por defectos en su tramitación.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Igualdad y familia",
+    "resumen": "Blindaje legal de los derechos LGTBI y refuerzo del Pacto de Estado contra la Violencia de Género.",
+    "cita": "Blindaje legal de los derechos LGTBI y refuerzo del Pacto de Estado contra la Violencia de Género.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Seguridad y justicia",
+    "resumen": "Más protección frente al racismo y los delitos de odio, con atención integral a las víctimas.",
+    "cita": "Más protección frente al racismo y los delitos de odio, con atención integral a las víctimas.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Seguridad y justicia",
+    "resumen": "Crear un delito específico para la pornografía infantil generada con inteligencia artificial y los deepfakes sexuales.",
+    "cita": "Delito específico para la pornografía infantil generada con inteligencia artificial y los deepfakes sexuales.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Igualdad y familia",
+    "resumen": "Accesibilidad universal, también en los procesos electorales.",
+    "cita": "Accesibilidad universal, también en los procesos electorales.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Seguridad y justicia",
+    "resumen": "Asistencia jurídica gratuita más accesible para las personas vulnerables.",
+    "cita": "Asistencia jurídica gratuita más accesible para las personas vulnerables.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Defensa y política exterior",
+    "resumen": "Destinar el 0,7 % de la Renta Nacional Bruta a cooperación al desarrollo, con senda plurianual, según la Ley 1/2023.",
+    "cita": "La cooperación al desarrollo, política de Estado: el 0,7 % de la Renta Nacional Bruta, con una senda plurianual firme, como marca la Ley 1/2023.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Defensa y política exterior",
+    "resumen": "Acción humanitaria basada en el Derecho Internacional Humanitario, centrada en quienes sufren crisis y conflictos armados.",
+    "cita": "Acción humanitaria basada en principios y en el Derecho Internacional Humanitario, centrada en quienes sufren crisis y conflictos armados.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Defensa y política exterior",
+    "resumen": "Defender el espacio cívico y apoyar a las ONGD y organizaciones sociales, feministas y de derechos.",
+    "cita": "Defensa del espacio cívico y apoyo a las ONGD, organizaciones feministas, sociales y defensoras de derechos y del planeta.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reforzar la cooperación descentralizada de comunidades y ayuntamientos.",
+    "cita": "Refuerzo de la cooperación descentralizada de comunidades y ayuntamientos, con la extremeña como parte activa del sistema español.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NEX",
+    "tema": "Defensa y política exterior",
+    "resumen": "Embargo de armas y sanciones ante violaciones graves de derechos humanos, empezando por Palestina.",
+    "cita": "Embargo de armas y sanciones ante violaciones graves de los derechos humanos, empezando por Palestina.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Reconocer en la Constitución la vivienda como derecho fundamental, con un derecho subjetivo a una vivienda digna y asequible.",
+    "cita": "Declaración de la vivienda como derecho fundamental, blindando este derecho en la Constitución y garantizando el derecho subjetivo a una vivienda digna, adecuada, accesible y asequible para todas las personas.",
+    "pagina": 2,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Intervención del Estado en el mercado de la vivienda: expropiar viviendas a grandes fondos y controlar precios de venta y alquiler.",
+    "cita": "Entre ellas, la expropiación de viviendas a los fondos buitres, el control de precios de venta y alquiler, y la protección a las personas inquilinas con medidas como:",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Controlar los precios del alquiler y renovar automáticamente los contratos de vivienda habitual por 5 o 7 años según el propietario.",
+    "cita": "La intervención del mercado del alquiler para impedir las subidas abusivas mediante el control de precios, y garantizando un alquiler estable y seguro para personas inquilinas y pequeñas propietarias mediante la renovación automática de los contratos de alquiler de vivienda habitual tras finalizar su periodo inicial (por periodos de 5 o 7 años según el propietario sea persona física o jurídica).",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Crear un gran parque público de alquiler asequible con la cesión obligatoria de las viviendas vacías de los grandes tenedores.",
+    "cita": "Crear un gran parque de alquiler público a precios asequibles mediante la cesión obligatoria de las viviendas vacías de los grandes tenedores de vivienda, para impedir el acaparamiento y la especulación con viviendas vacías.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Aumentar la inversión pública en vivienda hasta la media europea.",
+    "cita": "Aumentaremos la inversión pública en vivienda hasta equipararla a la media europea.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Paralizar y revertir la privatización de viviendas públicas y la venta de suelo público.",
+    "cita": "Paralizaremos y revertiremos la privatización de viviendas públicas y la venta de suelo público.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Impulsar nuevas fórmulas de cesión de viviendas a la Administración con garantía de cobro y conservación.",
+    "cita": "Impulsaremos nuevas figuras de cesión de uso de vivienda a la Administración, a cambio de una garantía suficiente de cobro y conservación de la vivienda, junto con formas alternativas de tenencia.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Acceso prioritario de los jóvenes al parque público de alquiler.",
+    "cita": "La juventud tendrá un acceso prioritario a este parque de viviendas.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Apoyar con fondos y suelo público las cooperativas de vivienda en cesión de uso.",
+    "cita": "Se acompañará desde la administración con fondos y cesión de terrenos públicos, las cooperativas de vivienda en cesión de uso y otras fórmulas cooperativas habitacionales.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Incentivos fiscales y seguridad jurídica a pequeños propietarios que alquilen sus viviendas vacías, con garantías para inquilinos.",
+    "cita": "Para alentar la puesta en mercado de las viviendas vacías, estableceremos incentivos fiscales y ofreceremos seguridad jurídica a los pequeños propietarios que saquen sus viviendas al mercado del alquiler; y con garantías para los inquilinos.",
+    "pagina": 3,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Obligar a comunidades y ayuntamientos a una política de vivienda pública hasta llegar al menos al 9 % del parque residencial.",
+    "cita": "Obligatoriedad de las CCAA y de las administraciones locales a tener una política de Vivienda pública orientada a la promoción, movilización de la vivienda vacía y la cesión de suelo público para dotarnos así de un parque de vivienda pública que alcance al menos el 9% del parque residencial (hoy apenas llega al 2% en las Islas), en la línea de la UE.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Prohibir los desalojos extrajudiciales e ilegalizar las empresas que los realizan.",
+    "cita": "Prohibición de las prácticas de desokupación extrajudicial e ilegalización de las empresas que las ejercen.",
+    "pagina": 3,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Recuperar las viviendas de la Sareb y de los bancos rescatados con dinero público para uso social.",
+    "cita": "Recuperación de las viviendas de Sareb y de aquellas entidades financieras que fueron rescatadas con dinero público para destinarlas a uso social.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Suprimir las SOCIMI.",
+    "cita": "Acabaremos también con las SOCIMI, por tratarse de mecanismos de elusión fiscal y de especulación con un bien tan importante como la vivienda.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Servicio público y gratuito de información a inquilinos, con prevención y acompañamiento ante desahucios.",
+    "cita": "Servicio público y gratuito de información a inquilinas e inquilinos, con medidas de prevención y acompañamiento ante desahucios.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Que las administraciones de primera acogida habitacional dispongan de un número significativo de viviendas.",
+    "cita": "En este marco, las autoridades públicas responsables de la primera acogida habitacional deben dotarse de un número significativo de viviendas para dar respuesta a esta necesidad.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Prohibir desahuciar a personas vulnerables sin que la Administración garantice un realojo digno.",
+    "cita": "En ningún caso se podrá realizar el desalojo o desahucio de personas y sus familias en situación de vulnerabilidad, sin que la Administración competente garantice un realojo en condiciones dignas, ya sea en casos de impago de alquileres o por ocupación en precario motivada por la falta de vivienda asequible.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Que sindicatos de inquilinas y organizaciones sociales participen en el diseño y seguimiento de las políticas estatales de vivienda.",
+    "cita": "Participación de Sindicatos de inquilinas, o de entidades como Derecho al Techo y otras organizaciones sociales, en el diseño, planificación y seguimiento de las políticas de vivienda estatales.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Ayudas a la compra de primera vivienda, con hipoteca al 0 % hasta 100.000 euros sin límite de edad, y a la rehabilitación.",
+    "cita": "Facilitar ayudas a la compra de primera vivienda —incluida la propuesta de hipoteca al 0 % hasta 100.000 euros, sin límite de edad— y a la rehabilitación.",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Crear registros de demandantes de vivienda, financiación estable y un acuerdo social por el derecho a la vivienda.",
+    "cita": "Crear registros de demandantes, financiación estable, instrumentos administrativos ágiles y un acuerdo social por el derecho a la vivienda.",
+    "pagina": 4,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Regular la vivienda vacacional en zonas residenciales y limitar la compra de viviendas por extranjeros no residentes.",
+    "cita": "Impulso a políticas públicas de regulación del mercado especulativo, como la regulación y ordenación de la vivienda vacacional en zonas residenciales y la limitación de compra de viviendas por extranjeros no residentes",
+    "pagina": 4,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Igualdad y familia",
+    "resumen": "Consolidar un sistema universal y público de cuidados de larga duración para personas dependientes.",
+    "cita": "Consolidaremos un sistema universal, público y suficiente de cuidados de larga duración para las personas dependientes que garantice la autonomía funcional de estas personas sin que el peso recaiga en los cuidados informales de otros miembros de la familia, que son casi siempre mujeres.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Igualdad y familia",
+    "resumen": "Programa contra la soledad no deseada de los mayores, con acompañamiento remunerado por jóvenes y mejores servicios sociales.",
+    "cita": "Afrontar el problema de la soledad no deseada y, en particular, la de las personas mayores implementando para ello un programa de acompañamiento remunerado por parte de jóvenes, de sensibilización sobre el problema y de mejora de unos servicios sociales cercanos y bien dotados para atender esta necesidad emergente, prevenirla o mitigar sus consecuencias.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Igualdad y familia",
+    "resumen": "Reconocer el derecho subjetivo a una atención temprana universal, gratuita y pública, y armonizar su regulación en todo el territorio.",
+    "cita": "Por lo tanto, se reconocerá un derecho subjetivo a la atención temprana integral, universal, gratuita y pública y se armonizarán las distintas regulaciones para hacerlo efectivo con independencia del lugar de residencia y del servicio responsable.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Educación",
+    "resumen": "Reforzar la educación pública gratuita de 0 a 3 años, bajar ratios y reforzar las universidades públicas controlando las privadas.",
+    "cita": "Exigimos fortalecer una educación pública, universal y gratuita de la educación pública de 0 a 3 años, reducir las ratios en colegios e institutos, reforzar las Universidades públicas controlando la calidad y proliferación de Universidades privadas, la atención a la diversidad y un sistema público de cuidados y atención a la dependencia.",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Educación",
+    "resumen": "Garantizar los recursos y apoyos al alumnado con necesidades específicas de apoyo educativo.",
+    "cita": "Garantizar la totalidad de los recursos y apoyos que demandan las familias del alumnado con necesidades específicas de apoyo educativo (NEAE).",
+    "pagina": 5,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Educación",
+    "resumen": "Plan Estatal de infraestructuras educativas para adaptar los colegios al cambio climático, con eficiencia energética y renovables.",
+    "cita": "Plan Estatal de infraestructuras educativas dedicado a la adaptación de los centros escolares al cambio climático. que incluya intervenciones sobre la envolvente de los edificios, los espacios interiores, la ventilación y la iluminación, además del cumplimiento de las normas de eficiencia energética y el uso de energías renovables.",
+    "pagina": 5,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Sanidad",
+    "resumen": "Fortalecer la sanidad pública universal y preventiva, ampliando la atención primaria y la investigación en salud.",
+    "cita": "Fortalecer una sanidad pública universal, preventiva y basada en la evidencia, ampliando los servicios de atención primaria y la investigación en salud.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Sanidad",
+    "resumen": "Nutricionistas en atención primaria, una Ley para la Diabetes y cumplir el Plan Estratégico de Salud y Medio Ambiente 2022-2026.",
+    "cita": "Incorporar profesionales de nutrición a los servicios básicos de atención primaria; aprobar una Ley para la Diabetes; impulsar la I+D+i y la prevención, y cumplir íntegramente el Plan Estratégico de Salud y Medio Ambiente (PESMA 2022-2026).",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Sanidad",
+    "resumen": "Derogar la Ley 15/1997 para evitar la privatización de los servicios sanitarios.",
+    "cita": "Derogar la Ley 15/1997 para evitar la privatización de los servicios sanitarios.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Sanidad",
+    "resumen": "Más dinero para atención primaria, una farmacéutica pública y cobertura pública dental, visual, auditiva, de fisioterapia y salud sexual.",
+    "cita": "Con más dinero para la atención primaria que permita reducir las listas de espera, una farmacéutica pública con topes a los medicamentos, y que la sanidad pública cubra los servicios en salud dental, visual y auditiva, así como en fisioterapia y salud sexual y reproductiva de la mujer.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Pensiones",
+    "resumen": "Actualizar por ley las pensiones con el IPC, derogar el factor de sostenibilidad y llevar esa garantía a la Constitución.",
+    "cita": "Estableceremos la actualización por ley de las pensiones al IPC de manera inmediata, derogando el factor de sostenibilidad, y buscaremos blindar esta garantía constitucionalizándola de forma expresa.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Pensiones",
+    "resumen": "Subir las pensiones mínimas y las no contributivas.",
+    "cita": "A su vez, se incrementarán las pensiones mínimas y las no contributivas, que principalmente reciben mujeres.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Pensiones",
+    "resumen": "Subir las pensiones de viudedad y las mínimas hacia los objetivos de la Carta Social Europea.",
+    "cita": "Subiremos también las pensiones de viudedad y elevaremos las pensiones mínimas, con lo que avanzaremos en un calendario de mejora hacia los objetivos de la Carta Social Europea.",
+    "pagina": 6,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Pensiones",
+    "resumen": "Jubilación antes de los 65 sin penalización en oficios duros, como camareras de piso, bomberos forestales, ayuda a domicilio o estiba.",
+    "cita": "Agilizaremos el reconocimiento de la posibilidad de jubilarse antes de los 65 años sin penalización para trabajadores y trabajadoras en sectores especialmente duros y precarios, como camareras y camareros de piso, extinción de incendios, ayuda a domicilio, buceo, trabajo en astilleros y en la estiba, trabajos industriales penosos y de transporte en carretera, entre otros.",
+    "pagina": 6,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Empleo y salarios",
+    "resumen": "Subir progresivamente el salario mínimo hasta 1.800 euros en doce pagas y actualizar los salarios por negociación colectiva.",
+    "cita": "Mejora de los salarios: incremento progresivo del salario mínimo interprofesional hasta los 1.800 €, por doce mensualidades, y actualización de los salarios mediante la negociación colectiva.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Empleo y salarios",
+    "resumen": "Jornada de 37,5 horas avanzando a 34, desconexión, planes de respiro para cuidadores y ratificar el Convenio 189 de la OIT.",
+    "cita": "Reducción de la jornada laboral: regular la jornada de 37,5 horas semanales y avanzar de forma decidida hacia la jornada laboral de 34 horas semanales; además de la reorganización de los tiempos de trabajo, ocio y cuidados; protegeremos el tiempo de desconexión del trabajo; permitiremos flexibilizar los horarios y aprovechar las posibilidades del teletrabajo; estableceremos planes de respiro familiar para personas que cuidan y se protegerá a estas personas profesionales con la ratificación del Convenio 189 de la Organización Internacional del Trabajo (OIT) y su entrada de pleno derecho en el Régimen General de la Seguridad Social, lo que implicaría igualar en derechos.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Empleo y salarios",
+    "resumen": "Garantizar el pago o compensación de las horas extra, reforzando el registro de jornada y la Inspección de Trabajo.",
+    "cita": "Control de las horas extraordinarias: garantizar su pago o compensación mediante descansos, reforzando el registro de jornada y la Inspección de Trabajo.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Empleo y salarios",
+    "resumen": "Combatir los abusos en la contratación, la temporalidad injustificada y los incumplimientos de convenios.",
+    "cita": "Lucha contra la precariedad laboral: combatir los abusos en la contratación, la temporalidad injustificada y los incumplimientos de los convenios colectivos.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Empleo y salarios",
+    "resumen": "Mejorar las condiciones laborales en turismo, hostelería, comercio y servicios en Canarias, con más prevención de riesgos.",
+    "cita": "Mejora de las condiciones laborales en Canarias: especial atención a los sectores turístico, hostelero, comercial y de servicios, reforzando la prevención de riesgos laborales y el control de las cargas de trabajo.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Empleo y salarios",
+    "resumen": "Combatir la brecha salarial de género, la discriminación en el empleo y las dificultades de conciliación.",
+    "cita": "Igualdad y conciliación laboral: combatir la brecha salarial de género, la discriminación en el empleo y las dificultades para conciliar la vida laboral, personal y familiar.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Voto a los 16 años e incorporar la justicia intergeneracional a las políticas públicas.",
+    "cita": "Apostamos por ampliar la participación democrática, incluido el voto a los 16 años, y por incorporar la justicia intergeneracional a las políticas públicas, garantizando que las decisiones de hoy no comprometan los derechos y oportunidades de las generaciones futuras.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Pacto de Estado con programas para la emancipación de los jóvenes en vivienda, trabajo y estudios, con su participación.",
+    "cita": "Planteamos un Pacto de Estado, que incluya la elaboración de programas específicos destinados a la emancipación de los jóvenes (vivienda, trabajo, estudios, etc.), haciendo partícipe a la propia juventud en todo ese proceso.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Exigir una financiación autonómica suficiente que respete el REF y compense la insularidad y la lejanía.",
+    "cita": "Exigimos una financiación autonómica suficiente y justa que respete los recursos del Régimen Económico y Fiscal (REF), garantice la solidaridad y que compense la insularidad y la lejanía, garantice la conectividad, el transporte público, el apoyo al sector primario y los servicios esenciales, y contribuya a reducir las desigualdades entre islas y personas.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Que los recursos tributarios del REF no se integren ni computen en el sistema de financiación autonómica, según el artículo 166 del Estatuto.",
+    "cita": "Que no se cuestione la adicionalidad de los recursos tributarios del REF, respetando lo establecido en el artículo 166 del Estatuto de Autonomía, considerando que estos recursos no se integrarán ni computaran en el Sistema de Financiación Autonómico.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Que el nuevo sistema de financiación mantenga al menos el grado de nivelación o solidaridad actual.",
+    "cita": "Que el sistema cuente con los recursos adicionales suficientes y respete como mínimo el grado de nivelación o solidaridad del Sistema de Financiación actual.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Que Canarias no pierda peso por insularidad en la población ajustada usada para repartir la financiación.",
+    "cita": "Que Canarias no pierda participación en la variable insularidad en la denominada población ajustada (criterio usado para el reparto de los recursos)",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Añadir el nivel de pobreza o de renta como variables de la población ajustada.",
+    "cita": "Que el sistema incluya como nuevas variables al definir la población ajustada el nivel de pobreza o de renta puesto que los niveles de renta y de pobreza tienen una clara incidencia en la demanda de los servicios públicos fundamentales.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Compensar el sobrecoste de producción eléctrica en Canarias para igualar su precio con el resto del Estado.",
+    "cita": "Compensación del sobrecoste de producción del sistema eléctrico canario, igualando el precio que se cobra en el resto del Estado.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Partida ampliable en los Presupuestos para el descuento del 75 % en billetes aéreos y marítimos de residentes canarios.",
+    "cita": "Partida de crédito ampliable para financiar la reducción del 75% en los precios de los billetes aéreos y marítimos interinsulares y con el resto del Estado para los residentes canarios.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Partida ampliable para bonificar al 100 % el transporte de mercancías agrícolas e industriales, actualizando los costes tipo.",
+    "cita": "Partida de crédito ampliable para la bonificación del 100% al transporte marítimo y aéreo de mercancías agrícolas e industriales, con la imprescindible actualización de los costes tipo en función de los precios reales que cobran las navieras.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Dotación presupuestaria para mantener la gratuidad de las guaguas.",
+    "cita": "Dotación para mantener la gratuidad del transporte regular de viajeros, que financia nuestras guaguas.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Empleo y salarios",
+    "resumen": "Financiar las políticas de empleo para Canarias de la Ley 19/1994, con dotación suficiente del Plan Integral de Empleo.",
+    "cita": "Financiación de las políticas específicas para fomentar la creación de empleo en Canarias que regulan los artículos 21, 23 y 24 bis de la Ley 19/1994, con una dotación suficiente del Plan Integral de Empleo para Canarias (PIEC)",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Igualdad y familia",
+    "resumen": "Dotar con al menos 30 millones de euros el programa contra la pobreza de la Ley 19/1994.",
+    "cita": "Dotación al menos de 30 millones de euros, como en la actualidad del programa de medidas para luchar contra la pobreza regulado en el artículo 21 bis de ley 19/1994.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Créditos para abaratar el agua de abasto y de riego agrícola.",
+    "cita": "Créditos suficientes para abaratar el precio de las aguas de abasto y aguas de riego agrícola, como recoge el artículo 14bis de ley 19/1994.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Que el Estado siga financiando el 100 % del POSEI adicional agropecuario y actualice su ficha financiera.",
+    "cita": "Mantenimiento de la financiación por el Estado del cien por cien del POSEI adicional agropecuario y actualización de su ficha financiera, según recoge el artículo 24.2 de la Ley 19/1994.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Situar a Canarias al menos en la media autonómica de inversión estatal territorializada, como fija la Ley 20/1991 del REF.",
+    "cita": "Situar a Canarias, al menos, en la media de las comunidades en la inversión territorializada tal como establecen los artículos 95 y 96 de la Ley 20/1991 del REF.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Garantizar el POSEI como instrumento autónomo de la PAC para las regiones ultraperiféricas, con reglamento propio y dotación actualizada.",
+    "cita": "Garantizar la continuidad del Programa POSEI como instrumento autónomo de Política Agraria Común (PAC) en las RUP, con una ficha financiera definida y actualizada respecto al importe actualmente vigente, y amparado en un Reglamento europeo específico, en el que figuren todas las excepciones y medidas complementarias que acompañan la aplicación de la PAC en Canarias, al margen de los Planes de Colaboración nacionales y regionales.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Mantener y actualizar la compensación de sobrecostes del sector pesquero y acuícola canario.",
+    "cita": "También hay que defender el mantenimiento y actualización de la dotación adicional del programa de compensación de sobrecostes del sector pesquero y acuícola de Canarias.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Que España defienda en la UE una gestión regionalizada de los fondos FEDER y FSE+ con dotaciones propias para las regiones ultraperiféricas.",
+    "cita": "Que el Gobierno de España defienda en la política de cohesión para las RUP el mantenimiento de una gestión descentralizada y regionalizada de los fondos estructurales y de inversión como el FEDER y el FSE+, así como la preservación en estos Fondos de dotaciones financieras específicas y claramente identificables para las RUP.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Inmigración",
+    "resumen": "Pedir a la UE fondos regionalizados para que Canarias gestione la migración, en especial la acogida de menores no acompañados.",
+    "cita": "Asimismo, el Gobierno estatal debe plantear ante la UE la necesidad de una mayor atención a la realidad migratoria de Canarias en su doble realidad insular y ultraperiférica, permitiendo la regionalización de los fondos europeos que permitan una gestión directa de los flujos migratorios, en concreto para la acogida de las y los menores extranjeros no acompañados, atendiendo a la situación de Canarias como frontera sur de la Unión Europea",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Diversificar la economía canaria y reducir su dependencia del turismo con sector primario, economía azul, renovables, ciencia y cultura.",
+    "cita": "Apostamos por diversificar la economía y reducir la dependencia del turismo, impulsando el sector primario, la economía azul, las energías limpias, la investigación, la tecnología y la cultura canaria.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Retener el talento canario que hoy emigra.",
+    "cita": "Apostando por retener el talento canario, que hoy se ve obligado a desarrollar sus conocimientos en otros lugares del Estado y del mundo.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Moratoria de nuevas instalaciones y camas turísticas.",
+    "cita": "Planificando y modulando el modelo turístico, con una moratoria de nuevas instalaciones y camas.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Crear una tasa turística para los no residentes.",
+    "cita": "Implantando una tasa turística para los no residentes.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Derogar que la RIC pueda materializarse en vivienda libre de alquiler sin límite de renta.",
+    "cita": "Derogación de la materialización de la RIC en vivienda libre destinada al alquiler sin limitación de renta, que es un uso especulativo de la RIC.",
+    "pagina": 10,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Proteger la pesca artesanal canaria con cogestión, vigilancia, geolocalización de barcos y más reservas marinas de interés pesquero.",
+    "cita": "Proteger los recursos pesqueros y fortalecer la pesca artesanal canaria mediante cogestión, vigilancia y control efectivos, seguimiento científico, geolocalización de embarcaciones y una red ampliada de reservas marinas de interés pesquero.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Combatir el furtivismo y la pesca ilegal y hacer planes de gestión pesquera para todas las zonas marinas de la Red Natura 2000.",
+    "cita": "Combatir el furtivismo y la pesca ilegal y recuperar los recursos costeros; establecer programas anuales o plurianuales de observación y seguimiento de las pesquerías, investigación científica aplicada y planes específicos de gestión pesquera para todas las ZEC marinas de la Red Natura 2000, con participación de los organismos científicos y universidades públicas canarias.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Vigilancia pesquera permanente en cada isla y reserva marina, con al menos una embarcación y dos inspectores.",
+    "cita": "Asignar un servicio permanente de vigilancia pesquera específico para cada isla y reserva marina de interés pesquero, dotado con al menos una embarcación tripulada y dos inspectores de pesca, además de los equipos electrónicos y herramientas tecnológicas necesarios.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Al menos una reserva marina de interés pesquero por isla, empezando por La Gomera, Tenerife y Fuerteventura.",
+    "cita": "Ampliar la red de reservas marinas de interés pesquero y sus beneficios para la pesca artesanal canaria, estableciendo al menos una reserva por isla y priorizando La Gomera, Tenerife y Fuerteventura, donde existen estudios previos y propuestas de especialistas de las universidades canarias.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Proteger el suelo agrario y recuperar terrenos para la agricultura y la ganadería.",
+    "cita": "Proteger el suelo agrario y recuperar terrenos para reforzar la producción agrícola y ganadera.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Ampliar la reserva de suelo rústico y rehabilitar terrenos para usos agrícolas y ganaderos.",
+    "cita": "Aumentar la reserva de suelo rústico y rehabilitar terrenos para usos agrícolas y ganaderos.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Reforma fiscal más progresiva que acerque la recaudación sobre el PIB a la media europea.",
+    "cita": "Impulso de una profunda reforma del sistema fiscal español, para mejorar su progresividad y cerrar la brecha de ingresos sobre el PIB respecto a la media europea.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Más tramos estatales del IRPF por encima de 120.000 euros, con tipos marginales crecientes.",
+    "cita": "Aumento de la progresividad en el tramo estatal del impuesto sobre la renta de las personas físicas (IRPF), ampliando el número de tramos a partir de 120.000 euros y aplicando tipos marginales crecientes.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Mantener los impuestos extraordinarios a la banca y recuperar el de las empresas energéticas.",
+    "cita": "Mantenimiento de los impuestos extraordinarios sobre la banca y reintroducir el impuesto extraordinario a las empresas energéticas.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Hacer permanente el impuesto a las grandes fortunas y aumentar su progresividad.",
+    "cita": "Mantenimiento de un impuesto a las grandes fortunas de forma permanente, reforzando además su progresividad",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Aumentar la deducción estatal del IRPF por alquiler o hipoteca de vivienda para rentas medias y bajas.",
+    "cita": "Incremento de la deducción por gastos de vivienda (tanto alquileres como cuotas de hipotecas) para rentas medias y bajas en el tramo estatal del IRPF.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Deducción temporal en el IRPF por inflación para rentas bajo 40.000 euros: 300, 225 o 175 euros según la renta.",
+    "cita": "Deducción específica y temporal por alza de precios en el tramo estatal del IRPF para rentas inferiores a 40.000 euros en situaciones de alta inflación como las que se vive estos últimos meses de 2026 y se prevé para 2027. En concreto, proponemos una deducción de la cuota íntegra de 300 euros para rentas inferiores a 20.000 euros; 225 para rentas entre 20.000 y 30.000 y 175 euros entre 30.000 a 40.000 euros.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Deflactar la tarifa del IRPF hasta rentas de 65.000 euros.",
+    "cita": "Deflactación progresiva de la tarifa del IRPF hasta rentas de 65.000 euros para incorporar el efecto de la inflación.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Impuestos",
+    "resumen": "Subir a 85.000 euros de facturación anual el umbral de exención del IGIC para autónomos.",
+    "cita": "Ampliar hasta los 85.000 euros de facturación anual el umbral de exención del IGIC para los trabajadores autónomos, simplificando sus obligaciones tributarias, en coordinación con el Gobierno de Canarias y en el marco del REF.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Empleo y salarios",
+    "resumen": "Tarifa plana de 88 euros al mes para autónomos con menores rendimientos, según sus ingresos reales.",
+    "cita": "Establecer una tarifa plana de 88 euros mensuales para los autónomos con menores rendimientos económicos, vinculada a sus ingresos reales y no a su antigüedad.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Reformar la ley de arrendamientos urbanos para el pequeño comercio: contratos de al menos cinco años y límites a las subidas.",
+    "cita": "Reformar la legislación de arrendamientos urbanos para proteger al pequeño comercio frente a la especulación inmobiliaria, estableciendo contratos de un mínimo de cinco años, límites a las subidas de los alquileres y mecanismos de indemnización.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Ventanilla única para empresas, ayudas más ágiles y acompañamiento en la digitalización.",
+    "cita": "Reducir la burocracia mediante una ventanilla única administrativa, la agilización de las ayudas públicas y el acompañamiento en los procesos de digitalización.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Compensar los sobrecostes de la insularidad con más ayudas al transporte de mercancías y trámites aduaneros más simples.",
+    "cita": "Compensar los sobrecostes derivados de la insularidad y la doble insularidad, reforzando las ayudas al transporte de mercancías y simplificando los trámites aduaneros.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Facilitar que autónomos, microempresas y pymes accedan a los incentivos fiscales del REF.",
+    "cita": "Democratizar el acceso a los incentivos fiscales del REF, facilitando que los autónomos, las microempresas y las pymes puedan beneficiarse de estos instrumentos.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Proteger el comercio de proximidad frente a la concentración empresarial y la presión inmobiliaria y turística.",
+    "cita": "Proteger el comercio de proximidad frente a la concentración empresarial, la especulación inmobiliaria y la presión del desarrollismo turístico.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Economía y empresas",
+    "resumen": "Reorientar el modelo turístico para reducir la presión sobre el territorio y priorizar a la población residente.",
+    "cita": "Reorientar el modelo turístico para reducir la presión sobre el territorio y asegurar una actividad compatible con la sostenibilidad ambiental, la vivienda y el bienestar de la población residente, situando los intereses de la ciudadanía por encima de los intereses de los grandes operadores turísticos.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Evitar perder territorio por nuevos hoteles y orientar las instalaciones energéticas a soluciones menos invasivas.",
+    "cita": "Evitar la pérdida de territorio por nuevas infraestructuras hoteleras y orientar las instalaciones energéticas hacia soluciones menos invasiva.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Revisar el principio de unidad de explotación turística, en coordinación con Canarias, protegiendo a los pequeños propietarios.",
+    "cita": "Impulsar, desde las competencias del Estado y en coordinación con las administraciones canarias, la revisión del principio de unidad de explotación turística, garantizando la seguridad jurídica, la libertad contractual, la libre competencia y la protección de los pequeños propietarios frente a posibles prácticas abusivas.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Vivienda",
+    "resumen": "Reconocer los usos residenciales consolidados en complejos turísticos y paralizar los expedientes sancionadores por ellos.",
+    "cita": "Promover el reconocimiento de los usos residenciales consolidados y la paralización de los procedimientos sancionadores vinculados a estos, evitando que, en plena emergencia habitacional, se prive a la población residente del uso de sus propias viviendas.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Crear una empresa pública de energía que instale renovables, abarate la factura y evite la pobreza energética.",
+    "cita": "Se creará una Empresa pública de Energía, que desempeñará un rol activo en la instalación de energías renovables, empujará hacia la transformación del mercado, también se ocupará de implementar una factura de la luz más baja y de garantizar que nadie sufra pobreza energética.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Más inversión pública y avanzar hacia la obligación de que toda construcción nueva sea autosuficiente en energía.",
+    "cita": "Con mayor compromiso e inversión pública para alcanzar esos objetivos, avanzando hacia la obligación de que toda nueva construcción lleve añadida la obligación de ser autosuficiente energéticamente.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Acelerar la transición energética y preparar los municipios ante el cambio climático, protegiendo a la población vulnerable.",
+    "cita": "Acelerar la transición energética y preparar los municipios frente a los efectos del cambio climático, priorizando soluciones distribuidas, de bajo impacto y con protección de la población vulnerable.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Plan de placas solares en tejados de pueblos y ciudades y plan estratégico de renovables con poco impacto territorial.",
+    "cita": "Desarrollar un plan de techumbres fotovoltaicas en pueblos y ciudades, un plan estratégico de energías renovables y una implantación territorial que minimice la ocupación y el impacto ambiental.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Crear refugios climáticos accesibles ante frío y calor extremos, sobre todo para mayores y menores.",
+    "cita": "Crear refugios climáticos accesibles ante episodios de frío y calor extremos, con atención especial a personas mayores y menores.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Mejorar la protección de los ecosistemas terrestres y marinos y las infraestructuras de saneamiento y depuración.",
+    "cita": "Mejorar la protección y recuperación de los ecosistemas terrestres y marinos, así como las infraestructuras de saneamiento y depuración.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Plan estatal de costas, emisarios submarinos y depuradoras, y recuperar barrancos, senderos y valles.",
+    "cita": "Desarrollar un plan estatal de costas, emisarios submarinos y depuradoras; recuperar barrancos, senderos y valles, y reforzar la protección de los mares.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Energía y clima",
+    "resumen": "Aprobar la Ley de Biodiversidad y Recursos Biológicos de Canarias, planes para la Red Natura 2000 y proteger tiburones y rayas.",
+    "cita": "Aprobar la Ley de Biodiversidad y Recursos Biológicos de Canarias; dotar de planes de gestión específicos a las áreas protegidas de la Red Natura 2000 y establecer protección general para tiburones y rayas en aguas canarias.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Reconocer a Canarias como sujeto político, reforzar su autogobierno y desarrollar plenamente las competencias del Estatuto.",
+    "cita": "Defendemos el reconocimiento de Canarias como sujeto político, el fortalecimiento de su autogobierno y el pleno desarrollo de las competencias reconocidas en nuestro Estatuto de Autonomía.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Defensa y política exterior",
+    "resumen": "Fijar la mediana con Marruecos y reconocer las aguas, los fondos marinos y el espacio aéreo de Canarias.",
+    "cita": "Igualmente, defendemos el establecimiento de la mediana con Marruecos, el reconocimiento de nuestras aguas, así como de los fondos marinos del archipiélago, y su espacio aéreo.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Defensa y política exterior",
+    "resumen": "Que Canarias participe en las negociaciones con otros Estados en asuntos que le afecten.",
+    "cita": "Y la participación de Canarias en las negociaciones con terceros estados en temas que nos afecten.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Cogestión canaria de los aeropuertos y rechazo a privatizar las torres de control de las islas.",
+    "cita": "En concreto, exigimos la cogestión canaria de nuestros aeropuertos, como ya sucede desde hace décadas con los puertos, así como rechazamos la privatización de las torres de control de varios aeropuertos de las Islas.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Que las políticas y leyes estatales tengan en cuenta las condiciones específicas de Canarias.",
+    "cita": "Las distintas políticas y leyes estatales en todos los ámbitos deben considerar las condiciones específicas de Canarias.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Modelo territorial",
+    "resumen": "Defender la soberanía popular, el derecho a decidir y la autodeterminación de los pueblos.",
+    "cita": "La coalición comparte la defensa de la soberanía popular, del derecho a decidir democráticamente y del derecho universal de los pueblos a la autodeterminación.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Proteger el patrimonio material e inmaterial y apoyar la creación artística y las industrias culturales canarias.",
+    "cita": "Apostamos por proteger el patrimonio material e inmaterial, apoyar la creación artística y las industrias culturales canarias y fomentar el intercambio con otros pueblos.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Fomentar el acceso a la cultura y regular y limitar el impacto de la inteligencia artificial en la creación cultural.",
+    "cita": "Planteamos fomentar el acceso a la cultura y la producción cultural en general, así como la necesidad de regular y limitar el impacto de la inteligencia artificial (IA) sobre la producción cultural “humana”.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Apoyar el cine, el diseño y el videojuego con las exenciones fiscales y la Zona Especial Canaria, ligadas a contratar trabajo local.",
+    "cita": "Apostar por el sector cultural, del cine, del diseño y del video juego aprovechando las exenciones fiscales y la Zona Especial canaria, vinculadas directamente a la contratación de trabajo local.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Inmigración",
+    "resumen": "Política migratoria basada en derechos humanos, vías legales y seguras, acogida digna y corresponsabilidad entre territorios.",
+    "cita": "Defendemos una política migratoria basada en los derechos humanos, las vías legales y seguras, la acogida digna y la corresponsabilidad entre territorios.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Inmigración",
+    "resumen": "Protección específica a los menores migrantes no acompañados y reparto solidario de su acogida.",
+    "cita": "Exigimos una protección específica de la infancia y adolescencia migrante no acompañada, garantizando sus derechos y una distribución solidaria de las responsabilidades de acogida.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Inmigración",
+    "resumen": "Rechazar la externalización de fronteras.",
+    "cita": "Rechazamos la externalización de fronteras, el racismo y la xenofobia, y apostamos por una Canarias diversa, solidaria y comprometida con la dignidad humana.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Inmigración",
+    "resumen": "Reforzar los medios humanos, técnicos y aéreos permanentes en Canarias, con unidades de despliegue rápido ante repuntes migratorios.",
+    "cita": "Reforzar los medios humanos, técnicos y aéreos destinados permanentemente al archipiélago, con la posibilidad de unidades de despliegue rápido ante repuntes migratorios.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Seguridad y justicia",
+    "resumen": "Estudiar medios permanentes en las islas no capitalinas para responder a catástrofes migratorias, naturales y climáticas.",
+    "cita": "Estudiar la implantación de medios permanentes en las islas no capitalinas, atendiendo a la doble insularidad y garantizando una respuesta rápida y eficaz ante catástrofes migratorias, naturales y emergencias climáticas en todas las islas.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Seguridad y justicia",
+    "resumen": "Reforzar la coordinación con emergencias, protección civil, Salvamento Marítimo, vigilancia volcánica y fuerzas policiales y militares.",
+    "cita": "Reforzar la coordinación con los servicios civiles de emergencias, protección civil, extinción de incendios, Salvamento Marítimo, sistemas de vigilancia volcánica y recursos policiales y militares.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Igualdad y familia",
+    "resumen": "Incorporar de forma transversal políticas de igualdad para mujeres y personas LGTBIQ+.",
+    "cita": "Desde Unidad del Pueblo Canario se incorporarán de forma transversal las políticas para la igualdad real de las mujeres y las personas LGTBIQ+ desde una perspectiva feminista interseccional para alcanzar mayores cuotas de igualdad y respeto a la diversidad y que las oportunidades y los proyectos de vida no estén condicionados por el sexo, la orientación sexual, la identidad o expresión de género, el origen, la raza, la discapacidad o la situación económica.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Igualdad y familia",
+    "resumen": "Exigir al Estado que mantenga y aumente las políticas de igualdad.",
+    "cita": "Unidad del Pueblo Canario exige al Estado el mantenimiento e incremento de las políticas de igualdad.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Igualdad y familia",
+    "resumen": "Reforzar la prevención, la protección y la atención integral a las víctimas de violencia de género, con recursos suficientes.",
+    "cita": "Erradicación de las violencias machistas: reforzar la prevención, la protección y la atención integral a las víctimas de violencia de género, garantizando recursos públicos suficientes.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Educación",
+    "resumen": "Educación en igualdad y sin estereotipos de género desde las primeras etapas.",
+    "cita": "Educación en igualdad desde las aulas: impulsar una educación basada en la igualdad, el respeto y la eliminación de los estereotipos de género desde las primeras etapas educativas.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Educación",
+    "resumen": "Formar al profesorado en perspectiva de género, coeducación, diversidad y prevención de la violencia machista.",
+    "cita": "Formación continua del profesorado: garantizar la actualización y formación de los docentes en perspectiva de género, coeducación, diversidad y prevención de las violencias machistas.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Sanidad",
+    "resumen": "Garantizar la educación afectivo-sexual y los derechos sexuales y reproductivos, y estudiar blindar el aborto en la Constitución.",
+    "cita": "Derechos sexuales y reproductivos: garantizar el acceso a la educación afectivosexual, la atención sanitaria y los derechos sexuales y reproductivos. Estudiar la posibilidad de blindar el derecho al aborto en la Constitución, como ha hecho Francia.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Igualdad y familia",
+    "resumen": "Garantizar la igualdad de derechos de las personas LGTBIQA+ y protegerlas de la discriminación, sobre todo a las personas trans.",
+    "cita": "Defensa de los derechos LGTBIQA+: garantizar la igualdad de derechos y la protección frente a la discriminación, con especial atención a las personas trans y a los colectivos más vulnerables.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Seguridad y justicia",
+    "resumen": "Combatir el transfuguismo, que considera corrupción política.",
+    "cita": "Combatiendo todas las formas de transfuguismo que se generan en las instituciones públicas y que deben ser consideradas como actos de corrupción política que degradan la democracia y contribuyen a la desafección ciudadana.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Más participación directa, rendición de cuentas y límites a los privilegios de los cargos políticos.",
+    "cita": "Acercando la política a la ciudadanía mediante mecanismos de participación directa, rendición de cuentas, limitación de privilegios políticos y lucha firme contra la corrupción.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Crear un observatorio de vigilancia de las noticias falsas, los monopolios y los grupos de presión de la comunicación.",
+    "cita": "Crear un observatorio de vigilancia de las fake news, los monopolios y los lobbies de comunicación.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Otros",
+    "resumen": "Revocación de cargos públicos, presupuestos participativos, referendos y asambleas ciudadanas vinculantes.",
+    "cita": "Y reforzar la democracia participativa a través de votaciones (revocación de cargos públicos, presupuestos participativos, referéndums, asambleas ciudadanas vinculantes).",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Defensa y política exterior",
+    "resumen": "Apoyar las causas del pueblo palestino y la autodeterminación e independencia del pueblo saharaui.",
+    "cita": "Y mostramos nuestra máxima solidaridad con las causas del Pueblo Palestino denunciando el genocidio israelí y la complicidad internacional en este- y el Pueblo Saharaui en sus luchas por la autodeterminación e independencia.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "NC-BC, PODEMOS, IU, SUMAR",
+    "tema": "Defensa y política exterior",
+    "resumen": "Destinar al menos el 0,7 % de los Presupuestos Generales del Estado a cooperación internacional.",
+    "cita": "Igualmente, impulsaremos una consignación, como mínimo del 0,7%, de los Presupuestos Generales del Estado, destinada a proyectos de cooperación y solidaridad internacional.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Revisión salarial automática según el IPC real, sin topes y con efecto desde el 1 de enero.",
+    "cita": "Cláusula de revisión automática según el IPC real, sin topes y con efectos desde el 1 de enero.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Recuperar el poder adquisitivo perdido desde 2021.",
+    "cita": "Recuperación del poder adquisitivo perdido desde 2021.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Subidas salariales lineales, con los mismos euros para todas las categorías.",
+    "cita": "Subidas lineales, con los mismos euros para todas las categorías, para no ensanchar la distancia entre los que más y los que menos cobran.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Pensiones",
+    "resumen": "Jubilación ordinaria a los 60 años, con pensión suficiente y sin penalización.",
+    "cita": "Jubilación ordinaria a los 60 años, con pensión suficiente y sin penalización.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Pensiones",
+    "resumen": "Jubilación a los 55 años en trabajos especialmente penosos, peligrosos, tóxicos o insalubres.",
+    "cita": "En trabajos especialmente penosos, peligrosos, tóxicos o insalubres, jubilación a los 55 años.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Jornada de 35 horas semanales sin reducción salarial, como paso hacia las 30.",
+    "cita": "Jornada de 35 horas semanales ya, sin reducción salarial, como paso hacia las 30.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Tope de 1.540 horas anuales de trabajo efectivo.",
+    "cita": "Tope de 1.540 horas anuales de trabajo efectivo.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Registro horario controlado por los representantes de los trabajadores y prohibir las bolsas de horas y la distribución irregular de la jornada.",
+    "cita": "Registro horario controlado por la representación de los trabajadores y prohibición de las bolsas de horas y de la distribución irregular de la jornada.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Impedir que la reducción de jornada se compense con menos plantilla, más ritmo, horas extra o más disponibilidad.",
+    "cita": "La reducción no podrá compensarse con menos plantilla, ritmos más intensos, horas extraordinarias o mayor disponibilidad.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Contrato fijo tras 6 meses de contratos encadenados en 12 meses en la misma empresa o grupo.",
+    "cita": "Toda necesidad permanente, con empleo permanente: contrato fijo a partir de 6 meses de contratos encadenados en un periodo de 12, en la misma empresa o grupo, sea cual sea el puesto.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Acabar con los falsos autónomos y con las prácticas no laborales que cubren puestos de trabajo.",
+    "cita": "Acabar con los falsos autónomos y con las prácticas no laborales que cubren puestos de trabajo.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Prohibir las empresas de trabajo temporal (ETT).",
+    "cita": "Prohibición de las ETT.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Cinco semanas (25 días laborables) de vacaciones retribuidas.",
+    "cita": "Cinco semanas (25 días laborables) de vacaciones retribuidas.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Integrar las actividades estructurales subcontratadas en la plantilla principal y, mientras, darles sus mismas condiciones.",
+    "cita": "Las actividades estructurales se integran en la plantilla principal; mientras tanto, mismas condiciones que en la principal.",
+    "pagina": 7,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Readmisión obligatoria, a elección del trabajador, ante el despido injustificado.",
+    "cita": "Readmisión obligatoria, a elección del trabajador, ante el despido injustificado.",
+    "pagina": 7,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Prohibir los despidos colectivos en empresas con beneficios o que repartan dividendos.",
+    "cita": "Prohibición de los despidos colectivos en empresas con beneficios o que repartan dividendos.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Autorización administrativa previa para todo despido colectivo, con informe vinculante de los representantes de los trabajadores y cuentas del grupo abiertas.",
+    "cita": "Autorización administrativa previa para cualquier despido colectivo, con informe vinculante de la representación de los trabajadores y apertura completa de las cuentas del grupo.",
+    "pagina": 8,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Indemnizaciones por despido que disuadan de despedir.",
+    "cita": "Indemnizaciones que disuadan de despedir.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Que las plantillas puedan paralizar los trabajos ante riesgos graves y negarse a cumplir órdenes que pongan en riesgo la vida.",
+    "cita": "Las plantillas deben poder paralizar de forma efectiva los trabajos ante riesgos graves y negarse a cumplir órdenes que pongan en riesgo la vida.",
+    "pagina": 8,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Acceso de los representantes de los trabajadores a beneficios, dividendos, inversiones, deuda, ayudas públicas y operaciones de los grupos empresariales.",
+    "cita": "Los representantes de los trabajadores deben tener acceso efectivo a beneficios, dividendos, inversiones, deuda, ayudas públicas y operaciones dentro de los grupos empresariales.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Ante cierres o deslocalizaciones, abrir las cuentas, estudiar alternativas y devolver las ayudas públicas si se incumplen compromisos.",
+    "cita": "Ante amenazas al empleo, apertura completa de cuentas, estudio obligatorio de alternativas y devolución de las ayudas públicas si se incumplen compromisos.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Derecho de información previa y veto suspensivo de los representantes ante externalizaciones, cambios de horarios y turnos, reorganizaciones y algoritmos.",
+    "cita": "Derecho de información previa y veto suspensivo de la representación de los trabajadores ante contrataciones externas, externalizaciones, cambios de horarios, turnos y ritmos, reorganizaciones y sistemas algorítmicos de organización del trabajo.",
+    "pagina": 9,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Intervenir y pasar a propiedad estatal, con control de los trabajadores, empresas viables y necesarias que sus dueños quieran cerrar.",
+    "cita": "Cuando una empresa viable y necesaria vaya a desaparecer exclusivamente por decisión de sus propietarios, defendemos su intervención y paso a propiedad estatal bajo mecanismos de control obrero.",
+    "pagina": 9,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Propiedad estatal de los sectores estratégicos, sobre todo energía, transporte, telecomunicaciones y capacidades industriales esenciales.",
+    "cita": "Propiedad estatal bajo mecanismos de control obrero de los sectores estratégicos, especialmente energía, transporte, telecomunicaciones y capacidades industriales esenciales.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Negociar con los trabajadores la introducción de nuevas tecnologías y traducirla en menos jornada, no menos empleo.",
+    "cita": "La introducción de nuevas tecnologías debe negociarse con los trabajadores. Si una máquina permite producir lo mismo en menos tiempo, el resultado debe ser menos jornada y no menos empleo.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Política industrial planificada con empresas estatales, inversión estable, formación profesional y capacidad científica y tecnológica propia.",
+    "cita": "Desarrollo de una política industrial planificada orientada a las necesidades sociales, con empresas estatales, inversión estable, formación profesional, capacidad científica y tecnológica propia y mecanismos democráticos de control y decisión.",
+    "pagina": 10,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Prohibir todo desahucio de hogares trabajadores de su vivienda habitual, sea cual sea la causa, el propietario o si hay contrato.",
+    "cita": "Prohibición efectiva de todo desahucio de hogares trabajadores de su vivienda habitual, sea cual sea la causa, el propietario —también la Administración— y la situación de quien la habita: con o sin contrato, en subarriendo o sin papeles.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Energía y clima",
+    "resumen": "Prohibir los cortes de agua, electricidad o calefacción a hogares trabajadores.",
+    "cita": "Prohibición de cualquier corte de agua, electricidad o calefacción a hogares trabajadores.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Bajar de inmediato los alquileres un 50 %, a costa de los propietarios y no con ayudas públicas.",
+    "cita": "Bajada inmediata de los alquileres del 50 %, a costa de la ganancia de los propietarios y no mediante ayudas públicas que acaban en su bolsillo y empujan los precios al alza.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Precios máximos de alquiler ligados a los salarios medios de la zona y contratos indefinidos por defecto.",
+    "cita": "A partir de ahí, precios máximos ligados a los salarios medios de la zona. Contratos indefinidos por defecto.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Si el propietario necesita la vivienda para vivir, la Administración garantizará antes una alternativa estable en el mismo barrio.",
+    "cita": "En el caso de que el propietario necesite la vivienda para vivir en ella, la Administración garantizará siempre, antes de la salida, una alternativa digna y estable en el mismo barrio.",
+    "pagina": 11,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Alquiler social obligatorio de hasta el 15 % de los ingresos en viviendas de grandes tenedores; en las demás, realojo público en el barrio.",
+    "cita": "Quien no pueda pagar su alquiler no se queda sin casa: si la vivienda es de un banco, fondo o gran tenedor, alquiler social obligatorio de no más del 15 % de sus ingresos y con contrato indefinido; en los demás casos, la Administración realoja al hogar en el parque público, en el mismo barrio y en las mismas condiciones.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Mismas normas de protección, duración y precio para todo alquiler de vivienda habitual, también de temporada y por habitaciones.",
+    "cita": "Todo alquiler que sea vivienda habitual, también el de temporada y el de habitaciones, se rige por las mismas normas de protección, duración y precio.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Limitar la vivienda turística al 0,5 % de las viviendas de cada localidad.",
+    "cita": "Limitar la vivienda turística a un 0,5 % del conjunto de viviendas de la localidad.",
+    "pagina": 11,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Parque público de vivienda en alquiler permanente hasta al menos el 10 % del total de viviendas a corto plazo.",
+    "cita": "Construcción de un gran parque público permanente de vivienda en alquiler hasta alcanzar, a corto plazo, al menos el 10 % del total de viviendas, protegido para siempre, mediante promoción directa, fomento del cooperativismo social y la autoconstrucción, rehabilitación, adquisición de inmuebles y utilización del suelo público.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Fijar el precio de los alquileres públicos según los ingresos de los hogares.",
+    "cita": "Precio de los alquileres públicos establecido según los ingresos de los hogares.",
+    "pagina": 12,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Expropiar sin indemnización las viviendas vacías y especulativas de bancos, fondos y grandes tenedores para el parque público.",
+    "cita": "Expropiación sin indemnización de las viviendas vacías y de uso especulativo de bancos, fondos y grandes tenedores para incorporarlas al parque público.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Prohibir vender o descalificar cualquier vivienda pública o protegida.",
+    "cita": "Prohibición de vender o descalificar cualquier vivienda pública o protegida.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Ninguna ejecución hipotecaria de la vivienda habitual: reestructurar la deuda a cargo de la banca, dación en pago y cancelar deudas.",
+    "cita": "Ninguna ejecución hipotecaria de la vivienda habitual de hogares trabajadores: reestructuración de la deuda a cargo de la banca, dación en pago cuando el hogar lo elija y con derecho a seguir en la vivienda en alquiler social, y cancelación de las deudas de quienes ya perdieron su casa.",
+    "pagina": 12,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Sanidad",
+    "resumen": "Derogar la Ley 15/1997 y prohibir nuevos conciertos, concesiones y externalizaciones en sanidad, educación y servicios sociales.",
+    "cita": "Ni una privatización más: derogación de la Ley 15/1997 y prohibición de nuevos conciertos, concesiones y externalizaciones en sanidad, educación y servicios sociales.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Sanidad",
+    "resumen": "Reforzar la sanidad pública, sobre todo atención primaria y especializada, salud mental, bucodental, prevención e investigación.",
+    "cita": "Refuerzo de la sanidad pública, especialmente de atención primaria, atención especializada, salud mental, salud bucodental, prevención e investigación.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Sanidad",
+    "resumen": "Destinar el 25 % del gasto sanitario a atención primaria.",
+    "cita": "25 % del gasto sanitario para atención primaria.",
+    "pagina": 13,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Otros",
+    "resumen": "Recuperar los servicios externalizados y privatizados con gestión pública directa y control de los trabajadores.",
+    "cita": "Recuperación de servicios externalizados y privatizados mediante gestión pública directa bajo mecanismos democráticos de control obrero.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Sanidad",
+    "resumen": "Desarrollar capacidades públicas en medicamentos, productos sanitarios e investigación farmacéutica.",
+    "cita": "Desarrollo de capacidades públicas en medicamentos, productos sanitarios e investigación farmacéutica.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Plantillas públicas suficientes y estables, con empleo permanente para necesidades permanentes.",
+    "cita": "Plantillas públicas suficientes y estables. También en los servicios públicos: necesidad permanente, empleo permanente.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Educación",
+    "resumen": "Sistema educativo exclusivamente público, gratuito, laico e inclusivo en todas las etapas, con centros y plantillas suficientes.",
+    "cita": "Sistema educativo exclusivamente público, gratuito, laico e inclusivo en todas sus etapas; con centros y plantillas suficientes.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Educación",
+    "resumen": "Integrar los centros concertados en una red pública única.",
+    "cita": "Integración de los centros concertados en una red pública única.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Educación",
+    "resumen": "Bajar las ratios.",
+    "cita": "Descenso de las ratios.",
+    "pagina": 13,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Educación",
+    "resumen": "Gratuidad educativa que incluya materiales, transporte, comedor y residencia.",
+    "cita": "La gratuidad debe abarcar también los costes que pueden impedir estudiar: materiales, transporte, comedor o residencia.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Pensiones",
+    "resumen": "Suprimir los incentivos fiscales a los planes privados de pensiones y a los fondos de pensiones de empleo.",
+    "cita": "Rechazamos su privatización: fin de los incentivos fiscales a los planes privados y a los fondos de pensiones de empleo.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Crear una red pública universal de cuidados: escuelas infantiles, ayuda a domicilio, centros de día, residencias y dependencia.",
+    "cita": "Creación de una red pública universal de cuidados: escuelas infantiles, ayuda a domicilio, centros de día, residencias, dependencia, discapacidad y apoyos comunitarios.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Gestión pública directa de los cuidados fundamentales, con empleo estable, salarios dignos y plantillas suficientes.",
+    "cita": "Gestión pública directa de los cuidados fundamentales, con empleo estable, salarios dignos y plantillas suficientes.",
+    "pagina": 14,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Prestación por desempleo mientras dure el paro, nunca inferior al salario mínimo.",
+    "cita": "Prestación por desempleo mientras dure el paro, nunca inferior al salario mínimo.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Incapacidad temporal pagada al 100 % del salario desde el primer día.",
+    "cita": "Incapacidad temporal pagada al 100 % del salario desde el primer día.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Prohibir las subcontratas en el diseño de infraestructuras y el mantenimiento del transporte.",
+    "cita": "Prohibición completa de las subcontratas para labores de diseño de infraestructuras y mantenimiento en el transporte.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Pensiones",
+    "resumen": "Ninguna pensión por debajo del salario mínimo.",
+    "cita": "Ninguna pensión por debajo del salario mínimo.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Pensiones",
+    "resumen": "Revalorizar las pensiones con el IPC real y recuperar lo perdido cuando la inflación supere la revalorización.",
+    "cita": "Revalorización automática con el IPC real y recuperación de lo perdido cuando la inflación supere la revalorización.",
+    "pagina": 14,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Plenos derechos laborales y sindicales para trabajadores agrícolas, ganaderos, pesqueros y de la industria alimentaria.",
+    "cita": "Plenos derechos laborales y sindicales para los trabajadores agrícolas, ganaderos, pesqueros y de la industria alimentaria.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Inmigración",
+    "resumen": "Mismos derechos para trabajadores migrantes y nacionales, sin pagar menos por la situación administrativa.",
+    "cita": "Mismos derechos para trabajadores migrantes y nacionales. Ninguna situación administrativa puede utilizarse para pagar menos.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Hacer cumplir la prohibición de comprar por debajo del coste de producción, con inspección participada y sanciones públicas.",
+    "cita": "Cumplimiento efectivo de la prohibición de comprar por debajo del coste de producción, con inspección en la que participen las organizaciones de pequeños productores y jornaleros, y publicación de todas las sanciones.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Transparencia sobre costes, contratos y márgenes comerciales.",
+    "cita": "Transparencia sobre costes, contratos y márgenes comerciales.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Precios máximos de venta para una cesta de productos básicos y márgenes máximos para la gran distribución.",
+    "cita": "Precios máximos de venta para una cesta de productos básicos y márgenes máximos para la gran distribución.",
+    "pagina": 15,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Mostrar el precio pagado en origen junto al precio de venta.",
+    "cita": "Precio pagado en origen visible junto al de venta.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Capacidades públicas de almacenamiento, transformación, transporte, distribución y compra de alimentos.",
+    "cita": "Desarrollo de capacidades públicas de almacenamiento, transformación, transporte, distribución y compra de alimentos bajo mecanismos de control democrático.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Bancos públicos de tierras y recuperación productiva de tierras abandonadas.",
+    "cita": "Bancos públicos de tierras y recuperación productiva de tierras abandonadas.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Acceso colectivo a maquinaria, tecnología, investigación, servicios veterinarios y financiación.",
+    "cita": "Acceso colectivo a maquinaria, tecnología, investigación, servicios veterinarios y financiación.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Mantener las producciones necesarias para un abastecimiento alimentario suficiente y a precios accesibles.",
+    "cita": "Mantener las producciones y capacidades necesarias para garantizar un abastecimiento alimentario suficiente y a precios accesibles para el pueblo.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Modelo territorial",
+    "resumen": "Servicios públicos, transporte, vivienda, conectividad y actividad productiva para vivir en el medio rural con los mismos derechos.",
+    "cita": "Servicios públicos, transporte, vivienda, conectividad y actividad productiva que permitan vivir en el medio rural con los mismos derechos que en las ciudades.",
+    "pagina": 15,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Que toda actividad en la empresa, también las prácticas, cotice y genere derechos desde el primer día.",
+    "cita": "Si produces, trabajas; si trabajas, cobras y tienes derechos: toda actividad en la empresa, también las prácticas, cotiza y genera derechos desde el primer día.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Solo prácticas curriculares, con tutor, límite de horas y de becarios y compensación no inferior al salario mínimo proporcional.",
+    "cita": "Solo prácticas curriculares que no cubran labores esenciales de producción, con tutor, límite de horas y un máximo de becarios por plantilla, y con compensación no inferior al salario mínimo en proporción a las horas.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Prohibir las prácticas extracurriculares.",
+    "cita": "Prohibición de las prácticas extracurriculares.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Suprimir las dobles escalas salariales por edad: ningún contrato formativo por debajo del salario de convenio.",
+    "cita": "Fin de las dobles escalas salariales y de cualquier condición peor justificada por la edad: ningún contrato formativo por debajo del salario de convenio.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Reservar un tercio del parque público de alquiler para jóvenes trabajadores, con alquiler según ingresos.",
+    "cita": "Reserva de un tercio del parque público de alquiler para jóvenes trabajadores, con alquiler según ingresos, en lugar de ayudas que acaban en manos de los caseros.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Educación",
+    "resumen": "Beca-salario igual al salario mínimo para estudiantes de familias trabajadoras y plaza en residencia pública a quien estudie fuera.",
+    "cita": "Beca-salario equivalente al salario mínimo para estudiantes de familias trabajadoras y plaza en residencia pública para quien estudie fuera de su localidad.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Otros",
+    "resumen": "Abrir patios, polideportivos y bibliotecas escolares por las tardes y fines de semana, y un centro juvenil público en cada barrio.",
+    "cita": "Apertura de patios, polideportivos y bibliotecas escolares por las tardes y los fines de semana, y un centro juvenil público en cada barrio.",
+    "pagina": 16,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Otros",
+    "resumen": "Prohibir las casas de apuestas, el juego en línea y su publicidad.",
+    "cita": "Prohibición de las casas de apuestas, el juego en línea y su publicidad.",
+    "pagina": 16,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Igual salario por el mismo trabajo y por trabajos de igual valor.",
+    "cita": "Igual salario por el mismo trabajo y por trabajos de igual valor.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Derecho a pasar a jornada completa para toda trabajadora a tiempo parcial que lo pida.",
+    "cita": "Derecho a pasar a jornada completa para toda trabajadora a tiempo parcial que lo pida.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Mejorar salarios y plantillas en cuidados, limpieza, comercio, sanidad, educación y servicios sociales.",
+    "cita": "Mejora de salarios y plantillas en cuidados, limpieza, comercio, sanidad, educación y servicios sociales.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Nulidad y readmisión automática de todo despido hasta que el hijo o la hija cumpla 3 años.",
+    "cita": "Nulidad y readmisión automática en todo despido hasta que el hijo o la hija cumpla 3 años.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Permiso por nacimiento de 52 semanas, igual, intransferible y pagado al 100 %, enlazado con plaza pública de 0 a 3 años.",
+    "cita": "Permiso por nacimiento de 52 semanas, igual, intransferible y retribuido al 100 %, que enlace con la plaza pública de 0 a 3 años.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Plaza pública de 0 a 3 años y fin de la lista de espera de la dependencia.",
+    "cita": "Servicios públicos que socialicen los cuidados: plaza pública 0-3 y fin de la lista de espera de la dependencia.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Garantizar vivienda, ingresos, empleo y atención sanitaria, psicológica y jurídica a las mujeres que sufren violencia.",
+    "cita": "Garantizar vivienda, ingresos, empleo y atención sanitaria, psicológica y jurídica suficientes a las mujeres que sufren violencia, para que puedan romper la dependencia económica.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Sanidad",
+    "resumen": "Todas las interrupciones del embarazo, en hospitales públicos.",
+    "cita": "Derechos sexuales y reproductivos garantizados dentro de la sanidad pública: todas las interrupciones del embarazo, en hospitales públicos.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Prohibir la prostitución y el proxenetismo, con alternativas materiales para las mujeres prostituidas.",
+    "cita": "Prohibición de la prostitución y el proxenetismo, con alternativas materiales para las mujeres prostituidas.",
+    "pagina": 17,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Rechazar la gestación subrogada y perseguir a las agencias que la intermedian desde España.",
+    "cita": "Rechazo de la gestación subrogada. Persecución de las agencias que la intermedian desde España.",
+    "pagina": 17,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Otros",
+    "resumen": "Una biblioteca pública en cada barrio, abierta tardes y fines de semana, y más centros culturales y deportivos en barrios obreros y pueblos.",
+    "cita": "Una biblioteca pública en cada barrio, abierta por las tardes y los fines de semana, y extensión de centros culturales, escuelas artísticas e instalaciones deportivas a los barrios obreros, los pueblos y el medio rural.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Otros",
+    "resumen": "Museos gratuitos, instalaciones deportivas gratis para menores y desempleados y precio máximo en la cultura subvencionada.",
+    "cita": "Gratuidad de museos y equipamientos públicos, uso gratuito de las instalaciones deportivas públicas para menores y personas desempleadas, y precio máximo en toda actividad cultural subvencionada.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Convenio y cotización en todo trabajo cultural contratado por las administraciones, también subcontratado, sin falsos autónomos.",
+    "cita": "Convenio y cotización en todo trabajo cultural contratado por las administraciones, también el subcontratado, sin falsos autónomos.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Economía y empresas",
+    "resumen": "Acabar con los contratos por proyecto encadenados y dar plazas estables al personal investigador.",
+    "cita": "Fin de los contratos por proyecto encadenados: plazas estables para el personal investigador.",
+    "pagina": 18,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Ningún euro de investigación pública para fines militares; pasar los fondos de I+D militar a salud, energía, alimentación y medio ambiente.",
+    "cita": "Ningún euro de investigación pública para fines militares: los fondos de I+D militar, a salud, energía, alimentación y medio ambiente.",
+    "pagina": 18,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reducir el gasto militar y anular los Programas Especiales de Modernización.",
+    "cita": "No al rearme: reducción del gasto militar real y anulación de los Programas Especiales de Modernización.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Romper los acuerdos que permiten el uso del territorio español por fuerzas militares extranjeras y recuperar la soberanía de las bases.",
+    "cita": "Ruptura de los acuerdos que permiten el uso de territorio español por fuerzas militares extranjeras y recuperación de la plena soberanía sobre las bases.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reconvertir la industria militar hacia producciones civiles, garantizando el empleo de sus plantillas.",
+    "cita": "Reconversión de la industria militar hacia producciones socialmente necesarias, garantizando el empleo de sus plantillas.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Salida de España de la OTAN y de la Unión Europea.",
+    "cita": "Salida de España de la OTAN y de la Unión Europea.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Embargo militar total a Israel y ruptura de sus relaciones diplomáticas, militares y comerciales con España.",
+    "cita": "Embargo militar total y sin excepciones al Estado de Israel, y ruptura de sus relaciones diplomáticas, militares y comerciales con España.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Regreso de las tropas españolas desplegadas en operaciones «imperialistas».",
+    "cita": "Regreso de las tropas españolas desplegadas en operaciones imperialistas.",
+    "pagina": 19,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Reconocer la República Árabe Saharaui Democrática y un referéndum de autodeterminación vinculante para el pueblo saharaui.",
+    "cita": "Reconocimiento de la República Árabe Saharaui Democrática y referéndum de autodeterminación libre y vinculante para el pueblo saharaui.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Defensa y política exterior",
+    "resumen": "Retirar el apoyo de España al plan de autonomía marroquí y renunciar a acuerdos con Marruecos a costa del pueblo saharaui.",
+    "cita": "España, como antigua potencia administradora, debe retirar su apoyo al plan de autonomía marroquí y renunciar a cualquier acuerdo con Marruecos a costa del pueblo saharaui y de sus recursos.",
+    "pagina": 19,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Seguridad y justicia",
+    "resumen": "Derogar la Ley de Seguridad Ciudadana y anular las sanciones impuestas con ella por huelgas y protestas.",
+    "cita": "Derogación de la Ley de Seguridad Ciudadana (la llamada Ley Mordaza) y anulación de las sanciones impuestas con ella por participar en huelgas y protestas.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Educación",
+    "resumen": "Derogar la Ley de Convivencia Universitaria y no sancionar académicamente por organizar huelgas o protestas.",
+    "cita": "Derogación de la Ley de Convivencia Universitaria. Ninguna sanción académica por organizar huelgas, piquetes o protestas en los centros de estudio.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Seguridad y justicia",
+    "resumen": "Ilegalizar las organizaciones fascistas y franquistas y disolver las fundaciones que enaltecen la dictadura.",
+    "cita": "Ilegalización de las organizaciones fascistas y franquistas y disolución de las fundaciones que enaltecen la dictadura: ni un espacio ni un euro público para ellas.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Seguridad y justicia",
+    "resumen": "Derogar los delitos de injurias a la Corona y a las instituciones y de ultrajes a símbolos.",
+    "cita": "Derogación de los delitos de opinión que protegen al poder: injurias a la Corona y a las instituciones y ultrajes a símbolos.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Vivienda",
+    "resumen": "Ilegalizar las empresas de desocupación, prohibir contratarlas y perseguir penalmente sus coacciones y desalojos ilegales.",
+    "cita": "Ilegalización de las empresas de desocupación, prohibición de contratarlas y persecución penal de las coacciones y los desalojos ilegales que practican.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Seguridad y justicia",
+    "resumen": "Prohibir las pelotas de goma, las tanquetas y el material militar contra huelgas y manifestaciones, e investigar de forma independiente a la policía.",
+    "cita": "Fin de la impunidad policial: prohibición de las pelotas de goma, prohibición del uso de vehículos blindados («tanquetas») y de material militar en el control de huelgas, piquetes y manifestaciones, e investigación independiente de las actuaciones policiales.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Inmigración",
+    "resumen": "Cerrar los CIE y acabar con las identificaciones por perfil étnico y las devoluciones en caliente.",
+    "cita": "Cierre de los CIE y fin de las identificaciones por perfil étnico y de las devoluciones en caliente.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Inmigración",
+    "resumen": "Mecanismo permanente de regularización para todas las personas trabajadoras sin papeles.",
+    "cita": "Mecanismo permanente de regularización para todas las personas trabajadoras sin papeles.",
+    "pagina": 20,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Igualdad y familia",
+    "resumen": "Proteger a las personas LGTB frente a despido, acoso, discriminación en la vivienda y agresiones, también en empresas pequeñas.",
+    "cita": "Protección de las personas LGTB frente al despido, el acoso laboral, la discriminación en el acceso a la vivienda y las agresiones en todo tipo de empresas, también las de menos de 50 trabajadores.",
+    "pagina": 20,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Derecho a elegir representante en empresas de menos de seis trabajadores, con delegados territoriales o sectoriales.",
+    "cita": "Derecho a elegir representante, también en las empresas de menos de seis trabajadores, mediante delegados territoriales o sectoriales elegidos por sus plantillas.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Derecho a asamblea en horario de trabajo, con al menos 10 horas retribuidas al año.",
+    "cita": "Derecho a asamblea en horario de trabajo: al menos 10 horas retribuidas al año.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Asambleas y consultas vinculantes a las plantillas antes de firmar convenios, ERE u otros acuerdos que les afecten.",
+    "cita": "Asambleas y consultas vinculantes a las plantillas antes de firmar convenios, ERE o cualquier acuerdo que afecte a sus condiciones.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Nulidad y readmisión obligatoria en todo despido o sanción por actividad sindical.",
+    "cita": "Nulidad y readmisión obligatoria en todo despido o sanción por actividad sindical.",
+    "pagina": 21,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Proteger frente al despido a quienes promueven asambleas, candidaturas o secciones sindicales desde el primer momento.",
+    "cita": "Protección frente al despido para quienes promueven asambleas, candidaturas o secciones sindicales desde el primer momento.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Rendición periódica de cuentas de los representantes ante la asamblea de trabajadores del centro.",
+    "cita": "Rendición periódica de cuentas de los representantes ante la asamblea de trabajadores del centro.",
+    "pagina": 21,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "PCTE",
+    "tema": "Empleo y salarios",
+    "resumen": "Limitar los servicios mínimos abusivos y la ampliación de lo que se declara servicio esencial.",
+    "cita": "Limitar de raíz los servicios mínimos abusivos y la ampliación de lo que se declara servicio esencial.",
+    "pagina": 21,
     "concreta": false,
     "revisada": true
   }

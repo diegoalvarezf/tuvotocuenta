@@ -20,7 +20,11 @@ async function get(url) {
     return { estado: 0, texto: '' };
   }
 }
-const enlaces = (base, html) => [...html.matchAll(/href="([^"#]+)"/g)].map((m) => { try { return new URL(m[1], base).href; } catch { return null; } }).filter(Boolean);
+// Enlaces en href y también rutas a PDF sueltas en el HTML o en scripts (NEX las tenía fuera de href)
+const enlaces = (base, html) =>
+  [...html.matchAll(/href="([^"#]+)"/g), ...html.matchAll(/["'(]([^"'()\s<>]+\.pdf)["')]/gi)]
+    .map((m) => { try { return new URL(m[1], base).href; } catch { return null; } })
+    .filter(Boolean);
 
 for (const f of programas.filter((x) => !x.programa && x.web)) {
   const portada = await get(f.web);
