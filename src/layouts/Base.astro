@@ -21,7 +21,8 @@ const {
 } = Astro.props;
 // Dominio de astro.config (site); en desarrollo, si falta, el del propio servidor
 const base = Astro.site ?? Astro.url;
-const url = new URL(Astro.url.pathname, base);
+// Sin barra final, igual que en el sitemap y los enlaces: una sola dirección por página para los buscadores
+const url = new URL(Astro.url.pathname.replace(/(.)\/$/, '$1'), base);
 const imagenUrl = new URL(imagen, base);
 
 // En el móvil el menú es una barra fija abajo, con un icono por sección (trazos de 24 × 24)
