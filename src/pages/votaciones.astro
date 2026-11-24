@@ -30,6 +30,13 @@ const votadosDP: VotadoDP[] = [
   ...(decretos.filter((d) => d.organo === 'Diputación Permanente') as unknown as VotadoDP[]),
 ].sort((a, b) => b.votacion.localeCompare(a.votacion) || b.nombre.localeCompare(a.nombre, 'es', { numeric: true }));
 const sinVotar = pendientes.filter((d) => !d.resultado);
+// Los votados, agrupados por sesión: la fecha se dice una vez y cada decreto ocupa tres líneas.
+// Solo la última sesión queda a la vista; las anteriores se despliegan.
+const sesionesDP = [...new Set(votadosDP.map((d) => d.votacion))].map((dia) => ({ dia, decretos: votadosDP.filter((d) => d.votacion === dia) }));
+const convalidadosDP = votadosDP.filter((d) => d.resultado === 'convalidado').length;
+const derogadosDP = votadosDP.length - convalidadosDP;
+const corto = (nombre: string) => nombre.replace('Real Decreto-ley', 'RDL');
+const fechaCorta = (iso: string) => new Date(`${iso}T12:00:00`).toLocaleDateString('es-ES', { day: 'numeric', month: 'long' });
 const derogados = decretos.filter((d) => d.resultado === 'derogado');
 const totalDecretos = decretos.length + pendientes.filter((d) => d.resultado).length;
 const mayuscula = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
@@ -69,37 +76,17 @@ const mayuscula = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
       <h2 id="pendientes-titulo">Decretos con las Cortes disueltas</h2>
       <p>Los vota la Diputación Permanente del Congreso, que decide si se mantienen o se derogan.</p>
       <Fuente de="constitucion" detalle="arts. 78.2 y 86.2" />
-      {votadosDP.length > 0 && (
-        <ul class="votados">
-          {votadosDP.map((d) => (
-            <li>
-              <p class="meta suave"><time datetime={d.votacion}>{fecha(d.votacion)}</time> · {d.nombre}</p>
-              <p class="titulo-pendiente">{mayuscula(d.titulo)}.</p>
-              <p class="resultado-dp">
-                <strong class:list={['estado', d.resultado]}>{d.resultado === 'convalidado' ? 'Convalidado' : 'Derogado'}</strong>
-                {d.totales && <span class="cifra suave">{d.totales.si} a favor · {d.totales.no} en contra{d.totales.abstencion ? ` · ${d.totales.abstencion} ${d.totales.abstencion === 1 ? 'abstención' : 'abstenciones'}` : ''}</span>}
-              </p>
-              <span class="fuente-nota">
-                {d.boe ? (
-                  <>Fuente: <a href={d.boe} target="_blank" rel="noopener">acuerdo de {d.resultado === 'convalidado' ? 'convalidación' : 'derogación'} del {d.nombre} (BOE)</a></>
-                ) : (
-                  <>Fuente: <a href={d.fuenteResultado!.url} target="_blank" rel="noopener">{d.fuenteResultado!.nombre}</a></>
-                )}
-                {d.fuenteVotos && <> · votos: <a href={d.fuenteVotos.url} target="_blank" rel="noopener">{d.fuenteVotos.nombre}</a></>}
-              </span>
-            </li>
-          ))}
-        </ul>
-      )}
+      <p class="resumen-dp">
+        <strong>{votadosDP.length}</strong> votados ({convalidadosDP} convalidados{derogadosDP > 0 && ` y ${derogadosDP} ${derogadosDP === 1 ? 'derogado' : 'derogados'}`}){sinVotar.length > 0 && <> · <strong>{sinVotar.length}</strong> pendientes de votar</>}
+      </p>
       {sinVotar.length > 0 && (
-        <details>
-          <summary>Ver los {sinVotar.length} decretos pendientes de votar</summary>
+        <>
+          <h3>Pendientes de votar</h3>
           <ul>
             {sinVotar.map((d) => (
               <li>
-                <p class="meta suave"><time datetime={d.fecha}>{fecha(d.fecha)}</time> · {d.tema}</p>
-                <p class="titulo-pendiente">{d.titulo}</p>
-                <span class="fuente-nota">Fuente: <a href={d.boe} target="_blank" rel="noopener">{d.nombre} (BOE)</a></span>
+                <p class="titulo-pendiente">{d.titulo.replace(/\.$/, '')}</p>
+                <p class="linea-dp suave">{corto(d.nombre)} · publicado el <time datetime={d.fecha}>{fechaCorta(d.fecha)}</time> · <a href={d.boe} target="_blank" rel="noopener" aria-label={`${d.nombre} (BOE)`}>BOE</a></p>
                 {d.nota && (
                   <p class="nota-pendiente suave">
                     {d.nota} <span class="fuente-nota">Fuente: <a href={d.notaFuente!.url} target="_blank" rel="noopener">{d.notaFuente!.nombre}</a></span>
@@ -108,8 +95,42 @@ const mayuscula = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
               </li>
             ))}
           </ul>
-        </details>
+        </>
       )}
+      {[sesionesDP.slice(0, 1), sesionesDP.slice(1)].map((grupo, i) => {
+        const sesiones = grupo.map((sesion) => (
+          <>
+            <h3>Votados el <time datetime={sesion.dia}>{fechaCorta(sesion.dia)}</time></h3>
+            <ul>
+              {sesion.decretos.map((d) => (
+                <li>
+                  <p class="titulo-pendiente">{mayuscula(d.titulo)}</p>
+                  <p class="linea-dp">
+                    <strong class:list={['estado', d.resultado]}>{d.resultado === 'convalidado' ? 'Convalidado' : 'Derogado'}</strong>
+                    {d.totales && <span class="cifra suave"> · {d.totales.si} a favor, {d.totales.no} en contra{d.totales.abstencion ? `, ${d.totales.abstencion} ${d.totales.abstencion === 1 ? 'abstención' : 'abstenciones'}` : ''}</span>}
+                  </p>
+                  <p class="linea-dp suave">
+                    {corto(d.nombre)} · Fuente:{' '}
+                    {d.boe ? (
+                      <a href={d.boe} target="_blank" rel="noopener" aria-label={`Acuerdo de ${d.resultado === 'convalidado' ? 'convalidación' : 'derogación'} del ${d.nombre} (BOE)`}>BOE</a>
+                    ) : (
+                      <a href={d.fuenteResultado!.url} target="_blank" rel="noopener" aria-label={d.fuenteResultado!.nombre}>Congreso</a>
+                    )}
+                    {d.fuenteVotos && <> y <a href={d.fuenteVotos.url} target="_blank" rel="noopener" aria-label={d.fuenteVotos.nombre}>Congreso</a></>}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </>
+        ));
+        if (i === 0) return sesiones;
+        return grupo.length > 0 && (
+          <details>
+            <summary>Ver los {grupo.reduce((n, x) => n + x.decretos.length, 0)} decretos votados en sesiones anteriores</summary>
+            {sesiones}
+          </details>
+        );
+      })}
     </section>
   )}
 
@@ -420,13 +441,16 @@ const mayuscula = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
   .pendientes { margin: 32px 0 0; padding: 18px 18px 10px; background: var(--resalte); border-radius: 14px; }
   .pendientes h2 { margin: 0 0 6px; font-size: 26px; }
   .pendientes > p { margin: 0; font-size: 15px; }
-  .pendientes details { margin-top: 10px; }
-  .pendientes summary { cursor: pointer; padding: 10px 0; font-weight: 500; }
-  .pendientes ul { list-style: none; margin: 4px 0 0; padding: 0; }
-  .pendientes li { padding: 12px 0; border-top: 1px solid var(--linea); }
-  .titulo-pendiente { margin: 2px 0 0; }
-  .resultado-dp { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 6px 0 0; font-size: 15px; }
-  .estado { font-family: var(--serif); font-weight: 400; font-size: 22px; }
+  .pendientes .resumen-dp { margin-top: 12px; }
+  .pendientes h3 { margin: 22px 0 0; font-family: var(--sans); font-size: 13px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--suave); }
+  .pendientes ul { list-style: none; margin: 8px 0 0; padding: 0; }
+  .pendientes li { padding: 10px 0; border-top: 1px solid var(--linea); }
+  .pendientes details { margin-top: 14px; border-top: 1px solid var(--linea); }
+  .pendientes summary { cursor: pointer; padding: 12px 0; font-weight: 500; }
+  .titulo-pendiente { margin: 0; font-size: 15px; line-height: 1.35; }
+  .linea-dp { margin: 3px 0 0; font-size: 13px; line-height: 1.45; }
+  .linea-dp a { color: inherit; }
+  .estado { font-weight: 600; }
   .estado.derogado { font-style: italic; }
   .nota-pendiente { font-size: 14px; margin: 6px 0 0; }
 
