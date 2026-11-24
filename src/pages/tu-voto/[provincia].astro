@@ -105,6 +105,12 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   {presentadas && (
     <section class="presentadas" id="quien">
       <h2>Quién se presenta</h2>
+      <p class="como-se-vota">
+        {p.escanos2026 === 1
+          ? 'Se vota la papeleta de una candidatura, sin cambiar nada en ella. El escaño es para el candidato de la más votada.'
+          : 'Se vota la lista entera de una candidatura, sin cambiar nombres ni orden. Los escaños que consiga son para los primeros de su lista.'}
+        <Fuente de="loreg" detalle={p.escanos2026 === 1 ? 'arts. 96.2 y 163.2' : 'arts. 96.2 y 163.1.e'} />
+      </p>
       <p class="suave nota-cand">En el orden del BOE. Pulsa una para ver su lista.</p>
       <ul>
         {presentadas.candidaturas.map((c) => (
@@ -324,6 +330,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   .saltos a:hover { background: var(--linea); }
   h2[id], section[id] { scroll-margin-top: 16px; }
   .presentadas { margin-top: 32px; }
+  .como-se-vota { margin: 0 0 14px; max-width: 46ch; }
   .nota-cand { font-size: 14px; margin: 0 0 8px; }
   .presentadas ul { list-style: none; margin: 0; padding: 0; }
   .presentadas > ul > li { border-bottom: 1px solid var(--linea); font-size: 14px; }
