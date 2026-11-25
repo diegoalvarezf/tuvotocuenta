@@ -149,22 +149,33 @@ const senado23 = (senado2023.provincias.find((x) => x.id === p.id)?.circunscripc
         <Fuente de="loreg" detalle="arts. 165 y 166" />
       </p>
       <p class="suave nota-cand"><a href="/tu-voto/senado">Cómo se vota al Senado: qué anula el voto y otras dudas →</a></p>
-      {senado.map((c) => (
-        <div class="circ">
-          {c.isla && <h3>{c.isla}</h3>}
-          <p class="cupo">
-            {c.isla ? 'La isla' : p.id === '51' || p.id === '52' ? 'La ciudad' : 'La provincia'} elige <strong>{senadores(c.escanos)}</strong>. Puedes marcar <strong>{nombres(c.votos)}</strong>.
-          </p>
-          <ul>
-            {c.candidaturas.map((k) => (
-              <li>
-                <span class="sigla">{k.texto}</span>
-                <ul class="personas">{k.candidatos.map((n) => <li>{n}</li>)}</ul>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      {senado.some((c) => c.isla) && <p class="suave nota-cand">Se vota por islas: abre la tuya.</p>}
+      {senado.map((c) => {
+        const contenido = (
+          <>
+            <p class="cupo">
+              {c.isla ? 'La isla' : p.id === '51' || p.id === '52' ? 'La ciudad' : 'La provincia'} elige <strong>{senadores(c.escanos)}</strong>. Puedes marcar <strong>{nombres(c.votos)}</strong>.
+            </p>
+            <ul class="lista-senado">
+              {c.candidaturas.map((k) => (
+                <li>
+                  <span class="sigla">{k.texto}</span>
+                  <span class="personas">{k.candidatos.join(' · ')}</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        );
+        // En Baleares y Canarias cada isla va plegada: cada votante solo necesita la suya
+        return c.isla ? (
+          <details class="circ isla-plegable">
+            <summary><span class="isla-nombre">{c.isla}</span><span class="suave isla-resumen">{senadores(c.escanos)} · {c.candidaturas.length} candidaturas</span></summary>
+            {contenido}
+          </details>
+        ) : (
+          <div class="circ">{contenido}</div>
+        );
+      })}
       <p class="suave nota-cand">
         Además de estos, cada parlamento autonómico designa otros senadores; no se votan el 29 de noviembre.
         <Fuente de="constitucion" detalle="art. 69.5" />
@@ -174,9 +185,9 @@ const senado23 = (senado2023.provincias.find((x) => x.id === p.id)?.circunscripc
       {senado23.length > 0 && (
         <div class="senado-2023" id="senado-2023">
           <h3 class="h-2023">Así votó en 2023</h3>
-          {senado23.map((c) => (
-            <div class="circ-2023">
-              {c.isla && <p class="isla-2023">{c.isla}</p>}
+          {senado23.map((c) => {
+            const bloque = (
+            <>
               <p class="reparto-2023">
                 {c.reparto.map(([s, k], i) => (
                   <span><span class="punto" style={`--c:${color(s)}`}></span>{s} {k}{i < c.reparto.length - 1 ? ' · ' : ''}</span>
@@ -205,8 +216,17 @@ const senado23 = (senado2023.provincias.find((x) => x.id === p.id)?.circunscripc
                   {c.escanos === 1 ? 'El elegido' : 'El último elegido'} sacó <strong>{n(c.margen)}</strong> {c.margen === 1 ? 'voto' : 'votos'} más que {c.siguientes[0].nombre} ({c.siguientes[0].siglas}), el primero que se quedó fuera.
                 </p>
               )}
-            </div>
-          ))}
+            </>
+            );
+            return c.isla ? (
+              <details class="circ-2023 isla-plegable">
+                <summary><span class="isla-nombre">{c.isla}</span><span class="suave isla-resumen">{c.reparto.map(([s, k]) => `${s} ${k}`).join(' · ')}</span></summary>
+                {bloque}
+              </details>
+            ) : (
+              <div class="circ-2023">{bloque}</div>
+            );
+          })}
           <Fuente de="resultadosSenado2023" calculo />
         </div>
       )}
@@ -429,12 +449,20 @@ const senado23 = (senado2023.provincias.find((x) => x.id === p.id)?.circunscripc
   .senado .cupo { margin: 0 0 8px; font-size: 15px; }
   .senado .cupo strong { font-weight: 600; }
   .senado ul { list-style: none; margin: 0; padding: 0; }
-  .senado .circ > ul > li { padding: 10px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
+  .senado .lista-senado > li { padding: 8px 0; border-bottom: 1px solid var(--linea); }
   .senado .sigla { display: block; color: var(--suave); font-size: 12px; letter-spacing: 0.02em; overflow-wrap: anywhere; }
-  .senado .personas li { padding: 2px 0; font-size: 16px; }
+  .senado .personas { display: block; font-size: 15px; line-height: 1.4; }
+  .senado .isla-plegable { border-bottom: 1px solid var(--linea); }
+  .senado .isla-plegable summary { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 14px 0; cursor: pointer; list-style: none; }
+  .senado .isla-plegable summary::-webkit-details-marker { display: none; }
+  .senado .isla-plegable summary::after { content: '+'; font-size: 20px; line-height: 1; color: var(--suave); }
+  .senado .isla-plegable[open] summary::after { content: '−'; }
+  .senado .isla-plegable[open] { padding-bottom: 14px; }
+  .senado .isla-nombre { font-family: var(--serif); font-size: 22px; }
+  .senado .isla-resumen { flex: 1; text-align: right; font-size: 13px; }
+  .senado .isla-plegable .lista-senado > li:last-child { border-bottom: 0; }
   .senado-2023 { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--tinta); scroll-margin-top: 16px; }
   .senado .h-2023 { margin-top: 0; }
-  .isla-2023 { margin: 18px 0 4px; font-weight: 600; }
   .reparto-2023 { margin: 6px 0 8px; font-size: 15px; }
   .reparto-2023 .punto { display: inline-block; width: 9px; height: 9px; margin-right: 5px; border-radius: 50%; background: var(--c); }
   .senado .votados { list-style: none; margin: 0; padding: 0; }
