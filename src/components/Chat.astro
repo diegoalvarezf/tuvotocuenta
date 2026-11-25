@@ -85,41 +85,68 @@ const EJEMPLOS = [
       aviso.hidden = !texto;
     };
 
-    // Pinta la respuesta: el texto, con cada referencia [#id] convertida en un número que lleva a su cita
+    // Pinta la respuesta línea a línea: «Tema:» como rótulo, los guiones como lista (con la formación
+    // destacada si empieza por «Formación: »), el resto como párrafos. Cada referencia [#id] se convierte
+    // en un número que lleva a su cita.
     function pintar(cuerpo: HTMLElement, texto: string, fuentes: Record<string, Fuente> | null) {
       cuerpo.replaceChildren();
       const orden: string[] = [];
-      const parrafos = texto.replace(/\[#(\d+)\](\s*\[#)/g, '[#$1]$2').split(/\n{2,}/);
-      for (const parrafo of parrafos) {
-        if (!parrafo.trim()) continue;
-        const lineas = parrafo.split('\n');
-        const esLista = lineas.every((l) => /^\s*[-•]\s+/.test(l));
-        const contenedor = esLista ? crear('ul') : crear('p');
-        lineas.forEach((linea, i) => {
-          const destino = esLista ? contenedor.appendChild(crear('li')) : contenedor;
-          if (!esLista && i > 0) destino.append(document.createElement('br'));
-          const limpia = esLista ? linea.replace(/^\s*[-•]\s+/, '') : linea;
-          for (const trozo of limpia.split(/(\[#\d+\])/)) {
-            const m = trozo.match(/^\[#(\d+)\]$/);
-            if (!m) {
-              destino.append(trozo.replace(/\*\*/g, ''));
-              continue;
-            }
-            // Mientras llega el texto aún no hay fuentes; una referencia a algo que no se buscó se descarta
-            if (!fuentes) continue;
-            if (!fuentes[m[1]]) continue;
-            if (!orden.includes(m[1])) orden.push(m[1]);
-            const n = orden.indexOf(m[1]) + 1;
-            const ref = crear('a', 'ref', String(n));
-            ref.href = `#cita-${prefijo}${cuerpo.dataset.turno}-${n}`;
-            ref.setAttribute('aria-label', `Cita ${n}`);
-            destino.append(ref);
+      const enLinea = (destino: HTMLElement, linea: string) => {
+        for (const trozo of linea.replace(/\*\*/g, '').split(/(\[#\d+\])/)) {
+          const m = trozo.match(/^\[#(\d+)\]$/);
+          if (!m) {
+            destino.append(trozo);
+            continue;
           }
-        });
-        cuerpo.append(contenedor);
+          // Mientras llega el texto aún no hay fuentes; una referencia a algo que no se buscó se descarta
+          if (!fuentes) continue;
+          if (!fuentes[m[1]]) continue;
+          if (!orden.includes(m[1])) orden.push(m[1]);
+          const n = orden.indexOf(m[1]) + 1;
+          const ref = crear('a', 'ref', String(n));
+          ref.href = `#cita-${prefijo}${cuerpo.dataset.turno}-${n}`;
+          ref.setAttribute('aria-label', `Cita ${n}`);
+          destino.append(ref);
+        }
+      };
+      let ul: HTMLUListElement | null = null;
+      let parrafo: HTMLParagraphElement | null = null;
+      const lineas = texto.replace(/\[#(\d+)\](\s*\[#)/g, '[#$1]$2').split('\n');
+      for (const bruta of lineas) {
+        const linea = bruta.trim();
+        if (!linea) {
+          ul = null;
+          parrafo = null;
+          continue;
+        }
+        const guion = linea.match(/^[-•*]\s+(.*)$/);
+        if (guion) {
+          parrafo = null;
+          ul ??= cuerpo.appendChild(crear('ul'));
+          const li = ul.appendChild(crear('li'));
+          // «Formación: lo que propone» → la formación en negrita para leer la lista de un vistazo
+          const quien = guion[1].match(/^([^:\[]{2,45}):\s+(.+)$/);
+          if (quien) {
+            li.append(crear('strong', 'quien', quien[1]), ' ');
+            enLinea(li, quien[2]);
+          } else enLinea(li, guion[1]);
+          continue;
+        }
+        ul = null;
+        // Línea corta acabada en dos puntos: rótulo de un grupo
+        if (/^[^\[]{2,60}:$/.test(linea) && !/^También/i.test(linea)) {
+          parrafo = null;
+          cuerpo.append(crear('p', 'grupo', linea.replace(/:$/, '').replace(/\*\*/g, '')));
+          continue;
+        }
+        if (parrafo) parrafo.append(' ');
+        else parrafo = cuerpo.appendChild(crear('p', /^También (tienen|hay)/i.test(linea) ? 'mas' : undefined));
+        enLinea(parrafo, linea);
       }
       if (fuentes && orden.length) {
-        const citas = crear('ol', 'citas');
+        const caja = crear('details', 'caja-citas');
+        caja.append(crear('summary', undefined, orden.length === 1 ? 'Ver la cita' : `Ver las ${orden.length} citas`));
+        const citas = caja.appendChild(crear('ol', 'citas'));
         orden.forEach((id, i) => {
           const f = fuentes[id];
           const li = crear('li');
@@ -133,9 +160,24 @@ const EJEMPLOS = [
           li.append(enlace);
           citas.append(li);
         });
-        cuerpo.append(citas);
+        cuerpo.append(caja);
       }
     }
+
+    // Pulsar un número abre las citas (si estaban plegadas) y lleva a la suya
+    lista.addEventListener('click', (e) => {
+      const ref = (e.target as HTMLElement).closest<HTMLAnchorElement>('a.ref');
+      if (!ref) return;
+      const destino = raiz.querySelector<HTMLElement>(ref.getAttribute('href')!);
+      if (!destino) return;
+      e.preventDefault();
+      const caja = destino.closest('details');
+      if (caja) caja.open = true;
+      destino.scrollIntoView({ block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      destino.classList.remove('destacada');
+      void destino.offsetWidth;
+      destino.classList.add('destacada');
+    });
 
     async function preguntar(texto: string) {
       if (ocupado || !texto.trim()) return;
@@ -251,7 +293,7 @@ const EJEMPLOS = [
   .chat.panel .pie-chat { padding: 0 16px 12px; border-top: 1px solid var(--linea); }
   .chat.panel form { margin-top: 12px; }
   .chat.panel .notas { margin-top: 10px; font-size: 12px; }
-  .chat.panel .conversacion :global(.pregunta) { font-size: 21px; margin-top: 22px; }
+  .chat.panel .conversacion :global(.pregunta) { font-size: 20px; margin-top: 22px; }
   .ejemplos { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-bottom: 20px; }
   .ejemplos[hidden] { display: none; }
   .ejemplos button { font: inherit; font-size: 15px; text-align: left; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 9px 16px; cursor: pointer; transition: border-color 0.15s; }
@@ -262,19 +304,35 @@ const EJEMPLOS = [
   .conversacion :global(.pregunta:first-child) { margin-top: 4px; }
   .conversacion :global(.respuesta) { padding-bottom: 20px; border-bottom: 1px solid var(--linea); }
   .conversacion :global(.estado-chat) { margin: 0; font-size: 14px; }
-  .conversacion :global(.cuerpo p) { margin: 0 0 10px; }
-  .conversacion :global(.cuerpo ul) { margin: 0 0 10px; padding-left: 20px; }
-  .conversacion :global(.cuerpo li) { margin-bottom: 6px; }
-  .conversacion :global(.ref) { display: inline-block; min-width: 18px; margin-left: 3px; padding: 0 4px; font-size: 11px; line-height: 18px; text-align: center; text-decoration: none; color: var(--suave); border: 1px solid var(--linea); border-radius: 999px; vertical-align: 2px; }
+  .conversacion :global(.cuerpo) { font-size: 16px; line-height: 1.5; }
+  .conversacion :global(.cuerpo p) { margin: 0 0 12px; }
+  /* Primera frase: la respuesta resumida */
+  .conversacion :global(.cuerpo > p:first-child:not(.grupo)) { font-weight: 500; }
+  .conversacion :global(.cuerpo .grupo) { margin: 18px 0 6px; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--suave); }
+  .conversacion :global(.cuerpo .grupo:first-child) { margin-top: 0; }
+  .conversacion :global(.cuerpo ul) { list-style: none; margin: 0 0 12px; padding: 0; }
+  .conversacion :global(.cuerpo li) { padding: 8px 0; border-top: 1px solid var(--linea); }
+  .conversacion :global(.cuerpo li:first-child) { border-top: 0; padding-top: 2px; }
+  .conversacion :global(.quien) { font-weight: 600; }
+  .conversacion :global(.cuerpo .mas) { font-size: 14px; color: var(--suave); }
+  .conversacion :global(.ref) { display: inline-block; min-width: 20px; margin-left: 3px; padding: 0 5px; font-size: 11px; line-height: 20px; text-align: center; text-decoration: none; color: var(--suave); border: 1px solid var(--linea); border-radius: 999px; vertical-align: 1px; }
   .conversacion :global(.ref:hover) { color: var(--tinta); border-color: var(--suave); }
-  .conversacion :global(.citas) { margin: 16px 0 0; padding: 0 0 0 20px; font-size: 13px; color: var(--suave); }
-  .conversacion :global(.citas li) { margin-bottom: 12px; scroll-margin-top: 16px; }
+  .conversacion :global(.caja-citas) { margin-top: 12px; }
+  .conversacion :global(.caja-citas summary) { display: inline-block; font-size: 13px; color: var(--suave); border: 1px solid var(--linea); border-radius: 999px; padding: 6px 12px; cursor: pointer; list-style: none; }
+  .conversacion :global(.caja-citas summary::-webkit-details-marker) { display: none; }
+  .conversacion :global(.caja-citas[open] summary) { color: var(--tinta); }
+  .conversacion :global(.citas) { margin: 12px 0 0; padding: 0 0 0 20px; font-size: 13px; color: var(--suave); }
+  .conversacion :global(.citas li) { margin-bottom: 12px; scroll-margin: 16px; border-radius: 6px; transition: background-color 0.6s; }
+  .conversacion :global(.citas li.destacada) { animation: destacar 1.6s ease-out; }
   .conversacion :global(.cita-origen) { color: var(--tinta); font-weight: 600; }
-  .conversacion :global(.citas blockquote) { margin: 4px 0; padding-left: 10px; border-left: 2px solid var(--linea); font-size: 14px; line-height: 1.45; }
+  .conversacion :global(.citas blockquote) { margin: 4px 0; padding-left: 10px; border-left: 2px solid var(--linea); font-size: 14px; line-height: 1.45; overflow-wrap: anywhere; }
   .conversacion :global(.ir-pagina) { color: var(--suave); }
+  @keyframes destacar { from { background-color: var(--linea); } to { background-color: transparent; } }
+  /* En el panel, algo más compacto */
+  .chat.panel .conversacion :global(.cuerpo) { font-size: 15px; }
 
   form { display: flex; gap: 8px; align-items: flex-end; margin-top: 20px; }
-  textarea { flex: 1; min-width: 0; font: inherit; color: var(--tinta); background: transparent; border: 1px solid var(--tinta); border-radius: 14px; padding: 10px 14px; resize: none; }
+  textarea { flex: 1; min-width: 0; font: inherit; color: var(--tinta); background: transparent; border: 1px solid var(--tinta); border-radius: 14px; padding: 10px 14px; resize: none; font-size: 16px; }
   textarea::placeholder { color: var(--suave); }
   form button { font: inherit; font-weight: 500; color: var(--papel); background: var(--tinta); border: 1px solid var(--tinta); border-radius: 999px; min-height: 46px; padding: 0 18px; cursor: pointer; transition: opacity 0.15s; }
   form button:disabled { opacity: 0.4; cursor: default; }
@@ -284,5 +342,6 @@ const EJEMPLOS = [
 
   @media (prefers-reduced-motion: reduce) {
     .ejemplos button, form button { transition: none; }
+    .conversacion :global(.citas li.destacada) { animation: none; }
   }
 </style>
