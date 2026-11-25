@@ -1,0 +1,288 @@
+---
+// Chat de dudas sobre las propuestas. Se usa en la página /preguntar y en el panel flotante de toda la web.
+interface Props {
+  // En el panel flotante la conversación se desplaza dentro de la caja
+  panel?: boolean;
+}
+const { panel = false } = Astro.props;
+const EJEMPLOS = [
+  '¿Qué proponen sobre el precio del alquiler?',
+  '¿Qué dice cada formación sobre las pensiones?',
+  '¿Quién propone cambiar la jornada laboral?',
+];
+---
+
+<section class:list={['chat', panel ? 'panel' : 'pagina']} data-chat>
+  <div class="desplaza" data-desplaza={panel ? '' : undefined}>
+    <div class="ejemplos" data-ejemplos>
+      {EJEMPLOS.map((e) => <button type="button" data-ejemplo>{e}</button>)}
+    </div>
+    <ol class="conversacion" data-conversacion aria-live="polite"></ol>
+  </div>
+  <div class="pie-chat">
+    <form data-formulario>
+      <textarea name="pregunta" rows="2" maxlength="600" placeholder="¿Qué propone…?" aria-label="Tu pregunta" required enterkeyhint="send"></textarea>
+      <button type="submit" data-enviar>Preguntar</button>
+    </form>
+    <p class="aviso-error suave" data-error hidden></p>
+    <p class="notas suave">
+      {panel ? (
+        <>Responde una IA que solo lee las <a href="/propuestas">propuestas publicadas</a>. Puede equivocarse: comprueba la cita. Tu pregunta se envía a Anthropic. <a href="/privacidad">Privacidad</a>.</>
+      ) : (
+        <>
+          Las respuestas las redacta una inteligencia artificial que solo puede leer las <a href="/propuestas">propuestas publicadas en esta web</a>.
+          Puede equivocarse: comprueba siempre la cita. No recomienda a quién votar. Tu pregunta se envía a Anthropic para generar la
+          respuesta y esta web no la guarda. <a href="/privacidad">Privacidad</a>.
+        </>
+      )}
+    </p>
+  </div>
+</section>
+
+<script>
+  interface Fuente { partido: string; resumen: string; cita: string; pagina: number | null; enlace: string }
+  type Turno = { rol: 'usuario' | 'asistente'; texto: string };
+
+  function iniciar(raiz: HTMLElement) {
+    if (raiz.dataset.listo) return;
+    raiz.dataset.listo = '1';
+    const lista = raiz.querySelector<HTMLOListElement>('[data-conversacion]')!;
+    const formulario = raiz.querySelector<HTMLFormElement>('[data-formulario]')!;
+    const campo = formulario.querySelector('textarea')!;
+    const boton = raiz.querySelector<HTMLButtonElement>('[data-enviar]')!;
+    const ejemplos = raiz.querySelector<HTMLElement>('[data-ejemplos]')!;
+    const aviso = raiz.querySelector<HTMLElement>('[data-error]')!;
+    const turnos: Turno[] = [];
+    let ocupado = false;
+    // La conversación se guarda en el navegador mientras dure la pestaña, para no perderla al cambiar de página.
+    // No sale del dispositivo. Los identificadores de cita distinguen el chat de la página del flotante.
+    const CLAVE = 'chat-conversacion';
+    const prefijo = raiz.classList.contains('panel') ? 'f' : 'p';
+    type Guardado = { pregunta: string; respuesta: string; fuentes: Record<string, Fuente> };
+    const leer = (): Guardado[] => {
+      try {
+        return JSON.parse(sessionStorage.getItem(CLAVE) ?? '[]') as Guardado[];
+      } catch {
+        return [];
+      }
+    };
+    const guardar = (g: Guardado) => {
+      try {
+        sessionStorage.setItem(CLAVE, JSON.stringify([...leer(), g].slice(-8)));
+      } catch {
+        // Sin almacenamiento (modo privado estricto): el chat funciona igual, sin recordar
+      }
+    };
+
+    const crear = <K extends keyof HTMLElementTagNameMap>(etiqueta: K, clase?: string, texto?: string) => {
+      const e = document.createElement(etiqueta);
+      if (clase) e.className = clase;
+      if (texto !== undefined) e.textContent = texto;
+      return e;
+    };
+    const error = (texto: string) => {
+      aviso.textContent = texto;
+      aviso.hidden = !texto;
+    };
+
+    // Pinta la respuesta: el texto, con cada referencia [#id] convertida en un número que lleva a su cita
+    function pintar(cuerpo: HTMLElement, texto: string, fuentes: Record<string, Fuente> | null) {
+      cuerpo.replaceChildren();
+      const orden: string[] = [];
+      const parrafos = texto.replace(/\[#(\d+)\](\s*\[#)/g, '[#$1]$2').split(/\n{2,}/);
+      for (const parrafo of parrafos) {
+        if (!parrafo.trim()) continue;
+        const lineas = parrafo.split('\n');
+        const esLista = lineas.every((l) => /^\s*[-•]\s+/.test(l));
+        const contenedor = esLista ? crear('ul') : crear('p');
+        lineas.forEach((linea, i) => {
+          const destino = esLista ? contenedor.appendChild(crear('li')) : contenedor;
+          if (!esLista && i > 0) destino.append(document.createElement('br'));
+          const limpia = esLista ? linea.replace(/^\s*[-•]\s+/, '') : linea;
+          for (const trozo of limpia.split(/(\[#\d+\])/)) {
+            const m = trozo.match(/^\[#(\d+)\]$/);
+            if (!m) {
+              destino.append(trozo.replace(/\*\*/g, ''));
+              continue;
+            }
+            // Mientras llega el texto aún no hay fuentes; una referencia a algo que no se buscó se descarta
+            if (!fuentes) continue;
+            if (!fuentes[m[1]]) continue;
+            if (!orden.includes(m[1])) orden.push(m[1]);
+            const n = orden.indexOf(m[1]) + 1;
+            const ref = crear('a', 'ref', String(n));
+            ref.href = `#cita-${prefijo}${cuerpo.dataset.turno}-${n}`;
+            ref.setAttribute('aria-label', `Cita ${n}`);
+            destino.append(ref);
+          }
+        });
+        cuerpo.append(contenedor);
+      }
+      if (fuentes && orden.length) {
+        const citas = crear('ol', 'citas');
+        orden.forEach((id, i) => {
+          const f = fuentes[id];
+          const li = crear('li');
+          li.id = `cita-${prefijo}${cuerpo.dataset.turno}-${i + 1}`;
+          li.append(crear('span', 'cita-origen', `${f.partido}${f.pagina ? ` · pág. ${f.pagina}` : ' · su web'}`));
+          li.append(crear('blockquote', undefined, `«${f.cita}»`));
+          const enlace = crear('a', 'ir-pagina', f.pagina ? `Ver la página ${f.pagina} del documento` : 'Ver en su web (copia guardada)');
+          enlace.href = f.enlace;
+          enlace.target = '_blank';
+          enlace.rel = 'noopener';
+          li.append(enlace);
+          citas.append(li);
+        });
+        cuerpo.append(citas);
+      }
+    }
+
+    async function preguntar(texto: string) {
+      if (ocupado || !texto.trim()) return;
+      ocupado = true;
+      boton.disabled = true;
+      error('');
+      ejemplos.hidden = true;
+      turnos.push({ rol: 'usuario', texto: texto.trim() });
+      lista.append(crear('li', 'pregunta', texto.trim()));
+      const item = lista.appendChild(crear('li', 'respuesta'));
+      const estado = item.appendChild(crear('p', 'estado-chat suave', 'Buscando en los programas…'));
+      const cuerpo = item.appendChild(crear('div', 'cuerpo'));
+      cuerpo.dataset.turno = String(turnos.length);
+      item.scrollIntoView({ block: 'nearest' });
+      const caja = raiz.querySelector<HTMLElement>('[data-desplaza]');
+      if (caja) caja.scrollTop = caja.scrollHeight;
+
+      let respuesta = '';
+      let fuentes: Record<string, Fuente> | null = null;
+      let fallo = '';
+      try {
+        const r = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ mensajes: turnos }) });
+        if (!r.ok || !r.body) {
+          fallo = (await r.json().catch(() => null))?.error ?? 'No se ha podido responder. Vuelve a intentarlo.';
+        } else {
+          const lector = r.body.pipeThrough(new TextDecoderStream()).getReader();
+          let resto = '';
+          for (;;) {
+            const { value, done } = await lector.read();
+            if (done) break;
+            resto += value;
+            const lineas = resto.split('\n');
+            resto = lineas.pop() ?? '';
+            for (const linea of lineas) {
+              if (!linea) continue;
+              const evento = JSON.parse(linea) as { t: string; v: unknown };
+              if (evento.t === 'd') {
+                respuesta += evento.v as string;
+                estado.hidden = true;
+                pintar(cuerpo, respuesta, null);
+              } else if (evento.t === 'x') {
+                respuesta = '';
+                cuerpo.replaceChildren();
+              } else if (evento.t === 'b') {
+                estado.hidden = false;
+                estado.textContent = evento.v ? `Buscando «${evento.v}»…` : 'Buscando en los programas…';
+              } else if (evento.t === 'f') fuentes = evento.v as Record<string, Fuente>;
+              else if (evento.t === 'e') fallo = evento.v as string;
+            }
+          }
+        }
+      } catch {
+        fallo = 'No se ha podido conectar. Comprueba tu conexión y vuelve a intentarlo.';
+      }
+      estado.remove();
+      if (respuesta.trim() && !fallo) {
+        pintar(cuerpo, respuesta, fuentes ?? {});
+        // En la conversación se guarda el texto sin referencias: los identificadores solo valen para esta respuesta
+        turnos.push({ rol: 'asistente', texto: respuesta.replace(/\s*\[#\d+\]/g, '') });
+        // Solo se guardan las fuentes citadas
+        const citadas = Object.fromEntries([...respuesta.matchAll(/\[#(\d+)\]/g)].map((m) => m[1]).filter((id) => fuentes?.[id]).map((id) => [id, fuentes![id]]));
+        guardar({ pregunta: texto.trim(), respuesta, fuentes: citadas });
+      } else {
+        item.remove();
+        lista.lastElementChild?.remove();
+        turnos.pop();
+        campo.value = texto;
+        error(fallo || 'No se ha podido responder. Vuelve a intentarlo.');
+      }
+      ocupado = false;
+      boton.disabled = false;
+    }
+
+    // Al abrir otra página, se recupera la conversación de esta pestaña
+    for (const g of leer()) {
+      turnos.push({ rol: 'usuario', texto: g.pregunta });
+      lista.append(crear('li', 'pregunta', g.pregunta));
+      const cuerpo = lista.appendChild(crear('li', 'respuesta')).appendChild(crear('div', 'cuerpo'));
+      cuerpo.dataset.turno = String(turnos.length);
+      pintar(cuerpo, g.respuesta, g.fuentes);
+      turnos.push({ rol: 'asistente', texto: g.respuesta.replace(/\s*\[#\d+\]/g, '') });
+      ejemplos.hidden = true;
+    }
+
+    formulario.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const texto = campo.value;
+      campo.value = '';
+      void preguntar(texto);
+    });
+    campo.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) {
+        e.preventDefault();
+        formulario.requestSubmit();
+      }
+    });
+    ejemplos.addEventListener('click', (e) => {
+      const b = (e.target as HTMLElement).closest<HTMLElement>('[data-ejemplo]');
+      if (b) void preguntar(b.textContent ?? '');
+    });
+  }
+  const iniciarTodos = () => document.querySelectorAll<HTMLElement>('[data-chat]').forEach(iniciar);
+  document.addEventListener('astro:page-load', iniciarTodos);
+</script>
+
+<style>
+  .oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+  .chat.pagina { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--tinta); }
+  /* En el panel flotante: la conversación se desplaza y el formulario queda fijo abajo */
+  .chat.panel { display: flex; flex-direction: column; min-height: 0; flex: 1; }
+  .chat.panel .desplaza { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 14px 16px 4px; }
+  .chat.panel .pie-chat { padding: 0 16px 12px; border-top: 1px solid var(--linea); }
+  .chat.panel form { margin-top: 12px; }
+  .chat.panel .notas { margin-top: 10px; font-size: 12px; }
+  .chat.panel .conversacion :global(.pregunta) { font-size: 21px; margin-top: 22px; }
+  .ejemplos { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-bottom: 20px; }
+  .ejemplos[hidden] { display: none; }
+  .ejemplos button { font: inherit; font-size: 15px; text-align: left; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; padding: 9px 16px; cursor: pointer; transition: border-color 0.15s; }
+  .ejemplos button:hover { border-color: var(--suave); }
+
+  .conversacion { list-style: none; margin: 0; padding: 0; }
+  .conversacion :global(.pregunta) { font-family: var(--serif); font-size: 24px; line-height: 1.2; margin: 28px 0 10px; }
+  .conversacion :global(.pregunta:first-child) { margin-top: 4px; }
+  .conversacion :global(.respuesta) { padding-bottom: 20px; border-bottom: 1px solid var(--linea); }
+  .conversacion :global(.estado-chat) { margin: 0; font-size: 14px; }
+  .conversacion :global(.cuerpo p) { margin: 0 0 10px; }
+  .conversacion :global(.cuerpo ul) { margin: 0 0 10px; padding-left: 20px; }
+  .conversacion :global(.cuerpo li) { margin-bottom: 6px; }
+  .conversacion :global(.ref) { display: inline-block; min-width: 18px; margin-left: 3px; padding: 0 4px; font-size: 11px; line-height: 18px; text-align: center; text-decoration: none; color: var(--suave); border: 1px solid var(--linea); border-radius: 999px; vertical-align: 2px; }
+  .conversacion :global(.ref:hover) { color: var(--tinta); border-color: var(--suave); }
+  .conversacion :global(.citas) { margin: 16px 0 0; padding: 0 0 0 20px; font-size: 13px; color: var(--suave); }
+  .conversacion :global(.citas li) { margin-bottom: 12px; scroll-margin-top: 16px; }
+  .conversacion :global(.cita-origen) { color: var(--tinta); font-weight: 600; }
+  .conversacion :global(.citas blockquote) { margin: 4px 0; padding-left: 10px; border-left: 2px solid var(--linea); font-size: 14px; line-height: 1.45; }
+  .conversacion :global(.ir-pagina) { color: var(--suave); }
+
+  form { display: flex; gap: 8px; align-items: flex-end; margin-top: 20px; }
+  textarea { flex: 1; min-width: 0; font: inherit; color: var(--tinta); background: transparent; border: 1px solid var(--tinta); border-radius: 14px; padding: 10px 14px; resize: none; }
+  textarea::placeholder { color: var(--suave); }
+  form button { font: inherit; font-weight: 500; color: var(--papel); background: var(--tinta); border: 1px solid var(--tinta); border-radius: 999px; min-height: 46px; padding: 0 18px; cursor: pointer; transition: opacity 0.15s; }
+  form button:disabled { opacity: 0.4; cursor: default; }
+  .aviso-error { margin: 10px 0 0; font-size: 14px; }
+  .notas { margin: 18px 0 0; font-size: 13px; line-height: 1.5; }
+  .notas a { color: inherit; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ejemplos button, form button { transition: none; }
+  }
+</style>

@@ -1,0 +1,108 @@
+---
+// Chat en una esquina de toda la web: un botón que abre un panel con el mismo chat de /preguntar.
+// Se conserva al cambiar de página (transition:persist), así no se pierde la conversación.
+import Chat from './Chat.astro';
+---
+
+<div class="flotante" data-flotante transition:persist="chat-flotante">
+  <button type="button" class="abrir" data-abrir aria-label="Preguntar a los programas" aria-haspopup="dialog" aria-expanded="false" aria-controls="panel-chat">
+    <span class="signo" aria-hidden="true">?</span><span class="texto">Preguntar</span>
+  </button>
+  <div class="panel" id="panel-chat" role="dialog" aria-label="Pregunta a los programas" data-panel hidden>
+    <header>
+      <p class="titulo">Pregunta a los <em>programas</em></p>
+      <button type="button" class="cerrar" data-cerrar aria-label="Cerrar el chat">Cerrar</button>
+    </header>
+    <Chat panel />
+  </div>
+</div>
+
+<script>
+  function iniciar() {
+    const raiz = document.querySelector<HTMLElement>('[data-flotante]');
+    if (!raiz) return;
+    // En la página del chat no hace falta el flotante
+    raiz.hidden = location.pathname.replace(/\/$/, '') === '/preguntar';
+    if (raiz.dataset.listo) return;
+    raiz.dataset.listo = '1';
+    const abrir = raiz.querySelector<HTMLButtonElement>('[data-abrir]')!;
+    const panel = raiz.querySelector<HTMLElement>('[data-panel]')!;
+    const mostrar = (si: boolean) => {
+      panel.hidden = !si;
+      abrir.hidden = si;
+      abrir.setAttribute('aria-expanded', String(si));
+      // En el móvil el panel ocupa la pantalla: la página de debajo no se desplaza
+      document.documentElement.classList.toggle('chat-abierto', si);
+      if (si) panel.querySelector('textarea')?.focus({ preventScroll: true });
+      else abrir.focus({ preventScroll: true });
+    };
+    abrir.addEventListener('click', () => mostrar(true));
+    raiz.querySelector('[data-cerrar]')!.addEventListener('click', () => mostrar(false));
+    raiz.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !panel.hidden) mostrar(false);
+    });
+    // Un enlace del panel a otra página de la web cierra el panel para que se vea
+    panel.addEventListener('click', (e) => {
+      const a = (e.target as HTMLElement).closest('a');
+      if (a && a.target !== '_blank' && !a.getAttribute('href')?.startsWith('#')) mostrar(false);
+    });
+  }
+  document.addEventListener('astro:page-load', iniciar);
+</script>
+
+<style>
+  .flotante[hidden] { display: none; }
+  .abrir {
+    position: fixed;
+    right: 14px;
+    bottom: calc(59px + 14px + env(safe-area-inset-bottom));
+    z-index: 30;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    /* En el móvil, solo el signo: un círculo que no tapa el contenido ni el índice de votaciones */
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--papel);
+    background: var(--tinta);
+    border: 1px solid var(--tinta);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+  }
+  .abrir[hidden] { display: none; }
+  .abrir:active { transform: scale(0.97); }
+  .signo { font-family: var(--serif); font-size: 24px; line-height: 1; }
+  .texto { display: none; }
+
+  .panel {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    display: flex;
+    flex-direction: column;
+    background: var(--papel);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .panel[hidden] { display: none; }
+  .panel header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px; border-bottom: 1px solid var(--tinta); }
+  .titulo { margin: 0; font-family: var(--serif); font-size: 22px; line-height: 1.1; }
+  .cerrar { font: inherit; font-size: 14px; color: var(--tinta); background: transparent; border: 1px solid var(--linea); border-radius: 999px; min-height: 36px; padding: 0 14px; cursor: pointer; }
+  .cerrar:hover { border-color: var(--suave); }
+  :global(html.chat-abierto) { overflow: hidden; }
+
+  @media (min-width: 640px) {
+    .abrir { right: 24px; bottom: 24px; width: auto; padding: 0 16px 0 14px; }
+    .texto { display: inline; }
+    .panel { inset: auto 24px 24px auto; width: 400px; height: min(640px, calc(100vh - 48px)); border: 1px solid var(--tinta); border-radius: 16px; overflow: hidden; padding-bottom: 0; }
+    :global(html.chat-abierto) { overflow: visible; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .abrir { transition: none; }
+  }
+</style>

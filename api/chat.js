@@ -158,6 +158,9 @@ export async function POST(request) {
           });
           emision.on('text', (delta) => enviar('d', delta));
           const mensaje = await emision.finalMessage();
+          // Consumo de cada llamada, para vigilar el gasto en los registros de Vercel (sin el texto de la pregunta)
+          const u = mensaje.usage;
+          console.log('chat uso', JSON.stringify({ modelo: mensaje.model, ronda, entrada: u.input_tokens, cache_lectura: u.cache_read_input_tokens, cache_escritura: u.cache_creation_input_tokens, salida: u.output_tokens }));
 
           if (mensaje.stop_reason === 'refusal') {
             enviar('e', 'No puedo responder a esa pregunta. Prueba a preguntar qué propone una formación sobre un tema.');
