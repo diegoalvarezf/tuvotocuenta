@@ -44,6 +44,7 @@ npm run build
 | Carpeta | Contenido |
 |---|---|
 | `src/pages/` | Las páginas (Astro, sitio estático) |
+| `api/` | Chat de dudas: función de servidor y buscador de propuestas |
 | `src/data/` | Los datos publicados, en JSON |
 | `src/lib/` | Reparto D'Hondt, registro de fuentes, partidos y provincias |
 | `scripts/` | Obtención y procesado de datos desde las fuentes oficiales |
@@ -112,6 +113,15 @@ node scripts/resultados-2026.mjs provincias-2026.json 99.5 provisional <url-fuen
 ```
 
 El script comprueba que los escaños de cada provincia coinciden con el Real Decreto 806/2026. Al existir `src/data/congreso-2026.json`, cada provincia muestra el resultado comparado con 2023 y los tests verifican que el reparto cuadra con la ley D'Hondt.
+
+## Chat de dudas
+
+`/preguntar` responde preguntas sobre las propuestas. Es el único código que se ejecuta en el servidor (`api/chat.js`, función de Vercel):
+
+- El modelo no responde de memoria: solo puede llamar al buscador de `api/_buscar.js`, que lee las propuestas publicadas.
+- Cada afirmación lleva una referencia a una propuesta, y la página muestra debajo su cita literal y el enlace a su página.
+- No recomienda el voto ni valora las propuestas.
+- Necesita la variable de entorno `ANTHROPIC_API_KEY`. Sin ella el chat está apagado y la página no se enlaza (`CHAT_ACTIVO` en `src/lib/chat.ts`).
 
 ## Avisar de un error
 

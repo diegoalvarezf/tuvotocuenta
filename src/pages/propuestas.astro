@@ -6,6 +6,7 @@ import propuestasJson from '../data/propuestas.json';
 import TEMAS from '../data/temas.json';
 import candidaturas from '../data/candidaturas-2026.json';
 import { color } from '../lib/partidos';
+import { CHAT_ACTIVO } from '../lib/chat';
 import { provincias } from '../lib/provincias';
 
 interface Programa {
@@ -71,6 +72,7 @@ const esWeb = (siglas: string) => Boolean((fuenteDe(siglas) as Programa)?.web);
 <Base title="Programas electorales 2026 comparados por temas · tuvotocuenta" description="Qué propone cada partido para el 29 de noviembre, tema a tema, con la cita literal y la página exacta de su programa.">
   <h1>Lo que<br /><em>proponen</em></h1>
   <p class="entradilla">Qué dice cada programa, tema a tema, con la cita literal y su página.</p>
+  {CHAT_ACTIVO && <p class="a-preguntar"><a href="/preguntar">¿Tienes una duda concreta? Pregunta a los programas <span aria-hidden="true">→</span></a></p>}
   {propuestas.length > 0 && (
     <>
       <dl class="cifras-cabecera">
@@ -374,6 +376,7 @@ const esWeb = (siglas: string) => Boolean((fuenteDe(siglas) as Programa)?.web);
 <style>
   h1 em { font-style: italic; }
   .entradilla { font-size: var(--entradilla); max-width: 38ch; margin: 0; }
+  .a-preguntar { margin: 10px 0 0; font-size: 15px; }
   .fuente-propia { display: block; margin: 6px 0 28px; font-size: 13px; line-height: 1.45; }
 
   .espera { border-top: 1px solid var(--tinta); padding-top: 16px; }
