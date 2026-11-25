@@ -8,7 +8,7 @@ const { panel = false } = Astro.props;
 const EJEMPLOS = [
   '¿Qué proponen sobre el precio del alquiler?',
   '¿Qué dice cada formación sobre las pensiones?',
-  '¿Quién propone cambiar la jornada laboral?',
+  '¿Qué puedo votar al Senado en mi provincia?',
 ];
 ---
 
@@ -40,7 +40,8 @@ const EJEMPLOS = [
 </section>
 
 <script>
-  interface Fuente { partido: string; resumen: string; cita: string; pagina: number | null; enlace: string }
+  // origen y textoEnlace solo vienen en las candidaturas del BOE, que enlazan a «Tu voto» en esta web
+  interface Fuente { partido: string; resumen: string; cita: string; pagina: number | null; enlace: string; origen?: string; textoEnlace?: string }
   type Turno = { rol: 'usuario' | 'asistente'; texto: string };
 
   function iniciar(raiz: HTMLElement) {
@@ -151,12 +152,14 @@ const EJEMPLOS = [
           const f = fuentes[id];
           const li = crear('li');
           li.id = `cita-${prefijo}${cuerpo.dataset.turno}-${i + 1}`;
-          li.append(crear('span', 'cita-origen', `${f.partido}${f.pagina ? ` · pág. ${f.pagina}` : ' · su web'}`));
-          li.append(crear('blockquote', undefined, `«${f.cita}»`));
-          const enlace = crear('a', 'ir-pagina', f.pagina ? `Ver la página ${f.pagina} del documento` : 'Ver en su web (copia guardada)');
+          li.append(crear('span', 'cita-origen', f.origen ?? `${f.partido}${f.pagina ? ` · pág. ${f.pagina}` : ' · su web'}`));
+          li.append(crear('blockquote', undefined, f.origen ? f.cita : `«${f.cita}»`));
+          const enlace = crear('a', 'ir-pagina', f.textoEnlace ?? (f.pagina ? `Ver la página ${f.pagina} del documento` : 'Ver en su web (copia guardada)'));
           enlace.href = f.enlace;
-          enlace.target = '_blank';
-          enlace.rel = 'noopener';
+          if (!f.enlace.startsWith('/')) {
+            enlace.target = '_blank';
+            enlace.rel = 'noopener';
+          }
           li.append(enlace);
           citas.append(li);
         });

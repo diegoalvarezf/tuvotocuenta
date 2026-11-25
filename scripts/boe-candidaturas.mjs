@@ -1,7 +1,8 @@
-// Genera src/data/candidaturas-2026.json a partir del texto del BOE con las candidaturas proclamadas al Congreso
-// (BOE-A-2026-23103). Las marcadas «No proclamada» se guardan aparte: no se presentan.
+// Genera src/data/candidaturas-2026.json (Congreso) y src/data/senado-2026.json (Senado) a partir del texto del BOE
+// con las candidaturas proclamadas (BOE-A-2026-23103). Las marcadas «No proclamada» se guardan aparte: no se presentan.
+// En el Senado, Baleares y Canarias votan por islas: cada isla es su propia circunscripción.
 //
-// Uso: pdftotext -layout BOE-A-2026-23103.pdf texto.txt && node scripts/boe-candidaturas.mjs texto.txt
+// Uso: pdftotext -enc UTF-8 -layout BOE-A-2026-23103.pdf texto.txt && node scripts/boe-candidaturas.mjs texto.txt
 
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -37,6 +38,9 @@ const esCabecera = (t) => {
 const ENCABEZADO = /^(\d+)\.\s+(.+)$/;
 
 const porProvincia = new Map();
+// Senado: provincia → circunscripción (la propia provincia o una isla) → candidaturas
+const senado = new Map();
+let isla = null;
 let provincia = null;
 let camara = null;
 let actual = null;
@@ -51,11 +55,15 @@ for (const [i, l] of lineas.entries()) {
   if (junta) {
     provincia = junta[1];
     camara = null;
+    isla = null;
     cerrar();
     continue;
   }
   if (l === 'CONGRESO DE LOS DIPUTADOS') { camara = 'congreso'; cerrar(); continue; }
   if (l === 'SENADO') { camara = 'senado'; cerrar(); continue; }
+  const circ = l.match(/^Circunscripción electoral:?\s+(.+)$/);
+  if (circ) { isla = circ[1].trim(); cerrar(); continue; }
+  if (camara === 'senado') { leerSenado(l, i); continue; }
   if (camara !== 'congreso') continue;
 
   if (/^No proclamada/i.test(l) && actual) { actual.proclamada = false; cortada = false; continue; }
@@ -85,6 +93,40 @@ for (const [i, l] of lineas.entries()) {
     const nombre = p[2].replace(/\s*\(.*$/, '').trim();
     actual.candidatos.push(nombre);
   }
+}
+
+// En el Senado cada titular lleva sus dos suplentes debajo («Suplente 1: …»); solo se guardan los titulares.
+// El nombre pierde solo el paréntesis final (partido o «Independiente»), no un apodo en medio.
+function leerSenado(l, i) {
+  if (/^No proclamada/i.test(l) && actual) { actual.proclamada = false; cortada = false; return; }
+  const m = l.match(ENCABEZADO);
+  const noProclamada = /^No proclamada/i.test(lineas[i + 1] ?? '');
+  // Una persona con su partido en mayúsculas puede ocupar dos líneas: cuenta solo lo que va antes del paréntesis
+  if (m && (noProclamada || ((esCabecera(m[2].split('(')[0]) || /[)\]]$/.test(m[2])) && !/\.$/.test(m[2])))) {
+    const clave = `${provincia}|${isla ?? ''}`;
+    const lista = senado.get(clave) ?? [];
+    actual = { orden: Number(m[1]), texto: m[2], proclamada: true, candidatos: [] };
+    lista.push(actual);
+    senado.set(clave, lista);
+    cortada = !/\)\]?$/.test(m[2]);
+    return;
+  }
+  if (!actual) return;
+  if (cortada && esCabecera(l)) {
+    actual.texto += ' ' + l;
+    cortada = !/\)\]?$/.test(l);
+    return;
+  }
+  cortada = false;
+  // Ceuta pone «Suplente:» y debajo los dos suplentes numerados
+  if (/^Suplentes?:$/i.test(l)) { actual.saltar = 2; return; }
+  if (/^Suplente/i.test(l)) return;
+  const p = l.match(/^(\d+)\.\s+(.+?)\.?$/);
+  if (p && actual.saltar) { actual.saltar--; return; }
+  // Alguna junta (Valladolid) pone los titulares sin número
+  const nombre = p ? p[2] : /\.$/.test(l) && !esCabecera(l) && l.split(' ').length <= 9 ? l.replace(/\.$/, '') : null;
+  // Fuera el partido del final, con paréntesis o corchetes anidados o sin cerrar; un apodo en medio se queda
+  if (nombre) actual.candidatos.push(nombre.replace(/\s*[([](?:[^()[\]]|\([^()]*\)?)*[)\]]?$/, '').trim());
 }
 
 // Corrección de errores publicada en el BOE del 7-11-2026 (BOE-A-2026-23383), solo la parte del Congreso.
@@ -136,6 +178,10 @@ const FORMACIONES = [
   [/^IUSTITIA EUROPA/i, 'Iustitia Europa', 'Iustitia Europa'],
   [/^FEDERACION DE LOS INDEPENDIENTES DE ARAGON/i, 'FIA', 'Federación de los Independientes de Aragón'],
 ];
+// Solo en el Senado: coaliciones que se presentan con otro nombre
+const FORMACIONES_SENADO = [
+  [/^SENADO DE PROGRESO/i, 'Senado de Progreso'],
+];
 
 function partes(texto) {
   const m = texto.match(/^(.*?)\s*\(([^()]*)\)$/);
@@ -159,6 +205,35 @@ const provincias = Object.entries(JUNTAS).map(([boe, id]) => {
   };
 });
 
+// Senado. Escaños y nombres que puede marcar cada votante: artículos 165 y 166 de la LOREG.
+const ISLAS = {
+  Mallorca: [3, 2], 'Gran Canaria': [3, 2], Tenerife: [3, 2],
+  Menorca: [1, 1], Eivissa: [1, 1], Formentera: [1, 1], Fuerteventura: [1, 1], Lanzarote: [1, 1], 'La Palma': [1, 1], 'La Gomera': [1, 1], 'El Hierro': [1, 1],
+};
+const reglas = (id, isla) => (isla ? ISLAS[isla] : id === '51' || id === '52' ? [2, 1] : [4, 3]);
+const formacionSenado = (texto) => FORMACIONES_SENADO.find(([re]) => re.test(texto))?.[1] ?? formacion(texto).corto;
+const senadoProvincias = Object.entries(JUNTAS).map(([boe, id]) => {
+  const circunscripciones = [...senado.entries()]
+    .filter(([clave]) => clave.split('|')[0] === boe)
+    .map(([clave, lista]) => {
+      const isla = clave.split('|')[1] || null;
+      const r = reglas(id, isla);
+      if (!r) throw new Error(`Isla sin escaños conocidos: ${isla}`);
+      const textos = lista.map((c) => ({ ...c, texto: c.texto.replace(/\s+/g, ' ').trim() }));
+      for (const c of textos) if (c.proclamada && !c.candidatos.length) throw new Error(`Senado sin candidatos: ${boe} ${isla ?? ''} ${c.texto}`);
+      return {
+        isla,
+        escanos: r[0],
+        votos: r[1],
+        candidaturas: textos.filter((c) => c.proclamada).map((c) => ({ orden: c.orden, texto: c.texto, formacion: formacionSenado(c.texto), candidatos: c.candidatos })),
+        noProclamadas: textos.filter((c) => !c.proclamada).map((c) => c.texto),
+      };
+    });
+  if (!circunscripciones.length) throw new Error(`Sin candidaturas al Senado para ${boe}`);
+  return { id, circunscripciones };
+});
+writeFileSync('src/data/senado-2026.json', JSON.stringify({ fuente: 'BOE-A-2026-23103', provincias: senadoProvincias }, null, 2) + '\n');
+
 writeFileSync('src/data/candidaturas-2026.json', JSON.stringify({ fuente: 'BOE-A-2026-23103', correccion: 'BOE-A-2026-23383', provincias }, null, 2) + '\n');
 
 // Lista de programas: una entrada por formación, de más a menos circunscripciones. Conserva lo ya verificado (web, programa).
@@ -178,3 +253,5 @@ const programas = [...cuenta.values()]
 writeFileSync('src/data/programas.json', JSON.stringify(programas, null, 2) + '\n');
 const total = provincias.reduce((n, p) => n + p.candidaturas.length, 0);
 console.log(`${total} candidaturas proclamadas, ${programas.length} formaciones → src/data/candidaturas-2026.json, src/data/programas.json`);
+const circs = senadoProvincias.flatMap((p) => p.circunscripciones);
+console.log(`Senado: ${circs.reduce((n, c) => n + c.candidaturas.length, 0)} candidaturas en ${circs.length} circunscripciones → src/data/senado-2026.json`);

@@ -1,5 +1,6 @@
 ---
 import candidaturas2026 from '../../data/candidaturas-2026.json';
+import senado2026 from '../../data/senado-2026.json';
 import Base from '../../layouts/Base.astro';
 import Escanos from '../../components/Escanos.astro';
 import Fuente from '../../components/Fuente.astro';
@@ -44,6 +45,10 @@ const datos = {
   otros,
 };
 const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
+// Senado: la provincia, o sus islas en Baleares y Canarias
+const senado = senado2026.provincias.find((x) => x.id === p.id)?.circunscripciones ?? [];
+const senadores = (k: number) => (k === 1 ? 'un senador' : `${k} senadores`);
+const nombres = (k: number) => (k === 1 ? 'un nombre' : `hasta ${k} nombres`);
 ---
 
 <Base imagen={`/og/${p.slug}.png`} title={`${p.nombre} el 29 de noviembre: diputados y candidaturas · tuvotocuenta`} description={`${p.nombre} elige ${p.escanos2026} ${palabra(p.escanos2026)} el 29 de noviembre. Cómo se repartieron en 2023 y cuántos votos cuesta un escaño.`}>
@@ -60,6 +65,7 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
     <nav class="saltos" aria-label="Ir a una sección">
       {r26 && <a href="#resultado">Resultado</a>}
       {presentadas && <a href="#quien">Quién se presenta</a>}
+      {senado.length > 0 && <a href="#senado">Senado</a>}
       <a href="#reparto-2023">2023</a>
       <a href="#simular">Simular</a>
     </nav>
@@ -123,6 +129,38 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
         ))}
       </ul>
       <Fuente de={['candidaturas2026', 'candidaturas2026correccion', 'loreg']} detalle="art. 49 de la ley electoral" />
+    </section>
+  )}
+
+  {senado.length > 0 && (
+    <section class="senado" id="senado">
+      <h2>Senado</h2>
+      <p class="como-se-vota">
+        En el Senado se vota a personas, no a una lista: en su papeleta marcas nombres, de una o de varias candidaturas, hasta el máximo que se indica abajo.
+        Salen elegidos los más votados.
+        <Fuente de="loreg" detalle="arts. 165 y 166" />
+      </p>
+      {senado.map((c) => (
+        <div class="circ">
+          {c.isla && <h3>{c.isla}</h3>}
+          <p class="cupo">
+            {c.isla ? 'La isla' : 'La provincia'} elige <strong>{senadores(c.escanos)}</strong>. Puedes marcar <strong>{nombres(c.votos)}</strong>.
+          </p>
+          <ul>
+            {c.candidaturas.map((k) => (
+              <li>
+                <span class="sigla">{k.texto}</span>
+                <ul class="personas">{k.candidatos.map((n) => <li>{n}</li>)}</ul>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      <p class="suave nota-cand">
+        Además de estos, cada parlamento autonómico designa otros senadores; no se votan el 29 de noviembre.
+        <Fuente de="constitucion" detalle="art. 69.5" />
+      </p>
+      <Fuente de={['candidaturas2026', 'loreg']} detalle="titulares en el orden del BOE; arts. 165 y 166 de la ley electoral" />
     </section>
   )}
 
@@ -337,6 +375,14 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
   .presentadas summary { cursor: pointer; padding: 12px 0; overflow-wrap: anywhere; }
   .presentadas ol { margin: 0 0 12px; padding-left: 24px; }
   .presentadas ol li { padding: 2px 0; }
+  .senado { margin-top: 32px; }
+  .senado h3 { margin: 22px 0 4px; font-family: var(--serif); font-size: 22px; font-weight: 400; }
+  .senado .cupo { margin: 0 0 8px; font-size: 15px; }
+  .senado .cupo strong { font-weight: 600; }
+  .senado ul { list-style: none; margin: 0; padding: 0; }
+  .senado .circ > ul > li { padding: 10px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
+  .senado .sigla { display: block; color: var(--suave); font-size: 12px; letter-spacing: 0.02em; overflow-wrap: anywhere; }
+  .senado .personas li { padding: 2px 0; font-size: 16px; }
   .volver { display: inline-block; margin-top: 24px; font-size: 15px; text-decoration: none; }
   .volver:hover { color: var(--tinta); }
   .entradilla { font-size: 19px; margin: 0; }
