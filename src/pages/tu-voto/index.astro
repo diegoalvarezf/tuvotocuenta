@@ -25,6 +25,11 @@ const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as 
   </dl>
   <Fuente de={['convocatoria2026', 'resultados2023']} calculo />
 
+  <a class="a-senado" href="/tu-voto/senado">
+    <span class="a-senado-titulo">¿Y el Senado? <span class="flecha" aria-hidden="true">→</span></span>
+    <span class="suave">Se vota a personas, en otra papeleta. Cuántos nombres marcar y qué anula el voto.</span>
+  </a>
+
   <TuProvincia />
 
   <label class="buscar">
@@ -103,6 +108,11 @@ const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as 
   .barra-escanos { position: absolute; left: 0; bottom: -1px; height: 2px; width: var(--w); background: var(--tinta); transform-origin: left; transition: transform 0.3s ease; }
   .provincias a:hover .nombre { text-decoration: underline; }
   .nota { font-size: 13px; margin-top: 16px; }
+  .a-senado { display: flex; flex-direction: column; gap: 2px; margin-top: 24px; padding: 14px 16px; border: 1px solid var(--tinta); border-radius: 14px; text-decoration: none; font-size: 15px; }
+  .a-senado-titulo { display: flex; justify-content: space-between; font-weight: 600; }
+  .a-senado .flecha { transition: transform 0.2s ease; }
+  .a-senado:hover .flecha { transform: translateX(4px); }
+  @media (prefers-reduced-motion: reduce) { .a-senado .flecha { transition: none; } }
   @media (min-width: 640px) {
     .provincias { grid-template-columns: repeat(3, 1fr); column-gap: 28px; }
   }

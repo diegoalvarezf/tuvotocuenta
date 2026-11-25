@@ -80,7 +80,7 @@ export function crearCandidaturas(congreso, senado, escanos, resultados2023, sen
       const circs = s.circunscripciones.filter((c) => !lugar.isla || c.isla === lugar.isla);
       salida.senado = {
         id: idCandidaturas(p.id, 'senado'),
-        como_se_vota: 'Se vota a personas: en la papeleta del Senado se marcan nombres, de una o de varias candidaturas, hasta el máximo indicado. Salen elegidos los más votados.',
+        como_se_vota: 'Se vota a personas: en la papeleta del Senado se marcan con una cruz nombres, de una o de varias candidaturas, hasta el máximo indicado (se pueden marcar menos). Marcar más nombres del máximo o alterar la papeleta anula el voto; no marcar a nadie es voto en blanco válido. Salen elegidos los más votados. Guía completa: /tu-voto/senado.',
         circunscripciones: circs.map((c) => ({
           ...(c.isla && { isla: c.isla }),
           senadores_que_se_eligen: c.escanos,

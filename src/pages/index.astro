@@ -7,6 +7,7 @@ import congreso2023 from '../data/congreso-2023.json';
 import votaciones from '../data/votaciones.json';
 import propuestas from '../data/propuestas.json';
 import { provincias } from '../lib/provincias';
+import senado2026 from '../data/senado-2026.json';
 
 const n = (x: number) => x.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 
@@ -35,6 +36,7 @@ const barato = extremos[0];
 const caro = extremos[extremos.length - 1];
 const publicadas = propuestas.filter((p) => p.revisada);
 const formaciones = new Set(publicadas.map((p) => p.partido)).size;
+const senadores = senado2026.provincias.flatMap((p) => p.circunscripciones).reduce((s, c) => s + c.escanos, 0);
 ---
 
 <Base title="tuvotocuenta · Compara a los partidos antes del 29 de noviembre" description="Toda la información de las elecciones generales del 29 de noviembre, centralizada y fácil de leer: lo que proponen los partidos, lo que votaron en el Congreso y cuánto pesa tu voto en tu provincia.">
@@ -49,6 +51,7 @@ const formaciones = new Set(publicadas.map((p) => p.partido)).size;
     <Hemiciclo reparto={reparto} etiqueta={`Congreso elegido en 2023: ${reparto.map((r) => `${r.nombre} ${r.escanos}`).join(', ')}`} />
     <p class="pie-grafico suave">Así quedó en 2023, de más a menos escaños.</p>
     <Fuente de="resultados2023" calculo />
+    <a class="a-senado" href="/tu-voto/senado">Y {senadores} senadores, en otra papeleta: <span class="subrayado">así se vota al Senado</span> <span aria-hidden="true">→</span></a>
   </section>
 
   <ol class="secciones">
@@ -89,6 +92,8 @@ const formaciones = new Set(publicadas.map((p) => p.partido)).size;
   .congreso h2 { margin: 4px 0 0; font-size: 28px; }
   .congreso :global(.hemiciclo) { margin-top: 18px; }
   .pie-grafico { font-size: 13px; margin: 12px 0 0; }
+  .a-senado { display: block; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--linea); font-size: 15px; text-decoration: none; }
+  .a-senado .subrayado { text-decoration: underline; text-underline-offset: 3px; }
 
   .secciones { list-style: none; margin: 28px 0 0; padding: 0; }
   .secciones li { padding: 20px 0; border-top: 1px solid var(--tinta); }

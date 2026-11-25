@@ -81,5 +81,6 @@ test('no falta ningún decreto ley de 2026: entre votados y pendientes, la numer
 test('la fecha de la última actualización de la información es válida y no está en el futuro', async () => {
   const { default: a } = await import('../src/data/actualizado.json', { with: { type: 'json' } });
   assert.match(a.fecha, /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}$/);
-  assert.ok(new Date(a.fecha) <= new Date(), 'fecha de actualización futura');
+  // Margen de 15 minutos: la fecha se escribe al hacer el cambio y la build puede empezar un poco antes de esa hora
+  assert.ok(new Date(a.fecha) <= new Date(Date.now() + 15 * 60 * 1000), 'fecha de actualización futura');
 });

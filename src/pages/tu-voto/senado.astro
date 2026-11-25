@@ -1,0 +1,133 @@
+---
+// Guía del voto al Senado: cómo es la papeleta, cuántos nombres se marcan, qué anula el voto y quién sale elegido.
+// Todo con su artículo de la ley electoral; las cifras salen de las candidaturas del BOE y del resultado de 2023.
+import Base from '../../layouts/Base.astro';
+import Fuente from '../../components/Fuente.astro';
+import senado2026 from '../../data/senado-2026.json';
+import senado2023 from '../../data/senado-2023.json';
+import { provincias } from '../../lib/provincias';
+
+const circs = senado2026.provincias.flatMap((p) => p.circunscripciones.map((c) => ({ ...c, id: p.id })));
+const elegidos = circs.reduce((s, c) => s + c.escanos, 0);
+const candidatos = circs.reduce((s, c) => s + c.candidaturas.reduce((t, k) => t + k.candidatos.length, 0), 0);
+
+// Tabla de escaños y nombres por tipo de circunscripción, sacada de los datos (arts. 165 y 166.1.a)
+const islasGrandes = circs.filter((c) => c.isla && c.escanos === 3).map((c) => c.isla!);
+const islasPequenas = circs.filter((c) => c.isla && c.escanos === 1).map((c) => c.isla!);
+const lista = (xs: string[]) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} y ${xs.at(-1)}` : xs[0]);
+
+// 2023: en las provincias que eligen 4, cuántas veces la candidatura más votada se llevó 3 y la segunda 1
+const cuatro = senado2023.provincias.flatMap((p) => p.circunscripciones.filter((c) => c.escanos === 4).map((c) => ({ ...c, id: p.id })));
+const repartos = cuatro.map((c) => {
+  const porSiglas = new Map<string, number>();
+  for (const x of c.candidatos.filter((k) => k.elegido)) porSiglas.set(x.siglas, (porSiglas.get(x.siglas) ?? 0) + 1);
+  return { id: c.id, valores: [...porSiglas.values()].sort((a, b) => b - a).join('-'), reparto: [...porSiglas].map(([s, k]) => `${s} ${k}`).join(', ') };
+});
+const tresUno = repartos.filter((r) => r.valores === '3-1').length;
+const otros = repartos.filter((r) => r.valores !== '3-1').map((r) => ({ ...r, provincia: provincias.find((p) => p.id === r.id)! }));
+
+const porNombre = [...provincias].sort((a, b) => a.slug.localeCompare(b.slug, 'es'));
+---
+
+<Base title="Cómo se vota al Senado el 29 de noviembre · tuvotocuenta" description="La papeleta del Senado, cuántos nombres puedes marcar en tu provincia o isla, qué anula el voto y quién sale elegido. Con los artículos de la ley electoral.">
+  <a href="/tu-voto" class="volver suave">← Tu voto</a>
+  <h1>Cómo se vota<br /><em>al Senado</em></h1>
+  <p class="entradilla">El mismo día, en otra papeleta, eliges senadores. Aquí no se vota a una lista: se vota a personas.</p>
+
+  <dl class="cifras-cabecera">
+    <div><dt class="cifra">{elegidos}</dt><dd>senadores se eligen el 29 de noviembre</dd></div>
+    <div><dt class="cifra">{circs.length}</dt><dd>circunscripciones: provincias, islas, Ceuta y Melilla</dd></div>
+    <div><dt class="cifra">{candidatos}</dt><dd>candidatos, sin contar suplentes</dd></div>
+  </dl>
+  <Fuente de={['candidaturas2026', 'loreg']} detalle="arts. 165 y 166 de la ley electoral" calculo />
+
+  <ol class="pasos">
+    <li>
+      <h2>La papeleta</h2>
+      <p>Trae los nombres de todos los candidatos de tu provincia o isla, agrupados por candidatura y cada uno con su recuadro. Marcas con una cruz a quienes eliges.</p>
+      <Fuente de="loreg" detalle="art. 172.3" />
+    </li>
+    <li>
+      <h2>Cuántos nombres puedes marcar</h2>
+      <table class="tabla-cupo">
+        <thead><tr><th scope="col">Dónde votas</th><th scope="col">Se eligen</th><th scope="col">Puedes marcar</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Cada provincia</th><td>4</td><td>hasta 3</td></tr>
+          <tr><th scope="row">{lista(islasGrandes)}</th><td>3</td><td>hasta 2</td></tr>
+          <tr><th scope="row">Ceuta y Melilla</th><td>2</td><td>hasta 2</td></tr>
+          <tr><th scope="row">{lista(islasPequenas)}</th><td>1</td><td>1</td></tr>
+        </tbody>
+      </table>
+      <p>En Baleares y Canarias se vota por islas: cada votante ve solo los candidatos de su isla. Desde estas elecciones, Formentera elige su propio senador, separada de Eivissa.</p>
+      <Fuente de="loreg" detalle="arts. 161.2, 165 y 166.1.a (reformados por la Ley Orgánica 2/2026 en lo que toca a Eivissa y Formentera)" />
+    </li>
+    <li>
+      <h2>Puedes mezclar candidaturas</h2>
+      <p>Cada candidato al Senado cuenta por separado al votar y al escrutar, aunque se presenten agrupados. Puedes marcar personas de candidaturas distintas, o menos nombres del máximo: el límite es un tope, no una obligación.</p>
+      <Fuente de="loreg" detalle="arts. 166.1.a y 171.1" />
+    </li>
+    <li>
+      <h2>Qué anula el voto</h2>
+      <ul class="reglas">
+        <li><strong>Marcar más nombres del máximo</strong> de tu provincia o isla: el voto es nulo.<Fuente de="loreg" detalle="art. 96.3" /></li>
+        <li><strong>Cambiar la papeleta</strong>: añadir, tachar o reordenar nombres, escribir algo o cualquier otra alteración voluntaria.<Fuente de="loreg" detalle="art. 96.2" /></li>
+        <li><strong>No marcar a nadie</strong> no lo anula: cuenta como voto en blanco válido, igual que el sobre vacío.<Fuente de="loreg" detalle="art. 96.5" /></li>
+      </ul>
+    </li>
+    <li>
+      <h2>Quién sale elegido</h2>
+      <p>Los candidatos con más votos, hasta cubrir los puestos de cada provincia o isla. No hay reparto proporcional ni mínimo del 3 %, como en el Congreso.</p>
+      <Fuente de="loreg" detalle="art. 166.1.b" />
+      {cuatro.length > 0 && (
+        <p class="dato-2023">
+          En 2023, en <strong>{tresUno} de las {cuatro.length}</strong> provincias que eligen cuatro, la candidatura más votada se llevó tres senadores y la segunda, uno.
+          {otros.length > 0 && <> En las demás quedó 2 y 2: {otros.map((o, i) => <><a href={`/tu-voto/${o.provincia.slug}#senado-2023`}>{o.provincia.nombre}</a> ({o.reparto}){i < otros.length - 1 ? ', ' : '.'}</>)}</>}
+          <Fuente de="resultadosSenado2023" calculo />
+        </p>
+      )}
+    </li>
+    <li>
+      <h2>Y otros senadores que no se votan</h2>
+      <p>Cada comunidad autónoma designa además un senador y otro más por cada millón de habitantes. Los elige su parlamento autonómico, no los votantes el 29 de noviembre.</p>
+      <Fuente de="constitucion" detalle="art. 69.5" />
+    </li>
+  </ol>
+
+  <h2 class="h-provincias">Candidatos y resultado de 2023 en tu provincia</h2>
+  <ul class="provincias">
+    {porNombre.map((p) => <li><a href={`/tu-voto/${p.slug}#senado`}>{p.nombre}</a></li>)}
+  </ul>
+</Base>
+
+<style>
+  h1 em { font-style: italic; }
+  .volver { display: inline-block; margin-top: 24px; font-size: 15px; text-decoration: none; }
+  .volver:hover { color: var(--tinta); }
+  .entradilla { font-size: var(--entradilla); max-width: 38ch; margin: 0; }
+
+  .pasos { list-style: none; counter-reset: paso; margin: 32px 0 0; padding: 0; }
+  .pasos > li { counter-increment: paso; padding: 20px 0 22px; border-top: 1px solid var(--tinta); }
+  .pasos h2 { margin: 0 0 8px; font-size: 26px; }
+  .pasos h2::before { content: counter(paso) '. '; color: var(--suave); }
+  .pasos p { margin: 0 0 6px; max-width: 46ch; }
+
+  .tabla-cupo { width: 100%; border-collapse: collapse; margin: 4px 0 12px; font-size: 15px; }
+  .tabla-cupo th, .tabla-cupo td { padding: 9px 0; border-bottom: 1px solid var(--linea); text-align: left; vertical-align: top; }
+  .tabla-cupo thead th { font-size: 13px; font-weight: 400; color: var(--suave); }
+  .tabla-cupo tbody th { font-weight: 400; padding-right: 12px; }
+  .tabla-cupo td { white-space: nowrap; padding-left: 12px; font-variant-numeric: tabular-nums; }
+
+  .reglas { margin: 0; padding: 0; list-style: none; }
+  .reglas li { padding: 8px 0; border-bottom: 1px solid var(--linea); max-width: 52ch; }
+  .reglas strong { font-weight: 600; }
+  .dato-2023 { margin-top: 12px !important; padding: 14px 16px; background: var(--resalte); border-radius: 14px; }
+  .dato-2023 strong { font-weight: 600; }
+
+  .h-provincias { margin-top: 36px; }
+  .provincias { list-style: none; padding: 0; margin: 8px 0 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; }
+  .provincias a { display: block; padding: 10px 0; border-bottom: 1px solid var(--linea); font-size: 15px; text-decoration: none; }
+  .provincias a:hover { text-decoration: underline; }
+  @media (min-width: 640px) {
+    .provincias { grid-template-columns: repeat(3, 1fr); column-gap: 28px; }
+  }
+</style>
