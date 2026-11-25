@@ -28,7 +28,8 @@ export function crearBuscador(propuestas, programas) {
     .filter(({ p }) => p.revisada)
     .map(({ p, id }) => {
       // El resumen pesa el doble: está en castellano aunque la cita esté en otra lengua
-      const terminos = [...palabras(p.resumen), ...palabras(p.resumen), ...palabras(p.cita)];
+      // El tema también cuenta: «inmigración» encuentra todo lo clasificado ahí aunque no use la palabra
+      const terminos = [...palabras(p.resumen), ...palabras(p.resumen), ...palabras(p.cita), ...palabras(p.tema)];
       const cuenta = new Map();
       for (const t of terminos) cuenta.set(t, (cuenta.get(t) ?? 0) + 1);
       return {
@@ -71,7 +72,9 @@ export function crearBuscador(propuestas, programas) {
   /**
    * @param {{ consulta?: string, partidos?: string[], tema?: string, soloConcretas?: boolean, maximo?: number }} filtros
    */
-  function buscar({ consulta = '', partidos = [], tema, soloConcretas = false, maximo = 14 } = {}) {
+  function buscar({ consulta = '', partidos = [], tema, soloConcretas = false, maximo } = {}) {
+    // Si se pregunta por una sola formación caben más resultados
+    maximo ??= partidos.length === 1 ? 24 : 14;
     const pedidas = new Set(partidos.flatMap(resolver));
     const filtraPartido = partidos.length > 0;
     const candidatos = docs.filter(

@@ -152,6 +152,9 @@ const EJEMPLOS = [
                 respuesta += evento.v as string;
                 estado.hidden = true;
                 pintar(cuerpo, respuesta, null);
+              } else if (evento.t === 'x') {
+                respuesta = '';
+                cuerpo.replaceChildren();
               } else if (evento.t === 'b') {
                 estado.hidden = false;
                 estado.textContent = evento.v ? `Buscando «${evento.v}»…` : 'Buscando en los programas…';

@@ -21,7 +21,7 @@ const HERRAMIENTA = {
   input_schema: {
     type: 'object',
     properties: {
-      consulta: { type: 'string', description: 'Palabras clave del asunto, en castellano (por ejemplo: «alquiler tope precio»). Vacía para listar las propuestas de un tema o formación.' },
+      consulta: { type: 'string', description: 'Palabras clave del asunto, en castellano (por ejemplo: «alquiler tope precio»). Para ver todo lo que dice una formación sobre un tema, deja la consulta vacía y usa «partidos» y «tema».' },
       partidos: { type: 'array', items: { type: 'string' }, description: 'Nombres o siglas de las formaciones a las que limitar la búsqueda. Vacío para buscar en todas.' },
       tema: { type: 'string', enum: TEMAS, description: 'Limitar a un tema.' },
       solo_concretas: { type: 'boolean', description: 'Solo propuestas con cifra, plazo o medida identificable.' },
@@ -45,6 +45,8 @@ Busca antes de responder a cualquier pregunta sobre propuestas, sin escribir nad
 - En español, claro y breve: para una pregunta normal, entre 3 y 8 líneas. Frases completas, sin jerga.
 - Después de cada propuesta que menciones pon su referencia con este formato exacto: [#123], con el identificador «id» del resultado. Sin referencia no hay afirmación. No inventes identificadores.
 - Di lo que dice la propuesta, sin añadirle nada: ni cifras, ni motivos, ni consecuencias que no estén en su resumen o su cita.
+- Redacta a partir del resumen de cada propuesta, que ya está escrito en términos neutrales. Si tomas de la cita palabras que califican o valoran (por ejemplo «inmigración ilegal», «fondos buitre», «privilegios»), ponlas entre comillas.
+- Si hay muchas propuestas, menciona como mucho unas ocho, repartidas entre formaciones, y di que hay más y que puedes buscar una formación o un aspecto concreto.
 - Atribuye siempre: «el PP propone…», «según su programa, Podemos…». Si una formación usa un término valorativo, ponlo entre comillas como suyo.
 - Cuando compares formaciones, trata igual a todas: mismo detalle y mismo tono, en el orden en que aparecen en los resultados. Si de alguna no has encontrado nada, dilo.
 - Texto corrido o una lista corta con guiones. Sin títulos, sin tablas, sin negritas y sin emojis.
@@ -137,7 +139,7 @@ export async function POST(request) {
 
   const flujo = new ReadableStream({
     async start(control) {
-      // Una línea JSON por evento: d = texto, b = búsqueda en curso, f = fuentes citables, e = error
+      // Una línea JSON por evento: d = texto, x = descartar el texto anterior, b = búsqueda en curso, f = fuentes citables, e = error
       const enviar = (t, v) => control.enqueue(codificar.encode(`${JSON.stringify({ t, v })}\n`));
       try {
         for (let ronda = 0; ronda <= MAX_BUSQUEDAS; ronda++) {
@@ -164,6 +166,8 @@ export async function POST(request) {
           const llamadas = mensaje.content.filter((b) => b.type === 'tool_use');
           if (mensaje.stop_reason !== 'tool_use' || llamadas.length === 0) break;
 
+          // Lo que el modelo escriba antes de buscar no es parte de la respuesta: la página lo descarta
+          enviar('x', null);
           mensajes.push({ role: 'assistant', content: mensaje.content });
           const resultados = [];
           for (const llamada of llamadas) {
