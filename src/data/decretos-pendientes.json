@@ -38,5 +38,37 @@
     "fecha": "2026-11-21",
     "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24438",
     "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 42/2026",
+    "titulo": "Modificación del Estatuto de los Trabajadores y del Estatuto Básico del Empleado Público: adaptación y reducción de jornada, permisos por duelo, prestación de ayuda para morir y nacimiento y cuidado del menor.",
+    "tema": "Empleo y salarios",
+    "fecha": "2026-11-25",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24700",
+    "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 43/2026",
+    "titulo": "Prórroga para 2027 del impuesto sobre el margen de intereses y comisiones de determinadas entidades financieras, medidas tributarias para los trabajadores autónomos y medidas de competitividad económica.",
+    "tema": "Impuestos",
+    "fecha": "2026-11-25",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24701",
+    "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 44/2026",
+    "titulo": "Contratos de créditos al consumo y protección de los prestatarios en la cesión de carteras de créditos dudosos.",
+    "tema": "Economía y empresas",
+    "fecha": "2026-11-25",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24702",
+    "resultado": null
+  },
+  {
+    "nombre": "Real Decreto-ley 45/2026",
+    "titulo": "Bonificación de abonos y títulos multiviaje del transporte público en 2027 y medidas financieras para la renovación de la flota española por razones medioambientales.",
+    "tema": "Otros",
+    "fecha": "2026-11-25",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24703",
+    "resultado": null
   }
 ]
