@@ -3,7 +3,7 @@
   "functions": {
     "api/chat.js": {
       "maxDuration": 60,
-      "includeFiles": "src/data/{propuestas,programas,candidaturas-2026,senado-2026,escanos-2026,congreso-2023}.json"
+      "includeFiles": "src/data/{propuestas,programas,candidaturas-2026,senado-2026,escanos-2026,congreso-2023,senado-2023}.json"
     }
   }
 }

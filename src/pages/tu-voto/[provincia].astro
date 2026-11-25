@@ -1,6 +1,7 @@
 ---
 import candidaturas2026 from '../../data/candidaturas-2026.json';
 import senado2026 from '../../data/senado-2026.json';
+import senado2023 from '../../data/senado-2023.json';
 import Base from '../../layouts/Base.astro';
 import Escanos from '../../components/Escanos.astro';
 import Fuente from '../../components/Fuente.astro';
@@ -49,6 +50,13 @@ const presentadas = candidaturas2026.provincias.find((x) => x.id === p.id);
 const senado = senado2026.provincias.find((x) => x.id === p.id)?.circunscripciones ?? [];
 const senadores = (k: number) => (k === 1 ? 'un senador' : `${k} senadores`);
 const nombres = (k: number) => (k === 1 ? 'un nombre' : `hasta ${k} nombres`);
+// Senado 2023: elegidos, reparto por candidatura y diferencia entre el último elegido y el primero que se quedó fuera
+const senado23 = (senado2023.provincias.find((x) => x.id === p.id)?.circunscripciones ?? []).map((c) => {
+  const elegidos = c.candidatos.filter((x) => x.elegido);
+  const fuera = c.candidatos.filter((x) => !x.elegido);
+  const reparto = [...elegidos.reduce((m, x) => m.set(x.siglas, (m.get(x.siglas) ?? 0) + 1), new Map<string, number>())];
+  return { ...c, elegidos, siguientes: fuera.slice(0, 2), resto: fuera.slice(2), reparto, margen: fuera.length ? elegidos.at(-1)!.votos - fuera[0].votos : null };
+});
 ---
 
 <Base imagen={`/og/${p.slug}.png`} title={`${p.nombre} el 29 de noviembre: diputados y candidaturas · tuvotocuenta`} description={`${p.nombre} elige ${p.escanos2026} ${palabra(p.escanos2026)} el 29 de noviembre. Cómo se repartieron en 2023 y cuántos votos cuesta un escaño.`}>
@@ -161,6 +169,46 @@ const nombres = (k: number) => (k === 1 ? 'un nombre' : `hasta ${k} nombres`);
         <Fuente de="constitucion" detalle="art. 69.5" />
       </p>
       <Fuente de={['candidaturas2026', 'loreg']} detalle="titulares en el orden del BOE; arts. 165 y 166 de la ley electoral" />
+
+      {senado23.length > 0 && (
+        <div class="senado-2023" id="senado-2023">
+          <h3 class="h-2023">Así votó en 2023</h3>
+          {senado23.map((c) => (
+            <div class="circ-2023">
+              {c.isla && <p class="isla-2023">{c.isla}</p>}
+              <p class="reparto-2023">
+                {c.reparto.map(([s, k], i) => (
+                  <span><span class="punto" style={`--c:${color(s)}`}></span>{s} {k}{i < c.reparto.length - 1 ? ' · ' : ''}</span>
+                ))}
+              </p>
+              <ol class="votados">
+                {c.elegidos.map((x) => (
+                  <li class="elegido"><span class="quien">{x.nombre} <span class="suave">{x.siglas}</span></span><span class="num">{n(x.votos)}</span></li>
+                ))}
+                {c.siguientes.map((x) => (
+                  <li><span class="quien">{x.nombre} <span class="suave">{x.siglas}</span></span><span class="num">{n(x.votos)}</span></li>
+                ))}
+              </ol>
+              {c.resto.length > 0 && (
+                <details class="resto">
+                  <summary>Ver los otros {c.resto.length} candidatos</summary>
+                  <ol class="votados">
+                    {c.resto.map((x) => (
+                      <li><span class="quien">{x.nombre} <span class="suave">{x.siglas}</span></span><span class="num">{n(x.votos)}</span></li>
+                    ))}
+                  </ol>
+                </details>
+              )}
+              {c.margen !== null && (
+                <p class="margen">
+                  {c.escanos === 1 ? 'El elegido' : 'El último elegido'} sacó <strong>{n(c.margen)}</strong> {c.margen === 1 ? 'voto' : 'votos'} más que {c.siguientes[0].nombre} ({c.siguientes[0].siglas}), el primero que se quedó fuera.
+                </p>
+              )}
+            </div>
+          ))}
+          <Fuente de="resultadosSenado2023" calculo />
+        </div>
+      )}
     </section>
   )}
 
@@ -383,6 +431,19 @@ const nombres = (k: number) => (k === 1 ? 'un nombre' : `hasta ${k} nombres`);
   .senado .circ > ul > li { padding: 10px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
   .senado .sigla { display: block; color: var(--suave); font-size: 12px; letter-spacing: 0.02em; overflow-wrap: anywhere; }
   .senado .personas li { padding: 2px 0; font-size: 16px; }
+  .senado-2023 { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--tinta); scroll-margin-top: 16px; }
+  .senado .h-2023 { margin-top: 0; }
+  .isla-2023 { margin: 18px 0 4px; font-weight: 600; }
+  .reparto-2023 { margin: 6px 0 8px; font-size: 15px; }
+  .reparto-2023 .punto { display: inline-block; width: 9px; height: 9px; margin-right: 5px; border-radius: 50%; background: var(--c); }
+  .senado .votados { list-style: none; margin: 0; padding: 0; }
+  .senado .votados li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--linea); font-size: 14px; }
+  .senado .votados li.elegido { font-weight: 600; }
+  .senado .votados li.elegido .suave { font-weight: 400; }
+  .senado .votados .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .senado .resto summary { cursor: pointer; padding: 10px 0; font-size: 14px; color: var(--suave); }
+  .margen { margin: 10px 0 0; font-size: 15px; max-width: 46ch; }
+  .margen strong { font-weight: 600; }
   .volver { display: inline-block; margin-top: 24px; font-size: 15px; text-decoration: none; }
   .volver:hover { color: var(--tinta); }
   .entradilla { font-size: 19px; margin: 0; }

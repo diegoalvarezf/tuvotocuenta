@@ -7,7 +7,8 @@ import { crearCandidaturas, idCandidaturas } from '../api/_candidaturas.js';
 const leer = (f) => JSON.parse(readFileSync(new URL(`../src/data/${f}`, import.meta.url), 'utf8'));
 const senado = leer('senado-2026.json');
 const congreso2023 = leer('congreso-2023.json');
-const c = crearCandidaturas(leer('candidaturas-2026.json'), senado, leer('escanos-2026.json'), congreso2023);
+const senado2023 = leer('senado-2023.json');
+const c = crearCandidaturas(leer('candidaturas-2026.json'), senado, leer('escanos-2026.json'), congreso2023, senado2023);
 
 test('el Senado tiene las 52 provincias y 60 circunscripciones (Baleares y Canarias por islas)', () => {
   assert.equal(senado.provincias.length, 52);
@@ -70,4 +71,24 @@ test('cada consulta lleva su cita, que enlaza a la página de su provincia', () 
   assert.equal(c.fuente(r.congreso.id).enlace, '/tu-voto/santa-cruz-de-tenerife#quien');
   // No choca con los identificadores de las propuestas
   assert.ok(idCandidaturas('01', 'congreso') > leer('propuestas.json').length);
+});
+
+test('Senado 2023: 208 elegidos, y en cada circunscripción los elegidos son los más votados', () => {
+  const circs = senado2023.provincias.flatMap((p) => p.circunscripciones);
+  assert.equal(circs.reduce((n, x) => n + x.candidatos.filter((k) => k.elegido).length, 0), 208);
+  for (const x of circs) {
+    const orden = [...x.candidatos].sort((a, b) => b.votos - a.votos);
+    assert.ok(orden.slice(0, x.escanos).every((k) => k.elegido), x.isla ?? 'provincia');
+  }
+});
+
+test('el chat da el resultado del Senado de 2023 con su cita', () => {
+  const r = c.consultar({ provincia: 'Asturias', camara: 'senado' }).senado.resultado_2023;
+  const ast = r.circunscripciones[0];
+  assert.equal(ast.elegidos.length, 4);
+  assert.equal(ast.votos_de_diferencia_entre_el_ultimo_elegido_y_el_primero_fuera, ast.elegidos[3].votos - ast.primeros_no_elegidos[0].votos);
+  assert.equal(c.fuente(r.id).enlace, '/tu-voto/asturias#senado-2023');
+  // En 2023 Eivissa y Formentera votaban juntas
+  const ibiza = c.consultar({ provincia: 'Formentera', camara: 'senado' }).senado.resultado_2023;
+  assert.deepEqual(ibiza.circunscripciones.map((x) => x.isla), ['Eivissa-Formentera']);
 });

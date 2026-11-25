@@ -10,6 +10,11 @@ export const FUENTES = {
     nombre: 'Ministerio del Interior, resultados oficiales del Congreso 2023',
     url: 'https://infoelectoral.interior.gob.es/es/elecciones-celebradas/area-de-descargas/',
   },
+  resultadosSenado2023: {
+    // Fichero usado: Senado, julio 2023, "Totales" (03202307_TOTA.zip)
+    nombre: 'Ministerio del Interior, resultados oficiales del Senado 2023',
+    url: 'https://infoelectoral.interior.gob.es/es/elecciones-celebradas/area-de-descargas/',
+  },
   candidaturas2026: {
     nombre: 'Candidaturas proclamadas por las Juntas Electorales Provinciales (BOE, 3-11-2026)',
     url: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103',

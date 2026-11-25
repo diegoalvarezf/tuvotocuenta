@@ -20,10 +20,27 @@ const OTROS = {
 const ISLAS = { ibiza: 'Eivissa', eivissa: 'Eivissa' };
 
 // Identificador de la cita: fuera del rango de las propuestas (que son 0, 1, 2…)
-export const idCandidaturas = (provincia, camara) => 900000 + Number(provincia) * 10 + (camara === 'senado' ? 2 : 1);
+const CAMARAS = { congreso: 1, senado: 2, senado2023: 3 };
+export const idCandidaturas = (provincia, camara) => 900000 + Number(provincia) * 10 + CAMARAS[camara];
+
+// Senado 2023 de una circunscripción: elegidos, los dos siguientes y la diferencia entre el último elegido y el primero fuera
+function resumen2023(c) {
+  const elegidos = c.candidatos.filter((x) => x.elegido);
+  const fuera = c.candidatos.filter((x) => !x.elegido);
+  const reparto = {};
+  for (const x of elegidos) reparto[x.siglas] = (reparto[x.siglas] ?? 0) + 1;
+  return {
+    ...(c.isla && { isla: c.isla }),
+    senadores_elegidos: c.escanos,
+    reparto,
+    elegidos: elegidos.map(({ nombre, siglas, votos }) => ({ nombre, siglas, votos })),
+    primeros_no_elegidos: fuera.slice(0, 2).map(({ nombre, siglas, votos }) => ({ nombre, siglas, votos })),
+    ...(fuera.length && { votos_de_diferencia_entre_el_ultimo_elegido_y_el_primero_fuera: elegidos.at(-1).votos - fuera[0].votos }),
+  };
+}
 
 // Nombres y URL como en «Tu voto» (resultados de 2023); escaños, los de 2026
-export function crearCandidaturas(congreso, senado, escanos, resultados2023) {
+export function crearCandidaturas(congreso, senado, escanos, resultados2023, senado2023) {
   const provincias = resultados2023.map((r) => ({ id: r.id, nombre: r.nombre.split('/').at(-1), escanos: escanos.find((e) => e.id === r.id).escanos, slug: slug(r.id, r.nombre) }));
   const indice = new Map();
   for (const p of provincias) {
@@ -72,6 +89,16 @@ export function crearCandidaturas(congreso, senado, escanos, resultados2023) {
         })),
         ...(!lugar.isla && circs.length > 1 && { nota: 'En esta provincia el Senado se vota por islas: cada votante solo ve las candidaturas de su isla.' }),
       };
+      const s23 = senado2023?.provincias.find((x) => x.id === p.id);
+      if (s23) {
+        // En 2023 Eivissa y Formentera votaban juntas («Eivissa-Formentera»)
+        const c23 = s23.circunscripciones.filter((c) => !lugar.isla || c.isla?.split('-').includes(lugar.isla));
+        salida.senado.resultado_2023 = {
+          id: idCandidaturas(p.id, 'senado2023'),
+          circunscripciones: c23.map(resumen2023),
+          ...(p.id === '07' && { nota: 'En 2023 Eivissa y Formentera eran una sola circunscripción con un senador; en 2026 elige uno cada isla.' }),
+        };
+      }
     }
     return salida;
   }
@@ -79,9 +106,19 @@ export function crearCandidaturas(congreso, senado, escanos, resultados2023) {
   // Lo que la página necesita para enlazar la cita
   function fuente(id) {
     const n = Number(id) - 900000;
-    const camara = n % 10 === 2 ? 'senado' : 'congreso';
+    const camara = n % 10 === 3 ? 'senado2023' : n % 10 === 2 ? 'senado' : 'congreso';
     const p = provincias.find((x) => Number(x.id) === Math.floor(n / 10));
     if (!p) return null;
+    if (camara === 'senado2023') {
+      return {
+        partido: `Senado 2023 · ${p.nombre}`,
+        origen: `Resultados del Senado 2023 en ${p.nombre} · Ministerio del Interior`,
+        cita: `Votos de cada candidato al Senado en ${p.nombre} en las elecciones del 23 de julio de 2023 (resultados oficiales).`,
+        pagina: null,
+        enlace: `/tu-voto/${p.slug}#senado-2023`,
+        textoEnlace: 'Ver el resultado completo en Tu voto',
+      };
+    }
     const nombreCamara = camara === 'senado' ? 'Senado' : 'Congreso';
     return {
       partido: `${nombreCamara} · ${p.nombre}`,
@@ -100,7 +137,7 @@ let cache;
 export function candidaturas() {
   if (!cache) {
     const leer = (f) => JSON.parse(readFileSync(join(process.cwd(), 'src/data', f), 'utf8'));
-    cache = crearCandidaturas(leer('candidaturas-2026.json'), leer('senado-2026.json'), leer('escanos-2026.json'), leer('congreso-2023.json'));
+    cache = crearCandidaturas(leer('candidaturas-2026.json'), leer('senado-2026.json'), leer('escanos-2026.json'), leer('congreso-2023.json'), leer('senado-2023.json'));
   }
   return cache;
 }
