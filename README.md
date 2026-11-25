@@ -59,6 +59,7 @@ Comprueban los datos, no solo el código:
 - Los votos por grupo de cada votación suman el total oficial.
 - No falta ningún decreto ley de 2026: la numeración es continua.
 - Las candidaturas coinciden con las proclamadas en el BOE.
+- El Senado tiene sus 60 circunscripciones, con los senadores y nombres por votante de la ley electoral (arts. 165 y 166), y el resultado de 2023 suma 208 elegidos, todos entre los más votados.
 - Cada cita publicada aparece literalmente en la página indicada de su programa.
 
 ## Cómo se generan los datos
@@ -69,7 +70,8 @@ Todos los datos salen de fuentes oficiales mediante los scripts de `scripts/`. L
 |---|---|---|
 | Resultados de 2023 por provincia | `infoelectoral-congreso.mjs` | Ministerio del Interior (infoelectoral) |
 | Escaños de 2026 por provincia | `boe-escanos.mjs` | Real Decreto 806/2026 (BOE) |
-| Candidaturas proclamadas | `boe-candidaturas.mjs` | BOE-A-2026-23103 |
+| Candidaturas proclamadas al Congreso y al Senado (por provincia e isla) | `boe-candidaturas.mjs` | BOE-A-2026-23103 |
+| Resultados del Senado de 2023 (votos por candidato) | `infoelectoral-senado.mjs` | Ministerio del Interior (infoelectoral, `03202307_TOTA.zip`) |
 | Votaciones del Pleno (XV legislatura) | `congreso-votaciones.mjs` | Datos abiertos del Congreso |
 | Votaciones destacadas | `votaciones-destacadas.mjs` | Datos abiertos del Congreso |
 | Coincidencia de voto entre grupos | `coincidencias.mjs` | Datos abiertos del Congreso |
