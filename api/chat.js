@@ -7,7 +7,7 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { buscador } from './_buscar.js';
 
-const MODELO = process.env.CHAT_MODEL || 'claude-opus-5-5';
+const MODELO = process.env.CHAT_MODEL || 'claude-sonnet-5-5';
 const MAX_MENSAJES = 9; // los últimos turnos de la conversación
 const MAX_PREGUNTA = 600; // caracteres
 const MAX_BUSQUEDAS = 4; // rondas de búsqueda por pregunta
