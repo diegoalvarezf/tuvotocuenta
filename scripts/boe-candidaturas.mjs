@@ -205,12 +205,13 @@ const provincias = Object.entries(JUNTAS).map(([boe, id]) => {
   };
 });
 
-// Senado. Escaños y nombres que puede marcar cada votante: artículos 165 y 166 de la LOREG.
+// Senado. Escaños y nombres que puede marcar cada votante: artículos 165 y 166.1.a de la LOREG. Formentera elige
+// su propio senador, separada de Eivissa, desde la Ley Orgánica 2/2026 (BOE-A-2026-14329).
 const ISLAS = {
   Mallorca: [3, 2], 'Gran Canaria': [3, 2], Tenerife: [3, 2],
   Menorca: [1, 1], Eivissa: [1, 1], Formentera: [1, 1], Fuerteventura: [1, 1], Lanzarote: [1, 1], 'La Palma': [1, 1], 'La Gomera': [1, 1], 'El Hierro': [1, 1],
 };
-const reglas = (id, isla) => (isla ? ISLAS[isla] : id === '51' || id === '52' ? [2, 1] : [4, 3]);
+const reglas = (id, isla) => (isla ? ISLAS[isla] : id === '51' || id === '52' ? [2, 2] : [4, 3]);
 const formacionSenado = (texto) => FORMACIONES_SENADO.find(([re]) => re.test(texto))?.[1] ?? formacion(texto).corto;
 const senadoProvincias = Object.entries(JUNTAS).map(([boe, id]) => {
   const circunscripciones = [...senado.entries()]

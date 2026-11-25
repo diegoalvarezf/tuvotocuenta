@@ -144,7 +144,7 @@ const nombres = (k: number) => (k === 1 ? 'un nombre' : `hasta ${k} nombres`);
         <div class="circ">
           {c.isla && <h3>{c.isla}</h3>}
           <p class="cupo">
-            {c.isla ? 'La isla' : 'La provincia'} elige <strong>{senadores(c.escanos)}</strong>. Puedes marcar <strong>{nombres(c.votos)}</strong>.
+            {c.isla ? 'La isla' : p.id === '51' || p.id === '52' ? 'La ciudad' : 'La provincia'} elige <strong>{senadores(c.escanos)}</strong>. Puedes marcar <strong>{nombres(c.votos)}</strong>.
           </p>
           <ul>
             {c.candidaturas.map((k) => (

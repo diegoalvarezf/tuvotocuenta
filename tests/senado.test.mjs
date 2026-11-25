@@ -20,7 +20,7 @@ test('el Senado tiene las 52 provincias y 60 circunscripciones (Baleares y Canar
 test('escaños y nombres que se pueden marcar siguen la ley electoral (arts. 165 y 166)', () => {
   for (const p of senado.provincias) {
     for (const x of p.circunscripciones) {
-      const esperado = x.isla ? (['Mallorca', 'Gran Canaria', 'Tenerife'].includes(x.isla) ? [3, 2] : [1, 1]) : ['51', '52'].includes(p.id) ? [2, 1] : [4, 3];
+      const esperado = x.isla ? (['Mallorca', 'Gran Canaria', 'Tenerife'].includes(x.isla) ? [3, 2] : [1, 1]) : ['51', '52'].includes(p.id) ? [2, 2] : [4, 3];
       assert.deepEqual([x.escanos, x.votos], esperado, `${p.id} ${x.isla ?? ''}`);
     }
   }
