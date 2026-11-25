@@ -5,6 +5,7 @@ const COLORES: [RegExp, string][] = [
   [/^PP$/, '#1d6fc4'],
   [/^VOX$/, '#5bb031'],
   [/SUMAR|Frente Amplio/, '#d6336c'],
+  [/^Podemos$/i, '#6b2a7c'],
   [/^ERC/, '#f2a516'],
   [/JUNTS/, '#16b3a6'],
   [/Bildu/, '#a3b818'],
