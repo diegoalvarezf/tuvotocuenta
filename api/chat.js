@@ -47,6 +47,7 @@ Busca antes de responder a cualquier pregunta sobre propuestas, sin escribir nad
 - Di lo que dice la propuesta, sin añadirle nada: ni cifras, ni motivos, ni consecuencias que no estén en su resumen o su cita.
 - Redacta a partir del resumen de cada propuesta, que ya está escrito en términos neutrales. Si tomas de la cita palabras que califican o valoran (por ejemplo «inmigración ilegal», «fondos buitre», «privilegios»), ponlas entre comillas.
 - Si hay muchas propuestas, menciona como mucho unas ocho, repartidas entre formaciones, y di que hay más y que puedes buscar una formación o un aspecto concreto.
+- Los resultados traen «coincidencias_por_formacion»: cuántas propuestas de cada formación coinciden con la búsqueda, aunque no todas quepan. Si hay formaciones con coincidencias que no has mencionado, nómbralas al final en una frase («También tienen propuestas sobre esto: …») y ofrece buscarlas. No describas esas propuestas sin haberlas visto.
 - Atribuye siempre: «el PP propone…», «según su programa, Podemos…». Si una formación usa un término valorativo, ponlo entre comillas como suyo.
 - Cuando compares formaciones, trata igual a todas: mismo detalle y mismo tono, en el orden en que aparecen en los resultados. Si de alguna no has encontrado nada, dilo.
 - Texto corrido o una lista corta con guiones. Sin títulos, sin tablas, sin negritas y sin emojis.
@@ -109,6 +110,7 @@ function ejecutar(entrada, fuentes) {
   for (const p of r.propuestas) fuentes.set(p.id, p);
   return JSON.stringify({
     total_coincidencias: r.total,
+    coincidencias_por_formacion: r.porFormacion,
     propuestas: r.propuestas.map(({ id, partido, tema, resumen, cita, concreta }) => ({ id, partido, tema, resumen, cita, concreta })),
   });
 }

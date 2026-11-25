@@ -110,7 +110,14 @@ export function crearBuscador(propuestas, programas) {
       elegidos.push(d);
       if (elegidos.length >= maximo) break;
     }
-    return { total: ordenados.length, propuestas: elegidos.map(salida) };
+    // Cuántas coincidencias tiene cada formación, también las que no caben en los resultados:
+    // así el chat puede decir quién más habla del asunto en vez de callarlo
+    const recuentoPorFormacion = new Map();
+    for (const { d } of ordenados) {
+      const nombre = formaciones.get(d.p.partido)?.corto ?? d.p.partido;
+      recuentoPorFormacion.set(nombre, (recuentoPorFormacion.get(nombre) ?? 0) + 1);
+    }
+    return { total: ordenados.length, porFormacion: Object.fromEntries(recuentoPorFormacion), propuestas: elegidos.map(salida) };
   }
 
   // Lo que el chat sabe de cada formación sin buscar: si tiene propuestas publicadas y cuántas

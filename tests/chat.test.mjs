@@ -65,3 +65,10 @@ test('el servidor del chat rechaza lo que no es una pregunta válida y no respon
     if (clave) process.env.ANTHROPIC_API_KEY = clave;
   }
 });
+
+test('la búsqueda dice cuántas coincidencias tiene cada formación, también las que no caben', () => {
+  const r = b.buscar({ consulta: 'salario mínimo', maximo: 6 });
+  const suma = Object.values(r.porFormacion).reduce((x, y) => x + y, 0);
+  assert.equal(suma, r.total);
+  assert.ok(Object.keys(r.porFormacion).length > new Set(r.propuestas.map((x) => x.partido)).size);
+});
