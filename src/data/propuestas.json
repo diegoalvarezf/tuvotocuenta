@@ -101053,5 +101053,572 @@
     "pagina": 1,
     "concreta": false,
     "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Promover «ecosistemas saludables» en el deporte y garantizar la profesionalidad de quienes trabajan en el sector.",
+    "cita": "Promoveremos «ecosistemas saludables» que favorezcan el trabajo multidisciplinar y ofrezcan calidad, seguridad y control a las personas practicantes, y garantizaremos la profesionalidad de quienes trabajan en el sector.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Sanidad",
+    "resumen": "Campañas en medios y redes para promover hábitos de vida sana y combatir el sedentarismo y la obesidad infantil y juvenil.",
+    "cita": "Impulsaremos campañas en los medios de comunicación públicos y privados y en las redes sociales para promover hábitos de vida sana, combatir el sedentarismo, luchar contra la obesidad infantil y juvenil e impulsar la vida activa.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Sanidad",
+    "resumen": "Campañas de prevención del consumo de fármacos y sustancias sin control sanitario en gimnasios, clubes y federaciones.",
+    "cita": "También desarrollaremos campañas de información y prevención del consumo de fármacos y sustancias de especial peligrosidad, sin prescripción médica ni control sanitario, en gimnasios y centros deportivos, así como en clubes y federaciones deportivas.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Más «espacios de salud» con equipamientos de ejercicio en parques, jardines y áreas periurbanas.",
+    "cita": "Incrementaremos los «espacios de salud», con equipamientos para el ejercicio físico, en los entornos deportivos al aire libre de parques, espacios lúdicos, jardines y áreas periurbanas.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Sanidad",
+    "resumen": "Programa marco de financiación de la receta deportiva en los centros de salud, con profesionales de ciencias del deporte.",
+    "cita": "Estableceremos un programa marco de financiación para la receta deportiva o prescripción de ejercicio físico en los centros de salud, e incorporaremos a los centros de salud a profesionales de las ciencias del deporte.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Sanidad",
+    "resumen": "Garantizar programas médicos y fisioterapia deportiva en los centros deportivos.",
+    "cita": "Garantizaremos que los centros deportivos cuenten con programas médicos y servicio de fisioterapia deportiva, para adaptar la práctica deportiva a las posibles patologías y mejorar las lesiones o traumatismos de los deportistas, evitando así dolencias que les impidan practicar ejercicio físico.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Precios reducidos en gimnasios e instalaciones deportivas para personas mayores y en situación de vulnerabilidad.",
+    "cita": "Estableceremos fórmulas para fijar precios reducidos de los servicios deportivos en gimnasios e instalaciones deportivas para las personas mayores y en situación de vulnerabilidad.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Aplicar la inclusión social en el deporte, implicando al tercer sector y a los centros penitenciarios, entre otros.",
+    "cita": "Aplicaremos el concepto de inclusión social como elemento transversal y vertebrador de una sociedad cohesionada, también a través del deporte, implicando a todas las instituciones y entidades que trabajan en este ámbito, como el tercer sector (asociaciones de mujeres, de personas migrantes y de personas desempleadas, entidades de cooperación al desarrollo y de personas con discapacidad) o los centros penitenciarios, entre otros.",
+    "pagina": 43,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Igualdad y familia",
+    "resumen": "Aplicar en el deporte la legislación de protección de las personas trans y LGTBIQA+, con una estrategia específica.",
+    "cita": "Garantizaremos la plena aplicación en el deporte de la legislación estatal de protección de las personas trans y de las personas LGTBIQA+, con medidas contra la discriminación en federaciones, clubes, competiciones e instalaciones, y una estrategia específica para el ámbito deportivo coordinada con el Observatorio Estatal contra la LGTBQAifobia.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Seguridad y justicia",
+    "resumen": "Formación y protocolos en federaciones, clubes y servicios municipales contra el acoso, los abusos y la violencia sexual.",
+    "cita": "Impulsaremos cursos de formación y protocolos en federaciones, clubes y servicios municipales de deporte para luchar contra el acoso, los abusos y la violencia sexual en el deporte y garantizar la protección de los menores.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Apoyar las políticas que contribuyan a los éxitos deportivos y usarlos para fomentar la cooperación internacional.",
+    "cita": "Cuidaremos la dimensión internacional del deporte: apoyaremos al máximo las políticas que contribuyan a nuestros éxitos deportivos y aprovecharemos esos éxitos para fomentar la cooperación internacional.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Promover ludotecas en las instalaciones deportivas, nuevas o en equipamientos públicos cercanos.",
+    "cita": "Promoveremos ludotecas en las instalaciones deportivas multidisciplinares, de nueva construcción o aprovechando equipamientos públicos cercanos (polideportivos, colegios, bibliotecas, centros culturales), para crear una red de actividades de bienestar y salud.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Construir zonas de juego infantil junto a los espacios deportivos al aire libre.",
+    "cita": "Construiremos zonas de juego infantil cerca de los espacios deportivos al aire libre, para que las familias puedan disfrutar juntas de un tiempo libre activo.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Apoyar escuelas deportivas que refuercen los lazos entre personas de distintas edades.",
+    "cita": "Apoyaremos programas de escuelas deportivas que refuercen los lazos sociales entre personas de distintas edades.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Reforzar con financiación estatal la oferta deportiva municipal para personas mayores.",
+    "cita": "Reforzaremos, con financiación estatal y en cooperación con las entidades locales, respetando sus competencias, la oferta deportiva municipal dirigida a las personas mayores para mejorar su salud, su bienestar, su autoestima y sus relaciones sociales.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Promover actividades deportivas nocturnas como ocio alternativo para adolescentes y jóvenes.",
+    "cita": "Promoveremos actividades y eventos deportivos nocturnos como alternativa de ocio saludable y para prevenir el abuso de las pantallas y del juego entre adolescentes y jóvenes.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Campañas para promover la práctica deportiva en grupo en servicios municipales, centros privados, clubes y federaciones.",
+    "cita": "Impulsaremos campañas para promover la práctica deportiva en grupo en los servicios deportivos municipales, los centros deportivos privados, los clubes y las federaciones.",
+    "pagina": 44,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Crear un cheque deporte anual para niños, niñas y jóvenes, destinado a contratar servicios deportivos.",
+    "cita": "Crearemos un cheque deporte anual para niños, niñas y jóvenes, destinado a la contratación de servicios deportivos.",
+    "pagina": 44,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Oferta pública de deporte para el alumnado de infantil a universidad, con atención al paso de la infancia a la adolescencia.",
+    "cita": "Desde las administraciones públicas ofreceremos una oferta deportiva que movilice al alumnado de infantil, primaria, secundaria y universidad, con especial atención al paso de la infancia a la adolescencia, cuando se produce la mayor parte del abandono de la práctica deportiva.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Garantizar un mínimo de tres horas semanales de educación física en la enseñanza obligatoria.",
+    "cita": "Garantizaremos un mínimo de tres horas semanales de educación física en la enseñanza obligatoria, para crear hábitos de vida que prevengan el sedentarismo, la obesidad y el sobrepeso en niñas, niños y jóvenes.",
+    "pagina": 45,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Diversificar los equipamientos deportivos de los centros educativos.",
+    "cita": "Diversificaremos los equipamientos deportivos de los centros educativos, con una oferta variada de actividades físicas y deportivas.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Abrir las instalaciones deportivas de colegios, institutos y universidades por las tardes y los fines de semana.",
+    "cita": "Abriremos las instalaciones deportivas de los centros de enseñanza obligatoria y de las universidades por las tardes y los fines de semana, en colaboración con ayuntamientos, clubes, federaciones deportivas y entidades del tercer sector.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Crear una mesa de trabajo sobre el deporte universitario y darle más peso.",
+    "cita": "Crearemos una mesa de trabajo con todas las partes implicadas y daremos más peso e importancia al deporte en el ámbito universitario.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Programas de conciliación, mentoría y becas de estudio para jóvenes deportistas de alto rendimiento.",
+    "cita": "Impulsaremos programas para la preparación de deportistas de élite compatible con la universidad, programas de conciliación y mentoría de estudios para jóvenes deportistas de alto rendimiento y becas de estudio para ellos.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Incorporar la práctica deportiva como actividad docente complementaria y convertir los centros de alto rendimiento en espacios de formación.",
+    "cita": "Incorporaremos la práctica deportiva como actividad docente complementaria, para hacer compatible el talento deportivo con el talento académico, y avanzaremos en la transformación de los centros de tecnificación y de alto rendimiento en espacios integrales de formación.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Revisar los planes de estudio de los grados en Ciencias de la Actividad Física y del Deporte.",
+    "cita": "Revisaremos y ordenaremos los planes de estudio de los grados en Ciencias de la Actividad Física y del Deporte para adaptarlos a las nuevas realidades del deporte, a las demandas sociales y a los estilos de vida actuales.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Igualdad y familia",
+    "resumen": "Garantizar la presencia del deporte femenino en la radio y la televisión públicas y promover su retransmisión en otros medios.",
+    "cita": "Garantizaremos la presencia del deporte femenino en la radio y la televisión públicas, con un tratamiento informativo libre de estereotipos de género, y promoveremos su retransmisión en el resto de medios.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Igualdad y familia",
+    "resumen": "Promover la presencia de mujeres en los cargos federativos y en los ámbitos técnicos del deporte.",
+    "cita": "Promoveremos la presencia de mujeres en los cargos federativos y en los ámbitos técnicos del deporte.",
+    "pagina": 45,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Garantizar el derecho a constituir ligas profesionales y a negociar convenios colectivos en el deporte femenino.",
+    "cita": "Garantizaremos el derecho a constituir ligas profesionales y a negociar convenios colectivos en el deporte femenino.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Modificar el Real Decreto 1006/1985, que regula la relación laboral de los deportistas profesionales.",
+    "cita": "Modificaremos el Real Decreto 1006/1985, de 26 de junio, que regula la relación laboral especial de los deportistas profesionales, para adaptarlo a la realidad actual y mejorar las condiciones laborales de las mujeres deportistas.",
+    "pagina": 46,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Igualdad y familia",
+    "resumen": "Medidas de conciliación para las mujeres deportistas, profesionales y de otros niveles.",
+    "cita": "Impulsaremos medidas de conciliación para las mujeres deportistas, profesionales y de otros niveles.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Igualdad y familia",
+    "resumen": "Promover planes de igualdad en todas las federaciones deportivas.",
+    "cita": "Promoveremos la implantación de planes de igualdad en todas las federaciones deportivas.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Igualdad y familia",
+    "resumen": "Campañas y programas para impulsar el deporte femenino en edad escolar y prevenir el abandono de niñas y adolescentes.",
+    "cita": "Desarrollaremos campañas y programas específicos para impulsar la práctica deportiva femenina en edad escolar y prevenir el abandono temprano de las niñas y las adolescentes.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Igualdad y familia",
+    "resumen": "Mismos derechos de acceso a espacios y horarios para el deporte femenino y masculino, y cuotas reducidas para equipos femeninos.",
+    "cita": "Garantizaremos que el deporte femenino y el masculino tengan los mismos derechos en el acceso a espacios y horarios de las instalaciones deportivas, y aplicaremos medidas de acción positiva, como la reducción de la cuota de inscripción de los equipos femeninos en las competiciones municipales y autonómicas, en cooperación con las comunidades autónomas y las entidades locales y respetando sus competencias.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Más espacios y equipamientos deportivos al aire libre, abiertos y gratuitos: carriles bici, parques de salud o rocódromos.",
+    "cita": "Haremos del multideporte una prioridad política nacional y aumentaremos los espacios y equipamientos deportivos al aire libre, abiertos y gratuitos: carriles bici, parques de salud, senderos deportivos, espacios de parkour y calistenia, rocódromos y pistas de skate y patinaje, entre otros.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Promover la ampliación de horarios de las instalaciones deportivas municipales por las tardes, las noches y los fines de semana.",
+    "cita": "Promoveremos, en cooperación con las entidades locales y respetando sus competencias, la ampliación de los horarios de apertura de las instalaciones deportivas municipales por las tardes, las noches y los fines de semana.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Crear centros de alto rendimiento para disciplinas emergentes, como la escalada o el skate.",
+    "cita": "Crearemos centros de alto rendimiento para disciplinas emergentes, como la escalada o el skate, tanto en la práctica popular como en la competición y el olimpismo.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Mejorar la sostenibilidad y la accesibilidad de las instalaciones deportivas y adaptar la oferta al medio rural.",
+    "cita": "Mejoraremos la sostenibilidad energética y ambiental de las instalaciones deportivas, garantizaremos su accesibilidad, reforzaremos las instalaciones dirigidas a personas con discapacidad y adaptaremos la oferta a la demanda del medio rural.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Impulsar el senderismo como actividad estratégica de salud, bienestar y sociabilidad.",
+    "cita": "Impulsaremos el senderismo como actividad estratégica de salud, bienestar y sociabilidad.",
+    "pagina": 46,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Impulsar el deporte entre el personal de las administraciones públicas, con horarios flexibles.",
+    "cita": "Impulsaremos la práctica deportiva en las administraciones e instituciones públicas para mejorar la salud del personal, reforzar los lazos en el entorno laboral y reducir las bajas asociadas a la inactividad, y promoveremos horarios flexibles que permitan incorporar la actividad física a la jornada.",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Impulsar que las empresas incorporen programas de actividad física y horarios flexibles, también por negociación colectiva.",
+    "cita": "Haremos corresponsables a las empresas y a los demás agentes sociales de ampliar el acceso a la actividad deportiva: impulsaremos que incorporen programas de actividad física para sus plantillas y horarios flexibles que los hagan compatibles con la jornada laboral, también a través de la negociación colectiva.",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "resumen": "Estudios periódicos sobre el coste laboral de la inactividad y el impacto económico del deporte.",
+    "cita": "Impulsaremos estudios periódicos sobre el coste laboral de la inactividad y sobre el impacto económico del deporte, por modalidades y ámbitos (eventos, turismo deportivo, deporte y salud, entre otros).",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "resumen": "Promover un turismo deportivo sostenible y respetuoso con la capacidad ecológica y social de los territorios.",
+    "cita": "Promoveremos un turismo deportivo sostenible y respetuoso con la capacidad ecológica y social de los territorios, a través de eventos y de la oferta turística ordinaria, en el medio urbano y rural, en los espacios naturales y en ríos, lagos y mares.",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Dotar a federaciones y clubes deportivos de medios para modernizarse.",
+    "cita": "Dotaremos a las federaciones y los clubes deportivos de los medios necesarios para modernizarse y convertirse en entidades más eficientes y solventes.",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Asistencia técnica a federaciones y clubes para buscar financiación y captar fondos.",
+    "cita": "Diseñaremos herramientas de asistencia técnica para la búsqueda de financiación del deporte reglado y de competición y para la captación de fondos adicionales, y respaldaremos su fortalecimiento y su democratización.",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Implantar un código de buen gobierno y un portal de transparencia en todas las federaciones deportivas, y digitalizarlas.",
+    "cita": "Impulsaremos la digitalización de sus procedimientos administrativos y de su funcionamiento interno, e implantaremos un código de buen gobierno y un portal de transparencia en todas las federaciones deportivas, que son entidades privadas con competencias públicas delegadas.",
+    "pagina": 47,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Legislación estatal de las profesiones del deporte e inspección del personal contratado para evitar el intrusismo.",
+    "cita": "Contribuiremos al desarrollo de una legislación estatal de regulación profesional de la actividad física y del deporte, y aplicaremos un sistema de inspección del personal contratado en estas tareas para evitar el intrusismo y garantizar la salud pública.",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Planes de empleo deportivo mediante conciertos con servicios de empleo, empresas, ONG, federaciones y ayuntamientos.",
+    "cita": "Diseñaremos planes de empleo deportivo para diversificar las salidas profesionales e incorporar profesionales al sector, mediante conciertos con los servicios de empleo, empresas, ONG, federaciones y ayuntamientos.",
+    "pagina": 47,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Convenio especial con la Seguridad Social para que coticen, con efecto retroactivo, los años como deportista de alto nivel con beca oficial.",
+    "cita": "Mejoraremos las herramientas de apoyo a la inserción laboral de las y los deportistas de alto rendimiento al terminar su etapa deportiva, y estableceremos un convenio especial con la Seguridad Social para que coticen, con efecto retroactivo, los años de dedicación como deportistas de alto nivel (DAN) en los que disfrutaron de becas oficiales.",
+    "pagina": 47,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Sanidad",
+    "resumen": "Crear servicios de salud mental para deportistas de alto nivel y alto rendimiento, en activo y retirados.",
+    "cita": "Crearemos servicios de atención y cuidado de la salud mental para deportistas de alto nivel y de alto rendimiento, en activo y retirados, con planes de intervención y preparación a corto, medio y largo plazo para la transición tras la retirada.",
+    "pagina": 48,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Modelo territorial",
+    "resumen": "Coordinar la política deportiva entre el Estado, las comunidades autónomas, las entidades locales y el sector privado.",
+    "cita": "Garantizaremos una cultura de cooperación y alianzas que aproveche plenamente el potencial y los recursos del Estado, las comunidades autónomas y las entidades locales, respetando sus competencias, y de los agentes privados del sector deportivo.",
+    "pagina": 48,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Crear un Observatorio Nacional del Deporte que investigue la realidad deportiva y dé datos periódicos a las administraciones.",
+    "cita": "Crearemos un Observatorio Nacional del Deporte que investigue de forma estable la realidad deportiva y proporcione datos periódicos a las administraciones públicas para mejorar la política deportiva.",
+    "pagina": 48,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Promover nuevas normas sobre nuevas disciplinas, mecenazgo y patrocinio, deporte universitario y protección de menores deportistas, entre otras.",
+    "cita": "Promoveremos nuevas normas en ámbitos prioritarios como las nuevas disciplinas deportivas, el mecenazgo y el patrocinio, la regulación deportiva en la Administración local, la educación física, los nuevos espacios deportivos, el deporte universitario, la protección de los menores deportistas y el uso de la tecnología.",
+    "pagina": 48,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Educación",
+    "resumen": "Impulsar la formación en nuevos ámbitos del deporte, como deporte adaptado, perspectiva de género o digitalización.",
+    "cita": "Impulsaremos, a través de universidades, centros de formación profesional y federaciones, la formación en nuevos ámbitos del deporte: deporte adaptado, intervención social, perspectiva de género, I+D+i, deporte para todas y todos, alto nivel, búsqueda de financiación y patrocinio, digitalización, planificación y organización deportivas y sostenibilidad.",
+    "pagina": 48,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Investigar la incidencia del deporte en la salud, su impacto económico, la perspectiva de género y el deporte adaptado.",
+    "cita": "Investigaremos temas de importancia estratégica para el sistema deportivo y para el interés general, como la incidencia del deporte en la salud y el bienestar, los hábitos sociales en torno al deporte, su impacto económico, la tecnología y los materiales, la perspectiva de género y el deporte adaptado.",
+    "pagina": 48,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Colaborar con los medios para retransmitir deporte femenino y deportes minoritarios y hacer campañas contra la obesidad infantil.",
+    "cita": "Colaboraremos con ellos para promover la retransmisión y la información de eventos de deporte femenino y de deportes mayoritarios y minoritarios, y para desarrollar campañas contra la obesidad y el sobrepeso infantil y juvenil y por una vida activa a través del deporte y el ejercicio físico.",
+    "pagina": 48,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Pacto para elevar la inversión pública en deporte del 0,06 % al 0,25 % del PIB, con patrocinio que excluya fósiles, apuestas y alcohol.",
+    "cita": "Impulsaremos un pacto entre el Estado y las comunidades autónomas que eleve a medio plazo la irrisoria inversión pública en deporte desde el 0,06 % actual hasta el 0,25 % del PIB, acompañado de una política de patrocinio y mecenazgo que excluya a las empresas de combustibles fósiles, las casas de apuestas y las marcas de bebidas alcohólicas y de alimentos ultraprocesados.",
+    "pagina": 49,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Modificar el Estatuto de los Trabajadores para que los convenios incluyan cláusulas obligatorias de revisión salarial.",
+    "cita": "Modificaremos el Estatuto de los Trabajadores para que los convenios colectivos incluyan obligatoriamente cláusulas de revisión salarial que preserven el poder adquisitivo.",
+    "pagina": 58,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Empleo y salarios",
+    "resumen": "Si el convenio no prevé revisión salarial, las retribuciones se revisarán conforme al IPC.",
+    "cita": "Cuando el convenio no las prevea, las retribuciones pactadas se revisarán de forma subsidiaria conforme al IPC: si suben los precios, suben los salarios.",
+    "pagina": 58,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "resumen": "Unificar las ayudas a pymes y autónomos en una convocatoria única con plazos breves de resolución.",
+    "cita": "Unificaremos las ayudas a pymes y autónomos en una convocatoria única, con plazos máximos de resolución breves.",
+    "pagina": 99,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Economía y empresas",
+    "resumen": "Crear un Kit Digital para la economía social basado en software libre.",
+    "cita": "Crearemos un Kit Digital para la economía social basado en software libre.",
+    "pagina": 99,
+    "concreta": true,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Potenciar el trabajo de las instituciones científicas y académicas sobre deporte y la difusión de sus resultados.",
+    "cita": "Potenciaremos el trabajo de las instituciones científicas y académicas, la difusión de sus resultados y el trabajo multidisciplinar, para que tengan un impacto real en el sistema deportivo.",
+    "pagina": 48,
+    "concreta": false,
+    "revisada": true
+  },
+  {
+    "partido": "Frente Amplio",
+    "tema": "Otros",
+    "resumen": "Garantizar una financiación adecuada para la política deportiva.",
+    "cita": "Desde la convicción de la utilidad social del deporte y de su importancia capital en la formación de la personalidad, la salud y el bienestar físico, psíquico y social, garantizaremos una financiación adecuada para la política deportiva.",
+    "pagina": 49,
+    "concreta": false,
+    "revisada": true
   }
 ]
