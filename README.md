@@ -44,7 +44,7 @@ npm run build
 | Carpeta | Contenido |
 |---|---|
 | `src/pages/` | Las páginas (Astro, sitio estático) |
-| `api/` | Chat de dudas: función de servidor y buscador de propuestas |
+| `api/` | Chat de dudas: función de servidor y lectores de propuestas, candidaturas y votaciones |
 | `src/data/` | Los datos publicados, en JSON |
 | `src/lib/` | Reparto D'Hondt, registro de fuentes, partidos y provincias |
 | `scripts/` | Obtención y procesado de datos desde las fuentes oficiales |
@@ -118,10 +118,10 @@ El script comprueba que los escaños de cada provincia coinciden con el Real Dec
 
 ## Chat de dudas
 
-`/preguntar` responde preguntas sobre las propuestas. Es el único código que se ejecuta en el servidor (`api/chat.js`, función de Vercel):
+`/preguntar` responde preguntas sobre las propuestas, las candidaturas y las votaciones del Congreso. Es el único código que se ejecuta en el servidor (`api/chat.js`, función de Vercel):
 
-- El modelo no responde de memoria: solo puede llamar al buscador de `api/_buscar.js`, que lee las propuestas publicadas.
-- Cada afirmación lleva una referencia a una propuesta, y la página muestra debajo su cita literal y el enlace a su página.
+- El modelo no responde de memoria: solo puede llamar a tres herramientas que leen los datos publicados: propuestas (`api/_buscar.js`), candidaturas (`api/_candidaturas.js`) y votaciones, decretos ley y coincidencia de voto (`api/_votaciones.js`).
+- Cada afirmación lleva una referencia, y la página muestra debajo la cita y el enlace a su fuente (página del programa, votación o BOE).
 - No recomienda el voto ni valora las propuestas.
 - Necesita la variable de entorno `ANTHROPIC_API_KEY`. Sin ella el chat está apagado y la página no se enlaza (`CHAT_ACTIVO` en `src/lib/chat.ts`).
 

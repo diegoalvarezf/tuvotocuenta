@@ -1,5 +1,5 @@
 ---
-// Chat de dudas sobre las propuestas. Se usa en la página /preguntar y en el panel flotante de toda la web.
+// Chat de dudas sobre las propuestas, las candidaturas y las votaciones. Se usa en la página /preguntar y en el panel flotante de toda la web.
 interface Props {
   // En el panel flotante la conversación se desplaza dentro de la caja
   panel?: boolean;
@@ -9,6 +9,7 @@ const EJEMPLOS = [
   '¿Qué proponen sobre el precio del alquiler?',
   '¿Qué dice cada formación sobre las pensiones?',
   '¿Qué puedo votar al Senado en mi provincia?',
+  '¿Qué votó cada grupo en la ley de amnistía?',
 ];
 ---
 
@@ -21,16 +22,16 @@ const EJEMPLOS = [
   </div>
   <div class="pie-chat">
     <form data-formulario>
-      <textarea name="pregunta" rows="2" maxlength="600" placeholder="¿Qué propone…?" aria-label="Tu pregunta" required enterkeyhint="send"></textarea>
+      <textarea name="pregunta" rows="2" maxlength="600" placeholder="¿Qué propone…? ¿Qué votó…?" aria-label="Tu pregunta" required enterkeyhint="send"></textarea>
       <button type="submit" data-enviar>Preguntar</button>
     </form>
     <p class="aviso-error suave" data-error hidden></p>
     <p class="notas suave">
       {panel ? (
-        <>Responde una IA que solo lee las <a href="/propuestas">propuestas publicadas</a>. Puede equivocarse: comprueba la cita. Tu pregunta se envía a Anthropic. <a href="/privacidad">Privacidad</a>.</>
+        <>Responde una IA que solo lee los <a href="/sobre">datos publicados en esta web</a>. Puede equivocarse: comprueba la cita. Tu pregunta se envía a Anthropic. <a href="/privacidad">Privacidad</a>.</>
       ) : (
         <>
-          Las respuestas las redacta una inteligencia artificial que solo puede leer las <a href="/propuestas">propuestas publicadas en esta web</a>.
+          Las respuestas las redacta una inteligencia artificial que solo puede leer los datos publicados en esta web: <a href="/propuestas">propuestas</a>, <a href="/tu-voto">candidaturas</a> y <a href="/votaciones">votaciones</a>.
           Puede equivocarse: comprueba siempre la cita. No recomienda a quién votar. Tu pregunta se envía a Anthropic para generar la
           respuesta y esta web no la guarda. <a href="/privacidad">Privacidad</a>.
         </>

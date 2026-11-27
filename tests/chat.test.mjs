@@ -72,3 +72,38 @@ test('la búsqueda dice cuántas coincidencias tiene cada formación, también l
   assert.equal(suma, r.total);
   assert.ok(Object.keys(r.porFormacion).length > new Set(r.propuestas.map((x) => x.partido)).size);
 });
+
+test('el chat lee las votaciones, los decretos y la coincidencia de voto con su cita', async () => {
+  const { crearVotaciones } = await import('../api/_votaciones.js');
+  const votaciones = leer('votaciones.json');
+  const decretos = leer('decretos.json');
+  const pendientes = leer('decretos-pendientes.json');
+  const v = crearVotaciones(votaciones, decretos, pendientes, leer('coincidencias.json'));
+
+  // Una votación por su nombre: totales y voto de cada grupo, iguales a los publicados
+  const amnistia = v.consultar({ consulta: 'ley de amnistía', tipo: 'votaciones' }).votaciones;
+  assert.equal(amnistia.length, 1);
+  const original = votaciones.find((x) => x.nombre === 'Ley de amnistía');
+  assert.equal(amnistia[0].totales.si, original.totales.si);
+  assert.equal(amnistia[0].voto_de_cada_grupo.length, original.grupos.filter((g) => g.codigo).length);
+  assert.equal(v.fuente(amnistia[0].id).enlace, `/votaciones#${original.id}`);
+
+  // Sin coincidencias no inventa: da la lista de votaciones publicadas
+  const nada = v.consultar({ consulta: 'fútbol', tipo: 'votaciones' });
+  assert.equal(nada.votaciones.length, 0);
+  assert.equal(nada.votaciones_disponibles.length, votaciones.length);
+
+  // Decretos: por número, con su resultado y el enlace al BOE; el recuento coincide con la página
+  const d = v.consultar({ consulta: 'decreto 28/2026', tipo: 'decretos' }).decretos_ley;
+  assert.deepEqual(d.encontrados.map((x) => [x.decreto, x.resultado]), [['Real Decreto-ley 28/2026', 'derogado']]);
+  assert.match(v.fuente(d.encontrados[0].id).enlace, /^https:\/\/www\.boe\.es\//);
+  assert.equal(d.resumen.votados + d.resumen.pendientes_de_votar, decretos.length + pendientes.length);
+  assert.equal(d.pendientes_de_votar.length, pendientes.filter((x) => !x.resultado).length);
+  for (const x of [...d.pendientes_de_votar, ...d.derogados]) assert.match(v.fuente(x.id).enlace, /^https:\/\//, x.decreto);
+
+  // Coincidencia de voto: los porcentajes publicados, sin tocar
+  const c = v.consultar({ tipo: 'coincidencias', grupo: 'Vox' }).coincidencia_de_voto;
+  assert.deepEqual(c.grupos.map((g) => g.grupo), ['Vox']);
+  assert.equal(v.fuente(c.id).enlace, '/votaciones#coincidencias-titulo');
+  assert.equal(v.fuente(123), null);
+});
