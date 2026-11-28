@@ -267,6 +267,92 @@ const EXTRA = [
       "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52659"
     }
   },
+  // Convalidados por la Diputación Permanente el 26-11-2026; los votos, de las notas de prensa del Congreso
+  {
+    "nombre": "Real Decreto-ley 37/2026",
+    "titulo": "medidas urgentes en materia de retribuciones del personal al servicio del sector público",
+    "votacion": "2026-11-26",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25020",
+    "totales": {
+      "si": 63,
+      "no": 0,
+      "abstencion": 0
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 26 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52733"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 38/2026",
+    "titulo": "recursos de los sistemas de financiación territorial y medidas fiscales urgentes para evitar la tributación del salario mínimo interprofesional de 2027 en el IRPF",
+    "votacion": "2026-11-26",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25021",
+    "totales": {
+      "si": 63,
+      "no": 0,
+      "abstencion": 0
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 26 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52734"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 39/2026",
+    "titulo": "modificación del Estatuto de los Trabajadores, de la igualdad retributiva entre mujeres y hombres, de la Ley de Empleo y de la transposición de la directiva europea de condiciones laborales transparentes",
+    "votacion": "2026-11-26",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25022",
+    "totales": {
+      "si": 63,
+      "no": 0,
+      "abstencion": 0
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 26 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52735"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 40/2026",
+    "titulo": "medidas urgentes para el impulso de la competitividad y la soberanía tecnológica en el ámbito científico e investigador",
+    "votacion": "2026-11-26",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25023",
+    "totales": {
+      "si": 35,
+      "no": 1,
+      "abstencion": 27
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 26 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52736"
+    }
+  },
+  {
+    "nombre": "Real Decreto-ley 41/2026",
+    "titulo": "modificación de la ley que regula el régimen del comercio de derechos de emisión de gases de efecto invernadero",
+    "votacion": "2026-11-26",
+    "resultado": "convalidado",
+    "organo": "Diputación Permanente",
+    "boe": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-25024",
+    "totales": {
+      "si": 35,
+      "no": 27,
+      "abstencion": 1
+    },
+    "fuenteVotos": {
+      "nombre": "Congreso de los Diputados, nota de prensa del 26 de noviembre de 2026",
+      "url": "https://www.congreso.es/es/notas-de-prensa?p_p_id=notasprensa&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_notasprensa_mvcPath=detalle&_notasprensa_notaId=52737"
+    }
+  },
 ];
 for (const e of EXTRA) {
   if (salida.some((d) => d.nombre === e.nombre)) continue;
